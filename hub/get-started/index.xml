@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>スタートアップ ガイド on ArcGIS リソース集</title><link>/hub/get-started/</link><description>Recent content in スタートアップ ガイド on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0900</lastBuildDate><atom:link href="/hub/get-started/index.xml" rel="self" type="application/rss+xml"/><item><title>クイック アクション</title><link>/hub/get-started/quick-action/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hub/get-started/quick-action/</guid><description>ArcGIS Hub を開始するための概要を説明します。 各項目の操作についての詳細は、それぞれのドキュメント ページをご参照ください。
+ArcGIS Hub Premium の有効化 (オプション)
+サイトまたはイニシアティブの作成
+コンテンツの作成と追加
+サイトとコンテンツの共有
+ArcGIS Hub Premium の有効化 (オプション) ArcGIS Hub Premium のライセンスを有効化するには、コミュニティ組織サイトを設定する必要があります。コミュニティ組織サイトを構成することで、既存の ArcGIS Online 組織外のステークホルダーと地理空間情報を共有し、地域課題を解決していくことができます。
+この手順は ArcGIS Hub Premium をご契約された組織のみが対象です。
+ArcGIS Hub Premium のサブスクリプションの有効化とコミュニティ組織サイトの設定は、組織向けの ArcGIS Online 開始手順と同様で、管理者がセットアップする必要があります。
+コミュニティ組織の ArcGIS Online サブスクリプションを有効化します。詳細な手順は「サブスクリプションの有効化」をご参照ください。 コミュニティ組織を複数人で管理する場合は、追加のコミュニティ管理者アカウントを作成します (オプション)。詳細な手順は 「メンバーの追加」をご参照ください。 コミュニティ組織での管理者は、新しいメンバーの追加や招待などを管理することができます。
+コミュニティ組織サイトの ArcGIS Online ホームページを設定します。詳細な手順は「組織の設定」 をご参照ください。 管理者以外がコミュニティ アカウントを作成しないように設定をすることができます。 詳細な手順は「コミュニティ アカウントの作成の無効化」をご参照ください。 サイトまたはイニシアティブの作成 ArcGIS Hub を開始するには、新しいサイトまたはイニシアティブを作成します。</description></item></channel></rss>

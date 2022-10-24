@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>データのカスタマイズ on ArcGIS リソース集</title><link>/business-analyst/desktop/tutorial/customize-data/</link><description>Recent content in データのカスタマイズ on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Fri, 19 Nov 2021 00:00:00 +0900</lastBuildDate><atom:link href="/business-analyst/desktop/tutorial/customize-data/index.xml" rel="self" type="application/rss+xml"/><item><title>カスタム変数を使用した解析</title><link>/business-analyst/desktop/tutorial/customize-data/analysis-with-custom-variables/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/customize-data/analysis-with-custom-variables/</guid><description>本演習にかかる時間はおよそ 30 分です。
+前演習では、自社の顧客や売上などの独自のデータや、既存の BA 用データを使用してカスタム変数を作成しました。
+本演習では、作成したカスタム変数を元にした商圏を作成したり、商圏に対してカスタム変数を集計したりする方法を学びます。
+事前準備が完了していない場合は、演習に入る前にこちらの操作を行ってください。前回の演習から引き続き演習をされている方は、「限界値商圏の作成」から開始いただけます。
+統計データ コレクションの追加 カスタム変数の設定がされた統計データ コレクションを、プロジェクトに追加して利用できるようにします。
+「BAProチュートリアル_カスタマイズ.aprx」の [演習1] マップを開き、[コンテンツ] ウィンドウおよびマップ上に、店舗のポイント データがあらかじめ追加されていることを確認します。
+[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [統計データ コレクションの追加] をクリックします。
+[既存の統計データ コレクション] ダイアログが開いたら、以下ファイルを選択します。
+＜事前準備で演習用データを配置した場所＞\bapro_tutorial_customize\演習用データ\演習結果\町丁字等別売上情報.sdcx
+手順 2 の操作を再度実行してダイアログを開き、以下のファイルをさらに選択します。
+＜事前準備で演習用データを配置した場所＞\bapro_tutorial_customize\演習用データ\演習結果\既存のBAデータから作成した計算変数.sdcx
+[カタログ] ウィンドウの [Business Analyst] → [統計データ コレクション] フォルダー内に、「町丁字等別売上情報.sdcx」と「既存のBAデータから作成した計算変数.sdcx」が追加されます。
+追加した統計データ コレクションのインデックスは最新ではないため、再度インデックスを生成します。
+[解析] タブ → [ジオプロセシング] グループの [ツール] をクリックし、[ジオプロセシング] ウィンドウの検索ボックスに「SDCX」と入力します。 検索結果の中の [SDCX インデックスの生成 (Generate SDCX index)] ツールをクリックして開きます。 [入力 SDCX ファイル] の [参照] ボタンをクリックしてダイアログを開き、以下のファイルを選択して [OK] をクリックします。 ＜事前準備で演習用データを配置した場所＞\bapro_tutorial_customize\演習用データ\演習結果\町丁字等別売上情報.</description></item></channel></rss>
