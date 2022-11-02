@@ -203,7 +203,7 @@ Drone2Map ライセンス ArcGIS Drone2Map 2022.1 以降、Drone2Map ライセ�
 ライセンス タイプは、ArcGIS Online または Portal for ArcGIS 組織サイトの [ライセンス] タブで確認することができます。
 Drone2Map は、公開者ロールを持つ Creator もしくは GIS Professional のユーザータイプに割り当てることができます。 ライセンス管理については、必ず組織の管理者、またはライセンス管理権限を持っているユーザーが行ってください。
 ArcGIS Online 組織サイトをまだ利用していない場合
-ArcGIS Online スタートアップ ガイドを参考に組織サイトのセットアップを行ってください。セットアップ完了後、Drone2Map を利用するメンバーに Drone2Map を割り当てます。</description></item><item><title>ライセンスの割り当てと解除</title><link>/online/get-started/administer/license/assign/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/administer/license/assign/</guid><description>組織の管理者、またはライセンス管理権限を持っているユーザーは、各メンバーに割り当てられたユーザー タイプに含まれていないライセンス付きアプリ (ArcGIS Pro、ArcGIS Drone2Map、ArcGIS Business Analyst Web アプリなど) のアドオン ライセンスを、ArcGIS Online 組織サイトで割り当てたり、解除したりすることができます。
+ArcGIS Online スタートアップ ガイドを参考に組織サイトのセットアップを行ってください。セットアップ完了後、Drone2Map を利用するメンバーに Drone2Map を割り当てます。</description></item><item><title>ライセンスの割り当てと解除</title><link>/online/get-started/administer/license/assign/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/administer/license/assign/</guid><description>組織の管理者、またはライセンス管理権限を持っているユーザーは、各メンバーに割り当てられたユーザー タイプに含まれていないアドオン ライセンス (ArcGIS Drone2Map、ArcGIS Insights など) を ArcGIS Online 組織サイトで割り当てたり、解除したりすることができます。
 1 つの製品のライセンスの割り当てと解除 管理者またはライセンス管理権限を持っているユーザーとして ArcGIS Online にサイン インします。
 サイト上部の [組織] タブ → [ライセンス] タブをクリックします。
 [アドオン ライセンス] ページに利用可能なライセンスの種類が表示されます。
@@ -245,7 +245,7 @@ https://www.arcgis.com/home/signin.html パスワードの変更が求められ�
 管理者があらかじめユーザー名を指定しています。画面に従い、パスワードの作成と、パスワードの復旧に必要なセキュリティの質問と答えを設定してください。 次回サイン インする際は、「プロフィールの設定」で表示されるユーザー名と、今回設定したパスワードを入力してください。
 「○○ (組織名) への加入」の画面
 [新しいアカウントの作成] を選択して [次へ] をクリックし、招待を受けたメンバーご自身でユーザー名やパスワードを作成します。
-既に個人向けアカウントをお使いで、そのアカウントを組織向けアカウントとして利用する場合は、[ArcGIS 個人向けアカウントの変換] を選択し、お持ちのユーザー名とパスワードを入力します。</description></item><item><title>管理者の操作</title><link>/pro/get-started/setup/admin/</link><pubDate>Fri, 19 Aug 2022 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/admin/</guid><description>ArcGIS Pro のライセンスとエクステンションは ArcGIS Online で管理されるため、ArcGIS Online の利用登録が必要です。
+既に個人向けアカウントをお使いで、そのアカウントを組織向けアカウントとして利用する場合は、[ArcGIS 個人向けアカウントの変換] を選択し、お持ちのユーザー名とパスワードを入力します。</description></item><item><title>管理者の操作</title><link>/pro/get-started/setup/admin/</link><pubDate>Thu, 03 Nov 2022 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/admin/</guid><description>ArcGIS Pro のライセンスとエクステンションは ArcGIS Online で管理されるため、ArcGIS Online の利用登録が必要です。
 ArcGIS Online の登録とライセンスの割り当ては、複数のステップで構成されています。
 ArcGIS Online の組織サイトを既にご利用の方は「メンバーの追加」からライセンスの割り当てを行ってください。
 各ステップの詳しい手順については、各ステップのタイトルからリンクしている ArcGIS Online スタートアップ ガイドをご参照ください。
@@ -381,7 +381,7 @@ ArcGIS Online 組織サイトにサイン インします。
 ❹ プロフィールに掲載する自己紹介文を入力します。
 ❺ 設定したプロフィールを [すべての人に公開] 、 [組織] 、 [非公開] から選択し、公開範囲を制限することができます。
 ❻ その他の設定画面を開きます。表示言語や計測単位などを設定できます。
-サイン イン後、ページ右上の名前 → [マイ プロフィール] をクリックしても、同じページにアクセスできます。</description></item><item><title>ユーザー タイプの変更</title><link>/online/get-started/administer/members/usertype/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/administer/members/usertype/</guid><description>ユーザー タイプの概要 ArcGIS Online には、Viewer、Editor、Mobile Worker、Creator、GIS Professional、Insights Analyst、Storyteller の 7 種類のユーザー タイプのライセンス体系があります。これらのユーザー タイプは、組織サイトのメンバーの ID、利用可能な機能とアプリの組み合わせで構成されています。各ユーザー タイプで利用可能な機能やアプリについては、製品ページをご参照ください。
+サイン イン後、ページ右上の名前 → [マイ プロフィール] をクリックしても、同じページにアクセスできます。</description></item><item><title>ユーザー タイプの変更</title><link>/online/get-started/administer/members/usertype/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/administer/members/usertype/</guid><description>ユーザー タイプの概要 ArcGIS Online には、Viewer、Editor、Mobile Worker、Creator、GIS Professional の 5 種類のユーザー タイプがあります。これらのユーザー タイプは、組織サイトのメンバーの ID、利用可能な機能とアプリの組み合わせで構成されています。各ユーザー タイプで利用可能な機能やアプリについては、製品ページをご参照ください。
 ユーザー タイプの変更方法 メンバーのユーザー タイプを変更するには、管理者及びユーザー タイプの変更権限を持ったユーザーである必要があります。
 [組織] ページに移動し、[メンバー] タブをクリックします。 [&amp;hellip;] をクリックし、[ユーザー タイプの管理] をクリックして、ユーザー タイプ/ロールの管理画面を開きます。
 割り当てたいユーザー タイプをプルダウンから選択し、[保存] をクリックします。</description></item><item><title>レポート</title><link>/online/get-started/administer/subscription/report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/administer/subscription/report/</guid><description>レポートとは ArcGIS Online の操作ログやアイテムの一覧をレポートとして csv 形式でダウンロードでき、組織サイトの状態を確認できる機能です。ArcGIS Online 上のさまざまな情報を詳細なレポートとして出力することができます。
@@ -480,15 +480,14 @@ Scene フォルダーから、mapcontrolTutorial_01.cej シーンを開きます
 サイト上部の [組織] タブ → [メンバー] タブをクリックします。
 [メンバーの招待] をクリックします。
 下記から選択し、[次へ] をクリックします。
-メンバーを招待する方法は、下記 3 種類あります。
+メンバーを招待する方法は、下記 3 種類あります。(組織固有のログインを使用している場合は、追加で 2 種類の方法が表示されます。)
 招待メールを送信せずにメンバーを自動的に追加
 各メンバーのユーザー名とパスワードを設定します。 そのメンバーにユーザー名とパスワードを通知する必要があります。 一時パスワードは、最小強度の要件を満たしている必要があります。 メンバーは最初にサイン インするときに、パスワードの変更を求められます。 招待メールは送信されません。 特定のメンバーの電子メール アドレスがない場合は、管理者の電子メール アドレスを使用できます。
 メンバーを追加し、電子メールでそのメンバーに通知
 各メンバーのユーザー名を設定します。メンバーは、ArcGIS Online が送信する電子メールに応答する必要があります。メンバーが組織に加入するには、独自のパスワードを作成します。
 メンバーが任意のアカウントを使用して加入するよう招待
 各メンバーの電子メール アドレスを入力します。 メンバーは、ArcGIS Online が送信する招待メールに応答する必要があります。 メンバーが組織に加入するには、新しいアカウントを作成するか、既存の ArcGIS 個人向けアカウントを移行します。 組織の構成に応じて、新しいアカウントには、SAML、OpenID Connect、ArcGIS、またはソーシャル ログインが使用できます。
-[新規メンバー] をクリックします。
-複数人を一括で追加したい場合は、[ファイルの新規メンバー] をクリックします。詳細は「ArcGIS Online の複数の組織メンバーを一括で招待するテキスト ファイル」をご参照ください。</description></item><item><title>他組織のメンバーとコンテンツを共有したい</title><link>/online/users-guide/share/other-org/</link><pubDate>Tue, 30 Nov 2021 00:00:00 +0900</pubDate><guid>/online/users-guide/share/other-org/</guid><description>組織外のメンバーが ArcGIS Online の組織アカウントを保有している場合は、そのメンバーを自組織のグループに招待することで、グループ内のコンテンツを共有できます。グループを作成する権限が必要です。 グループの作成 組織サイトで [グループ] ページを表示し、[マイ グループ] タブの [グループの作成] をクリックします。
+[新規メンバー] をクリックします。</description></item><item><title>他組織のメンバーとコンテンツを共有したい</title><link>/online/users-guide/share/other-org/</link><pubDate>Tue, 30 Nov 2021 00:00:00 +0900</pubDate><guid>/online/users-guide/share/other-org/</guid><description>組織外のメンバーが ArcGIS Online の組織アカウントを保有している場合は、そのメンバーを自組織のグループに招待することで、グループ内のコンテンツを共有できます。グループを作成する権限が必要です。 グループの作成 組織サイトで [グループ] ページを表示し、[マイ グループ] タブの [グループの作成] をクリックします。
 [名前]、[サマリー]、[タグ] を入力します。
 サムネイル画像を追加したい場合は、[画像のアップロード] をクリックして設定します。
 [グループのメンバーシップ] の [このグループに所属できるユーザー] で、次のいずれかのオプションを選択します。
@@ -513,13 +512,15 @@ ArcGIS Pro パッチおよび任意プログラムをインストールする場
 「ArcGIS Pro &amp;ndash; 日本語パック」→「ArcGIS Pro」の順にアンインストールしてください。</description></item><item><title>ダウンロード</title><link>/drone2map/get-started/download/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/get-started/download/</guid><description>Drone2Map インストーラーのダウンロード MyEsri サイトへアクセスします。
 MyEsri ダウンロード ページにアクセスし、Drone2Map プログラムと必要に応じてパッチをダウンロードします。
 ダウンロード ページへのアクセス方法、ダウンロード方法は、 「製品ダウンロード」 ページをご参照ください。</description></item><item><title>メンバーの削除</title><link>/online/get-started/administer/members/delete-members/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/administer/members/delete-members/</guid><description>ArcGIS Online の組織メンバーを削除するには、管理者ユーザーで、以下の手順を行います。アイテムやグループを所有していたり、ライセンスが割り当てられている状態ではメンバーを削除することができません。
-メンバーが所有しているアイテムを削除、または別メンバーにアイテムを移行 所有しているグループの所有者の変更またはグループ自体を削除 ArcGIS Pro 等のライセンスの割り当ての解除 Esri アクセスの無効化 メンバーの削除の実行 メンバーが所有しているアイテムを削除、または別メンバーにアイテムを移行 ※アイテムを所有していない場合は、このステップをスキップします。
+メンバーが所有しているアイテムを削除、または別メンバーにアイテムを移行 所有しているグループの所有者の変更またはグループ自体を削除 アドオン ライセンスの割り当て解除 Esri アクセスの無効化 メンバーの削除の実行 メンバーが所有しているアイテムを削除、または別メンバーにアイテムを移行 ※アイテムを所有していない場合は、このステップをスキップします。
 詳細な手順は以下のページをご参照ください。
 所有者の変更 アイテムの削除 所有しているグループの所有者の変更またはグループ自体を削除 ※グループを所有していない場合は、このステップをスキップします。
 [組織] メニュー → [メンバー] タブ上で削除したいメンバーを検索し、メンバー名の一番右にある […] をクリックします。 [グループの表示] をクリックし、所属しているグループ一覧を表示します。
 削除するメンバーがグループを所有している場合、グループの所有者の変更もしくは、グループ自体の削除を行います。 グループの所有者の変更を行う場合、グループ名をクリックし、[概要] タブ上で右側にある [所有者] の欄の [所有者の変更] をクリックします。
-グループを削除する場合、グループ名の右側にある [グループの削除] をクリックし、グループを削除します。 ArcGIS Pro 等のライセンスの割り当ての解除 ※ライセンスの割り当てがされていない場合は、このステップをスキップします。
-※メンバーのユーザー タイプが、GIS Professional (Basic, Standard, Advanced ) のユーザーについては、それぞれユーザー タイプ自体に ArcGIS Pro のコア ライセンス (Basic, Standard, Advanced) が含まれるため、コア ライセンスの割り当て解除は不要です。各種エクステンションやアプリケーション等の割り当て解除のみ行ってください。アカデミックパックをご利用のユーザーは、GIS Professional Advanced のユーザー タイプに該当しますので、ArcGIS Pro Advanced ライセンスの割り当て解除は不要です。</description></item><item><title>処理結果の確認</title><link>/drone2map/quick-start/2d_mapping/2dmapping_result/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_mapping/2dmapping_result/</guid><description>結果の確認 処理が完了すると、[コンテンツ] ウィンドウの「画像プロダクト」グループに「オルソモザイク」レイヤーが、「DEM プロダクト」グループに「数値表層モデル」レイヤーが追加されます。
+グループを削除する場合、グループ名の右側にある [グループの削除] をクリックし、グループを削除します。 アドオン ライセンスの割り当て解除 ※アドオン ライセンスの割り当てがされていない場合は、このステップをスキップします。
+詳細な手順は以下のページをご参照ください。
+ライセンスの割り当てと解除 Esri アクセスの無効化 ※メンバーを完全に削除するために必要なステップです。メンバー アカウントを個人向けプランに変換したい場合は、このステップをスキップします。
+[組織] メニュー → [メンバー] タブ上で削除したいメンバーを検索し、メンバー名の一番右にある […] をクリックします。 [Esri アクセスの無効化] をクリックします。</description></item><item><title>処理結果の確認</title><link>/drone2map/quick-start/2d_mapping/2dmapping_result/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_mapping/2dmapping_result/</guid><description>結果の確認 処理が完了すると、[コンテンツ] ウィンドウの「画像プロダクト」グループに「オルソモザイク」レイヤーが、「DEM プロダクト」グループに「数値表層モデル」レイヤーが追加されます。
 また、[2Dマップ] ビューには高解像度のオルソモザイクが表示されます。
 レイヤーの表示・非表示、マップ上で画面移動やズームを行い、オルソモザイク画像を確認します。</description></item><item><title>処理結果の確認</title><link>/drone2map/quick-start/2d_rapid/2drapid_result/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_rapid/2drapid_result/</guid><description>処理結果の確認 処理が完了すると、[コンテンツ] ウィンドウの「画像プロダクト」グループに「オルソモザイク」レイヤーが追加されます。
 レイヤーの表示・非表示、マップ上で画面移動やズームを行い、オルソモザイク画像を確認します。
