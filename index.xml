@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集</title><link>/</link><description>Recent content on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Fri, 09 Sep 2022 00:00:00 +0900</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>ライセンス</title><link>/pro/get-started/setup/license/</link><pubDate>Fri, 19 Aug 2022 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/license/</guid><description>ArcGIS Pro のライセンス形態には以下の 3 つがあります。
+指定ユーザー (デフォルト) 単独使用 (SU) 同時使用 (CU) ・ ArcGIS Online の GIS Professional ユーザー タイプでは、指定ユーザーライセンスとして提供されます。
+・ 単独使用、同時使用ライセンスは、ArcGIS Desktop ライセンスとして購入し、ArcGIS Pro を利用する場合にのみご利用いただけます。
+指定ユーザー ライセンス ArcGIS Online 組織サイトのログイン アカウントを通じてライセンス認証されます。
+指定ユーザー ライセンスは、コンピューターではなくユーザーに割り当てられるため、ソフトウェアがインストールされており、動作環境を満たしているコンピューターであれば、どのコンピューターからでも自由に利用することができます (ArcGIS Pro 起動時に、ArcGIS Online のアカウントでサインインを行います)。 指定ユーザー ライセンスで ArcGIS Pro をお使いいただくためには、2 つの条件を満たしている必要があります。
+ArcGIS Online の GIS Professional ユーザー タイプをご契約の方、または保守契約が有効な ArcGIS Desktop ライセンスを有すること ArcGIS Online の利用登録が完了していること ArcGIS Pro を初めて利用する場合は、まず ArcGIS Online の登録とライセンスの割り当てを行ってください。 詳細は「管理者の操作」をご参照ください。</description></item><item><title>基本操作</title><link>/cityengine/get-started/quickstart-tutorials/basic-operation/</link><pubDate>Wed, 29 Jun 2022 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/basic-operation/</guid><description>概要 ここでは、ArcGIS CityEngine の Welcome Wizard を使って、簡単に街のモデルを作成・操作する方法をご紹介します。
+演習 ・CityEngine の起動 ・City Wizard の利用 ・街の操作 CityEngine の起動 [スタート] → [すべてのプログラム] → [ArcGIS] → [CityEngine 202x.x] をクリックします（Windows 10 の場合）。 自動的に「Welcome to CityEngine」が表示されます。 [Generate an imaginary city] からは、City Wizard を起動して初心者の方でもウィザード形式で簡単に街を作成することができます。 ※ 起動時にこのダイアログが出ない場合は、[File] メニュー → [New] → [CityEngine] フォルダー → [City Wizard] から City Wizard を起動し、ステップ 1.2 の手順 1 から始めてください。</description></item><item><title>ArcGIS Pro からシーン レイヤーを公開したい</title><link>/online/users-guide/create-data/scene/arcgispro/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/create-data/scene/arcgispro/</guid><description>ArcGIS Pro から 3D ポイント、マルチパッチ、LiDAR データなどを、Web シーン レイヤーとして公開します。「ホスト シーン レイヤーの公開」権限が必要です。
+ArcGIS Pro からシーン レイヤーとして公開できる 3D データの例 (左から、高さの値が入った 3D ポイント、BIM データ、点群)
+それぞれのステップの詳細な手順は、「ArcGIS Pro 逆引きガイド」をご参照ください。
+ArcGIS Pro を起動し、プロジェクトを作成します。
+ArcGIS Pro 逆引きガイド「1-4. ArcGIS Pro の起動と保存」
+ArcGIS Pro でシーンを作成します。
+ArcGIS Pro 逆引きガイド「5-1. 3D マップを作成したい」
+[コンテンツ] ウィンドウの [3D レイヤー] カテゴリに、3D データを追加します。 ArcGIS Pro 逆引きガイド「2-3. マップにデータを追加・削除したい」
+公開したいレイヤーを右クリックし、[共有] → [Web レイヤーとして共有] をクリックします。
+[Web レイヤーとして共有] ウィンドウで、[名前]、[概要]、[タグ] を入力します。</description></item><item><title>ArcGIS Pro からタイル レイヤーを公開したい</title><link>/online/users-guide/create-data/tile/arcgispro/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/create-data/tile/arcgispro/</guid><description>ArcGIS Pro 上のデータをタイル レイヤーとして ArcGIS Online に公開します。タイル レイヤーには、画像形式で高速描画が可能なラスター タイルと、Web マップ上でスタイルを変更できるベクター タイルの 2 種類があります。「ホスト タイル レイヤーの公開」の権限が必要です。
+それぞれのステップの詳細な手順は、「ArcGIS Pro 逆引きガイド」をご参照ください。
+ラスター タイル レイヤーの公開 航空写真や図面などの画像形式のデータを ラスター タイル レイヤーとして公開します。
+ArcGIS Pro を起動し、プロジェクトを作成します。
+ArcGIS Pro 逆引きガイド「1-4. ArcGIS Pro の起動と保存」
+タイル レイヤーとして公開したいデータをマップに追加します。公開しないデータは ArcGIS Pro から削除します。
+ArcGIS Pro 逆引きガイド「2-3. マップにデータを追加・削除したい」
+ArcGIS Online にサイン インしていることを確認し、[共有] タブ → [Web レイヤー] → [Web レイヤーの公開] をクリックします。
+[Web レイヤーとして共有] ウィンドウで、[名前]、[概要]、[タグ] を入力し、[レイヤー タイプ] は [タイル] を選択します。</description></item><item><title>Web マップの作成</title><link>/fieldmaps/get-started/create-map/webmap/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/create-map/webmap/</guid><description>モバイル アプリで使用する Web マップを作成します。
+フィーチャ レイヤーをマップに追加します。 フィーチャ レイヤーを作成していない場合は「入力用データの準備」をご参照ください。
+マップの設定を行います。マップに追加したレイヤーのシンボル設定については「シンボルを変更したい」をご参照ください。
+設定が終了したらマップを保存します。詳細については「マップの保存」をご参照ください。</description></item><item><title>コンテンツの作成</title><link>/hub/get-started/content/create-content/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/hub/get-started/content/create-content/</guid><description>ArcGIS Hub のサイトまたはイニシアティブで共有・公開するコンテンツを作成するには、まずアイテムを ArcGIS Online へ公開します。
+ArcGIS Hub でサポートされるアイテム タイプの詳細はヘルプをご参照ください。
+ここでは、緯度経度情報付きのテーブルデータを、GIS データとして ArcGIS Online 上でフィーチャ レイヤーとして公開します。
+サイトまたはイニシアティブを作成している ArcGIS Online 組織サイトにサイン インします。
+ArcGIS Online にフィーチャ レイヤーを公開します。詳細は「ArcGIS Online 逆引きガイド」をご参照ください。
+アイテムをオープンデータとして公開し、サイトの閲覧者がダウンロードできるようにするには、アイテムのエクスポートを許可する必要があります。
+アイテム詳細ページの [設定] タブ → [Feature Layer (ホスト)] 項目で、[他のユーザーが別の形式にエクスポートすることを許可します] チェックボックスをオンにして、[保存] をクリックします。</description></item><item><title>シーンを作成したい</title><link>/online/users-guide/scene/create/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/scene/create/</guid><description>ArcGIS Online 上にあるフィーチャ レイヤーやシーン レイヤーなどを Scene Viewer に追加して、3D シーンの表示と操作が可能です。シーンの保存には、コンテンツを作成する権限が必要です (権限を持っていない場合でもシーンは作成できますが、保存することはできません)。
+Scene Viewer の起動 ArcGIS Online 組織サイトの右上に表示されている [アプリ ランチャー] → [Scene Viewer] をクリックします。
+[新しいシーン] をクリックします。
+デフォルトでは、球体の 3D ビューアーが起動します。
+グローバル/ローカル シーンの選択 右上の [新しいシーン] をクリックして、[新しいグローバル シーン] または [新しいローカル シーン] を選択します。
+[新しいグローバルシーン] では球体の、[新しいローカル シーン] では平面の 3D ビューアーが起動します。
+ローカル シーンでは [プロパティ] → [指定範囲にクリップ] でシーンの表示範囲をクリップすることができます。詳細はヘルプをご参照ください。
+レイヤーの追加 [レイヤー] パネルで、[レイヤーの追加] をクリックします。 Scene Viewer でサポートされているレイヤー タイプはヘルプをご参照ください。</description></item><item><title>フィーチャ レイヤーの作成</title><link>/fieldmaps/get-started/prepare/create-layer/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/prepare/create-layer/</guid><description>Field Maps で入力するデータ (フィーチャ レイヤー) を作成します。 フィーチャ レイヤーの作成には ArcGIS Online または ArcGIS Pro を使用し、以下のステップで入力用データを準備します。
+リストを作成することによって、モバイル アプリでキーボード入力せずに、リストから調査結果を選択できるようになります。リストを作成した場合のモバイル アプリの表示イメージです。
+ArcGIS Online でフィーチャ レイヤーを作成 それぞれのステップの詳細な手順については、「ArcGIS Online 逆引きガイド」をご参照ください。
+空のフィーチャ レイヤーを作成します。 お持ちのテキスト データや GIS データを使用する場合は、ArcGIS Online 逆引きガイド「フィーチャ レイヤーを公開したい」をご参照ください。
+必要に応じて、データ入力時の選択リストを作成します。 フィーチャ レイヤーの作成が完了したら、「フィーチャ レイヤーの設定」に進んで必要な設定を行います。
+ArcGIS Pro でフィーチャ レイヤーを作成 それぞれのステップの詳細な手順は、「ArcGIS Pro 逆引きガイド」をご参照ください。
+ArcGIS Pro を起動し、プロジェクトを作成します。
+ArcGIS Pro 逆引きガイド「1-4. ArcGIS Pro の起動と保存」
+空のフィーチャクラスを作成します。
+ArcGIS Pro 逆引きガイド「8-1. 新しくデータを作成したい」
+作成したフィーチャクラスにフィールドを作成します。</description></item><item><title>マップを作成したい</title><link>/online/users-guide/map/set-map/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/map/set-map/</guid><description>データの作成で作成したフィーチャ レイヤーなどを、レイヤーとしてマップに追加し、様々なレイヤーを組み合わせてマップを作成することができます。 マップの保存には、コンテンツを作成する権限が必要です (権限を持っていない場合でもマップは作成できますが、保存することはできません)。
+Map Viewer Classic をお使いの場合は、マップを作成したい (Map Viewer Classic) をご参照ください。
+レイヤーの追加 ArcGIS Online 組織サイトの右上に表示されている [アプリ ランチャー] → [Map Viewer] をクリックします。
+[コンテンツ] ツールバーの [追加] をクリックします。
+表示されるいずれかのレイヤーの追加方法を選択します。
+それぞれのレイヤーの追加方法は、以下の通りです。
+レイヤーの参照 [レイヤーの参照] で [マイ コンテンツ] 横の矢印をクリックし、検索する場所を指定します。
+[レイヤーの検索] ボックスにキーワードを入力し、Enter キーで検索します。
+[フィルター] をクリックすると、[フィルター] パネルが開きます。[アイテム タイプ] や [更新日] などでフィルターして検索することも可能です。
+[レコードの並べ替え] をクリックすると、[レコードの並べ替え] パネルが開きます。[関連性] や [更新日] などで検索結果の並べ替えが可能です。</description></item><item><title>マップを共有したい</title><link>/online/users-guide/share/map/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/share/map/</guid><description>作成したマップ (やレイヤーなどのアイテム) を、他のユーザーやグループに共有することができます。アイテムを共有する権限を持っている必要があります。
+Map Viewer からの共有方法
+[マイ コンテンツ] タブからの共有方法
+マップやレイヤーの共有範囲 マップやレイヤーの共有範囲は次の 3 種類です。
+すべての人に公開 (パブリック): 組織内外にかかわらず、すべてのユーザーに共有します。 組織: 組織内のすべてのユーザーに共有します。 グループ: 特定のグループのメンバーに共有します。 Web マップを共有する場合、参照しているレイヤーも同じ共有範囲である必要があります。Web マップだけを共有しようとした場合、[共有の更新] ダイアログが表示されます。マップに含まれているレイヤーも同時に共有設定を更新してください。
+ArcGIS Online の組織サイトへの匿名アクセスが無効の場合、Web マップや Web アプリ、関連するレイヤーを [すべての人に公開] へ共有しているにも関わらず、組織へのサイン インが求められます。共有した Web マップや Web アプリの URL を下記のように www.arcgis.com を含んだ URL に変更しお伝えください。
+マップの URL:
+https://〇〇.maps.arcgis.com/home/webmap/viewer.html?webmap=&amp;lt;Web マップ ID&amp;gt;
+※ 〇〇は、組織サイト独自のショートネームです。
+パブリック URL に変更後:
+https://www.arcgis.com/home/webmap/viewer.html?webmap=&amp;lt;Web マップ ID&amp;gt;
+Map Viewer からの共有方法 Map Viewer でマップを作成して保存します。 [コンテンツ] ツールバーの [マップの共有] をクリックします。 [共有] ダイアログで、共有する範囲を選択します。 [保存] をクリックします。 [マイ コンテンツ] タブからの共有方法 [コンテンツ] ページ → [マイ コンテンツ] タブを開きます。</description></item><item><title>空のフィーチャ レイヤーを作成したい</title><link>/online/users-guide/create-data/feature/build-layer/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/create-data/feature/build-layer/</guid><description>新しくデータを入力できる、空のフィーチャ レイヤーを作成します。「ホスト フィーチャ レイヤーの公開」権限が必要です。
+[コンテンツ] ページの [マイ コンテンツ] タブへ移動します。 [新しいアイテム] → [フィーチャ レイヤー] をクリックします。 [フィーチャ レイヤーを作成するためのオプションの選択] ウィンドウが表示されます。 [空のレイヤーを作成]: 任意のレイヤー タイプを指定し、空のフィーチャ レイヤーを作成します。
+[既存のレイヤーから] タブ: 組織内に既に公開されているレイヤーから空のフィーチャ レイヤーを作成する際に、ここでレイヤーを選択します。
+[テンプレートの使用]: 組織内に既に公開されているレイヤーから空のフィーチャ レイヤーを作成する際に、ここでレイヤーを選択します。
+[ArcGIS Server レイヤーの URL を指定]: 組織内外のフィーチャ レイヤーの URL を指定して、空のフィーチャ レイヤーを作成します。
+ここでは、[空のレイヤーを作成] オプションを使用し、ホスト フィーチャ レイヤーに含めるレイヤーとテーブルを定義して作成する方法について説明します。
+[名前とタイプの指定] でレイヤー名およびレイヤー タイプを指定します。[追加] をクリックすることで、1 つのフィーチャ レイヤー内に複数のレイヤーを含めることができます。レイヤー タイプは「ポイント レイヤー」、「ライン レイヤー」、「ポリゴン レイヤー」、「テーブル」のいずれかから選択することができます。 現地調査で GPS の受信機情報を自動記録したい場合は、[GPS メタデータ フィールドの追加] のチェックボックスを、高度の情報を保存するためのデータにするには [Z 値の有効化] のチェックボックスをオンにします。[GPS メタデータ フィールドの追加] チェックボックスをオンにすると、現地調査で GPS 機器を使用した際に、GPS メタデータを自動記録できるようになります (ポイント レイヤーのみです)。</description></item><item><title>はじめに</title><link>/fieldmaps/get-started/introduction/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/introduction/</guid><description>現地調査や報告業務を効率化できる Field Maps の利用を開始する方のためのガイドです。
+Field Maps は、スマートフォン及びタブレットを利用して現地調査データを入力することができる GIS アプリケーションです。併せて使用する ArcGIS Online (クラウド GIS) 上では、Field Maps で入力した調査結果と調査の状況をオフィス作業員が PC 上でリアルタイムに確認することができます。
+利用の流れ ArcGIS Online または ArcGIS Pro を使用して、調査で使用するデータを作成します。 ArcGIS Online および Field Maps Web アプリで、Web マップを構成します。 Field Maps モバイル アプリを使用して、データを収集します。 必要なライセンス ArcGIS Online のユーザー タイプによって Field Maps で利用可能な機能が異なります。
+Creator、GIS Professional: 組織で共有されているマップの表示、編集、作成ができます。 Mobile Worker: 組織で共有されているマップの表示、編集、位置のトラッキングができます。 Viewer、Editor: 組織で共有されているマップを表示できます。 ArcGIS Online のユーザー タイプを持っていない場合: パブリックに公開されているマップを表示できます。 詳細は、ヘルプをご参照ください。
+モバイル アプリのインストール 動作環境については「デバイス要件」をご参照ください。
+Android の場合は「Play ストア」、iOS の場合は「App Store」アプリケーションを開きます。 キーワードに「Field Maps」と入力し、ArcGIS Field Maps を検索し、インストールします。 インストール後の起動や設定については「起動と設定」をご参照ください。</description></item><item><title>オフライン利用のための準備</title><link>/fieldmaps/get-started/offline/prepare/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/offline/prepare/</guid><description>Field Maps Web アプリを利用して、オフライン利用のための準備を行います。
+レイヤーの同期の有効化 モバイル アプリでオフライン利用するためには、フィーチャ レイヤーの同期を有効化する必要があります。
+オフライン利用を行う Web マップを Field Maps Web アプリで開きます 。 [オフライン] タブをクリックします。 [コンテンツ] セクション内の [レイヤー] を展開します。 [同期の有効化] をクリックして、フィーチャ レイヤーの同期を有効化します。 上記操作で有効化できない場合は、下記の手順で同期を有効化します。
+レイヤー名右に表示される [アイテム詳細を開く] ボタンをクリックします。
+[設定] タブ → [同期の有効化] チェックボックスをオンにし、[保存] をクリックします。
+Field Maps Web アプリに戻り、[コンテンツ] セクション右の更新ボタンをクリックして、フィーチャ レイヤーの設定を読み込みます。
+マップのオフライン モードを有効化 ページ上部の [オフライン] トグルをクリックして、マップのオフライン利用を有効化します。</description></item><item><title>起動と設定</title><link>/fieldmaps/get-started/mobile/start/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/mobile/start/</guid><description>Field Maps の起動方法と設定について説明します。
+起動 アプリを起動して表示される [ArcGIS Online でサイン イン] をタップし、ユーザー名とパスワードを入力してサイン インします。 マップ一覧の画面が表示されます。タップして任意のマップを開きます。 [サイン インをスキップ] をタップすると、サイン インなしでパブリックに公開されているマップを閲覧することができます。
+設定 データ収集の精度などの各種設定を必要に応じて変更することができます。
+プロファイルをタップします。 各種設定を変更し、[終了] をタップします。 画面キャプチャは一例です。端末やバージョンにより、表記が異なる場合があります 。
+ここでは、主な設定を記載します。
+設定 詳細 精度 データ取得に必須の位置精度の半径の数値を設定します。ここで設定した値より小さい場合にのみ精度が高いとみなされ、データ入力が可能になります。 GPS 平均化 GPS 測位の誤差を平均化します。1 つの位置に対して指定した数の測位ポイントを収集し、その情報を平均化して最終的な位置と精度を取得します。 ストリーミング ラインやエリアを移動時に自動入力する際に、頂点を挿入する時間または距離間隔を設定します。 写真のアップロード サイズ データに添付する写真のサイズを設定します。 関連するタイプ フィーチャ間のリレーションシップを設定します。 スナップ ターゲットのフィーチャの頂点や線分に沿ったフィーチャの作成が可能になります。 プロバイダー 外付け GPS を設定します。 プロファイル 外付け GPS の座標系を設定します。 設定の詳細については、ヘルプ をご参照ください。</description></item><item><title>チュートリアル 1 : CityEngine の基本</title><link>/cityengine/tutorials/tutorial-1-essential-skills/</link><pubDate>Fri, 14 Jan 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/tutorial-1-essential-skills/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+概要 このチュートリアルでは、何もない空の状態からどのように都市を構築するかを学習していきます。CityEngine の全チュートリアルを通して新規プロジェクトをセットアップし、道路ネットワークを作成して図形作成パラメーターを設定し、最終的にCGAルールエディターを使用して都市の建物モデルを生成するまでの全体のワークフローを紹介します。
+演習 ・Part 1 :新規プロジェクトの準備 ・Part 2 :道路レイアウト ・Part 3 :ナビゲーションと選択 ・Part 4 :ルールを使用したモデルの生成 ・Part 5 :ルールの編集 Part 1 :新規プロジェクトの準備 新規プロジェクトおよびシーンのセットアップ 最初のステップとして、CityEngine プロジェクトを新規作成します。
+[File] メニュー → [New]... → [CityEngine] → [CityEngine project] をクリックします。[Select a wizard] ダイアログが表示されます。 [Next] をクリックし、プロジェクトに MyFirstCity という名前を付けて [Finish] をクリックします。 新しいプロジェクトが作成され、[Navigator] ウィンドウ（デフォルトでは、CityEngine 画面の左上にあります）内に表示されているはずです。プロジェクト&amp;gt; フォルダー内には assets、rules、scenes などのフォルダーがデフォルトで作成されています。続いて、シーンを新規作成します。</description></item><item><title>ArcGIS Online へのサイン イン</title><link>/online/users-guide/basic/signin/</link><pubDate>Tue, 30 Nov 2021 00:00:00 +0900</pubDate><guid>/online/users-guide/basic/signin/</guid><description>ArcGIS Online のサイン インについて説明します。
+https://www.arcgis.com/ の [サイン イン] から、または https://www.arcgis.com/home/signin.html のサイン イン ページに直接アクセスします。
+お手持ちのアカウントとパスワードを該当箇所に入力し、[サイン イン] をクリックします。</description></item><item><title>Web アプリとは</title><link>/online/users-guide/create-apps/webapp/</link><pubDate>Tue, 30 Nov 2021 00:00:00 +0900</pubDate><guid>/online/users-guide/create-apps/webapp/</guid><description>Web アプリとは、ArcGIS Online で作成するマップ (Web マップ) に目的に応じて機能や見栄えに変更を加えたアプリケーションです。Web アプリは、以下の 5 種類があります。
+なお、Web アプリの作成には、コンテンツの「作成、更新、および削除」権限が必要です。
+1. Instant Apps / 構成可能なアプリ
+2. ArcGIS StoryMaps
+3. ArcGIS Dashboards
+4. ArcGIS Web AppBuilder
+5. ArcGIS Experience Builder
+Instant Apps / 構成可能なアプリ マップとデータを簡単に操作できるようにする Web アプリをテンプレートから選び、Web アプリをすばやく作成します。
+ArcGIS StoryMaps マップにテキスト、画像、動画などを組み合わせた Web ページを作成します。
+ArcGIS Dashboards マップ、グラフ、ゲージなどを組み合わせて情報を表示するダッシュボードを作成します。
+ArcGIS Web AppBuilder 60 種類を以上の機能 (ウィジェット) を、用途に応じて組み合わせて、アプリを作成します。
+ArcGIS Experience Builder 2D/3D マップ、テキスト、メディアを含む、レスポンシブ対応の Web アプリやページを作成します。</description></item><item><title>フィールドを追加、削除したい</title><link>/online/users-guide/manage-data/field/</link><pubDate>Tue, 30 Nov 2021 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/field/</guid><description>ホスト フィーチャ レイヤーのフィールドを追加・削除します。
+フィールドの追加 フィーチャ レイヤーのアイテム詳細ページの [データ] タブ → [フィールド] → [＋追加] をクリックします。
+[フィールド名]、[表示名] を入力します。
+[フィールド名] にはアンダースコア (_) 以外の特殊文字 (&amp;amp;、( )、スペースなど) や、予約語 (「type」や「user」) を使用できません。また、フィールド名の最初の文字に数字を使用することはできません。これらの文字を表示上使用したい場合は、[表示名] でご利用ください。
+格納したいデータの種類によって、適する [タイプ] を選択します。
+・String：文字列のデータを格納します。このタイプを選ぶと、[長さ: ] で入力可能な文字数を設定できます。
+・Integer：-2,147,483,648 ～ 2,147,483,647 の自然数のデータを格納します。
+・Double：小数のデータを格納します。
+・日付：日付、時間のデータを格納します。
+[新規フィールドの追加] をクリックします。
+フィールドの削除 フィーチャ レイヤーのアイテム詳細ページの [データ] タブの [フィールド] をクリックします。
+削除したいフィールド名横のチェックボックスをオンにし、[削除] をクリックします。
+FID や OBJECTID などのフィールドは削除できません。また、スタイル設定、フィルター、ラベル、フィーチャ検索、タイム スライダーや編集情報の記録に使用されているフィールドは削除できません。</description></item><item><title>カスタム テンプレート</title><link>/drone2map/quick-start/custom/custom_createproject/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/custom/custom_createproject/</guid><description>カスタム テンプレートを利用したプロジェクトの作成 カスタム テンプレートは以下の2つの方法から選択できます。
+テンプレートリストから選択 テンプレートのインポート
+テンプレートリストから選択 カスタム テンプレートの設定でリストに追加したテンプレートを使用してプロジェクトを作成します。
+Drone2Map を開き、プロジェクト名を入力、画像を追加します。
+テンプレートのドロップダウン リストを開きます。
+カスタム テンプレートが選択できたら [作成] をクリックします。 これで、事前設定したテンプレートを使用したプロジェクトを作成できました。
+テンプレートのインポート デフォルトのテンプレート リストに追加していない場合など、任意のカスタム テンプレートを使用してプロジェクトを作成します。
+Drone2Map を開き、プロジェクト名を入力、画像を追加します。
+テンプレートのドロップダウン リストの左隣の参照ボタンをクリックします。
+[テンプレートのインポート] ダイアログで任意のカスタム テンプレートを選択します。
+[作成] をクリックしてプロジェクトを作成します。
+これで、任意のテンプレートによるプロジェクトが作成できました。
+処理の実行は、[ホーム] タブの [開始] ボタンをクリックします。</description></item><item><title>クイック アクション</title><link>/hub/get-started/quick-action/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hub/get-started/quick-action/</guid><description>ArcGIS Hub を開始するための概要を説明します。 各項目の操作についての詳細は、それぞれのドキュメント ページをご参照ください。
+ArcGIS Hub Premium の有効化 (オプション)
+サイトまたはイニシアティブの作成
+コンテンツの作成と追加
+サイトとコンテンツの共有
+ArcGIS Hub Premium の有効化 (オプション) ArcGIS Hub Premium のライセンスを有効化するには、コミュニティ組織サイトを設定する必要があります。コミュニティ組織サイトを構成することで、既存の ArcGIS Online 組織外のステークホルダーと地理空間情報を共有し、地域課題を解決していくことができます。
+この手順は ArcGIS Hub Premium をご契約された組織のみが対象です。
+ArcGIS Hub Premium のサブスクリプションの有効化とコミュニティ組織サイトの設定は、組織向けの ArcGIS Online 開始手順と同様で、管理者がセットアップする必要があります。
+コミュニティ組織の ArcGIS Online サブスクリプションを有効化します。詳細な手順は「サブスクリプションの有効化」をご参照ください。 コミュニティ組織を複数人で管理する場合は、追加のコミュニティ管理者アカウントを作成します (オプション)。詳細な手順は 「メンバーの追加」をご参照ください。 コミュニティ組織での管理者は、新しいメンバーの追加や招待などを管理することができます。
+コミュニティ組織サイトの ArcGIS Online ホームページを設定します。詳細な手順は「組織の設定」 をご参照ください。 管理者以外がコミュニティ アカウントを作成しないように設定をすることができます。 詳細な手順は「コミュニティ アカウントの作成の無効化」をご参照ください。 サイトまたはイニシアティブの作成 ArcGIS Hub を開始するには、新しいサイトまたはイニシアティブを作成します。</description></item><item><title>クレジット</title><link>/online/get-started/administer/subscription/credit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/administer/subscription/credit/</guid><description>クレジットの概要 ArcGIS Online では、「クラウドへのデータ ストレージ」や「ジオコーディングの実行」、「各種解析機能の実行」といった GIS 処理に応じて、決められた数の「サービス クレジット」が消費されます。サービス クレジットとはサービス内の通貨のことで、お持ちのライセンスによって一定の初期クレジットが付属しています。管理者は、組織サイトのクレジットの利用状況や残数をいつでも確認・管理できます。
+詳細については、製品ページをご参照ください。
+組織サイトのクレジットがすべて消費された場合は、サブスクリプションが制限されたり、残りのクレジットがマイナスになったりする場合があります。 クレジット消費量の上限設定などのツールを利用いただくことを推奨します。
+なお、クレジットは ESRIジャパンショップで追加購入が可能です (教育機関のユーザー様は、営業担当にお問い合わせください)。
+※サービス クレジットを超過して利用した場合、超過分が次回の契約更新の際、または追加クレジット購入の際に差し引かれます。
+クレジットの管理と監視 [組織] をクリックします。[クレジット] パネルで、消費クレジットの概要を確認できます。
+[ステータス] タブ、または [クレジット] パネルの [ステータスの表示] をクリックすると、クレジット利用状況の詳細を確認できる、[ステータス] ページへ移動します。 [日付のクイック選択] で期間を指定すると、その期間のクレジットの消費量を表示できます。凡例の項目をクリックすると、その項目のクレジット消費の詳細を確認することができます。
+ページ下の円グラフ チャートで、凡例の項目で [分析] をクリックすると、各分析のサービスで消費したクレジットの詳細が表示されます。 [メンバー] タブをクリックすると、各メンバーのクレジット消費量やアイテムの所有状況を確認できます。
+クレジット消費量の上限設定 個々のメンバーに使用できるクレジット量の上限値を設定 [組織] → [設定] タブ→ [クレジット] で、[クレジット使用制限ツールの有効化] チェックボックスをオンにします。 [メンバー] ページへ移動します。 クレジットを割り当てたいメンバー名の横のチェックボックスをオンにします。 [クレジットの管理] をクリックします。 [割り当て量の設定] をクリックし、割り当てるクレジット量を入力し、[保存] をクリックします。 新規メンバー招待時に使用クレジットの上限値を設定 [組織] → [設定] タブ→ [クレジット] で、[クレジット使用制限ツールの有効化] チェックボックスをオンにします。 [新しいメンバーのデフォルト設定] をクリックします。 [制限なし] をクリックし、[割り当て量の設定] に変更します。 [割り当て量の設定] の横のボックスに、クレジット数を入力して [保存] をクリックします。 割り当てられたクレジット量が 0 になると、メンバーはジオコーディング、ルート案内、解析ツール、プレミアム コンテンツの利用、タイル生成といった、ストレージ分以外でクレジットを消費する機能を使用できなくなります。</description></item><item><title>コア チーム</title><link>/hub/get-started/team/core-team/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hub/get-started/team/core-team/</guid><description>コア チームは、ArcGIS Hub でサイトまたはイニシアティブが作成されると自動的に作成される、ArcGIS Online のグループです。このグループには、ArcGIS Online 組織のメンバーを含めることができます。コア チーム メンバーとして、適切な権限を持つ人は次のことができます。
+サイト/ページの編集 (これらのアイテムはコア チーム グループと自動的に共有されます） コア チーム グループに共有されているアイテムの編集 他のグループ メンバーにメッセージを送信 サイトを編集するときに、コンテンツ ライブラリに含まれるコンテンツを表示 メンバーの追加 コア チームには、コンテンツを作成および編集するための権限を持っている ArcGIS Online 組織のユーザーを追加できます。
+サイトまたはイニシアティブを編集モードで開きます。
+編集ナビゲーション バーの 2 つ目のドロップダウン メニュー (サイトまたはイニシアティブ名が表示) → [チーム] をクリックします。
+[メンバーの追加] をクリックします。
+追加するユーザーのチェックボックスをオンにし、[追加] をクリックします。
+アイテムの共有 コア チームのメンバーは、コンテンツ グループに共有されているアイテムを表示できます (デフォルトでは、多くのアイテムがこのグループに追加されます)。コア チーム メンバーがアイテムを編集できるようにするには、各アイテムのアクセス権の編集で、コア チーム メンバーの編集を許可する必要があります。
+各アイテムのアクセス権の編集の詳細は、「コンテンツ ライブラリへの追加」をご参照ください。</description></item><item><title>サイトの作成</title><link>/hub/get-started/site/create-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hub/get-started/site/create-site/</guid><description>ArcGIS Hub で新しいサイトを作成する方法について説明します。
+サイトの作成には、デフォルトの [管理者] ロールまたは次のカスタム ロールが必要です。
+デフォルトの [公開者] ロールをベースにしたカスタム ロールを構成し、[グループ] 用の管理権限である [更新機能を持つグループを作成] と [メンバーの割り当て] を追加します。
+ロールについての詳細は、ヘルプをご参照ください。
+ArcGIS Online 組織サイトの右上に表示されている [アプリ ランチャー] → [Hub] をクリックします。 画面右上の [新規作成] をクリックして [サイト] をクリックするか、サイトの [新規作成] ボタンをクリックします。 ArcGIS Hub Premium をお持ちの場合、[サイト] ではなく、[イニシアティブ] となります。 サイトとイニシアティブの違いについては、ヘルプをご参照ください。
+サイトの名前を入力して [サイトの作成] ボタンをクリックします。名前には、アルファベット、数字、ダッシュ、半角スペースのみ使用可能です。 [テンプレートの参照] ボタンをクリックすると、サンプルのテンプレートが表示されます。テンプレートには、特定のトピックや目的に対応するよう事前に設定されたアプリケーションや Web マップが含まれているため、Web サイトを素早く作成することができます。
+サイトの作成が完了すると、サイト エディターが表示されます。サイト エディターでは、カードを使用してサイトのレイアウトをデザインできます。詳細は、サイトの構成およびカードの配置と設定をご参照ください。</description></item><item><title>サイトの保存</title><link>/hub/get-started/site/save-and-publish/save/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hub/get-started/site/save-and-publish/save/</guid><description>サイトの変更をドラフトとして保存して、公開する前にプレビューを他のユーザーと共有できます。
+サイトの保存 画面右上の [保存] をクリックして、サイト エディターで行った変更を保存します。
+[保存] では、ドラフトとして保存され、変更内容は公開済みサイトには反映されません。
+サイトのプレビュー 画面右上の [保存] ドロップダウン → [ドラフトのプレビュー] をクリックします。
+他のユーザーとプレビューを共有するには、画面左上の [URL の共有] をクリックして URL をコピーします。
+プレビューをサイトの所有者とアクセス権のあるグループ メンバー以外と共有する場合は、次の手順を実行します。
+[← 編集者] をクリックして、サイト エディターに戻ります。 画面右上の共有範囲のアイコンをクリックします。 [共有レベル] で [パブリック] または [組織] を選択します。</description></item><item><title>サイトの構成</title><link>/hub/get-started/site/design/configre/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hub/get-started/site/design/configre/</guid><description>サイトまたはイニシアティブを作成した後、サイトを編集モードで開き、画面左側に表示されているサイドパネルによって、サイトの構成を行います。
+サイトの編集権限を持っているユーザーで ArcGIS Hub にサインインします。
+[概要] ページで [サイト] の [管理] をクリックし、サイトのタイトルをクリックします。
+サイド パネル内の各項目について
+設定 : サイトの名前やドメインの設定を行えます。 テーマ: サイト全体のテキスト色やボタンの色などを設定できます。 ヘッダー: サイトのヘッダーへのロゴの追加や、スタイルの変更が可能です。 レイアウト: サイトにテキスト、画像、アプリなどを表示するためのカードが提供されています。レイアウト上にカードをドラッグ&amp;amp;ドロップで追加・設 定することにより、サイトにテキスト等を表示できます。 フッター: カスタム HTML を使用して、サイトにフッターを追加できます。 サイトのレイアウトの設計 サイド パネルの [レイアウト] メニューを開き、テキストや画像などのコンポーネントをサイトに追加できるカードを選択します。
+サイト上にカードをドラッグ ＆ ドロップで配置します。
+配置したカードの移動・編集・削除はカード上にカーソルを移動すると表示される [移動]・[編集]・[削除] ボタンをクリックして行います。カードによっては、[編集] ボタンをクリックするとサイド パネルが表示されます。
+カードの詳細については、カードの配置と設定をご参照ください。</description></item><item><title>サブスクリプションの有効化</title><link>/online/get-started/setup/admin/activate-subscription/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/setup/admin/activate-subscription/</guid><description>「サブスクリプションの有効化」とは、ArcGIS Online のクラウドに参加するための手続きに相当します。ArcGIS Online の有償プランをご契約された、あるいは ArcGIS Online の利用申請をしていただいたお客様には、あらかじめサブスクリプション ID が付与されており、受信されたメールまたはライセンス コンファメーションに記載の独自の URL からサブスクリプションを有効化することで、ArcGIS Online が利用できるようになります。
+サブスクリプションの有効化 以下いずれかの件名の案内メールまたはライセンス コンファメーションを開きます。
+【ESRIジャパン】出荷のお知らせ 【ESRIジャパン】ArcGIS Online サブスクリプションID 発行のご案内（ArcGIS Desktop ユーザー向け） 【ESRIジャパン】クラウドGIS 無償利用サービスのご案内 【ESRIジャパン】ArcGIS アカデミックパック 出荷のご案内 件名は変更される場合があります。
+メールが見当たらない場合は、弊社の営業担当者か、online@esrij.com にお問い合わせください。
+メール文章内の、＜サブスクリプションID 有効化ページ＞ の URL (下図参照) をクリックします。
+組織向けプランの「サブスクリプションID」と「ESRI顧客ID」は弊社サポートに問い合わせる場合に必要な情報となりますので、この案内メールは大切に保管してください。
+[アカウントを新規作成] または [既存の ArcGIS 個人向けアカウントを移行] を選択し、[次へ] をクリックします。
+既存の個人向けアカウントを組織アカウントに移行する場合、個人アカウントにて所有したアイテムは組織のアイテムとなります。以下の 2 つのサイトで作成したアカウントは個人アカウントです。
+Esri アカウント (https://accounts.esri.com/) ArcGIS Online 個人向けアカウント (https://www.arcgis.com/home/createaccount.html) [アカウントを新規作成] を選択した場合は、組織サイトにサイン インするために使用するユーザー名、パスワードなどを設定してください。有効化を最初に行うメンバーは自動的に管理者として登録されます。</description></item><item><title>プロジェクトの作成</title><link>/drone2map/quick-start/2d_mapping/2dmapping_createproject/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_mapping/2dmapping_createproject/</guid><description>プロジェクトの作成 Windows の [スタート] ボタン → [ArcGIS] → [Drone2Map] をクリックします。
+ArcGIS Online の組織向けアカウントまたは Portal for ArcGIS アカウントでサイン インします。
+任意のプロジェクト名を入力します。
+プロジェクトを保存する場所を設定します。
+[フォルダーの追加] をクリックし、解凍した 「Sample Banana Plant」 フォルダー内の 「Images」 フォルダーを指定します。ここで選択した画像には、撮影した際の GPS の情報が含まれていないため、[GPS ファイルが必要です] ウィンドウが表示されます。[参照] から Files フォルダー内の Geolocation.csv を指定後 [OK] をクリックします。
+[プロジェクト テンプレートの選択] において [2D プロダクト] を選択します。
+[作成] をクリックします。</description></item><item><title>プロジェクトの作成</title><link>/drone2map/quick-start/2d_rapid/2drapid_createproj/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_rapid/2drapid_createproj/</guid><description>プロジェクトの作成 Windows の [スタート] ボタン → [ArcGIS] → [Drone2Map] をクリックします。
+ArcGIS Online の組織向けアカウントまたは Portal for ArcGIS アカウントでサイン インします。
+任意のプロジェクト名を入力し、プロジェクトを保存する場所を設定します。
+[フォルダーの追加] をクリックし、解凍した 「Sample Asphalt」フォルダー内の 「Images」 フォルダーを指定します。
+[高速テンプレート] を選択し、[作成] をクリックしてプロジェクトを作成します。
+[フライト データ] タブ の [画像テーブル] をクリックし、画像の情報を確認します。 今回はデフォルトの設定で処理を実行するので、確認ができたら [画像の中心] テーブル ビューを閉じます。</description></item><item><title>プロジェクトの作成</title><link>/drone2map/quick-start/3d_mapping/3dmapping_createproject/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/3d_mapping/3dmapping_createproject/</guid><description>プロジェクトの作成 Windows の [スタート] ボタン → [ArcGIS] → [Drone2Map] をクリックします。
+ArcGIS Online の組織向けアカウントまたは Portal for ArcGIS アカウントでサイン インします。
+任意のプロジェクト名を入力します。
+プロジェクトを保存する場所を設定します。
+[フォルダーの追加] をクリックし、解凍した「Small_Buildings」フォルダー内の 「Images」フォルダーを指定します。
+[プロジェクト テンプレートの選択] において [3D プロダクト] を選択します。
+[作成] をクリックします。</description></item><item><title>ライセンス</title><link>/drone2map/get-started/license/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/get-started/license/</guid><description>指定ユーザー ライセンス Drone2Map は、指定ユーザー ライセンスと呼ばれるライセンスを使用します。指定ユーザーライセンスは、ArcGIS Online または Portal for ArcGIS を使用して構成され、組織の管理者が個々のユーザーに Drone2Map ライセンスを割り当てることで、ユーザーは Drone2Map にサイン インしてライセンスを利用します。
+Drone2Map ライセンス ArcGIS Drone2Map 2022.1 以降、Drone2Map ライセンスには 2 つの新しいライセンス レベルが導入されました。購入したライセンス レベルに応じて ArcGIS Drone2Map Standard または ArcGIS Drone2Map Advanced をユーザーに割り当てます。
+バージョン 2.3.3 を使用されていた場合、既に追加されている『ArcGIS Drone2Map』ライセンスでは、バージョン 2022.1 はご利用いただけませんのでご注意ください。
+ライセンス タイプは、ArcGIS Online または Portal for ArcGIS 組織サイトの [ライセンス] タブで確認することができます。
+Drone2Map は、公開者ロールを持つ Creator もしくは GIS Professional のユーザータイプに割り当てることができます。 ライセンス管理については、必ず組織の管理者、またはライセンス管理権限を持っているユーザーが行ってください。
+ArcGIS Online 組織サイトをまだ利用していない場合
+ArcGIS Online スタートアップ ガイドを参考に組織サイトのセットアップを行ってください。セットアップ完了後、Drone2Map を利用するメンバーに Drone2Map を割り当てます。</description></item><item><title>ライセンスの割り当てと解除</title><link>/online/get-started/administer/license/assign/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/administer/license/assign/</guid><description>組織の管理者、またはライセンス管理権限を持っているユーザーは、各メンバーに割り当てられたユーザー タイプに含まれていないアドオン ライセンス (ArcGIS Drone2Map、ArcGIS Insights など) を ArcGIS Online 組織サイトで割り当てたり、解除したりすることができます。
+1 つの製品のライセンスの割り当てと解除 管理者またはライセンス管理権限を持っているユーザーとして ArcGIS Online にサイン インします。
+サイト上部の [組織] タブ → [ライセンス] タブをクリックします。
+[アドオン ライセンス] ページに利用可能なライセンスの種類が表示されます。
+割り当てたいライセンスの [管理] をクリックします。 [メンバーの検索] ボックスに対象のメンバーの名前を入力して検索し、ライセンスを割り当てたいメンバー右の切り替えボタンをオンにします。ライセンスの割り当てを解除するには、メンバー右の切り替えボタンをオフにします。 [メンバーに電子メールを送信しますか？] という画面が表示されます。必要に応じて、[メンバーに電子メールを送信しない] または [メンバーに電子メールを送信する] をクリックします。
+右上の [×] をクリックして、[アドオン ライセンス] ページに戻ります。
+複数の製品のライセンスの割り当てと解除 管理者またはライセンス管理権限を持っているユーザーとして ArcGIS Online にサイン インします。
+サイト上部の [組織] タブ → [メンバー] タブをクリックします。</description></item><item><title>ロールの変更</title><link>/online/get-started/administer/members/role/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/administer/members/role/</guid><description>組織サイトの管理者は、メンバーにロールを割り当てることで権限の範囲を制御することができます。各ロールの詳細は、ヘルプをご参照ください。
+管理者アカウントで ArcGIS Online にサイン インします。 サイト上部の [組織] タブ → [メンバー] タブをクリックします。 [ロール] 列にある [▼] をクリックして、ロールを変更します。 自身のロールの変更は、[管理者] ユーザーであってもできません。
+メンバーの招待と追加については、「メンバーの追加」をご参照ください。</description></item><item><title>動作環境</title><link>/cityengine/get-started/setup/environment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cityengine/get-started/setup/environment/</guid><description>動作環境の確認 ArcGIS CityEngine をインストールするコンピューターが動作環境を満たしているかどうかをご確認ください。
+動作環境の詳細は、「動作環境」ページをご参照ください。
+同時使用 (Concurrent Use) ライセンスをご利用の場合は、ライセンス マネージャーの動作環境もご参照ください。</description></item><item><title>動作環境</title><link>/online/get-started/setup/environment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/setup/environment/</guid><description>ArcGIS Online では、次のブラウザーの最新版がサポートされています。
+Google Chrome Microsoft Edge Mozilla Firefox Safari Internet Explorer 11 および Edge Legacy はサポートされていません。 上記の最新バージョンのブラウザーを使用してください。
+動作環境の詳細はヘルプをご参照ください。</description></item><item><title>動作環境</title><link>/pro/get-started/setup/user/environment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/pro/get-started/setup/user/environment/</guid><description>動作環境の確認 ArcGIS Pro は Microsoft Windows オペレーティング システムでサポートされています。
+ArcGIS Pro をインストールするコンピューターが動作環境を満たしているかどうかをご確認ください。
+動作環境の詳細はヘルプをご参照ください。</description></item><item><title>所有者の変更</title><link>/online/get-started/administer/contents/change-owner/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/administer/contents/change-owner/</guid><description>所有者の変更 組織の管理者または [コンテンツの再割り当て] 権限を持つ組織のメンバーは、アイテムの所有権の変更を行うことができます。
+すべてのアイテムの所有権を他のメンバーに一括で変更
+組織からメンバーを削除する時など、管理者が一括で当該メンバーが所有するアイテムの所有権を変更します。
+組織のメンバーのアイテムの所有権を他のメンバーに変更
+管理者が当該メンバーが所有するアイテムの一部の所有権を変更します。
+自身が所有するアイテムの所有権を他のメンバーに変更
+組織のメンバー自身がアイテムの所有権を変更します。
+アイテム所有者の変更を行っても ArcGIS Online アイテムの URL、サービス URL は変わりません。そのため、組織サイトに追加している Web マップのリンク修正作業などは必要ありません。
+すべてのアイテムの所有権を他のメンバーに一括で変更 管理者権限を持つユーザーで ArcGIS Online にサイン インします。
+サイト上部の [組織] タブ → [メンバー] タブをクリックします。
+操作を行いたいメンバーの右に表示される […] をクリックして、[コンテンツの転送] をクリックします。
+[コンテンツの転送] ウィンドウで、クリックしてアイテムの新しい所有者を選択します。
+必要に応じて既存のフォルダーを選択するか、新しいフォルダーを作成します。
+[転送] をクリックします。
+[転送] をクリックする前に、所有者が変更されるアイテムのリストを確認するには、[転送するコンテンツ] の下にある [すべてのアイテムの表示] をクリックします。
+組織のメンバーのアイテムの所有権を他のメンバーに変更 管理者権限を持つユーザーで ArcGIS Online にサイン インします。</description></item><item><title>組織サイトへ加入</title><link>/online/get-started/setup/member/join/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/setup/member/join/</guid><description>この手順を完了したメンバーは、今後組織サイトを利用することができます。メンバーになると、組織で共有されているコンテンツおよびグループにアクセスしたりできるようになります。
+ArcGIS Online の組織サイトの管理者から、アカウントの「ユーザー名」と「初期パスワード」の情報を入手します。 管理者が「招待メールを送信せずにメンバーを自動的に追加」の方法でメンバーを追加した場合は、そのユーザーのアカウントはすぐに利用可能です。
+以下のページにアクセスし、ArcGIS Online にサイン インします。
+https://www.arcgis.com/home/signin.html パスワードの変更が求められます。任意のパスワードに変更します。これで、組織サイトのメンバーとして加入しました。 詳細については、ヘルプをご参照ください。
+招待メールを受信した場合 組織サイトの管理者から、「ユーザー名」と「初期パスワード」ではなく、招待メールがメンバーへ送信される場合があります。招待メールを受信したメンバーは、以下の手順に従い、組織サイトへの加入を完了してください。
+ここで設定する「ユーザー名」 と「パスワード」は、ArcGIS Pro や各種アプリで利用するために大切なアカウント情報です。忘れないようにして下さい。
+「ArcGIS Online 組織、○○に加入するための招待です。」という件名のメールを開きます。
+「「〇〇」組織に加入するには、このリンクをクリックしてアカウントの設定を終了し、パスワードを登録してください。」あるいは「「〇〇」組織に加入するには、このリンクをクリックしてください。」の URL リンクをクリックします。 下記のいずれかの画面がブラウザーで表示されます。
+「パスワードの設定」の画面
+管理者があらかじめユーザー名を指定しています。画面に従い、パスワードの作成と、パスワードの復旧に必要なセキュリティの質問と答えを設定してください。 次回サイン インする際は、「プロフィールの設定」で表示されるユーザー名と、今回設定したパスワードを入力してください。
+「○○ (組織名) への加入」の画面
+[新しいアカウントの作成] を選択して [次へ] をクリックし、招待を受けたメンバーご自身でユーザー名やパスワードを作成します。
+既に個人向けアカウントをお使いで、そのアカウントを組織向けアカウントとして利用する場合は、[ArcGIS 個人向けアカウントの変換] を選択し、お持ちのユーザー名とパスワードを入力します。</description></item><item><title>管理者の操作</title><link>/pro/get-started/setup/admin/</link><pubDate>Thu, 03 Nov 2022 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/admin/</guid><description>ArcGIS Pro のライセンスとエクステンションは ArcGIS Online で管理されるため、ArcGIS Online の利用登録が必要です。
+ArcGIS Online の登録とライセンスの割り当ては、複数のステップで構成されています。
+ArcGIS Online の組織サイトを既にご利用の方は「メンバーの追加」からライセンスの割り当てを行ってください。
+各ステップの詳しい手順については、各ステップのタイトルからリンクしている ArcGIS Online スタートアップ ガイドをご参照ください。
+1. サブスクリプションの有効化 「サブスクリプションの有効化」とは、ArcGIS Online のクラウドに参加するための手続きに相当します。
+ご契約時に受信されたメールまたはライセンス コンファメーションに記載されている URL から &amp;lt;サブスクリプション ID 有効化ページ&amp;gt; にアクセスし、アカウントの設定を行います。
+保守契約が有効な ArcGIS Desktop ライセンスをお持ちで、サブスクリプションの有効化 URL についての案内メールを受け取ったことがない、ArcGIS Online の利用申請を行ったことがない場合は、利用申請 を行ってください。
+2. 組織の設定 ArcGIS Online では組織専用のサイトを作成することができます。
+組織サイトの設定ページで、ショートネーム (https://○○.maps.arcgis.com の○○の URL 名を決定)、言語、地域、セキュリティを設定します。
+3. メンバーの追加 組織サイトの構成を設定後、管理者は ArcGIS Pro を使用したい利用者を組織サイトに招待できます。
+組織サイトから、メンバーの [名]、[姓]、[電子メール アドレス]、サイン イン時に使用する [ユーザー名]、[ユーザー タイプ]、[ロール]、[一時パスワード] を設定します。
+4. ライセンスの割り当てと解除 ArcGIS Pro で使用するライセンス (エディションおよびエクステンション) は、ArcGIS Online 組織ページより割り当てを行う必要があります。</description></item><item><title>プロジェクトの作成</title><link>/cityengine/get-started/quickstart-tutorials/create-project/</link><pubDate>Wed, 29 Jun 2022 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/create-project/</guid><description>概要 プロジェクトを新規作成してデータを作成するまでを学びます。
+CityEngine では、プロジェクト単位でデータを管理します。新規プロジェクトを作成すると、Navigator ウィンドウにプロジェクト フォルダーが表示されます。そしてプロジェクト フォルダー下には assets、data、images、maps、models、rules、scenes、scripts の 8 つのフォルダーが自動的に作成されます。この各フォルダー内にプロジェクトで必要なデータや画像、ルールやテクスチャなどを格納します。
+演習 ・プロジェクトの新規作成 ・シーン ファイルの作成 ・データの新規作成 ・ルール ファイルの適用 ・補足 Get Map Data でデータをダウンロード プロジェクトの新規作成 [File] メニュー → [New] をクリックします。
+[New] ダイアログで、[CityEngine] フォルダー → [CityEngine project] を選択し、[Next &amp;gt;] をクリックします。
+[Project name] に任意のプロジェクト名（ここでは「MyProject」とします）をつけ、[Finish] をクリックします。
+Navigator ウィンドウに作成した新規プロジェクトが表示されます。</description></item><item><title>Excel やテキスト ファイルからフィーチャ レイヤーを作成したい</title><link>/online/users-guide/create-data/feature/file/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/create-data/feature/file/</guid><description>緯度経度、住所、場所の名前 (駅名や公園名など) の位置情報が入力された Excel やテキスト ファイル (*.csv) からフィーチャ レイヤーを作成します。「ホスト フィーチャ レイヤーの公開」の権限が必要です。
+Excel または CSV ファイルの準備 1 行目にフィールド名、その下に値が入力された形式のファイルを準備します。
+命名規則外のフィールド名がある場合は、ArcGIS Online に公開できない、または公開してもデータが表示されません。
+アンダースコア（_）以外の特殊文字は使えません。スペースやカッコなどは削除してください。 数字で始まる名前は使えません。 同じフィールド名を重複して使うことはできません。 住所は、都道府県から入力してください。
+(例) 北区赤羽 1 → 東京都北区赤羽 1
+住所からフィーチャ レイヤーを作成する場合は、ジオコーディング処理にクレジットが消費されます。
+日本語を含む CSV ファイルを扱う場合は、文字コードを UTF-8 で保存する必要があります。
+Excel や CSV ファイル からフィーチャ レイヤーを作成 ArcGIS Online 上にファイルをアップロードして、フィーチャ レイヤーを公開します。
+ArcGIS Online の [コンテンツ] ページ → [マイ コンテンツ] タブに移動します。 [新しいアイテム] → [お使いのデバイス] をクリックして、Excel または CSV ファイルを選択します。 [この Microsoft Excel/CSV file をどのように追加しますか？] で、Excel の場合は [&amp;lt;ファイル名&amp;gt;.</description></item><item><title>シンボルを変更したい</title><link>/online/users-guide/map/style/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/map/style/</guid><description>マップに追加したレイヤーのシンボルの色や形を変更します。コンテンツを作成する権限が必要です。
+Map Viewer Classic をお使いの場合は、シンボルを変更したい (Map Viewer Classic) をご参照ください。
+シンボルの適用 Map Viewer でレイヤーを含むマップを開くか、マップにレイヤーを追加します。
+[コンテンツ] ツールバーの [レイヤー] をクリックして、[レイヤー] ウィンドウを表示します。
+[レイヤー] ウィンドウでシンボルを設定したいレイヤーを選択します。
+[設定] ツールバーの [シンボル] をクリックします。
+[シンボル] ウィンドウの [属性の選択] で [フィールド] を選択し、シンボルを設定する属性フィールドを選択して [追加] をクリックします。属性値でシンボル設定をしない場合は、属性の選択は不要です。
+[描画スタイルを試す] で描画スタイルを選択します。[スタイル オプション] をクリックすると、レイヤーの外観をカスタマイズできます。
+代表的なシンボル設定 種類 説明 場所 (単一シンボル)すべてのフィーチャを同じシンボルで表現します。 ヒート マップポイントが集中しているエリアを一目で確認できるような表現ができます。 タイプ (個別値シンボル)樹木の種類、道路クラス、都道府県名など、属性のカテゴリごとにシンボルを割り当てて描画します。 数と量 (サイズ)数値またはランク付けされたデータをシンボルの大きさで表現します。データの数値が大きいほど、シンボルの大きさも大きく表示されます。 数と量 (色)数値またはランク付けされたデータを色の濃淡で表現します。データの数値が大きいほど濃い色で、小さいほど淡い色で表示することなどができます。 リレーションシップ数値型の属性を指定し、2 つの属性値の相関関係をカラー ランプで表現します。 その他さまざまなシンボルを設定することができます。詳細はヘルプをご参照ください。</description></item><item><title>シンボルを変更したい</title><link>/online/users-guide/scene/style/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/scene/style/</guid><description>シンボルの適用 Scene Viewer でレイヤーを含むシーンを開くか、シーンにレイヤーを追加します。
+[レイヤー] パネルを展開し、レイヤー名の横の […] をクリックして、[レイヤーのスタイル] をクリックします。
+[① 表示するメイン属性を選択] ドロップダウン リストから、シンボルの設定をする属性フィールドを選択します。属性値でシンボル設定をしない場合は、[&amp;lt;なし&amp;gt;] を選択します。
+[② 描画スタイルを選択] で、変更したい描画方法の [選択] をクリックします。既に選択されている描画スタイルは [オプション] と表示されます。
+代表的なシンボル設定 種類 説明 2D マーカー/ライン/ポリゴン公園や小売店の場所のようなフィーチャの場所が優先される場合に適しています。 3D オブジェクト街路樹など、シーンの実際のサイズのオブジェクトをシンボル化することができます。 3D パス単一色を使用して実際の計測値で属性別にラインを表示することができます。 3D 立ち上げ単一色を使用して、実際の寸法でポリゴンを立ち上げることができます。 2D タイプ/3D タイプ樹木の種類、道路クラス、都道府県名など、属性のカテゴリごとにシンボルを割り当てて描画します。 2D 数と量/3D 数と量数値またはランク付けされたデータを色の濃淡で表現します。データの数値が大きいほど濃い色で、小さいほど淡い色で表示することなどができます。 その他さまざまなシンボルを設定することができます。詳細はヘルプをご参照ください。</description></item><item><title>Field Maps Web アプリの利用</title><link>/fieldmaps/get-started/create-map/webapp/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/create-map/webapp/</guid><description>ArcGIS Field Mapsには、Field Maps モバイル アプリと Field Maps Web アプリの 2 つのアプリが付属しています。Field Maps Web アプリでは、モバイル作業者が Field Maps モバイル アプリで使用するマップを構成できます。
+Web アプリの起動 ArcGIS Online 組織サイトの右上に表示されている [アプリ ランチャー] → [Field Maps] をクリックします。 現地調査で利用する Web マップを選択します。 目的の Web マップが表示されない場合は、ArcGIS Online で Web マップのアイテム ページを開き、[設定] → [アプリケーション設定] から [ArcGIS Field Maps Mobile で使用] チェックボックスをオンにしてください。
+Web アプリの構成 概要: Web マップのタイトルやサマリーを編集できます。また、オフライン ステータスや共有範囲の設定を確認することができます。 コンテンツ: Web マップを構成するレイヤーの追加・削除ができます。また、各レイヤーのフォームとテンプレートの構成を行うことができます。詳細についてはヘルプ をご参照ください。 オフライン: オフラインで利用するための設定をします。 アプリの設定: モバイル作業者がこのマップを使用する場合のデフォルトのアプリ設定を構成します。 共有: モバイル作業者やテスト ユーザーとマップを共有して、Field Maps モバイル アプリでアクセスできるようにします。詳細はヘルプをご参照ください。 Web マップをオフラインで利用するためには、オフラインモードの有効化を行う必要があります。</description></item><item><title>オフライン エリアの作成</title><link>/fieldmaps/get-started/offline/offlinearea/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/offline/offlinearea/</guid><description>オフラインでマップを操作するには、オフライン用の作業エリアを切り出して利用します。作業エリアはオフライン エリアと呼び、Web アプリで作成する方法とモバイル アプリで作成する方法があります。
+Field Maps Web アプリを使用して作成、ダウンロード あらかじめ作業エリアが決まっている場合や、複数の作業エリアをまとめて作成、管理したい場合に便利です。
+オフライン利用を行う Web マップを Field Maps Web アプリで開きます。
+[オフライン] タブをクリックします。
+[マップ エリア] セクションを開き、[エリアの管理] をクリックします。
+[+ オフライン エリアの作成] をクリックし、スケッチ ツールで切り出す範囲を描画します。また、エリアの名前や切り出す縮尺レベルを設定します。
+[保存] をクリックします。エリア名右に [パッケージ中] と表示され、このラベルの表示が消えると、オフライン エリアの作成は完了です。
+1 つの Web マップにつき 16 のオフライン エリアを作成することが可能です。
+インターネット接続がある環境で Field Maps モバイル アプリを開きます。
+Field Maps のマップ一覧の画面で、該当のマップ名の下に [オフライン エリア] という表示を確認し、タップします。
+作成済みのオフライン エリアをダウンロードします。</description></item><item><title>データの入力・編集</title><link>/fieldmaps/get-started/mobile/edit/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/mobile/edit/</guid><description>データの入力・編集方法について説明します。
+1. 新規データの入力 (例: ポイント)
+2. 既存データの編集
+3. 既存データの属性をコピーして、入力
+4. 写真の添付
+5. ストリーミング入力
+6. 既存データの削除
+1. 新規データの入力 (例: ポイント) 右下のプラス ボタンをタップします。 入力するレイヤーをタップします。 ポイントの位置を修正する場合は [ポイントの更新] をタップします。 パネルを上にスライドし、属性フィールドをタップして情報を入力します。 [送信] をタップします。 2. 既存データの編集 (例: エリア) 編集したいフィーチャをマップ上でタップして選択し、左下の [編集] をタップします。 頂点を移動する場合は、その頂点をタップし、[選択したポイントの更新] をタップします。また、頂点を追加する場合は、追加したい位置にある辺を選択して、 [ポイントの追加] をタップします。 属性を変更する場合はパネルを上にスライドし、属性を入力します。 [送信] をタップします。 3. 既存データの属性や形状をコピーして、入力 (例: ポイント) 属性をコピーしたいフィーチャをマップ上でタップします 。 パネルを上にスライドし、[コピー] をタップします。 入力する位置をマップ上で指定し、[ポイントの追加] をタップします。 [送信] をタップします。 エリアやラインの場合は、形状もコピーすることができます。
+4. 写真の添付 マップにデータを入力し、パネルを上にスライドします。 [写真の撮影] をタップし、カメラ ビューで撮影して [写真を使用] をタップします。 [送信] をタップします。 5.</description></item><item><title>フィーチャ レイヤーの設定</title><link>/fieldmaps/get-started/prepare/settings/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/prepare/settings/</guid><description>「フィーチャ レイヤーの作成」で ArcGIS Online や ArcGIS Pro から公開したフィーチャ レイヤーを Field Maps で使用できるように下記の設定をします。
+「フィーチャ レイヤーの作成」で ArcGIS Online を使用して空のフィーチャ レイヤーを作成した場合は、既に下記の設定はそれぞれ有効化されているため、この手順は不要です。
+編集の有効化
+Field Maps でデータを編集できる状態に設定します。
+添付ファイルの有効化
+データの収集時に Field Maps から写真やファイルを添付したい場合は、添付ファイルの有効化が必要です。</description></item><item><title>チュートリアル 2 : テレインとダイナミック シティ レイアウト</title><link>/cityengine/tutorials/tutorial-2-terrain-and-dynamic-city-layouts/</link><pubDate>Fri, 14 Jan 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/tutorial-2-terrain-and-dynamic-city-layouts/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+概要 本チュートリアルでは、道路ネットワークおよび道路の詳細モデルを作成していきます。作成した道路グラフは湖のような障害や、テレインなどにも対応します。Part 2 では、道路グラフから道路シェープを作成します。道路に CGA シェープ グラマー ルールを適用して、詳細な道路モデルを作成していきます。そして、Part 3 では、道路ネットワークを作成するのに必要な属性を見ていきます。
+演習 ・Part 1 : テレインの生成 ・Part 2 : 道路の生成：標高マップと障害物マップ ・Part 3 : 道路：Cleanup ツール ・Part 4 : オブジェクトの配置 ・Part 5 : ダイナミック シティ レイアウト ・Part 6 : 道路パターンの例 Part 1 : テレインの生成 通常、CityEngine のシーンを作成した後はテレインの生成を行います。テレインは単一画像ファイルまたは DEM (デジタル標高モデル) から生成できます。GEO TIF ファイル、および座標系の情報をもつ DEM もサポートしています。 ※ CityEngine で使用する「テレイン」という単語は、ArcGIS の「ラスター」に相当し、ArcGIS の「テレイン」とは別の意味になります。</description></item><item><title>ArcGIS Online Web ページの構成</title><link>/online/users-guide/basic/homeapp/</link><pubDate>Tue, 30 Nov 2021 00:00:00 +0900</pubDate><guid>/online/users-guide/basic/homeapp/</guid><description>ArcGIS Online Web ページの構成を説明します。
+ホーム: トップ画面 (このページ) へのリンクです。 ギャラリー: 組織内でよく使われるマップやアプリケーションを表示できます。デフォルトでは、米国 Esri 社や全世界のユーザーが提供するおすすめのマップが表示されます。 マップ: Map Viewer に移動します。 シーン: 3 次元表示可能な Scene Viewer に移動します。 ノートブック: ArcGIS Notebooks に移動します。 グループ: 組織内のグループを表示します。 コンテンツ: 自分のコンテンツを管理する [マイ コンテンツ] や、所属するグループのコンテンツを表示する [マイ グループ]、お気に入りとして登録したコンテンツを表示する [お気に入り]、組織内で共有されているコンテンツを表示する [組織] タブを表示します。Viewer、Editor、Field Worker ユーザー タイプでは、[マイ コンテンツ] タブは表示されません。 組織: 組織内のメンバーの管理や招待、Web サイト設定、クレジット使用量の確認をすることができます。 検索: マップ、レイヤー、アプリケーション、ツール、ファイル、グループなどを対象に検索を行うことができます。 通知: 通知内容を確認することができます。 アプリ: StoryMaps や Survey123 など、アプリの Web サイトへ移動します。 ユーザー: サイン インしているユーザーの名前が表示されます。マイ プロフィール でプロフィールの変更ができます。[サイン アウト] もここで行います。[ヘルプ] で、ArcGIS Online のヘルプ ページに移動します。 権限や組織の設定によっては、表示されないメニューがあります。</description></item><item><title>入力時の選択リストを作成したい</title><link>/online/users-guide/manage-data/list/</link><pubDate>Tue, 30 Nov 2021 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/list/</guid><description>データの編集時や現地調査アプリでは、あらかじめ決まった選択リストを作成しておくと、キーボード入力の手間を省くことができます。ホスト フィーチャ レイヤーにのみ設定が可能です。
+リストの作成 フィーチャ レイヤーのアイテム詳細ページの [データ] タブ → [フィールド] をクリックします。
+リストを作成したいフィールドの [表示名] をクリックします。
+[リストを作成] をクリックします。
+[ラベル] と [コード] を入力し、入力値リストを作成します。
+レイヤー内にフィーチャが既に存在し、属性値に個別値が含まれている場合、[リストの作成] をクリックすると個別値がリストに自動で追加されます。
+必要に応じて [＋追加] をクリックしてリストを追加したり、ゴミ箱ボタンをクリックしてリストを削除したりしてリストを調整します。
+[コード] の入力値は、フィールドのタイプで指定した値で入力してください。例えば、フィールドのタイプが integer の場合、[コード] に整数を入力し、[ラベル] に分かりやすい名称を設定します。
+[保存] をクリックします。</description></item><item><title>開始手順</title><link>/online/users-guide/create-apps/start/</link><pubDate>Tue, 30 Nov 2021 00:00:00 +0900</pubDate><guid>/online/users-guide/create-apps/start/</guid><description>Web アプリの作成を開始する手順は、以下の A、B、C の 3 つの方法があります。どの方法から開始しても、アプリの作成が可能です。作業しやすい開始手順でアプリの作成を開始してください。
+A. Map Viewer から作成 Map Viewer で作成した Web マップを保存します。 [アプリの作成] をクリックします。 作成したい Web アプリを選択します。 ※ 構成可能なアプリ、ArcGIS Web AppBuilder は方法 B・C で作成可能です。 左下の [展開] をクリックすることで、各タブの名称を表示することができます。
+ご使用のディスプレイのサイズが小さい場合、[その他] に [アプリの作成] が格納されています。
+B. アイテム詳細ページから作成 [コンテンツ] タブをクリックし、 [マイ コンテンツ] を表示します。
+Web アプリに使用したい Web マップのタイトルをクリックして、アイテム詳細ページを開きます。
+画面右側の [Web アプリの作成] をクリックし、作成したい Web アプリを選択します。
+C. マイ コンテンツから作成 [コンテンツ] タブをクリックし、[マイ コンテンツ] を表示します。 画面左上にある [アプリの作成] をクリックし、作成したい Web アプリを選択します。</description></item><item><title>アイテムの削除</title><link>/online/get-started/administer/contents/delete/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/administer/contents/delete/</guid><description>アイテムの削除 組織の管理者は、組織のメンバーが保有するアイテムの削除を行うことができます。
+管理者または組織のメンバーが所有するコンテンツの管理権限を持っているユーザーとして ArcGIS Online にサイン インします。
+サイト上部の [組織] タブ → [メンバー] タブをクリックします。
+操作を行いたいメンバーの右に表示される […] をクリックして、[アイテムの管理] をクリックします。
+メンバーの [マイ コンテンツ] ページへ移動します。
+削除したいアイテムのチェックボックスをオンにし、[削除] をクリックします。
+[削除] ウィンドウで、アイテムを削除しても問題ないかを確認し、[削除] をクリックします。</description></item><item><title>インストールとアンインストール</title><link>/cityengine/get-started/setup/install/installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cityengine/get-started/setup/install/installation/</guid><description>ArcGIS CityEngine のインストールとアンインストールの手順について説明します。
+インストール ArcGIS CityEngine をインストールする手順を説明します。
+CityEngine インストール プログラムである Setup.exe を起動します。 Welcome 画面のインストール作業上の注意事項を読みます。内容を確認したら [Next] をクリックします。 ライセンス契約書 (License Agreement) を読み、内容に同意したら [I accept …] を選択して [Next] をクリックします。 [Change] をクリックしてインストール先のフォルダーを指定するか、デフォルトの場所で良ければそのまま [Next] をクリックします。 [Install] をクリックしてインストールを開始します。 [Finish] をクリックしてウィザードを終了します。 インストール完了後、CityEngine Software Authorization Wizard (ソフトウェア認証ウィザード) が起動します。詳細は「ソフトウェアの認証」をご参照ください。
+アンインストール ArcGIS CityEngine をアンインストールする手順を説明します。
+単独使用 (SU) ライセンスの場合は、必ずアンインストール前にライセンスの認証解除を行ってください。
+[コントロール パネル] を使用する方法 Windows の [コントロール パネル] → [プログラムと機能] をクリックします。 ArcGIS CityEngine をクリックして [アンインストールと変更] から [削除] オプションを選択します。 [設定] を使用する方法 [スタート] → [設定] → [アプリ] から [アプリと機能] へ移動します。 ArcGIS CityEngine をクリックし、[アンインストール] から [削除] オプションを選択します。</description></item><item><title>カードの配置と設定</title><link>/hub/get-started/site/design/card/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hub/get-started/site/design/card/</guid><description>カードを配置・設定する手順を説明します。
+行カードの配置 すべてのカードは、[行] カード内に配置する必要があります。
+画面左側のサイド パネルから [レイアウト] をクリックします。
+[行] カードをレイアウト上にドラッグ &amp;amp; ドロップで追加します。
+テキスト カードの配置と設定 テキスト カードを使用して、サイトの任意の場所にテキストを追加できます。このカードを利用して、ボタン、リスト、テーブル、およびカスタム コードをサイトに追加することもできます。
+[行] カード内に [テキスト] カードをドラッグ＆ドロップで追加します。
+[テキスト] カードを配置すると、テキストを入力するためのボックスが表示されます。
+テキストを入力し、入力が完了したら [編集] ボタンをクリックします。 カテゴリ カードの配置と設定 サイトまたはイニシアティブのコンテンツを、カテゴリ別にグループ化することができます。作成した各カテゴリはラベル テキストと任意のアイコンによって表現できます。
+[行] カード内に [カテゴリ] カードをドラッグ＆ドロップで追加します。 追加した [カテゴリ] カード上にカーソルを移動し、[設定] ボタンをクリックします。
+サイド パネルの [データ] を展開し、カードの構成を設定します。
+[タグ クエリを使用] - タグ クエリを入力します。ArcGIS Online アイテムでこの一致タグを持つデータ セットがすべて、検索結果で返されます。 [カテゴリ クエリを使用] – 組織が設定したカテゴリを表示します。カテゴリの作成方法については、ヘルプをご参照ください。 [グループ] – ArcGIS Online のグループを選択します。このグループのすべてのデータセットが検索結果に返されます。 サイド パネルの [表示設定] を展開し、カードの表示設定を行います。</description></item><item><title>ガイド ツアーの実行</title><link>/business-analyst/web/tutorial/guided-tour/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/web/tutorial/guided-tour/</guid><description>BA Web App では、ガイド ツアーを利用できます。ガイド ツアーは、本アプリの操作方法をポップアップ ガイドに従いながら学ぶことができる機能です。
+詳細な操作を具体的にレクチャーしてくれるため、初めてアプリを触るユーザーでも、初歩的な操作から高度な操作まで、簡単に習得することが可能です。
+ツアーを完了すると、経験値としてポイントが加算され、獲得ポイントに応じてバッジを獲得できます。バッジを獲得することで、次のレベルのツアーを実行できるようになります。なお、一度完了したツアーは何度でもやり直すことができます。
+一部のツアーはクレジットを消費します。また、「特定の条件を満たすエリアの検索」などのツアーは、解析する国を日本に設定していると実行できません。これらのツアーを実行する場合は、解析する国をアメリカに変更してから実行してください。
+ガイド ツアーを利用する方法は、以下の通りです。
+アプリ右上の [アカウントの詳細] → [ガイド ツアー] をクリックし、[ガイド ツアー] ダイアログを開きます。 ガイド ツアーの一覧の中から実行したいツアーを選択し、[移動] をクリックします。 ツアーが開始されます。表示されるポップアップの指示に従い、操作を行います。[ヒント] を展開すると、機能に関する説明を閲覧できます。 ツアーが完了すると、[ガイド ツアー] ダイアログが表示されます。別のツアーを行いたい場合は [移動] をクリックし、更にツアーを実行します。実行しない場合は、[閉じる] をクリックしてダイアログを閉じます。 ツアーの進捗は、アプリ上部に表示されます。前のステップに戻る場合は、[戻る] をクリックします。また、ツアーを中断する場合は [ツアーの停止] をクリックします。</description></item><item><title>コンテンツ ライブラリへの追加</title><link>/hub/get-started/content/add-content-library/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hub/get-started/content/add-content-library/</guid><description>ArcGIS Hub サイトまたはイニシアティブでアイテムを共有するには、アイテムをコンテンツ ライブラリに追加して共有範囲を設定する必要があります。
+既存のアイテムの追加 ArcGIS Online へ公開したフィーチャ レイヤーや、組織に共有された既存のアイテムをコンテンツ ライブラリに追加します。
+サイトまたはイニシアティブを編集モードで開きます。
+編集ナビゲーション バーの 2 つ目のドロップダウン メニュー (サイトまたはイニシアティブ名が表示) → [コンテンツ ライブラリ] をクリックします。
+画面左側の [既存のコンテンツの追加] をクリックします。
+[既存のコンテンツの追加] ダイアログで、取得元 (マイ コンテンツ、お気に入り、組織、世界 (パブリック)) とコレクション (アプリとマップ、データ、ドキュメント、など) をフィルタリングして、追加するコンテンツを個別に選択します。
+選択が完了したら、[選択] をクリックします。追加したアイテムは、サイトまたはイニシアティブのコンテンツ グループに共有されます。
+コンテンツ グループは、サイト上で共有したいアイテムを管理するために使用されるグループです。ArcGIS Hub を使用して新しいアイテムを作成したり、URL を使用してデータセットを追加したり、自分または他のユーザーが作成した既存のアイテムを使用したりすると、そのアイテムはコンテンツ グループに自動的に追加されます。
+アイテムのメタデータを編集 コンテンツ ライブラリに追加したアイテムのメタデータを編集します。
+サイトまたはイニシアティブを編集モードで開きます。
+編集ナビゲーション バーの 2 つ目のドロップダウン メニュー (サイトまたはイニシアティブ名が表示) → [コンテンツ ライブラリ] をクリックします。</description></item><item><title>サイトの公開</title><link>/hub/get-started/site/save-and-publish/publish/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hub/get-started/site/save-and-publish/publish/</guid><description>サイトの変更をパブリックに公開します。サイトを初めて公開する場合は、次の手順を実行します。公開済みのサイトを変更する場合は、手順 3 のみ実行します。
+画面右上の共有範囲のアイコンをクリックします。
+[共有レベル] で [パブリック] を選択します。
+画面右上の [保存] ドロップダウン → [ドラフトの公開] をクリックします。
+ドラフトを公開すると、既存の公開済みサイトが更新されます。公開済みサイトを以前の状態に戻すことはできません。</description></item><item><title>ソフトウェアの認証</title><link>/cityengine/get-started/setup/install/authorization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cityengine/get-started/setup/install/authorization/</guid><description>ArcGIS CityEngine には、単独使用、同時使用、指定ユーザーの 3 つのライセンス形態があります。
+CityEngine のインストールが完了すると CityEngine Administrator Wizard が表示され、ライセンス形態を選択してソフトウェアを認証することができます。
+後で CityEngine Administrator Wizard を起動するには、[スタート] → [すべてのプログラム] → [ArcGIS] から [CityEngine &amp;lt;バージョン&amp;gt; Administrator] を起動します。
+単独使用 (Single Use) 単独使用ライセンスは、使用する個々のマシンについて認証を行う必要があります。認証には、ESU または EVA から始まる 9 ケタの数字の認証番号が必要です。
+My Esri で ArcGIS CityEngine 単独使用ライセンスの認証番号を取得します。詳細は「ライセンス ファイルの作成方法」をご参照ください。 CityEngine Administrator Wizard で [CityEngine Single Use] を選択し、[Authorize Now (今すぐ認証)] をクリックして、Software Authorization Wizard (ソフトウェア認証ウィザード) を起動します。 ウィザードに従ってソフトウェアを認証します。詳細はヘルプをご参照ください。 同時使用 (Concurrent Use) ArcGIS CityEngine を同時使用ライセンスで使用するには、ネットワーク上のライセンス サーバーに ArcGIS License Manager がインストールされ、ArcGIS CityEngine の同時使用ライセンスで認証されている必要があります。</description></item><item><title>ダウンロード</title><link>/cityengine/get-started/setup/download/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cityengine/get-started/setup/download/</guid><description>ArcGIS CityEngine のインストーラーをダウンロードする手順を説明します。
+My Esri サイトへアクセスします。 アクセスの方法は「My Esriに接続」ページをご参照ください。 My Esri の利用開始についての説明は「メイン」ページをご参照ください。
+My Esri のダウンロード ページへアクセスし、ArcGIS CityEngine をダウンロードします。ダウンロード ページへのアクセスおよびダウンロード方法は「製品ダウンロード」ページをご参照ください。 ダウンロードには [ソフトウェアのダウンロード] 権限が必要です。</description></item><item><title>ダウンロード</title><link>/pro/get-started/setup/user/download/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/pro/get-started/setup/user/download/</guid><description>インストーラーのダウンロード ArcGIS Pro およびパッチ等のインストーラーをダウンロードする手順を説明します。 MyEsri または ArcGIS Online からダウンロードする 2 つの方法があります。
+MyEsri からダウンロード My Esri サイトへアクセスします。 アクセスの方法は「My Esri に接続」ページをご参照ください。 My Esri の利用開始についての説明は「メイン」ページをご参照ください。
+My Esri のダウンロード ページへアクセスし、ArcGIS Pro および任意プログラムをダウンロードします。ダウンロード ページへのアクセスおよびダウンロード方法は「製品ダウンロード」ページをご参照ください。 ArcGIS Online からダウンロード ArcGIS Online の利用登録 が完了している場合、ArcGIS Online から ArcGIS Pro 単体のインストーラーをダウンロードすることができます。
+ソフトウェア ダウンロード ポリシーは組織によって異なります。 ArcGIS Online 管理者は、組織の設定のセキュリティのポリシー設定で、[メンバーは、設定ページから、ArcGIS Pro 等のライセンス供与された Esri アプリケーションをダウンロードできます。] をオフにすることで、メンバー自身が ArcGIS Pro をダウンロードできないようにすることができます。
+ArcGIS Online 組織サイトにサイン インします。
+画面右上のユーザー名をクリックして開き、[設定] をクリックします。</description></item><item><title>プロフィールの設定</title><link>/online/get-started/setup/member/set-profile/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/setup/member/set-profile/</guid><description>ユーザーの表示名やプロフィールの公開範囲、表示言語や単位などをプロフィールの設定で変更できます。プロフィールの設定は、いつでも変更できます。
+初めて ArcGIS Online にサイン インすると、プロフィールの情報が表示されます。 各項目や、鉛筆のアイコンをクリックして編集します。 ❶ 画像を設定します。
+❷ 氏名を変更できます。
+❸ ユーザー名を確認できます。ユーザー名を変更することはできません。
+❹ プロフィールに掲載する自己紹介文を入力します。
+❺ 設定したプロフィールを [すべての人に公開] 、 [組織] 、 [非公開] から選択し、公開範囲を制限することができます。
+❻ その他の設定画面を開きます。表示言語や計測単位などを設定できます。
+サイン イン後、ページ右上の名前 → [マイ プロフィール] をクリックしても、同じページにアクセスできます。</description></item><item><title>ユーザー タイプの変更</title><link>/online/get-started/administer/members/usertype/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/administer/members/usertype/</guid><description>ユーザー タイプの概要 ArcGIS Online には、Viewer、Editor、Mobile Worker、Creator、GIS Professional の 5 種類のユーザー タイプがあります。これらのユーザー タイプは、組織サイトのメンバーの ID、利用可能な機能とアプリの組み合わせで構成されています。各ユーザー タイプで利用可能な機能やアプリについては、製品ページをご参照ください。
+ユーザー タイプの変更方法 メンバーのユーザー タイプを変更するには、管理者及びユーザー タイプの変更権限を持ったユーザーである必要があります。
+[組織] ページに移動し、[メンバー] タブをクリックします。 [&amp;hellip;] をクリックし、[ユーザー タイプの管理] をクリックして、ユーザー タイプ/ロールの管理画面を開きます。
+割り当てたいユーザー タイプをプルダウンから選択し、[保存] をクリックします。</description></item><item><title>レポート</title><link>/online/get-started/administer/subscription/report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/administer/subscription/report/</guid><description>レポートとは ArcGIS Online の操作ログやアイテムの一覧をレポートとして csv 形式でダウンロードでき、組織サイトの状態を確認できる機能です。ArcGIS Online 上のさまざまな情報を詳細なレポートとして出力することができます。
+レポートの作成手順 [組織] → [ステータス] → [レポート] タブ → [レポートの作成] をクリックします。 [レポートの作成] をクリックし、出力したいレポートの種類を選択します。
+アクティビティ：組織サイトで行われた操作に関する簡易なログを出力します。 クレジット：クレジットを消費する処理の詳細情報をユーザーごとに集計し出力します。 アイテム：その時点での組織サイト上のアイテム一覧を出力します。 メンバー：その時点での組織サイト上のメンバー一覧を出力します。 サービスの使用状況：API キーおよびアプリケーションの認証情報に関連付けられた使用状況を出力します。 ※ アクティビティ、クレジット、サービスの使用状況は、出力する期間を指定します。
+レポートの各種類のフィールドの詳細はヘルプをご参照ください。
+[レポートの作成] をクリックし、出力されたレポートをダウンロードします。 ダウンロードした CSV ファイルが文字化けする場合は、文字コードを「UTF-8」に指定したうえで Excel などで読み込んでください。</description></item><item><title>処理設定の確認</title><link>/drone2map/quick-start/2d_mapping/2dmapping_processingoption/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_mapping/2dmapping_processingoption/</guid><description>処理設定の確認 [ホーム] タブで [オプション] をクリックして処理設定を確認します。 2D プロダクト テンプレートのデフォルトの設定では、[画像の調整] タブの [タイポイント オプション] / [初期の画像の縮尺] が「1/8 (画像サイズの 8 分の 1)」 が選択されています。 [2D プロダクト] タブでは、[オルソモザイクの作成] と [DSM の作成] のチェック ボックスがオンになっています。
+今回はデフォルトの設定で処理を実行するので、[OK] をクリックします。
+[ホーム] タブの [開始] をクリックし、処理を実行します。</description></item><item><title>処理設定の確認</title><link>/drone2map/quick-start/2d_rapid/2drapid_processingoption/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_rapid/2drapid_processingoption/</guid><description>処理設定の確認 [ホーム] タブで [オプション] をクリックして処理設定を確認します。 高速テンプレートのデフォルトの設定では、[画像調整] タブの [タイポイント オプション] / [初期の画像の縮尺] が「1/4 (画像サイズの 4 分の 1)」 が選択されています。 これにより処理時間が短縮されます。その他の設定は、2D テンプレートと似ていますが、2D テンプレートでは [調整の改善] チェックボックスがオンになっておりより高品質なプロダクトを生成するために画像スケールが自動的に調整されるようになっています。時短短縮のため、このオプションはオフになっています。
+[2D プロダクト] タブをクリックすると、作成するプロダクトは、[オルソモザイクの作成] のチェック ボックスだけがオンになっていることが確認できます。作成するプロダクトを最小限にすることで処理時間を削減することができます。
+今回はデフォルトの設定で処理を実行するので、そのまま [OK] をクリックします。
+[ホーム] タブの [開始] をクリックし、処理を実行します。
+処理を開始すると、[管理] ウィンドウ下部で現在行われている処理の色が変化します。
+また、処理内容と進行状況のバーが最下部に表示され、リアルタイムで確認することができます。</description></item><item><title>処理設定の確認</title><link>/drone2map/quick-start/3d_mapping/3dmapping_processingoption/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/3d_mapping/3dmapping_processingoption/</guid><description>処理設定の確認 [管理] ウィンドウで処理設定を確認します。 3D プロダクト テンプレートのデフォルトの設定では、[画像の調整]、[密度の一致]、 [3D プロダクト] のステップが処理されます。
+[管理] ウィンドウ上部では、「3D プロダクト」の [3D メッシュ] と [ポイント クラウド] にチェックが入っています。ウィンドウ下部の [3D プロダクト] をクリックして [オプション] ウィンドウを開き、処理の詳細を確認します。[ポイント クラウドの作成] の [SLPK] と [LAS] と、[3D テクスチャ メッシュの作成] の [SLPK] のチェック ボックスがオンになっていることを確認します。
+追加のプロダクトを作成したい場合は、[管理] ウィンドウまたは [オプション] ウィンドウで、該当のプロダクトのチェック ボックスをオンにします。
+今回はデフォルトの設定で処理を実行するので、[OK] をクリックします。
+[ホーム] タブの [開始] をクリックし、処理を実行します。</description></item><item><title>動作環境</title><link>/drone2map/get-started/environment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/get-started/environment/</guid><description>インストールを行う前に、動作環境をご確認いただき、要件を満たす環境をご用意ください。最新のシステム要件や推奨されるハードウェア要件につきましてはヘルプをご参照ください。
+ArcGIS Drone2Map 動作環境</description></item><item><title>組織の設定</title><link>/online/get-started/setup/admin/settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/setup/admin/settings/</guid><description>組織の管理者は、ArcGIS Online の Web サイトを構成することで、組織にとって重要な設定を構成できます。
+ホーム ページ ホーム ページは、組織の Web サイトのランディング ページであり、ユーザー コミュニティへの入口としての役割を果たします。 ホーム ページでは、組織のメンバーや一般ユーザーに役立つリソースやコンテンツを提供できます。
+管理者または組織の Web サイトの管理権限を持っているユーザーとして ArcGIS Online にサイン インします。
+サイト上部の [組織] タブ → [設定] タブをクリックします。
+ページ左の [ホーム ページ] をクリックします。
+[ホーム ページ エディター] セクションの [エディターの起動] をクリックします。
+ホーム ページのエレメントを構成します。
+各エレメントの構成の詳細はヘルプをご参照ください。
+[保存] をクリックして、ホーム ページの構成を適用します。
+[閉じる] ボタンをクリックして、ホーム ページ エディターを閉じます。
+サイトの上部にある [ホーム] をクリックすると、ホーム ページが表示されます。
+セキュリティ パスワード ポリシー、ログインの方法、多要素認証など、組織サイトのセキュリティを高めるための設定を行います。</description></item><item><title>CGA の作成</title><link>/cityengine/get-started/quickstart-tutorials/create-cga/</link><pubDate>Wed, 29 Jun 2022 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/create-cga/</guid><description>概要 CityEngine では、プロシージャルという技術を使用して、都市をモデリングします。プロシージャル モデリングを行うには、CGA スクリプトを書いてルールを定義する必要があります。
+ルールとは、モデルをどのように構築するかを記述した設計図です。そして、そのルールを書きこむのが、CGA スクリプト (ルール ファイル) という一連の処理 (コマンド) を記述したスクリプトです。
+CGA スクリプトを作成して、実際にルールをどのように設定していくかを紹介します。
+演習 ・準備 ・CGA スクリプトの記述 ・属性 ・基本的なオペレーション ・今回作成した CGA 準備 プロジェクトの作成から続けて行う場合は、ステップ 1、2 はスキップしてください。
+[スタート] → [すべてのプログラム] → [ArcGIS] → [CityEngine 202x.x] をクリックし、CityEngine を起動します。
+Navigator ウィンドウで、前章で作成したプロジェクトの Scene フォルダーを開き、保存したシーン ファイル (MyScene1.cej) をダブルクリックして開きます。
+Scene ウィンドウ → [New Shapes] のチェックボックスをオフにして、前章で作成したシェープを非表示にします。また、Streetnetwork レイヤーを展開し、Blocks レイヤーのチェックをオンにして表示します。</description></item><item><title>シェープファイルを ArcGIS Online にアップロードしたい</title><link>/online/users-guide/create-data/feature/shapefile/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/create-data/feature/shapefile/</guid><description>シェープファイルを ArcGIS Online にアップロードし、フィーチャ レイヤーとして公開します。この方法では最大 500 GB のファイルを [マイ コンテンツ] にアップロードできます。
+シェープファイルの準備 シェープファイルを zip 形式に圧縮します。
+Windows エクスプローラーでシェープファイルを保存している場所へ移動します。 シェープファイルを構成しているファイルをすべて選択し、右クリック → [送る] → [圧縮 (zip 形式) フォルダー] をクリックします。 ArcGIS Desktop 10.2.1 より前のバージョンや ArcGIS 製品以外で作成したシェープファイルを ArcGIS Online にアップロードした際に属性情報が文字化けする場合があります。下記の 1 ~ 3 の手順で CPG (*.cpg) ファイルを作成し、シェープファイルで使われている文字コードを明示的に指定することにより、文字化けを回避できます。
+テキスト ファイルに「SJIS」と入力して保存します。 ファイル名をシェープファイルと同じ名称に変更し、拡張子を「*.cpg」に変更し、シェープファイルと同じ場所に保存します。 例: シェープファイル「abc.shp」をご利用の場合は「abc.cpg」というファイル名にします。 上記のファイルをまとめて、Zip 形式に圧縮します。 圧縮したシェープファイルを下記の手順でアップロードします。
+シェープファイルのアップロード [コンテンツ] ページ → [マイ コンテンツ] タブで、[新しいアイテム] → [お使いのデバイス] をクリックし、シェープファイルを圧縮した Zip ファイルを指定します。 [アイテム タイプ] が「シェープファイル」になっていることと、[～ を追加してホスト フィーチャ レイヤーを作成] になっていることを確認し、[次へ] をクリックします。 [タイトル] にレイヤー名を入力し、[保存] をクリックします。 タイトルについて、既に組織サイト上に存在するサービス名と同じ名前は使用できません。また、半角英数字およびアンダースコア (_) での入力を推奨します。</description></item><item><title>シーンのブックマークを作成したい</title><link>/online/users-guide/scene/bookmark/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/scene/bookmark/</guid><description>Scene Viewer で表示されている状態をスライドに保存しておくことができます。スライドには、レイヤーの表示設定、日光の設定、表示範囲などを含めることができます。
+Scene Viewer でレイヤーを含むシーンを開くか、シーンにレイヤーを追加し、シンボルを設定します。 各レイヤーの表示設定や、レイヤーの表示/非表示、シーンの表示範囲を決めます。 [スライド] をクリックします。 [スライドのキャプチャ] をクリックします。 スライドが 1 つ追加されます。 スライドの名称を適切なものに変更します。 手順 3 ～ 5 を繰り返し、[完了] をクリックします。 Scene Viewer の下部にマウス カーソルを合わせて表示されるスライドをクリックすると、各ビューにジャンプできます。</description></item><item><title>ラベルを変更したい</title><link>/online/users-guide/map/label/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/map/label/</guid><description>マップ上のフィーチャにテキストを表示します。
+Map Viewer Classic をお使いの場合は、ラベルを変更したい (Map Viewer Classic) をご参照ください。
+Map Viewer でレイヤーを含むマップを開くか、マップにレイヤーを追加します。
+[レイヤー] ウィンドウで、ラベルを適用するレイヤーを選択します。
+[設定] ツールバーの [ラベル] をクリックします。 [フィーチャのラベル作成] ウィンドウで、[ラベルの有効化] 切り替えボタンをオンにします。 [ラベル クラスの追加] をクリックした後、必要に応じてラベル フィールドの変更、ラベル フィルターの編集、ラベル スタイルの編集等を行います。 ラベル フィールドの変更 [ラベル フィールド] をクリックします。次にフィールドを選択して [置換] をクリックし、選択した属性フィールドをラベルに使用します。
+属性フィールドの代わりに、Arcade で記述したカスタム属性式を使用できます。 [式の使用] &amp;lt;/&amp;gt; をクリックし、エディター ウィンドウを使用して式を作成します。詳細についてはヘルプをご参照ください。
+ラベル フィルターの編集 [ラベル フィルター] をクリックします。[式の追加] をクリックしてフィルターを設定します。 詳細についてはヘルプをご参照ください。
+ラベル スタイルの編集 [ラベル スタイルの編集] をクリックします。フォント、テキスト サイズ、配置などのラベルのスタイルを変更します。 詳細についてはヘルプをご参照ください。
+ラベル クラスの名前を変更するためにはラベル クラス名の横にある [オプション] をクリックして [名前の変更] をクリックし、新しい名前を入力した後 [OK] をクリックします。 また、ラベル クラスを削除するにはラベル クラス名の横にある [オプション] をクリックしてから [削除] をクリックします。</description></item><item><title>写真やファイルをフィーチャに添付したい</title><link>/online/users-guide/manage-data/attachment/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/attachment/</guid><description>フィーチャ レイヤーの各フィーチャに画像などファイルを添付したり、モバイル端末のカメラで撮影した画像を現地調査アプリで添付したりすることができます。この機能を使用するには、レイヤーの設定が必要です。
+添付ファイルの有効化 フィーチャ レイヤーのアイテム詳細ページを開きます。
+[概要] タブに表示されている、[レイヤー] 項目内で添付ファイルを有効にしたいレイヤーをクリックします。
+[添付ファイルの有効化] をオンにします。
+Map Viewer でファイルの添付 ファイルを添付するには、レイヤーに対して編集が有効化されている必要があります。
+Map Viewer にレイヤーを追加します。
+右側のツール メニューから [編集] をクリックします。
+[フィーチャの編集] または [フィーチャの作成] をクリックし、新しいフィーチャを作成、または既存のフィーチャを編集します。
+[添付ファイル] で [追加] をクリック → [ファイルの選択] で添付したいファイルを選択し、[更新 (アップデート)] をクリックします。
+・添付可能なファイルのサイズは、 1 ファイルにつき 10 MB の制限があります。
+・添付可能なファイルの形式についてはヘルプをご参照ください。</description></item><item><title>マップの作成</title><link>/insights/tutorial/gcp/page2/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0900</pubDate><guid>/insights/tutorial/gcp/page2/</guid><description>マップの作成
+マップに可視化するためには位置情報が不可欠です。先の演習の最後に「従業員_新宿.Table」や「オフィス.Table」の [データ テーブル] を表示して、テーブル内に「住所」、「緯度経度」といった位置情報が格納されていることを確認しました。
+今回は、従業員の居住地は「従業員_新宿.Table」の「緯度経度」フィールド、事業所の位置は「オフィス.Table」の「住所」フィールドを使用して可視化を行います。
+「従業員_新宿.Table」の右横にある [データセットのオプション] → [位置の有効化] をクリックします。
+以下のようにパラメーターを設定して、[実行] をクリックします。
+[位置情報の種類] : 座標 (デフォルト) [ X (経度)] : 経度 [ Y (緯度)] : 緯度 [空間参照]: 4326 ‐ GCS WGS 1984 [同じフィーチャの繰り返し] をオン 処理が完了すると、自動的に「従業員_新宿.Table」に [座標] フィールドが追加されます。
+座標または住所で位置を有効化した場合では、同じポイントのフィーチャはデフォルトで 1 つのフィーチャに集約されます。全てのポイント フィーチャを集約せずに維持するには、[位置の有効化] で [同じフィーチャの繰り返し] パラメーターをオンにする必要があります。
+[座標] フィールドを選択し、右側のページにドラッグすると表示される [マップ] 領域でドロップすれば、従業員の居住地を示す [マップ カード] が作成されます。これで従業員の居住地を「緯度経度」を用いて、マップ上に可視化することができました。マップの識別を分かりやすくするために、左上の [カード 1 ] をクリックして、[従業員居住地] と変更します。
+「オフィス.</description></item><item><title>住所リストのインポート</title><link>/business-analyst/web/tutorial/importfile/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0900</pubDate><guid>/business-analyst/web/tutorial/importfile/</guid><description>住所が格納された Excel / CSV ファイルをマッピングする (= ジオコーディング) 代表的な方法を 2 つご紹介します。
+*.xls ファイル形式の Excel ファイルはサポートされていません。xlsx ファイル形式をお使いください。
+ジオコーディングでは、住所 1,000 件につき 40 クレジットが消費されます。（緯度経度の取り込みは、クレジットは消費しません。）
+方法 1: BA Web App 上からファイルを追加 BA Web App 上からファイルを追加する方法は、ウィザードに従い手軽にジオコーディングできますが、インポート可能なファイル サイズに上限があったり、国の指定ができなかったりするなど制限がございます。詳細な手順については、BA Web App の Web ヘルプをご参照ください。
+BA Web App 上からファイルを追加する方法 方法 2: ArcGIS Online 上でデータを作成し BA Web App に追加 ArcGIS Online 上でジオコーディングを行ってから、BA Web App に追加する方法をご紹介します。この方法は、インポート可能なファイル サイズの上限が大きくなり、国の指定が可能、地図上から対話的に住所の修正が行えるなどの利点がございます。
+手順
+ArcGIS Online にサインインします。 Excel やテキスト ファイルからフィーチャ レイヤーを作成したい | ArcGIS Online 逆引きガイドを参考にフィーチャ レイヤーを作成します。 BA Web App を開きます。 [マップ] タブの [データの追加] → [Web マップおよびレイヤー] をクリックします。 [Web マップおよびレイヤー] ウィンドウで [マイ コンテンツ] をクリックします。 適宜レイヤー名などで検索をして、作成したレイヤーのサムネイルにカーソルを合わせ、[開く] をクリックします。 BA Web App に追加したフィーチャ レイヤーから商圏を作成する方法をご紹介します。</description></item><item><title>トラッキング データの収集</title><link>/fieldmaps/get-started/mobile/tracking/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/mobile/tracking/</guid><description>トラッキング データ (作業員の現在位置や移動履歴) の収集について説明します。
+トラッキング データの収集には、Mobile Worker ユーザー タイプまたは ArcGIS Location Sharing ユーザー タイプ エクステンション ライセンスが割り当てられたユーザーが必要です。また、組織で位置のトラッキングが有効化されている必要があります。
+マップの一覧ページの上部にある [マイ トラック] をタップします。 トラッキング期間を選択します。 移動履歴を可視化するには、マップを開き、右上の [レイヤー] をタップして、[マイ トラック] をオンにします。 設定の詳細については、ヘルプをご参照ください。</description></item><item><title>トラッキングの構成</title><link>/fieldmaps/get-started/prepare/tracking/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/prepare/tracking/</guid><description>Field Maps では、ArcGIS Location Sharing ライセンスを利用し、位置のトラッキングを有効化することで、モバイル アプリでモバイル作業者の現在地と過去の位置を記録できます。
+位置のトラッキングを使用するには、はじめに管理者が位置のトラッキングを有効化し、その後モバイル作業者の ArcGIS アカウントに Mobile Worker ユーザー タイプまたは Location Sharing ユーザー タイプ エクステンションを割り当てる必要があります。
+モバイル アプリでのトラッキング データの収集の操作方法については、「トラッキング データの収集」をご参照ください。
+位置のトラッキングの有効化 トラッキングを行う前に、組織の管理者はメンバーの位置のトラッキングを有効化する必要があります。
+位置のトラッキングを有効にするには、Mobile Worker ユーザー タイプが 1 つ以上ある組織か、組織が Location Sharing ユーザー タイプ エクステンションを購入し保有している必要があります。
+管理者またはユーティリティ サービス設定の管理権限をもつユーザーとして ArcGIS Online 組織サイトにサイン インします。
+サイト上部の [組織] タブ → [設定] タブをクリックします。
+ページ左の [組織エクステンション] をクリックします。
+[位置のトラッキングの有効化] をクリックします。
+位置のトラッキングを有効化した管理者は、位置のトラッキングに必要なすべてのアイテム (レイヤーおよびトラック ビュー) の所有者となり、それらが格納される「位置のトラッキング」フォルダーがマイ コンテンツに作成されます。</description></item><item><title>独自の参照用ベースマップを配置</title><link>/fieldmaps/get-started/offline/deploy-basemap/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/offline/deploy-basemap/</guid><description>組織サイトで設定されているベースマップを使用せず、独自の背景データをパッケージ ファイルとして端末に配置することで Field Maps モバイル アプリ上で利用できます。ファイルは USB ケーブルやクラウド ドライブなどを介してコピーすることができ、オフライン環境でも利用可能です。パッケージ ファイルの作成には ArcGIS Pro が必要です。
+パッケージ ファイルの作成 ArcGIS Pro で、下記のいずれかのパッケージ ファイルを作成します。
+背景データの種類 作成するデータ 作成方法 衛星画像、航空写真 タイル パッケージ (*.tpk、*.tpkx) マップ タイル パッケージの作成 フィーチャ (区画など) ベクター タイル パッケージ (*.vtpk) ベクター タイル パッケージの作成 パッケージ ファイルの配置 利用するモバイル端末の OS や方法で手順が異なります。
+iOS (iTunes) iOS (ファイル アプリ) Android iOS (iTunes) デバイスをコンピューターに接続します。
+iTunes を開き、デバイスを選択します。</description></item><item><title>チュートリアル 3: マップ制御</title><link>/cityengine/tutorials/tutorial-3-map-control/</link><pubDate>Fri, 14 Jan 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/tutorial-3-map-control/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+概要 都市のモデルは膨大な数のオブジェクトで構成されており、これらのオブジェクトの属性をひとつひとつ設定していくのはコストも労力もかかり、不可能です。本チュートリアルでは、CGA ルール パラメーターの使用方法とスカイライン、土地利用のコントロールについて学習します。
+演習 ・Part 1: CGA ルール パラメーター ・Part 2: 都市のスカイラインを制御する ・Part 3: 建物の土地利用タイプをマップで制御する Part 1: CGA ルール パラメーター 本チュートリアルでは、最初に CGA ルール パラメーターがどのように使用されるのかを学習します。
+Scene フォルダーから、mapcontrolTutorial_01.cej シーンを開きます。
+開いたシーンにはすでに、2 つのマップ レイヤー (Heightmap と Water) および区画のシェープ付きの道路ネットワーク レイヤーが含まれています。
+この時点では、区画 (Lot) を 1 つ選択して[Inspector] ([Window] メニュー → [Inspector]) ウィンドウの中でその属性を確認しても、パラメーターが割り当てられていない (ルール パラメーターに何もない) はずです。そこで、区画にルール ファイルをアサインして、どのように変わるかを確認します。</description></item><item><title>メンバーの追加</title><link>/online/get-started/setup/admin/add-members/</link><pubDate>Fri, 17 Dec 2021 00:00:00 +0900</pubDate><guid>/online/get-started/setup/admin/add-members/</guid><description>組織サイトの構成を設定後、管理者はメンバーを組織サイトに招待することができます。メンバーとは、組織サイトにサイン インできるアカウントを持ったユーザーを指します。
+組織サイトに招待できるメンバー数は、ご契約内容や契約期間に応じて異なります。
+管理者またはメンバーを招待できる権限を持っているユーザーとして ArcGIS Online にサイン インします。
+サイト上部の [組織] タブ → [メンバー] タブをクリックします。
+[メンバーの招待] をクリックします。
+下記から選択し、[次へ] をクリックします。
+メンバーを招待する方法は、下記 3 種類あります。(組織固有のログインを使用している場合は、追加で 2 種類の方法が表示されます。)
+招待メールを送信せずにメンバーを自動的に追加
+各メンバーのユーザー名とパスワードを設定します。 そのメンバーにユーザー名とパスワードを通知する必要があります。 一時パスワードは、最小強度の要件を満たしている必要があります。 メンバーは最初にサイン インするときに、パスワードの変更を求められます。 招待メールは送信されません。 特定のメンバーの電子メール アドレスがない場合は、管理者の電子メール アドレスを使用できます。
+メンバーを追加し、電子メールでそのメンバーに通知
+各メンバーのユーザー名を設定します。メンバーは、ArcGIS Online が送信する電子メールに応答する必要があります。メンバーが組織に加入するには、独自のパスワードを作成します。
+メンバーが任意のアカウントを使用して加入するよう招待
+各メンバーの電子メール アドレスを入力します。 メンバーは、ArcGIS Online が送信する招待メールに応答する必要があります。 メンバーが組織に加入するには、新しいアカウントを作成するか、既存の ArcGIS 個人向けアカウントを移行します。 組織の構成に応じて、新しいアカウントには、SAML、OpenID Connect、ArcGIS、またはソーシャル ログインが使用できます。
+[新規メンバー] をクリックします。</description></item><item><title>他組織のメンバーとコンテンツを共有したい</title><link>/online/users-guide/share/other-org/</link><pubDate>Tue, 30 Nov 2021 00:00:00 +0900</pubDate><guid>/online/users-guide/share/other-org/</guid><description>組織外のメンバーが ArcGIS Online の組織アカウントを保有している場合は、そのメンバーを自組織のグループに招待することで、グループ内のコンテンツを共有できます。グループを作成する権限が必要です。 グループの作成 組織サイトで [グループ] ページを表示し、[マイ グループ] タブの [グループの作成] をクリックします。
+[名前]、[サマリー]、[タグ] を入力します。
+サムネイル画像を追加したい場合は、[画像のアップロード] をクリックして設定します。
+[グループのメンバーシップ] の [このグループに所属できるユーザー] で、次のいずれかのオプションを選択します。
+パートナー コラボレーションおよび自組織のメンバーのみ: 自分の組織、またはパートナー コラボレーションの組織のメンバーのみ加入できます。
+※このオプションは、パートナー コラボレーションが確立している場合のみ使用できます。 任意の組織のメンバー: 自分の組織、または他の組織のメンバーで、外部のグループに加入する権限を持っている場合に加入できます。 以下のオプションをそれぞれ選択します。
+グループへの参加方法 このグループを表示できる人 コンテンツを提供できるユーザー グループの [メンバー] タブでメンバー全員のリストを表示できるユーザー 各オプションの詳細はヘルプをご参照ください。
+[グループの指定] オプションを必要に応じて有効化します。
+共有の更新: すべてのグループ メンバーが、グループに共有されているアイテムを編集できるようにします。
+※[このグループに所属できるユーザー] で [任意の組織のメンバー] を選択した場合は有効化できません。 Open data: オープン データ サイトでこのグループにアクセスすることを許可します。 [保存] をクリックします。</description></item><item><title>(オプション) 2020 年国勢調査 先行リリース版</title><link>/business-analyst/desktop/get-started/data/censusr2-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/get-started/data/censusr2-data/</guid><description>ArcGIS Business Analyst 2022 年版データに追加可能な「2020 年国勢調査 先行リリース版」(以下「本データ」) のセットアップを説明します。
+ArcGIS Business Analyst 2023 年版データ以降は 2020 年国勢調査データが標準搭載されているため、本データの設定は不要です。
+動作環境 セットアップ データの入手 データの配置 データの設定 データの利用 ArcMap 版 BA Desktop で利用する場合 動作環境 本データの動作環境は、以下の通りです。
+ソフトウェア BA Pro 2.9 / 3.0 ArcGIS Business Analyst Desktop 10.8.1 / 10.8.2 データセット ArcGIS Business Analyst 2022 年版データ 本データを利用するためには、お使いの PC に ArcGIS Business Analyst 2022 年版データがインストールされている必要がございます。
+セットアップ データの入手 本データの提供開始の案内メール「ArcGIS Business Analyst 用 2020 年国勢調査 先行リリース版提供のお知らせ」に添付されているドキュメントに記載の URL から、「CensusR2_ba.</description></item><item><title>(オプション) オフライン利用可能な背景地図の利用</title><link>/business-analyst/desktop/get-started/data/offline_basemap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/get-started/data/offline_basemap/</guid><description>2022 年版以降のデータセットでは、オフラインで利用可能な背景地図 (広域地図・公共地図) は、個別にダウンロードいただくことで利用可能となります。ご利用される場合は、以下の手順で背景地図をダウンロードし、データの配置を行ってください。
+インターネット接続環境で BA Pro を操作する場合、ArcGIS Online で配信されているオンライン背景地図もご利用いただけます。
+ステップ１：背景地図の入手 「BA20xx年版データのダウンロードご案内」に記載された、オフライン背景地図のダウンロード用 URL にアクセスし、以下の zip ファイルを任意の場所にダウンロードします。
+広域地図.zip 公共地図.zip ステップ２：背景地図の配置 背景地図を利用するために、背景地図データの解凍および利用のために必要な各種データ一式を所定の場所に配置します。
+zip 圧縮された背景地図を、「BA20xx年版データのダウンロードご案内」に記載されたパスワードを用いて解凍します。 解凍が終了したら、広域地図・公共地図の両方について、フォルダーごと以下のフォルダー内にコピーします。 C:\ArcGIS\Business Analyst\JPN_Esrijapan_20xx\Data\Basemap Data
+データセットのデフォルトのインストール先に基づいて説明を行っています。それ以外のフォルダーに配置もしくはインストールした場合は読み替えてください。
+ArcMap 版 BA Desktop をご利用の場合のみ 以下の設定用ファイルを任意の場所にダウンロードして解凍します。 背景地図設定用ファイル 解凍したフォルダー内に保存された各データを、それぞれ以下のフォルダー内にコピーします。 データ名 コピー先のフォルダー ・Business Analyst 20xx Koiki.mxd・Business Analyst 20xx Public.mxd C:\ArcGIS\Business Analyst\JPN_Esrijapan_20xx\Data ・広域地図.lyr・広域地図（グレースケール）.lyr・公共地図.lyr・公共地図（グレースケール）.lyr C:\ArcGIS\Business Analyst\JPN_Esrijapan_20xx\Dataset\ArcGIS Online Maps ステップ３：背景地図の利用 配置した背景地図を ArcGIS Pro、ArcMap それぞれで利用する方法を説明します。</description></item><item><title>インストールとアンインストール</title><link>/pro/get-started/setup/user/install/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/pro/get-started/setup/user/install/</guid><description>ArcGIS Pro のインストールとアンインストールの手順を説明します。
+インストール ArcGIS Pro をインストールする手順を説明します。
+必ず管理者権限を持つ半角英数文字名のユーザー アカウントでコンピューターにログインして作業を行ってください。
+ArcGIS Pro の実行ファイル (*.exe) をダブルクリックし、インストールを開始します。
+プログラムが自動的に展開されるので、ダイアログにしたがってインストールしてください。
+デフォルトの展開先フォルダーは、&amp;lt;ドキュメント&amp;gt;\ArcGIS Pro &amp;lt;バージョン名&amp;gt; です。展開先のドライブの空き容量が不足する場合は、[参照] ボタンをクリックして別の保存場所を指定してください。
+ArcGIS Pro Intelligence は日本国内において未サポートです。ダイアログではデフォルトのまま [次へ] をクリックしてください。
+ArcGIS Pro がインストールされたら [完了] をクリックします。
+続けて「ArcGIS Pro - 日本語パック」のインストールが開始します。
+ArcGIS Pro 日本語パックのセットアップが終了したら、[OK] をクリックします。
+ArcGIS Pro パッチおよび任意プログラムをインストールする場合は、続いてインストールをしてください。
+以上で ArcGIS Pro のインストールは完了です。
+アンインストール ArcGIS Pro をアンインストールする手順を説明します。
+「ArcGIS Pro &amp;ndash; 日本語パック」→「ArcGIS Pro」の順にアンインストールしてください。</description></item><item><title>ダウンロード</title><link>/drone2map/get-started/download/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/get-started/download/</guid><description>Drone2Map インストーラーのダウンロード MyEsri サイトへアクセスします。
+MyEsri ダウンロード ページにアクセスし、Drone2Map プログラムと必要に応じてパッチをダウンロードします。
+ダウンロード ページへのアクセス方法、ダウンロード方法は、 「製品ダウンロード」 ページをご参照ください。</description></item><item><title>メンバーの削除</title><link>/online/get-started/administer/members/delete-members/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/administer/members/delete-members/</guid><description>ArcGIS Online の組織メンバーを削除するには、管理者ユーザーで、以下の手順を行います。アイテムやグループを所有していたり、ライセンスが割り当てられている状態ではメンバーを削除することができません。
+メンバーが所有しているアイテムを削除、または別メンバーにアイテムを移行 所有しているグループの所有者の変更またはグループ自体を削除 アドオン ライセンスの割り当て解除 Esri アクセスの無効化 メンバーの削除の実行 メンバーが所有しているアイテムを削除、または別メンバーにアイテムを移行 ※アイテムを所有していない場合は、このステップをスキップします。
+詳細な手順は以下のページをご参照ください。
+所有者の変更 アイテムの削除 所有しているグループの所有者の変更またはグループ自体を削除 ※グループを所有していない場合は、このステップをスキップします。
+[組織] メニュー → [メンバー] タブ上で削除したいメンバーを検索し、メンバー名の一番右にある […] をクリックします。 [グループの表示] をクリックし、所属しているグループ一覧を表示します。
+削除するメンバーがグループを所有している場合、グループの所有者の変更もしくは、グループ自体の削除を行います。 グループの所有者の変更を行う場合、グループ名をクリックし、[概要] タブ上で右側にある [所有者] の欄の [所有者の変更] をクリックします。
+グループを削除する場合、グループ名の右側にある [グループの削除] をクリックし、グループを削除します。 アドオン ライセンスの割り当て解除 ※アドオン ライセンスの割り当てがされていない場合は、このステップをスキップします。
+詳細な手順は以下のページをご参照ください。
+ライセンスの割り当てと解除 Esri アクセスの無効化 ※メンバーを完全に削除するために必要なステップです。メンバー アカウントを個人向けプランに変換したい場合は、このステップをスキップします。
+[組織] メニュー → [メンバー] タブ上で削除したいメンバーを検索し、メンバー名の一番右にある […] をクリックします。 [Esri アクセスの無効化] をクリックします。</description></item><item><title>処理結果の確認</title><link>/drone2map/quick-start/2d_mapping/2dmapping_result/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_mapping/2dmapping_result/</guid><description>結果の確認 処理が完了すると、[コンテンツ] ウィンドウの「画像プロダクト」グループに「オルソモザイク」レイヤーが、「DEM プロダクト」グループに「数値表層モデル」レイヤーが追加されます。
+また、[2Dマップ] ビューには高解像度のオルソモザイクが表示されます。
+レイヤーの表示・非表示、マップ上で画面移動やズームを行い、オルソモザイク画像を確認します。</description></item><item><title>処理結果の確認</title><link>/drone2map/quick-start/2d_rapid/2drapid_result/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_rapid/2drapid_result/</guid><description>処理結果の確認 処理が完了すると、[コンテンツ] ウィンドウの「画像プロダクト」グループに「オルソモザイク」レイヤーが追加されます。
+レイヤーの表示・非表示、マップ上で画面移動やズームを行い、オルソモザイク画像を確認します。
+[高速] テンプレートは処理時間を低減するため、低解像度のプロダクトを生成します。
+高解像度のプロダクトを生成したい場合は、[オプション] ウィンドウにおいて手動で解像度パラメーターを変更するか、[2D プロダクト] テンプレートで処理を実行してください。</description></item><item><title>処理結果の確認</title><link>/drone2map/quick-start/3d_mapping/3dmapping_result/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/3d_mapping/3dmapping_result/</guid><description>結果の確認 処理が完了すると [コンテンツ] ウィンドウ → [3D プロダクト] グループに「ポイント クラウド」 レイヤーと「3D メッシュ」レイヤーが、[標高サーフェス] に作成した「DEM」レイヤーが追加され、[3D マップ] には、ポイント クラウドと 3D メッシュが表示されます。
+[コンテンツ] ウィンドウで「ポイント クラウド」レイヤーのチェック ボックスをオフにすると、3D メッシュのみを表示することができます。
+レイヤーの表示・非表示、画面移動やズームを行い、結果を確認します。
+[3D マップ] のマウス操作は、マウスの左ドラッグで画面移動、中央のホイールの回転で拡大 / 縮小、シフトキー + 右ドラッグで回転や傾斜の動作ができます。
+良い結果を得るには、地上基準点(GCP) を使用し、3D プロダクトを生成します。GCP を使用しない場合、誤った標高値によって正しく結果が表示されない場合があります。</description></item><item><title>アドイン ツール</title><link>/pro/get-started/setup/user/addin_tool/</link><pubDate>Fri, 09 Sep 2022 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/addin_tool/</guid><description>日本国内用のツールはアドイン ツールとして提供しています。 任意のツールをダウンロードし、インストールしてご利用ください。
+ダウンロード 変換ツール (国内データ) for ArcGIS Pro 日本の各種団体で規定・提供されている仕様のデータを ArcGIS Pro で利用できるようにするための変換ツール
+ファイル ArcGIS Pro のバージョン 更新日 ESRIJ.ArcGISPro.AddinJPDataCnv_v19.zip 3.0 2022 年 8 月 19 日 ESRIJ.ArcGISPro.AddinJPDataCnv_v18.zip 2.9 2022 年 1 月 14 日 ESRIJ.ArcGISPro.AddinJPDataCnv_v17.zip 2.8 2021 年 6 月 29 日 ESRIJ.ArcGISPro.AddinJPDataCnv_v16.zip 2.7 2021 年 2 月 10 日 ESRIJ.ArcGISPro.AddinJPDataCnv_v15.zip 2.6 2020 年 9 月 10 日 ESRIJ.</description></item><item><title>高度な CGA</title><link>/cityengine/get-started/quickstart-tutorials/advanced-cga/</link><pubDate>Wed, 29 Jun 2022 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/advanced-cga/</guid><description>概要 CGA の作成で作成したモデルの区画や建物の形状を整え、日本の戸建て住宅のような感じにするために、区画と CGA ルールを改良します。
+演習 ・区画の調整 ・フットプリントの生成 ・分岐の使用 ・今回作成した CGA CGA の作成 での CGA ルールは以下のような記述になっています（以下のコードをコピー &amp;amp; ペーストして利用することもできます。）
+「#」 以下はコメント文ですので実際には書く必要はありません。
+attr Height = rand(5,20) #5~20m の間でランダムに高さを設定 @Color attr roofcolor = listRandom(&amp;quot;#ff7f50;#9acd32;#ff4500&amp;quot;) @Color attr wallcolor = listRandom(&amp;quot;#ffff00;#00ffff;#dda0dd&amp;quot;) Footprint--&amp;gt; extrude(Height) #[Height] 属性に基づいて立ち上げ House House--&amp;gt; comp(f){top: Roof | side: Wall} #シェープをトップ（屋根）とサイド（壁）に分割 Roof--&amp;gt; roofGable(20,1,1) #Gable（切妻型）の屋根を設定 color(roofcolor) Wall--&amp;gt; color(wallcolor) 区画の調整 CityWizard のデフォルト設定で作成された区画は、日本の戸建て住宅としては大きすぎるので、各区画の面積が 100 ～ 150 平方メートルになるように設定します。</description></item><item><title>ArcGIS Pro からフィーチャ レイヤーを公開したい</title><link>/online/users-guide/create-data/feature/arcgispro/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/create-data/feature/arcgispro/</guid><description>ArcGIS Pro 上のベクター データをフィーチャ レイヤーとして ArcGIS Online に公開します。「ホスト フィーチャ レイヤーの公開」権限が必要です。
+それぞれのステップの詳細な手順は、「ArcGIS Pro 逆引きガイド」をご参照ください。
+ArcGIS Pro を起動し、プロジェクトを作成します。
+ArcGIS Pro 逆引きガイド「1-4. ArcGIS Pro の起動と保存」
+空のフィーチャクラスを作成、もしくは既存データを追加します。
+ArcGIS Pro 逆引きガイド「8-1. 新しくデータを作成したい」、「2-3. マップにデータを追加・削除したい」
+空のフィーチャクラスを作成した場合は、フィールドを作成、必要に応じて、データ入力時の選択リスト (ドメイン) を作成します。
+ArcGIS Pro 逆引きガイド「9-3. 新しいフィールドを作成したい」、「9-10. 入力値をリストから選べるようにしたい」
+ArcGIS Online にサイン インしていることを確認し、[コンテンツ] ウィンドウで公開するレイヤーを右クリックし、[共有] → [Web レイヤーとして共有] をクリックします。
+[Web レイヤーとして共有] ウィンドウで、[名前]、[概要]、[タグ] を入力し、[レイヤー タイプ] は [フィーチャ] を選択します。
+Web レイヤーの [名前] には、半角英数字およびアンダースコア (_) での入力を推奨します。また、既に組織サイト上に存在するサービス名と同じ名前は使用できません。公開後、ArcGIS Online のアイテム詳細ページで、わかりやすい日本語名に変更できます。</description></item><item><title>ポップアップの内容を変更したい</title><link>/online/users-guide/map/popup/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/map/popup/</guid><description>フィーチャの属性情報を表示する吹き出しの内容を変更します。
+Map Viewer Classic をお使いの場合は、ポップアップの内容を変更したい (Map Viewer Classic) をご参照ください。
+Map Viewer でレイヤーを含むマップを開くか、マップにレイヤーを追加します。
+[レイヤー] ウィンドウで、ラベルを適用するレイヤーを選択します。
+[設定] ツールバーの [ポップアップの構成] をクリックし、内容を変更します。 [ポップアップの有効化] 切り替えボタンをオンにすることでポップアップを有効化することができます。レイヤーのポップアップを非表示にするには、切り替えボタンをオフにします。 [タイトル] タイトルの入力・変更ができます。[{}] をクリックして、データからフィールドを選択します。 [フィールド リスト] フィールド リストのタイトルや説明を追加できます。また、ポップアップに表示するフィールドを選択できます。 [添付ファイル] 添付ファイルのタイトルや説明を追加できます。 [コンテンツの追加] 画像やチャート、テキストなどのメディアをポップアップに追加することができます。 ポップアップの構成について詳細はこちらをご参照ください。</description></item><item><title>比較レポートの作成</title><link>/business-analyst/web/tutorial/comparison_report/</link><pubDate>Sat, 05 Mar 2022 00:00:00 +0900</pubDate><guid>/business-analyst/web/tutorial/comparison_report/</guid><description>比較レポートでは、使用頻度が高い統計指標を選び、手軽に商圏を比較することができます。
+人口の比較レポートの作成とテンプレートの保存 このステップでは、「人口総数」「人口密度」「人口総数 増減率」を比較するレポートを作成します。
+[マップ] タブを選択し、[アドレスまたは位置の入力] に「東京駅」と入力し、Enter キーを押します。 [サイトの作成] をクリックし、デフォルトの設定のまま [適用] をクリックします。 [レポート] タブの [比較レポート] → [比較レポート] をクリックします。
+[新しいレポートの作成] をクリックします。 データ ブラウザーで、「人口」をクリックします。 「国勢調査2015:人口総数」、「国勢調査2015:人口密度」のチェックボックスをオンにします。
+[すべての「人口」変数を表示] をクリックします。 「人口増減率」横の [▶] をクリックし、展開します。
+「国勢調査2015:2010-2015 人口総数 増減率 (%)」のチェックボックスをオンにします。 データ ブラウザー右下の [適用] をクリックします。 比較レポートを実行できました。
+[サイトの追加] をクリックすると、すでに作成したサイトを追加することができます。
+[保存] をクリックします。 「人口比較」と入力し、[保存] をクリックします。 「人口比較」レポートテンプレートを作成できました。これで、次回からはすぐに結果を求めることが可能になります。
+レポートを組織内に共有することも可能です。その場合は、[レポートの選択] ドロップダウン リストをクリックし、共有したいテンプレートの [レポートの共有] をクリックして共有範囲を選択し、[共有] をクリックします。
+左下の [リング、運転時間、徒歩時間の展開] をクリックします。 2 次、3 次の商圏を同時に比較することができるようになりました。
+任意のサイトの [&amp;hellip;] をクリックし、[ベンチマークの作成] を選択します。</description></item><item><title>オフライン マップの操作</title><link>/fieldmaps/get-started/offline/edit-sync/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/offline/edit-sync/</guid><description>オフライン マップを Field Maps モバイル アプリで操作します。オフライン環境でデータの収集を行ったのち、インターネット接続がある環境で編集データの同期を行います。
+オフライン マップでデータの収集 Field Maps モバイル アプリを開きます。
+Field Maps のマップ一覧の画面で、オフライン エリアを作成したマップ名をタップします。
+エリア名をタップして、オフライン マップを開きます。
+独自の参照用ベースマップを配置した場合は、右上の […] → [ベースマップ] をタップし、追加したパッケージ ファイルをベースマップとして利用できることを確認します。
+オフライン環境でデータの編集を行います。編集したデータは端末に保存されます。
+収集したデータの同期 端末をインターネットに接続します。 オフライン エリア一覧の画面で同期するエリア名右の […] → [同期] をタップします。 または、マップを開いた状態で [↑↓] → [同期] をタップします。 デフォルトでは、インターネットに接続して 15 分後に自動的に同期が行われます。自動同期を無効にする場合は、アプリの [プロファイル] 設定で [自動同期] のトグルをオフにします。
+オフライン エリアがあるマップはオフライン利用に限定されます。オフライン利用を解除したい場合は、モバイル アプリでエリアの削除を行います。さらに、Field Maps Web アプリで作成したオフライン エリアを Web アプリで削除します。</description></item><item><title>チュートリアル 4: 道路データのインポート</title><link>/cityengine/tutorials/tutorial-4-import-streets/</link><pubDate>Fri, 14 Jan 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/tutorial-4-import-streets/</guid><description>チュートリアルデータ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードすることができます。
+概要 チュートリアル 4 では、外部からインポートした道路データを扱う方法をご紹介します。外部のアプリケーションで作成、またはデータベースから導入された .dxf、.osm または *.shp ファイル フォーマット内にある道路ネットワーク データを CityEngine にインポートし、街作成のために初期データとして使用します。
+演習 ・Part 1: DXF から道路データをインポート ・Part 2: OpenStreet Map (OSM) から道路データをインポート ・Part 3: シェープファイル (.shp) から道路データをインポート Part 1: DXF から道路データをインポート CityEngine 道路ネットワーク CityEngine StreetNetwork (道路ネットワーク) は、Graph Node (交差点) と Graph Edge (道路セグメント) からなる属性付きの Graph (CityEngine ではライン データを Graph と呼びます) です。これは、CiyEngine 内で作成できる道路作成フィーチャから生成、または DXF などの外部ファイルからインポートすることができます。</description></item><item><title>Business Analyst ツールバー</title><link>/business-analyst/desktop/tips/reference/functionality/ba-toolbar/</link><pubDate>Thu, 13 Jan 2022 00:00:00 +0900</pubDate><guid>/business-analyst/desktop/tips/reference/functionality/ba-toolbar/</guid><description>本ページでは、ArcMap 版の [Business Analyst] ツールバーから実行できる各種機能が、ArcGIS Pro 版でどれだけ利用できるかを説明します。
+分析プロジェクト 機能名 (ArcMap 版) ArcGIS Pro 版への実装 機能名 (ArcGIS Pro 版) 関連チュートリアル 備考 分析プロジェクトの作成 ◯ プロジェクトの作成 事前準備 分析範囲 機能名 (ArcMap 版) ArcGIS Pro 版への実装 機能名 (ArcGIS Pro 版) 関連チュートリアル 備考 分析範囲の作成 - - - ArcGIS Pro 版では、[目標物リストからポイントを生成] ツールのような一部の Business Analyst ツール内で分析範囲を設定可能 店舗の設定 BA Pro では、標準機能を利用して店舗ポイントの作成ができます。</description></item><item><title>データの編集に関する設定を変更したい</title><link>/online/users-guide/manage-data/privilege/</link><pubDate>Tue, 30 Nov 2021 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/privilege/</guid><description>データの編集に関するさまざまな設定を変更できます。
+編集の有効化 データを編集できるようにします。
+フィーチャ レイヤーのアイテム詳細ページの [設定] タブ → [編集の有効化] チェックボックスをオンにします。
+[どのような種類の編集が許可されていますか？] で許可する編集の権限を選択します。
+[保存] をクリックします。
+既に保存済みの Web マップにレイヤーを追加している場合、レイヤーの編集が不可の状態を保持しています。Web マップで編集ができない場合は、上記の設定後にレイヤーを追加し直し、再度保存してください。
+オフラインで利用する 現地調査アプリでオフライン利用ができるようにします。
+フィーチャ レイヤーのアイテム詳細ページの [設定] タブ → [同期の有効化] チェックボックスをオンにします。 [保存] をクリックします。 編集者、編集日時の自動記録 フィーチャごとに、作成者、作成日時、更新者、更新日時が自動記録されるフィールドを作成し、アプリ上で表示できるようにします。
+フィーチャ レイヤーのアイテム詳細ページの [設定] タブ → [フィーチャの作成者および最終更新者を記録] チェックボックスをオンにします。 [保存] をクリックします。 フィーチャ レイヤーに [CreationDate]、[Creator]、[EditDate]、[Editor] の列が自動で追加され、それぞれフィーチャの作成日時と作成者、更新日時と更新者が自動記録されます。 フィーチャの閲覧・編集権限の制御 フィーチャの閲覧・編集権限を細かく制御します。
+フィーチャ レイヤーのアイテム詳細ページの [設定] タブ → [フィーチャの作成者および最終更新者を記録] チェックボックスをオンにします。</description></item><item><title>インストールとアンインストール</title><link>/drone2map/get-started/installuninstall/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/get-started/installuninstall/</guid><description>Drone2Map のインストール Drone2Map をインストールする手順を説明します。
+必ず管理者権限を持つ半角英数文字名のユーザー アカウントでコンピューターにログインして作業を行ってください。
+Drone2Map の実行ファイル (*.exe) をダブルクリックし、インストールを開始します。
+プログラムが自動的に展開されるので、ダイアログに従ってインストールしてください。
+Drone2Map がインストールされたら [完了] をクリックします。
+続けて 「ArcGIS Drone2Map 日本語パック」 のインストールが開始します。
+Drone2Map 日本語パックのセットアップが終了したら [OK] をクリックします。
+パッチおよび任意プログラムのインストールについて
+Drone2Map のパッチをインストールする場合は、続いてインストールをしてください。
+以上で Drone2Map のインストールは完了です。
+Drone2Map のアンインストール Drone2Map をアンインストールする手順を説明します。
+必ずアンインストール前にオフライン設定の解除を行ってください。
+Windows の [コントロール パネル] → [プログラムと機能] を開きます。
+「ArcGIS Drone2Map 日本語パック」 → 「ArcGIS Drone2Map」 の順にアンインストールします。各プログラムについて [アンインストールと変更] をクリックしてアンインストールを実行します。</description></item><item><title>ライセンス マネージャー</title><link>/cityengine/get-started/setup/license-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cityengine/get-started/setup/license-manager/</guid><description>ライセンス マネージャーは、 ArcGIS CityEngine や ArcGIS Engine、ArcGIS Desktop とエクステンション製品の同時使用ライセンスを管理するために必要です。
+ライセンス マネージャーにより ArcGIS 製品群の同時使用バージョンを任意の台数のマシンにインストールすることで、製品の使用が可能になります。
+ライセンス ファイルに記述されている同時使用ライセンスのライセンス数により、ソフトウェアを同時に使用できるユーザーの人数が決まります。
+ArcGIS CityEngine 同時使用ライセンスを使用するには、ArcGIS License Manager が既に稼動しているか、新たにインストールする必要があります。
+ライセンス マネージャーの詳細やインストール手順については「License Manager ガイド」をご参照ください。
+License Manager の各バージョンがサポートしている ArcGIS CityEngine のバージョンについては「サポートされているソフトウェア製品」をご参照ください。</description></item><item><title>空間解析機能の実行</title><link>/insights/tutorial/gcp/page3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/insights/tutorial/gcp/page3/</guid><description>[空間解析機能の実行] 空間解析機能を用いて、事業所から半径 10 km 以上に住んでいる帰宅困難となる従業員を特定します。 事業所が表示されている「オフィス.Table」の「事業所の位置」(マップ カード ２) を選択状態にします。 マップ カード右下の アクションボタンをクリックして、バッファー/到達圏を選択します。 [アクション] ボタンから分析機能にアクセスすることができます。どのような分析を行っていいかわからない場合は、[アクション] ボタンの [回答の検索] タブから対話的に分析を実施することができます。
+以下のようにパラメーターを設定して、[実行] をクリックします。 [バッファー処理するレイヤーの選択]: オフィス.Table [距離と単位の設定]: 固定距離、10 キロメートル [バッファー スタイルの選択]: オーバーラップ 処理が完了すると、自動的に「固定距離 1」というテーブル データセットが作成され、レイヤーが「事業所の位置」に出力されます。 バッファーは、ある地点から特定の距離範囲のエリアを作成する機能です。ここでは事業所から 10 km 圏内のバッファーを作成することで、10 km 圏外の従業員の自宅を抽出するのに使用します。
+「固定距離 １」では分かりにくいため、レイヤー名を変更します。[データセット名の変更] をクリックして、「オフィスから 10 km」と変更します。
+10 km 圏外の従業員を抽出するために、オフィスから 10 km と従業員のデータを重ね合わせます。[従業員居住地」の右上にある「従業員_新宿.Table」レイヤーを「事業所の位置」にドラッグして、[新しいレイヤーの追加] にドロップします。
+データの追加は、コンテンツ タブだけでなく、既に追加されている異なるデータからも可能です。
+「事業所の位置」を選択状態にします。マップ カード右下の [アクション] ボタンをクリックして、[空間フィルター] を選択します。</description></item><item><title>シンボル スタイルとフォント</title><link>/pro/get-started/setup/user/style_font/</link><pubDate>Fri, 19 Aug 2022 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/style_font/</guid><description>ArcGIS Pro で使用できる日本用地図シンボルです。地図シンボルを利用するためには、フォントをインストールし、シンボル スタイルの利用設定を行います。
+フォント ダウンロード ファイル 更新日 JpnPack_Fonts_2020_10.msi 2020 年 10 月 20 日 インストール ダウンロードしたファイル (*.msi) をダブルクリックし、インストールを行います。
+シンボルスタイル ダウンロード ファイル ArcGIS Pro のバージョン 更新日 ArcGISPro30_JpnStyle.zip 3.0 2022 年 8 月 19 日 ArcGISPro27_JpnStyle.zip 2.7、2.8、2.9 2021 年 2 月 10 日 ArcGISPro24_JpnStyle.zip 2.5、2.6 2019 年 9 月 4 日 利用方法 日本国内用のシンボル スタイルを ArcGIS Pro のプロジェクトに追加する方法 ファイルをダウンロードして解凍し、任意の場所にコピーします。 ArcGIS Pro のプロジェクトを開きます。 [挿入] タブ → [追加] → [スタイルの追加] から使用したいスタイル ファイル (拡張子：*.</description></item><item><title>テクスチャの適用</title><link>/cityengine/get-started/quickstart-tutorials/apply-texture/</link><pubDate>Wed, 29 Jun 2022 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/apply-texture/</guid><description>概要 高度なCGA では区画を整理したり、屋根の種類を増やしたりして日本の住宅地に見られる戸建て住宅を模した形状を作成しましたが、今回はその仕上げとして、建物モデルにテクスチャを貼り付けてより見栄えの良いものにします。
+演習 ・テクスチャ画像の準備 ・テクスチャ貼り付け ・今回作成した CGA テクスチャ画像の準備 テクスチャに使用する画像は、サンプルデータを使用すれば作るまでもありませんが、残念ながら、日本の住宅地の作成に適用できそうなものはあまりありません。
+ESRIジャパンが作成した屋根と建物の外観 (ファサード) のテクスチャ画像を ArcGIS Online のページよりダウンロードします。
+ダウンロードが完了したら、Zip ファイルを 解凍し、CE2016_ZeroProject/assets/house フォルダーを MyProject プロジェクトの assets フォルダ ー の中にコピーし、Ctrl + F5 キーを押して更新してください。
+また、CE_ZeroProject/rules フォルダーには参考用として CGA の作成からテクスチャの適用で作成した CGA ルールのサンプル ファイルが格納されています。
+プロジェクトの存在するワークスペースは、インストール後、初めて CityEngine を起動したときに設定しています。
+使用しているワークスペースがどこにあるかわからない場合は、Navigator ウィンドウ でプロジェクト フォルダーを右クリック → [Properties] → Location に記述してあるパスを確認してください。
+屋根のテクスチャ Navigator ウィンドウの中で MyProject プロジェクトの中の assets/house フォルダ ーを開きます。</description></item><item><title>データを時系列で見たい</title><link>/online/users-guide/manage-data/time/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/time/</guid><description>データの属性に含まれる時系列情報を使用して、ArcGIS Online の Map Viewer 上で時系列のアニメーションでデータを表示することができます。
+使用するデータはあらかじめ「フィーチャ レイヤーを公開したい」を参考に作成してください。
+時間の有効化 フィーチャ レイヤーのアイテム詳細ページを開き、[概要] タブの [レイヤー] 項目で時間を有効化したいレイヤーをクリックします。
+右下の [時間設定] の [有効ではありません] をクリックします。
+[時間設定] ダイアログで、[時間の有効化] チェックボックスをオンにします。
+[時間フィールド] または [開始時間フィールド] と [終了時間フィールド] に Date 型のフィールドを指定します。
+[OK] をクリックします。
+タイム スライダーの利用 Map Viewer Classic をお使いの場合は、タイムスライダーの利用 (Map Viewer Classic) をご参照ください。
+Map Viewer に時間の有効化を行ったレイヤーを追加します。
+Map Viewer の下部にタイム スライダーが表示されます。[再生] または [停止] ボタンをクリックするとアニメーションが再生・停止します。[前へ] または [次へ] ボタンをクリックすると、前後のステップに移動することができます。</description></item><item><title>表示するデータを限定したい</title><link>/online/users-guide/map/filter/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/map/filter/</guid><description>条件に当てはまるフィーチャのみをマップ上に表示します。
+Map Viewer Classic をお使いの場合は、表示するデータを限定したい (Map Viewer Classic) をご参照ください。
+Map Viewer でレイヤーを含むマップを開くか、マップにレイヤーを追加します。
+[レイヤー] ウィンドウで、フィルターを適用するレイヤーを選択します。
+[設定] ツールバーの [フィルター] をクリックします。 [フィルター] ウィンドウの [式の追加] をクリックします。 式に使用するフィールドを選択して [置換] をクリックします。 [等しい]、[等しくない]、[含む] などの演算子を選択します。 日付フィールドを選択している場合は日付演算子を使用できるようになります。詳細はヘルプをご参照ください。
+値の入力ボックスに条件の値を入力します。 複数の式を作成して And/Or 条件を適用することもできます。詳細についてはヘルプをご参照ください。
+[保存] をクリックします。</description></item><item><title>カスタム変数を用いたカラーコード マップの作成</title><link>/business-analyst/web/tutorial/customize-colorcodedmap/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0900</pubDate><guid>/business-analyst/web/tutorial/customize-colorcodedmap/</guid><description>このページでは任意の地点から作成した商圏に重なるカラーコード マップを、カスタム変数を使用して作成します。 また、その結果を Excel ファイルとしてエクスポートします。
+カラーコード マップでは、すばやく対象地域の統計情報をマッピングできます。 カラーコード マップの基本的な操作方法は、ガイドツアーの「レベル 1 ：データからカラーコード マップを作成」で学ぶことができますので、ご利用ください。
+商圏の作成 まず、商圏を作成します。
+[マップ] タブ→ [エリアの定義] → [位置の検索] をクリックします。 [住所を入力します。] に「東京都新宿区西新宿２-８-１」と入力し、[検索] を押します。 [位置に名前を付けます。] に「東京都庁」と入力し、[適用] をクリックします。 [位置の周辺にエリアを追加します。] の設定はそのままで、[適用] をクリックします。 マップ上に、東京都庁を中心としたリング商圏が作成されました。
+カスタム変数を用いたカラーコード マップの作成 次に、カスタム変数を作成し、その変数を用いたカラーコード マップを作成します。
+[マップ] タブの [マップの作成] → [カラーコード マップ] をクリックします。 左側に [カラーコード マップ] ダイアログ ボックスが表示されたら、[カスタム変数の作成] をクリックします。 [カスタム変数の作成] ダイアログ ボックスが開いたら、[標準データ] の [年齢] カテゴリをクリックします。 [年代別人口] をクリックします。
+「2015 年代別 人口 (国勢調査)」の横の [▶] をクリックして、展開します。
+「国勢調査2015:人口 20 歳代」「国勢調査2015:人口 30 歳代」にチェックを入れます。 [選択した変数の追加] をクリックします。 [合計値として追加] をクリックします。 [保存と追加] をクリックします。 [カスタム変数の保存] ウィンドウで、「2015年20-30歳代の人口」と入力し、[保存] をクリックします。 マップ上に 20-30 歳代人口が表示されました。</description></item><item><title>チャートやテーブルに可視化</title><link>/insights/tutorial/gcp/page4/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0900</pubDate><guid>/insights/tutorial/gcp/page4/</guid><description>チャートやテーブルに可視化 先の演習で、事業所から 10 km 圏外に住んでいる従業員のみを抽出しました。本項では帰宅困難となる従業員のテーブルを利用して、その属性をテーブルとグラフで可視化していきます。
+なお、下記の手順で実際に作成したワークブックは、こちらから確認できます。
+「帰宅困難となる従業員」のデータセットを展開して、可視化したい任意のフィールドを選択します。その後、右側の余白のページにドラッグして、[チャート] 領域でドロップします。[チャート] 領域でドロップすると、選択したフィールド タイプに応じた [可視化タイプ] が表示されます。 例 1: 年齢と世帯人員の関連を可視化するために「年齢区分」と「世帯数区分」をチャートの [データ クロック] にドロップ
+「帰宅困難となる従業員」のデータセットを展開して、可視化したい任意のフィールドを選択します。その後、[ページに追加] タブの右 2 つ横の [チャート作成] 横にあるドロップダウン リストの中から必要に応じたグラフ、チャートを選択するとデータが可視化されます。 例 2 : 性別の構成比を可視化するために、「性別」を選択して、チャートの [バブル グラフ] をクリック
+上記の中から任意の可視化方法を選択して、下記のデータを可視化してみましょう。 婚姻区分、年齢区分 → [カラム チャート] 同様のステップでチャートやテーブルを複数作成してみましょう。 任意の属性条件をクリックすると、他のカードと連動することができます。ここではステップ 1 で例示したデータ クロックのカードで、世帯数が「2 人」かつ年齢区分が「35 ～ 44 歳」であるセルをクリックします。その結果、選択された情報のみが表示されます。
+任意の選択したデータのみを抽出して、新しいマップ カードを作成することも可能です。ここではステップ 2 で例示したバブル グラフのカードで「女性」を選択して、「帰宅困難となる従業員」を女性だけの表示に絞ります。
+凡例のレイヤー シンボルを選択し、[マップ] 領域にドロップすると新しいマップが作成されます。
+左上にある [保存] をクリックしてワークブックを保存します。</description></item><item><title>チュートリアル 5: シェープのインポート</title><link>/cityengine/tutorials/tutorial-5-import-initial-shapes/</link><pubDate>Fri, 14 Jan 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/tutorial-5-import-initial-shapes/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードすることができます。
+概要 このチュートリアルでは、外部モデルをシェープとして取り込む方法を学習します。インポートされたシェープはシーンの中でそのまま、または CGA ルールでさらに処理されて使用されます。
+演習 ・Part 1 :シェープファイル/ジオデータベースからシェープをインポート ・Part 2 :OBJ からシェープをインポート ・Part 3 :立体モデルのインポート ・Part 4 :Landmarks をシェープとしてインポート Part 1 :シェープファイル/ジオデータベースからシェープをインポート シェープファイルのインポート
+[File] メニュー → [New] → [CityEngine] → [CityEngine Scene] から新規シーン ファイルを開きます。
+[Navigator] ウィンドウで、data/shp_footprints/ フォルダーから footprint.</description></item><item><title>テリトリー デザイン ツールバー</title><link>/business-analyst/desktop/tips/reference/functionality/td-toolbar/</link><pubDate>Thu, 13 Jan 2022 00:00:00 +0900</pubDate><guid>/business-analyst/desktop/tips/reference/functionality/td-toolbar/</guid><description>本ページでは、ArcMap 版の [テリトリー デザイン] ツールバーから実行できる各種機能が、ArcGIS Pro 版でどれだけ利用できるかを説明します。
+テリトリー ソリューションの作成 機能名 (ArcMap 版) ArcGIS Pro 版への実装 機能名 (ArcGIS Pro 版) 関連チュートリアル 備考 テリトリー ソリューションの作成 ◯ テリトリー ソリューションの作成 - テリトリー ソリューションの作成方法 機能名 (ArcMap 版) ArcGIS Pro 版への実装 機能名 (ArcGIS Pro 版) 関連チュートリアル 備考 シード ポイントからテリトリーを作成 ◯ テリトリー シード ポイントの追加 - 最適位置からテリトリーを作成 ◯ - - ArcGIS Pro 版では、以下のツールを任意に設定することで利用可能・バランス調整変数の設定・テリトリー属性制限・テリトリー距離パラメーター 密度中心からテリトリーを作成 ◯ - - ArcGIS Pro 版では、以下のツールを任意に設定することで利用可能・バランス調整変数の設定・テリトリー属性制限・テリトリー距離パラメーター データベースからテリトリーをインポート ◯ テリトリー ソリューションのインポート - 手動でテリトリーを作成 ◯ テリトリーの手動作成 - テリトリー ソリューションの設定 機能名 (ArcMap 版) ArcGIS Pro 版への実装 機能名 (ArcGIS Pro 版) 関連チュートリアル 備考 テリトリーのバランス調整 ◯ バランス調整変数の設定 - テリトリー形状の制御 ◯ テリトリー レベル オプションの設定 - ArcGIS Pro 版では、[テリトリー レベル オプションの設定] ツールの [圧縮率] オプション機能を設定することで利用可能 テリトリー距離パラメーターの設定 ◯ テリトリー距離パラメーターの設定 - テリトリー ネットワーク インデックスの構築 ◯ テリトリー距離パラメーターの設定 - ArcGIS Pro 版では、[テリトリー距離パラメーターの設定] ツールの [ネットワーク パラメーター] の [ネットワーク インデックスの構築] オプションを有効にすることで設定可能 テリトリー レベルの追加 ◯ テリトリー レベルの追加 - テリトリー バリアの追加 ◯ テリトリー バリアの追加 - 空間結合による変数のインポート ◯ フィールドの結合 - 属性結合による変数のインポート ◯ 空間結合 - テリトリーの作成範囲の設定 ◯ テリトリー ソリューションの作成 - ArcGIS Pro 版では、ポイント ベースのテリトリーを作成する時のみ [テリトリー ソリューションの作成] ツールの [境界マスク] オプションから設定可能 テリトリー ソリューションのインポート 機能名 (ArcMap 版) ArcGIS Pro 版への実装 機能名 (ArcGIS Pro 版) 関連チュートリアル 備考 テリトリー ソリューションのインポート ◯ テリトリー ソリューションのインポート - テリトリーのエクスポート 機能名 (ArcMap 版) ArcGIS Pro 版への実装 機能名 (ArcGIS Pro 版) 関連チュートリアル 備考 Business Analyst の商圏へエクスポート - - - テリトリー データベースのエクスポート - - - テリトリー データベースと基本単位レイヤー レコードのエクスポート ◯ テリトリー ソリューションのエクスポート - テリトリーの境界と変数のエクスポート △ テリトリー レベル フィーチャクラスの作成 - ArcGIS Pro 版では、[フィーチャクラス] オプションで「テリトリー境界」を選択することで、テリトリーの境界のみをエクスポート可能 テリトリーの解析 機能名 (ArcMap 版) ArcGIS Pro 版への実装 機能名 (ArcGIS Pro 版) 関連チュートリアル 備考 テリトリーの解析 ◯ テリトリーの解析 - テリトリーの編集 機能名 (ArcMap 版) ArcGIS Pro 版への実装 機能名 (ArcGIS Pro 版) 関連チュートリアル 備考 テリトリーのバランス再調整 ◯ バランス調整変数の設定 - テリトリーの作成 ◯ [テリトリー ソリューション] タブの [テリトリーの編集] グループ - テリトリーの割り当て / 割り当て解除 ◯ [テリトリー ソリューション] タブの [テリトリーの編集] グループ - テリトリーの削除 ◯ [テリトリー ソリューション] タブの [テリトリーの編集] グループ - テリトリーのロック - - - オーバーラップ テリトリーの解決 - - - テリトリー レポート 機能名 (ArcMap 版) ArcGIS Pro 版への実装 機能名 (ArcGIS Pro 版) 関連チュートリアル 備考 テリトリー レポート ◯ テリトリー レポートの生成 - ArcGIS Pro 版では、[レポート タイプ] オプションを「テリトリー サマリー」に設定することで利用可能 詳細テリトリー レポート - - - テリトリー ソリューションの比較レポート ◯ テリトリー レポートの生成 - ArcGIS Pro 版では、[レポート タイプ] オプションを「テリトリーの比較」に設定することで利用可能 テリトリー デザイン ウィンドウ 機能名 (ArcMap 版) ArcGIS Pro 版への実装 機能名 (ArcGIS Pro 版) 関連チュートリアル 備考 データ - - - 階層 - - - チャート ◯ [テリトリー ソリューション] タブの [視覚化] グループの [チャートの作成] - 統計情報 ◯ [テリトリー ソリューション] タブの [視覚化] グループの [チャートの作成] - table { font-size: 13px; width: 100%; margin-right: 5px; margin-left: 15px; } table th:first-of-type { width: 15%; } table th:nth-of-type(2) { width:10%; } table th:nth-of-type(3) { width: 15%; } table th:nth-of-type(4) { width: 15%; } table th:nth-of-type(5) { width: 15%; }</description></item><item><title>はじめに</title><link>/business-analyst/desktop/tutorial/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/overview/</guid><description>チュートリアルを開始する前に、ArcGIS Business Analyst および BA Pro の概要を学びます。
+ArcGIS Business Analyst とは ArcGIS Business Analyst は、インフォグラフィックスや生活行動、消費データなどのデータに基づいて、組織がよりスマートで情報に基づいた意思決定ができるように支援する、商圏分析・エリアマーケティング特化型 GIS ソリューションです。 新規出店候補地の立地評価や、自社顧客の市場シェアの把握、市場ポテンシャルの高いエリアの絞りこみなどの解析を行うことができます。
+ArcGIS Business Analyst には、人口統計や、立地評価のための地図や境界などのデータがバンドルされており、国内に加え、海外分析を行うことができます。また、ビジネスの課題を解決するための分析ワークフローも一緒に提供されます。
+ユーザーは、これらを利用して商圏分析や顧客分析などを実行し、その結果を美しく魅力的なレポートを利用して共有することができます。
+提供されるデータは、ローカルにインストールして利用する「オフライン データ」と、ArcGIS Online からアクセスして利用する「オンライン データ」の 2 種類があります。 これらのデータの詳細については、ESRIジャパン製品ページをご参照ください。
+ArcGIS Business Analyst で利用できるアプリケーション ArcGIS Business Analyst で利用できるアプリケーションは、大きく分けてデスクトップ型とクラウド型があります。
+各アプリケーションの詳細は、ESRIジャパン製品ページをご参照ください。
+BA Pro とは BA Pro は、高機能デスクトップ型 GIS「ArcGIS Pro」をベースにした、エリアマーケティング特化型のアプリケーションです。 高度な商圏分析や顧客分析、予測分析を行うことができ、クラウド型 GIS「ArcGIS Online」を通して、データを組織内で共有することができます。
+利用できる機能 商圏 商圏分析を行うにあたって、まずは商圏を定義することが分析の第一歩となります。BA Pro では、以下表のように、シンプルなものから高度なものまで多彩な商圏を作成できます。
+名前 説明 イメージ リング商圏 店舗を中心として、半径を指定して作成される円形の商圏です。 道路距離/時間商圏 道路ネットワークデータを使用して、店舗からの道路距離または道路を通行した場合の所要時間に基づき作成される商圏です。到達圏とも呼ばれます。 近似到達圏 既存のポリゴンに近似した到達圏です。 限界値商圏 店舗から外側に向かって、指定した限界値 (人口総数など) に達する地点が境界線となる商圏です。 顧客分布商圏 店舗ごとの顧客データをもとにした、店舗から近い順に顧客データを一定割合含む範囲を指します。実勢商圏とも呼ばれます。 区画商圏 町丁・字等や市区町村等の区画ポリゴンを商圏として出力します。 商圏とは、店舗が顧客を集客できる可能性のある地理的な範囲です。詳細はビジネスマップ用語集をご覧ください。</description></item><item><title>サイン インとサイン アウト</title><link>/drone2map/get-started/signinsignout/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/get-started/signinsignout/</guid><description>Drone2Map へのサイン イン ライセンスを割り当てた Drone2Map にサイン インする方法を説明します。
+メンバーへのライセンスの割り当てについては 「ライセンス」 ページをご参照ください。
+Windows [スタート] メニュー → [ArcGIS] フォルダー → [Drone2Map] を選択し起動させます。
+サイン イン画面でアカウント情報を入力してサイン インを行います。
+Drone2Map からのサイン アウト Drone2Map からサイン アウトする方法を説明します。
+Drone2Map でプロジェクトを開いた状態で、画面右上のユーザー名をクリック → [サイン アウト] をクリックします。</description></item><item><title>サンプルの活用</title><link>/cityengine/get-started/quickstart-tutorials/utilize-sample/</link><pubDate>Wed, 29 Jun 2022 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/utilize-sample/</guid><description>概要 テクスチャの適用では、建物モデルについては、テクスチャを貼り付けてより見栄えの良いものにしましたが、道路についても、Esri が提供するサンプル データを活用すれば簡単にリアリティを増すことができますので、その方法を紹介します。
+演習 ・サンプル データの入手 ・サンプル データの利用 ・編集したサンプル データの利用 ・ルールの属性を変更 ・その他のサンプル サンプル データの入手 CityEngine のサンプル データは、現在使用している「Esri.lib」や「City Wizard」に含まれるもの以外にも、Help メニュー [Download Tutorials and Examples] から取得できる Tutorials や Examples、さらには Esri のオンライン サービスである「ArcGIS Online」から入手できるものがあります。
+どちらも無償ですのでこれを活用しない手はありません。ここでは Download Tutorials and Examples から取得する方法をご紹介します。
+CityEngine アプリケーションからダウンロードする Help メニュー [Download Tutorials and Examples] を選択します。
+表示されたダイアログから、[Example Complete Streets 2019.</description></item><item><title>レイヤーをダウンロードしたい</title><link>/online/users-guide/manage-data/download/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/download/</guid><description>ArcGIS Online 上で作成・編集したレイヤー (フィーチャ レイヤー) をダウンロード可能なファイル形式にエクスポートし、ダウンロードします。
+データのエクスポートとダウンロード ダウンロードしたいフィーチャ レイヤーのアイテム詳細ページを開きます。
+[データのエクスポート] をクリックし、いずれかの形式を選択します。
+[&amp;lt;エクスポート時のファイル形式&amp;gt; にエクスポート] ダイアログで、[タイトル] と必要に応じて [タグ] と [サマリー] を入力し、[エクスポート] をクリックします。
+直近 10 分以内にレイヤーに何らかの変更が加えられた場合、[このレイヤーは、直近の 10 分以内に編集されました。] ダイアログが表示される場合があります。変更内容を含むすべてのデータをダウンロードしたい場合は、しばらくしてからエクスポートの操作を行ってください。
+入力したタイトルのアイテムが作成され、アイテム詳細ページにジャンプします。 [概要] タブの [ダウンロード] をクリックして、ファイルをダウンロードします。 エクスポートの許可 デフォルトでは、レイヤーやアイテムの所有者 (作成者) 以外はダウンロード可能なファイル形式にエクスポートできません。他のユーザーにエクスポートさせるには、他のユーザーがエクスポートする許可を、レイヤーの所有者が設定します。
+エクスポートを許可したいレイヤーのアイテム詳細ページを開きます。
+[設定] タブ → [Feature Layer (ホスト)] 項目で、[他のユーザーが別の形式にエクスポートすることを許可します] チェックボックスをオンにします。
+[保存] をクリックします。</description></item><item><title>属性テーブルを表示したい</title><link>/online/users-guide/map/attribute-table/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/map/attribute-table/</guid><description>マップに追加したレイヤーの属性テーブルを表示します。
+Map Viewer Classic をお使いの場合は、属性テーブルを表示したい (Map Viewer Classic) をご参照ください。
+Map Viewer でレイヤーを含むマップを開くか、マップにレイヤーを追加します。
+[コンテンツ] ツールバーの [レイヤー] をクリックして、[レイヤー] ウィンドウを表示します。
+[レイヤー] ウィンドウで属性テーブルを表示したいレイヤーの [オプション] をクリックします。
+[テーブルの表示] をクリックします。
+テーブルでは以下の操作を実行できます。
+フィールド情報の表示およびフィールドの表示/非表示を定義 表示するレコードの増減 選択したレコードの範囲にマップをズーム レイヤー全体の範囲にマップをズーム 選択されているすべてのレコードの選択を解除 レコードの選択 テーブルの操作の詳細はヘルプをご参照ください。
+テーブルに表示するレコードを限定したい場合は「表示するデータを限定したい」をご参照ください。
+フィールドを追加または削除したい場合は「フィールドを追加、削除したい」をご参照ください。
+属性値を編集したい場合は「データを編集したい」をご参照ください。</description></item><item><title>スマート マップ サーチで有望エリアの抽出・共有</title><link>/business-analyst/web/tutorial/smart-map-search/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0900</pubDate><guid>/business-analyst/web/tutorial/smart-map-search/</guid><description>スマート マップ サーチでは、複数の変数を選択し、条件に一致する区画エリアを表示できます。
+このチュートリアルでは、スマート マップ サーチを利用して、以下の条件を満たすエリアを対話的な操作で抽出します。
+20 歳代・30 歳代の人口が多い 独身世帯の比率が高い 借家比率が高い 抽出したエリアは、ポスティングや DM のターゲッティングで利用できるように、一覧を Excel ファイルや Web マップに出力します。
+[マップ] タブ→ [アドレスまたは位置の入力] 左横のアイコンをクリック → [エリアの拡大] を選択します。 [郵便番号、都市、国または州の入力] (検索ボックス) に「大阪市北区」と入力し、Enter キーを押します。 大阪市北区周辺にマップが移動しました。
+[マップ] タブ の [マップの作成] → [スマート マップ サーチ] をクリックします。 [このワークフローの使用方法。] が [スマート マップ サーチ] ダイアログに表示された場合は、[開始] をクリックします。 [スマート マップ サーチ] ダイアログで、[すべての変数の参照] をクリックします。 データ ブラウザーの [標準データ] タブ → 「婚姻関係」カテゴリをクリックします。 「国勢調査2015：人口(15歳以上) 未婚」にチェックを入れます。 [戻る] をクリックします。 データ ブラウザーの [標準データ] タブ → 「住宅」カテゴリをクリックします。 「国勢調査2015：一般世帯数 民営の借家」にチェックを入れます。 [戻る] をクリックします。 「カスタム変数を用いたカラーコード マップの作成」を実施済みの方 以下の手順を実行します。</description></item><item><title>共有と再利用</title><link>/insights/tutorial/gcp/page5/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0900</pubDate><guid>/insights/tutorial/gcp/page5/</guid><description>共有と再利用 分析結果は自動的にモデルとして記録されています。同じ分析手順で異なる地域を分析したい場合などにモデルを再利用することができます。ここでは、モデルを保存して異なる地域の分析を再度行い、分析結果を共有する手順を説明します。 モデルの共有 右上の [解析ビュー]をクリックして、分析の手順が自動的に保存されていることを確認します。
+同じ分析を異なる事業所でも行うために、モデルを共有します。画面下部にある [ページの共有と編集]→ [共有] をクリックします。
+下記のように入力して [共有] をクリックします。
+[タイトル]: 帰宅困難者の把握モデル [タイプ]: モデル [タグ]: Insights [共有範囲]: 組織名 共有範囲で [すべての人] を選択すると、アカウントを持たないユーザーも閲覧することが可能です。
+モデルの利用 モデルを再度利用するために、新規のページを作成します。ページ下部の [新規ページ] をクリックして [ページに追加] ウィンドウを開きます。
+[ページに追加] ウィンドウが表示されたら、[モデル] タブを開き、保存したモデル (ここでは「帰宅困難者の把握モデル」) を選択し、[追加] をクリックします。次に、このモデルで分析したいデータを追加します。
+左上の [ページに追加]をクリックします。[ファイルのアップロード] を選択して、ドラッグ＆ドロップまたは [コンピューターの参照] より「従業員リスト.xlsx」を追加します。「オフィス.Table」と「従業員_大阪.xlsx」にチェックを入れて、[追加] をクリックします。
+データが追加されたら [解析ビュー]をクリックします。
+「従業員_新宿.xlsx」の下の [+ 更新] をクリックして、[データセットの選択] で「従業員_大阪.</description></item><item><title>チュートリアル 6: 基本的なシェープ グラマー</title><link>/cityengine/tutorials/tutorial-6-basic-shape-grammar/</link><pubDate>Sat, 15 Jan 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/tutorial-6-basic-shape-grammar/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+概要 CGA シェープグラマーは、CityEngine の中心をなす技術です。この機能を知ることは自分で建物や都市を構築する上で重要です。シンプルな建物の作成で、基本的なシェープ グラマーを学習します。
+演習 ・Part 1 :シンプルな建物のモデリング ・Part 2 :シンプルな建物へのテクスチャ貼り付け ・Part 3 :LOD の追加 ・Part 4 :建物属性のランダム変化 Part 1 :シンプルな建物のモデリング このセクションでは CityEngine の CGA シェープ グラマーの基本事項を学習します。基本的な建物を構築するための一通りのステップを含む完成したルール ファイルの中身を確認していきます。
+チュートリアルのセットアップ プロジェクト Tutorial_06_Basic_Shape_Grammar を自分の CityEngine ワークスペースにインポートします。
+シーン Tutorial_06_Basic_Shape_Grammar/scenes/01_SimpleBuilding.</description></item><item><title>その他のツール</title><link>/business-analyst/desktop/tips/reference/functionality/others/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tips/reference/functionality/others/</guid><description>本ページでは、ArcMap 版の [Business Analyst] ウィンドウなどから実行できる各種機能が、ArcGIS Pro 版でどれだけ利用できるかを説明します。
+Business Analyst ウィンドウ 機能名 (ArcMap 版) ArcGIS Pro 版への実装 機能名 (ArcGIS Pro 版) 関連チュートリアル 備考 プロジェクトの管理 ◯ プロジェクトの作成 - スマート マップ サーチ - - - バッチ タスク - - - カラーコード マップ ツールバー 機能名 (ArcMap 版) ArcGIS Pro 版への実装 機能名 (ArcGIS Pro 版) 関連チュートリアル 備考 カラーコード マップ ◯ カラー コード レイヤー ・商圏分析 - 既存店舗を対象とした分析・ハフ モデル その他のツールバー 機能名 (ArcMap 版) ArcGIS Pro 版への実装 機能名 (ArcGIS Pro 版) 関連チュートリアル 備考 Address Coder - - - table { font-size: 13px; width: 100%; margin-right: 5px; margin-left: 15px; } table th:first-of-type { width: 15%; } table th:nth-of-type(2) { width:10%; } table th:nth-of-type(3) { width: 15%; } table th:nth-of-type(4) { width: 15%; } table th:nth-of-type(5) { width: 15%; }</description></item><item><title>事前準備</title><link>/business-analyst/desktop/tutorial/prepare-for-tutorial/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/prepare-for-tutorial/</guid><description>演習を開始するために必要な作業を行います。
+本演習では、演習用データとして Excel 形式のファイルを提供しています。Excel ファイルを BA Pro で操作するには、お使いの PC に Microsoft Access データベース エンジンのインストールが必要な場合があります。以下ヘルプの手順に沿ってインストールを行ってから演習を進めてください。 ・Microsoft Excel ファイルを操作するためのドライバーをインストール ArcGIS Pro | ドキュメント
+演習用データのダウンロード 行いたい演習に応じて以下のリンクから演習用データをダウンロードし、解凍します。
+演習名 演習用データ ・顧客・店舗情報の取り込み・商圏分析 BAProチュートリアル_商圏分析 ・顧客分析 BAProチュートリアル_顧客分析 ・ハフ モデル BAProチュートリアル_ハフモデル ・データのカスタマイズ BAProチュートリアル_カスタマイズ 解凍したフォルダーを、任意の場所に配置します。
+上記のフォルダー一式を「プロジェクト」と言います。ArcGIS Pro の作業内容はプロジェクトに保存されます。詳細は、ヘルプをご参照ください。
+本演習では、作成済みのプロジェクトを提供いたします。新規プロジェクトの作成方法は、ArcGIS Pro 操作ムービーをご覧ください。
+ArcGIS Pro の起動 演習用プロジェクトを起動し、ArcGIS Online にサイン インします。</description></item><item><title>カスタム インフォグラフィックスの作成 (ポイント データ編)</title><link>/business-analyst/web/tutorial/custom-infographics/</link><pubDate>Fri, 02 Sep 2022 00:00:00 +0900</pubDate><guid>/business-analyst/web/tutorial/custom-infographics/</guid><description>このチュートリアルでは、郵便番号別に集計された顧客データを基に、商圏内に含まれる顧客の売上高などを集計するための [カスタム データの設定] とそのデータを利用した [インフォグラフィックス テンプレートの作成] を行います。
+カスタム データの設定とインフォグラフィックス テンプレートの作成には、ArcGIS Business Analyst Web App Advanced ライセンスが必要です。
+ポイント データの取り込み 手順
+サンプル Excel ファイル (customer.xlsx) をダウンロードします。 ● 本サンプルデータには、郵便番号別に集計された顧客データが含まれます。 ArcGIS Online にサインイン します。 「Excel やテキスト ファイルからフィーチャ レイヤーを作成したい | ArcGIS Online 逆引きガイド」を参考にフィーチャ レイヤーを作成します。 ● 本サンプルデータには、緯度・経度情報も含まれるため「緯度と経度」を用いてフィーチャ レイヤーを作成してください。 カスタム データの設定 ポリゴン データを用いたカスタム データの設定は、ガイド ツアーのレベル 4 「レポートおよび解析で使用するカスタム データの設定」で学ぶことができます。
+手順
+BA Web App を開きます。 [マップ] タブの [データの追加] → [カスタム データの設定] をクリックします。 [カスタム データの設定] ウィンドウで [開始] が表示された場合は、クリックして進みます。 [設定を開始] をクリックします。 [レイヤーの選択] → [レイヤーを参照] をクリックします。 [レイヤーの選択] ダイアログで、[マイ コンテンツ] タブをクリックします。 先ほど作成したフィーチャ レイヤーのサムネイルにカーソルを合わせ、[追加] をクリックします。 [並べ替えの基準] を [最近] に変更すると、最近追加した順にコンテンツが表示されます。</description></item><item><title>データをファイルから更新したい</title><link>/online/users-guide/manage-data/file-update/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/file-update/</guid><description>ファイルからデータを公開した場合、アイテム詳細ページからデータの更新が可能です。
+ArcGIS Pro からデータの公開を行った場合は、ArcGIS Pro から上書きする必要があります。詳細はヘルプをご参照ください。
+レイヤー全体を上書き この手順では、すべての既存のデータは追加するファイルに置き変わります。
+下記のファイル形式から公開されたレイヤーに対応しています。
+ファイル ジオデータベース (ZIP 圧縮) シェープファイル (ZIP 圧縮) GeoJSON Microsoft Excel CSV ファイル [レイヤー全体を上書き] が利用可能なレイヤーには条件があります。また、本機能を利用する際の注意点については、ヘルプをご参照ください。
+レイヤー全体を上書きしたいフィーチャ レイヤーのアイテム詳細ページを開きます。
+[データの更新] → [レイヤー全体を上書き] をクリックします。
+[上書き] ダイアログで、データを参照し、[上書き] をクリックします。
+データをレイヤーに追加 この手順では、既存のデータを保持し、追加するファイルのレコードを追加します。
+下記のファイル形式から公開されたレイヤーに対応しています。
+ファイル ジオデータベース (ZIP 圧縮) シェープファイル (ZIP 圧縮) GeoJSON Microsoft Excel (位置情報は緯度経度) CSV ファイル (位置情報は緯度経度) [レイヤー全体を上書き] が利用可能なレイヤーには条件があります。また、本機能を利用する際の注意点については、ヘルプをご参照ください。
+データを追加したいフィーチャ レイヤーのアイテム詳細ページを開きます。</description></item><item><title>特定の場所を検索したい</title><link>/online/users-guide/map/search/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/map/search/</guid><description>住所や地名を検索したり、レイヤーの属性情報を基に特定の場所を検索したりして、マップの表示範囲をその場所に移動します。
+Map Viewer Classic をお使いの場合は、住所を検索したい (Map Viewer Classic) およびレイヤーの属性情報を基に、特定の場所を検索したい (Map Viewer Classic) をご参照ください。
+住所や地名の検索 Map Viewer を開きます。
+[設定] ツールバーの [マップ ツール] をクリックします。
+[検索] をクリックします。
+[住所または場所の検索] ボックスに住所や地名を入力します。
+検索ボタンをクリックするか、Enter キーを押すと、検索された住所の位置にマップが移動し、ポップアップが表示されます。
+レイヤーの属性情報を基に検索 Web マップの設定 レイヤーの属性情報を基に検索するには、はじめに Web マップを作成し、Web マップのプロパティを設定します。
+属性情報を基に検索したいレイヤーを含む Web マップを作成していない場合は作成し、保存します。
+Web マップのアイテム ページで検索を有効化し、検索対象のレイヤーと属性フィールド等を設定して保存します。詳細はヘルプをご参照ください。
+検索対象として設定できるのは、文字列 (String) 型のフィールドのみです。
+Map Viewer での検索 検索の設定をした Web マップを Map Viewer で開きます。</description></item><item><title>チュートリアル 7 : ファサード モデリング</title><link>/cityengine/tutorials/tutorial-7-facade-modeling/</link><pubDate>Fri, 14 Jan 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/tutorial-7-facade-modeling/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+概要 このチュートリアルでは、写真から建物をモデリングする方法を解説し、いくつかの複雑な CGA のテクニックを紹介します。最初のパートでは、CGA ルールでどのようにファサード（建物の前面）の基本構造を作成するかを学習します。
+演習 ・Part 1 :ファサードの構造をモデリングする ・Part 2 :アセットの挿入 ・Part 3 :ファサードへのテクスチャ貼り付け Part 1 :ファサードの構造をモデリングする チュートリアルのセットアップ プロジェクト Tutorial_07_Facade_Modeling を自分の CityEngine ワークスペースにインポートします。
+シーン Tutorial_07_Facade_Modeling/scenes/FacadeModeling_01.cej を開きます。
+ファサード モデリング このチュートリアルでは、実際に撮影した写真からどのようにファサードを再現する一連の CGA を記述するかを説明します。これからモデリングするファサードは以下に示すものです。ルールセットの作成が進むにつれて、より詳細に写真を解析していくことになります。
+どのように実際のファサードを解析し、その構造を CGA グラマールールに翻訳していくか、そしてどのように既存のモデルアセットを CGA ルールに使用するかを学習します。</description></item><item><title>商圏分析ツール</title><link>/business-analyst/desktop/tips/reference/functionality/esrijtool/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tips/reference/functionality/esrijtool/</guid><description>本ページでは、ESRIジャパンが作成した ArcMap 版の「商圏分析ツール」の各種機能が、ArcGIS Pro 版でどれだけ利用できるかを説明します。
+現時点で ESRIジャパンでは商圏分析ツールの ArcGIS Pro 版の提供予定はございません。
+商圏分析ツール 機能名 (ArcMap 版) ArcGIS Pro 版への実装 機能名 (ArcGIS Pro 版) 関連チュートリアル 備考 簡易属性検索 ◯ 属性検索 - フィルタリング ◯ 定義クエリによるフィーチャのフィルター - テーブル結合 ◯ テーブルの結合 - ポイント集計 ◯ エリア内での集計 - 面積按分集計 ◯ ポリゴンの按分 - 重複レイヤーの抽出 ◯ 空間検索 - テーブルのエクスポート ◯ テーブル → テーブル - フィールドの削除 ◯ フィールドの削除 - 重複ポイントの分散 - - - クロスランキング ◯ 2 変量色 顧客分析 - 市場シェアの把握 商圏レポート ◯ ・インフォグラフィックス・サマリー レポート 商圏分析 - 既存店舗を対象とした分析 ArcGIS Pro 版で利用可能なレポート テンプレートは、ArcMap 版の商圏分析ツールのものとは異なります。 table { font-size: 13px; width: 100%; margin-right: 5px; margin-left: 15px; } table th:first-of-type { width: 15%; } table th:nth-of-type(2) { width:10%; } table th:nth-of-type(3) { width: 15%; } table th:nth-of-type(4) { width: 15%; } table th:nth-of-type(5) { width: 15%; }</description></item><item><title>顧客・店舗情報の取り込み</title><link>/business-analyst/desktop/tutorial/geocoding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/geocoding/</guid><description>2022 年版以前の Business Analyst 用オフライン データに付属する従来形式のロケーターは、ArcGIS Pro 3.0 以降では動作しなくなります (詳細はこちら)。本演習を行う際には、ArcGIS Pro 2.9 以前をご使用ください。
+本演習にかかる時間はおよそ 15-30 分です。
+目的 住所情報を含むテーブル データと [住所のジオコーディング] ツールを用いて、自社の店舗や顧客をポイント データ化する方法を習得します。
+本演習では、顧客の住所情報を元にジオコーディングを行います。
+ジオコーディングとは、住所や郵便番号、場所の名前などのテーブル情報を地図上に展開し、GIS データ化する処理のことをいいます。詳細はビジネスマップ用語集をご覧ください。
+演習 住所情報を含むテーブル データの確認 事前準備が完了していない場合は、演習に入る前にこちらの操作を行ってください。
+「BAProチュートリアル_商圏分析.aprx」の [演習1] マップを開きます。 顧客のテーブル データをマップに追加します。[マップ] タブ → [レイヤー] グループの [データの追加] → [データ] をクリックして、[データの追加] ダイアログを開きます。 以下の Excel シートを選択し、[OK] をクリックします。 ＜事前準備で演習用データを配置した場所＞\bapro_tutorial_tradearea_analysis\演習用データ\顧客リスト.xlsx\顧客リスト$
+[コンテンツ] ウィンドウに「顧客リスト$」が追加されます。「顧客リスト$」を右クリック → [開く] をクリックし、テーブルを開きます。 テーブルに、住所情報や ID などの情報が格納されていることを確認し、テーブルを閉じます。 顧客ポイント データの作成 後述の手順内で表記されている「20xx」は、利用しているデータの年度に読み替えてください。
+顧客のジオコーディングを行います。</description></item><item><title>データの表示設定を変更したい</title><link>/online/users-guide/manage-data/viewlayer/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/viewlayer/</guid><description>ホスト フィーチャ レイヤー (親レイヤー) からビュー レイヤー (子レイヤー) を作成し、特定のエリアやフィールド、条件に合ったフィーチャのみを表示したり、編集権限を個別に設定することができます。
+ホスト フィーチャ レイヤー ビューの作成 ビューを作成したいホスト フィーチャ レイヤーのアイテム詳細ページを開きます。
+[概要] タブの [ビュー レイヤーを作成] をクリックします。
+[ビュー レイヤーを作成] ウィザードが表示されます。まず、[レイヤー] でビューに含めるレイヤーを選択し、[次へ] をクリックします。
+[含まれるレイヤー] でレイヤー名をクリックし、[レイヤー定義] で下記のオプションを使用してビュー内の各レイヤーに含めるフィーチャを定義します。
+フィルターの追加
+レイヤー内の 1 つ以上のフィールドにフィルター式を定義することで、コンテンツをフィルター処理できます。[式の追加] をクリックし、ドロップダウン リストを使用して式を構築します。 対象地域
+レイヤーの空間範囲を定義し、その範囲内にあるフィーチャのみがビューに含まれます。[ポリゴン] または [四角形] 描画ツールを使用して、マップ上にエリアを描画します。
+ビュー内のすべてのレイヤーに対して同じ対象地域を適用する場合は、[すべてのレイヤーに適用] をクリックします。 フィールド
+表示する必要のないフィールドをビューから除外することができます。[フィールドの選択] をクリックし、フィールド名をクリックしてビューから削除または追加し、[完了] をクリックします。 レイヤーの定義が完了したら、[レイヤー定義] 横の矢印をクリックし、レイヤー リストに戻ります。複数のレイヤーをビューに含める場合は、上記の手順を繰り返し、[次へ] をクリックします。
+[作成] でホスト フィーチャ レイヤー ビューのタイトルなどを入力します。
+[タイトル] は半角英数字またはアンダースコア (_) で入力することを推奨します。</description></item><item><title>チュートリアル 8 : マスモデリング</title><link>/cityengine/tutorials/tutorial-8-mass-modeling/</link><pubDate>Fri, 14 Jan 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/tutorial-8-mass-modeling/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+概要 本チュートリアルでは、シェープグラマー、およびマスモデリングについて学習します。
+演習 ・Part 1 : L 字型およびU字型シェープ ・Part 2 : 再帰を使用したマスモデリング ・Part 3 : セットバックによる区画の調整 ・Part 4 : マスモデルとセットバックの組み合わせ ・Part 5 : テクスチャ付きファサードの追加 Part 1 : L 字型および U 字型シェープ チュートリアルのセットアップ このチュートリアルでは、建物のマスモデルがどのようにシェープ グラマーにより作成されるのかを説明します。L 字型や U 字型マスのような典型的な建築物の立体シェープを作成します。
+プロジェクト Tutorial_08_Mass_Modeling を自分の CityEngine ワークスペースにインポートします。 シーン 01_MassModeling.</description></item><item><title>ジオプロセシング ツール</title><link>/business-analyst/desktop/tips/reference/functionality/geoprocessing/</link><pubDate>Thu, 13 Jan 2022 00:00:00 +0900</pubDate><guid>/business-analyst/desktop/tips/reference/functionality/geoprocessing/</guid><description>本ページでは、ArcMap 版の Business Analyst およびテリトリー デザインに関するジオプロセシング ツールが、ArcGIS Pro 版でどれだけ利用できるかを説明します。
+Business Analyst ツール 店舗の設定ツールセット ArcGIS Pro 版では店舗の設定は不要となり、標準機能を利用することで店舗ポイントの作成ができます。
+機能名 (ArcMap 版) ArcGIS Pro 版への実装 機能名 (ArcGIS Pro 版) 関連チュートリアル 備考 住所から店舗レイヤーを作成 ◯ 住所のジオコーディング 顧客・店舗情報の取り込み 空の店舗レイヤーを作成 ◯ フィーチャクラスの作成 - 既存データを利用して店舗データを設定 - - - テーブル形式のデータを使用して店舗を設定 ◯ テーブルをマップ上の位置に変換 - XY 座標値を使用して店舗を設定 ◯ XY テーブル → ポイント - 顧客の設定ツールセット 店舗の設定と同様に、ArcGIS Pro 版の標準機能を利用することで顧客ポイントの作成ができます。</description></item><item><title>チュートリアル 9: 高度なシェープ グラマー</title><link>/cityengine/tutorials/tutorial-9-advanced-shape-grammar/</link><pubDate>Fri, 14 Jan 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/tutorial-9-advanced-shape-grammar/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+概要 写真から建物をモデリングする方法や、いくつかの高度な CGA テクニックについて学習します。
+演習 ・Part 1: 複雑なファサード パターン ・Part 2: キャンドラー ビルディング ・Part 3: パルテノン神殿 Part 1: 複雑なファサード パターン チュートリアルのセットアップ ComplexPatterns.cej シーンを開きます。
+建物の生成 このチュートリアルでは、実際の写真と CGA のみから建物を再現する CGA ルールを作成する方法を紹介します。
+これからモデリングするファサードの写真は以下のようなものです。この例にはタイルや窓のレイアウトに特殊なパターンが含まれているため、入れ子式の繰り返し分割やパラメーターの受け渡しなどのいくつかのより高度な CGA メカニズムを使用する必要があります。
+まず最初に、建物を生成します。
+[3D View] ウィンドウの中で区画を 1 つ選択します。
+ツールバーの [Generate] ボタンをクリックします。</description></item><item><title>新規候補地に対する分析 (クイック商圏)</title><link>/business-analyst/desktop/tutorial/tradearea-analysis/evaluate-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/tradearea-analysis/evaluate-site/</guid><description>本演習にかかる時間はおよそ 15-30 分です。
+「クイック商圏」を使用することで、素早く商圏作成からレポートの実行までを行うことができます。本演習では、西船橋駅を評価対象としてクイック商圏を実行してみましょう。
+演習 本演習は、後述のインフォグラフィックスの表示を行うことでサービス クレジットを 0.01 消費します。
+事前準備が完了していない場合は、演習に入る前にこちらの操作を行ってください。
+クイック商圏 クイック商圏を実行して、西船橋駅を起点とした商圏作成とインフォグラフィックスの実行を行います。
+「BAProチュートリアル_商圏分析.aprx」の [演習2] マップを開き、[コンテンツ] ウィンドウおよびマップ上に店舗のポイント データがあらかじめ追加されていることを確認します。 [解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [クイック商圏] をクリックして、[クイック商圏] ウィザードを開きます。 [クイック商圏] ウィザードの [ステップ1: 位置] で、解析対象となる位置を指定します。
+[場所検索] タブを開き、検索ボックスに「西船橋駅」と入力し、Enter キーを押します。 検索結果が表示されるので、選択して [次へ] をクリックします。 [ステップ2: バッファー] で商圏を作成します。
+[道路距離/時間商圏] タブを選択し、以下のように設定し、[次へ] をクリックします。 距離タイプ：運転時間 (平常時) 時間：「5」、「10」、「15」と入力します。単位は「分」に設定します。 ディゾルブ オプション：ディスク 作成できる商圏は、リング商圏および道路距離/時間商圏のいずれかです。
+ディゾルブ オプションの設定によって、複数の距離を指定した場合のポリゴンの重複のさせ方を指定できます。 ・ディスク：各ポリゴンは、起点から距離値までの到達可能な領域を含みます。(例：5,10 分の道路時間商圏の場合、0-5 分の到達圏ポリゴンと 0-10 分の到達圏ポリゴンが生成されます。) ・リング：各ポリゴンは、連続する距離値の間にある領域のみを含みます。(例：5,10 分の道路時間商圏の場合、0-5 分の到達圏ポリゴンと 5-10 分の到達圏ポリゴンが生成されます。)</description></item><item><title>データを編集したい</title><link>/online/users-guide/map/edit/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/map/edit/</guid><description>Web マップに追加されているレイヤーを編集してフィーチャを追加、編集、削除します。
+Map Viewer Classic をお使いの場合は、第 5 章 データの編集 (Map Viewer Classic) をご参照ください。
+編集可能なレイヤーをマップに追加します。
+レイヤーの編集の有効化方法は「編集の有効化」をご参照ください。
+[設定] ツールバーの [編集] をクリックします。
+[編集] ウィンドウが表示されるので、フィーチャを追加、編集、削除します。
+使用できる編集オプションは、フィーチャ レイヤーで許可されている編集のレベルによって異なります。
+フィーチャの追加 [編集] ウィンドウで [フィーチャの作成] セクションに表示されている、編集したいレイヤーのアイコンをクリックして選択します。個別値シンボルを設定している場合は、個別値に応じたアイコンが表示されます。
+マップ上をクリックして図形を入力します。
+ポイントを追加するには、マップ上の位置をクリックします。 ラインまたはポリゴンを追加するには、マップ上で開始位置をクリックします。続けて頂点をクリックで追加し、終点をダブル クリックして入力を終了します。ポリゴンの場合は始点と終点が自動的に結ばれます。 入力が完了したら、[フィーチャの配置] 左の [&amp;lt;] をクリックして [編集] ウィンドウに戻ります。
+フィーチャの編集 [編集] ウィンドウで [選択] をクリックします。
+マップ上のフィーチャを選択します。</description></item><item><title>チュートリアル 10: Python スクリプティング</title><link>/cityengine/tutorials/tutorial-10-python-scripting/</link><pubDate>Wed, 23 Mar 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/tutorial-10-python-scripting/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+概要 Python スクリプト インターフェイスを利用すると、CityEngine の可能性をより広げることができます。このチュートリアルでは、Python Console および Editor の基本的な使用方法を解説し、CityEngine タスクの自動化の例を 2 つ紹介します。詳細については CityEngine Python reference をご参照ください。
+なお、Python スクリプト インターフェイス は、すべてのバージョンの CityEngine で利用できるわけではありません。
+演習 ・Part 1: Python Console および Editor ・Part 2: 道路幅の変更 ・Part 3: FBX ファイルからのカメラ設定 ・Part 4: 建物の変化アニメーション ・Part 5: アセット ライブラリ ルール ファイルの作成 ・Part 6: startup.</description></item><item><title>既存店舗を対象とした分析</title><link>/business-analyst/desktop/tutorial/tradearea-analysis/analysis-for-existing-stores/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/tradearea-analysis/analysis-for-existing-stores/</guid><description>本演習にかかる時間はおよそ 30-45 分です。
+演習 事前準備が完了していない場合は、演習に入る前にこちらの操作を行ってください。
+リング商圏の生成 自社店舗ポイントを起点としたリング商圏を作成します。
+「BAProチュートリアル_商圏分析.aprx」の [演習2] マップを開き、[コンテンツ] ウィンドウおよびマップ上に店舗のポイント データがあらかじめ追加されていることを確認します。 [解析] タブ → [ジオプロセシング] グループの [ツール] をクリックします。 [ジオプロセシング] ウィンドウを開いたら、[ツールボックス] タブ → [Business Analyst ツール] → [商圏] と展開し、[リング商圏の生成 (Generate Trade Area Rings)] をクリックします。 [リング商圏の生成] ツールが開いたら、以下のように設定します。 入力フィーチャ：自社店舗 出力フィーチャクラス：リング商圏_1_3km 入力方法：値 距離：1 列目に「1」と入力し、[他を追加] をクリックして 2 列目に「3」と入力 距離単位：キロメートル ID フィールド：店舗ID 以下の通りに設定が完了したら、[実行] をクリックしてツールを実行します。 マップに、自社店舗を起点とした 1,3km のリング商圏が追加されます。
+カラー コード レイヤー 人口総数を元にしたコロプレス マップを作成し、店舗周辺の人口分布を把握します。
+[ジオプロセシング] ウィンドウの [戻る] ボタンをクリックし、[Business Analyst ツール] → [解析] と展開し、[カラー コード レイヤー (Color Coded Layer)] をクリックします。 [カラー コード レイヤー] ツールは、[ビジネス解析] ボタンからも起動可能です。</description></item><item><title>チュートリアル 11: レポーティング</title><link>/cityengine/tutorials/tutorial-11-reporting/</link><pubDate>Wed, 23 Mar 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/tutorial-11-reporting/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+概要 レポーティングの機能により、CityEngine は単なるジオメトリ生成ツール以上の強力なものとなっており、ルールに基づいたモデル パラメーターの計算や積算などが可能です。これにより、都市のマスタープランを可視化するだけでなく、いくつかのレポートを生成 (例えば、.csv 経由で Excel テーブルを作成) することによりそれらを強化することができるのです。3D モデルと同様にレポートは CGA により生成されます。ジオメトリを生成するルールの中にレポートの操作を含めることもできますし、レポーティングのみのための CGA ルールセットを作成することも可能です。
+レポート操作は、建物のデザインやマスタープランの任意のプロパティをレポートすることができるように開発されています。つまり、レポーティングは完全に汎用的でカスタマイズ可能であり、例えば、延べ床面積 (GFA) やユニット数、混合土地利用度 (Land Use Mix) のような数値を含めることができます。また、都市デザインを変更 (つまりモデルを再生成) するとレポートもリアルタイムに更新されます。このチュートリアルでは、サンプル シナリオとして、スクラッチからマスタープランを構築しますが、もちろん既存の GIS データを解析するためにレポーティング機能を活用することも可能です。
+演習 ・Part 1: 面積のレポート ・Part 2: GFA および FAR のレポートの追加 ・Part 3: 用途タイプによるレポート ・Part 4: 土地利用マップ レイヤーによるレポートの制御 Part 1: 面積のレポート レポーティング チュートリアルの最初として、既存の CGA にどのようにレポーティングの動作を組み込み、その結果のレポートがどのように生成されるのかを見ていきます。</description></item><item><title>顧客分布の可視化</title><link>/business-analyst/desktop/tutorial/customer-analysis/visualize-distribution-of-customer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/customer-analysis/visualize-distribution-of-customer/</guid><description>本演習にかかる時間はおよそ 30 分です。
+これまでの演習で、顧客分布商圏を作成したり、市場シェアを算出したりする方法を習得しました。
+本演習では、店舗と顧客の位置関係をライン データで表現します。また、店舗別の顧客ポイント データを使用して町丁・字等ポリゴンに顧客数や売上情報を集計し、それらの数値情報をもとに、町丁・字等ポリゴンを様々な表現で可視化します。
+なお、集計に使用する町丁・字等ポリゴンは、顧客が分布している町丁・字等の一覧を使用して作成します。
+演習 事前準備が完了していない場合は、演習に入る前にこちらの操作を行ってください。
+店舗および顧客のポイント データの確認 「BAProチュートリアル_顧客分析.aprx」の [演習2] マップを開きます。 [コンテンツ] ウィンドウおよびマップ上に店舗および顧客のポイント データがあらかじめ追加されていることを確認します。 店舗と顧客の関連をラインで可視化 まず、各店舗の顧客と店舗を結ぶライン データを作成し、顧客の分布状況を可視化します。また、店舗と各顧客間の自動車での移動時間を計測します。
+[解析] タブ → [ジオプロセシング] グループの [ツール] をクリックし、[ジオプロセシング] ウィンドウの検索ボックスに「スパイダー」と入力します。 検索結果の中の「スパイダー ダイアグラムの生成 (Generate Desire Lines)」ツールをクリックして開きます。 [スパイダー ダイアグラムの生成] ツールが開いたら、以下のように設定し、[実行] をクリックします。 店舗レイヤー：自社店舗 顧客レイヤー：自社顧客 出力フィーチャクラス：各店舗の顧客分布ライン 店舗 ID フィールド：店舗ID 関連付けられた店舗 ID フィールド：店舗ID 距離タイプ：運転時間 (平常時) 計測単位：分 マップ上に、店舗とそれに紐づく顧客を結ぶラインが追加されます。結果の詳細を確認します。
+[コンテンツ] ウィンドウ上の「各店舗の顧客分布ライン」を右クリック → [属性テーブル] をクリックして、属性テーブルを開きます。 「運転時間 (平常時)」フィールドに、各顧客の位置から店舗までの自動車での移動時間が格納されます。
+[スパイダー ダイアグラムの生成] ツールでは、店舗と顧客を紐づけるライン データを作成できるほか、店舗-顧客間の距離を計測することもできます。 この時出力されるライン データの形状は直線ですが、距離の計測方法は、直線に加えて道路ネットワークを利用できます。たとえば、自動車や徒歩での移動時間を計測することができます。</description></item><item><title>チュートリアル 12: スクリプトによるレポートのエクスポート</title><link>/cityengine/tutorials/tutorial-12-scripted-report-export/</link><pubDate>Wed, 23 Mar 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/tutorial-12-scripted-report-export/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+概要 Python をベースにしたエクスポート機能を使って CGA レポート変数を使用する方法を学習します。シーン内に散在しているインスタンスの情報をレポートにまとめ、シンプルなテキスト ファイルでインスタンス マップを生成します。CityEngine に特有の Python コマンドについての詳細は CityEngine Python をご参照ください。
+Python スクリプティング インターフェイスは、すべてのバージョンの CityEngine で利用できるわけではありません。
+演習 ・Part 1: インスタンス建物の情報をレポートする ・Part 2: スクリプト エクスポート ・Part 3: 追加エレメント Part 1: インスタンス建物の情報をレポートする Part 1 では、シーンの中にインスタンス建物を配置する既存の CGA ファイルを使い、Part 2 の Script Based Exporter で使用するインスタンスの追加情報の準備としてレポート変数を加えます。</description></item><item><title>顧客分布を元にした商圏の生成</title><link>/business-analyst/desktop/tutorial/customer-analysis/customer-derived-tradearea/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/customer-analysis/customer-derived-tradearea/</guid><description>本演習にかかる時間はおよそ 15-25 分です。
+本演習では、店舗ごとの顧客データを用いて顧客分布商圏を作成します。また、作成した顧客分布商圏に近似した到達圏を作成し、各店舗の商圏範囲が自動車で平均何分圏に該当するのかを確認します。
+顧客分布商圏は、店舗ごとの顧客データをもとに、店舗から近い順に顧客データを一定割合含む範囲を指し「実勢商圏」とも呼びます。詳細は、ビジネスマップ用語集をご覧ください。
+演習 事前準備が完了していない場合は、演習に入る前にこちらの操作を行ってください。
+店舗および顧客ポイントの確認 「BAProチュートリアル_顧客分析.aprx」の [演習1] マップを開き、[コンテンツ] ウィンドウおよびマップ上に店舗および顧客のポイント データがあらかじめ追加されていることを確認します。
+顧客分布商圏の生成 店舗および顧客ポイントを使用して、顧客分布商圏を作成します。今回は、顧客の 7 割をカバーする商圏を作成します。
+[解析] タブ → [ジオプロセシング] グループの [ツール] をクリックし、[ジオプロセシング] ウィンドウの検索ボックスに「顧客分布商圏」と入力します。 検索結果の中の [顧客分布商圏の生成 (Generate Customer Derived Trade Areas)] ツールをクリックして開きます。 [顧客分布商圏の生成] ツールが開いたら、以下のように設定します。 店舗：自社店舗 店舗 ID フィールド：店舗ID 顧客：自社顧客 関連付けられた店舗 ID フィールド：店舗ID 出力フィーチャクラス：顧客分布商圏_7割 方法：詳細 (スムージング) 半径 (%)：70 顧客の集計タイプ：個数 以下の通りに設定が完了したら、[実行] をクリックします。 顧客の集計タイプは、顧客ポイントの個数以外に顧客の持つ属性 (例えば売上高など) を選択できます。
+マップに、自社店舗を起点とした、顧客の 7 割をカバーする実勢商圏が追加されます。
+顧客分布商圏に近似した道路時間商圏の生成 これまでの操作で、顧客の 7 割をカバーする商圏を作成しました。次に、作成した商圏をカバーする道路時間商圏を作成し、各店舗の実勢商圏が自動車で平均何分圏に該当するかを確認します。</description></item><item><title>チュートリアル 13 : ファサード ウィザード</title><link>/cityengine/tutorials/tutorial-13-facade-wizard/</link><pubDate>Wed, 23 Mar 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/tutorial-13-facade-wizard/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+概要 基本的なファサードテンプレートから高度なファサードまで作成し、LOD とアセットを挿入する方法を学習します。
+演習 ・Part 1: 基本的なファサード テンプレートの作成 ・Part 2: 高度なファサードの作成 ・Part 3: LOD とアセットの挿入 Part 1: 基本的なファサードテンプレートの作成 Facade Wizard は、複雑な CGA のファサード ルール テンプレートを容易に作成することのできるツールです。最大の利点は、ユーザーが実際に CGA コードを書くことなく、バックグラウンドで CityEngine が自動的にこれを作成してくれることです。非常に複雑な構造を効率的かつ容易に構築することができるのです。
+このプロセスが素晴らしいのは、アウトプットとして CGA ルールが作成され、それを任意のファサード ジオメトリに適用することができる点です。
+以下の図では、ファサードの写真の一例と、それにより作成されたルールを異なるサイズの建物に適用して生成したモデルを示しています。壁面のサイズに応じて窓の枚数が変化していることが分かります。
+Facade Wizard により、いつでも再利用可能なファサード テンプレートを大量に作りためることができ、他のプロジェクトにも備えることができます。
+Facade Wizard [File] メニュー → [New]&amp;hellip; → [CityEngine] → [CityEngine scene] から新規シーンファイルを作成します</description></item><item><title>市場シェアの把握</title><link>/business-analyst/desktop/tutorial/customer-analysis/market-penetration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/customer-analysis/market-penetration/</guid><description>本演習にかかる時間はおよそ 30-45 分です。
+演習「顧客分布を元にした商圏の生成」で、顧客分布商圏を作成しました。
+本演習では、顧客分布商圏に重なる町丁・字等を抽出し、それに重なる顧客ポイント データを使用して、町丁・字等別の市場シェアを算出します。また、算出した結果のシンボルを 2 つの変数で表現し、市場ポテンシャルと市場シェアの関係性をより分かりやすく表現します。
+市場シェアの詳細は、ビジネスマップ用語集「市場占有率」をご覧ください。
+演習 事前準備が完了していない場合は、演習に入る前にこちらの操作を行ってください。 前回の演習から引き続き演習をされている方は、「顧客分布商圏に重複する町丁・字等の抽出」から開始いただけます。
+顧客分布商圏をマップに追加する 「BAProチュートリアル_顧客分析.aprx」の [演習1] マップを開きます。 [コンテンツ] ウィンドウおよびマップ上に店舗および顧客のポイント データがあらかじめ追加されていることを確認します。 [マップ] タブ → [レイヤー] グループの [データの追加] → [データ] をクリックして、[データの追加] ダイアログを開きます。 以下のファイル ジオデータベースに保存されているフィーチャクラス「顧客分布商圏_7割」を選択し、[OK] をクリックします。 ＜事前準備で演習用データを配置した場所＞\bapro_tutorial_customer_analysis\演習用データ\演習結果\演習結果.gdb
+[コンテンツ] ウィンドウに顧客分布商圏が追加されます。 顧客分布商圏に重複する町丁・字等の抽出 顧客分布商圏に重なる町丁・字等を抽出します。
+[解析] タブ → [ジオプロセシング] グループの [ツール] をクリックし、[ジオプロセシング] ウィンドウの検索ボックスに「区画ポリゴン」と入力します。 検索結果の中の「重複する区画ポリゴンの作成 (Generate Geographies From Overlay)」ツールをクリックして開きます。 [重複する区画ポリゴンの作成] ツールが開いたら、以下のように設定し、[実行] をクリックします。 区画レベル：町丁・字等 (JP.Blocks) 入力フィーチャ：顧客分布商圏_7割 ID フィールド：店舗ID 出力フィーチャクラス：顧客分布商圏に重なる町丁字等 リレーションシップ：インターセクト 比率：面積比 [比率] オプションを「面積比」に設定することで、商圏が町丁・字等などの区画ポリゴンの何割と重なっているかを算出することができます。</description></item><item><title>チュートリアル 14A : 基本的なポリゴン モデリング</title><link>/cityengine/tutorials/tutorial-14a-basic-polygonal-modeling/</link><pubDate>Wed, 23 Mar 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/tutorial-14a-basic-polygonal-modeling/</guid><description>演習 ・Part 1: ポリゴンによるモデリング ・Part 2: テクスチャの貼り付け チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+Part 1: ポリゴンによるモデリング このチュートリアルでは、ポリゴン モデリング ツールを使用してシンプルな家を作成します。
+[Navigtator] ウィンドウのチュートリアルのデータ フォルダーから、14A_Basic_1.cej をダブルクリックしてプロジェクトを開きます。 [Polygonal Shape Creation] ツールを選択します。 [Viewport] ウィンドウ中でクリックして、白い輪郭の左下の角に最初の点を配置します。 マウスを動かしてラインのプレビューを確認します。 スナップするとオレンジの破線が現れます。 上部にスナップ ラインを見つけ、輪郭の左上の点の上でクリックします。 マウスを移動して 90° のスナップ ラインを見つけます。 現在のラインと前のラインの間にスナップのための小さな弧が現れます。 3 番目の点をクリックして配置します。 4 番目の点も同様に追加します。 図形の輪郭に沿って 5 番目の点をクリックして追加します。 最後の点は、平行スナップ ライン (小さな平行線の記号で表示されています) と最初の点からの 90° スナップ ラインとの交点を見つけて追加します。 最初の点の上でクリックして図形を完成させます。 3D の家を作成するためにポリゴン上にマウスを持ってきます。 オレンジ色のハンドルをクリックしてマウスをホールドし、そのまま上にドラッグします。 建物の後部の分割：エッジ付近にカーソルを持っていってクリックし、エッジ スナップと平行スナップに従って移動して再度クリックします。 ポリゴン上にカーソルを持っていき、上にドラッグします。 屋根を作成するため、前方のポリゴンを先ほどと同様に分割します。できたエッジ付近にカーソルを持っていくとオレンジ色のハンドルが現れますので、ポリゴンにスナップするまでこれを上にドラッグします。 屋根を引き出すために、まず [Rectangular Shape Creation] ツールを選択します。角にスナップしたらクリックし、エッジにスナップして再度クリックします。 このポリゴンをドラッグして引き出します。緑または青色の矢印に沿ってドラッグし、好みの屋根形状を作成します。ここでは青色の矢印を使用します。 ガレージを作成するにはまず長方形を描き、これをドラッグして引き出します。 もう 1 つ長方形を描きこれを少し内側にドラッグします。 続いてドアを作成します。長方形を描き、これを内側にドラッグします。 カメラの向きを変え、図のような角度で建物を見下ろした状態にします。屋根の手前の角をクリックし、スナップ ラインに沿って上面からのスナップ ラインが現れるまで移動します。 ここでクリックし、さらにもう 1 つの角でクリックしてポリゴンを完成します。 Part 2: テクスチャの貼り付け ここまでの作業で図形は完成しましたので、続いてテクスチャを貼りつけます。これまでの実習と同じシーンをそのまま使用するか、14A_Basic_2.</description></item><item><title>チュートリアル 14B : 応用的なポリゴン モデリング</title><link>/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/</link><pubDate>Wed, 23 Mar 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/</guid><description>演習 ・Part 1: ポリゴンによるモデリング ・Part 2: 押し出し ・Part 3: 張り出し屋根の作成 ・Part 4: 屋根窓ドアの改造 ・Part 5: テクスチャ チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+Part 1: ポリゴンによるモデリング [Navigator] ウィンドウのチュートリアルのデータフォルダーから、14B_Advanced_01.cej をダブルクリックしてプロジェクトを開きます。 [Polygonal Shape Creation] (S) ツールを選択し、最初の頂点 (ポイント) をクリックします。 ラインを動かしている間、[Polygonal Shape Creation] ツール オプションはラインの長さを表示します。また、[ツール オプション] ウィンドウでは、スナップ、円弧、平面のオプションを設定することができます。</description></item><item><title>チュートリアル 14C : ルールによるポリゴン モデルの結合</title><link>/cityengine/tutorials/tutorial-14c-combining-polygonal-modeling-with-rules/</link><pubDate>Wed, 23 Mar 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/tutorial-14c-combining-polygonal-modeling-with-rules/</guid><description>演習 ・Part 1: ポリゴン モデリングとルール チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+Part 1: ポリゴン モデリングとルール 本チュートリアルでは、ルール ベースのモデリングを使用して、ポリゴン モデリングの編集について説明します。今回は、家のすべての窓に見栄えが良い 3D フレームを設置します。
+現在の状態では、テクスチャは平面です。もちろん、ウィンドウごとにフレームをドラッグすることもできますが、これは非常に面倒です。また、スケールを変更すると窓テクスチャが不自然になります。下図では、窓のスケールを変更したために、テクスチャの窓が途切れています。
+3D の窓を効率よく配置するには、建物にルールを適用します。
+まず、3D 窓を作成します。[Rectangle] ツールを選択し、上にドラッグします。 [Selection] ツールで正面を選択し、[Texturing] ツールで窓テクスチャをアサインします。 [Rectangle] ツールで、窓枠にいくつか長方形を描きます。3D 構造にするため、ドラッグします。 これで窓が完成です。 これをルールで使用するために、まずエクスポートする必要があります。 4. モデルを選択し、[File] メニュー → [Export] → [models] を選択します。 5. wavefront OBJ を選択し、名前を window と名付けます。 出力先フォルダーが model フォルダーになっていることを確認します。 6.</description></item><item><title>チュートリアル 15: Web シーンのエクスポート</title><link>/cityengine/tutorials/tutorial-15-publish-web-scenes/</link><pubDate>Wed, 23 Mar 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/tutorial-15-publish-web-scenes/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+概要 CityEngine シーンを Web シーン (*.3ws) にエクスポートし、CityEngine Web ビューアーでの確認と Web シーンを ArcGIS Online に共有する方法を学習します。
+演習 ・Part 1: Web シーンに CityEnigne シーンをエクスポートする ・Part 2: Web シーンをローカルでプレビューする ・Part 3: CityEngine Web ビューアー ・Part 4: ArcGIS Online にパブリッシュ Part 1: Web シーンに CityEnigne シーンをエクスポートする チュートリアルのセットアップ ComplexPatterns.</description></item><item><title>チュートリアル 16: 都市計画</title><link>/cityengine/tutorials/tutorial-16-urban-planning/</link><pubDate>Wed, 23 Mar 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/tutorial-16-urban-planning/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+概要 本チュートリアルでは、CityEngine をどのように典型的な都市計画タスクに利用できるかを学習します。
+はじめに 本チュートリアルでは、CityEngine をどのように典型的な都市計画タスクに利用できるかを学習します。ここでは、街の中心に 9 つの建物の建設用地がある仮想の開発エリアを例として使用します。最終的なゴールとしては、ショッピングや、居住区、商業区を含めた複合地区をデザインします。本チュートリアルでは、このエリアの用途地域に沿った概略的なデザインを構築します（本チュートリアルは、Matthias Buehler および CityEngine を日常的に使用しているスイスの都市計画会社 SEILER&amp;amp;SEILERの協力を得て作成されています）。
+当然のことながら、実際の都市計画のプロセスはこのチュートリアルで述べるような簡単な事例ではなく、より高度で複雑です。現実世界では、これらのプロセスは、ステークホルダーの利益や、予算、プロジェクトの期間、流動的なターゲット、インフラの許容量（公共交通機関、供給と廃棄）、周囲の建物、自然保護など、さまざまな制約による影響を受けます。今回の例は 2 時間で行うように簡略化していますが、現実世界では数か月から数年単位の時間を要します。CityEngine はこのような反復的な性質のプロセスを処理するのに特に適しています。CityEngine Web シーンで提案するデザインを共有すれば、クライアントからのフィードバックが容易に得られます。CityEngine の典型的な使用例として、形状や位置の調整、[Inspector] ウィンドウによる属性の変更でデザインの改善が簡単にできます。適用結果はすぐに FAR (延べ床面積) などの数値レポートに反映されます。
+本チュートリアルでは、ポイントやポリゴン等のフィーチャを出発点とした半自動的ワークフローにおいて、CityEnigne のプロシージャル モデリングがどのように適用されるかを見ていきます。建物の配置パターンを独自にルールで記述しようとすると非常に複雑な CGA コードになってしまうので、本チュートリアルでは、フットプリントを配置するための手っ取り早い手段として、ポイントや手動で作成したフットプリント シェープを使用することを提案しています。特に小から中くらいのサイズの領域であれば、ほとんどの場合、この方法の方が直感的でより柔軟に利用できるはずです。
+本チュートリアルの概要 Urban Planning: 都市計画タスクを実行するための CGA ファイル Zoning: 開発エリアにおける用途地域を建物の高さの上限とセットバックで定義し、表示します。 Masterplanning: 上述の用途地域に則した形で建物の敷地の概略的なデザインを構築します。 CityEngine はこのようにプロジェクトのさまざまな状況や規制、計画工程で使用することができます。
+演習 ・Part 1: Urban Planning ツール ・Part 2: ゾーニング ・Part 3: 土地利用の定義 ・Part 4: 建物の高さとセットバックの定義 ・Part 5: ゾーニング定義の反映 ・Part 6: マスタープラン ・Part 7: 2 つのランドマーク建物を追加 ・Part 8: 屋外空間のデザイン Part 1.</description></item><item><title>チュートリアル 17: Desert City</title><link>/cityengine/tutorials/tutorial-17-desert-city/</link><pubDate>Wed, 23 Mar 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/tutorial-17-desert-city/</guid><description>チュートリアルデータ チュートリアルデータは、 [Help] メニュー → [Download Tutorials and Examples] を選択し、 [Example Desert City] をダウンロードしてください。
+概要 GIS データのインポートとフィッティング、各オブジェクト タイプに対する CGA ルールの適用、ArcGIS 製品での編集方法について学習します。
+演習 ・Part 1: Desert City チュートリアル Part 1: Desert City チュートリアル Desert City のシーン ファイルを探検する [Scene] フォルダーにある Desert_City.cej のシーン ファイルをダブルクリックします。
+[Regenerate saved models] ダイアログが表示されたら [Yes] をクリックします。全てのエレメントのモデルが生成されます。
+ナビゲート ツール群を使用しながら、シーン内の建物や道路、植物などを探索しましょう。 データの全体を見てみると、デフォルトでは一部の建物だけが生成されていることがわかります。これは、メモリ使用量をセーブするため、少量のモデルのみを生成しているためです。
+[Inspector] ウィンドウで、Buidling_Height、Buidling_Usage、Level of Detail などのパラメーターをいくつか変更します。</description></item><item><title>チュートリアル 18: ハンドル</title><link>/cityengine/tutorials/tutorial-18-handles/</link><pubDate>Wed, 23 Mar 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/tutorial-18-handles/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+概要 このチュートリアルは、主にモデルにハンドル機能を追加したい CGA ルール作成者向けです。ハンドルを設定すると、[Viewport] ウィンドウ内でCGA 属性を編集することができます。モデル編集を簡易化し、どの属性をコントロールできるかを視覚的に確認することができます。
+演習 ・Part 1: 基本的なライン ハンドル ・Part 2: 高度なライン ハンドル ・Part 3: その他のハンドル タイプ Part 1: 基本的なラインハンドル ハンドルを作成する前に、以下の作業を行ってください。
+チュートリアル 18 の scenes フォルダーから、part 1.cej ファイルを開きます。 [Scene] ウィンドウ内で、モデルを生成します。 キューブ モデルを選択し、[Inspector] ウィンドウで depth、height、offsetX、width を確認します。 rules/cube.cga ファイルを開きます。 ハンドルの作成 キューブの高さを調節するハンドルを作成します。</description></item><item><title>チュートリアル 19: VFX workflows with Alembic</title><link>/cityengine/tutorials/tutorial-19-vfx-workflows-with-alembic/</link><pubDate>Wed, 23 Mar 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/tutorial-19-vfx-workflows-with-alembic/</guid><description>このチュートリアルは日本語版を提供していません。 英語版をご参照ください。 Tutorial 19: VFX workflows with Alembic</description></item><item><title>独自データからカスタム変数を作成</title><link>/business-analyst/desktop/tutorial/customize-data/create-custom-variables/how-to-use-unique-data/</link><pubDate>Fri, 19 Nov 2021 00:00:00 +0900</pubDate><guid>/business-analyst/desktop/tutorial/customize-data/create-custom-variables/how-to-use-unique-data/</guid><description>本演習にかかる時間はおよそ 20 分です。
+町丁・字等別の顧客数や、売上高などの自社独自の数値情報を持つテーブル データを使用して、カスタム変数として登録する方法を学びます。
+まず、統計データ コレクションのデータ ソースとなる、売上高などの情報を持つ町丁・字等ポリゴンを作成します。
+統計データ コレクションのデータ ソースとして指定できるのは、何らかの数値情報を持つポリゴン データのみです。
+本演習では、千葉県内の自社店舗の顧客数や売上情報のカスタム変数を作成すると想定し、あらかじめ用意された、町丁・字等別に集計した顧客数・売上情報を含む Excel ファイルを使用して、町丁・字等ポリゴンを作成します。
+町丁・字等ポリゴンを作成したら、それを使用して統計データ コレクションを作成します。
+売上情報を含むテーブル データの確認 事前準備が完了していない場合は、演習に入る前にこちらの操作を行ってください。
+「BAProチュートリアル_カスタマイズ.aprx」の [演習1] マップを開きます。 売上情報を含むテーブル データをマップに追加します。[マップ] タブ → [レイヤー] グループの [データの追加] → [データ] をクリックして、[データの追加] ダイアログを開きます。 以下の Excel シートを選択し、[OK] をクリックします。 ＜事前準備で演習用データを配置した場所＞\bapro_tutorial_customize\演習用データ\町丁字等別売上情報.xlsx\町丁字等別売上情報$
+[コンテンツ] ウィンドウに「町丁字等別売上情報$」が追加されます。
+「町丁字等別売上情報$」を右クリック → [開く] をクリックし、テーブルを開きます。 テーブルに、町丁・字等の区画 ID や区画名、顧客数や売上高などの売上情報が含まれることを確認し、テーブルを閉じます。 「売上高」フィールドの単位は「円」とします。
+町丁・字等ポリゴンの作成 追加したテーブル データを使用して、町丁・字等ポリゴンを作成します。
+[解析] タブ → [ジオプロセシング] グループの [ツール] をクリックし、[ジオプロセシング] ウィンドウの検索ボックスに「標準区画商圏」と入力します。 検索結果の中の [標準区画商圏の生成 (Generate Standard Geography Trade Areas)] ツールをクリックして開きます。 ツールが開いたら、以下のように設定して [実行] をクリックします。 区画レベル：町丁・字等 (JP.</description></item><item><title>チュートリアル 20 : ローカル編集</title><link>/cityengine/tutorials/tutorial-20-local-edits/</link><pubDate>Wed, 23 Mar 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/tutorial-20-local-edits/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+下準備 このチュートリアルを行うには、 CityEngine 2017.0 以上のバージョンが必要です。
+概要 本チュートリアルでは、CityEngine でローカル編集を行う方法を解説します。チュートリアル 6 を完了したところからスタートし、ローカル編集を有効化するためのコードを追加することから始めます。ローカル編集を使用すると、CGA コードで局所的なバリエーションを指定する必要なく、個々の窓のサイズを変更したり、地上階に変更したり、選択可能なバルコニーを追加することができます。
+演習 ・Part 1: テレインの作成 ・Part 2: 地上階のみを変更する ・Part 3: バルコニーを追加する ・Part 4: 草地エリアを追加する Part 1 :テレインの生成 以下の作業を行ってハンドルを作成します。
+Simple_Building_LE_01.cej シーンを開きます。 Simple_Building_LE_01.cga ルール ファイルを開きます。 ローカル編集は、ハンドルを持つ属性に対して行うことができます。窓のサイズのローカル編集を有効にするには、窓の幅や高さの属性を作成し、これらの属性を使用するように Tile ルールを変更し、属性にハンドルを追加します。 Simple_Building_LE_01.cga のルール ファイルに、窓の幅と高さの属性を追加します。 attr window_width = 2 attr window_height = 1.</description></item><item><title>既存の BA 用データからカスタム変数を作成</title><link>/business-analyst/desktop/tutorial/customize-data/create-custom-variables/how-to-use-existing-ba-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/customize-data/create-custom-variables/how-to-use-existing-ba-data/</guid><description>本演習にかかる時間はおよそ 30 分です。
+カスタム変数の作成ツールには、前演習で学んだ、データ ソースに元々存在するフィールドを利用する機能に加え、これらのフィールドを使用して、カスタムの計算式を作成する機能も搭載されています。
+本演習では、既存の BA 用データを使用して、独自のカスタム計算式を設定してカスタム変数を作成する方法を学びます。
+事前準備が完了していない場合は、演習に入る前にこちらの操作を行ってください。
+統計データ コレクションの作成 後述の手順内で表記されている「20xx」は、利用しているデータの年度に読み替えてください。
+まず、既存の BA データに搭載されている町丁・字等ポリゴンを使用して、統計データ コレクションを作成します。
+[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [新しい統計データ コレクション] をクリックします。 [データ追加] ダイアログが開いたら、以下のフィーチャクラスを選択し、[開く] をクリックします。 C:\ArcGIS\Business Analyst\JPN_Esrijapan_20xx\Data\Demographic Data\jpn_esrijapan_20xx.gdb\Blocks_blk
+[SDCX の編集] ダイアログが開きます。
+カスタム計算式の設定 カスタム計算式を設定します。今回は、既存の BA 用データには無い「20~40 代人口」変数を作成します。
+[変数] タブを開き、1 つ目のフィールド「SIKINUM」行をクリックして選択状態にします。 フィールドの一覧を一番下までスクロールし、Shift キーを押しながら最後のフィールド「Shape_Area」行をクリックします。 すべてのフィールドが選択されていることを確認し、チェックを外します。 これにより、すべてのフィールドが未選択の状態になりました。次に、計算に利用するフィールドのみを選択します。
+次に、以下のフィールドにチェックを入れて選択します。 D_POP_20_29 (2015 人口 20歳代) D_POP_30_39 (2015 人口 30歳代) D_POP_40_49 (2015 人口 40歳代) ダイアログ右上の検索ボックスに、フィールド名もしくはエイリアスを入力することで、変数を検索できます。</description></item><item><title>チュートリアル 21: CSV のインポート</title><link>/cityengine/tutorials/tutorial-21-csv-import/</link><pubDate>Wed, 23 Mar 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/tutorial-21-csv-import/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+概要 このチュートリアルでは、CSV ファイルからデータをインポートし、配列を使用して CGA コードで使用する方法を学習します。 CSV ファイルをインポートするには、建物をフロア毎に分割し、各フロアにスペース使用状況を割り当てることができるルールを使用します。CSV ファイルには、使用可能なスペースの使用状況とその色、および床の高さのリストが含まれています。CGA コードでは、CSV ファイルのデータが配列に読み込まれ、Inspector でルールと対応する UI を駆動するために使用されます。
+演習 ・Part 1: CSV ファイルからデータをインポート ・Part 2: ダッシュボードの作成 Part 1: CSV ファイルからデータをインポート 例のセットアップ
+Assign_Floor_Usages_01.cej シーンを開きます。 Lot スタート ルールを使用して、Assign_Floor_Usages_01.cga ルールファイルを 2D の建物のフットプリント (Footprints) に割り当てます。 MassModel スタート ルールを使用して、Assign_Floor_Usages_01.cga ルール ファイルを 3D マスモデル (Mass Models) に割り当てます。 両方のシェープを選択します。 [Inspector] で展開ボタン をクリックして、最初は空の状態になっている floor_usages 配列属性を展開します。 追加ボタン をクリックして、エレメントを配列に追加します。このボタンを 4 回クリックして、デフォルトの使用状況である ResidentialSingle-Family で 4 つのフロアを作成します。 行を削除する必要がある場合は、各エレメントの横にある灰色の配列インデックスを右クリックして、Delete Row をクリックします。</description></item><item><title>カスタム変数を使用した解析</title><link>/business-analyst/desktop/tutorial/customize-data/analysis-with-custom-variables/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/customize-data/analysis-with-custom-variables/</guid><description>本演習にかかる時間はおよそ 30 分です。
+前演習では、自社の顧客や売上などの独自のデータや、既存の BA 用データを使用してカスタム変数を作成しました。
+本演習では、作成したカスタム変数を元にした商圏を作成したり、商圏に対してカスタム変数を集計したりする方法を学びます。
+事前準備が完了していない場合は、演習に入る前にこちらの操作を行ってください。前回の演習から引き続き演習をされている方は、「限界値商圏の作成」から開始いただけます。
+統計データ コレクションの追加 カスタム変数の設定がされた統計データ コレクションを、プロジェクトに追加して利用できるようにします。
+「BAProチュートリアル_カスタマイズ.aprx」の [演習1] マップを開き、[コンテンツ] ウィンドウおよびマップ上に、店舗のポイント データがあらかじめ追加されていることを確認します。
+[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [統計データ コレクションの追加] をクリックします。
+[既存の統計データ コレクション] ダイアログが開いたら、以下ファイルを選択します。
+＜事前準備で演習用データを配置した場所＞\bapro_tutorial_customize\演習用データ\演習結果\町丁字等別売上情報.sdcx
+手順 2 の操作を再度実行してダイアログを開き、以下のファイルをさらに選択します。
+＜事前準備で演習用データを配置した場所＞\bapro_tutorial_customize\演習用データ\演習結果\既存のBAデータから作成した計算変数.sdcx
+[カタログ] ウィンドウの [Business Analyst] → [統計データ コレクション] フォルダー内に、「町丁字等別売上情報.sdcx」と「既存のBAデータから作成した計算変数.sdcx」が追加されます。
+追加した統計データ コレクションのインデックスは最新ではないため、再度インデックスを生成します。
+[解析] タブ → [ジオプロセシング] グループの [ツール] をクリックし、[ジオプロセシング] ウィンドウの検索ボックスに「SDCX」と入力します。 検索結果の中の [SDCX インデックスの生成 (Generate SDCX index)] ツールをクリックして開きます。 [入力 SDCX ファイル] の [参照] ボタンをクリックしてダイアログを開き、以下のファイルを選択して [OK] をクリックします。 ＜事前準備で演習用データを配置した場所＞\bapro_tutorial_customize\演習用データ\演習結果\町丁字等別売上情報.</description></item><item><title>カスタム変数の共有</title><link>/business-analyst/desktop/tutorial/customize-data/share-custom-variabels/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/customize-data/share-custom-variabels/</guid><description>本演習にかかる時間はおよそ 15 分です。
+BA Pro で作成したカスタム変数は、ArcGIS Online に共有することでクラウド型アプリケーション BA Web and Mobile Apps でも利用することができます。
+本演習では、これまでの演習で作成したカスタム変数を、ArcGIS Online に共有する方法を学びます。
+事前準備が完了していない場合は、演習に入る前にこちらの操作を行ってください。
+カスタム変数の共有 [プロジェクト] タブ → [保存] を選択し、プロジェクトを保存します。
+BA Web App でカスタム変数を利用 まとめ この演習では、～～することができました。
+さらに、～～することができました。
+また、以下のツールの操作を学びました。
+[エリア内での集計] ツール [統計データ コレクションの作成] ツール</description></item></channel></rss>
