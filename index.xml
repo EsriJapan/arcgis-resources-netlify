@@ -658,7 +658,7 @@ ArcGIS Business Analyst とは ArcGIS Business Analyst は、インフォグラ�
 ArcGIS Business Analyst には、人口統計や、立地評価のための地図や境界などのデータがバンドルされており、国内に加え、海外分析を行うことができます。また、ビジネスの課題を解決するための分析ワークフローも一緒に提供されます。
 ユーザーは、これらを利用して商圏分析や顧客分析などを実行し、その結果を美しく魅力的なレポートを利用して共有することができます。
 提供されるデータは、ローカルにインストールして利用する「オフライン データ」と、ArcGIS Online からアクセスして利用する「オンライン データ」の 2 種類があります。 これらのデータの詳細については、ESRIジャパン製品ページをご参照ください。
-ArcGIS Business Analyst で利用できるアプリケーション ArcGIS Business Analyst で利用できるアプリケーションは、大きく分けてデスクトップ型とクラウド型があります。
+利用できるアプリケーション ArcGIS Business Analyst で利用できるアプリケーションは、大きく分けてデスクトップ型とクラウド型があります。
 各アプリケーションの詳細は、ESRIジャパン製品ページをご参照ください。
 BA Pro とは BA Pro は、高機能デスクトップ型 GIS「ArcGIS Pro」をベースにした、エリアマーケティング特化型のアプリケーションです。 高度な商圏分析や顧客分析、予測分析を行うことができ、クラウド型 GIS「ArcGIS Online」を通して、データを組織内で共有することができます。
 利用できる機能 商圏 商圏分析を行うにあたって、まずは商圏を定義することが分析の第一歩となります。BA Pro では、以下表のように、シンプルなものから高度なものまで多彩な商圏を作成できます。
@@ -708,7 +708,7 @@ Map Viewer でレイヤーを含むマップを開くか、マップにレイヤ
 シーン Tutorial_06_Basic_Shape_Grammar/scenes/01_SimpleBuilding.</description></item><item><title>その他のツール</title><link>/business-analyst/desktop/tips/reference/functionality/others/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tips/reference/functionality/others/</guid><description>本ページでは、ArcMap 版の [Business Analyst] ウィンドウなどから実行できる各種機能が、ArcGIS Pro 版でどれだけ利用できるかを説明します。
 Business Analyst ウィンドウ 機能名 (ArcMap 版) ArcGIS Pro 版への実装 機能名 (ArcGIS Pro 版) 関連チュートリアル 備考 プロジェクトの管理 ◯ プロジェクトの作成 - スマート マップ サーチ - - - バッチ タスク - - - カラーコード マップ ツールバー 機能名 (ArcMap 版) ArcGIS Pro 版への実装 機能名 (ArcGIS Pro 版) 関連チュートリアル 備考 カラーコード マップ ◯ カラー コード レイヤー ・商圏分析 - 既存店舗を対象とした分析・ハフ モデル その他のツールバー 機能名 (ArcMap 版) ArcGIS Pro 版への実装 機能名 (ArcGIS Pro 版) 関連チュートリアル 備考 Address Coder - - - table { font-size: 13px; width: 100%; margin-right: 5px; margin-left: 15px; } table th:first-of-type { width: 15%; } table th:nth-of-type(2) { width:10%; } table th:nth-of-type(3) { width: 15%; } table th:nth-of-type(4) { width: 15%; } table th:nth-of-type(5) { width: 15%; }</description></item><item><title>事前準備</title><link>/business-analyst/desktop/tutorial/prepare-for-tutorial/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/prepare-for-tutorial/</guid><description>演習を開始するために必要な作業を行います。
 本演習では、演習用データとして Excel 形式のファイルを提供しています。Excel ファイルを BA Pro で操作するには、お使いの PC に Microsoft Access データベース エンジンのインストールが必要な場合があります。以下ヘルプの手順に沿ってインストールを行ってから演習を進めてください。 ・Microsoft Excel ファイルを操作するためのドライバーをインストール ArcGIS Pro | ドキュメント
-演習用データのダウンロード 行いたい演習に応じて以下のリンクから演習用データをダウンロードし、解凍します。
+演習用データのダウンロード 演習に応じて以下のリンクから演習用データをダウンロードし、解凍します。
 演習名 演習用データ ・顧客・店舗情報の取り込み・商圏分析 BAProチュートリアル_商圏分析 ・顧客分析 BAProチュートリアル_顧客分析 ・ハフ モデル BAProチュートリアル_ハフモデル ・データのカスタマイズ BAProチュートリアル_カスタマイズ 解凍したフォルダーを、任意の場所に配置します。
 上記のフォルダー一式を「プロジェクト」と言います。ArcGIS Pro の作業内容はプロジェクトに保存されます。詳細は、ヘルプをご参照ください。
 本演習では、作成済みのプロジェクトを提供いたします。新規プロジェクトの作成方法は、ArcGIS Pro 操作ムービーをご覧ください。
@@ -746,15 +746,16 @@ Map Viewer での検索 検索の設定をした Web マップを Map Viewer で
 ファサード モデリング このチュートリアルでは、実際に撮影した写真からどのようにファサードを再現する一連の CGA を記述するかを説明します。これからモデリングするファサードは以下に示すものです。ルールセットの作成が進むにつれて、より詳細に写真を解析していくことになります。
 どのように実際のファサードを解析し、その構造を CGA グラマールールに翻訳していくか、そしてどのように既存のモデルアセットを CGA ルールに使用するかを学習します。</description></item><item><title>商圏分析ツール</title><link>/business-analyst/desktop/tips/reference/functionality/esrijtool/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tips/reference/functionality/esrijtool/</guid><description>本ページでは、ESRIジャパンが作成した ArcMap 版の「商圏分析ツール」の各種機能が、ArcGIS Pro 版でどれだけ利用できるかを説明します。
 現時点で ESRIジャパンでは商圏分析ツールの ArcGIS Pro 版の提供予定はございません。
-商圏分析ツール 機能名 (ArcMap 版) ArcGIS Pro 版への実装 機能名 (ArcGIS Pro 版) 関連チュートリアル 備考 簡易属性検索 ◯ 属性検索 - フィルタリング ◯ 定義クエリによるフィーチャのフィルター - テーブル結合 ◯ テーブルの結合 - ポイント集計 ◯ エリア内での集計 - 面積按分集計 ◯ ポリゴンの按分 - 重複レイヤーの抽出 ◯ 空間検索 - テーブルのエクスポート ◯ テーブル → テーブル - フィールドの削除 ◯ フィールドの削除 - 重複ポイントの分散 - - - クロスランキング ◯ 2 変量色 顧客分析 - 市場シェアの把握 商圏レポート ◯ ・インフォグラフィックス・サマリー レポート 商圏分析 - 既存店舗を対象とした分析 ArcGIS Pro 版で利用可能なレポート テンプレートは、ArcMap 版の商圏分析ツールのものとは異なります。 table { font-size: 13px; width: 100%; margin-right: 5px; margin-left: 15px; } table th:first-of-type { width: 15%; } table th:nth-of-type(2) { width:10%; } table th:nth-of-type(3) { width: 15%; } table th:nth-of-type(4) { width: 15%; } table th:nth-of-type(5) { width: 15%; }</description></item><item><title>顧客・店舗情報の取り込み</title><link>/business-analyst/desktop/tutorial/geocoding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/geocoding/</guid><description>2022 年版以前の Business Analyst 用オフライン データに付属する従来形式のロケーターは、ArcGIS Pro 3.0 以降では動作しなくなります (詳細はこちら)。本演習を行う際には、ArcGIS Pro 2.9 以前をご使用ください。
+商圏分析ツール 機能名 (ArcMap 版) ArcGIS Pro 版への実装 機能名 (ArcGIS Pro 版) 関連チュートリアル 備考 簡易属性検索 ◯ 属性検索 - フィルタリング ◯ 定義クエリによるフィーチャのフィルター - テーブル結合 ◯ テーブルの結合 - ポイント集計 ◯ エリア内での集計 - 面積按分集計 ◯ ポリゴンの按分 - 重複レイヤーの抽出 ◯ 空間検索 - テーブルのエクスポート ◯ テーブル → テーブル - フィールドの削除 ◯ フィールドの削除 - 重複ポイントの分散 - - - クロスランキング ◯ 2 変量色 顧客分析 - 市場シェアの把握 商圏レポート ◯ ・インフォグラフィックス・サマリー レポート 商圏分析 - 既存店舗を対象とした分析 ArcGIS Pro 版で利用可能なレポート テンプレートは、ArcMap 版の商圏分析ツールのものとは異なります。 table { font-size: 13px; width: 100%; margin-right: 5px; margin-left: 15px; } table th:first-of-type { width: 15%; } table th:nth-of-type(2) { width:10%; } table th:nth-of-type(3) { width: 15%; } table th:nth-of-type(4) { width: 15%; } table th:nth-of-type(5) { width: 15%; }</description></item><item><title>顧客・店舗情報の取り込み</title><link>/business-analyst/desktop/tutorial/geocoding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/geocoding/</guid><description>2022 年版以前の Business Analyst 用オフライン データに付属する従来形式のロケーターは、ArcGIS Pro 3.0 以降では動作しないのでご注意ください (詳細はこちら)。
 本演習にかかる時間はおよそ 15-30 分です。
 目的 住所情報を含むテーブル データと [住所のジオコーディング] ツールを用いて、自社の店舗や顧客をポイント データ化する方法を習得します。
 本演習では、顧客の住所情報を元にジオコーディングを行います。
 ジオコーディングとは、住所や郵便番号、場所の名前などのテーブル情報を地図上に展開し、GIS データ化する処理のことをいいます。詳細はビジネスマップ用語集をご覧ください。
-演習 住所情報を含むテーブル データの確認 事前準備が完了していない場合は、演習に入る前にこちらの操作を行ってください。
-「BAProチュートリアル_商圏分析.aprx」の [演習1] マップを開きます。 顧客のテーブル データをマップに追加します。[マップ] タブ → [レイヤー] グループの [データの追加] → [データ] をクリックして、[データの追加] ダイアログを開きます。 以下の Excel シートを選択し、[OK] をクリックします。 ＜事前準備で演習用データを配置した場所＞\bapro_tutorial_tradearea_analysis\演習用データ\顧客リスト.xlsx\顧客リスト$
-[コンテンツ] ウィンドウに「顧客リスト$」が追加されます。「顧客リスト$」を右クリック → [開く] をクリックし、テーブルを開きます。 テーブルに、住所情報や ID などの情報が格納されていることを確認し、テーブルを閉じます。 顧客ポイント データの作成 後述の手順内で表記されている「20xx」は、利用しているデータの年度に読み替えてください。
-顧客のジオコーディングを行います。</description></item><item><title>データの表示設定を変更したい</title><link>/online/users-guide/manage-data/viewlayer/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/viewlayer/</guid><description>ホスト フィーチャ レイヤー (親レイヤー) からビュー レイヤー (子レイヤー) を作成し、特定のエリアやフィールド、条件に合ったフィーチャのみを表示したり、編集権限を個別に設定することができます。
+演習 住所情報を含むテーブル データの確認 BAProチュートリアル_商圏分析.aprx の [演習1] マップを開きます。 顧客のテーブル データをマップに追加します。
+[マップ] タブ → [レイヤー] グループの [データの追加] をクリックします。 [データ] を選択して、[データの追加] ダイアログを開きます。 演習データ内の Excel シートを選択し、[OK] をクリックします。 ＜事前準備で演習用データを配置した場所＞\bapro_tutorial_tradearea_analysis\演習用データ\顧客リスト.xlsx\顧客リスト$
+Excel の読み込みができない場合、事前準備に記載の Microsoft Access データベース エンジンのインストール が必要な場合があります。
+[コンテンツ] ウィンドウに「顧客リスト$」が追加されます。
+「顧客リスト$」を右クリック → [開く] をクリックし、テーブルを開きます。 テーブルに、住所情報や ID などの情報が格納されていることを確認します。</description></item><item><title>データの表示設定を変更したい</title><link>/online/users-guide/manage-data/viewlayer/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/viewlayer/</guid><description>ホスト フィーチャ レイヤー (親レイヤー) からビュー レイヤー (子レイヤー) を作成し、特定のエリアやフィールド、条件に合ったフィーチャのみを表示したり、編集権限を個別に設定することができます。
 ホスト フィーチャ レイヤー ビューの作成 ビューを作成したいホスト フィーチャ レイヤーのアイテム詳細ページを開きます。
 [概要] タブの [ビュー レイヤーを作成] をクリックします。
 [ビュー レイヤーを作成] ウィザードが表示されます。まず、[レイヤー] でビューに含めるレイヤーを選択し、[次へ] をクリックします。
@@ -778,14 +779,15 @@ Business Analyst ツール 店舗の設定ツールセット ArcGIS Pro 版で�
 まず最初に、建物を生成します。
 [3D View] ウィンドウの中で区画を 1 つ選択します。
 ツールバーの [Generate] ボタンをクリックします。</description></item><item><title>新規候補地に対する分析 (クイック商圏)</title><link>/business-analyst/desktop/tutorial/tradearea-analysis/evaluate-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/tradearea-analysis/evaluate-site/</guid><description>本演習にかかる時間はおよそ 15-30 分です。
-「クイック商圏」を使用することで、素早く商圏作成からレポートの実行までを行うことができます。本演習では、西船橋駅を評価対象としてクイック商圏を実行してみましょう。
-演習 本演習は、後述のインフォグラフィックスの表示を行うことでサービス クレジットを 0.01 消費します。
+「クイック商圏」を使用することで、素早く商圏作成からレポートの実行までを行うことができます。本演習では、西船橋駅を評価対象としてクイック商圏を実行してみます。
+演習 本演習は、インフォグラフィックスの表示を行うことでサービス クレジットを 0.01 消費します。
 事前準備が完了していない場合は、演習に入る前にこちらの操作を行ってください。
 クイック商圏 クイック商圏を実行して、西船橋駅を起点とした商圏作成とインフォグラフィックスの実行を行います。
-「BAProチュートリアル_商圏分析.aprx」の [演習2] マップを開き、[コンテンツ] ウィンドウおよびマップ上に店舗のポイント データがあらかじめ追加されていることを確認します。 [解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [クイック商圏] をクリックして、[クイック商圏] ウィザードを開きます。 [クイック商圏] ウィザードの [ステップ1: 位置] で、解析対象となる位置を指定します。
+BAProチュートリアル_商圏分析.aprx の [演習2] マップを開きます。 [コンテンツ] ウィンドウおよびマップ上に店舗データがあらかじめ追加されていることを確認します。
+[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [クイック商圏] をクリックします。 [クイック商圏] ウィザードの [ステップ1: 位置] で、解析対象となる位置を指定します。
 [場所検索] タブを開き、検索ボックスに「西船橋駅」と入力し、Enter キーを押します。 検索結果が表示されるので、選択して [次へ] をクリックします。 [ステップ2: バッファー] で商圏を作成します。
 [道路距離/時間商圏] タブを選択し、以下のように設定し、[次へ] をクリックします。 距離タイプ：運転時間 (平常時) 時間：「5」、「10」、「15」と入力します。単位は「分」に設定します。 ディゾルブ オプション：ディスク 作成できる商圏は、リング商圏および道路距離/時間商圏のいずれかです。
-ディゾルブ オプションの設定によって、複数の距離を指定した場合のポリゴンの重複のさせ方を指定できます。 ・ディスク：各ポリゴンは、起点から距離値までの到達可能な領域を含みます。(例：5,10 分の道路時間商圏の場合、0-5 分の到達圏ポリゴンと 0-10 分の到達圏ポリゴンが生成されます。) ・リング：各ポリゴンは、連続する距離値の間にある領域のみを含みます。(例：5,10 分の道路時間商圏の場合、0-5 分の到達圏ポリゴンと 5-10 分の到達圏ポリゴンが生成されます。)</description></item><item><title>データを編集したい</title><link>/online/users-guide/map/edit/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/map/edit/</guid><description>Web マップに追加されているレイヤーを編集してフィーチャを追加、編集、削除します。
+ディゾルブ オプションは、複数の距離を指定した場合のポリゴンの重複のさせ方を指定できます。 ・ディスク：各ポリゴンは、起点から指定した値までの領域になります。(例：5,10 分の道路時間商圏の場合、0-5 分の到達圏ポリゴンと 0-10 分の到達圏ポリゴンが生成されます。) ・リング　：各ポリゴンは、指定した値の間にある領域のみになります。(例：5,10 分の道路時間商圏の場合、0-5 分の到達圏ポリゴンと 5-10 分の到達圏ポリゴンが生成されます。)</description></item><item><title>データを編集したい</title><link>/online/users-guide/map/edit/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/map/edit/</guid><description>Web マップに追加されているレイヤーを編集してフィーチャを追加、編集、削除します。
 Map Viewer Classic をお使いの場合は、第 5 章 データの編集 (Map Viewer Classic) をご参照ください。
 編集可能なレイヤーをマップに追加します。
 レイヤーの編集の有効化方法は「編集の有効化」をご参照ください。

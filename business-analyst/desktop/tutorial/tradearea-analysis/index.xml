@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>商圏分析 on ArcGIS リソース集</title><link>/business-analyst/desktop/tutorial/tradearea-analysis/</link><description>Recent content in 商圏分析 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="/business-analyst/desktop/tutorial/tradearea-analysis/index.xml" rel="self" type="application/rss+xml"/><item><title>新規候補地に対する分析 (クイック商圏)</title><link>/business-analyst/desktop/tutorial/tradearea-analysis/evaluate-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/tradearea-analysis/evaluate-site/</guid><description>本演習にかかる時間はおよそ 15-30 分です。
-「クイック商圏」を使用することで、素早く商圏作成からレポートの実行までを行うことができます。本演習では、西船橋駅を評価対象としてクイック商圏を実行してみましょう。
-演習 本演習は、後述のインフォグラフィックスの表示を行うことでサービス クレジットを 0.01 消費します。
+「クイック商圏」を使用することで、素早く商圏作成からレポートの実行までを行うことができます。本演習では、西船橋駅を評価対象としてクイック商圏を実行してみます。
+演習 本演習は、インフォグラフィックスの表示を行うことでサービス クレジットを 0.01 消費します。
 事前準備が完了していない場合は、演習に入る前にこちらの操作を行ってください。
 クイック商圏 クイック商圏を実行して、西船橋駅を起点とした商圏作成とインフォグラフィックスの実行を行います。
-「BAProチュートリアル_商圏分析.aprx」の [演習2] マップを開き、[コンテンツ] ウィンドウおよびマップ上に店舗のポイント データがあらかじめ追加されていることを確認します。 [解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [クイック商圏] をクリックして、[クイック商圏] ウィザードを開きます。 [クイック商圏] ウィザードの [ステップ1: 位置] で、解析対象となる位置を指定します。
+BAProチュートリアル_商圏分析.aprx の [演習2] マップを開きます。 [コンテンツ] ウィンドウおよびマップ上に店舗データがあらかじめ追加されていることを確認します。
+[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [クイック商圏] をクリックします。 [クイック商圏] ウィザードの [ステップ1: 位置] で、解析対象となる位置を指定します。
 [場所検索] タブを開き、検索ボックスに「西船橋駅」と入力し、Enter キーを押します。 検索結果が表示されるので、選択して [次へ] をクリックします。 [ステップ2: バッファー] で商圏を作成します。
 [道路距離/時間商圏] タブを選択し、以下のように設定し、[次へ] をクリックします。 距離タイプ：運転時間 (平常時) 時間：「5」、「10」、「15」と入力します。単位は「分」に設定します。 ディゾルブ オプション：ディスク 作成できる商圏は、リング商圏および道路距離/時間商圏のいずれかです。
-ディゾルブ オプションの設定によって、複数の距離を指定した場合のポリゴンの重複のさせ方を指定できます。 ・ディスク：各ポリゴンは、起点から距離値までの到達可能な領域を含みます。(例：5,10 分の道路時間商圏の場合、0-5 分の到達圏ポリゴンと 0-10 分の到達圏ポリゴンが生成されます。) ・リング：各ポリゴンは、連続する距離値の間にある領域のみを含みます。(例：5,10 分の道路時間商圏の場合、0-5 分の到達圏ポリゴンと 5-10 分の到達圏ポリゴンが生成されます。)</description></item><item><title>既存店舗を対象とした分析</title><link>/business-analyst/desktop/tutorial/tradearea-analysis/analysis-for-existing-stores/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/tradearea-analysis/analysis-for-existing-stores/</guid><description>本演習にかかる時間はおよそ 30-45 分です。
+ディゾルブ オプションは、複数の距離を指定した場合のポリゴンの重複のさせ方を指定できます。 ・ディスク：各ポリゴンは、起点から指定した値までの領域になります。(例：5,10 分の道路時間商圏の場合、0-5 分の到達圏ポリゴンと 0-10 分の到達圏ポリゴンが生成されます。) ・リング　：各ポリゴンは、指定した値の間にある領域のみになります。(例：5,10 分の道路時間商圏の場合、0-5 分の到達圏ポリゴンと 5-10 分の到達圏ポリゴンが生成されます。)</description></item><item><title>既存店舗を対象とした分析</title><link>/business-analyst/desktop/tutorial/tradearea-analysis/analysis-for-existing-stores/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/tradearea-analysis/analysis-for-existing-stores/</guid><description>本演習にかかる時間はおよそ 30-45 分です。
 演習 事前準備が完了していない場合は、演習に入る前にこちらの操作を行ってください。
 リング商圏の生成 自社店舗ポイントを起点としたリング商圏を作成します。
 「BAProチュートリアル_商圏分析.aprx」の [演習2] マップを開き、[コンテンツ] ウィンドウおよびマップ上に店舗のポイント データがあらかじめ追加されていることを確認します。 [解析] タブ → [ジオプロセシング] グループの [ツール] をクリックします。 [ジオプロセシング] ウィンドウを開いたら、[ツールボックス] タブ → [Business Analyst ツール] → [商圏] と展開し、[リング商圏の生成 (Generate Trade Area Rings)] をクリックします。 [リング商圏の生成] ツールが開いたら、以下のように設定します。 入力フィーチャ：自社店舗 出力フィーチャクラス：リング商圏_1_3km 入力方法：値 距離：1 列目に「1」と入力し、[他を追加] をクリックして 2 列目に「3」と入力 距離単位：キロメートル ID フィールド：店舗ID 以下の通りに設定が完了したら、[実行] をクリックしてツールを実行します。 マップに、自社店舗を起点とした 1,3km のリング商圏が追加されます。
