@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>チュートリアル on ArcGIS リソース集</title><link>/business-analyst/desktop/tutorial/</link><description>Recent content in チュートリアル on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Fri, 19 Nov 2021 00:00:00 +0900</lastBuildDate><atom:link href="/business-analyst/desktop/tutorial/index.xml" rel="self" type="application/rss+xml"/><item><title>はじめに</title><link>/business-analyst/desktop/tutorial/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/overview/</guid><description>チュートリアルを開始する前に、ArcGIS Business Analyst および BA Pro の概要を学びます。
+ArcGIS Business Analyst とは ArcGIS Business Analyst は、インフォグラフィックスや生活行動、消費データなどのデータに基づいて、組織がよりスマートで情報に基づいた意思決定ができるように支援する、商圏分析・エリアマーケティング特化型 GIS ソリューションです。 新規出店候補地の立地評価や、自社顧客の市場シェアの把握、市場ポテンシャルの高いエリアの絞りこみなどの解析を行うことができます。
+ArcGIS Business Analyst には、人口統計や、立地評価のための地図や境界などのデータがバンドルされており、国内に加え、海外分析を行うことができます。また、ビジネスの課題を解決するための分析ワークフローも一緒に提供されます。
+ユーザーは、これらを利用して商圏分析や顧客分析などを実行し、その結果を美しく魅力的なレポートを利用して共有することができます。
+提供されるデータは、ローカルにインストールして利用する「オフライン データ」と、ArcGIS Online からアクセスして利用する「オンライン データ」の 2 種類があります。 これらのデータの詳細については、ESRIジャパン製品ページをご参照ください。
+ArcGIS Business Analyst で利用できるアプリケーション ArcGIS Business Analyst で利用できるアプリケーションは、大きく分けてデスクトップ型とクラウド型があります。
+各アプリケーションの詳細は、ESRIジャパン製品ページをご参照ください。
+BA Pro とは BA Pro は、高機能デスクトップ型 GIS「ArcGIS Pro」をベースにした、エリアマーケティング特化型のアプリケーションです。 高度な商圏分析や顧客分析、予測分析を行うことができ、クラウド型 GIS「ArcGIS Online」を通して、データを組織内で共有することができます。
+利用できる機能 商圏 商圏分析を行うにあたって、まずは商圏を定義することが分析の第一歩となります。BA Pro では、以下表のように、シンプルなものから高度なものまで多彩な商圏を作成できます。
+名前 説明 イメージ リング商圏 店舗を中心として、半径を指定して作成される円形の商圏です。 道路距離/時間商圏 道路ネットワークデータを使用して、店舗からの道路距離または道路を通行した場合の所要時間に基づき作成される商圏です。到達圏とも呼ばれます。 近似到達圏 既存のポリゴンに近似した到達圏です。 限界値商圏 店舗から外側に向かって、指定した限界値 (人口総数など) に達する地点が境界線となる商圏です。 顧客分布商圏 店舗ごとの顧客データをもとにした、店舗から近い順に顧客データを一定割合含む範囲を指します。実勢商圏とも呼ばれます。 区画商圏 町丁・字等や市区町村等の区画ポリゴンを商圏として出力します。 商圏とは、店舗が顧客を集客できる可能性のある地理的な範囲です。詳細はビジネスマップ用語集をご覧ください。</description></item><item><title>事前準備</title><link>/business-analyst/desktop/tutorial/prepare-for-tutorial/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/prepare-for-tutorial/</guid><description>演習を開始するために必要な作業を行います。
+本演習では、演習用データとして Excel 形式のファイルを提供しています。Excel ファイルを BA Pro で操作するには、お使いの PC に Microsoft Access データベース エンジンのインストールが必要な場合があります。以下ヘルプの手順に沿ってインストールを行ってから演習を進めてください。 ・Microsoft Excel ファイルを操作するためのドライバーをインストール ArcGIS Pro | ドキュメント
+演習用データのダウンロード 行いたい演習に応じて以下のリンクから演習用データをダウンロードし、解凍します。
+演習名 演習用データ ・顧客・店舗情報の取り込み・商圏分析 BAProチュートリアル_商圏分析 ・顧客分析 BAProチュートリアル_顧客分析 ・ハフ モデル BAProチュートリアル_ハフモデル ・データのカスタマイズ BAProチュートリアル_カスタマイズ 解凍したフォルダーを、任意の場所に配置します。
+上記のフォルダー一式を「プロジェクト」と言います。ArcGIS Pro の作業内容はプロジェクトに保存されます。詳細は、ヘルプをご参照ください。
+本演習では、作成済みのプロジェクトを提供いたします。新規プロジェクトの作成方法は、ArcGIS Pro 操作ムービーをご覧ください。
+ArcGIS Pro の起動 演習用プロジェクトを起動し、ArcGIS Online にサイン インします。</description></item><item><title>顧客・店舗情報の取り込み</title><link>/business-analyst/desktop/tutorial/geocoding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/geocoding/</guid><description>2022 年版以前の Business Analyst 用オフライン データに付属する従来形式のロケーターは、ArcGIS Pro 3.0 以降では動作しなくなります (詳細はこちら)。本演習を行う際には、ArcGIS Pro 2.9 以前をご使用ください。
+本演習にかかる時間はおよそ 15-30 分です。
+目的 住所情報を含むテーブル データと [住所のジオコーディング] ツールを用いて、自社の店舗や顧客をポイント データ化する方法を習得します。
+本演習では、顧客の住所情報を元にジオコーディングを行います。
+ジオコーディングとは、住所や郵便番号、場所の名前などのテーブル情報を地図上に展開し、GIS データ化する処理のことをいいます。詳細はビジネスマップ用語集をご覧ください。
+演習 住所情報を含むテーブル データの確認 事前準備が完了していない場合は、演習に入る前にこちらの操作を行ってください。
+「BAProチュートリアル_商圏分析.aprx」の [演習1] マップを開きます。 顧客のテーブル データをマップに追加します。[マップ] タブ → [レイヤー] グループの [データの追加] → [データ] をクリックして、[データの追加] ダイアログを開きます。 以下の Excel シートを選択し、[OK] をクリックします。 ＜事前準備で演習用データを配置した場所＞\bapro_tutorial_tradearea_analysis\演習用データ\顧客リスト.xlsx\顧客リスト$
+[コンテンツ] ウィンドウに「顧客リスト$」が追加されます。「顧客リスト$」を右クリック → [開く] をクリックし、テーブルを開きます。 テーブルに、住所情報や ID などの情報が格納されていることを確認し、テーブルを閉じます。 顧客ポイント データの作成 後述の手順内で表記されている「20xx」は、利用しているデータの年度に読み替えてください。
+顧客のジオコーディングを行います。</description></item></channel></rss>
