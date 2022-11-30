@@ -22,7 +22,7 @@ Business Analyst データ ソースの設定 Business Analyst の機能を利�
 ジオコーディングとは、住所や郵便番号、場所の名前などのテーブル情報を地図上に展開し、GIS データ化する処理のことをいいます。詳細はビジネスマップ用語集をご覧ください。
 演習 演習用データのダウンロード BA Pro チュートリアル-商圏分析 プロジェクトパッケージが無い場合は、ダウンロードします。 ダウンロードした「BAProチュートリアル-商圏分析.ppkx」を開き、[演習1] マップを開きます。 Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
 住所情報を含むテーブル データの確認 プロジェクトパッケージはデフォルト設定では、以下の場所に展開されます。
-C:\Users&amp;lt;ユーザー名&amp;gt;\Documents\ArcGIS\Packages\BAProチュートリアル-商圏分析_xxxx
+C:\Users\&amp;lt;ユーザー名&amp;gt;\Documents\ArcGIS\Packages\BAProチュートリアル-商圏分析_xxxx
 顧客のテーブル データをマップに追加します。
 [マップ] タブ → [レイヤー] グループの [データの追加] をクリックします。 [データ] を選択して、[データの追加] ダイアログを開きます。 演習データ内の Excel シートを選択し、[OK] をクリックします。 &amp;lt;上記展開先&amp;gt;\commondata\userdata\顧客リスト.xlsx\顧客リスト$
 Excel の読み込みができない場合、事前準備に記載の Microsoft Access データベース エンジンのインストール が必要な場合があります。</description></item></channel></rss>

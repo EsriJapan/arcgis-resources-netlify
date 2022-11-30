@@ -755,7 +755,7 @@ Map Viewer での検索 検索の設定をした Web マップを Map Viewer で
 ジオコーディングとは、住所や郵便番号、場所の名前などのテーブル情報を地図上に展開し、GIS データ化する処理のことをいいます。詳細はビジネスマップ用語集をご覧ください。
 演習 演習用データのダウンロード BA Pro チュートリアル-商圏分析 プロジェクトパッケージが無い場合は、ダウンロードします。 ダウンロードした「BAProチュートリアル-商圏分析.ppkx」を開き、[演習1] マップを開きます。 Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
 住所情報を含むテーブル データの確認 プロジェクトパッケージはデフォルト設定では、以下の場所に展開されます。
-C:\Users&amp;lt;ユーザー名&amp;gt;\Documents\ArcGIS\Packages\BAProチュートリアル-商圏分析_xxxx
+C:\Users\&amp;lt;ユーザー名&amp;gt;\Documents\ArcGIS\Packages\BAProチュートリアル-商圏分析_xxxx
 顧客のテーブル データをマップに追加します。
 [マップ] タブ → [レイヤー] グループの [データの追加] をクリックします。 [データ] を選択して、[データの追加] ダイアログを開きます。 演習データ内の Excel シートを選択し、[OK] をクリックします。 &amp;lt;上記展開先&amp;gt;\commondata\userdata\顧客リスト.xlsx\顧客リスト$
 Excel の読み込みができない場合、事前準備に記載の Microsoft Access データベース エンジンのインストール が必要な場合があります。</description></item><item><title>データの表示設定を変更したい</title><link>/online/users-guide/manage-data/viewlayer/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/viewlayer/</guid><description>ホスト フィーチャ レイヤー (親レイヤー) からビュー レイヤー (子レイヤー) を作成し、特定のエリアやフィールド、条件に合ったフィーチャのみを表示したり、編集権限を個別に設定することができます。
