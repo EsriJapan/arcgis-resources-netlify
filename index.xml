@@ -174,13 +174,13 @@ ArcGIS Online 組織サイトの右上に表示されている [アプリ ラン
 配置したカードの移動・編集・削除はカード上にカーソルを移動すると表示される [移動]・[編集]・[削除] ボタンをクリックして行います。カードによっては、[編集] ボタンをクリックするとサイド パネルが表示されます。
 カードの詳細については、カードの配置と設定をご参照ください。</description></item><item><title>サブスクリプションの有効化</title><link>/online/get-started/setup/admin/activate-subscription/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/setup/admin/activate-subscription/</guid><description>「サブスクリプションの有効化」とは、ArcGIS Online のクラウドに参加するための手続きに相当します。ArcGIS Online の有償プランをご契約された、あるいは ArcGIS Online の利用申請をしていただいたお客様には、サブスクリプション ID が付与されます。受信されたメールまたはライセンス コンファメーションに記載の独自の URL からサブスクリプションを有効化することで、ArcGIS Online が利用できるようになります。
 サブスクリプションの有効化 以下いずれかの件名の案内メールまたはライセンス コンファメーションを開きます。
-【ESRIジャパン】出荷のお知らせ 【ESRIジャパン】ArcGIS Online サブスクリプションID 発行のご案内（ArcGIS Desktop ユーザー向け） 【ESRIジャパン】クラウドGIS 無償利用サービスのご案内 【ESRIジャパン】ArcGIS アカデミックパック 出荷のご案内 件名は変更される場合があります。
+【ESRIジャパン】出荷のお知らせ 【ESRIジャパン】ArcGIS Online サブスクリプションID 発行のご案内（ArcGIS Desktop ユーザー向け） 【ESRIジャパン】ArcGIS アカデミックパック 出荷のご案内 件名は変更される場合があります。
 メールが見当たらない場合は、弊社の営業担当者か、online@esrij.com にお問い合わせください。
-メール文章内の、＜サブスクリプションID 有効化ページ＞ の URL (下図参照) をクリックします。
-組織向けプランの「サブスクリプションID」と「ESRI顧客ID」は弊社サポートに問い合わせる場合に必要な情報となりますので、この案内メールは大切に保管してください。
+メールまたはライセンス コンファメーションや、保守登録完了通知内の ＜お客様のサブスクリプション ID 有効化ページ＞ の URL (下図参照) をクリックします。
+メールまたはライセンス コンファメーションに記載の「Esri 顧客 ID」「ライセンス顧客 ID」「サブスクリプション ID」は各種お問い合わせの際に必要な情報となりますので、この案内メールは大切に保管してください。
 [新しい ArcGIS 組織サイトの作成] または [個人向けプランのアカウントを組織のサブスクリプションに変換] を選択し、[次へ] をクリックします。
 既存の個人向けプランのアカウントを組織のサブスクリプションに変換する場合、個人アカウントにて所有したアイテムは組織のアイテムとなります。以下の 2 つのサイトで作成したアカウントは個人アカウントです。
-Esri アカウント (https://accounts.esri.com/) ArcGIS 個人向けアカウント (https://www.esri.com/ja-jp/arcgis/products/create-account) [新しい ArcGIS 組織サイトの作成] を選択した場合は、組織サイトにサイン インするために使用するユーザー名、パスワードなどを設定してください。有効化を最初に行うメンバーは自動的に管理者として登録されます。</description></item><item><title>プロジェクトの作成</title><link>/drone2map/quick-start/2d_mapping/2dmapping_createproject/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_mapping/2dmapping_createproject/</guid><description>プロジェクトの作成 Windows の [スタート] ボタン → [ArcGIS] → [Drone2Map] をクリックします。
+Esri アカウント (https://accounts.</description></item><item><title>プロジェクトの作成</title><link>/drone2map/quick-start/2d_mapping/2dmapping_createproject/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_mapping/2dmapping_createproject/</guid><description>プロジェクトの作成 Windows の [スタート] ボタン → [ArcGIS] → [Drone2Map] をクリックします。
 ArcGIS Online の組織向けアカウントまたは Portal for ArcGIS アカウントでサイン インします。
 任意のプロジェクト名を入力します。
 プロジェクトを保存する場所を設定します。
