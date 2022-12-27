@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>サイトの保存と公開 on ArcGIS リソース集</title><link>/hub/get-started/site/save-and-publish/</link><description>Recent content in サイトの保存と公開 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="/hub/get-started/site/save-and-publish/index.xml" rel="self" type="application/rss+xml"/><item><title>サイトの保存</title><link>/hub/get-started/site/save-and-publish/save/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hub/get-started/site/save-and-publish/save/</guid><description>サイトの変更をドラフトとして保存して、公開する前にプレビューを他のユーザーと共有できます。
+サイトの保存 画面右上の [保存] をクリックして、サイト エディターで行った変更を保存します。
+[保存] では、ドラフトとして保存され、変更内容は公開済みサイトには反映されません。
+サイトのプレビュー 画面右上の [保存] ドロップダウン → [ドラフトのプレビュー] をクリックします。
+他のユーザーとプレビューを共有するには、画面左上の [URL の共有] をクリックして URL をコピーします。
+プレビューをサイトの所有者とアクセス権のあるグループ メンバー以外と共有する場合は、次の手順を実行します。
+[← 編集者] をクリックして、サイト エディターに戻ります。 画面右上の共有範囲のアイコンをクリックします。 [共有レベル] で [パブリック] または [組織] を選択します。</description></item><item><title>サイトの公開</title><link>/hub/get-started/site/save-and-publish/publish/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hub/get-started/site/save-and-publish/publish/</guid><description>サイトの変更をパブリックに公開します。サイトを初めて公開する場合は、次の手順を実行します。公開済みのサイトを変更する場合は、手順 3 のみ実行します。
+画面右上の共有範囲のアイコンをクリックします。
+[共有レベル] で [パブリック] を選択します。
+画面右上の [保存] ドロップダウン → [ドラフトの公開] をクリックします。
+ドラフトを公開すると、既存の公開済みサイトが更新されます。公開済みサイトを以前の状態に戻すことはできません。</description></item></channel></rss>
