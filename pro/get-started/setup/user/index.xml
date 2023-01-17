@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>利用者の操作 on ArcGIS リソース集</title><link>/pro/get-started/setup/user/</link><description>Recent content in 利用者の操作 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Thu, 12 Jan 2023 00:00:00 +0900</lastBuildDate><atom:link href="/pro/get-started/setup/user/index.xml" rel="self" type="application/rss+xml"/><item><title>動作環境</title><link>/pro/get-started/setup/user/environment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/pro/get-started/setup/user/environment/</guid><description>動作環境の確認 ArcGIS Pro は Microsoft Windows オペレーティング システムでサポートされています。
+ArcGIS Pro をインストールするコンピューターが動作環境を満たしているかどうかをご確認ください。
+動作環境の詳細はヘルプをご参照ください。</description></item><item><title>ダウンロード</title><link>/pro/get-started/setup/user/download/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/pro/get-started/setup/user/download/</guid><description>インストーラーのダウンロード ArcGIS Pro およびパッチ等のインストーラーをダウンロードする手順を説明します。 MyEsri または ArcGIS Online からダウンロードする 2 つの方法があります。
+MyEsri からダウンロード My Esri サイトへアクセスします。 アクセスの方法は「My Esri に接続」ページをご参照ください。 My Esri の利用開始についての説明は「メイン」ページをご参照ください。
+My Esri のダウンロード ページへアクセスし、ArcGIS Pro および任意プログラムをダウンロードします。ダウンロード ページへのアクセスおよびダウンロード方法は「製品ダウンロード」ページをご参照ください。 ArcGIS Online からダウンロード ArcGIS Online の利用登録 が完了している場合、ArcGIS Online から ArcGIS Pro 単体のインストーラーをダウンロードすることができます。
+ソフトウェア ダウンロード ポリシーは組織によって異なります。 ArcGIS Online 管理者は、組織の設定のセキュリティのポリシー設定で、[メンバーは、設定ページから、ArcGIS Pro 等のライセンス供与された Esri アプリケーションをダウンロードできます。] をオフにすることで、メンバー自身が ArcGIS Pro をダウンロードできないようにすることができます。
+ArcGIS Online 組織サイトにサイン インします。
+画面右上のユーザー名をクリックして開き、[設定] をクリックします。</description></item><item><title>インストールとアンインストール</title><link>/pro/get-started/setup/user/install/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/pro/get-started/setup/user/install/</guid><description>ArcGIS Pro のインストールとアンインストールの手順を説明します。
+インストール ArcGIS Pro をインストールする手順を説明します。
+必ず管理者権限を持つ半角英数文字名のユーザー アカウントでコンピューターにログインして作業を行ってください。
+ArcGIS Pro の実行ファイル (*.exe) をダブルクリックし、インストールを開始します。
+プログラムが自動的に展開されるので、ダイアログにしたがってインストールしてください。
+デフォルトの展開先フォルダーは、&amp;lt;ドキュメント&amp;gt;\ArcGIS Pro &amp;lt;バージョン名&amp;gt; です。展開先のドライブの空き容量が不足する場合は、[参照] ボタンをクリックして別の保存場所を指定してください。
+ArcGIS Pro Intelligence は日本国内において未サポートです。ダイアログではデフォルトのまま [次へ] をクリックしてください。
+ArcGIS Pro がインストールされたら [完了] をクリックします。
+続けて「ArcGIS Pro - 日本語パック」のインストールが開始します。
+ArcGIS Pro 日本語パックのセットアップが終了したら、[OK] をクリックします。
+ArcGIS Pro パッチおよび任意プログラムをインストールする場合は、続いてインストールをしてください。
+以上で ArcGIS Pro のインストールは完了です。
+アンインストール ArcGIS Pro をアンインストールする手順を説明します。
+「ArcGIS Pro &amp;ndash; 日本語パック」→「ArcGIS Pro」の順にアンインストールしてください。</description></item><item><title>アドイン ツール</title><link>/pro/get-started/setup/user/addin_tool/</link><pubDate>Fri, 09 Sep 2022 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/addin_tool/</guid><description>日本国内用のツールはアドイン ツールとして提供しています。 任意のツールをダウンロードし、インストールしてご利用ください。
+ダウンロード 変換ツール (国内データ) for ArcGIS Pro 日本の各種団体で規定・提供されている仕様のデータを ArcGIS Pro で利用できるようにするための変換ツール
+ファイル ArcGIS Pro のバージョン 更新日 ESRIJ.ArcGISPro.AddinJPDataCnv_v19.zip 3.0 2022 年 8 月 19 日 ESRIJ.ArcGISPro.AddinJPDataCnv_v18.zip 2.9 2022 年 1 月 14 日 ESRIJ.ArcGISPro.AddinJPDataCnv_v17.zip 2.8 2021 年 6 月 29 日 ESRIJ.ArcGISPro.AddinJPDataCnv_v16.zip 2.7 2021 年 2 月 10 日 ESRIJ.ArcGISPro.AddinJPDataCnv_v15.zip 2.6 2020 年 9 月 10 日 ESRIJ.</description></item><item><title>シンボル スタイルとフォント</title><link>/pro/get-started/setup/user/style_font/</link><pubDate>Thu, 12 Jan 2023 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/style_font/</guid><description>ArcGIS Pro で使用できる日本用地図シンボルです。地図シンボルを利用するためには、フォントをインストールし、シンボル スタイルの利用設定を行います。
+フォント ダウンロード ファイル 更新日 JpnPack_Fonts_2023_01.msi 2023 年 1 月 12 日 インストール ダウンロードしたファイル (*.msi) をダブルクリックし、インストールを行います。
+シンボルスタイル ダウンロード ファイル ArcGIS Pro のバージョン 更新日 ArcGISPro30_JpnStyle.zip 3.0 2023 年 1 月 12 日 ArcGISPro27_JpnStyle.zip 2.7、2.8、2.9 2021 年 2 月 10 日 利用方法 日本国内用のシンボル スタイルを ArcGIS Pro のプロジェクトに追加する方法 ファイルをダウンロードして解凍し、任意の場所にコピーします。 ArcGIS Pro のプロジェクトを開きます。 [挿入] タブ → [追加] → [スタイルの追加] から使用したいスタイル ファイル (拡張子：*.</description></item></channel></rss>
