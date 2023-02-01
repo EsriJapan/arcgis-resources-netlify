@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>オフライン利用 on ArcGIS リソース集</title><link>/fieldmaps/get-started/offline/</link><description>Recent content in オフライン利用 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0900</lastBuildDate><atom:link href="/fieldmaps/get-started/offline/index.xml" rel="self" type="application/rss+xml"/><item><title>オフライン利用のための準備</title><link>/fieldmaps/get-started/offline/prepare/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/offline/prepare/</guid><description>Field Maps Web アプリを利用して、オフライン利用のための準備を行います。
+Web マップの作成で Web マップおよびフィーチャ レイヤーを作成した場合は、既に下記の設定はそれぞれ有効化されているため、この手順は不要です。オフライン エリアの作成に進んでください。
 レイヤーの同期の有効化 モバイル アプリでオフライン利用するためには、フィーチャ レイヤーの同期を有効化する必要があります。
 オフライン利用を行う Web マップを Field Maps Web アプリで開きます 。 [オフライン] タブをクリックします。 [コンテンツ] セクション内の [レイヤー] を展開します。 [同期の有効化] をクリックして、フィーチャ レイヤーの同期を有効化します。 上記操作で有効化できない場合は、下記の手順で同期を有効化します。
 レイヤー名右に表示される [アイテム詳細を開く] ボタンをクリックします。
