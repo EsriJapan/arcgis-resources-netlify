@@ -1,25 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>入力用データの準備 on ArcGIS リソース集</title><link>/fieldmaps/get-started/prepare/</link><description>Recent content in 入力用データの準備 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0900</lastBuildDate><atom:link href="/fieldmaps/get-started/prepare/index.xml" rel="self" type="application/rss+xml"/><item><title>フィーチャ レイヤーの作成</title><link>/fieldmaps/get-started/prepare/create-layer/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/prepare/create-layer/</guid><description>Field Maps で入力するデータ (フィーチャ レイヤー) を作成します。 フィーチャ レイヤーの作成には ArcGIS Online または ArcGIS Pro を使用し、以下のステップで入力用データを準備します。
-リストを作成することによって、モバイル アプリでキーボード入力せずに、リストから調査結果を選択できるようになります。リストを作成した場合のモバイル アプリの表示イメージです。
-ArcGIS Online でフィーチャ レイヤーを作成 それぞれのステップの詳細な手順については、「ArcGIS Online 逆引きガイド」をご参照ください。
-空のフィーチャ レイヤーを作成します。 お持ちのテキスト データや GIS データを使用する場合は、ArcGIS Online 逆引きガイド「フィーチャ レイヤーを公開したい」をご参照ください。
-必要に応じて、データ入力時の選択リストを作成します。 フィーチャ レイヤーの作成が完了したら、「フィーチャ レイヤーの設定」に進んで必要な設定を行います。
-ArcGIS Pro でフィーチャ レイヤーを作成 それぞれのステップの詳細な手順は、「ArcGIS Pro 逆引きガイド」をご参照ください。
-ArcGIS Pro を起動し、プロジェクトを作成します。
-ArcGIS Pro 逆引きガイド「1-4. ArcGIS Pro の起動と保存」
-空のフィーチャクラスを作成します。
-ArcGIS Pro 逆引きガイド「8-1. 新しくデータを作成したい」
-作成したフィーチャクラスにフィールドを作成します。</description></item><item><title>フィーチャ レイヤーの設定</title><link>/fieldmaps/get-started/prepare/settings/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/prepare/settings/</guid><description>「フィーチャ レイヤーの作成」で ArcGIS Online や ArcGIS Pro から公開したフィーチャ レイヤーを Field Maps で使用できるように下記の設定をします。
-「フィーチャ レイヤーの作成」で ArcGIS Online を使用して空のフィーチャ レイヤーを作成した場合は、既に下記の設定はそれぞれ有効化されているため、この手順は不要です。
-編集の有効化
-Field Maps でデータを編集できる状態に設定します。
-添付ファイルの有効化
-データの収集時に Field Maps から写真やファイルを添付したい場合は、添付ファイルの有効化が必要です。</description></item><item><title>トラッキングの構成</title><link>/fieldmaps/get-started/prepare/tracking/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/prepare/tracking/</guid><description>Field Maps では、ArcGIS Location Sharing ライセンスを利用し、位置のトラッキングを有効化することで、モバイル アプリでモバイル作業者の現在地と過去の位置を記録できます。
-位置のトラッキングを使用するには、はじめに管理者が位置のトラッキングを有効化し、その後モバイル作業者の ArcGIS アカウントに Mobile Worker ユーザー タイプまたは Location Sharing ユーザー タイプ エクステンションを割り当てる必要があります。
-モバイル アプリでのトラッキング データの収集の操作方法については、「トラッキング データの収集」をご参照ください。
-位置のトラッキングの有効化 トラッキングを行う前に、組織の管理者はメンバーの位置のトラッキングを有効化する必要があります。
-位置のトラッキングを有効にするには、Mobile Worker ユーザー タイプが 1 つ以上ある組織か、組織が Location Sharing ユーザー タイプ エクステンションを購入し保有している必要があります。
-管理者またはユーティリティ サービス設定の管理権限をもつユーザーとして ArcGIS Online 組織サイトにサイン インします。
-サイト上部の [組織] タブ → [設定] タブをクリックします。
-ページ左の [組織エクステンション] をクリックします。
-[位置のトラッキングの有効化] をクリックします。
-位置のトラッキングを有効化した管理者は、位置のトラッキングに必要なすべてのアイテム (レイヤーおよびトラック ビュー) の所有者となり、それらが格納される「位置のトラッキング」フォルダーがマイ コンテンツに作成されます。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>入力用データの準備 on ArcGIS リソース集</title><link>/fieldmaps/get-started/prepare/</link><description>Recent content in 入力用データの準備 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Wed, 11 Jan 2023 00:00:00 +0900</lastBuildDate><atom:link href="/fieldmaps/get-started/prepare/index.xml" rel="self" type="application/rss+xml"/><item><title>Field Maps Web アプリの利用</title><link>/fieldmaps/get-started/prepare/start/</link><pubDate>Wed, 11 Jan 2023 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/prepare/start/</guid><description>ArcGIS Field Mapsには、Field Maps モバイル アプリと Field Maps Web アプリの 2 つのアプリが付属しています。
+Field Maps Web アプリでは、モバイル作業者が Field Maps モバイル アプリで使用する Web マップおよびフィーチャ レイヤーを構成できます。
+Web アプリの起動 ArcGIS Online 組織サイトの右上に表示されている [アプリ ランチャー] → [Field Maps] をクリックします。 現地調査で利用するフィーチャ レイヤーおよび 、Web マップを Web アプリ上で作成する場合は [新規マップ] をクリックし、「Web マップの作成」に進みます。 Field Maps モバイル アプリでは既存の Web マップを利用することも可能です。目的の Web マップが表示されない場合は、ArcGIS Online で Web マップのアイテム ページを開き、[設定] → [アプリケーション設定] から [ArcGIS Field Maps Mobile で使用] チェックボックスをオンにしてください。</description></item><item><title>Web マップの作成</title><link>/fieldmaps/get-started/prepare/create_map/</link><pubDate>Wed, 11 Jan 2023 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/prepare/create_map/</guid><description>Web マップの作成 Field Maps Web アプリで現地調査の際に利用するフィーチャ レイヤーおよび 、Web マップを作成することができます。
+Web アプリの起動方法については 「Field Maps Web アプリの利用」をご参照ください。
+フィーチャ レイヤーの作成 Field Maps Web アプリを開き、[新規マップ] をクリックします。詳細は「Field Maps Web アプリの利用」をご参照ください。
+レイヤー名およびレイヤー タイプを設定します。また、必要に応じて [＋] ボタンをクリックしてレイヤーを追加します。現地調査に必要なレイヤーの追加が完了したら [次へ] をクリックします。 レイヤー設定 現地調査で GPS の受信機情報を自動記録したい場合は、[データ収集には高精度 GPS 受信機が使用されますか？] のチェックボックスを、高度の情報を保存するためのデータにするには [3D 空間がモデル化、または分析されますか？] のチェックボックスをオンにします。
+[データ収集には高精度 GPS 受信機が使用されますか？] チェックボックスをオンにすると、現地調査で GPS 機器を使用した際に、GPS メタデータを自動記録できるようになります (ポイント レイヤーのみです)。 設定が完了したら [次へ] をクリックします。 名前を付けてマップを保存 マップおよびフィーチャ レイヤーのタイトルを設定します。また、保存先のフォルダーを指定することができます。
+マップやレイヤー名の設定が完了したら [マップの作成] をクリックし、Web マップを作成します。 タイトルについて、既に組織サイト上に存在するサービス名と同じ名前は使用できません。また、半角英数字およびアンダースコア (_) での入力を推奨します。</description></item></channel></rss>
