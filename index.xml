@@ -417,7 +417,18 @@ ArcGIS Drone2Map 動作環境</description></item><item><title>組織の設定</
 [保存] をクリックして、ホーム ページの構成を適用します。
 [閉じる] ボタンをクリックして、ホーム ページ エディターを閉じます。
 サイトの上部にある [ホーム] をクリックすると、ホーム ページが表示されます。
-セキュリティ パスワード ポリシー、ログインの方法、多要素認証など、組織サイトのセキュリティを高めるための設定を行います。</description></item><item><title>トラッキング機能の利用</title><link>/fieldmaps/get-started/mobile/tracking/</link><pubDate>Wed, 11 Jan 2023 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/mobile/tracking/</guid><description>トラッキング データ (作業員の現在位置や移動履歴) を収集するための設定とモバイル アプリの操作について説明します。
+セキュリティ パスワード ポリシー、ログインの方法、多要素認証など、組織サイトのセキュリティを高めるための設定を行います。</description></item><item><title>インストールとアンインストール</title><link>/pro/get-started/setup/user/install/</link><pubDate>Wed, 15 Feb 2023 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/install/</guid><description>ArcGIS Pro のインストールとアンインストールの手順を説明します。
+インストール ArcGIS Pro をインストールする手順を説明します。
+必ず管理者権限を持つ半角英数文字名のユーザー アカウントでコンピューターにログインして作業を行ってください。
+ArcGIS Pro の実行ファイル (*.exe) をダブルクリックし、インストールを開始します。
+ArcGIS Pro 3.0 以降のバージョンでは、Microsoft Windows Desktop Runtime - 6.0.5 (x64) 以上が必要です。
+インストール時にメッセージが表示された場合は、 「ArcGIS Pro のインストール時に「Microsoft Windows Desktop Runtime - 6.0.5 (x64) 以上が必要です。」というメッセージが表示される」をご参照ください。
+プログラムが自動的に展開されるので、ダイアログにしたがってインストールしてください。
+デフォルトの展開先フォルダーは、&amp;lt;ドキュメント&amp;gt;\ArcGIS Pro &amp;lt;バージョン名&amp;gt; です。展開先のドライブの空き容量が不足する場合は、[参照] ボタンをクリックして別の保存場所を指定してください。
+ArcGIS Pro Intelligence は日本国内において未サポートです。ダイアログではデフォルトのまま [次へ] をクリックしてください。
+ArcGIS Pro がインストールされたら [完了] をクリックします。
+続けて「ArcGIS Pro - 日本語パック」のインストールが開始します。
+ArcGIS Pro 日本語パックのセットアップが終了したら、[OK] をクリックします。</description></item><item><title>トラッキング機能の利用</title><link>/fieldmaps/get-started/mobile/tracking/</link><pubDate>Wed, 11 Jan 2023 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/mobile/tracking/</guid><description>トラッキング データ (作業員の現在位置や移動履歴) を収集するための設定とモバイル アプリの操作について説明します。
 トラッキング機能の有効化とライセンスの割り当て ArcGIS Online の組織サイトで設定を行います。
 組織の管理者が位置のトラッキングを有効化します。
 位置のトラッキングを有効化するには、Mobile Worker ユーザー タイプが 1 つ以上ある組織か、組織が Location Sharing ユーザー タイプ エクステンションを購入し保有している必要があります。
@@ -510,20 +521,7 @@ ArcGIS Business Analyst 2023 年版データ以降は 2020 年国勢調査デー
 広域地図.zip 公共地図.zip ステップ２：背景地図の配置 背景地図を利用するために、背景地図データの解凍および利用のために必要な各種データ一式を所定の場所に配置します。
 zip 圧縮された背景地図を、「BA20xx年版データのダウンロードご案内」に記載されたパスワードを用いて解凍します。 解凍が終了したら、広域地図・公共地図の両方について、フォルダーごと以下のフォルダー内にコピーします。 C:\ArcGIS\Business Analyst\JPN_Esrijapan_20xx\Data\Basemap Data
 データセットのデフォルトのインストール先に基づいて説明を行っています。それ以外のフォルダーに配置もしくはインストールした場合は読み替えてください。
-ArcMap 版 BA Desktop をご利用の場合のみ 以下の設定用ファイルを任意の場所にダウンロードして解凍します。 背景地図設定用ファイル 解凍したフォルダー内に保存された各データを、それぞれ以下のフォルダー内にコピーします。 データ名 コピー先のフォルダー ・Business Analyst 20xx Koiki.mxd・Business Analyst 20xx Public.mxd C:\ArcGIS\Business Analyst\JPN_Esrijapan_20xx\Data ・広域地図.lyr・広域地図（グレースケール）.lyr・公共地図.lyr・公共地図（グレースケール）.lyr C:\ArcGIS\Business Analyst\JPN_Esrijapan_20xx\Dataset\ArcGIS Online Maps ステップ３：背景地図の利用 配置した背景地図を ArcGIS Pro、ArcMap それぞれで利用する方法を説明します。</description></item><item><title>インストールとアンインストール</title><link>/pro/get-started/setup/user/install/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/pro/get-started/setup/user/install/</guid><description>ArcGIS Pro のインストールとアンインストールの手順を説明します。
-インストール ArcGIS Pro をインストールする手順を説明します。
-必ず管理者権限を持つ半角英数文字名のユーザー アカウントでコンピューターにログインして作業を行ってください。
-ArcGIS Pro の実行ファイル (*.exe) をダブルクリックし、インストールを開始します。
-プログラムが自動的に展開されるので、ダイアログにしたがってインストールしてください。
-デフォルトの展開先フォルダーは、&amp;lt;ドキュメント&amp;gt;\ArcGIS Pro &amp;lt;バージョン名&amp;gt; です。展開先のドライブの空き容量が不足する場合は、[参照] ボタンをクリックして別の保存場所を指定してください。
-ArcGIS Pro Intelligence は日本国内において未サポートです。ダイアログではデフォルトのまま [次へ] をクリックしてください。
-ArcGIS Pro がインストールされたら [完了] をクリックします。
-続けて「ArcGIS Pro - 日本語パック」のインストールが開始します。
-ArcGIS Pro 日本語パックのセットアップが終了したら、[OK] をクリックします。
-ArcGIS Pro パッチおよび任意プログラムをインストールする場合は、続いてインストールをしてください。
-以上で ArcGIS Pro のインストールは完了です。
-アンインストール ArcGIS Pro をアンインストールする手順を説明します。
-「ArcGIS Pro &amp;ndash; 日本語パック」→「ArcGIS Pro」の順にアンインストールしてください。</description></item><item><title>ダウンロード</title><link>/drone2map/get-started/download/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/get-started/download/</guid><description>Drone2Map インストーラーのダウンロード MyEsri サイトへアクセスします。
+ArcMap 版 BA Desktop をご利用の場合のみ 以下の設定用ファイルを任意の場所にダウンロードして解凍します。 背景地図設定用ファイル 解凍したフォルダー内に保存された各データを、それぞれ以下のフォルダー内にコピーします。 データ名 コピー先のフォルダー ・Business Analyst 20xx Koiki.mxd・Business Analyst 20xx Public.mxd C:\ArcGIS\Business Analyst\JPN_Esrijapan_20xx\Data ・広域地図.lyr・広域地図（グレースケール）.lyr・公共地図.lyr・公共地図（グレースケール）.lyr C:\ArcGIS\Business Analyst\JPN_Esrijapan_20xx\Dataset\ArcGIS Online Maps ステップ３：背景地図の利用 配置した背景地図を ArcGIS Pro、ArcMap それぞれで利用する方法を説明します。</description></item><item><title>ダウンロード</title><link>/drone2map/get-started/download/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/get-started/download/</guid><description>Drone2Map インストーラーのダウンロード MyEsri サイトへアクセスします。
 MyEsri ダウンロード ページにアクセスし、Drone2Map プログラムと必要に応じてパッチをダウンロードします。
 ダウンロード ページへのアクセス方法、ダウンロード方法は、 「製品ダウンロード」 ページをご参照ください。</description></item><item><title>メンバーの削除</title><link>/online/get-started/administer/members/delete-members/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/administer/members/delete-members/</guid><description>ArcGIS Online の組織メンバーを削除するには、管理者ユーザーで、以下の手順を行います。アイテムやグループを所有していたり、ライセンスが割り当てられている状態ではメンバーを削除することができません。
 メンバーが所有しているアイテムを削除、または別メンバーにアイテムを移行 所有しているグループの所有者の変更またはグループ自体を削除 アドオン ライセンスの割り当て解除 Esri アクセスの無効化 メンバーの削除の実行 メンバーが所有しているアイテムを削除、または別メンバーにアイテムを移行 ※アイテムを所有していない場合は、このステップをスキップします。
