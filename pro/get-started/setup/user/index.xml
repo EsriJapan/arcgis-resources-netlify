@@ -18,6 +18,11 @@ ArcGIS Pro がインストールされたら [完了] をクリックします�
 続けて「ArcGIS Pro - 日本語パック」のインストールが開始します。
 ArcGIS Pro 日本語パックのセットアップが終了したら、[OK] をクリックします。</description></item><item><title>アドイン ツール</title><link>/pro/get-started/setup/user/addin_tool/</link><pubDate>Fri, 09 Sep 2022 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/addin_tool/</guid><description>日本国内用のツールはアドイン ツールとして提供しています。 任意のツールをダウンロードし、インストールしてご利用ください。
 ダウンロード 変換ツール (国内データ) for ArcGIS Pro 日本の各種団体で規定・提供されている仕様のデータを ArcGIS Pro で利用できるようにするための変換ツール
-ファイル ArcGIS Pro のバージョン 更新日 ESRIJ.ArcGISPro.AddinJPDataCnv_v19.zip 3.0 2022 年 8 月 19 日 ESRIJ.ArcGISPro.AddinJPDataCnv_v18.zip 2.9 2022 年 1 月 14 日 ESRIJ.ArcGISPro.AddinJPDataCnv_v17.zip 2.8 2021 年 6 月 29 日 ESRIJ.ArcGISPro.AddinJPDataCnv_v16.zip 2.7 2021 年 2 月 10 日 ESRIJ.ArcGISPro.AddinJPDataCnv_v15.zip 2.6 2020 年 9 月 10 日 ESRIJ.</description></item><item><title>シンボル スタイルとフォント</title><link>/pro/get-started/setup/user/style_font/</link><pubDate>Thu, 12 Jan 2023 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/style_font/</guid><description>ArcGIS Pro で使用できる日本用地図シンボルです。地図シンボルを利用するためには、フォントをインストールし、シンボル スタイルの利用設定を行います。
+対応フォーマット
+基盤地図情報
+基本項目 数値標高モデル（5m、 10m） 数値地図（国土基本情報） GML 形式
+数値地図（国土基本情報 20 万） GML 形式の地図情報 数値地図 (国土基本情報 ) GML 形式の地図情報、地名情報、メッシュ標高情報 DM データ
+公共測量作業規定に基づくデータ形式 法務省 地図 XML ファイル
+ファイル ArcGIS Pro のバージョン 更新日 ESRIJ.ArcGISPro.AddinJPDataCnv_v19.zip 3.0 2022 年 8 月 19 日 ESRIJ.</description></item><item><title>シンボル スタイルとフォント</title><link>/pro/get-started/setup/user/style_font/</link><pubDate>Thu, 12 Jan 2023 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/style_font/</guid><description>ArcGIS Pro で使用できる日本用地図シンボルです。地図シンボルを利用するためには、フォントをインストールし、シンボル スタイルの利用設定を行います。
 フォント ダウンロード ファイル 更新日 JpnPack_Fonts_2023_01.msi 2023 年 1 月 12 日 インストール ダウンロードしたファイル (*.msi) をダブルクリックし、インストールを行います。
 シンボルスタイル ダウンロード ファイル ArcGIS Pro のバージョン 更新日 ArcGISPro30_JpnStyle.zip 3.0 2023 年 1 月 12 日 ArcGISPro27_JpnStyle.zip 2.7、2.8、2.9 2021 年 2 月 10 日 利用方法 日本国内用のシンボル スタイルを ArcGIS Pro のプロジェクトに追加する方法 ファイルをダウンロードして解凍し、任意の場所にコピーします。 ArcGIS Pro のプロジェクトを開きます。 [挿入] タブ → [追加] → [スタイルの追加] から使用したいスタイル ファイル (拡張子：*.</description></item></channel></rss>
