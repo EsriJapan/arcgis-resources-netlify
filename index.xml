@@ -541,7 +541,14 @@ MyEsri ダウンロード ページにアクセスし、Drone2Map プログラ�
 [コンテンツ] ウィンドウで「ポイント クラウド」レイヤーのチェック ボックスをオフにすると、3D メッシュのみを表示することができます。
 レイヤーの表示・非表示、画面移動やズームを行い、結果を確認します。
 [3D マップ] のマウス操作は、マウスの左ドラッグで画面移動、中央のホイールの回転で拡大 / 縮小、シフトキー + 右ドラッグで回転や傾斜の動作ができます。
-良い結果を得るには、地上基準点(GCP) を使用し、3D プロダクトを生成します。GCP を使用しない場合、誤った標高値によって正しく結果が表示されない場合があります。</description></item><item><title>チュートリアル 4: 道路データのインポート</title><link>/cityengine/tutorials/classic/tutorial-4-import-streets/</link><pubDate>Tue, 06 Dec 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-4-import-streets/</guid><description>チュートリアルデータ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードすることができます。
+良い結果を得るには、地上基準点(GCP) を使用し、3D プロダクトを生成します。GCP を使用しない場合、誤った標高値によって正しく結果が表示されない場合があります。</description></item><item><title>アドイン ツール</title><link>/pro/get-started/setup/user/addin_tool/</link><pubDate>Tue, 28 Feb 2023 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/addin_tool/</guid><description>日本国内用のツールはアドイン ツールとして提供しています。 任意のツールをダウンロードし、インストールしてご利用ください。
+ダウンロード 変換ツール (国内データ) for ArcGIS Pro 日本の各種団体で規定・提供されている仕様のデータを ArcGIS Pro で利用できるようにするための変換ツール
+対応フォーマット
+基盤地図情報
+基本項目 数値標高モデル（5m、 10m） 数値地図（国土基本情報） GML 形式
+数値地図（国土基本情報 20 万） GML 形式の地図情報 数値地図 (国土基本情報 ) GML 形式の地図情報、地名情報、メッシュ標高情報 DM データ
+公共測量作業規定に基づくデータ形式 法務省 地図 XML ファイル
+ファイル ArcGIS Pro のバージョン 更新日 ESRIJ.ArcGISPro.AddinJPDataCnv_v19.zip 3.0 2022 年 8 月 19 日 ESRIJ.</description></item><item><title>チュートリアル 4: 道路データのインポート</title><link>/cityengine/tutorials/classic/tutorial-4-import-streets/</link><pubDate>Tue, 06 Dec 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-4-import-streets/</guid><description>チュートリアルデータ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードすることができます。
 概要 チュートリアル 4 では、外部からインポートした道路データを扱う方法をご紹介します。外部のアプリケーションで作成、またはデータベースから導入された*.dxf、*.osm または*.shp ファイル フォーマット内にある道路ネットワーク データを CityEngine にインポートし、街作成のために初期データとして使用します。
 演習 ・Part 1: DXF ファイルのインポート ・Part 2: マイナー道路の生成 ・Part 3: OpenStreet Map (OSM) データをインポート ・Part 4: 衛星画像マップ レイヤーの追加 ・Part 5: シェープファイルとジオデータベースをインポート CityEngine の道路ネットワークは、グラフノード (交差点) とグラフエッジ (道路セグメント) で構成されています。これらは、成長する道路ツールで生成したり、CityEngine で手動で描画したり、DXF や SHP ファイルなどの外部ファイルからインポートしたりすることができます。</description></item><item><title>写真やファイルをフィーチャに添付したい</title><link>/online/users-guide/manage-data/attachment/</link><pubDate>Tue, 22 Nov 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/attachment/</guid><description>フィーチャ レイヤーの各フィーチャに画像などファイルを添付したり、モバイル端末のカメラで撮影した画像を現地調査アプリで添付したりすることができます。この機能を使用するには、レイヤーの設定が必要です。
 添付ファイルの有効化 フィーチャ レイヤーのアイテム詳細ページを開きます。
@@ -554,14 +561,7 @@ Map Viewer にレイヤーを追加します。
 [添付ファイル] で [追加] をクリックします。
 [ファイルの選択] で添付したいファイルを選択し、[追加] をクリックして、[更新 (アップデート)] をクリックします。
 ・添付可能なファイルのサイズは、 1 ファイルにつき 10 MB の制限があります。
-・添付可能なファイルの形式についてはヘルプをご参照ください。</description></item><item><title>アドイン ツール</title><link>/pro/get-started/setup/user/addin_tool/</link><pubDate>Fri, 09 Sep 2022 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/addin_tool/</guid><description>日本国内用のツールはアドイン ツールとして提供しています。 任意のツールをダウンロードし、インストールしてご利用ください。
-ダウンロード 変換ツール (国内データ) for ArcGIS Pro 日本の各種団体で規定・提供されている仕様のデータを ArcGIS Pro で利用できるようにするための変換ツール
-対応フォーマット
-基盤地図情報
-基本項目 数値標高モデル（5m、 10m） 数値地図（国土基本情報） GML 形式
-数値地図（国土基本情報 20 万） GML 形式の地図情報 数値地図 (国土基本情報 ) GML 形式の地図情報、地名情報、メッシュ標高情報 DM データ
-公共測量作業規定に基づくデータ形式 法務省 地図 XML ファイル
-ファイル ArcGIS Pro のバージョン 更新日 ESRIJ.ArcGISPro.AddinJPDataCnv_v19.zip 3.0 2022 年 8 月 19 日 ESRIJ.</description></item><item><title>高度な CGA</title><link>/cityengine/get-started/quickstart-tutorials/advanced-cga/</link><pubDate>Wed, 29 Jun 2022 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/advanced-cga/</guid><description>概要 CGA の作成で作成したモデルの区画や建物の形状を整え、日本の戸建て住宅のような感じにするために、区画と CGA ルールを改良します。
+・添付可能なファイルの形式についてはヘルプをご参照ください。</description></item><item><title>高度な CGA</title><link>/cityengine/get-started/quickstart-tutorials/advanced-cga/</link><pubDate>Wed, 29 Jun 2022 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/advanced-cga/</guid><description>概要 CGA の作成で作成したモデルの区画や建物の形状を整え、日本の戸建て住宅のような感じにするために、区画と CGA ルールを改良します。
 演習 ・区画の調整 ・フットプリントの生成 ・分岐の使用 ・今回作成した CGA CGA の作成 での CGA ルールは以下のような記述になっています（以下のコードをコピー &amp;amp; ペーストして利用することもできます。）
 「#」 以下はコメント文ですので実際には書く必要はありません。
 attr Height = rand(5,20) #5~20m の間でランダムに高さを設定 @Color attr roofcolor = listRandom(&amp;quot;#ff7f50;#9acd32;#ff4500&amp;quot;) @Color attr wallcolor = listRandom(&amp;quot;#ffff00;#00ffff;#dda0dd&amp;quot;) Footprint--&amp;gt; extrude(Height) #[Height] 属性に基づいて立ち上げ House House--&amp;gt; comp(f){top: Roof | side: Wall} #シェープをトップ（屋根）とサイド（壁）に分割 Roof--&amp;gt; roofGable(20,1,1) #Gable（切妻型）の屋根を設定 color(roofcolor) Wall--&amp;gt; color(wallcolor) 区画の調整 CityWizard のデフォルト設定で作成された区画は、日本の戸建て住宅としては大きすぎるので、各区画の面積が 100 ～ 150 平方メートルになるように設定します。</description></item><item><title>ArcGIS Pro からフィーチャ レイヤーを公開したい</title><link>/online/users-guide/create-data/feature/arcgispro/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/create-data/feature/arcgispro/</guid><description>ArcGIS Pro 上のベクター データをフィーチャ レイヤーとして ArcGIS Online に公開します。「ホスト フィーチャ レイヤーの公開」権限が必要です。
