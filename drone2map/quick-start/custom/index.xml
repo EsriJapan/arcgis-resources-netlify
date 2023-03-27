@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>カスタム テンプレート on ArcGIS リソース集</title><link>/drone2map/quick-start/custom/</link><description>Recent content in カスタム テンプレート on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="/drone2map/quick-start/custom/index.xml" rel="self" type="application/rss+xml"/><item><title>カスタム テンプレート</title><link>/drone2map/quick-start/custom/custom_createproject/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/custom/custom_createproject/</guid><description>カスタム テンプレートを利用したプロジェクトの作成 カスタム テンプレートは以下の2つの方法から選択できます。
+テンプレートリストから選択 テンプレートのインポート
+テンプレートリストから選択 カスタム テンプレートの設定でリストに追加したテンプレートを使用してプロジェクトを作成します。
+Drone2Map を開き、プロジェクト名を入力、画像を追加します。
+テンプレートのドロップダウン リストを開きます。
+カスタム テンプレートが選択できたら [作成] をクリックします。 これで、事前設定したテンプレートを使用したプロジェクトを作成できました。
+テンプレートのインポート デフォルトのテンプレート リストに追加していない場合など、任意のカスタム テンプレートを使用してプロジェクトを作成します。
+Drone2Map を開き、プロジェクト名を入力、画像を追加します。
+テンプレートのドロップダウン リストの左隣の参照ボタンをクリックします。
+[テンプレートのインポート] ダイアログで任意のカスタム テンプレートを選択します。
+[作成] をクリックしてプロジェクトを作成します。
+これで、任意のテンプレートによるプロジェクトが作成できました。
+処理の実行は、[ホーム] タブの [開始] ボタンをクリックします。</description></item></channel></rss>

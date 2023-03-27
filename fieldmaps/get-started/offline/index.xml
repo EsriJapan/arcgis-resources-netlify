@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>オフライン利用 on ArcGIS リソース集</title><link>/fieldmaps/get-started/offline/</link><description>Recent content in オフライン利用 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0900</lastBuildDate><atom:link href="/fieldmaps/get-started/offline/index.xml" rel="self" type="application/rss+xml"/><item><title>オフライン利用のための準備</title><link>/fieldmaps/get-started/offline/prepare/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/offline/prepare/</guid><description>Field Maps Web アプリを利用して、オフライン利用のための準備を行います。
+Web マップの作成で Web マップおよびフィーチャ レイヤーを作成した場合は、既に下記の設定はそれぞれ有効化されているため、この手順は不要です。オフライン エリアの作成に進んでください。
+レイヤーの同期の有効化 モバイル アプリでオフライン利用するためには、フィーチャ レイヤーの同期を有効化する必要があります。
+オフライン利用を行う Web マップを Field Maps Web アプリで開きます 。 [オフライン] タブをクリックします。 [コンテンツ] セクション内の [レイヤー] を展開します。 [同期の有効化] をクリックして、フィーチャ レイヤーの同期を有効化します。 上記操作で有効化できない場合は、下記の手順で同期を有効化します。
+レイヤー名右に表示される [アイテム詳細を開く] ボタンをクリックします。
+[設定] タブ → [同期の有効化] チェックボックスをオンにし、[保存] をクリックします。
+Field Maps Web アプリに戻り、[コンテンツ] セクション右の更新ボタンをクリックして、フィーチャ レイヤーの設定を読み込みます。
+マップのオフライン モードを有効化 ページ上部の [オフライン] トグルをクリックして、マップのオフライン利用を有効化します。</description></item><item><title>オフライン エリアの作成</title><link>/fieldmaps/get-started/offline/offlinearea/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/offline/offlinearea/</guid><description>オフラインでマップを操作するには、オフライン用の作業エリアを切り出して利用します。作業エリアはオフライン エリアと呼び、Web アプリで作成する方法とモバイル アプリで作成する方法があります。
+Field Maps Web アプリを使用して作成、ダウンロード あらかじめ作業エリアが決まっている場合や、複数の作業エリアをまとめて作成、管理したい場合に便利です。
+オフライン利用を行う Web マップを Field Maps Web アプリで開きます。
+[オフライン] タブをクリックします。
+[マップ エリア] セクションを開き、[エリアの管理] をクリックします。
+[+ オフライン エリアの作成] をクリックし、スケッチ ツールで切り出す範囲を描画します。また、エリアの名前や切り出す縮尺レベルを設定します。
+[保存] をクリックします。エリア名右に [パッケージ中] と表示され、このラベルの表示が消えると、オフライン エリアの作成は完了です。
+1 つの Web マップにつき 16 のオフライン エリアを作成することが可能です。
+インターネット接続がある環境で Field Maps モバイル アプリを開きます。
+Field Maps のマップ一覧の画面で、該当のマップ名の下に [オフライン エリア] という表示を確認し、タップします。
+作成済みのオフライン エリアをダウンロードします。</description></item><item><title>独自の参照用ベースマップを配置</title><link>/fieldmaps/get-started/offline/deploy-basemap/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/offline/deploy-basemap/</guid><description>組織サイトで設定されているベースマップを使用せず、独自の背景データをパッケージ ファイルとして端末に配置することで Field Maps モバイル アプリ上で利用できます。ファイルは USB ケーブルやクラウド ドライブなどを介してコピーすることができ、オフライン環境でも利用可能です。パッケージ ファイルの作成には ArcGIS Pro が必要です。
+パッケージ ファイルの作成 ArcGIS Pro で、下記のいずれかのパッケージ ファイルを作成します。
+背景データの種類 作成するデータ 作成方法 衛星画像、航空写真 タイル パッケージ (*.tpk、*.tpkx) マップ タイル パッケージの作成 フィーチャ (区画など) ベクター タイル パッケージ (*.vtpk) ベクター タイル パッケージの作成 パッケージ ファイルの配置 利用するモバイル端末の OS や方法で手順が異なります。
+iOS (iTunes) iOS (ファイル アプリ) Android iOS (iTunes) デバイスをコンピューターに接続します。
+iTunes を開き、デバイスを選択します。</description></item><item><title>オフライン マップの操作</title><link>/fieldmaps/get-started/offline/edit-sync/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/offline/edit-sync/</guid><description>オフライン マップを Field Maps モバイル アプリで操作します。オフライン環境でデータの収集を行ったのち、インターネット接続がある環境で編集データの同期を行います。
+オフライン マップでデータの収集 Field Maps モバイル アプリを開きます。
+Field Maps のマップ一覧の画面で、オフライン エリアを作成したマップ名をタップします。
+エリア名をタップして、オフライン マップを開きます。
+独自の参照用ベースマップを配置した場合は、右上の […] → [ベースマップ] をタップし、追加したパッケージ ファイルをベースマップとして利用できることを確認します。
+オフライン環境でデータの編集を行います。編集したデータは端末に保存されます。
+収集したデータの同期 端末をインターネットに接続します。 オフライン エリア一覧の画面で同期するエリア名右の […] → [同期] をタップします。 または、マップを開いた状態で [↑↓] → [同期] をタップします。 デフォルトでは、インターネットに接続して 15 分後に自動的に同期が行われます。自動同期を無効にする場合は、アプリの [プロファイル] 設定で [自動同期] のトグルをオフにします。
+オフライン エリアがあるマップはオフライン利用に限定されます。オフライン利用を解除したい場合は、モバイル アプリでエリアの削除を行います。さらに、Field Maps Web アプリで作成したオフライン エリアを Web アプリで削除します。</description></item></channel></rss>
