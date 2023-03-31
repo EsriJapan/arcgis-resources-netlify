@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>セットアップ on ArcGIS リソース集</title><link>/cityengine/get-started/setup/</link><description>Recent content in セットアップ on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="/cityengine/get-started/setup/index.xml" rel="self" type="application/rss+xml"/><item><title>動作環境</title><link>/cityengine/get-started/setup/environment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cityengine/get-started/setup/environment/</guid><description>動作環境の確認 ArcGIS CityEngine をインストールするコンピューターが動作環境を満たしているかどうかをご確認ください。
+動作環境の詳細は、「動作環境」ページをご参照ください。
+同時使用 (Concurrent Use) ライセンスをご利用の場合は、ライセンス マネージャーの動作環境もご参照ください。</description></item><item><title>ダウンロード</title><link>/cityengine/get-started/setup/download/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cityengine/get-started/setup/download/</guid><description>ArcGIS CityEngine のインストーラーをダウンロードする手順を説明します。
+My Esri サイトへアクセスします。 アクセスの方法は「My Esriに接続」ページをご参照ください。 My Esri の利用開始についての説明は「メイン」ページをご参照ください。
+My Esri のダウンロード ページへアクセスし、ArcGIS CityEngine をダウンロードします。ダウンロード ページへのアクセスおよびダウンロード方法は「製品ダウンロード」ページをご参照ください。 ダウンロードには [ソフトウェアのダウンロード] 権限が必要です。</description></item><item><title>ライセンス マネージャー</title><link>/cityengine/get-started/setup/license-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cityengine/get-started/setup/license-manager/</guid><description>ライセンス マネージャーは、 ArcGIS CityEngine や ArcGIS Engine、ArcGIS Desktop とエクステンション製品の同時使用ライセンスを管理するために必要です。
+ライセンス マネージャーにより ArcGIS 製品群の同時使用バージョンを任意の台数のマシンにインストールすることで、製品の使用が可能になります。
+ライセンス ファイルに記述されている同時使用ライセンスのライセンス数により、ソフトウェアを同時に使用できるユーザーの人数が決まります。
+ArcGIS CityEngine 同時使用ライセンスを使用するには、ArcGIS License Manager が既に稼動しているか、新たにインストールする必要があります。
+ライセンス マネージャーの詳細やインストール手順については「License Manager ガイド」をご参照ください。
+License Manager の各バージョンがサポートしている ArcGIS CityEngine のバージョンについては「サポートされているソフトウェア製品」をご参照ください。</description></item></channel></rss>
