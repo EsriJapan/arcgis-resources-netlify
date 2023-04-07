@@ -3,9 +3,10 @@
 演習用データのダウンロード BA Pro チュートリアル-カスタマイズ プロジェクトパッケージをダウンロードします。 ダウンロードした「BAProチュートリアル-カスタマイズ.ppkx」を開き、[演習1] マップを開きます。 Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
 統計データ コレクションの作成 BA データに搭載されている町丁・字等ポリゴンを使用して、統計データ コレクションを作成します。
 統計データ コレクション（.sdcx）は、Business Analyst ツールで使用するために、ソース データセットへのパスと、カスタム データの設定を格納するファイルです。詳しくは、Business Analyst のカスタム データの作成をご覧ください。
-[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [新しい統計データ コレクション] をクリックします。 [データ追加] ダイアログで、以下のフィーチャクラスを選択し、[開く] をクリックします。 &amp;lt;データセット配置先 or インストール先&amp;gt;\JPN_Esrijapan_2023\Data\Demographic Data\jpn_esrijapan_2023.gdb\Blocks_blk
-[SDCX の編集] ダイアログが開きます。
-カスタム変数の設定 独自の計算式を用いてカスタム変数を設定します。今回は、既存の BA データには無い「5~14 歳人口」変数を作成します。</description></item><item><title>独自データからカスタム変数を作成</title><link>/business-analyst/desktop/tutorial/customize-data/how-to-use-unique-data/</link><pubDate>Fri, 19 Nov 2021 00:00:00 +0900</pubDate><guid>/business-analyst/desktop/tutorial/customize-data/how-to-use-unique-data/</guid><description>本演習にかかる時間はおよそ 30 分です。
+[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [新しい統計データ コレクション] をクリックします。
+[統計データ コレクションの作成] ダイアログが開いたら、[入力データ] 右部にある参照ボタンをクリックし、以下のフィーチャクラスを選択します。
+&amp;lt;データセット配置先 or インストール先&amp;gt;\JPN_Esrijapan_2023\Data\Demographic Data\jpn_esrijapan_2023.gdb\Blocks_blk
+[統計データ コレクションの出力] で作成する統計データ コレクションの名前および保存先を確認し、そのまま [作成] をクリックします。</description></item><item><title>独自データからカスタム変数を作成</title><link>/business-analyst/desktop/tutorial/customize-data/how-to-use-unique-data/</link><pubDate>Fri, 19 Nov 2021 00:00:00 +0900</pubDate><guid>/business-analyst/desktop/tutorial/customize-data/how-to-use-unique-data/</guid><description>本演習にかかる時間はおよそ 30 分です。
 町丁・字等別の顧客数や、売上高などの自社独自の数値情報を持つテーブル データを使用して、カスタム変数として登録する方法を学びます。本演習では、千葉県内の自社店舗の顧客数や売上情報のカスタム変数を作成すると想定し、あらかじめ用意された、町丁・字等別に集計した顧客数・売上情報を含む Excel ファイルを使用して、町丁・字等ポリゴンを作成し、それを独自変数として登録します。
 演習用データのダウンロード BA Pro チュートリアル-カスタマイズ プロジェクトパッケージをダウンロードします。 ダウンロードした「BAProチュートリアル-カスタマイズ.ppkx」を開き、[演習2] マップを開きます。 Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
 売上情報を含むテーブル データの確認 プロジェクトパッケージはデフォルト設定では、以下の場所に展開されます。
