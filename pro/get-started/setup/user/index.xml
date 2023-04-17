@@ -22,6 +22,6 @@ ArcGIS Pro 日本語パックのセットアップが終了したら、[OK] を�
 基本項目 数値標高モデル（5m、 10m） 数値地図（国土基本情報） GML 形式
 数値地図（国土基本情報 20 万） GML 形式の地図情報 数値地図 (国土基本情報 ) GML 形式の地図情報、地名情報、メッシュ標高情報 DM データ
 公共測量作業規定に基づくデータ形式 法務省 地図 XML ファイル
-ファイル ArcGIS Pro のバージョン 更新日 ESRIJ.ArcGISPro.AddinJPDataCnv_v110.zip 3.1 2023 年 4 月 17 日 ESRIJ.</description></item><item><title>シンボル スタイルとフォント</title><link>/pro/get-started/setup/user/style_font/</link><pubDate>Mon, 17 Apr 2023 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/style_font/</guid><description>ArcGIS Pro で使用できる日本用地図シンボルです。地図シンボルを利用するためには、フォントをインストールし、シンボル スタイルの利用設定を行います。
+ファイル ArcGIS Pro のバージョン 更新日 ESRIJ.ArcGISPro.AddinJPDataCnv_v110.zip 3.1 2023 年 4 月 18 日 ESRIJ.</description></item><item><title>シンボル スタイルとフォント</title><link>/pro/get-started/setup/user/style_font/</link><pubDate>Mon, 17 Apr 2023 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/style_font/</guid><description>ArcGIS Pro で使用できる日本用地図シンボルです。地図シンボルを利用するためには、フォントをインストールし、シンボル スタイルの利用設定を行います。
 フォント ダウンロード ファイル 更新日 JpnPack_Fonts_2023_01.msi 2023 年 1 月 12 日 インストール ダウンロードしたファイル (*.msi) をダブルクリックし、インストールを行います。
 シンボルスタイル ダウンロード ファイル ArcGIS Pro のバージョン 更新日 ArcGISPro30_JpnStyle.zip 3.0、3.1 2023 年 1 月 12 日 ArcGISPro27_JpnStyle.zip 2.7、2.8、2.9 2021 年 2 月 10 日 利用方法 日本国内用のシンボル スタイルを ArcGIS Pro のプロジェクトに追加する方法 ファイルをダウンロードして解凍し、任意の場所にコピーします。 ArcGIS Pro のプロジェクトを開きます。 [挿入] タブ → [追加] → [スタイルの追加] から使用したいスタイル ファイル (拡張子：*.</description></item></channel></rss>
