@@ -554,7 +554,7 @@ MyEsri ダウンロード ページにアクセスし、Drone2Map プログラ�
 [コンテンツ] ウィンドウで「ポイント クラウド」レイヤーのチェック ボックスをオフにすると、3D メッシュのみを表示することができます。
 レイヤーの表示・非表示、画面移動やズームを行い、結果を確認します。
 [3D マップ] のマウス操作は、マウスの左ドラッグで画面移動、中央のホイールの回転で拡大 / 縮小、シフトキー + 右ドラッグで回転や傾斜の動作ができます。
-良い結果を得るには、地上基準点(GCP) を使用し、3D プロダクトを生成します。GCP を使用しない場合、誤った標高値によって正しく結果が表示されない場合があります。</description></item><item><title>アドイン ツール</title><link>/pro/get-started/setup/user/addin_tool/</link><pubDate>Mon, 17 Apr 2023 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/addin_tool/</guid><description>日本国内用のツールはアドイン ツールとして提供しています。 任意のツールをダウンロードし、インストールしてご利用ください。
+良い結果を得るには、地上基準点(GCP) を使用し、3D プロダクトを生成します。GCP を使用しない場合、誤った標高値によって正しく結果が表示されない場合があります。</description></item><item><title>アドイン ツール</title><link>/pro/get-started/setup/user/addin_tool/</link><pubDate>Tue, 18 Apr 2023 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/addin_tool/</guid><description>日本国内用のツールはアドイン ツールとして提供しています。 任意のツールをダウンロードし、インストールしてご利用ください。
 ダウンロード 変換ツール (国内データ) for ArcGIS Pro 日本の各種団体で規定・提供されている仕様のデータを ArcGIS Pro で利用できるようにするための変換ツール
 対応フォーマット
 基盤地図情報
