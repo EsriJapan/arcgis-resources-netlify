@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>スタートアップ ガイド on ArcGIS リソース集</title><link>/drone2map/get-started/</link><description>Recent content in スタートアップ ガイド on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="/drone2map/get-started/index.xml" rel="self" type="application/rss+xml"/><item><title>ライセンス</title><link>/drone2map/get-started/license/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/get-started/license/</guid><description>指定ユーザー ライセンス Drone2Map は、指定ユーザー ライセンスと呼ばれるライセンスを使用します。指定ユーザーライセンスは、ArcGIS Online または Portal for ArcGIS を使用して構成され、組織の管理者が個々のユーザーに Drone2Map ライセンスを割り当てることで、ユーザーは Drone2Map にサイン インしてライセンスを利用します。
 Drone2Map ライセンス ArcGIS Drone2Map 2022.1 以降、Drone2Map ライセンスには 2 つの新しいライセンス レベルが導入されました。購入したライセンス レベルに応じて ArcGIS Drone2Map Standard または ArcGIS Drone2Map Advanced をユーザーに割り当てます。
-バージョン 2.3.3 を使用されていた場合、既に追加されている『ArcGIS Drone2Map』ライセンスでは、バージョン 2022.1 はご利用いただけませんのでご注意ください。
+バージョン 2.3.3 を使用されていた場合、既に追加されている『ArcGIS Drone2Map』ライセンスでは、バージョン 2022.1 以降の ArcGIS Drone2Map はご利用いただけませんのでご注意ください。
 ライセンス タイプは、ArcGIS Online または Portal for ArcGIS 組織サイトの [ライセンス] タブで確認することができます。
 Drone2Map は、公開者ロールを持つ Creator もしくは GIS Professional のユーザータイプに割り当てることができます。 ライセンス管理については、必ず組織の管理者、またはライセンス管理権限を持っているユーザーが行ってください。
 ArcGIS Online 組織サイトをまだ利用していない場合
