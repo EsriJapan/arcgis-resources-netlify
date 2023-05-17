@@ -191,7 +191,7 @@ ArcGIS Online の組織向けアカウントまたは Portal for ArcGIS アカ�
 任意のプロジェクト名を入力し、プロジェクトを保存する場所を設定します。
 [フォルダーの追加] をクリックし、解凍した 「Sample Asphalt」フォルダー内の 「Images」 フォルダーを指定します。
 [高速テンプレート] を選択し、[作成] をクリックしてプロジェクトを作成します。
-[フライト データ] タブ の [画像テーブル] をクリックし、画像の情報を確認します。 今回はデフォルトの設定で処理を実行するので、確認ができたら [画像の中心] テーブル ビューを閉じます。</description></item><item><title>プロジェクトの作成</title><link>/drone2map/quick-start/3d_mapping/3dmapping_createproject/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/3d_mapping/3dmapping_createproject/</guid><description>プロジェクトの作成 Windows の [スタート] ボタン → [ArcGIS] → [Drone2Map] をクリックします。
+[フライト データ] タブ の [画像テーブル] をクリックし、画像の情報を確認します。 確認ができたら [画像の中心] テーブル ビューを閉じます。</description></item><item><title>プロジェクトの作成</title><link>/drone2map/quick-start/3d_mapping/3dmapping_createproject/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/3d_mapping/3dmapping_createproject/</guid><description>プロジェクトの作成 Windows の [スタート] ボタン → [ArcGIS] → [Drone2Map] をクリックします。
 ArcGIS Online の組織向けアカウントまたは Portal for ArcGIS アカウントでサイン インします。
 任意のプロジェクト名を入力します。
 プロジェクトを保存する場所を設定します。
@@ -199,7 +199,7 @@ ArcGIS Online の組織向けアカウントまたは Portal for ArcGIS アカ�
 [プロジェクト テンプレートの選択] において [3D プロダクト] を選択します。
 [作成] をクリックします。</description></item><item><title>ライセンス</title><link>/drone2map/get-started/license/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/get-started/license/</guid><description>指定ユーザー ライセンス Drone2Map は、指定ユーザー ライセンスと呼ばれるライセンスを使用します。指定ユーザーライセンスは、ArcGIS Online または Portal for ArcGIS を使用して構成され、組織の管理者が個々のユーザーに Drone2Map ライセンスを割り当てることで、ユーザーは Drone2Map にサイン インしてライセンスを利用します。
 Drone2Map ライセンス ArcGIS Drone2Map 2022.1 以降、Drone2Map ライセンスには 2 つの新しいライセンス レベルが導入されました。購入したライセンス レベルに応じて ArcGIS Drone2Map Standard または ArcGIS Drone2Map Advanced をユーザーに割り当てます。
-バージョン 2.3.3 を使用されていた場合、既に追加されている『ArcGIS Drone2Map』ライセンスでは、バージョン 2022.1 はご利用いただけませんのでご注意ください。
+バージョン 2.3.3 を使用されていた場合、既に追加されている『ArcGIS Drone2Map』ライセンスでは、バージョン 2022.1 以降の ArcGIS Drone2Map はご利用いただけませんのでご注意ください。
 ライセンス タイプは、ArcGIS Online または Portal for ArcGIS 組織サイトの [ライセンス] タブで確認することができます。
 Drone2Map は、公開者ロールを持つ Creator もしくは GIS Professional のユーザータイプに割り当てることができます。 ライセンス管理については、必ず組織の管理者、またはライセンス管理権限を持っているユーザーが行ってください。
 ArcGIS Online 組織サイトをまだ利用していない場合
@@ -399,10 +399,10 @@ My Esri のダウンロード ページへアクセスし、ArcGIS CityEngine �
 レポートの作成手順 [組織] → [ステータス] → [レポート] タブ → [レポートの作成] をクリックします。 [レポートの作成] をクリックし、出力したいレポートの種類を選択します。
 アクティビティ：組織サイトで行われた操作に関する簡易なログを出力します。 クレジット：クレジットを消費する処理の詳細情報をユーザーごとに集計し出力します。 アイテム：その時点での組織サイト上のアイテム一覧を出力します。 メンバー：その時点での組織サイト上のメンバー一覧を出力します。 アイテム閲覧数：指定した期間の各アイテムの閲覧数を集計し、出力します。 サービスの使用状況：API キーおよびアプリケーションの認証情報に関連付けられた使用状況を出力します。 ※ アクティビティ、クレジット、サービスの使用状況は、出力する期間を指定します。
 レポートの各種類のフィールドの詳細はヘルプをご参照ください。
-[レポートの作成] をクリックし、出力されたレポートをダウンロードします。 ダウンロードした CSV ファイルが文字化けする場合は、文字コードを「UTF-8」に指定したうえで Excel などで読み込んでください。</description></item><item><title>処理設定の確認</title><link>/drone2map/quick-start/2d_mapping/2dmapping_processingoption/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_mapping/2dmapping_processingoption/</guid><description>処理設定の確認 [ホーム] タブで [オプション] をクリックして処理設定を確認します。 2D プロダクト テンプレートのデフォルトの設定では、[画像の調整] タブの [タイポイント オプション] / [初期の画像の縮尺] が「1/8 (画像サイズの 8 分の 1)」 が選択されています。 [2D プロダクト] タブでは、[オルソモザイクの作成] と [DSM の作成] のチェック ボックスがオンになっています。
+[レポートの作成] をクリックし、出力されたレポートをダウンロードします。 ダウンロードした CSV ファイルが文字化けする場合は、文字コードを「UTF-8」に指定したうえで Excel などで読み込んでください。</description></item><item><title>処理設定の確認</title><link>/drone2map/quick-start/2d_mapping/2dmapping_processingoption/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_mapping/2dmapping_processingoption/</guid><description>処理設定の確認 [ホーム] タブで [オプション] をクリックして処理設定を確認します。 2D プロダクト テンプレートのデフォルトの設定では、[画像の調整] タブの [タイポイント オプション] / [初期の画像の縮尺] が「1/8 (画像サイズの 8 分の 1)」 が選択されています。 [2D プロダクト] タブでは、[トゥルー オルソの作成] と [DSM の作成] のチェック ボックスがオンになっています。
 今回はデフォルトの設定で処理を実行するので、[OK] をクリックします。
-[ホーム] タブの [開始] をクリックし、処理を実行します。</description></item><item><title>処理設定の確認</title><link>/drone2map/quick-start/2d_rapid/2drapid_processingoption/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_rapid/2drapid_processingoption/</guid><description>処理設定の確認 [ホーム] タブで [オプション] をクリックして処理設定を確認します。 高速テンプレートのデフォルトの設定では、[画像調整] タブの [タイポイント オプション] / [初期の画像の縮尺] が「1/4 (画像サイズの 4 分の 1)」 が選択されています。 これにより処理時間が短縮されます。その他の設定は、2D テンプレートと似ていますが、2D テンプレートでは [調整の改善] チェックボックスがオンになっておりより高品質なプロダクトを生成するために画像スケールが自動的に調整されるようになっています。時短短縮のため、このオプションはオフになっています。
-[2D プロダクト] タブをクリックすると、作成するプロダクトは、[オルソモザイクの作成] のチェック ボックスだけがオンになっていることが確認できます。作成するプロダクトを最小限にすることで処理時間を削減することができます。
+[ホーム] タブの [開始] をクリックし、処理を実行します。</description></item><item><title>処理設定の確認</title><link>/drone2map/quick-start/2d_rapid/2drapid_processingoption/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_rapid/2drapid_processingoption/</guid><description>処理設定の確認 [ホーム] タブで [オプション] をクリックして処理設定を確認します。 高速テンプレートのデフォルトの設定では、[画像の調整] タブの [タイポイント オプション] / [初期の画像の縮尺] が「1/4 (画像サイズの 4 分の 1)」 が選択されています。 これにより処理時間が短縮されます。その他の設定は、2D テンプレートと似ていますが、2D テンプレートでは [調整の改善] チェックボックスがオンになっておりより高品質なプロダクトを生成するために画像スケールが自動的に調整されるようになっています。時間短縮のため、このオプションはオフになっています。
+[2D プロダクト] タブをクリックすると、作成するプロダクトは、[トゥルーオルソの作成] のチェック ボックスだけがオンになっていることが確認できます。作成するプロダクトを最小限にすることで処理時間を削減することができます。
 今回はデフォルトの設定で処理を実行するので、そのまま [OK] をクリックします。
 [ホーム] タブの [開始] をクリックし、処理を実行します。
 処理を開始すると、[管理] ウィンドウ下部で現在行われている処理の色が変化します。
@@ -545,10 +545,10 @@ MyEsri ダウンロード ページにアクセスし、Drone2Map プログラ�
 グループを削除：グループ名の右側にある [グループの削除] をクリックし、グループを削除します。 アドオン ライセンスの割り当て解除 ※アドオン ライセンスの割り当てがされていない場合は、このステップをスキップします。
 詳細な手順は以下のページをご参照ください。
 ライセンスの割り当てと解除 Esri アクセスの無効化 ※メンバーを完全に削除するために必要なステップです。メンバー アカウントを個人向けプランに変換したい場合は、このステップをスキップします。
-[組織] メニュー → [メンバー] タブ上で削除したいメンバーを検索し、メンバー名の一番右にある […] をクリックします。 [Esri アクセスの無効化] をクリックします。</description></item><item><title>処理結果の確認</title><link>/drone2map/quick-start/2d_mapping/2dmapping_result/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_mapping/2dmapping_result/</guid><description>結果の確認 処理が完了すると、[コンテンツ] ウィンドウの「画像プロダクト」グループに「オルソモザイク」レイヤーが、「DEM プロダクト」グループに「数値表層モデル」レイヤーが追加されます。
-また、[2Dマップ] ビューには高解像度のオルソモザイクが表示されます。
-レイヤーの表示・非表示、マップ上で画面移動やズームを行い、オルソモザイク画像を確認します。</description></item><item><title>処理結果の確認</title><link>/drone2map/quick-start/2d_rapid/2drapid_result/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_rapid/2drapid_result/</guid><description>処理結果の確認 処理が完了すると、[コンテンツ] ウィンドウの「画像プロダクト」グループに「オルソモザイク」レイヤーが追加されます。
-レイヤーの表示・非表示、マップ上で画面移動やズームを行い、オルソモザイク画像を確認します。
+[組織] メニュー → [メンバー] タブ上で削除したいメンバーを検索し、メンバー名の一番右にある […] をクリックします。 [Esri アクセスの無効化] をクリックします。</description></item><item><title>処理結果の確認</title><link>/drone2map/quick-start/2d_mapping/2dmapping_result/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_mapping/2dmapping_result/</guid><description>結果の確認 処理が完了すると、[コンテンツ] ウィンドウの「画像プロダクト」グループに「トゥルー オルソ」レイヤーが、「DEM プロダクト」グループに「数値表層モデル」レイヤーが追加されます。
+また、[2Dマップ] ビューには高解像度のトゥルー オルソが表示されます。
+レイヤーの表示・非表示、マップ上で画面移動やズームを行い、トゥルー オルソを確認します。</description></item><item><title>処理結果の確認</title><link>/drone2map/quick-start/2d_rapid/2drapid_result/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_rapid/2drapid_result/</guid><description>処理結果の確認 処理が完了すると、[コンテンツ] ウィンドウの「画像プロダクト」グループに「トゥルーオルソ」レイヤーが追加されます。
+レイヤーの表示・非表示、マップ上で画面移動やズームを行い、トゥルーオルソを確認します。
 [高速] テンプレートは処理時間を低減するため、低解像度のプロダクトを生成します。
 高解像度のプロダクトを生成したい場合は、[オプション] ウィンドウにおいて手動で解像度パラメーターを変更するか、[2D プロダクト] テンプレートで処理を実行してください。</description></item><item><title>処理結果の確認</title><link>/drone2map/quick-start/3d_mapping/3dmapping_result/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/3d_mapping/3dmapping_result/</guid><description>結果の確認 処理が完了すると [コンテンツ] ウィンドウ → [3D プロダクト] グループに「ポイント クラウド」 レイヤーと「3D メッシュ」レイヤーが、[標高サーフェス] に作成した「DEM」レイヤーが追加され、[3D マップ] には、ポイント クラウドと 3D メッシュが表示されます。
 [コンテンツ] ウィンドウで「ポイント クラウド」レイヤーのチェック ボックスをオフにすると、3D メッシュのみを表示することができます。
@@ -942,7 +942,7 @@ BA Web App でカスタム変数を利用 まとめ この演習では、～～�
 さらに、～～することができました。
 また、以下のツールの操作を学びました。
 [エリア内での集計] ツール [統計データ コレクションの作成] ツール</description></item><item><title>現状のテリトリーを可視化</title><link>/business-analyst/desktop/tutorial/territory-design/create-territory-from-database/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/territory-design/create-territory-from-database/</guid><description>本演習にかかる時間はおよそ 30 分です。
-本演習では、エリア分けの情報を持つ行政区画のテーブル データを使用して、既存のエリア分けを可視化したテリトリーを作成する方法を学びます。
+本演習では、営業担当エリアのエリア分けの情報を持つ行政区画のテーブル データを使用して、既存のエリア分けを可視化したテリトリーを作成する方法を学びます。
 演習用データのダウンロード BA Pro チュートリアル-テリトリー プロジェクトパッケージをダウンロードします。 ダウンロードした「BA Pro チュートリアル-テリトリー.ppkx」を開き、[演習1] マップを開きます。 Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
 エリア分けの情報を持つテーブル データの確認 プロジェクトパッケージはデフォルト設定では、以下の場所に展開されます。
 C:\Users&amp;lt;ユーザー名&amp;gt;\Documents\ArcGIS\Packages\BAProチュートリアル-テリトリー_xxxx
@@ -951,9 +951,11 @@ C:\Users&amp;lt;ユーザー名&amp;gt;\Documents\ArcGIS\Packages\BAProチュー
 Excel の読み込みができない場合、事前準備に記載の Microsoft Access データベース エンジンのインストールが必要な場合があります。
 [フォルダー] に上記展開先のパスが接続されているため、[フォルダー] から Excel ファイルに接続することができます。
 [コンテンツ] ウィンドウに「担当エリア$」レイヤーが追加されます。
-「担当エリア$」レイヤーを右クリック → [開く] をクリックし、テーブルを開きます。 テーブルに、以下の情報が格納されていることを確認します。</description></item><item><title>数値情報を元にテリトリーを最適化</title><link>/business-analyst/desktop/tutorial/territory-design/create-optimal-territory/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/territory-design/create-optimal-territory/</guid><description>本演習にかかる時間はおよそ 30 分です。
-本ページでは、テリトリーのベースとなるデータが持つ売上高などの数値フィールドの値が均等になるように、テリトリーを最適化する方法を学びます。
-演習用データのダウンロード BA Pro チュートリアル-テリトリー プロジェクトパッケージをダウンロードします。 ダウンロードした「BA Pro チュートリアル-テリトリー.ppkx」を開き、[演習2] マップを開きます。 [コンテンツ] ウィンドウおよびマップ上に「営業拠点」レイヤーおよび「世田谷区ポリゴン」レイヤーが追加されていることを確認します。
+「担当エリア$」レイヤーを右クリック → [開く] をクリックし、テーブルを開きます。 テーブルに、以下の情報が格納されていることを確認します。</description></item><item><title>位置情報・数値情報を元にテリトリーを最適化</title><link>/business-analyst/desktop/tutorial/territory-design/create-optimal-territory/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/territory-design/create-optimal-territory/</guid><description>本演習にかかる時間はおよそ 30 分です。
+前回の演習では、既存のエリア分けの情報を持ったデータを用いて現状のテリトリーを可視化し、現状のエリア分けの改善点を把握しました。
+テリトリー デザインでは、現状のテリトリーの可視化だけでなく、位置情報や数値情報を元にテリトリーを最適化する事もできます。本演習では、以下の要素を考慮して、営業担当エリアを最適化する方法を学びます。
+各担当エリアの顧客数の合計値がなるべく均等になるようにする。 各担当エリアが飛び地を持たず、なるべく担当拠点を中心にまとまるようにする。 演習用データのダウンロード 前回の演習から引き続き演習を行っている場合は、下記の手順 1 の操作は不要です。
+BA Pro チュートリアル-テリトリー プロジェクトパッケージをダウンロードします。 ダウンロードした「BA Pro チュートリアル-テリトリー.ppkx」を開き、[演習2] マップを開きます。 [コンテンツ] ウィンドウおよびマップ上に「営業拠点」レイヤーおよび「世田谷区ポリゴン」レイヤーが追加されていることを確認します。
 Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
-テリトリー ソリューション レイヤーの作成 [解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [新しいテリトリー ソリューション レイヤー] をクリックします。 [テリトリー ソリューション レイヤーの作成] ツールが開いたら、以下のように設定してツールを実行します。 入力： テリトリー： あ レベル変数の設定 距離パラメーターの設定 レベル変数のバランス調整 テリトリーの作成 テリトリーの手動調整 あ [プロジェクト] タブ → [保存] を選択し、プロジェクトを保存します。 まとめ この演習では、~しました。 また、以下のツールの操作を学びました。
-[] ツール [] ツール [] ツール</description></item></channel></rss>
+テリトリー ソリューション レイヤーの作成 まず、空のテリトリー ソリューション レイヤーを作成します。
+[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [新しいテリトリー ソリューション レイヤー] をクリックします。 [テリトリー ソリューション レイヤーの作成 (Create Territory Solution)] ツールが開いたら、以下のように設定してツールを実行します。 入力フィーチャ：世田谷区ポリゴン テリトリー ソリューションの名前：営業担当エリアの最適化 ID フィールド：町丁字等コード 名前フィールド：町丁字等名 テリトリー レベル名およびデフォルト テリトリー名：デフォルトのまま [コンテンツ] ウィンドウおよびマップ上に、世田谷区ポリゴンをベースにした「営業担当エリアの最適化」テリトリー ソリューション レイヤーが追加されます。</description></item></channel></rss>
