@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>商圏分析 on ArcGIS リソース集</title><link>/business-analyst/desktop/tutorial/tradearea-analysis/</link><description>Recent content in 商圏分析 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="/business-analyst/desktop/tutorial/tradearea-analysis/index.xml" rel="self" type="application/rss+xml"/><item><title>新規候補地に対する分析 (クイック商圏)</title><link>/business-analyst/desktop/tutorial/tradearea-analysis/evaluate-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/tradearea-analysis/evaluate-site/</guid><description>本演習にかかる時間はおよそ 15-30 分です。
 「クイック商圏」を使用することで、素早く商圏作成からレポートの実行までを行うことができます。本演習では、西船橋駅を評価対象として分析を行います。
-演習 本演習は、インフォグラフィックスの表示を行うことでサービス クレジットを 0.01 消費します。
-演習用データのダウンロード BA Pro チュートリアル-商圏分析 プロジェクトパッケージが無い場合は、ダウンロードします。 ダウンロードした「BAProチュートリアル-商圏分析.ppkx」を開き、[演習2] マップを開きます。 [コンテンツ] ウィンドウおよびマップ上に「自社店舗」レイヤーがあらかじめ追加されていることを確認します。
+演習 本演習は、インフォグラフィックスの表示を行うことでサービス クレジットを 0.01 消費します。 -- 演習用データのダウンロード BA Pro チュートリアル-商圏分析 プロジェクトパッケージが無い場合は、ダウンロードします。 ダウンロードした「BAProチュートリアル-商圏分析.ppkx」を開き、[演習2] マップを開きます。 [コンテンツ] ウィンドウおよびマップ上に「自社店舗」レイヤーがあらかじめ追加されていることを確認します。
 Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
 クイック商圏 クイック商圏を実行して、西船橋駅を起点とした商圏作成とインフォグラフィックスの実行を行います。
 [解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [クイック商圏] をクリックします。 [クイック商圏] ウィザードの [ステップ 1: 位置] で、解析対象となる位置を指定します。
