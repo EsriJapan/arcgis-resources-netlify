@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>サイト on ArcGIS リソース集</title><link>/hub/get-started/site/</link><description>Recent content in サイト on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="/hub/get-started/site/index.xml" rel="self" type="application/rss+xml"/><item><title>サイトの作成</title><link>/hub/get-started/site/create-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hub/get-started/site/create-site/</guid><description>ArcGIS Hub で新しいサイトを作成する方法について説明します。
+サイトの作成には、デフォルトの [管理者] ロールまたは次のカスタム ロールが必要です。
+デフォルトの [公開者] ロールをベースにしたカスタム ロールを構成し、[グループ] 用の管理権限である [更新機能を持つグループを作成] と [メンバーの割り当て] を追加します。
+ロールについての詳細は、ヘルプをご参照ください。
+ArcGIS Online 組織サイトの右上に表示されている [アプリ ランチャー] → [Hub] をクリックします。 画面右上の [新規作成] をクリックして [サイト] をクリックするか、サイトの [新規作成] ボタンをクリックします。 ArcGIS Hub Premium をお持ちの場合、[サイト] ではなく、[イニシアティブ] となります。 サイトとイニシアティブの違いについては、ヘルプをご参照ください。
+サイトの名前を入力して [サイトの作成] ボタンをクリックします。名前には、アルファベット、数字、ダッシュ、半角スペースのみ使用可能です。 [テンプレートの参照] ボタンをクリックすると、サンプルのテンプレートが表示されます。テンプレートには、特定のトピックや目的に対応するよう事前に設定されたアプリケーションや Web マップが含まれているため、Web サイトを素早く作成することができます。
+サイトの作成が完了すると、サイト エディターが表示されます。サイト エディターでは、カードを使用してサイトのレイアウトをデザインできます。詳細は、サイトの構成およびカードの配置と設定をご参照ください。</description></item></channel></rss>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>3D プロダクト on ArcGIS リソース集</title><link>/drone2map/quick-start/3d_mapping/</link><description>Recent content in 3D プロダクト on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="/drone2map/quick-start/3d_mapping/index.xml" rel="self" type="application/rss+xml"/><item><title>プロジェクトの作成</title><link>/drone2map/quick-start/3d_mapping/3dmapping_createproject/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/3d_mapping/3dmapping_createproject/</guid><description>プロジェクトの作成 Windows の [スタート] ボタン → [ArcGIS] → [Drone2Map] をクリックします。
+ArcGIS Online の組織向けアカウントまたは Portal for ArcGIS アカウントでサイン インします。
+任意のプロジェクト名を入力します。
+プロジェクトを保存する場所を設定します。
+[フォルダーの追加] をクリックし、解凍した「Small_Buildings」フォルダー内の 「Images」フォルダーを指定します。
+[プロジェクト テンプレートの選択] において [3D プロダクト] を選択します。
+[作成] をクリックします。</description></item><item><title>処理設定の確認</title><link>/drone2map/quick-start/3d_mapping/3dmapping_processingoption/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/3d_mapping/3dmapping_processingoption/</guid><description>処理設定の確認 [管理] ウィンドウで処理設定を確認します。 3D プロダクト テンプレートのデフォルトの設定では、[画像の調整]、[密度の一致]、 [3D プロダクト] のステップが処理されます。
+[管理] ウィンドウ上部では、「3D プロダクト」の [3D メッシュ] と [ポイント クラウド] にチェックが入っています。ウィンドウ下部の [3D プロダクト] をクリックして [オプション] ウィンドウを開き、処理の詳細を確認します。[ポイント クラウドの作成] の [SLPK] と [LAS] と、[3D テクスチャ メッシュの作成] の [SLPK] のチェック ボックスがオンになっていることを確認します。
+追加のプロダクトを作成したい場合は、[管理] ウィンドウまたは [オプション] ウィンドウで、該当のプロダクトのチェック ボックスをオンにします。
+今回はデフォルトの設定で処理を実行するので、[OK] をクリックします。
+[ホーム] タブの [開始] をクリックし、処理を実行します。</description></item><item><title>処理結果の確認</title><link>/drone2map/quick-start/3d_mapping/3dmapping_result/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/3d_mapping/3dmapping_result/</guid><description>結果の確認 処理が完了すると [コンテンツ] ウィンドウ → [3D プロダクト] グループに「ポイント クラウド」 レイヤーと「3D メッシュ」レイヤーが、[標高サーフェス] に作成した「DEM」レイヤーが追加され、[3D マップ] には、ポイント クラウドと 3D メッシュが表示されます。
+[コンテンツ] ウィンドウで「ポイント クラウド」レイヤーのチェック ボックスをオフにすると、3D メッシュのみを表示することができます。
+レイヤーの表示・非表示、画面移動やズームを行い、結果を確認します。
+[3D マップ] のマウス操作は、マウスの左ドラッグで画面移動、中央のホイールの回転で拡大 / 縮小、シフトキー + 右ドラッグで回転や傾斜の動作ができます。
+良い結果を得るには、地上基準点(GCP) を使用し、3D プロダクトを生成します。GCP を使用しない場合、誤った標高値によって正しく結果が表示されない場合があります。</description></item></channel></rss>
