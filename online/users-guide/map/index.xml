@@ -57,7 +57,7 @@ Web マップのアイテム ページで検索を有効化し、検索対象の
 検索対象として設定できるのは、文字列 (String) 型のフィールドのみです。
 Map Viewer での検索 検索の設定をした Web マップを Map Viewer で開きます。
 [検索] をクリックします。
-[住所または場所の検索] ボックスの左側にある矢印をクリックし、ドロップダウン リストから検索対象のレイヤー名をクリックします。</description></item><item><title>データを編集したい</title><link>/online/users-guide/map/edit/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/map/edit/</guid><description>Web マップに追加されているレイヤーを編集してフィーチャを追加、編集、削除します。
+[住所または場所の検索] ボックスの左側にある矢印をクリックし、ドロップダウン リストから検索対象のレイヤー名をクリックします。</description></item><item><title>データを編集したい</title><link>/online/users-guide/map/edit/</link><pubDate>Mon, 20 Jun 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/map/edit/</guid><description>Web マップに追加されているレイヤーを編集してフィーチャを追加、編集、削除します。
 編集可能なレイヤーをマップに追加します。
 レイヤーの編集の有効化方法は、「編集の有効化」をご参照ください。
 [設定] ツールバーの [編集] をクリックします。
