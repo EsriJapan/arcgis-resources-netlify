@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>テリトリー デザイン on ArcGIS リソース集</title><link>/business-analyst/desktop/tutorial/territory-design/</link><description>Recent content in テリトリー デザイン on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="/business-analyst/desktop/tutorial/territory-design/index.xml" rel="self" type="application/rss+xml"/><item><title>現状のテリトリーを可視化</title><link>/business-analyst/desktop/tutorial/territory-design/create-territory-from-database/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/territory-design/create-territory-from-database/</guid><description>本演習にかかる時間はおよそ 30 分です。
 本演習では、営業担当エリアのエリア分けの情報を持つ行政区画のテーブル データを使用して、既存のエリア分けを可視化したテリトリーを作成する方法を学びます。
-演習 演習用データのダウンロード BA Pro チュートリアル-テリトリー プロジェクトパッケージをダウンロードします。 ダウンロードした「BA Pro チュートリアル-テリトリー.ppkx」を開き、[演習1] マップを開きます。 Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
+演習 演習用データのダウンロード BA Pro チュートリアル-テリトリー プロジェクトパッケージをダウンロードします。 ダウンロードした「BA Pro チュートリアル-テリトリー.ppkx」を開き、[演習1] マップを開きます。 Business Analyst データ ソースが最新のデータセットに設定されていることをご確認ください。
 エリア分けの情報を持つテーブル データの確認 プロジェクトパッケージはデフォルト設定では、以下の場所に展開されます。
-C:1\Users&amp;lt;ユーザー名&amp;gt;\Documents\ArcGIS\Packages\BAProチュートリアル-テリトリー_xxxx
+C:\Users&amp;lt;ユーザー名&amp;gt;\Documents\ArcGIS\Packages\BAProチュートリアル-テリトリー_xxxx
 既存のエリア分けの情報を持つテーブル データをマップに追加します。
 [マップ] タブ → [レイヤー] グループの [データの追加] をクリックします。 [データ] を選択して、[データの追加] ダイアログを開きます。 演習データ内の Excel シートを選択し、[OK] をクリックします。 &amp;lt;上記展開先&amp;gt;\commondata\userdata\既存の営業担当エリアリスト.xlsx\担当エリア$
 Excel の読み込みができない場合、事前準備に記載の Microsoft Access データベース エンジンのインストールが必要な場合があります。
 [フォルダー] に上記展開先のパスが接続されているため、[フォルダー] から Excel ファイルに接続することができます。
 [コンテンツ] ウィンドウに「担当エリア$」レイヤーが追加されます。
-「担当エリア$」レイヤーを右クリック → [開く] をクリックし、テーブルを開きます。 テーブルに、以下の情報が格納されていることを確認します。</description></item><item><title>位置情報・数値情報を元にテリトリーを最適化</title><link>/business-analyst/desktop/tutorial/territory-design/create-optimal-territory/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/territory-design/create-optimal-territory/</guid><description>本演習にかかる時間はおよそ 30 分です。
-前回の演習では、既存のエリア分けの情報を持ったデータを用いて現状のテリトリーを可視化し、現状のエリア分けの改善点を把握しました。
+「担当エリア$」レイヤーを右クリック → [開く] をクリックし、テーブルを開きます。 テーブルに、以下の情報が格納されていることを確認します。</description></item><item><title>テリトリーの自動最適化</title><link>/business-analyst/desktop/tutorial/territory-design/create-optimal-territory/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/territory-design/create-optimal-territory/</guid><description>本演習にかかる時間はおよそ 45 分です。
 テリトリー デザインでは、現状のテリトリーの可視化だけでなく、位置情報や数値情報を元にテリトリーを最適化する事もできます。本演習では、以下の要素を考慮して、営業担当エリアを最適化する方法を学びます。
-各担当エリアの顧客数の合計値がなるべく均等になるようにする。 各担当エリアが飛び地を持たず、なるべく担当拠点を中心にまとまるようにする。 演習 演習用データのダウンロード 前回の演習から引き続き演習を行っている場合は、下記の手順 1 の操作は不要です。
+各営業担当エリアの顧客数の合計値がなるべく均等になるようにする。 各営業担当エリアが飛び地を持たず、なるべく担当拠点を中心にまとまるようにする。 演習 演習用データのダウンロード 演習「現状のテリトリーを可視化」から引き続き演習を行っている場合は、下記の手順 1 の操作は不要です。
 BA Pro チュートリアル-テリトリー プロジェクトパッケージをダウンロードします。 ダウンロードした「BA Pro チュートリアル-テリトリー.ppkx」を開き、[演習2] マップを開きます。 [コンテンツ] ウィンドウおよびマップ上に「営業拠点」レイヤーおよび「世田谷区ポリゴン」レイヤーが追加されていることを確認します。
-Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
+Business Analyst データ ソースが最新のデータセットに設定されていることをご確認ください。
 テリトリー ソリューション レイヤーの作成 まず、空のテリトリー ソリューション レイヤーを作成します。
-[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [新しいテリトリー ソリューション レイヤー] をクリックします。 [テリトリー ソリューション レイヤーの作成 (Create Territory Solution)] ツールが開いたら、以下のように設定してツールを実行します。 入力フィーチャ：世田谷区ポリゴン テリトリー ソリューションの名前：営業担当エリアの最適化 ID フィールド：町丁字等コード 名前フィールド：町丁字等名 テリトリー レベル名およびデフォルト テリトリー名：デフォルトのまま [コンテンツ] ウィンドウおよびマップ上に、世田谷区ポリゴンをベースにした「営業担当エリアの最適化」テリトリー ソリューション レイヤーが追加されます。</description></item></channel></rss>
+[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [新しいテリトリー デザイン ソリューション] をクリックします。 [テリトリー ソリューションの作成 (Create Territory Solution)] ツールが開いたら、以下のように設定してツールを実行します。 入力フィーチャ：世田谷区ポリゴン テリトリー ソリューションの名前：営業担当エリアの最適化 ID フィールド：町丁字等コード 名前フィールド：町丁字等名 テリトリー レベル名およびデフォルト テリトリー名：デフォルトのまま [コンテンツ] ウィンドウおよびマップ上に、世田谷区ポリゴンをベースにした「営業担当エリアの最適化」テリトリー ソリューション レイヤーが追加されます。</description></item></channel></rss>
