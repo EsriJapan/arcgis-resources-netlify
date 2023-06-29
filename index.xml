@@ -413,7 +413,15 @@ ArcGIS Drone2Map 動作環境</description></item><item><title>組織の設定</
 [保存] をクリックして、ホーム ページの構成を適用します。
 [閉じる] ボタンをクリックして、ホーム ページ エディターを閉じます。
 サイトの上部にある [ホーム] をクリックすると、ホーム ページが表示されます。
-セキュリティ パスワード ポリシー、ログインの方法、多要素認証など、組織サイトのセキュリティを高めるための設定を行います。</description></item><item><title>シェープファイルを ArcGIS Online にアップロードしたい</title><link>/online/users-guide/create-data/feature/shapefile/</link><pubDate>Mon, 26 Jun 2023 00:00:00 +0900</pubDate><guid>/online/users-guide/create-data/feature/shapefile/</guid><description>シェープファイルを ArcGIS Online にアップロードし、フィーチャ レイヤーとして公開します。この方法では最大 500 GB のファイルを [マイ コンテンツ] にアップロードできます。
+セキュリティ パスワード ポリシー、ログインの方法、多要素認証など、組織サイトのセキュリティを高めるための設定を行います。</description></item><item><title>位置情報の共有機能の利用</title><link>/fieldmaps/get-started/mobile/tracking/</link><pubDate>Thu, 29 Jun 2023 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/mobile/tracking/</guid><description>トラッキング データ (作業員の現在位置や移動履歴) を収集するための設定とモバイル アプリの操作について説明します。
+位置情報の共有の有効化とライセンスの割り当て ArcGIS Online の組織サイトで設定を行います。
+組織の管理者が 位置情報の共有の有効化します。
+位置情報の共有の有効化には、Mobile Worker ユーザー タイプが 1 つ以上ある組織か、組織が Location Sharing ユーザー タイプ エクステンションを購入し保有している必要があります。
+位置情報の共有を有効化した管理者は、位置情報の共有に必要なすべてのアイテム (レイヤーおよびトラック ビュー) の所有者となり、それらが格納される「位置情報の共有」フォルダーがマイ コンテンツに作成されます。
+位置情報の共有の機能を利用するユーザーに Location Sharing ユーザー タイプ エクステンション ライセンスを割り当てます。
+利用するユーザーが Mobile Worker ユーザー タイプの場合は、この操作は不要です。
+位置情報の共有機能の利用 Field Maps モバイル アプリでトラックを収集します。
+Mobile Worker ユーザー タイプまたは Location Sharing ユーザー タイプ エクステンション ライセンスが割り当てられたユーザーで、ArcGIS Field Maps にサイン インします。 マップの一覧ページの上部にある [マイ トラック] のトグルをオンにして、位置情報の共有期間を選択します。 移動履歴を確認するには、開いたマップの、右上の [レイヤー] をタップして、[マイ トラック] レイヤーをオンにします。 設定の詳細については、ヘルプをご参照ください。</description></item><item><title>シェープファイルを ArcGIS Online にアップロードしたい</title><link>/online/users-guide/create-data/feature/shapefile/</link><pubDate>Mon, 26 Jun 2023 00:00:00 +0900</pubDate><guid>/online/users-guide/create-data/feature/shapefile/</guid><description>シェープファイルを ArcGIS Online にアップロードし、フィーチャ レイヤーとして公開します。この方法では最大 500 GB のファイルを [マイ コンテンツ] にアップロードできます。
 シェープファイルの準備 シェープファイルを zip 形式に圧縮します。
 Windows エクスプローラーでシェープファイルを保存している場所へ移動します。
 シェープファイルを構成しているファイルをすべて選択し、右クリック → [送る] → [圧縮 (zip 形式) フォルダー] をクリックします。
@@ -459,15 +467,7 @@ ArcGIS Pro 日本語パックのセットアップが終了したら、[OK] を�
 メンバー自身がユーザー名およびパスワードを設定できる方法です。指定したメールアドレスのメンバーに ArcGIS Online から招待用メールが送信されます。招待メールを受け取ったメンバーは、本文のリンクから組織に加入し、新しいアカウントを作成するか、既存の ArcGIS 個人向けアカウントを移行できます。組織の構成に応じて、新しいアカウントには、SAML、OpenID Connect、ArcGIS、またはソーシャル ログインが使用できます。
 [新規メンバー] をクリックします。
 複数人を一括で追加したい場合は、[ファイルの新規メンバー] をクリックします。詳細は「ArcGIS Online の複数の組織メンバーを一括で招待するテキスト ファイル」をご参照ください。
-管理者は招待するメンバーの [名]、[姓]、[電子メール アドレス]、サイン イン時に使用する [ユーザー名]、[ユーザー タイプ]、[ロール]、[一時パスワード] を設定します。別のメンバーを追加する場合は [次に、別のメンバーを追加] をクリックして、ユーザー情報を入力します。</description></item><item><title>トラッキング機能の利用</title><link>/fieldmaps/get-started/mobile/tracking/</link><pubDate>Wed, 11 Jan 2023 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/mobile/tracking/</guid><description>トラッキング データ (作業員の現在位置や移動履歴) を収集するための設定とモバイル アプリの操作について説明します。
-トラッキング機能の有効化とライセンスの割り当て ArcGIS Online の組織サイトで設定を行います。
-組織の管理者が位置のトラッキングを有効化します。
-位置のトラッキングを有効化するには、Mobile Worker ユーザー タイプが 1 つ以上ある組織か、組織が Location Sharing ユーザー タイプ エクステンションを購入し保有している必要があります。
-位置のトラッキングを有効化した管理者は、位置のトラッキングに必要なすべてのアイテム (レイヤーおよびトラック ビュー) の所有者となり、それらが格納される「位置のトラッキング」フォルダーがマイ コンテンツに作成されます。
-トラッキングの機能を利用するユーザーに Location Sharing ユーザー タイプ エクステンション ライセンスを割り当てます。
-利用するユーザーがMobile Worker ユーザー タイプの場合は、この操作は不要です。
-トラッキング機能を利用 Field Maps モバイル アプリでトラッキング データを収集します。
-Mobile Worker ユーザー タイプまたは ArcGIS Location Sharing ユーザー タイプ エクステンション ライセンスが割り当てられたユーザーで、ArcGIS Field Maps にサイン インします。 マップの一覧ページの上部にある [マイ トラック] のトグルをオンにして、トラッキング期間を選択します。 移動履歴を確認するには、開いたマップの、右上の [レイヤー] をタップして、[マイ トラック] レイヤーをオンにします。 設定の詳細については、ヘルプをご参照ください。</description></item><item><title>ルール ベースのモデリング</title><link>/cityengine/tutorials/essentials/rule-based-modeling/</link><pubDate>Wed, 11 Jan 2023 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/essentials/rule-based-modeling/</guid><description>チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples&amp;hellip;] を選択し、[CityEngine Tutorial] からダウンロードできます。
+管理者は招待するメンバーの [名]、[姓]、[電子メール アドレス]、サイン イン時に使用する [ユーザー名]、[ユーザー タイプ]、[ロール]、[一時パスワード] を設定します。別のメンバーを追加する場合は [次に、別のメンバーを追加] をクリックして、ユーザー情報を入力します。</description></item><item><title>ルール ベースのモデリング</title><link>/cityengine/tutorials/essentials/rule-based-modeling/</link><pubDate>Wed, 11 Jan 2023 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/essentials/rule-based-modeling/</guid><description>チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples&amp;hellip;] を選択し、[CityEngine Tutorial] からダウンロードできます。
 このチュートリアルは、Houseal Lavigne Associates の Devin Lavigne 氏との共同作業で作成されました。
 概要 CityEngine は「プロシージャル モデリング アプリケーション」と呼ばれ、2D の形状が一連の手順 (CGA ルール ファイル) を経て 3D のモデルになります。CityEngine の強みは CGA (Computer Generated Architecture) にあります。CityEngine のシェープ グラマーである CGA は、建築物の 3D コンテンツを生成するために指定できる独自のプログラミング言語です。基本的には、CGA のルールを形状に割り当てたり、適用したりすることで 3D モデルが作成されます。 3D モデルの複雑さは、CGA のルールとその中の指示によって決まります。単純な CGA ファイルでは、建物のフットプリント 形状を取得し、それを押し出して 3D の形状や集合体にすることができます。 一方、より複雑な CGA ルールでは、集合体のファサードにテクスチャを適用したり、他のパーツに分割して、豊富で詳細な 3D モデルを生成したりすることができます。
 CGA を書くことにおいての秘訣の 1 つは、ルールを段階的にオーサリングし、その都度機能を組み込んでいくことです。望ましい結果を得るための計画を立てることは重要ですが、500 行のコードを書いてそのまま進めるわけではありません。むしろ、段階的にルールを構築し、結果をテストしながら進めていくのです。
