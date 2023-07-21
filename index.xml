@@ -240,7 +240,13 @@ https://www.arcgis.com/home/signin.html パスワードの変更が求められ�
 管理者があらかじめユーザー名を指定しています。画面に従い、パスワードの作成と、パスワードの復旧に必要なセキュリティの質問と答えを設定してください。 次回サイン インする際は、「プロフィールの設定」で表示されるユーザー名と、今回設定したパスワードを入力してください。
 「○○ (組織名) への加入」の画面
 [新しいアカウントの作成] を選択して [次へ] をクリックし、招待を受けたメンバーご自身でユーザー名やパスワードを作成します。
-既に個人向けアカウントをお使いで、そのアカウントを組織向けアカウントとして利用する場合は、[ArcGIS 個人向けアカウントの変換] を選択し、お持ちのユーザー名とパスワードを入力します。</description></item><item><title>プロジェクトの作成</title><link>/cityengine/get-started/quickstart-tutorials/create-project/</link><pubDate>Wed, 14 Jun 2023 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/create-project/</guid><description>概要 プロジェクトを新規作成してデータを作成するまでを学びます。
+既に個人向けアカウントをお使いで、そのアカウントを組織向けアカウントとして利用する場合は、[ArcGIS 個人向けアカウントの変換] を選択し、お持ちのユーザー名とパスワードを入力します。</description></item><item><title>Get Map Data を使った都市モデルの構築</title><link>/cityengine/tutorials/essentials/build-cities-with-get-map-data/</link><pubDate>Tue, 11 Jul 2023 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/essentials/build-cities-with-get-map-data/</guid><description>チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples&amp;hellip;] を選択し、[CityEngine Tutorial] からダウンロードできます。
+このチュートリアルは、Houseal Lavigne Associates の Devin Lavigne 氏との共同作業で作成されました。
+概要 都市計画立案者や設計者によくある依頼には、推奨事項やアイデアを示したり、図解したりすることがあります。例えば、ドイツのベルリンの中心で計画を進めている立案者が、シュプレー川沿いの工業用地と大規模な路面駐車場を再開発に推すことがあります。川沿いの環境と繁華街に近いことから、この場所は複合用途開発に適しています。
+提案のメッセージを伝えるために、立案者はしばしば地域社会と協力し、地域のビジョンを明確にするためのビジュアルを提示します。地域社会で計画が採択されると、不動産所有者や開発予定者は建築家を招き、その土地のより詳細な計画や提案を作成し、地域社会のビジョン達成を支援することができます。
+どちらのシナリオでも、設計者は 3D コンセプト プランを作成します。この 3D コンセプト プランには、敷地の計画と周囲の都市背景が含まれます。このチュートリアルでは、CityEngine と一般公開されている GIS データを活用して、このタイプのビジュアライゼーションを作成するワークフローを学習します。主な手順は次のとおりです。
+演習 ・データの取得 ・建物の生成と修正 ・グラフ ネットワークと道路のクリーンナップ ・地形の利用 ・シナリオの作成 データの取得 シーンを開く このチュートリアルでは、空の GetMapData.cej シーンを使って始めます。
+ArcGIS Online にサイン イン 最初のステップでは、ベルリン中心部の地図データを取得します。[Get Map Data] ツールを使用するためには、ArcGIS Online にサイン インしている必要があります。[Not signed in] ドロップダウン メニューをクリックします。</description></item><item><title>プロジェクトの作成</title><link>/cityengine/get-started/quickstart-tutorials/create-project/</link><pubDate>Wed, 14 Jun 2023 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/create-project/</guid><description>概要 プロジェクトを新規作成してデータを作成するまでを学びます。
 CityEngine では、プロジェクト単位でデータを管理します。新規プロジェクトを作成すると、[Navigator] ウィンドウにプロジェクト フォルダーが表示されます。 そしてプロジェクト フォルダー下には assets、data、images、maps、models、rules、scenes、scripts の 8 つのフォルダーが自動的に作成されます。 この各フォルダー内にプロジェクトで必要なデータや画像、ルールやテクスチャなどを格納します。
 演習 ・プロジェクトの新規作成 ・シーン ファイルの作成 ・データの新規作成 ・ルール ファイルの適用 ・補足 Get Map Data でデータをダウンロード プロジェクトの新規作成 [File] メニュー → [New] をクリックします。
 [New] ダイアログで、CityEngine フォルダー → [CityEngine project] を選択し、[Next &amp;gt;] をクリックします。
@@ -286,17 +292,7 @@ Web アプリの起動方法については 「Field Maps Web アプリの利用
 レイヤー名およびレイヤー タイプを設定します。また、必要に応じて [＋] ボタンをクリックしてレイヤーを追加します。現地調査に必要なレイヤーの追加が完了したら [次へ] をクリックします。 レイヤー設定 現地調査で GPS の受信機情報を自動記録したい場合は、[データ収集には高精度 GPS 受信機が使用されますか？] のチェックボックスを、高度の情報を保存するためのデータにするには [3D 空間がモデル化、または分析されますか？] のチェックボックスをオンにします。
 [データ収集には高精度 GPS 受信機が使用されますか？] チェックボックスをオンにすると、現地調査で GPS 機器を使用した際に、GPS メタデータを自動記録できるようになります (ポイント レイヤーのみです)。 設定が完了したら [次へ] をクリックします。 名前を付けてマップを保存
 マップおよびフィーチャ レイヤーのタイトルを設定します。また、保存先のフォルダーを指定することができます。
-マップやレイヤー名の設定が完了したら [マップの作成] をクリックし、Web マップを作成します。 タイトルについて、既に組織サイト上に存在するサービス名と同じ名前は使用できません。また、半角英数字およびアンダースコア (_) での入力を推奨します。</description></item><item><title>GIS データを使った作業</title><link>/cityengine/tutorials/essentials/work-with-gis-data/</link><pubDate>Thu, 22 Dec 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/essentials/work-with-gis-data/</guid><description>チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples&amp;hellip;] を選択し、[CityEngine Tutorial] からダウンロードできます。
-このチュートリアルは、Houseal Lavigne Associates の Devin Lavigne 氏との共同作業で作成されました。
-概要 GIS データを扱うことは、都市計画にとって重要なワークフローです。このチュートリアルでは、GDB インポートについて紹介し、実際の GIS 情報を使用して 3D 都市をプロシージャルに作成する方法について説明します。
-既存の GIS 情報が存在する場合、CityEngine はそのデータをインポートして、すべての空間属性とともにジオメトリにアクセスすることができます。例えば、セットバック情報を持つ区画は、この情報を CityEngine に渡してゾーニング・エンベロープを素早く生成したり、既存の土地利用情報を使ってプロトタイプの建物を生成したりすることが可能です。この機能は、再開発のコンセプトや、コンセプトを既存の開発コンテクストに適合させる場合に特に便利です。このような場合、既存の GIS 情報から既存のコンテクストを簡単に生成し、特定の区画に再開発の機会を適用することができます。
-このチュートリアルでは、デトロイト市によるインフィル開発の定量化・可視化に CityEngine が使用された実際のユースケースを中心にご紹介します。2021 年 5 月、米国住宅都市開発省 (HUD) は、高い競争力を持つ憧れの Choice Neighborhoods 助成プログラムの勝者としてデトロイトを選びました。この助成金は、デトロイトのダウンタウン西側に位置するコークタウン地区に、500 戸の手頃な価格の住宅を建設するためのものです。
-この地域に対するデトロイト市の計画は、都市計画開発局と住宅再生局が 18 ヶ月をかけて開発した Greater Corktown Framework を基にしています。市の指導者、住民、地域団体、非営利団体、民間開発コミュニティが協力して、近隣地域の活性化と課題に対処するためのデトロイトの入札を行いました。Greater Corktown Framework では、以下のことを求めています。
-困窮した公的支援住宅を代替する。
-教育、雇用、健康に関する世帯の成果を向上させる。
-手頃な価格の住宅と市場価格帯の住宅をよりよく統合し、すべての人にとって快適で多様性のあるコミュニティを確保する。
-治安の改善や幼児教育などのアメニティや資産を提供するために、困難な状況にある地域に再投資を行う。
-Greater Corktown Framework のフォローアップ実施活動として、フレームワークの提言と政策の可視化に CityEngine が使用され、そのダッシュボードとレポートが助成金申請と将来の意思決定に役立てられました。このチュートリアルでは、市の GIS 情報を使用して、このプロジェクトと同様の方法で作業を行い、既存の GIS 情報を使用する際の一般的なワークフローとタスクについて説明します。</description></item><item><title>シンボルを変更したい</title><link>/online/users-guide/map/style/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/map/style/</guid><description>マップに追加したレイヤーのシンボルの色や形を変更します。コンテンツを作成する権限が必要です。
+マップやレイヤー名の設定が完了したら [マップの作成] をクリックし、Web マップを作成します。 タイトルについて、既に組織サイト上に存在するサービス名と同じ名前は使用できません。また、半角英数字およびアンダースコア (_) での入力を推奨します。</description></item><item><title>シンボルを変更したい</title><link>/online/users-guide/map/style/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/map/style/</guid><description>マップに追加したレイヤーのシンボルの色や形を変更します。コンテンツを作成する権限が必要です。
 シンボルの適用 Map Viewer でレイヤーを含むマップを開くか、マップにレイヤーを追加します。
 [コンテンツ] ツールバーの [レイヤー] をクリックして、[レイヤー] ウィンドウを表示します。
 [レイヤー] ウィンドウでシンボルを設定したいレイヤーを選択します。
@@ -467,12 +463,17 @@ ArcGIS Pro 日本語パックのセットアップが終了したら、[OK] を�
 メンバー自身がユーザー名およびパスワードを設定できる方法です。指定したメールアドレスのメンバーに ArcGIS Online から招待用メールが送信されます。招待メールを受け取ったメンバーは、本文のリンクから組織に加入し、新しいアカウントを作成するか、既存の ArcGIS 個人向けアカウントを移行できます。組織の構成に応じて、新しいアカウントには、SAML、OpenID Connect、ArcGIS、またはソーシャル ログインが使用できます。
 [新規メンバー] をクリックします。
 複数人を一括で追加したい場合は、[ファイルの新規メンバー] をクリックします。詳細は「ArcGIS Online の複数の組織メンバーを一括で招待するテキスト ファイル」をご参照ください。
-管理者は招待するメンバーの [名]、[姓]、[電子メール アドレス]、サイン イン時に使用する [ユーザー名]、[ユーザー タイプ]、[ロール]、[一時パスワード] を設定します。別のメンバーを追加する場合は [次に、別のメンバーを追加] をクリックして、ユーザー情報を入力します。</description></item><item><title>ルール ベースのモデリング</title><link>/cityengine/tutorials/essentials/rule-based-modeling/</link><pubDate>Wed, 11 Jan 2023 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/essentials/rule-based-modeling/</guid><description>チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples&amp;hellip;] を選択し、[CityEngine Tutorial] からダウンロードできます。
+管理者は招待するメンバーの [名]、[姓]、[電子メール アドレス]、サイン イン時に使用する [ユーザー名]、[ユーザー タイプ]、[ロール]、[一時パスワード] を設定します。別のメンバーを追加する場合は [次に、別のメンバーを追加] をクリックして、ユーザー情報を入力します。</description></item><item><title>GIS データを使った作業</title><link>/cityengine/tutorials/essentials/work-with-gis-data/</link><pubDate>Thu, 22 Dec 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/essentials/work-with-gis-data/</guid><description>チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples&amp;hellip;] を選択し、[CityEngine Tutorial] からダウンロードできます。
 このチュートリアルは、Houseal Lavigne Associates の Devin Lavigne 氏との共同作業で作成されました。
-概要 CityEngine は「プロシージャル モデリング アプリケーション」と呼ばれ、2D の形状が一連の手順 (CGA ルール ファイル) を経て 3D のモデルになります。CityEngine の強みは CGA (Computer Generated Architecture) にあります。CityEngine のシェープ グラマーである CGA は、建築物の 3D コンテンツを生成するために指定できる独自のプログラミング言語です。基本的には、CGA のルールを形状に割り当てたり、適用したりすることで 3D モデルが作成されます。 3D モデルの複雑さは、CGA のルールとその中の指示によって決まります。単純な CGA ファイルでは、建物のフットプリント 形状を取得し、それを押し出して 3D の形状や集合体にすることができます。 一方、より複雑な CGA ルールでは、集合体のファサードにテクスチャを適用したり、他のパーツに分割して、豊富で詳細な 3D モデルを生成したりすることができます。
-CGA を書くことにおいての秘訣の 1 つは、ルールを段階的にオーサリングし、その都度機能を組み込んでいくことです。望ましい結果を得るための計画を立てることは重要ですが、500 行のコードを書いてそのまま進めるわけではありません。むしろ、段階的にルールを構築し、結果をテストしながら進めていくのです。
-このチュートリアルでは、単純なフットプリントから一連の 3D 建物を作成するルールのオーサリングについて説明します。
-演習 ・シーンを開く ・Hello, World!</description></item><item><title>チュートリアル 3: マップ制御</title><link>/cityengine/tutorials/classic/tutorial-3-map-control/</link><pubDate>Tue, 29 Nov 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-3-map-control/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+概要 GIS データを扱うことは、都市計画にとって重要なワークフローです。このチュートリアルでは、GDB インポートについて紹介し、実際の GIS 情報を使用して 3D 都市をプロシージャルに作成する方法について説明します。
+既存の GIS 情報が存在する場合、CityEngine はそのデータをインポートして、すべての空間属性とともにジオメトリにアクセスすることができます。例えば、セットバック情報を持つ区画は、この情報を CityEngine に渡してゾーニング・エンベロープを素早く生成したり、既存の土地利用情報を使ってプロトタイプの建物を生成したりすることが可能です。この機能は、再開発のコンセプトや、コンセプトを既存の開発コンテクストに適合させる場合に特に便利です。このような場合、既存の GIS 情報から既存のコンテクストを簡単に生成し、特定の区画に再開発の機会を適用することができます。
+このチュートリアルでは、デトロイト市によるインフィル開発の定量化・可視化に CityEngine が使用された実際のユースケースを中心にご紹介します。2021 年 5 月、米国住宅都市開発省 (HUD) は、高い競争力を持つ憧れの Choice Neighborhoods 助成プログラムの勝者としてデトロイトを選びました。この助成金は、デトロイトのダウンタウン西側に位置するコークタウン地区に、500 戸の手頃な価格の住宅を建設するためのものです。
+この地域に対するデトロイト市の計画は、都市計画開発局と住宅再生局が 18 ヶ月をかけて開発した Greater Corktown Framework を基にしています。市の指導者、住民、地域団体、非営利団体、民間開発コミュニティが協力して、近隣地域の活性化と課題に対処するためのデトロイトの入札を行いました。Greater Corktown Framework では、以下のことを求めています。
+困窮した公的支援住宅を代替する。
+教育、雇用、健康に関する世帯の成果を向上させる。
+手頃な価格の住宅と市場価格帯の住宅をよりよく統合し、すべての人にとって快適で多様性のあるコミュニティを確保する。
+治安の改善や幼児教育などのアメニティや資産を提供するために、困難な状況にある地域に再投資を行う。
+Greater Corktown Framework のフォローアップ実施活動として、フレームワークの提言と政策の可視化に CityEngine が使用され、そのダッシュボードとレポートが助成金申請と将来の意思決定に役立てられました。このチュートリアルでは、市の GIS 情報を使用して、このプロジェクトと同様の方法で作業を行い、既存の GIS 情報を使用する際の一般的なワークフローとタスクについて説明します。</description></item><item><title>チュートリアル 3: マップ制御</title><link>/cityengine/tutorials/classic/tutorial-3-map-control/</link><pubDate>Tue, 29 Nov 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-3-map-control/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
 概要 都市は広大で複雑であり、多数の形状やオブジェクトを含んでいるため、一度に1つの建物の属性を制御するのは難しい場合があります。このチュートリアルでは、マップを使って都市の外観を制御する方法を学習します。
 演習 ・Part 1: Inspector による CGA ルール パラメーターの探索 ・Part 2: 高さのマップ制御の設定 ・Part 3: スカイラインの高さをマップと接続 ・Part 4: 土地利用タイプをマップで制御 Part 1: Inspector による CGA ルール パラメーターの探索 最初に Inspector ウィンドウで CGA ルール パラメーターがどのように使用されるのかを学習します。
 Scene フォルダーから、mapcontrolTutorial_01.cej シーンを開きます。
@@ -555,7 +556,12 @@ attr Height = rand(5,20) #5~20m の間でランダムに高さを設定 @Color a
 基本項目 数値標高モデル（5m、 10m） 数値地図（国土基本情報） GML 形式
 数値地図（国土基本情報 20 万） GML 形式の地図情報 数値地図 (国土基本情報 ) GML 形式の地図情報、地名情報、メッシュ標高情報 DM データ
 公共測量作業規定に基づくデータ形式 法務省 地図 XML ファイル
-ファイル ArcGIS Pro のバージョン 更新日 ESRIJ.ArcGISPro.AddinJPDataCnv_v110.zip 3.1 2023 年 4 月 18 日 ESRIJ.</description></item><item><title>チュートリアル 4: 道路データのインポート</title><link>/cityengine/tutorials/classic/tutorial-4-import-streets/</link><pubDate>Tue, 06 Dec 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-4-import-streets/</guid><description>チュートリアルデータ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードすることができます。
+ファイル ArcGIS Pro のバージョン 更新日 ESRIJ.ArcGISPro.AddinJPDataCnv_v110.zip 3.1 2023 年 4 月 18 日 ESRIJ.</description></item><item><title>ルール ベースのモデリング</title><link>/cityengine/tutorials/essentials/rule-based-modeling/</link><pubDate>Wed, 11 Jan 2023 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/essentials/rule-based-modeling/</guid><description>チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples&amp;hellip;] を選択し、[CityEngine Tutorial] からダウンロードできます。
+このチュートリアルは、Houseal Lavigne Associates の Devin Lavigne 氏との共同作業で作成されました。
+概要 CityEngine は「プロシージャル モデリング アプリケーション」と呼ばれ、2D の形状が一連の手順 (CGA ルール ファイル) を経て 3D のモデルになります。CityEngine の強みは CGA (Computer Generated Architecture) にあります。CityEngine のシェープ グラマーである CGA は、建築物の 3D コンテンツを生成するために指定できる独自のプログラミング言語です。基本的には、CGA のルールを形状に割り当てたり、適用したりすることで 3D モデルが作成されます。 3D モデルの複雑さは、CGA のルールとその中の指示によって決まります。単純な CGA ファイルでは、建物のフットプリント 形状を取得し、それを押し出して 3D の形状や集合体にすることができます。 一方、より複雑な CGA ルールでは、集合体のファサードにテクスチャを適用したり、他のパーツに分割して、豊富で詳細な 3D モデルを生成したりすることができます。
+CGA を書くことにおいての秘訣の 1 つは、ルールを段階的にオーサリングし、その都度機能を組み込んでいくことです。望ましい結果を得るための計画を立てることは重要ですが、500 行のコードを書いてそのまま進めるわけではありません。むしろ、段階的にルールを構築し、結果をテストしながら進めていくのです。
+このチュートリアルでは、単純なフットプリントから一連の 3D 建物を作成するルールのオーサリングについて説明します。
+演習 ・シーンを開く ・Hello, World!</description></item><item><title>チュートリアル 4: 道路データのインポート</title><link>/cityengine/tutorials/classic/tutorial-4-import-streets/</link><pubDate>Tue, 06 Dec 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-4-import-streets/</guid><description>チュートリアルデータ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードすることができます。
 概要 チュートリアル 4 では、外部からインポートした道路データを扱う方法をご紹介します。外部のアプリケーションで作成、またはデータベースから導入された*.dxf、*.osm または*.shp ファイル フォーマット内にある道路ネットワーク データを CityEngine にインポートし、街作成のために初期データとして使用します。
 演習 ・Part 1: DXF ファイルのインポート ・Part 2: マイナー道路の生成 ・Part 3: OpenStreet Map (OSM) データをインポート ・Part 4: 衛星画像マップ レイヤーの追加 ・Part 5: シェープファイルとジオデータベースをインポート CityEngine の道路ネットワークは、グラフノード (交差点) とグラフエッジ (道路セグメント) で構成されています。これらは、成長する道路ツールで生成したり、CityEngine で手動で描画したり、DXF や SHP ファイルなどの外部ファイルからインポートしたりすることができます。</description></item><item><title>写真やファイルをフィーチャに添付したい</title><link>/online/users-guide/manage-data/attachment/</link><pubDate>Tue, 22 Nov 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/attachment/</guid><description>フィーチャ レイヤーの各フィーチャに画像などファイルを添付したり、モバイル端末のカメラで撮影した画像を現地調査アプリで添付したりすることができます。この機能を使用するには、レイヤーの設定が必要です。
 添付ファイルの有効化 フィーチャ レイヤーのアイテム詳細ページを開きます。
