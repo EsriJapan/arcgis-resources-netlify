@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>商圏分析 on ArcGIS リソース集</title><link>/business-analyst/pro/tutorial/tradearea-analysis/</link><description>Recent content in 商圏分析 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="/business-analyst/pro/tutorial/tradearea-analysis/index.xml" rel="self" type="application/rss+xml"/><item><title>新規候補地に対する分析 (クイック商圏)</title><link>/business-analyst/pro/tutorial/tradearea-analysis/evaluate-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/tradearea-analysis/evaluate-site/</guid><description>本演習にかかる時間はおよそ 15-30 分です。
+「クイック商圏」を使用することで、素早く商圏作成からレポートの実行までを行うことができます。本演習では、西船橋駅を評価対象として分析を行います。
+演習 本演習は、インフォグラフィックスの表示を行うことでサービス クレジットを 0.01 消費します。 -- 演習用データのダウンロード BA Pro チュートリアル-商圏分析 プロジェクトパッケージが無い場合は、ダウンロードします。 ダウンロードした「BAProチュートリアル-商圏分析.ppkx」を開き、[演習2] マップを開きます。 [コンテンツ] ウィンドウおよびマップ上に「自社店舗」レイヤーがあらかじめ追加されていることを確認します。
+Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
+クイック商圏 クイック商圏を実行して、西船橋駅を起点とした商圏作成とインフォグラフィックスの実行を行います。
+[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [クイック商圏] をクリックします。 [クイック商圏] ウィザードの [ステップ 1: 位置] で、解析対象となる位置を指定します。
+[場所検索] タブを開き、検索ボックスに「西船橋駅」と入力し、Enter キーを押します。 検索結果が表示されるので、選択して [次へ] をクリックします。 [ステップ2: バッファー] で商圏を作成します。
+[道路距離/時間商圏] タブを選択し、以下のように設定し、[次へ] をクリックします。 距離タイプ: 運転時間 (平常時) 時間: 「5」、「10」、「15」と入力します。単位は「分」に設定します。 ディゾルブ オプション: ディスク 作成できる商圏は、リング商圏および道路距離/時間商圏のいずれかです。</description></item><item><title>既存店舗を対象とした分析</title><link>/business-analyst/pro/tutorial/tradearea-analysis/analysis-for-existing-stores/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/tradearea-analysis/analysis-for-existing-stores/</guid><description>本演習にかかる時間はおよそ 30-45 分です。
+演習 演習用データのダウンロード BA Pro チュートリアル-商圏分析 プロジェクトパッケージが無い場合は、ダウンロードします。 ダウンロードした「BAProチュートリアル-商圏分析.ppkx」を開き、[演習2] マップを開きます。 [コンテンツ] ウィンドウおよびマップ上に「自社店舗」レイヤーがあらかじめ追加されていることを確認します。
+Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
+リング商圏の生成 自社店舗ポイントを起点としたリング商圏を作成します。
+[解析] タブ → [ジオプロセシング] グループの [ツール] をクリックします。 [ジオプロセシング] ウィンドウが表示されます。
+[ツールボックス] タブ → [Business Analyst ツール] → [商圏] → [リング商圏の生成 (Generate Trade Area Rings)] をクリックします。 [リング商圏の生成] ツールに、以下のように設定します。 入力フィーチャ: 自社店舗 出力フィーチャクラス: リング商圏_1_3km 入力方法: 値 距離: 1 列目に「1」と入力し、[＋他を追加] をクリックして 2 列目に「3」と入力 距離単位: キロメートル ID フィールド: 店舗ID [実行] をクリックしてツールを実行します。 マップに、自社店舗を起点とした 1,3km のリング商圏が追加されます。</description></item></channel></rss>

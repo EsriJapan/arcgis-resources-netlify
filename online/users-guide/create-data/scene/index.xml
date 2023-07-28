@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>シーン レイヤーを公開したい on ArcGIS リソース集</title><link>/online/users-guide/create-data/scene/</link><description>Recent content in シーン レイヤーを公開したい on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0900</lastBuildDate><atom:link href="/online/users-guide/create-data/scene/index.xml" rel="self" type="application/rss+xml"/><item><title>ArcGIS Pro からシーン レイヤーを公開したい</title><link>/online/users-guide/create-data/scene/arcgispro/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/create-data/scene/arcgispro/</guid><description>ArcGIS Pro から 3D ポイント、マルチパッチ、LiDAR データなどを、Web シーン レイヤーとして公開します。「ホスト シーン レイヤーの公開」権限が必要です。
+ArcGIS Pro からシーン レイヤーとして公開できる 3D データの例 (左から、高さの値が入った 3D ポイント、BIM データ、点群)
+それぞれのステップの詳細な手順は、「ArcGIS Pro 逆引きガイド」をご参照ください。
+ArcGIS Pro を起動し、プロジェクトを作成します。
+ArcGIS Pro 逆引きガイド「1-4. ArcGIS Pro の起動と保存」
+ArcGIS Pro でシーンを作成します。
+ArcGIS Pro 逆引きガイド「5-1. 3D マップを作成したい」
+[コンテンツ] ウィンドウの [3D レイヤー] カテゴリに、3D データを追加します。 ArcGIS Pro 逆引きガイド「2-3. マップにデータを追加・削除したい」
+公開したいレイヤーを右クリックし、[共有] → [Web レイヤーとして共有] をクリックします。
+[Web レイヤーとして共有] ウィンドウで、[名前]、[概要]、[タグ] を入力します。</description></item></channel></rss>
