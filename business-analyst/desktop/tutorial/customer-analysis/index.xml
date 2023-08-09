@@ -1,15 +1,58 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>顧客分析 on ArcGIS リソース集</title><link>/business-analyst/desktop/tutorial/customer-analysis/</link><description>Recent content in 顧客分析 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="/business-analyst/desktop/tutorial/customer-analysis/index.xml" rel="self" type="application/rss+xml"/><item><title>顧客分布を基にした商圏の生成</title><link>/business-analyst/desktop/tutorial/customer-analysis/customer-derived-tradearea/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/customer-analysis/customer-derived-tradearea/</guid><description>本演習にかかる時間はおよそ 15-25 分です。
-本演習では、店舗ごとの顧客データを用いて顧客分布商圏を作成します。また、作成した顧客分布商圏に近似した到達圏を作成し、各店舗の商圏範囲が自動車で平均何分圏に該当するのかを確認します。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>顧客分析 on ArcGIS リソース集</title>
+    <link>/business-analyst/desktop/tutorial/customer-analysis/</link>
+    <description>Recent content in 顧客分析 on ArcGIS リソース集</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language><atom:link href="/business-analyst/desktop/tutorial/customer-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>顧客分布の可視化</title>
+      <link>/business-analyst/desktop/tutorial/customer-analysis/visualize-distribution-of-customer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/business-analyst/desktop/tutorial/customer-analysis/visualize-distribution-of-customer/</guid>
+      <description>本演習にかかる時間はおよそ 30 分です。
+これまでの演習で、顧客分布商圏を作成したり、市場シェアを算出したりする方法を習得しました。
+本演習では、店舗と顧客の位置関係をライン データで表現します。また、店舗別の顧客ポイント データを使用して町丁・字等ポリゴンに顧客数や売上情報を集計し、それらの数値情報をもとに、町丁・字等ポリゴンを様々な表現で可視化します。
+なお、集計に使用する町丁・字等ポリゴンは、顧客が分布している町丁・字等の一覧を使用して作成します。
+演習 事前準備が完了していない場合は、演習に入る前にこちらの操作を行ってください。
+店舗および顧客のポイント データの確認  「BAProチュートリアル_顧客分析.aprx」の [演習2] マップを開きます。 [コンテンツ] ウィンドウおよびマップ上に店舗および顧客のポイント データがあらかじめ追加されていることを確認します。  店舗と顧客の関連をラインで可視化 まず、各店舗の顧客と店舗を結ぶライン データを作成し、顧客の分布状況を可視化します。また、店舗と各顧客間の自動車での移動時間を計測します。
+ [解析] タブ → [ジオプロセシング] グループの [ツール] をクリックし、[ジオプロセシング] ウィンドウの検索ボックスに「スパイダー」と入力します。 検索結果の中の「スパイダー ダイアグラムの生成 (Generate Desire Lines)」ツールをクリックして開きます。 [スパイダー ダイアグラムの生成] ツールが開いたら、以下のように設定し、[実行] をクリックします。  店舗レイヤー: 自社店舗 顧客レイヤー: 自社顧客 出力フィーチャクラス: 各店舗の顧客分布ライン 店舗 ID フィールド: 店舗ID 関連付けられた店舗 ID フィールド: 店舗ID 距離タイプ: 運転時間 (平常時) 計測単位: 分    マップ上に、店舗とそれに紐づく顧客を結ぶラインが追加されます。結果の詳細を確認します。
+[コンテンツ] ウィンドウ上の「各店舗の顧客分布ライン」を右クリック → [属性テーブル] をクリックして、属性テーブルを開きます。  「運転時間 (平常時)」フィールドに、各顧客の位置から店舗までの自動車での移動時間が格納されます。</description>
+    </item>
+    
+    <item>
+      <title>顧客分布を基にした商圏の生成</title>
+      <link>/business-analyst/desktop/tutorial/customer-analysis/customer-derived-tradearea/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/business-analyst/desktop/tutorial/customer-analysis/customer-derived-tradearea/</guid>
+      <description>本演習にかかる時間はおよそ 15-25 分です。
+本演習では、店舗ごとの顧客データを用いて顧客分布商圏を作成します。また、作成した顧客分布商圏に近似した到達圏を作成し、各店舗の商圏範囲が自動車で平均何分圏に該当するのかを確認します。
 顧客分布商圏は、店舗ごとの顧客データをもとに、店舗から近い順に顧客データを一定割合含む範囲を指し「実勢商圏」とも呼びます。詳細は、ビジネスマップ用語集をご覧ください。
-演習 店舗および顧客ポイントを使用して、近い順に顧客の7割をカバーする商圏（顧客分布商圏）を作成します。
-演習用データのダウンロード BA Pro チュートリアル-顧客分析 プロジェクトパッケージをダウンロードします。 ダウンロードした「BAProチュートリアル-顧客分析.ppkx」を開き、[演習1] マップを開きます。 [コンテンツ] ウィンドウおよびマップ上に「自社店舗」レイヤーおよび「自社顧客」レイヤーが追加されていることを確認します。
+演習 店舗および顧客ポイントを使用して、近い順に顧客の7割をカバーする商圏（顧客分布商圏）を作成します。
+演習用データのダウンロード  BA Pro チュートリアル-顧客分析 プロジェクトパッケージをダウンロードします。 ダウンロードした「BAProチュートリアル-顧客分析.ppkx」を開き、[演習1] マップを開きます。  [コンテンツ] ウィンドウおよびマップ上に「自社店舗」レイヤーおよび「自社顧客」レイヤーが追加されていることを確認します。
 Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
-顧客分布商圏の生成 [解析] タブ → [ジオプロセシング] グループの [ツール] をクリックします。 [ジオプロセシング] ウィンドウの検索ボックスに「顧客分布商圏」と入力します。 検索結果の中の [顧客分布商圏の生成 (Generate Customer Derived Trade Areas)] ツールをクリックして開きます。 以下のように設定して、[実行] をクリックします。 店舗: 自社店舗 店舗 ID フィールド: 店舗ID 顧客: 自社顧客 関連付けられた店舗 ID フィールド: 店舗ID 出力フィーチャクラス: 顧客分布商圏_7割 方法: 詳細 (スムージング) 半径 (%): 70 顧客の集計タイプ: 個数 顧客の集計タイプは、顧客ポイントの個数以外に顧客の持つ属性 (例えば売上高など) を選択できます。</description></item><item><title>市場シェアの把握</title><link>/business-analyst/desktop/tutorial/customer-analysis/market-penetration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/desktop/tutorial/customer-analysis/market-penetration/</guid><description>本演習にかかる時間はおよそ 30 分です。
-演習「顧客分布を基にした商圏の生成」で、顧客分布商圏を作成しました。
+顧客分布商圏の生成  [解析] タブ → [ジオプロセシング] グループの [ツール] をクリックします。 [ジオプロセシング] ウィンドウの検索ボックスに「顧客分布商圏」と入力します。 検索結果の中の [顧客分布商圏の生成 (Generate Customer Derived Trade Areas)] ツールをクリックして開きます。 以下のように設定して、[実行] をクリックします。  店舗: 自社店舗 店舗 ID フィールド: 店舗ID 顧客: 自社顧客 関連付けられた店舗 ID フィールド: 店舗ID 出力フィーチャクラス: 顧客分布商圏_7割 方法: 詳細 (スムージング) 半径 (%): 70 顧客の集計タイプ: 個数     顧客の集計タイプは、顧客ポイントの個数以外に顧客の持つ属性 (例えば売上高など) を選択できます。</description>
+    </item>
+    
+    <item>
+      <title>市場シェアの把握</title>
+      <link>/business-analyst/desktop/tutorial/customer-analysis/market-penetration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/business-analyst/desktop/tutorial/customer-analysis/market-penetration/</guid>
+      <description>本演習にかかる時間はおよそ 30 分です。
+演習「顧客分布を基にした商圏の生成」で、顧客分布商圏を作成しました。
 本演習では、顧客分布商圏に重なる町丁・字等を抽出し、顧客ポイント データと市場ポテンシャルをもとに、町丁・字等別の市場シェアを算出します。また、市場シェアとポテンシャルを 2 軸で表現するシンボルを用いて「てこ入れエリア」を抽出します。
 市場シェアの詳細は、ビジネスマップ用語集「市場占有率」をご覧ください。
-演習 顧客分布商圏に重なる町丁・字等を抽出します。
-演習用データのダウンロード BA Pro チュートリアル-顧客分析 プロジェクトパッケージが無い場合は、ダウンロードします。 ダウンロードした「BAProチュートリアル-顧客分析.ppkx」を開き、[演習2] マップを開きます。 [コンテンツ] ウィンドウおよびマップ上に「自社店舗」レイヤー、「自社顧客」レイヤーおよび「顧客分布商圏_7割」レイヤーが追加されていることを確認します。
+演習 顧客分布商圏に重なる町丁・字等を抽出します。
+演習用データのダウンロード  BA Pro チュートリアル-顧客分析 プロジェクトパッケージが無い場合は、ダウンロードします。 ダウンロードした「BAProチュートリアル-顧客分析.ppkx」を開き、[演習2] マップを開きます。  [コンテンツ] ウィンドウおよびマップ上に「自社店舗」レイヤー、「自社顧客」レイヤーおよび「顧客分布商圏_7割」レイヤーが追加されていることを確認します。
 Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
-顧客分布商圏に重複する町丁・字等の抽出 [解析] タブ → [ジオプロセシング] グループの [ツール] をクリックし、[ジオプロセシング] ウィンドウの検索ボックスに「区画ポリゴン」と入力します。 検索結果の中の「重複する区画ポリゴンの作成 (Generate Geographies From Overlay)」ツールをクリックして開きます。 [重複する区画ポリゴンの作成] ツールが開いたら、以下のように設定し、[実行] をクリックします。 区画レベル: 町丁・字等 (JP.Blocks) 入力フィーチャ: 顧客分布商圏_7割 ID フィールド: 店舗ID 出力フィーチャクラス: 顧客分布商圏に重なる町丁字等 リレーションシップ: インターセクト 比率: 面積比 [比率] オプションを「面積比」に設定することで、商圏が町丁・字等などの区画ポリゴンの何割と重なっているかを算出することができます。
-ツール実行が完了すると、マップに「顧客分布商圏に重なる町丁字等」レイヤーが追加されます。</description></item></channel></rss>
+顧客分布商圏に重複する町丁・字等の抽出  [解析] タブ → [ジオプロセシング] グループの [ツール] をクリックし、[ジオプロセシング] ウィンドウの検索ボックスに「区画ポリゴン」と入力します。 検索結果の中の「重複する区画ポリゴンの作成 (Generate Geographies From Overlay)」ツールをクリックして開きます。 [重複する区画ポリゴンの作成] ツールが開いたら、以下のように設定し、[実行] をクリックします。  区画レベル: 町丁・字等 (JP.Blocks) 入力フィーチャ: 顧客分布商圏_7割 ID フィールド: 店舗ID 出力フィーチャクラス: 顧客分布商圏に重なる町丁字等 リレーションシップ: インターセクト 比率: 面積比    [比率] オプションを「面積比」に設定することで、商圏が町丁・字等などの区画ポリゴンの何割と重なっているかを算出することができます。
+ツール実行が完了すると、マップに「顧客分布商圏に重なる町丁字等」レイヤーが追加されます。</description>
+    </item>
+    
+  </channel>
+</rss>
