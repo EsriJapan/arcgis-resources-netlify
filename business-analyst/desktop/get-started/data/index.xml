@@ -1,38 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>データセット on ArcGIS リソース集</title>
-    <link>/business-analyst/desktop/get-started/data/</link>
-    <description>Recent content in データセット on ArcGIS リソース集</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language><atom:link href="/business-analyst/desktop/get-started/data/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>(オプション) 2020 年国勢調査 先行リリース版</title>
-      <link>/business-analyst/desktop/get-started/data/censusr2-data/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/business-analyst/desktop/get-started/data/censusr2-data/</guid>
-      <description>ArcGIS Business Analyst 2022 年版データに追加可能な「2020 年国勢調査 先行リリース版」(以下「本データ」) のセットアップを説明します。
-ArcGIS Business Analyst 2023 年版データ以降は 2020 年国勢調査データが標準搭載されているため、本データの設定は不要です。
- 動作環境 セットアップ  データの入手 データの配置 データの設定 データの利用 ArcMap 版 BA Desktop で利用する場合    動作環境 本データの動作環境は、以下の通りです。
- ソフトウェア  BA Pro 2.9 / 3.0 ArcGIS Business Analyst Desktop 10.8.1 / 10.8.2   データセット  ArcGIS Business Analyst 2022 年版データ    本データを利用するためには、お使いの PC に ArcGIS Business Analyst 2022 年版データがインストールされている必要がございます。
-セットアップ データの入手 本データの提供開始の案内メール「ArcGIS Business Analyst 用 2020 年国勢調査 先行リリース版提供のお知らせ」に添付されているドキュメントに記載の URL から、「CensusR2_ba.</description>
-    </item>
-    
-    <item>
-      <title>(オプション) オフライン利用可能な背景地図の利用</title>
-      <link>/business-analyst/desktop/get-started/data/offline_basemap/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/business-analyst/desktop/get-started/data/offline_basemap/</guid>
-      <description>2022 年版以降のデータセットでは、オフラインで利用可能な背景地図 (広域地図・公共地図) は、個別にダウンロードいただくことで利用可能となります。ご利用される場合は、以下の手順で背景地図をダウンロードし、データの配置を行ってください。
-インターネット接続環境で BA Pro を操作する場合、ArcGIS Online で配信されているオンライン背景地図もご利用いただけます。
-ステップ１：背景地図の入手 「BA20xx年版データのダウンロードご案内」に記載された、オフライン背景地図のダウンロード用 URL にアクセスし、以下の zip ファイルを任意の場所にダウンロードします。
- 広域地図.zip 公共地図.zip  ステップ２：背景地図の配置 背景地図を利用するために、背景地図データの解凍および利用のために必要な各種データ一式を所定の場所に配置します。
- zip 圧縮された背景地図を、「BA20xx年版データのダウンロードご案内」に記載されたパスワードを用いて解凍します。 解凍が終了したら、広域地図・公共地図の両方について、フォルダーごと以下のフォルダー内にコピーします。  C:\ArcGIS\Business Analyst\JPN_Esrijapan_20xx\Data\Basemap Data
-   データセットのデフォルトのインストール先に基づいて説明を行っています。それ以外のフォルダーに配置もしくはインストールした場合は読み替えてください。
-ArcMap 版 BA Desktop をご利用の場合のみ 以下の設定用ファイルを任意の場所にダウンロードして解凍します。  背景地図設定用ファイル   解凍したフォルダー内に保存された各データを、それぞれ以下のフォルダー内にコピーします。    データ名 コピー先のフォルダー     ・Business Analyst 20xx Koiki.mxd・Business Analyst 20xx Public.mxd C:\ArcGIS\Business Analyst\JPN_Esrijapan_20xx\Data   ・広域地図.lyr・広域地図（グレースケール）.lyr・公共地図.lyr・公共地図（グレースケール）.lyr C:\ArcGIS\Business Analyst\JPN_Esrijapan_20xx\Dataset\ArcGIS Online Maps      ステップ３：背景地図の利用 配置した背景地図を ArcGIS Pro、ArcMap それぞれで利用する方法を説明します。</description>
-    </item>
-    
-  </channel>
-</rss>
