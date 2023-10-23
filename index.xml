@@ -529,11 +529,7 @@ Map Viewer でレイヤーを含むマップを開くか、マップにレイヤ
 メンバーの招待 上で作成したグループのページを開きます。
 [メンバーの招待] をクリックします。
 グループに追加するメンバーを検索します。
-組織外のメンバーを追加する場合は、[ArcGIS Online 組織のすべてのメンバーを検索します。] フィルターを有効化します。</description></item><item><title>(オプション) 2020 年国勢調査 先行リリース版</title><link>/business-analyst/pro/get-started/data/censusr2-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/get-started/data/censusr2-data/</guid><description>ArcGIS Business Analyst 2022 年版データに追加可能な「2020 年国勢調査 先行リリース版」(以下「本データ」) のセットアップを説明します。
-ArcGIS Business Analyst 2023 年版データ以降は 2020 年国勢調査データが標準搭載されているため、本データの設定は不要です。
-動作環境 セットアップ データの入手 データの配置 データの設定 データの利用 ArcMap 版 BA Desktop で利用する場合 動作環境 本データの動作環境は、以下の通りです。
-ソフトウェア BA Pro 2.9 / 3.0 ArcGIS Business Analyst Desktop 10.8.1 / 10.8.2 データセット ArcGIS Business Analyst 2022 年版データ 本データを利用するためには、お使いの PC に ArcGIS Business Analyst 2022 年版データがインストールされている必要がございます。
-セットアップ データの入手 本データの提供開始の案内メール「ArcGIS Business Analyst 用 2020 年国勢調査 先行リリース版提供のお知らせ」に添付されているドキュメントに記載の URL から、「CensusR2_ba.</description></item><item><title>ダウンロード</title><link>/drone2map/get-started/download/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/get-started/download/</guid><description>Drone2Map インストーラーのダウンロード MyEsri サイトへアクセスします。
+組織外のメンバーを追加する場合は、[ArcGIS Online 組織のすべてのメンバーを検索します。] フィルターを有効化します。</description></item><item><title>ダウンロード</title><link>/drone2map/get-started/download/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/get-started/download/</guid><description>Drone2Map インストーラーのダウンロード MyEsri サイトへアクセスします。
 MyEsri ダウンロード ページにアクセスし、Drone2Map プログラムと必要に応じてパッチをダウンロードします。
 ダウンロード ページへのアクセス方法、ダウンロード方法は、 「製品ダウンロード」 ページをご参照ください。</description></item><item><title>チュートリアル ビデオ</title><link>/business-analyst/web/tutorial/tutorial-video/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/web/tutorial/tutorial-video/</guid><description>BA Web and Mobile Apps の各種ツールの操作方法を学ぶことのできるチュートリアル ビデオを提供しています。
 ビデオと実際のアプリケーションでユーザー インターフェイスが異なる場合があります。
