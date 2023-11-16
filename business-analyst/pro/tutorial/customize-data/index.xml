@@ -16,12 +16,4 @@ C:\Users&amp;lt;ユーザー名&amp;gt;\Documents\ArcGIS\Packages\BAProチュー
 Excel の読み込みができない場合、事前準備に記載の Microsoft Access データベース エンジンのインストールが必要な場合があります。
 [フォルダー] に上記展開先のパスが接続されているため、[フォルダー] から Excel ファイルに接続することができます。
 [コンテンツ] ウィンドウに「町丁字等別売上情報$」が追加されます。
-「町丁字等別売上情報$」を右クリック → [開く] をクリックし、テーブルを開きます。 テーブルに、町丁・字等の区画 ID や区画名、顧客数や売上高などの売上情報が含まれることを確認し、テーブルを閉じます。 「売上高」フィールドの単位は「円」とします。</description></item><item><title>カスタム変数の共有</title><link>/business-analyst/pro/tutorial/customize-data/share-custom-variabels/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/customize-data/share-custom-variabels/</guid><description>本演習にかかる時間はおよそ 15 分です。
-BA Pro で作成したカスタム変数は、ArcGIS Online に共有することでクラウド型アプリケーション BA Web and Mobile Apps でも利用することができます。
-本演習では、これまでの演習で作成したカスタム変数を、ArcGIS Online に共有する方法を学びます。
-事前準備が完了していない場合は、演習に入る前にこちらの操作を行ってください。
-カスタム変数の共有 [プロジェクト] タブ → [保存] を選択し、プロジェクトを保存します。
-BA Web App でカスタム変数を利用 まとめ この演習では、～～することができました。
-さらに、～～することができました。
-また、以下のツールの操作を学びました。
-[エリア内での集計] ツール [統計データ コレクションの作成] ツール</description></item></channel></rss>
+「町丁字等別売上情報$」を右クリック → [開く] をクリックし、テーブルを開きます。 テーブルに、町丁・字等の区画 ID や区画名、顧客数や売上高などの売上情報が含まれることを確認し、テーブルを閉じます。 「売上高」フィールドの単位は「円」とします。</description></item></channel></rss>
