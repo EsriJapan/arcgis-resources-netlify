@@ -1,13 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web アプリの作成 on ArcGIS リソース集</title><link>/online/users-guide/create-apps/</link><description>Recent content in Web アプリの作成 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 30 Nov 2021 00:00:00 +0900</lastBuildDate><atom:link href="/online/users-guide/create-apps/index.xml" rel="self" type="application/rss+xml"/><item><title>Web アプリとは</title><link>/online/users-guide/create-apps/webapp/</link><pubDate>Tue, 30 Nov 2021 00:00:00 +0900</pubDate><guid>/online/users-guide/create-apps/webapp/</guid><description>Web アプリとは、ArcGIS Online で作成するマップ (Web マップ) に目的に応じて機能や見栄えに変更を加えたアプリケーションです。Web アプリは、主に以下の 4 種類があります。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web アプリの作成 on ArcGIS リソース集</title><link>/online/users-guide/create-apps/</link><description>Recent content in Web アプリの作成 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 30 Nov 2021 00:00:00 +0900</lastBuildDate><atom:link href="/online/users-guide/create-apps/index.xml" rel="self" type="application/rss+xml"/><item><title>Web アプリとは</title><link>/online/users-guide/create-apps/webapp/</link><pubDate>Tue, 30 Nov 2021 00:00:00 +0900</pubDate><guid>/online/users-guide/create-apps/webapp/</guid><description>アプリとは、ArcGIS Online で作成するマップ (Web マップ) に目的に応じて機能や見栄えに変更を加えたアプリケーションです。Web アプリは、主に以下の 4 種類があります。
 なお、Web アプリの作成には、コンテンツの「作成、更新、および削除」権限が必要です。
 1. ArcGIS Instant Apps
 2. ArcGIS Experience Builder
 3. ArcGIS StoryMaps
 4. ArcGIS Dashboards
 ArcGIS Instant Apps マップとデータを簡単に操作できるようにする Web アプリをテンプレートから選び、Web アプリをすばやく作成します。
+詳細は製品ページをご参照ください。
 ArcGIS Experience Builder 2D/3D マップ、テキスト、メディアを含む、レスポンシブ対応の Web アプリやページを作成します。
+詳細は製品ページをご参照ください。
 ArcGIS StoryMaps マップにテキスト、画像、動画などを組み合わせた Web ページを作成します。
-ArcGIS Dashboards マップ、グラフ、ゲージなどを組み合わせて情報を表示するダッシュボードを作成します。</description></item><item><title>開始手順</title><link>/online/users-guide/create-apps/start/</link><pubDate>Tue, 30 Nov 2021 00:00:00 +0900</pubDate><guid>/online/users-guide/create-apps/start/</guid><description>Web アプリの作成を開始する手順は、以下の A、B、C の 3 つの方法があります。どの方法から開始しても、アプリの作成が可能です。作業しやすい開始手順でアプリの作成を開始してください。
+詳細は製品ページをご参照ください。
+ArcGIS Dashboards マップ、グラフ、ゲージなどを組み合わせて情報を表示するダッシュボードを作成します。
+詳細は製品ページをご参照ください。</description></item><item><title>開始手順</title><link>/online/users-guide/create-apps/start/</link><pubDate>Tue, 30 Nov 2021 00:00:00 +0900</pubDate><guid>/online/users-guide/create-apps/start/</guid><description>Web アプリの作成を開始する手順は、以下の A、B、C の 3 つの方法があります。どの方法から開始しても、アプリの作成が可能です。作業しやすい開始手順でアプリの作成を開始してください。
 A. Map Viewer から作成 Map Viewer で作成した Web マップを保存します。 [アプリの作成] をクリックします。 作成したい Web アプリを選択します。 左下の [展開] をクリックすることで、各タブの名称を表示することができます。
 ご使用のディスプレイのサイズが小さい場合、[その他] に [アプリの作成] が格納されています。
 B. アイテム詳細ページから作成 [コンテンツ] タブをクリックし、 [マイ コンテンツ] を表示します。
