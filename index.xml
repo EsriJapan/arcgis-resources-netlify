@@ -932,10 +932,10 @@ Assign_Floor_Usages_01.cej シーンを開きます。 Lot スタート ルー�
 本演習では、Business Analyst オフライン データセット（以下、BA データ）を使用して、独自のカスタム変数を作成する方法を学びます。
 演習用データのダウンロード BA Pro チュートリアル-カスタマイズ プロジェクトパッケージをダウンロードします。 ダウンロードした「BAProチュートリアル-カスタマイズ.ppkx」を開き、[演習1] マップを開きます。 Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
 統計データ コレクションの作成 BA データに搭載されている町丁・字等ポリゴンを使用して、統計データ コレクションを作成します。
-統計データ コレクション（.sdcx）は、Business Analyst ツールで使用するために、ソース データセットへのパスと、カスタム データの設定を格納するファイルです。詳しくは、Business Analyst のカスタム データの作成をご覧ください。
+統計データ コレクション（.sdcx）は、Business Analyst 上で使用するための設定を格納するファイルです。詳しくは、Business Analyst のカスタム データの作成をご覧ください。
 [解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [新しい統計データ コレクション] をクリックします。
 [統計データ コレクションの作成] ダイアログが開いたら、[入力データ] 右部にある参照ボタンをクリックし、以下のフィーチャクラスを選択します。
-&amp;lt;データセット配置先 or インストール先&amp;gt;\JPN_Esrijapan_2023\Data\Demographic Data\jpn_esrijapan_2023.gdb\Blocks_blk
+&amp;lt;データセット配置先 or インストール先&amp;gt;\JPN_EsriJapan_2024\Data\Demographic Data\JPN_EsriJapan_2024.gdb\Blocks_blk
 [統計データ コレクションの出力] で作成する統計データ コレクションの名前および保存先を確認し、そのまま [作成] をクリックします。</description></item><item><title>チュートリアル 22: ダイナミック インポート</title><link>/cityengine/tutorials/classic/tutorial-22-dynamic-imports/</link><pubDate>Thu, 15 Jun 2023 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-22-dynamic-imports/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples&amp;hellip;] を選択し、[CityEngine Tutorial] からダウンロードできます。
 概要 チュートリアル 22 では、ESRI.lib Plant_Loader を使用した例を通じて、ダイナミック インポートの使用方法を説明します。CGA でのコーディングが必要な時間のかかる方法と、ダイナミック インポートを使用した効率的な方法の 2 つのアプローチで、道路の両側にヤシの木を挿入する方法について学びます。
 演習 ・Part 1: ユーザーが陥りがちなミス ・Part 2: 値を再計算してツリーのサイズを修正する ・Part 3: ダイナミックインポートを使用してツリーサイズを修正する ユーザーが陥りがちなミス Plant_Loader を使用する際、ユーザーは植物の名前を設定することが多いのですが、その際、高さや半径も設定しないと、誤った結果となるでしょう。つまり、依存する属性も設定する必要があることを知らずに、任意の属性を設定すると、しばしばミスにつながります。
@@ -943,7 +943,7 @@ Assign_Floor_Usages_01.cej シーンを開きます。 Lot スタート ルー�
 [Navigator] ウィンドウで Tutorial_22_Dynamic_Imports チュートリアル フォルダーを展開します。
 scenes フォルダー内の dynamic_imports_01.cej を開くと、ビューポートに植物のない街並みのシーンが表示されます：
 rules フォルダーにある dynamic_imports_01.</description></item><item><title>独自データからカスタム変数を作成</title><link>/business-analyst/pro/tutorial/customize-data/how-to-use-unique-data/</link><pubDate>Fri, 19 Nov 2021 00:00:00 +0900</pubDate><guid>/business-analyst/pro/tutorial/customize-data/how-to-use-unique-data/</guid><description>本演習にかかる時間はおよそ 30 分です。
-町丁・字等別の顧客数や、売上高などの自社独自の数値情報を持つテーブル データを使用して、カスタム変数として登録する方法を学びます。本演習では、千葉県内の自社店舗の顧客数や売上情報のカスタム変数を作成すると想定し、あらかじめ用意された、町丁・字等別に集計した顧客数・売上情報を含む Excel ファイルを使用して、町丁・字等ポリゴンを作成し、それを独自変数として登録します。
+区画別に集計した顧客数や売上高など、独自の数値情報を持つデータを使用して、カスタム変数として登録する方法を学びます。本演習では、千葉県内の自社顧客データを用いて、町丁・字等ポリゴンを作成し、それを独自変数として登録します。
 演習用データのダウンロード BA Pro チュートリアル-カスタマイズ プロジェクトパッケージをダウンロードします。 ダウンロードした「BAProチュートリアル-カスタマイズ.ppkx」を開き、[演習2] マップを開きます。 Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
 売上情報を含むテーブル データの確認 プロジェクトパッケージはデフォルト設定では、以下の場所に展開されます。
 C:\Users&amp;lt;ユーザー名&amp;gt;\Documents\ArcGIS\Packages\BAProチュートリアル-カスタマイズ_xxxx
@@ -952,4 +952,4 @@ C:\Users&amp;lt;ユーザー名&amp;gt;\Documents\ArcGIS\Packages\BAProチュー
 Excel の読み込みができない場合、事前準備に記載の Microsoft Access データベース エンジンのインストールが必要な場合があります。
 [フォルダー] に上記展開先のパスが接続されているため、[フォルダー] から Excel ファイルに接続することができます。
 [コンテンツ] ウィンドウに「町丁字等別売上情報$」が追加されます。
-「町丁字等別売上情報$」を右クリック → [開く] をクリックし、テーブルを開きます。 テーブルに、町丁・字等の区画 ID や区画名、顧客数や売上高などの売上情報が含まれることを確認し、テーブルを閉じます。 「売上高」フィールドの単位は「円」とします。</description></item></channel></rss>
+「町丁字等別売上情報$」を右クリック → [開く] をクリックし、テーブルを開きます。 テーブルに、町丁・字等の区画 ID や区画名、顧客数や売上高などの売上情報が含まれることを確認し、テーブルを閉じます。 町丁・字等ポリゴンの作成 追加したテーブル データを使用して、統計データ コレクションのデータ ソースとなる町丁・字等ポリゴンを作成します。</description></item></channel></rss>
