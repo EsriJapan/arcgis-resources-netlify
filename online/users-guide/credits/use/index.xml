@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>クレジットの利用と消費例 on ArcGIS リソース集</title><link>/online/users-guide/credits/use/</link><description>Recent content in クレジットの利用と消費例 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Wed, 13 Dec 2023 00:00:00 +0900</lastBuildDate><atom:link href="/online/users-guide/credits/use/index.xml" rel="self" type="application/rss+xml"/><item><title>クレジットの利用</title><link>/online/users-guide/credits/use/use-credits/</link><pubDate>Wed, 13 Dec 2023 00:00:00 +0900</pubDate><guid>/online/users-guide/credits/use/use-credits/</guid><description>ArcGIS Online では、データ ストレージや解析機能の実行などの GIS 処理に応じて、決められた数の「サービス クレジット」が消費されます。ここではクレジット消費について説明します。
+クレジットの取得方法 (チャージ) や管理方法については「クレジットの取得と管理」をご参照ください。
+データ ストレージ コンテンツを作成する権限がある場合、様々なタイプのコンテンツをアイテムとして追加できます。追加したアイテムは ArcGIS Online のストレージに保存されますが、保存にはクレジットを消費します。 代表的なストレージ保存におけるクレジット消費は以下の表のとおりです。
+機能 内容 消費クレジット (1 時間単位で計算) データ ストレージの使用 フィーチャ レイヤーの保存
+(フィーチャ アタッチメント、フィーチャ コレクション、位置情報に関連付くフィーチャを除く) 10 MB の保存で月 2.4 クレジット ホスト フィーチャ レイヤーと ArcGIS Notebooks 内のコンテンツを除くすべてのコンテンツの保存
+(Web マップの保存、PDF など各種ファイルの保存、シーン レイヤー パッケージの保存など) 1 GB の保存で月 1.2 クレジット 詳細は「ストレージ使用におけるクレジット消費の例」をご参照ください。
+なお、次の機能ではストレージを使用しないため、クレジットを消費しません。
+機能 内容 消費クレジット 可視化 マップ / レイヤーの表示 0 クレジット 検索とジオサーチ 住所 / 場所検索 (表示のみ) 0 クレジット 解析機能 空間解析などの特定の処理に対してクレジットが消費されます。 消費クレジットは、解析ツールの種類やデータセットのサイズ (入力フィーチャ数または処理するピクセル数) によって異なります。 代表的なクレジットを消費する解析ツールは次の表のとおりです。</description></item><item><title>ストレージ使用におけるクレジット消費の例</title><link>/online/users-guide/credits/use/consumption-example/</link><pubDate>Wed, 13 Dec 2023 00:00:00 +0900</pubDate><guid>/online/users-guide/credits/use/consumption-example/</guid><description>実際に ArcGIS Online にデータ保存した場合、どのくらいのクレジットが消費されるのかをご紹介します。 なお、データの属性や種類によって作成されるデータの容量は異なるため、下記の例は参考値であることをご承知おきください。
+パターン 1 16,000 件の XY 座標値が含まれた Excel シートからホスト フィーチャ レイヤー (ポイント) を作成し、
+それを基に Web マップを作成して 1 か月保存した場合
+元データ 2 MB のポイントを表すデータ (.xlsx)
+ArcGIS Online 上で作成、保存されるデータ ① 2 MB の Excel ファイル (1 GB の保存で 1.2 クレジット消費対象) ② 5.9 MB のホスト フィーチャ レイヤー (10 MB の保存で 2.4 クレジット消費対象) ③ 3.5 KB の Web マップ (1 GB の保存で 1.2 クレジット消費対象)
+消費されるクレジット ① 0.0025 クレジット ※ 無視するものとする ② 1.</description></item></channel></rss>

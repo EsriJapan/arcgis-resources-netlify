@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>入力用データの準備 on ArcGIS リソース集</title><link>/fieldmaps/get-started/prepare/</link><description>Recent content in 入力用データの準備 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Wed, 11 Jan 2023 00:00:00 +0900</lastBuildDate><atom:link href="/fieldmaps/get-started/prepare/index.xml" rel="self" type="application/rss+xml"/><item><title>Field Maps Web アプリの利用</title><link>/fieldmaps/get-started/prepare/start/</link><pubDate>Tue, 21 Nov 2023 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/prepare/start/</guid><description>ArcGIS Field Mapsには、Field Maps モバイル アプリと Field Maps Web アプリの 2 つのアプリが付属しています。
 Field Maps Web アプリでは、モバイル作業者が Field Maps モバイル アプリで使用する Web マップおよびフィーチャ レイヤーを構成できます。
-Web アプリの起動 ArcGIS Online 組織サイトの右上に表示されている [アプリ ランチャー] → [Field Maps Designer] をクリックします。 現地調査で利用するフィーチャ レイヤーおよび 、Web マップを Web アプリ上で作成する場合は [新規マップ] をクリックし、「Web マップの作成」に進みます。 Field Maps モバイル アプリでは既存の Web マップを利用することも可能です。目的の Web マップが表示されない場合は、ArcGIS Online で Web マップのアイテム ページを開き、[設定] → [アプリケーション設定] から [ArcGIS Field Maps で使用] チェックボックスをオンにしてください。</description></item><item><title>Web マップの作成</title><link>/fieldmaps/get-started/prepare/create-map/</link><pubDate>Wed, 11 Jan 2023 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/prepare/create-map/</guid><description>Web マップの作成 Field Maps Web アプリで現地調査の際に利用するフィーチャ レイヤーおよび 、Web マップを作成することができます。
+Web アプリの起動 ArcGIS Online 組織サイトの右上に表示されている [アプリ ランチャー] → [Field Maps Designer] をクリックします。 現地調査で利用するフィーチャ レイヤーおよび 、Web マップを Web アプリ上で作成する場合は [新規マップ] をクリックし、「Web マップの作成」に進みます。 Field Maps モバイル アプリでは既存の Web マップを利用することも可能です。目的の Web マップが表示されない場合は、ArcGIS Online で Web マップのアイテム ページを開き、[設定] → [アプリケーション設定] から [ArcGIS Field Maps で使用] チェックボックスをオンにしてください。</description></item><item><title>Web マップの作成</title><link>/fieldmaps/get-started/prepare/create-map/</link><pubDate>Mon, 27 Nov 2023 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/prepare/create-map/</guid><description>Field Maps Web アプリで現地調査の際に利用するフィーチャ レイヤーおよび Web マップを作成することができます。
 Web アプリの起動方法については 「Field Maps Web アプリの利用」をご参照ください。
 フィーチャ レイヤーの作成 Field Maps Web アプリを開き、[新規マップ] をクリックします。詳細は「Field Maps Web アプリの利用」をご参照ください。
-レイヤー名およびレイヤー タイプを設定します。また、必要に応じて [＋] ボタンをクリックしてレイヤーを追加します。現地調査に必要なレイヤーの追加が完了したら [次へ] をクリックします。 レイヤー設定 現地調査で GPS の受信機情報を自動記録したい場合は、[データ収集には高精度 GPS 受信機が使用されますか？] のチェックボックスを、高度の情報を保存するためのデータにするには [3D 空間がモデル化、または分析されますか？] のチェックボックスをオンにします。
-[データ収集には高精度 GPS 受信機が使用されますか？] チェックボックスをオンにすると、現地調査で GPS 機器を使用した際に、GPS メタデータを自動記録できるようになります (ポイント レイヤーのみです)。 設定が完了したら [次へ] をクリックします。 名前を付けてマップを保存
+レイヤー名およびレイヤー タイプを設定します。また、必要に応じて [＋] ボタンをクリックしてレイヤーを追加します。現地調査に必要なレイヤーの追加が完了したら [次へ] をクリックします。 レイヤー設定 現地調査時に高度なデータ収集を行う場合は、以下の設定を有効化することができます。
+[データ収集には高精度 GPS 受信機が使用されますか？] : GPS の受信機情報を自動記録したい場合 [3D 空間がモデル化、または分析されますか？] : Z 値を収集したい場合 [データ収集には高精度 GPS 受信機が使用されますか？] を有効化すると、現地調査で GPS 機器を使用した際に、GPS メタデータを自動記録できるようになります (ポイント レイヤーのみ)。 設定が完了したら [次へ] をクリックします。
+名前を付けてマップを保存
 マップおよびフィーチャ レイヤーのタイトルを設定します。また、保存先のフォルダーを指定することができます。
-マップやレイヤー名の設定が完了したら [マップの作成] をクリックし、Web マップを作成します。 タイトルについて、既に組織サイト上に存在するサービス名と同じ名前は使用できません。また、半角英数字およびアンダースコア (_) での入力を推奨します。</description></item></channel></rss>
+マップやレイヤー名の設定が完了したら [マップの作成] をクリックし、Web マップを作成します。 タイトルについて、既に組織サイト上に存在するサービス名と同じ名前は使用できません。また、半角英数字およびアンダースコア (_) での入力を推奨します。</description></item><item><title>フォームの構成</title><link>/fieldmaps/get-started/prepare/build-form/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/prepare/build-form/</guid><description>モバイル アプリ利用者がデータの収集に使用するフォームを Web アプリで作成します。フォームを構成することで、現場でデータを収集し、調査を実施するためのフィーチャ テンプレートを作成できます。
+Web アプリの起動方法については 「Field Maps Web アプリの利用」をご参照ください。
+フォーム ビルダーを開く
+Field Maps Web アプリを開き [マップ] ページを表示します。フォームを構成したいマップ カードをクリックし、構成を開始します。
+[フォーム] ページが表示され、[レイヤー] リストにマップ コンテンツが表示されます。任意のレイヤーをクリックし、フォーム ビルダーを表示します。
+レイヤーのフォームを構成する際は、そのレイヤーの編集を有効にする必要があります。Field Maps Web アプリを利用してマップを作成した場合は、レイヤーの編集がデフォルトで有効です。既存のマップでフォームを構成する際は、レイヤーの編集が有効ではない場合があります。編集を有効にする際は「データの編集に関する設定を変更したい」をご参照ください。
+フォームの構成 基本または選択肢フォーム エレメントを使用して、フォームを構成します。
+基本フォーム エレメントの追加
+日付、数字、テキスト、バーコードなどの基本的な情報をフォームに追加する際に、基本フォーム エレメントを利用します。
+選択肢フォーム エレメントの追加 事前に定義した値のリストをフォームに追加する際に、選択肢フォーム エレメントを利用します。
+レイヤーまたはテーブル内のフィールドをフォームに追加して、フォーム エレメントとして構成することもできます。詳細はヘルプをご参照ください。
+基本フォーム エレメントの追加
+[フォーム エレメント] ウィンドウの [基本] セクションから任意のエレメントを選択し、キャンバスまでドラッグ アンド ドロップします。
+[プロパティ] ウィンドウが開くので、[表示名] や [フィールド名] などの必要な情報を入力します。</description></item><item><title>Web マップの構成</title><link>/fieldmaps/get-started/prepare/configure-map/</link><pubDate>Mon, 27 Nov 2023 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/prepare/configure-map/</guid><description>「Web マップの作成」で作成したマップに対して、各タブで詳細な設定を行います。
+概要 作成した Web マップの概要が表示されます。 フォーム モバイル アプリ利用者が調査項目の確認、入力、更新を行う画面を設定します。 詳細は「フォームの構成」をご参照ください。 ジオフェンス ジオフェンスを設定します。設定することで以下の機能が利用可能です。 位置情報アラート: エリア内の出入りを検知して、メッセージを送信します。 位置情報の共有: エリア内の出入りを検知して、位置情報の共有を有効化または無効化します。 詳細はヘルプをご参照ください。 オフライン モバイル アプリ利用者がオフライン環境で使用できる機能を設定します。 詳細は「オフライン利用」をご参照ください。 アプリの設定 より細かなアプリの設定をします。具体的には、取得する GPS などの位置情報の精度やアップロードする添付ファイルのサイズ制限などを行うことができます。 詳細はヘルプをご参照ください。 共有 作成した Web マップの共有設定をします。共有レベルの設定や共有オプションとして QR コードなどを使用できます。 詳細はヘルプをご参照ください。</description></item></channel></rss>
