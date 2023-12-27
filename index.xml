@@ -139,18 +139,13 @@ CityEngine インストール プログラムである Setup.exe を起動しま
 アンインストール ArcGIS CityEngine をアンインストールする手順を説明します。
 単独使用 (SU) ライセンスの場合は、必ずアンインストール前にライセンスの認証解除を行ってください。
 [コントロール パネル] を使用する方法 Windows の [コントロール パネル] → [プログラムと機能] をクリックします。 ArcGIS CityEngine をクリックして [アンインストールと変更] から [削除] オプションを選択します。 [設定] を使用する方法 [スタート] → [設定] → [アプリ] から [アプリと機能] へ移動します。 ArcGIS CityEngine をクリックし、[アンインストール] から [削除] オプションを選択します。</description></item><item><title>カスタム テンプレート</title><link>/drone2map/quick-start/custom/custom_createproject/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/custom/custom_createproject/</guid><description>カスタム テンプレートを利用したプロジェクトの作成 カスタム テンプレートは以下の2つの方法から選択できます。
-テンプレートリストから選択 テンプレートのインポート
-テンプレートリストから選択 カスタム テンプレートの設定でリストに追加したテンプレートを使用してプロジェクトを作成します。
-Drone2Map を開き、プロジェクト名を入力、画像を追加します。
-テンプレートのドロップダウン リストを開きます。
-カスタム テンプレートが選択できたら [作成] をクリックします。 これで、事前設定したテンプレートを使用したプロジェクトを作成できました。
-テンプレートのインポート デフォルトのテンプレート リストに追加していない場合など、任意のカスタム テンプレートを使用してプロジェクトを作成します。
-Drone2Map を開き、プロジェクト名を入力、画像を追加します。
-テンプレートのドロップダウン リストの左隣の参照ボタンをクリックします。
-[テンプレートのインポート] ダイアログで任意のカスタム テンプレートを選択します。
+デフォルト カスタム テンプレートの利用 テンプレートのインポート
+デフォルト カスタム テンプレートの利用 カスタム テンプレートの設定を行っている場合
+Drone2Map を開くとテンプレートは既に [カスタム] が選択されていますので、プロジェクト名の入力・保存場所の設定・画像の追加を行います。 [作成] をクリックします。 事前設定したテンプレートを使用したプロジェクトが開きます。 処理の実行は、[ホーム] タブの [開始] ボタンをクリックします。
+テンプレートのインポート カスタム テンプレートの設定を行っていない場合または、任意のカスタムテンプレートを使用してプロジェクトを作成する場合
+Drone2Map を開き、テンプレート リストで [カスタム] を選択し、[テンプレートのインポート] ダイアログで任意のカスタム テンプレートを選択します。 プロジェクト名の入力・保存場所の設定・画像の追加を行います。
 [作成] をクリックしてプロジェクトを作成します。
-これで、任意のテンプレートによるプロジェクトが作成できました。
-処理の実行は、[ホーム] タブの [開始] ボタンをクリックします。</description></item><item><title>クイック アクション</title><link>/hub/get-started/quick-action/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hub/get-started/quick-action/</guid><description>ArcGIS Hub を開始するための概要を説明します。 各項目の操作についての詳細は、それぞれのドキュメント ページをご参照ください。
+これで、任意のテンプレートによるプロジェクトが作成できます。 処理の実行は、[ホーム] タブの [開始] ボタンをクリックします。</description></item><item><title>クイック アクション</title><link>/hub/get-started/quick-action/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hub/get-started/quick-action/</guid><description>ArcGIS Hub を開始するための概要を説明します。 各項目の操作についての詳細は、それぞれのドキュメント ページをご参照ください。
 ArcGIS Hub Premium の有効化 (オプション)
 サイトまたはイニシアティブの作成
 コンテンツの作成と追加
@@ -206,22 +201,18 @@ Esri アカウント (https://accounts.</description></item><item><title>チュ�
 演習 ・Part 1: プロジェクトの新規作成 ・Part 2: シーンの作成 ・Part 3: 最初の道路レイアウトの作成 ・Part 4: CityEngine のナビゲーションを探索 ・Part 5: オブジェクトの選択 ・Part 6: ルールを使用したモデルの生成 ・Part 7: ルールの編集 Part 1: プロジェクトの新規作成 はじめに、CityEngine プロジェクトを新規作成します。
 [File] メニュー → [New] → [CityEngine] → [CityEngine project] をクリックします。[Select a wizard] ダイアログ ボックスが表示されます。 [Next] をクリックします。</description></item><item><title>プロジェクトの作成</title><link>/drone2map/quick-start/2d_mapping/2dmapping_createproject/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_mapping/2dmapping_createproject/</guid><description>プロジェクトの作成 Windows の [スタート] ボタン → [ArcGIS] → [Drone2Map] をクリックします。
 ArcGIS Online の組織向けアカウントまたは Portal for ArcGIS アカウントでサイン インします。
-任意のプロジェクト名を入力します。
-プロジェクトを保存する場所を設定します。
-[フォルダーの追加] をクリックし、解凍した 「Sample Banana Plant」 フォルダー内の 「Images」 フォルダーを指定します。ここで選択した画像には、撮影した際の GPS の情報が含まれていないため、[GPS ファイルが必要です] ウィンドウが表示されます。[参照] から Files フォルダー内の Geolocation.csv を指定後 [OK] をクリックします。
-[プロジェクト テンプレートの選択] において [2D プロダクト] を選択します。
-[作成] をクリックします。</description></item><item><title>プロジェクトの作成</title><link>/drone2map/quick-start/2d_rapid/2drapid_createproj/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_rapid/2drapid_createproj/</guid><description>プロジェクトの作成 Windows の [スタート] ボタン → [ArcGIS] → [Drone2Map] をクリックします。
+任意のプロジェクト名を入力し、プロジェクトを保存する場所を設定します。
+[フォルダーの追加] をクリックし、解凍した 「Sample Banana Plant」 フォルダー内の 「Images」 フォルダーを指定します。入力画像には、撮影した際の GPS の情報が含まれていないため、[GPS ファイルが必要です] ウィンドウが表示されます。[参照] から Files フォルダー内の Geolocation.csv を指定後 [OK] をクリックします。
+[2D プロダクト] テンプレートを選択し、[作成] をクリックしてプロジェクトを作成します。</description></item><item><title>プロジェクトの作成</title><link>/drone2map/quick-start/2d_rapid/2drapid_createproj/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_rapid/2drapid_createproj/</guid><description>プロジェクトの作成 Windows の [スタート] ボタン → [ArcGIS] → [Drone2Map] をクリックします。
 ArcGIS Online の組織向けアカウントまたは Portal for ArcGIS アカウントでサイン インします。
 任意のプロジェクト名を入力し、プロジェクトを保存する場所を設定します。
 [フォルダーの追加] をクリックし、解凍した 「Sample Asphalt」フォルダー内の 「Images」 フォルダーを指定します。
-[高速テンプレート] を選択し、[作成] をクリックしてプロジェクトを作成します。
-[フライト データ] タブ の [画像テーブル] をクリックし、画像の情報を確認します。 確認ができたら [画像の中心] テーブル ビューを閉じます。</description></item><item><title>プロジェクトの作成</title><link>/drone2map/quick-start/3d_mapping/3dmapping_createproject/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/3d_mapping/3dmapping_createproject/</guid><description>プロジェクトの作成 Windows の [スタート] ボタン → [ArcGIS] → [Drone2Map] をクリックします。
+[高速] テンプレートを選択し、[作成] をクリックしてプロジェクトを作成します。
+プロジェクト画面が開いたら、[フライト データ] タブの [画像テーブル] をクリックして入力した画像情報を確認することができます。</description></item><item><title>プロジェクトの作成</title><link>/drone2map/quick-start/3d_mapping/3dmapping_createproject/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/3d_mapping/3dmapping_createproject/</guid><description>プロジェクトの作成 Windows の [スタート] ボタン → [ArcGIS] → [Drone2Map] をクリックします。
 ArcGIS Online の組織向けアカウントまたは Portal for ArcGIS アカウントでサイン インします。
-任意のプロジェクト名を入力します。
-プロジェクトを保存する場所を設定します。
+任意のプロジェクト名を入力し、プロジェクトを保存する場所を設定します。
 [フォルダーの追加] をクリックし、解凍した「Small_Buildings」フォルダー内の 「Images」フォルダーを指定します。
-[プロジェクト テンプレートの選択] において [3D プロダクト] を選択します。
-[作成] をクリックします。</description></item><item><title>ライセンス</title><link>/drone2map/get-started/license/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/get-started/license/</guid><description>指定ユーザー ライセンス Drone2Map は、指定ユーザー ライセンスと呼ばれるライセンスを使用します。指定ユーザーライセンスは、ArcGIS Online または Portal for ArcGIS を使用して構成され、組織の管理者が個々のユーザーに Drone2Map ライセンスを割り当てることで、ユーザーは Drone2Map にサイン インしてライセンスを利用します。
+[3D プロダクト] テンプレートを選択し、[作成] をクリックしてプロジェクトを作成します。</description></item><item><title>ライセンス</title><link>/drone2map/get-started/license/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/get-started/license/</guid><description>指定ユーザー ライセンス Drone2Map は、指定ユーザー ライセンスと呼ばれるライセンスを使用します。指定ユーザーライセンスは、ArcGIS Online または Portal for ArcGIS を使用して構成され、組織の管理者が個々のユーザーに Drone2Map ライセンスを割り当てることで、ユーザーは Drone2Map にサイン インしてライセンスを利用します。
 Drone2Map ライセンス ArcGIS Drone2Map 2022.1 以降、Drone2Map ライセンスには 2 つの新しいライセンス レベルが導入されました。購入したライセンス レベルに応じて ArcGIS Drone2Map Standard または ArcGIS Drone2Map Advanced をユーザーに割り当てます。
 バージョン 2.3.3 を使用されていた場合、既に追加されている『ArcGIS Drone2Map』ライセンスでは、バージョン 2022.1 以降の ArcGIS Drone2Map はご利用いただけませんのでご注意ください。
 ライセンス タイプは、ArcGIS Online または Portal for ArcGIS 組織サイトの [ライセンス] タブで確認することができます。
@@ -423,16 +414,15 @@ My Esri で ArcGIS CityEngine 単独使用ライセンスの認証番号を取�
 レポートの作成手順 [組織] → [ステータス] → [レポート] タブ → [レポートの作成] をクリックします。 [レポートの作成] をクリックし、出力したいレポートの種類を選択します。
 アクティビティ：組織サイトで行われた操作に関する簡易なログを出力します。 クレジット：クレジットを消費する処理の詳細情報をユーザーごとに集計し出力します。 アイテム：その時点での組織サイト上のアイテム一覧を出力します。 メンバー：その時点での組織サイト上のメンバー一覧を出力します。 アイテム閲覧数：指定した期間の各アイテムの閲覧数を集計し、出力します。 サービスの使用状況：API キーおよびアプリケーションの認証情報に関連付けられた使用状況を出力します。 ※ アクティビティ、クレジット、サービスの使用状況は、出力する期間を指定します。
 レポートの各種類のフィールドの詳細はヘルプをご参照ください。
-[レポートの作成] をクリックし、出力されたレポートをダウンロードします。 ダウンロードした CSV ファイルが文字化けする場合は、文字コードを「UTF-8」に指定したうえで Excel などで読み込んでください。</description></item><item><title>処理設定の確認</title><link>/drone2map/quick-start/2d_mapping/2dmapping_processingoption/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_mapping/2dmapping_processingoption/</guid><description>処理設定の確認 [ホーム] タブで [オプション] をクリックして処理設定を確認します。 2D プロダクト テンプレートのデフォルトの設定では、[画像の調整] タブの [タイポイント オプション] / [初期の画像の縮尺] が「1/8 (画像サイズの 8 分の 1)」 が選択されています。 [2D プロダクト] タブでは、[トゥルー オルソの作成] と [DSM の作成] のチェック ボックスがオンになっています。
+[レポートの作成] をクリックし、出力されたレポートをダウンロードします。 ダウンロードした CSV ファイルが文字化けする場合は、文字コードを「UTF-8」に指定したうえで Excel などで読み込んでください。</description></item><item><title>処理設定の確認</title><link>/drone2map/quick-start/2d_mapping/2dmapping_processingoption/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_mapping/2dmapping_processingoption/</guid><description>処理設定の確認 [ホーム] タブで [オプション] をクリックして処理設定を確認します。 2D プロダクト テンプレートのデフォルトの設定では、[画像の調整] タブの [タイポイント オプション] の [調整の改善] チェック ボックスがオンになっていることを確認します。[調整の改善] 設定は、タイ ポイント生成の初期調整時に、カメラ モデルを最適化しし、タイ ポイント数を増やしてプロダクトの精度を向上させることができます。 [2D プロダクト] タブでは、[トゥルー オルソの作成] と [DSM の作成] のチェック ボックスがオンになっています。
 今回はデフォルトの設定で処理を実行するので、[OK] をクリックします。
-[ホーム] タブの [開始] をクリックし、処理を実行します。</description></item><item><title>処理設定の確認</title><link>/drone2map/quick-start/2d_rapid/2drapid_processingoption/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_rapid/2drapid_processingoption/</guid><description>処理設定の確認 [ホーム] タブで [オプション] をクリックして処理設定を確認します。 高速テンプレートのデフォルトの設定では、[画像の調整] タブの [タイポイント オプション] / [初期の画像の縮尺] が「1/4 (画像サイズの 4 分の 1)」 が選択されています。 これにより処理時間が短縮されます。その他の設定は、2D テンプレートと似ていますが、2D テンプレートでは [調整の改善] チェックボックスがオンになっておりより高品質なプロダクトを生成するために画像スケールが自動的に調整されるようになっています。時間短縮のため、このオプションはオフになっています。
+[ホーム] タブの [開始] をクリックし、処理を実行します。</description></item><item><title>処理設定の確認</title><link>/drone2map/quick-start/2d_rapid/2drapid_processingoption/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_rapid/2drapid_processingoption/</guid><description>処理設定の確認 [ホーム] タブで [オプション] をクリックして処理設定を確認します。 高速テンプレートのデフォルトの設定では、[画像の調整] タブの [タイポイント オプション] / [初期の画像の縮尺] で「1/4 (画像サイズの 4 分の 1)」が選択されています。 これにより処理時間が短縮されます。その他の設定は、2D テンプレートと似ていますが、2D テンプレートでは [調整の改善] チェックボックスがオンになっており、より高品質なプロダクトを生成するために画像スケールが自動的に調整されるようになっています。時間短縮のため、このオプションはオフになっています。
 [2D プロダクト] タブをクリックすると、作成するプロダクトは、[トゥルーオルソの作成] のチェック ボックスだけがオンになっていることが確認できます。作成するプロダクトを最小限にすることで処理時間を削減することができます。
 今回はデフォルトの設定で処理を実行するので、そのまま [OK] をクリックします。
 [ホーム] タブの [開始] をクリックし、処理を実行します。
 処理を開始すると、[管理] ウィンドウ下部で現在行われている処理の色が変化します。
-また、処理内容と進行状況のバーが最下部に表示され、リアルタイムで確認することができます。</description></item><item><title>処理設定の確認</title><link>/drone2map/quick-start/3d_mapping/3dmapping_processingoption/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/3d_mapping/3dmapping_processingoption/</guid><description>処理設定の確認 [管理] ウィンドウで処理設定を確認します。 3D プロダクト テンプレートのデフォルトの設定では、[画像の調整]、[密度の一致]、 [3D プロダクト] のステップが処理されます。
-[管理] ウィンドウ上部では、「3D プロダクト」の [3D メッシュ] と [ポイント クラウド] にチェックが入っています。ウィンドウ下部の [3D プロダクト] をクリックして [オプション] ウィンドウを開き、処理の詳細を確認します。[ポイント クラウドの作成] の [SLPK] と [LAS] と、[3D テクスチャ メッシュの作成] の [SLPK] のチェック ボックスがオンになっていることを確認します。
-追加のプロダクトを作成したい場合は、[管理] ウィンドウまたは [オプション] ウィンドウで、該当のプロダクトのチェック ボックスをオンにします。
+また、処理内容と進行状況のバーが最下部に表示され、リアルタイムで確認することができます。</description></item><item><title>処理設定の確認</title><link>/drone2map/quick-start/3d_mapping/3dmapping_processingoption/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/3d_mapping/3dmapping_processingoption/</guid><description>処理設定の確認 [ホーム] タブで [オプション] をクリックして処理設定を確認します。 [3D プロダクト] タブをクリックして [ポイント クラウドの作成] の [SLPK] と [LAS] と、[3D テクスチャ メッシュの作成] の [SLPK] のチェック ボックスがオンになっていることを確認します。
+作成するプロダクトを追加したい場合は、[管理] ウィンドウまたは [オプション] ウィンドウで、該当のプロダクトのチェック ボックスをオンにします。
 今回はデフォルトの設定で処理を実行するので、[OK] をクリックします。
 [ホーム] タブの [開始] をクリックし、処理を実行します。</description></item><item><title>動作環境</title><link>/drone2map/get-started/environment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/get-started/environment/</guid><description>インストールを行う前に、動作環境をご確認いただき、要件を満たす環境をご用意ください。最新のシステム要件や推奨されるハードウェア要件につきましてはヘルプをご参照ください。
 ArcGIS Drone2Map 動作環境</description></item><item><title>組織の設定</title><link>/online/get-started/setup/admin/settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/setup/admin/settings/</guid><description>組織の管理者は、ArcGIS Online の Web サイトを構成することで、組織にとって重要な設定を構成できます。
@@ -580,14 +570,14 @@ BA Pro 3.0 以降では、Business Analyst データセットをインストー�
 [メンバーの削除] をクリックします。
 グループとコンテンツの移動と同時に、Esri アクセスの無効化や割り当てられているライセンスの取り消しが行われ、ユーザーが削除されます。</description></item><item><title>処理結果の確認</title><link>/drone2map/quick-start/2d_mapping/2dmapping_result/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_mapping/2dmapping_result/</guid><description>結果の確認 処理が完了すると、[コンテンツ] ウィンドウの「画像プロダクト」グループに「トゥルー オルソ」レイヤーが、「DEM プロダクト」グループに「数値表層モデル」レイヤーが追加されます。
 また、[2Dマップ] ビューには高解像度のトゥルー オルソが表示されます。
-レイヤーの表示・非表示、マップ上で画面移動やズームを行い、トゥルー オルソを確認します。</description></item><item><title>処理結果の確認</title><link>/drone2map/quick-start/2d_rapid/2drapid_result/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_rapid/2drapid_result/</guid><description>処理結果の確認 処理が完了すると、[コンテンツ] ウィンドウの「画像プロダクト」グループに「トゥルーオルソ」レイヤーが追加されます。
+レイヤーの表示・非表示、マップ上で画面移動やズームを行い、トゥルー オルソまたは数値表層モデルを確認します。</description></item><item><title>処理結果の確認</title><link>/drone2map/quick-start/2d_rapid/2drapid_result/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_rapid/2drapid_result/</guid><description>処理結果の確認 処理が完了すると、[コンテンツ] ウィンドウの「画像プロダクト」グループに「トゥルーオルソ」レイヤーが追加されます。
 レイヤーの表示・非表示、マップ上で画面移動やズームを行い、トゥルーオルソを確認します。
 [高速] テンプレートは処理時間を低減するため、低解像度のプロダクトを生成します。
-高解像度のプロダクトを生成したい場合は、[オプション] ウィンドウにおいて手動で解像度パラメーターを変更するか、[2D プロダクト] テンプレートで処理を実行してください。</description></item><item><title>処理結果の確認</title><link>/drone2map/quick-start/3d_mapping/3dmapping_result/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/3d_mapping/3dmapping_result/</guid><description>結果の確認 処理が完了すると [コンテンツ] ウィンドウ → [3D プロダクト] グループに「ポイント クラウド」 レイヤーと「3D メッシュ」レイヤーが、[標高サーフェス] に作成した「DEM」レイヤーが追加され、[3D マップ] には、ポイント クラウドと 3D メッシュが表示されます。
-[コンテンツ] ウィンドウで「ポイント クラウド」レイヤーのチェック ボックスをオフにすると、3D メッシュのみを表示することができます。
+高解像度のプロダクトを生成したい場合は、[オプション] ウィンドウにおいて手動で解像度パラメーターを変更するか、[2D プロダクト] テンプレートで処理を実行してください。</description></item><item><title>処理結果の確認</title><link>/drone2map/quick-start/3d_mapping/3dmapping_result/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/3d_mapping/3dmapping_result/</guid><description>結果の確認 処理が完了すると [コンテンツ] ウィンドウに 3D メッシュとポイント クラウドが追加されます。マップが 3D 表示でない場合は、[3D マップ] タブをクリックして、表示を 3D マップに変更します。
+[コンテンツ] ウィンドウの [3D プロダクト] グループで「ポイント クラウド」レイヤーのチェック ボックスをオンにするとポイント クラウドが表示されます。
 レイヤーの表示・非表示、画面移動やズームを行い、結果を確認します。
 [3D マップ] のマウス操作は、マウスの左ドラッグで画面移動、中央のホイールの回転で拡大 / 縮小、シフトキー + 右ドラッグで回転や傾斜の動作ができます。
-良い結果を得るには、地上基準点(GCP) を使用し、3D プロダクトを生成します。GCP を使用しない場合、誤った標高値によって正しく結果が表示されない場合があります。</description></item><item><title>高度な CGA</title><link>/cityengine/get-started/quickstart-tutorials/advanced-cga/</link><pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate><guid>/cityengine/get-started/quickstart-tutorials/advanced-cga/</guid><description>概要 CGA の作成で作成したモデルの区画や建物の形状を整え、日本の戸建て住宅のような感じにするために、区画と CGA ルールを改良します。
+良い結果を得るには、地上基準点(GCP) を使用してプロダクトを生成します。GCP を使用しない場合、誤った標高値によって正しく結果が表示されない場合があります。</description></item><item><title>高度な CGA</title><link>/cityengine/get-started/quickstart-tutorials/advanced-cga/</link><pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate><guid>/cityengine/get-started/quickstart-tutorials/advanced-cga/</guid><description>概要 CGA の作成で作成したモデルの区画や建物の形状を整え、日本の戸建て住宅のような感じにするために、区画と CGA ルールを改良します。
 演習 ・区画の調整 ・フットプリントの生成 ・分岐の使用 ・今回作成した CGA CGA の作成 での CGA ルールは以下のような記述になっています (以下のコードをコピー &amp;amp; ペーストして利用することもできます。)
 「#」 以下はコメント文ですので実際には書く必要はありません。
 attr Height = rand(5,20) #5~20m の間でランダムに高さを設定 @Color attr roofcolor = listRandom(&amp;quot;#ff7f50;#9acd32;#ff4500&amp;quot;) @Color attr wallcolor = listRandom(&amp;quot;#ffff00;#00ffff;#dda0dd&amp;quot;) Footprint--&amp;gt; extrude(Height) #[Height] 属性に基づいて立ち上げ House House--&amp;gt; comp(f){top: Roof | side: Wall} #シェープをトップ (屋根) とサイド (壁) に分割 Roof--&amp;gt; roofGable(20,1,1) #Gable (切妻型) の屋根を設定 color(roofcolor) Wall--&amp;gt; color(wallcolor) 区画の調整 CityWizard のデフォルト設定で作成された区画は、日本の戸建て住宅としては大きすぎるので、各区画の面積が 100 ～ 150 平方メートルになるように設定します。</description></item><item><title>Web マップの構成</title><link>/fieldmaps/get-started/prepare/configure-map/</link><pubDate>Mon, 27 Nov 2023 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/prepare/configure-map/</guid><description>「Web マップの作成」で作成したマップに対して、各タブで詳細な設定を行います。
