@@ -758,7 +758,12 @@ ArcGIS Pro の作業内容は「プロジェクト」に保存されます。プ
 Business Analyst データ ソースの設定 Business Analyst の機能を利用するためには、Business Analyst データ ソースを設定する必要があります。
 本チュートリアルでは、オフライン データセットをデータ ソースとして設定します。
 データセットは任意に変更することができ、オンラインとオフラインの 2 種類から選択可能です。各データの仕様については、こちらをご覧ください。
-[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタンをクリックし、[Business Analyst データ ソース] が JPN_EsriJapan_2024 に設定されているか確認します。設定されていない場合は、[データ ソースの変更] をクリックします。</description></item><item><title>特定の場所を検索したい</title><link>/online/users-guide/map/search/</link><pubDate>Fri, 20 Oct 2023 00:00:00 +0900</pubDate><guid>/online/users-guide/map/search/</guid><description>住所や地名を検索したり、レイヤーの属性情報を基に特定の場所を検索したりして、マップの表示範囲をその場所に移動します。
+[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタンをクリックし、[Business Analyst データ ソース] が JPN_EsriJapan_2024 に設定されているか確認します。設定されていない場合は、[データ ソースの変更] をクリックします。</description></item><item><title>チュートリアル 7 : ファサード モデリング</title><link>/cityengine/tutorials/classic/tutorial-7-facade-modeling/</link><pubDate>Tue, 09 Jan 2024 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-7-facade-modeling/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+概要 このチュートリアルでは、ファサード構造の作成、アセットの挿入、建物へのテクスチャの追加など、写真から建物をモデリングする方法を学習します。また、複雑な CGA のテクニックについても学習します。
+演習 ・Part 1 :ファサードの構造をモデリング ・Part 2 :ファサード アセットの挿入 ・Part 3 :ファサードのテクスチャを作成 Part 1 :ファサードの構造をモデリング ファサード モデリング 以下のワークフローでは、実際の写真からファサードを再作成するための CGA ルール セットを記述する方法を示します
+このセッションでは、CGA ルールでファサードの基本構造を作成します。ルール セットの拡張を進めながら、写真をより詳細に分析し、CGA ルールでプリモデルされたアセットをどのように使用できるかを学習します。
+ルール ファイルの作成 ルール ファイルを作成するために、以下の手順を行います。
+[Navigator] ウィンドウ で Tutorial_07_Facade_Modeling フォルダーを展開します。 scenes フォルダー の FacadeModeling_01.</description></item><item><title>特定の場所を検索したい</title><link>/online/users-guide/map/search/</link><pubDate>Fri, 20 Oct 2023 00:00:00 +0900</pubDate><guid>/online/users-guide/map/search/</guid><description>住所や地名を検索したり、レイヤーの属性情報を基に特定の場所を検索したりして、マップの表示範囲をその場所に移動します。
 住所や地名の検索 Map Viewer を開きます。
 [検索] をクリックします。
 [住所または場所の検索] ボックスに住所や地名を入力します。
@@ -789,12 +794,7 @@ Map Viewer での検索 検索の設定をした Web マップを Map Viewer で
 カスタム変数を用いたカラーコード マップの作成 次に、カスタム変数を作成し、その変数を用いたカラーコード マップを作成します。
 [マップ] タブの [マップの作成] → [カラーコード マップ] をクリックします。 左側に [カラーコード マップ] ダイアログ ボックスが表示されたら、[カスタム変数の作成] をクリックします。 [カスタム変数の作成] ダイアログ ボックスが開いたら、[標準データ] の [年齢] カテゴリをクリックします。 [年代別人口] をクリックします。
 「2020 年代別 人口 (国勢調査)」の横の [&amp;gt;] をクリックして、展開します。
-「2020 人口 20 歳代 (国勢調査)」および「2020 人口 30 歳代 (国勢調査)」にチェックを入れます。 [選択した変数の追加] をクリックします。 [合計値として追加] をクリックします。 [保存および追加] をクリックします。 [カスタム変数の保存] ウィンドウで、「2020年20-30歳代の人口」と入力し、[保存] をクリックします。 マップ上に 20-30 歳代人口が表示されます。</description></item><item><title>チュートリアル 7 : ファサード モデリング</title><link>/cityengine/tutorials/classic/tutorial-7-facade-modeling/</link><pubDate>Fri, 14 Jan 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-7-facade-modeling/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
-概要 このチュートリアルでは、写真から建物をモデリングする方法を解説し、いくつかの複雑な CGA のテクニックを紹介します。最初のパートでは、CGA ルールでどのようにファサード（建物の前面）の基本構造を作成するかを学習します。
-演習 ・Part 1 :ファサードの構造をモデリングする ・Part 2 :アセットの挿入 ・Part 3 :ファサードへのテクスチャ貼り付け Part 1 :ファサードの構造をモデリングする チュートリアルのセットアップ プロジェクト Tutorial_07_Facade_Modeling を自分の CityEngine ワークスペースにインポートします。
-シーン Tutorial_07_Facade_Modeling/scenes/FacadeModeling_01.cej を開きます。
-ファサード モデリング このチュートリアルでは、実際に撮影した写真からどのようにファサードを再現する一連の CGA を記述するかを説明します。これからモデリングするファサードは以下に示すものです。ルールセットの作成が進むにつれて、より詳細に写真を解析していくことになります。
-どのように実際のファサードを解析し、その構造を CGA グラマールールに翻訳していくか、そしてどのように既存のモデルアセットを CGA ルールに使用するかを学習します。</description></item><item><title>商圏分析ツール</title><link>/business-analyst/pro/tips/functionality/esrijtool/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tips/functionality/esrijtool/</guid><description>ESRIジャパンが作成した ArcMap 版の「商圏分析ツール」の各種機能に対応する BA Pro の機能を説明します。
+「2020 人口 20 歳代 (国勢調査)」および「2020 人口 30 歳代 (国勢調査)」にチェックを入れます。 [選択した変数の追加] をクリックします。 [合計値として追加] をクリックします。 [保存および追加] をクリックします。 [カスタム変数の保存] ウィンドウで、「2020年20-30歳代の人口」と入力し、[保存] をクリックします。 マップ上に 20-30 歳代人口が表示されます。</description></item><item><title>商圏分析ツール</title><link>/business-analyst/pro/tips/functionality/esrijtool/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tips/functionality/esrijtool/</guid><description>ESRIジャパンが作成した ArcMap 版の「商圏分析ツール」の各種機能に対応する BA Pro の機能を説明します。
 商圏分析ツール 機能名 (ArcMap 版) 機能名 (BA Pro) 関連チュートリアル 備考 簡易属性検索 属性検索 - フィルタリング 定義クエリによるフィーチャのフィルター - テーブル結合 テーブルの結合 - ポイント集計 エリア内での集計 - 面積按分集計 ポリゴンの按分 - 重複レイヤーの抽出 空間検索 - テーブルのエクスポート テーブル → テーブル - フィールドの削除 フィールドの削除 - 重複ポイントの分散 - - クロスランキング 2 変量色 ・市場シェアの把握 商圏レポート ・インフォグラフィックス・サマリー レポート ・既存店舗を対象とした分析 table { width: 100%; margin-right: 5px; margin-left: 15px; } table th:first-of-type { width: 20%; } table th:nth-of-type(2) { width:20%; } table th:nth-of-type(3) { width: 25%; } table th:nth-of-type(4) { width: 35%; }</description></item><item><title>顧客・店舗情報の取り込み</title><link>/business-analyst/pro/tutorial/geocoding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/geocoding/</guid><description>2022 年版以前の Business Analyst 用オフライン データに付属する従来形式のロケーターは、ArcGIS Pro 3.0 以降では動作しないのでご注意ください (詳細はこちら)。
 本演習にかかる時間はおよそ 15-30 分です。
 目的 住所情報を含むテーブル データと [住所のジオコーディング] ツールを用いて、自社の店舗や顧客をポイント データ化する方法を習得します。

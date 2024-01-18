@@ -1,4 +1,4 @@
-<!doctype html><html><head><script async src="https://www.googletagmanager.com/gtag/js?id=UA-219516431-1"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-219516431-1')</script><title>チュートリアル 7 : ファサード モデリング | ArcGIS リソース集</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name=revised content="2024-01-16T10:27:33 UTC"><link rel="shortcut icon" href=../../../../images/favicon.png type=image/x-icon><link href=../../../../css/nucleus.css rel=stylesheet><link href=../../../../css/font-awesome.min.css rel=stylesheet><link href=../../../../css/hybrid.css rel=stylesheet><link href=../../../../css/featherlight.min.css rel=stylesheet><link href=../../../../css/auto-complete.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.css rel=stylesheet><link href=../../../../theme-original/style.css rel=stylesheet><link rel=stylesheet href=../../../../css/bootstrap.min.css><script src=../../../../js/jquery-2.x.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js></script><style type=text/css>:root #header+#content>#left>#rlblock_left{display:none!important}</style><meta name=description content="写真から建物をモデリングする方法を解説し、いくつかの複雑なCGA のテクニックを学習します。"></head><body data-url=../../../../cityengine/tutorials/classic/tutorial-7-facade-modeling/><div id=headermain></div><nav id=sidebar><div class=highlightable><div id=header-wrapper><div id=header><a class=baselink href>ArcGIS リソース集</a></div><div class=searchbox><label for=search-by><i class="fa fa-search"></i></label>
+<!doctype html><html><head><script async src="https://www.googletagmanager.com/gtag/js?id=UA-219516431-1"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-219516431-1')</script><title>チュートリアル 7 : ファサード モデリング | ArcGIS リソース集</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name=revised content="2024-01-18T05:16:31 UTC"><link rel="shortcut icon" href=../../../../images/favicon.png type=image/x-icon><link href=../../../../css/nucleus.css rel=stylesheet><link href=../../../../css/font-awesome.min.css rel=stylesheet><link href=../../../../css/hybrid.css rel=stylesheet><link href=../../../../css/featherlight.min.css rel=stylesheet><link href=../../../../css/auto-complete.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.css rel=stylesheet><link href=../../../../theme-original/style.css rel=stylesheet><link rel=stylesheet href=../../../../css/bootstrap.min.css><script src=../../../../js/jquery-2.x.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js></script><style type=text/css>:root #header+#content>#left>#rlblock_left{display:none!important}</style><meta name=description content="写真から建物をモデリングする方法を解説し、いくつかの複雑なCGA のテクニックを学習します。"></head><body data-url=../../../../cityengine/tutorials/classic/tutorial-7-facade-modeling/><div id=headermain></div><nav id=sidebar><div class=highlightable><div id=header-wrapper><div id=header><a class=baselink href>ArcGIS リソース集</a></div><div class=searchbox><label for=search-by><i class="fa fa-search"></i></label>
 <input data-search-input id=search-by type=text placeholder=検索...>
 <span data-search-clear><i class="fa fa-close"></i></span></div><script type=text/javascript src=../../../../js/lunr.min.js></script><script type=text/javascript src=../../../../js/auto-complete.js></script><script type=text/javascript>var baseurl=""</script><script type=text/javascript src=../../../../js/search.js></script></div><ul class=topics><li data-nav-id=/ class=dd-item><a href=../../../../><i class="fa fa-fw fa-home"></i></a></li><li data-nav-id=/cityengine/ class="dd-item parent haschildren"><div><a href=../../../../cityengine/>ArcGIS CityEngine</a>
 <i class="fa fa-angle-down fa-lg category-icon"></i></div><ul><li data-nav-id=/cityengine/get-started/ class="dd-item haschildren"><div><a href=../../../../cityengine/get-started/>スタートアップ ガイド</a><i class="fa fa-angle-right fa-lg category-icon"></i></div><ul><li data-nav-id=/cityengine/get-started/setup/ class="dd-item haschildren"><div><a href=../../../../cityengine/get-started/setup/>セットアップ</a><i class="fa fa-angle-right fa-lg category-icon"></i></div><ul><li data-nav-id=/cityengine/get-started/setup/environment/ class=dd-item><div><a href=../../../../cityengine/get-started/setup/environment/>システム要件</a></div></li><li data-nav-id=/cityengine/get-started/setup/download/ class=dd-item><div><a href=../../../../cityengine/get-started/setup/download/>ダウンロード</a></div></li><li data-nav-id=/cityengine/get-started/setup/install/ class="dd-item haschildren"><div><a href=../../../../cityengine/get-started/setup/install/>インストールと認証</a><i class="fa fa-angle-right fa-lg category-icon"></i></div><ul><li data-nav-id=/cityengine/get-started/setup/install/installation/ class=dd-item><div><a href=../../../../cityengine/get-started/setup/install/installation/>インストールとアンインストール</a></div></li><li data-nav-id=/cityengine/get-started/setup/install/authorization/ class=dd-item><div><a href=../../../../cityengine/get-started/setup/install/authorization/>ソフトウェアの認証</a></div></li></ul></li><li data-nav-id=/cityengine/get-started/setup/license-manager/ class=dd-item><div><a href=../../../../cityengine/get-started/setup/license-manager/>ライセンス マネージャー</a></div></li></ul></li><li data-nav-id=/cityengine/get-started/quickstart-tutorials/ class="dd-item haschildren"><div><a href=../../../../cityengine/get-started/quickstart-tutorials/>クイック スタート チュートリアル</a><i class="fa fa-angle-right fa-lg category-icon"></i></div><ul><li data-nav-id=/cityengine/get-started/quickstart-tutorials/basic-operation/ class=dd-item><div><a href=../../../../cityengine/get-started/quickstart-tutorials/basic-operation/>基本操作</a></div></li><li data-nav-id=/cityengine/get-started/quickstart-tutorials/create-project/ class=dd-item><div><a href=../../../../cityengine/get-started/quickstart-tutorials/create-project/>プロジェクトの作成</a></div></li><li data-nav-id=/cityengine/get-started/quickstart-tutorials/create-cga/ class=dd-item><div><a href=../../../../cityengine/get-started/quickstart-tutorials/create-cga/>CGA の作成</a></div></li><li data-nav-id=/cityengine/get-started/quickstart-tutorials/advanced-cga/ class=dd-item><div><a href=../../../../cityengine/get-started/quickstart-tutorials/advanced-cga/>高度な CGA</a></div></li><li data-nav-id=/cityengine/get-started/quickstart-tutorials/apply-texture/ class=dd-item><div><a href=../../../../cityengine/get-started/quickstart-tutorials/apply-texture/>テクスチャの適用</a></div></li><li data-nav-id=/cityengine/get-started/quickstart-tutorials/utilize-sample/ class=dd-item><div><a href=../../../../cityengine/get-started/quickstart-tutorials/utilize-sample/>サンプルの活用</a></div></li></ul></li></ul></li><li data-nav-id=/cityengine/tutorials/ class="dd-item parent haschildren"><div><a href=../../../../cityengine/tutorials/>チュートリアル</a>
@@ -8,76 +8,51 @@
 <i class="fa fa-angle-down fa-lg category-icon"></i></div><ul><li data-nav-id=/drone2map/get-started/license/ class=dd-item><div><a href=../../../../drone2map/get-started/license/>ライセンス</a></div></li><li data-nav-id=/drone2map/get-started/environment/ class=dd-item><div><a href=../../../../drone2map/get-started/environment/>動作環境</a></div></li><li data-nav-id=/drone2map/get-started/download/ class=dd-item><div><a href=../../../../drone2map/get-started/download/>ダウンロード</a></div></li><li data-nav-id=/drone2map/get-started/installuninstall/ class=dd-item><div><a href=../../../../drone2map/get-started/installuninstall/>インストールとアンインストール</a></div></li><li data-nav-id=/drone2map/get-started/signinsignout/ class=dd-item><div><a href=../../../../drone2map/get-started/signinsignout/>サイン インとサイン アウト</a></div></li></ul></li><li data-nav-id=/drone2map/quick-start/ class="dd-item alwaysopen haschildren"><div><a href=../../../../drone2map/quick-start/>クイックスタート ガイド</a>
 <i class="fa fa-angle-down fa-lg category-icon"></i></div><ul><li data-nav-id=/drone2map/quick-start/2d_rapid/ class="dd-item haschildren"><div><a href=../../../../drone2map/quick-start/2d_rapid/>高速</a><i class="fa fa-angle-right fa-lg category-icon"></i></div><ul><li data-nav-id=/drone2map/quick-start/2d_rapid/2drapid_createproj/ class=dd-item><div><a href=../../../../drone2map/quick-start/2d_rapid/2drapid_createproj/>プロジェクトの作成</a></div></li><li data-nav-id=/drone2map/quick-start/2d_rapid/2drapid_processingoption/ class=dd-item><div><a href=../../../../drone2map/quick-start/2d_rapid/2drapid_processingoption/>処理設定の確認</a></div></li><li data-nav-id=/drone2map/quick-start/2d_rapid/2drapid_result/ class=dd-item><div><a href=../../../../drone2map/quick-start/2d_rapid/2drapid_result/>処理結果の確認</a></div></li></ul></li><li data-nav-id=/drone2map/quick-start/2d_mapping/ class="dd-item haschildren"><div><a href=../../../../drone2map/quick-start/2d_mapping/>2D プロダクト</a><i class="fa fa-angle-right fa-lg category-icon"></i></div><ul><li data-nav-id=/drone2map/quick-start/2d_mapping/2dmapping_createproject/ class=dd-item><div><a href=../../../../drone2map/quick-start/2d_mapping/2dmapping_createproject/>プロジェクトの作成</a></div></li><li data-nav-id=/drone2map/quick-start/2d_mapping/2dmapping_processingoption/ class=dd-item><div><a href=../../../../drone2map/quick-start/2d_mapping/2dmapping_processingoption/>処理設定の確認</a></div></li><li data-nav-id=/drone2map/quick-start/2d_mapping/2dmapping_result/ class=dd-item><div><a href=../../../../drone2map/quick-start/2d_mapping/2dmapping_result/>処理結果の確認</a></div></li></ul></li><li data-nav-id=/drone2map/quick-start/3d_mapping/ class="dd-item haschildren"><div><a href=../../../../drone2map/quick-start/3d_mapping/>3D プロダクト</a><i class="fa fa-angle-right fa-lg category-icon"></i></div><ul><li data-nav-id=/drone2map/quick-start/3d_mapping/3dmapping_createproject/ class=dd-item><div><a href=../../../../drone2map/quick-start/3d_mapping/3dmapping_createproject/>プロジェクトの作成</a></div></li><li data-nav-id=/drone2map/quick-start/3d_mapping/3dmapping_processingoption/ class=dd-item><div><a href=../../../../drone2map/quick-start/3d_mapping/3dmapping_processingoption/>処理設定の確認</a></div></li><li data-nav-id=/drone2map/quick-start/3d_mapping/3dmapping_result/ class=dd-item><div><a href=../../../../drone2map/quick-start/3d_mapping/3dmapping_result/>処理結果の確認</a></div></li></ul></li><li data-nav-id=/drone2map/quick-start/custom/ class="dd-item haschildren"><div><a href=../../../../drone2map/quick-start/custom/>カスタム テンプレート</a><i class="fa fa-angle-right fa-lg category-icon"></i></div><ul><li data-nav-id=/drone2map/quick-start/custom/custom_createproject/ class=dd-item><div><a href=../../../../drone2map/quick-start/custom/custom_createproject/>カスタム テンプレート</a></div></li></ul></li></ul></li></ul></li><section id=shortcuts><li role><a href=https://www.esrij.com/ target=_blank rel=noopener><label>ESRIジャパン株式会社</label></a></li></section><hr><li></li></ul><section id=footer><center><br>© Esri Japan. All rights reserved.<br></center></section></div></nav><section id=body><div id=overlay></div><div class="padding highlightable"><div id=top-bar><div id=breadcrumbs itemscope itemtype=http://data-vocabulary.org/Breadcrumb><span id=sidebar-toggle-span><a href=# id=sidebar-toggle data-sidebar-toggle><i class="fa fa-bars"></i></a></span>
 <span id=toc-menu><i class="fa fa-list-alt"></i></span>
-<span class=links><a href=../../../../>ArcGIS リソース集</a> > <a href=../../../../cityengine/>ArcGIS CityEngine</a> > <a href=../../../../cityengine/tutorials/>チュートリアル</a> > <a href=../../../../cityengine/tutorials/classic/>クラシック</a> > チュートリアル 7 : ファサード モデリング</span></div><div class=progress><div class=wrapper><nav id=TableOfContents><ul><li><a href=#チュートリアル-データ>チュートリアル データ</a></li><li><a href=#概要>概要</a></li><li><a href=#part-1-ファサードの構造をモデリングする>Part 1 :ファサードの構造をモデリングする</a><ul><li><a href=#チュートリアルのセットアップ>チュートリアルのセットアップ</a></li><li><a href=#ファサード-モデリング>ファサード モデリング</a></li><li><a href=#ルール-ファイルの作成>ルール ファイルの作成</a></li><li><a href=#ボリュームとファサード>ボリュームとファサード</a></li><li><a href=#フロア>フロア</a></li><li><a href=#フロア-レッジ水平方向の張り出し>フロア レッジ（水平方向の張り出し）</a></li><li><a href=#サブフロア>サブフロア</a></li></ul></li><li><a href=#heading></a><ul><li><a href=#タイル>タイル</a></li></ul></li><li><a href=#part-2-アセットの挿入>Part 2 :アセットの挿入</a><ul><li><a href=#アセット>アセット</a></li><li><a href=#窓>窓</a></li><li><a href=#窓の装飾>窓の装飾</a></li><li><a href=#ドア>ドア</a></li><li><a href=#レッジ>レッジ</a></li><li><a href=#バルコニー>バルコニー</a></li><li><a href=#ジオメトリ-アセットによるファサードの完成形>ジオメトリ アセットによるファサードの完成形</a></li></ul></li><li><a href=#part-3-ファサードへのテクスチャ貼り付け>Part 3 :ファサードへのテクスチャ貼り付け</a><ul><li><a href=#テクスチャ-アセット>テクスチャ アセット</a></li><li><a href=#グローバル-uv-座標の設定>グローバル UV 座標の設定</a></li><li><a href=#壁へのテクスチャリング>壁へのテクスチャリング</a></li><li><a href=#窓アセットへのテクスチャリング>窓アセットへのテクスチャリング</a></li><li><a href=#ドアシェープへのテクスチャリング>ドアシェープへのテクスチャリング</a></li></ul></li></ul></nav></div></div></div><div id=body-inner><h1>チュートリアル 7 : ファサード モデリング</h1><h2 id=チュートリアル-データ class=TOC-Heading>チュートリアル データ</h2><p>チュートリアル データは、<strong>[Help] メニュー → [Download Tutorials and Examples…]</strong> を選択し、[CityEngine Tutorial] からダウンロードできます。</p><h2 id=概要>概要</h2><p>このチュートリアルでは、写真から建物をモデリングする方法を解説し、いくつかの複雑な
-CGA のテクニックを紹介します。最初のパートでは、CGA
-ルールでどのようにファサード（建物の前面）の基本構造を作成するかを学習します。</p><table><thead><tr><th style=text-align:left>演習</th></tr></thead><tbody><tr><td style=text-align:left>・<a href=#part-1-%E3%83%95%E3%82%A1%E3%82%B5%E3%83%BC%E3%83%89%E3%81%AE%E6%A7%8B%E9%80%A0%E3%82%92%E3%83%A2%E3%83%87%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%99%E3%82%8B>Part 1 :ファサードの構造をモデリングする</a></td></tr><tr><td style=text-align:left>・<a href=#part-2-%E3%82%A2%E3%82%BB%E3%83%83%E3%83%88%E3%81%AE%E6%8C%BF%E5%85%A5>Part 2 :アセットの挿入</a></td></tr><tr><td style=text-align:left>・<a href=#part-3-%E3%83%95%E3%82%A1%E3%82%B5%E3%83%BC%E3%83%89%E3%81%B8%E3%81%AE%E3%83%86%E3%82%AF%E3%82%B9%E3%83%81%E3%83%A3%E8%B2%BC%E3%82%8A%E4%BB%98%E3%81%91>Part 3 :ファサードへのテクスチャ貼り付け</a></td></tr></tbody></table><h2 id=part-1-ファサードの構造をモデリングする>Part 1 :ファサードの構造をモデリングする</h2><h3 id=チュートリアルのセットアップ>チュートリアルのセットアップ</h3><ol><li><p>プロジェクト Tutorial_07_Facade_Modeling を自分の CityEngine
-ワークスペースにインポートします。</p></li><li><p>シーン <strong>Tutorial_07_Facade_Modeling/scenes/FacadeModeling_01.cej</strong>
-を開きます。</p></li></ol><h3 id=ファサード-モデリング>ファサード モデリング</h3><p>このチュートリアルでは、実際に撮影した写真からどのようにファサードを再現する一連の
-CGA
-を記述するかを説明します。これからモデリングするファサードは以下に示すものです。ルールセットの作成が進むにつれて、より詳細に写真を解析していくことになります。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-340655E4-26C5-428D-835B-CA12D549506B-web.png data-lightbox=" " data-title=" "><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-340655E4-26C5-428D-835B-CA12D549506B-web.png width></a><p>どのように実際のファサードを解析し、その構造を CGA
-グラマールールに翻訳していくか、そしてどのように既存のモデルアセットを
-CGA ルールに使用するかを学習します。</p><h3 id=ルール-ファイルの作成>ルール ファイルの作成</h3><ol><li><p><strong>[File] メニュー → [New] ...</strong> → <strong>[CityEngine]</strong> → <strong>[CGA Rule File]</strong>
-を選択して、新規ルール ファイルを作成します。</p></li><li><p>Container がTutorial_07_Facade_Modeling プロジェクトの rules
-フォルダーに設定されていることを確認し、ファイル名を
-<strong>myFacade_01.cga</strong> として <strong>Finish</strong> をクリックします。</p></li></ol><p>新しいCGAルール ファイルが作成され、CGA Rule Editor
-ウィンドウが起動します。いくつかのヘッダー情報 (<strong>/** .&mldr; */</strong>)
-とバージョン タグ <strong>version "2021.1"</strong> 以外は何もない状態です。</p><h3 id=ボリュームとファサード>ボリュームとファサード</h3><p>これから建物を作成します。まず押し出し操作によりマスモデルを作成します。建物の
-height 属性を使用します。</p><ol><li>ルール ファイルの最初に属性 <strong>height</strong> を追加します。</li></ol><pre><code>attr height 			= 24
-</code></pre><ol start=2><li>スタートルールを extrude
-コマンドを使用して記述し、その結果のシェープを Building とします。</li></ol><pre><code>Lot --&gt; extrude(height) Building
-</code></pre><ol start=3><li>この例では、ファサードのみが必要なので、component split
-で前面以外のすべての面を除去し、次の Frontfacade を呼び出します。</li></ol><pre><code>Building --&gt; comp(f) { front : Frontfacade}
-</code></pre><p>属性は @Group や @Range
-のようなオプションのアノテーションを持つことができ、これにより Inspector
-での属性の表示を制御します。CGA アノテーションの詳細については、[Help]
-メニュー → [CityEngine Help] の [CGA Rule Reference] を参照してください。</p><h3 id=フロア>フロア</h3><p>前面ファサードは水平方向に分割されて、それぞれ<strong>floor_height</strong>（フロアの高さ）の属性を持つフロアになります。Floor
-シェープはフロアのインデックスである split.index
-によってパラメーターで制御されます。このパラメーターは下位のルールに渡され、特定のフロアに対して何のエレメントを作成するかを決定します。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-A1419AE4-EEC2-43CF-9235-729CBDF5A82F-web.png data-lightbox=壁面の解析 data-title=壁面の解析><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-A1419AE4-EEC2-43CF-9235-729CBDF5A82F-web.png width></a><ol><li><p>最上階についてはフロア インデックスとして 999
-を割り当てます。このフロアを簡単に見分けられるようにするためです。<br></p><p>中間階に対しては split
-を繰り返すことに注意してください。これは、様々な高さの建物に動的に対応させ、残りの高さ方向のスペースを中間階で埋めるためです。</p></li><li><p>ここでもフロアのサイズについての属性をいくつか定義します。</p></li></ol><pre><code>attr groundfloor_height 	= 5.5
+<span class=links><a href=../../../../>ArcGIS リソース集</a> > <a href=../../../../cityengine/>ArcGIS CityEngine</a> > <a href=../../../../cityengine/tutorials/>チュートリアル</a> > <a href=../../../../cityengine/tutorials/classic/>クラシック</a> > チュートリアル 7 : ファサード モデリング</span></div><div class=progress><div class=wrapper><nav id=TableOfContents><ul><li><a href=#チュートリアル-データ>チュートリアル データ</a></li><li><a href=#概要>概要</a></li><li><a href=#part-1-ファサードの構造をモデリング>Part 1 :ファサードの構造をモデリング</a><ul><li><a href=#ファサード-モデリング>ファサード モデリング</a></li><li><a href=#ルール-ファイルの作成>ルール ファイルの作成</a></li><li><a href=#ボリュームとファサード>ボリュームとファサード</a></li><li><a href=#フロアの追加>フロアの追加</a></li><li><a href=#フロア-レッジ-水平方向の張り出し-の追加>フロア レッジ (水平方向の張り出し) の追加</a></li><li><a href=#サブフロアの追加>サブフロアの追加</a></li></ul></li><li><a href=#heading></a><ul><li><a href=#タイルの追加>タイルの追加</a></li></ul></li><li><a href=#part-2-ファサード-アセットの挿入>Part 2 :ファサード アセットの挿入</a><ul><li><a href=#アセット>アセット</a></li><li><a href=#窓の追加>窓の追加</a></li><li><a href=#窓の装飾の追加>窓の装飾の追加</a></li><li><a href=#ドアの追加>ドアの追加</a></li><li><a href=#レッジの追加>レッジの追加</a></li><li><a href=#バルコニーの追加>バルコニーの追加</a></li></ul></li><li><a href=#part-3-ファサードのテクスチャを作成>Part 3 :ファサードのテクスチャを作成</a><ul><li><a href=#テクスチャ-アセットの作成>テクスチャ アセットの作成</a></li><li><a href=#グローバル-uv-座標の設定>グローバル UV 座標の設定</a></li><li><a href=#テクスチャ-レイヤーの追加>テクスチャ レイヤーの追加</a></li><li><a href=#壁にテクスチャを貼り付ける>壁にテクスチャを貼り付ける</a></li><li><a href=#窓アセットのテクスチャを設定する>窓アセットのテクスチャを設定する</a></li><li><a href=#ドア形状にテクスチャを貼り付ける>ドア形状にテクスチャを貼り付ける</a></li></ul></li></ul></nav></div></div></div><div id=body-inner><h1>チュートリアル 7 : ファサード モデリング</h1><h2 id=チュートリアル-データ class=TOC-Heading>チュートリアル データ</h2><p>チュートリアル データは、<strong>[Help] メニュー → [Download Tutorials and Examples…]</strong> を選択し、[CityEngine Tutorial] からダウンロードできます。</p><h2 id=概要>概要</h2><p>このチュートリアルでは、ファサード構造の作成、アセットの挿入、建物へのテクスチャの追加など、写真から建物をモデリングする方法を学習します。また、複雑な CGA のテクニックについても学習します。</p><table><thead><tr><th style=text-align:left>演習</th></tr></thead><tbody><tr><td style=text-align:left>・<a href=#part-1-%E3%83%95%E3%82%A1%E3%82%B5%E3%83%BC%E3%83%89%E3%81%AE%E6%A7%8B%E9%80%A0%E3%82%92%E3%83%A2%E3%83%87%E3%83%AA%E3%83%B3%E3%82%B0>Part 1 :ファサードの構造をモデリング</a></td></tr><tr><td style=text-align:left>・<a href=#part-2-%E3%83%95%E3%82%A1%E3%82%B5%E3%83%BC%E3%83%89-%E3%82%A2%E3%82%BB%E3%83%83%E3%83%88%E3%81%AE%E6%8C%BF%E5%85%A5>Part 2 :ファサード アセットの挿入</a></td></tr><tr><td style=text-align:left>・<a href=#part-3-%E3%83%95%E3%82%A1%E3%82%B5%E3%83%BC%E3%83%89%E3%81%AE%E3%83%86%E3%82%AF%E3%82%B9%E3%83%81%E3%83%A3%E3%82%92%E4%BD%9C%E6%88%90>Part 3 :ファサードのテクスチャを作成</a></td></tr></tbody></table><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-6596F59E-08D1-42BE-9E14-44482EF8F227-web.png data-lightbox=すべてのテクスチャが適用されたファサードの完成形 data-title=すべてのテクスチャが適用されたファサードの完成形><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-6596F59E-08D1-42BE-9E14-44482EF8F227-web.png width></a><h2 id=part-1-ファサードの構造をモデリング>Part 1 :ファサードの構造をモデリング</h2><h3 id=ファサード-モデリング>ファサード モデリング</h3><p>以下のワークフローでは、実際の写真からファサードを再作成するための CGA ルール セットを記述する方法を示します</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-340655E4-26C5-428D-835B-CA12D549506B-web.png data-lightbox=" " data-title=" "><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-340655E4-26C5-428D-835B-CA12D549506B-web.png width></a><p>このセッションでは、CGA ルールでファサードの基本構造を作成します。ルール セットの拡張を進めながら、写真をより詳細に分析し、CGA ルールでプリモデルされたアセットをどのように使用できるかを学習します。</p><h3 id=ルール-ファイルの作成>ルール ファイルの作成</h3><p>ルール ファイルを作成するために、以下の手順を行います。</p><ol><li><strong>[<a href=https://doc.arcgis.com/en/cityengine/latest/help/help-navigator.htm>Navigator</a>] ウィンドウ</strong> で Tutorial_07_Facade_Modeling
+フォルダーを展開します。</li><li>scenes フォルダー の <strong>FacadeModeling_01.cej</strong> シーンを開きます。</li><li><strong>[File] メニュー</strong> → <strong>[New]</strong> → <strong>[CityEngine]</strong> → <strong>[CGA Rule File]</strong>
+をクリックして、新規ルール ファイルを作成します。</li><li><strong>[Next]</strong> をクリックします。</li><li>ルール名を「<strong>facade_01.cga</strong>」と入力します。</li><li><strong>[Finish]</strong> をクリックします。</li></ol><p>新しい CGA ルール ファイルが作成され、[<a href=https://doc.arcgis.com/en/cityengine/latest/help/help-cga-editor.htm>CGA Editor</a>] ウィンドウが起動します。CityEngine の現在のバージョンの記述以外は空の状態です。</p><h3 id=ボリュームとファサード>ボリュームとファサード</h3><p>これから建物の作成を始めます。まず押し出し操作によりマス モデルを作成します。建物の height 属性を使用します。</p><ol><li>ルール ファイルの最初に <strong>height</strong> 属性を追加します。</li></ol><pre><code>attr height 			= 24
+</code></pre><ol start=2><li>スタート ルールを <strong>extrude</strong> 操作を使用して記述し、その結果の形状に Building と名前を付けます。</li></ol><pre><code>Lot --&gt; extrude(height) 
+        Building
+</code></pre><ol start=3><li>ファサードのみが必要なので、<strong>Building</strong> ルールで component split を使用して正面を除くすべての面を削除し、<strong>Frontfacade</strong> ルールを呼び出します。</li></ol><pre><code>Building --&gt;
+	comp(f) { front : Frontfacade }
+</code></pre><h3 id=フロアの追加>フロアの追加</h3><p>上記のファサードの写真を見ると、以下の画像のように、異なるタイプのフロアを分析することができます</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-A1419AE4-EEC2-43CF-9235-729CBDF5A82F-web.png data-lightbox=壁面の解析 data-title=壁面の解析><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-A1419AE4-EEC2-43CF-9235-729CBDF5A82F-web.png width></a><ol><li>はじめに<strong>高さ</strong>と床寸法についての属性を定義していきます。</li></ol><pre><code>attr groundfloor_height 	= 5.5
 attr floor_height 		= 4.5
-</code></pre><ol start=3><li>そして以下のルールを追加します。</li></ol><pre><code>Frontfacade --&gt;
-    split(y){ groundfloor_height    : Floor(split.index) // 地上フロア
-        | floor_height : Floor(split.index) // 第一フロア（二階）
-        | floor_height : Floor(split.index) // 第二フロア（三階）
-        | {~floor_height : Floor(split.index)}* // 中間階
-        | floor_height : Floor(999) // 最上階、インデックスは999
-        | 0.5 : s('1,'1,0.3) LedgeAsset} //屋根直下のトップレッジ
-</code></pre><p>それでは最初のファサード生成を行いましょう。</p><ol start=4><li><p>[3D View] ウィンドウにて区画を選択します。</p></li><li><p>ルール ファイルを割り当てます。<strong>[Shapes] メニュー → [Assign Rule File
-...]</strong> から、作成した CGA ファイル (myFacade_01.cga) を選択して
-<strong>[OK]</strong> をクリックします。</p></li><li><p>ツールバーにある <strong>[Generate]</strong> ボタン をクリックします（または
-<u>Ctrl-g</u> キーを押します）。<br>結果は下の画像のようになります。
-<a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-08D488BD-936E-4673-8121-89745CBD836B-web.png data-lightbox=フロアに分割されたファサード data-title=フロアに分割されたファサード><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-08D488BD-936E-4673-8121-89745CBD836B-web.png width></a></p></li></ol><h3 id=フロア-レッジ水平方向の張り出し>フロア レッジ（水平方向の張り出し）</h3><p>各フロアをレッジとタイル
-シェープに分割します。ボトムレッジはフロアによって異なるため、このルールに対して
-floorindex パラメーターを使用します。</p><ul><li><p>地上階（floorindex 0）にはレッジはないため、Tiles のみを呼び出します。</p></li><li><p>二番目のフロア（Floor 2）については、窓領域がフロアの一番下の高さから開始されるため、ボトムレッジはありません。このフロアのバルコニーは後のステップで考慮します。</p></li><li><p>それ以外のフロアにはボトムレッジ、タイルおよびトップレッジ領域があります。
-<a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-A53B0118-06AA-4847-B12B-C97DAAC97FBB-web.png data-lightbox=レッジの解析 data-title=レッジの解析><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-A53B0118-06AA-4847-B12B-C97DAAC97FBB-web.png width></a></p></li></ul><pre><code>Floor(floorindex) --&gt;
-    case floorindex == 0 :
-        Subfloor(floorindex)
-    case floorindex == 2 :
-        split(y){~1 : Subfloor(floorindex) | 0.5 : TopLedge}
-    else :
-        split(y){1 : BottomLedge(floorindex) | ~1 : Subfloor(floorindex) | 0.5 : TopLedge}
-</code></pre><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-0B765350-988F-415E-8AE2-DF871361D746-web.png data-lightbox=レッジで分割されたフロア data-title=レッジで分割されたフロア><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-0B765350-988F-415E-8AE2-DF871361D746-web.png width></a><h3 id=サブフロア>サブフロア</h3><p>サブフロアは各フロアの左右端に位置する小さな壁領域とそれらの間のタイル（同形の矩形領域の意）の繰り返しからなります。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-06EB9F2D-88EE-43C0-9A50-DB0AA767E073-web.png data-lightbox=サブフロアの解析 data-title=サブフロアの解析><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-06EB9F2D-88EE-43C0-9A50-DB0AA767E073-web.png width></a><ol><li>先頭に新しい属性を追加します。</li></ol><pre><code>attr tile_width 		= 3.1
-</code></pre><p>さらに以下のルールを追加します。</p><pre><code>Subfloor(floorindex) --&gt;
+</code></pre><ol start=2><li><strong>Frontfacade</strong> ルールを <strong>Building</strong> ルールの下に追加します。</li></ol><pre><code>Frontfacade --&gt;	
+	split(y) { groundfloor_height : Floor(split.index)          // 地上フロア
+		 |       floor_height : Floor(split.index)          // 第一フロア (二階)
+		 |       floor_height : Floor(split.index)          // 第二フロア (三階)
+		 |    { ~floor_height : Floor(split.index) }*       // 中間階
+		 |       floor_height : Floor(999)                  // 最上階、インデックスは999
+		 |                0.5 : s('1, '1, 0.3) LedgeAsset } // 屋根直下のトップレッジ
+</code></pre><p>前面のファサードは水平方向に分割されて、各フロアに <strong>floor_height</strong> (フロアの高さ) の属性が設定されます。<strong>Floor</strong> 形状はフロアのインデックスである <strong>split.index</strong> によってパラメータで制御されます。このパラメータはサブ ルールに渡され、特定のフロアに対して何のエレメントを作成するかを決定します。</p><p>最上階の場合、フロア インデックスは 999 に設定されます。これにより、このフロアを識別することができます。また、中層階は繰り返し分割されているため、建物は異なる高さに動的に適応し、中層階で残りの垂直スペースを埋めることができます。</p><p>なお、<strong>[CGA Editor]</strong> ウィンドウには、未定義の <strong>Floor</strong> ルールと <strong>LedgeAsset</strong> ルールに対する警告が表示されます。チュートリアルの後半で、このルールを参照するため問題ありません。<br></p><ol start=3><li><p>Ctrl ＋ S キーを押し、ルールを保存します。</p></li><li><p><strong>[Navigator]</strong> ウィンドウの <strong>facade_01.cga</strong> ルールを [<a href=https://doc.arcgis.com/en/cityengine/latest/help/help-viewport.htm>3D View</a>] ウィンドウの区画の上にドラッグします。
+これによって、はじめてファサードが生成されます。
+<a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-08D488BD-936E-4673-8121-89745CBD836B-web.png data-lightbox=フロアに分割されたファサード data-title=フロアに分割されたファサード><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-08D488BD-936E-4673-8121-89745CBD836B-web.png width></a></p></li></ol><p>Z キーを押すと、ファサードの正面に移動できます。</p><p>ルールを割り当てて別の方法でモデルを生成するには、<strong>[Inspector]</strong> ウィンドウで <strong>[Assign]</strong> をクリックし、<strong>facade_01.cga</strong> ルールを選択して <strong>[Generate models of selected shapes]</strong> ボタンをクリックします (Ctrl＋G キーを押します)。<br></p><h3 id=フロア-レッジ-水平方向の張り出し-の追加>フロア レッジ (水平方向の張り出し) の追加</h3><p>現在、フロアはレッジとタイルの形状に分割されています。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-A53B0118-06AA-4847-B12B-C97DAAC97FBB-web.png data-lightbox=レッジの解析 data-title=レッジの解析><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-A53B0118-06AA-4847-B12B-C97DAAC97FBB-web.png width></a><ol><li><strong>floorindex</strong> パラメータを持つ <strong>Floor</strong> ルールを追加します。</li></ol><pre><code>Floor(floorindex) --&gt;
+	case floorindex == 0 :
+		Subfloor(floorindex)
+	case floorindex == 2 :
+		split(y) {  ~1 : Subfloor(floorindex)
+			 | 0.5 : TopLedge }
+	else :
+		split(y) {   1 : BottomLedge(floorindex)
+			 |  ~1 : Subfloor(floorindex) 
+			 | 0.5 : TopLedge }
+</code></pre><p>フロア インデックスは、異なるフロアの特定のレッジを処理するために使用します。</p><ul><li><p>地上階 (floorindex 0) にはレッジはないため、タイルのみを呼び出します。</p></li><li><p>二番目のフロア (Floor 2) については、窓領域がフロアの一番下の高さから開始されるため、ボトム レッジはありません。このフロアのバルコニーは後のステップで作成します。</p></li><li><p>それ以外のフロアにはボトム レッジ、タイルおよびトップ レッジ領域があります。</p></li></ul><ol start=2><li>ルール ファイルを保存し、モデルを生成します。
+<a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-0B765350-988F-415E-8AE2-DF871361D746-web.png data-lightbox=レッジで分割されたフロア data-title=レッジで分割されたフロア><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-0B765350-988F-415E-8AE2-DF871361D746-web.png width></a></li></ol><h3 id=サブフロアの追加>サブフロアの追加</h3><p>サブフロアは各フロアの左右端に位置する小さな壁領域とそれらの間の繰り返しタイルで構成されています。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-06EB9F2D-88EE-43C0-9A50-DB0AA767E073-web.png data-lightbox=サブフロアの解析 data-title=サブフロアの解析><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-06EB9F2D-88EE-43C0-9A50-DB0AA767E073-web.png width></a><ol><li>ルール ファイルの先頭に他の属性と一緒に以下の属性を追加します。</li></ol><pre><code>attr tile_width 		= 3.1
+</code></pre><ol start=2><li><strong>Subfloor</strong> ルールをルール ファイルの一番下に追加します。</li></ol><pre><code>Subfloor(floorindex) --&gt;
 	split(x){ 0.5 : Wall(1) 
 			| { ~tile_width : Tile(floorindex) }* 
 			| 0.5 : Wall(1) }
-</code></pre><p>ここではパラメーター化された Wall
-シェープを追加しました。これは後のステップでファサードにテクスチャを貼り付ける際に重要となります。ファサードの写真を見ると、3つの異なる壁タイプがあることが分かります。</p><ul><li><p>暗いブロックのダートテクスチャ</p></li><li><p>明るいブロックのダートテクスチャ</p></li><li><p>ダートテクスチャのみ。これは主にブロック構造を持たないファサードアセットに対して必要となります。</p></li></ul><p>以下のルールに見られるように、ここでは各々の壁のスタイルは全く同じ出力となります。後のステップで壁タイプごとに異なるテクスチャを追加することになります。</p><p>先頭に新しい属性を追加します。</p><pre><code>attr wallColor          = &quot;#ffffff&quot;
-</code></pre><p>Subfloor ルールの下に以下のルールを追加します。</p><pre><code>Wall(walltype) --&gt;
-	// dark bricks with dirt
+</code></pre><p>これにより、フロアが繰り返しのタイルと両側の壁に水平に分割されます。</p><ol start=3><li>他の属性の次に <strong>wallcolor</strong> 属性を追加します。</li></ol><pre><code>attr wallColor          = &quot;#ffffff&quot;
+</code></pre><ol start=4><li>続いて、ルール ファイルの一番下に <strong>walltype</strong> パラメータを持つ <strong>Wall</strong> ルールを追加します。</li></ol><pre><code>Wall(walltype) --&gt;
 	case walltype == 1 :
 		color(wallColor)
-	// bright bricks with dirt	
 	case walltype == 2 :
 		color(wallColor)
-	// dirt only	
 	else :
 		color(wallColor)
-</code></pre><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-0D43975C-346E-4DB2-A1FA-7439828D86E2-web.png data-lightbox=各フロアがタイルに分割された状態 data-title=各フロアがタイルに分割された状態><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-0D43975C-346E-4DB2-A1FA-7439828D86E2-web.png width></a><h2 id=heading></h2><h3 id=タイル>タイル</h3><p>このファサードのタイルは均質になっています。ここで地上フロアのタイルとそれより上の階のタイルのみを区別する必要があります。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-6708D776-1DAF-43A2-B3FF-C1F3CF2AED46-web.png data-lightbox=タイルの解析 data-title=タイルの解析><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-6708D776-1DAF-43A2-B3FF-C1F3CF2AED46-web.png width></a><p>属性 door_width と window_width を使用して異なる分割サイズを設定します。</p><pre><code>attr door_width		= 2.1	
-attr window_width		= 1.4
-
-Tile(floorindex) --&gt;
+</code></pre><p>パラメータ化された <strong>Wall</strong> 形状を追加しました。これは後のステップでファサードにテクスチャを貼り付ける際に重要です。ファサードの写真を見ると、3 つの異なる壁のタイプがあることが分かります。</p><ul><li><p>暗いブロックのダート テクスチャ</p></li><li><p>明るいブロックのダート テクスチャ</p></li><li><p>ダート テクスチャのみ。これは主にブロック構造を持たないファサード アセットに対して必要となります。</p></li></ul><ol start=5><li>ルール ファイルを保存し、モデルを生成します。</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-0D43975C-346E-4DB2-A1FA-7439828D86E2-web.png data-lightbox=各フロアがタイルに分割された状態 data-title=各フロアがタイルに分割された状態><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-0D43975C-346E-4DB2-A1FA-7439828D86E2-web.png width></a><p>上記の <strong>Wall</strong> ルールの壁スタイルは、同一の出力を生成します。前述したように、後のステップで壁のタイプごとに異なるテクスチャを追加することで変更されます。</p><h2 id=heading></h2><h3 id=タイルの追加>タイルの追加</h3><p>このファサードのタイルは均質になっています。ここで地上フロアのタイルとそれより上の階のタイルを区別する必要があります。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-6708D776-1DAF-43A2-B3FF-C1F3CF2AED46-web.png data-lightbox=タイルの解析 data-title=タイルの解析><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-6708D776-1DAF-43A2-B3FF-C1F3CF2AED46-web.png width></a><ol><li><strong>door_width</strong> 属性と <strong>window_width</strong> 属性を使用して異なる分割サイズを設定します。</li></ol><pre><code>attr door_width		= 2.1	
+attr window_width	= 1.4
+</code></pre><ol start=2><li><strong>Subfloor</strong> ルールの後に <strong>Tile</strong> ルールを追加します。</li></ol><pre><code>Tile(floorindex) --&gt;
 	case floorindex == 0 :
 		split(x){ ~1 : SolidWall 
 			|  door_width : DoorTile
@@ -86,33 +61,17 @@ Tile(floorindex) --&gt;
 		split(x){ ~1 : Wall(getWalltype(floorindex))
 			|  window_width : WindowTile(floorindex)
 			| ~1 : Wall(getWalltype(floorindex)) }
-</code></pre><p>この時点ではルールはまだ完成していないので、エラーが出ます。コードを完成させるとエラーは消えますので、続けて次のステップへ進んでください。</p><p>地上フロアのタイルでは、新しいシェープ SolidWall
-が追加されます。これは、地上フロアのドアがファサードからめり込んだ状態になっているために必要になります。ドアと壁の間に穴ができるのを防ぐために、特定の厚さを持った立体を挿入することにより、壁エレメントを作ります。この厚さは後で
-Door ルールでも使用するため、これを定数変数 <strong>wall_inset</strong>
-として定義します。複数回使用される値を宣言しておくと、同じ値が別のルールで使用されることを確認できることにもなり、便利です。</p><pre><code>const wall_inset = 0.4
-
-SolidWall --&gt;
-		s('1,'1,wall_inset) t(0,0,-wall_inset)
-		i(&quot;builtin:cube:notex&quot;)	
-		Wall(1)
-</code></pre><p>フロア
-インデックスから壁のタイプを取得する関数を定義します。ファサードを見ると、地上フロアおよび一番目のフロア（二階）は暗いテクスチャ、それ以外には明るいテクスチャとなっているのが分かります。関数
-getWallstyle はフロア インデックスを対応する壁タイプに割り当てます。</p><pre><code>getWalltype(floorindex) = 
+</code></pre><p>地上フロアのタイルでは、<strong>Wall</strong> 形状の代わりに <strong>SolidWall</strong> 形状が追加されます。これは、地上フロアのドアがファサードからめり込んだ状態になっているために必要になります。ドアと壁の間に穴ができるのを防ぐために、特定の厚さを持った立体を挿入することにより、壁エレメントを作ります。この厚さは後の <strong>Door</strong> ルールでも使用するため、これを定数変数 <strong>wall_inset</strong> として定義します。<br>複数回使用される値を宣言しておくと、同じ値が別のルールで使用されることを確認できることにもなり、便利です。</p><ol start=3><li>属性と <strong>Lot</strong> ルールの間に <strong>wall_inset const</strong> を追加します。</li></ol><pre><code>const wall_inset = 0.4
+</code></pre><ol start=4><li><strong>SolidWall</strong> ルールを <strong>Wall</strong> ルールの下に追加します。</li></ol><pre><code>SolidWall --&gt;
+	s('1, '1, wall_inset)
+	t(0, 0, -wall_inset)
+	i(&quot;builtin:cube:notex&quot;)
+	Wall(1)
+</code></pre><ol start=5><li><strong>Wall</strong> ルールの上に関数を宣言して、フロア インデックスから壁のタイプを取得します。</li></ol><pre><code>getWalltype(floorindex) = 
 	case floorindex == 0 : 1
 	case floorindex == 1 : 1
 	else : 2
-</code></pre><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-6FB5FB0A-6328-4AA3-9A10-098B878B4177-web.png data-lightbox=タイル分割後のファサード data-title=タイル分割後のファサード><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-6FB5FB0A-6328-4AA3-9A10-098B878B4177-web.png width></a><p>Rules フォルダーの façade_02.cga ルール
-ファイルを適用すると、模範例を確認できます。</p><p>次の <a href=#part-2-%E3%82%A2%E3%82%BB%E3%83%83%E3%83%88%E3%81%AE%E6%8C%BF%E5%85%A5>Part 2</a> では、このファサードにアセットを使用する方法を学習します。</p><h2 id=part-2-アセットの挿入>Part 2 :アセットの挿入</h2><p>ファサード モデリング
-チュートリアルの2番目のパートでは、ファサードに予めモデリングされたアセットを使用する方法について学習します。</p><ol><li><p>シーンファイル
-<strong>Tutorial_07_Facade_Modeling/scenes/FacadeModeling_02.cej</strong>
-を開きます。</p></li><li><p>CGA ファイル <strong>Tutorial_07_Facade_Modeling/rules/facade_02.cga</strong>
-を開きます。</p></li></ol><h3 id=アセット>アセット</h3><p>現在モデリングしているファサードの写真を見ると、以下の項目についてアセットが必要であることが分かります。</p><ul><li><p>窓: 窓エレメントとして使用</p></li><li><p>丸い窓上部: 窓上部の装飾</p></li><li><p>三角の窓上部: 窓上部の装飾</p></li><li><p>半円弧: 地上フロアのアーチとして使用</p></li><li><p>レッジ: すべてのレッジとして使用</p></li><li><p>モディリオン: 窓や地上フロアのアーチの装飾として使用</p></li></ul><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-C2155F96-2425-4083-B4A6-BE960546914C-web.png data-lightbox=使用するアセット data-title=使用するアセット><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-C2155F96-2425-4083-B4A6-BE960546914C-web.png width=500px></a><p>これらのアセットはすでにチュートリアルプロジェクトの asset
-フォルダーに含まれています。 [Navigator]
-ウィンドウで目的のアセット（今回はtriangle_windotop.obj）を選択するとこれらのアセットを
-[Inspector]
-ウィンドウでプレビューすることができます(プレビュー画面が無い場合は[Navigator]
-ウィンドウの [show file preview] ボタンをクリックしてください)。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-C3FED8E3-88EB-4624-B3B1-B81A12E5A2C3-web.png data-lightbox="Inspector のプレビューで表示された三角形の窓装飾" data-title="Inspector のプレビューで表示された三角形の窓装飾"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-C3FED8E3-88EB-4624-B3B1-B81A12E5A2C3-web.png width=500px></a><h4 id=アセットの宣言>アセットの宣言</h4><p>すべてのアセットの宣言を同じ場所で行っておくことをお勧めします。したがって、以下の行をルール
-ファイルの属性の宣言の下に追加します。</p><pre><code>const window_asset 		= &quot;facades/elem.window.frame.obj&quot;
+</code></pre><p>ファサードの写真を見ると、地上フロアおよび一番目のフロア (二階) は暗いテクスチャ、それ以外には明るいテクスチャとなっているのが分かります。<strong>getWallstyle</strong> 関数はフロア インデックスを対応する壁のタイプに割り当てます。</p><ol start=6><li>ルール ファイルを保存し、モデルを生成します。</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-6FB5FB0A-6328-4AA3-9A10-098B878B4177-web.png data-lightbox=タイル分割後のファサード data-title=タイル分割後のファサード><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-6FB5FB0A-6328-4AA3-9A10-098B878B4177-web.png width></a><p><strong>FacadeModeling_02.cej</strong> シーンと <strong>facade_02.cga</strong> ルール ファイルを開いて、この時点でシーンとルールがどのようになっているか確認できます。</p><h2 id=part-2-ファサード-アセットの挿入>Part 2 :ファサード アセットの挿入</h2><p>次にファサードで事前にモデル化されたアセットを使用する方法を学習します。</p><h3 id=アセット>アセット</h3><p>現在モデリングしているファサードの写真を見ると、以下の項目についてアセットが必要であることが分かります。</p><ul><li><p>窓: 窓エレメントとして使用</p></li><li><p>丸い窓上部: 窓上部の装飾</p></li><li><p>三角の窓上部: 窓上部の装飾</p></li><li><p>半円弧: 地上フロアのアーチとして使用</p></li><li><p>レッジ: すべてのレッジとして使用</p></li><li><p>モディリオン: 窓や地上フロアのアーチの装飾として使用</p></li></ul><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-C2155F96-2425-4083-B4A6-BE960546914C-web.png data-lightbox=使用するアセット data-title=使用するアセット><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-C2155F96-2425-4083-B4A6-BE960546914C-web.png width=500px></a><p>これらのアセットはすでにチュートリアル プロジェクトの asset フォルダーに含まれています。これらのアセットをプレビューするには、<strong>[Navigator]</strong> ウィンドウで目的のアセットを選択して右クリックし、<strong>[File Preview]</strong> を選択します。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-C3FED8E3-88EB-4624-B3B1-B81A12E5A2C3-web.png data-lightbox="Inspector のプレビューで表示された三角形の窓の装飾" data-title="Inspector のプレビューで表示された三角形の窓の装飾"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-C3FED8E3-88EB-4624-B3B1-B81A12E5A2C3-web.png width=500px></a><p>以下の行をルール ファイルの属性の宣言の下にアセットへの参照を追加します。</p><pre><code>const window_asset 		= &quot;facades/elem.window.frame.obj&quot;
 const round_wintop_asset 	= &quot;facades/round_windowtop.obj&quot;
 const tri_wintop_asset 		= &quot;facades/triangle_windowtop.obj&quot;
 const halfarc_asset 		= &quot;facades/arc_thin.obj&quot;
@@ -120,200 +79,227 @@ const ledge_asset 		=
                            &quot;facades/ledge.03.twopart_lessprojection.obj&quot;
 const modillion_asset 		=
              &quot;facades/ledge_modillion.03.for_cornice_ledge_closed.lod0.obj&quot;
-</code></pre><h3 id=窓>窓</h3><ol><li>ここまでの作業で、窓アセットを配置する場所についてのルールは構築済みですので、WindowTile
-ルールの中で Window シェープを呼び出すだけです。</li></ol><pre><code>WindowTile(floorindex) --&gt; Window
-</code></pre><ol start=2><li>そして次のルールを追加して窓アセットとその背後のガラス面をサイズ調整、配置、挿入します。</li></ol><pre><code>Window --&gt;
-	s('1,'1,0.2) t(0,0,-0.2)
+</code></pre><h3 id=窓の追加>窓の追加</h3><p>窓を追加をするために以下の手順を行います。</p><ol><li><strong>Window asset</strong> を正確に配置するためのルールが準備できました。<strong>Tile</strong> ルールの後に <strong>WindowTile</strong> ルールを追加して、<strong>Window</strong> 形状を呼び出します。</li></ol><pre><code>WindowTile(floorindex) --&gt;
+	Window
+</code></pre><ol start=2><li>そして次の <strong>Window</strong> ルールを追加して、<strong>window asset</strong> とその背後のガラス面をサイズ調整、配置、挿入します。</li></ol><pre><code>Window --&gt;
+	s('1,'1,0.2) t(0,0,-0.2) 
 	t(0,0,0.02)
 	[ i(window_asset) Wall(0) ]
 	Glass
-</code></pre><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-00D8743F-6C49-4C03-989C-71FFD9B168EB-web.png data-lightbox=窓アセットを挿入したファサード data-title=窓アセットを挿入したファサード><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-00D8743F-6C49-4C03-989C-71FFD9B168EB-web.png width></a><h3 id=窓の装飾>窓の装飾</h3><p>再度ファサードの写真を見てみると、実際はもっと複雑であることが分かります。フロアが異なると窓（または窓エレメント）が異なります。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-97CAE6B0-1DE9-422D-BFF3-9A171FBFDFBF-web.png data-lightbox=窓の解析 data-title=窓の解析><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-97CAE6B0-1DE9-422D-BFF3-9A171FBFDFBF-web.png width></a><p>WindowTile ルールとそれをトリガーするシェープをフロア
-インデックスで固有になるように拡張する必要があります。</p><ul><li><p>第一フロア（二階）と最上階には特別な装飾はないため、Window
-のみが呼び出されます。</p></li><li><p>第二フロア（三階）には新しいシェープ WindowOrnamentRound
-を追加します。このエレメントは Window
-の上の境界線に接しなければならないため、現在のスコープの上向きを
-<strong>'1</strong> により y 軸に読み替えます。</p></li><li><p>他の窓タイル（中間階）も同様に Y に沿って読み替えた上で装飾
-WindowOrnamentTriangle を取得し、さらに追加の WindowLedge
-シェープを取得します。</p></li></ul><pre><code>WindowTile(floorindex) --&gt;
-	case floorindex == 1 || floorindex == 999: Window
-	case floorindex == 2 : Window t(0,'1,0) WindowOrnamentRound
-	else : Window WindowLedge t(0,'1,0) WindowOrnamentTriangle
-</code></pre><p>最終的なアセットを直接使用する代わりに、まずは代理となる立方体（キューブ）を試しに挿入します。こうすると実際のアセットのサイズをより設定し易くなります。ここではビルト
-イン(はめ込み)のキューブ アセットを使用します。</p><p>サイズを設定し、位置をスコープの x
-軸方向の中央に設定し、キューブを挿入し、さらに見やすいように色を付けます。</p><pre><code>WindowOrnamentTriangle --&gt; 
-	s('1.7, 1.2, 0.3) center(x) i(&quot;builtin:cube&quot;)  color(&quot;#ff0000&quot;) 
-        # 三角窓エレメントのサイズを設定して挿入
+</code></pre><ol start=3><li>ルール ファイルを保存し、モデルを生成します。</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-00D8743F-6C49-4C03-989C-71FFD9B168EB-web.png data-lightbox=窓アセットを挿入したファサード data-title=窓アセットを挿入したファサード><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-00D8743F-6C49-4C03-989C-71FFD9B168EB-web.png width></a><h3 id=窓の装飾の追加>窓の装飾の追加</h3><p>ファサードの写真をもう一度見みると、フロアによって異なる窓 (または窓のエレメント) があることに気づきます。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-97CAE6B0-1DE9-422D-BFF3-9A171FBFDFBF-web.png data-lightbox=窓の解析 data-title=窓の解析><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-97CAE6B0-1DE9-422D-BFF3-9A171FBFDFBF-web.png width></a><ol><li><strong>WindowTile</strong> ルールを拡張し、フロア インデックスに固有の形状を以下のようにトリガーします。</li></ol><pre><code>WindowTile(floorindex) --&gt;
+	case floorindex == 1 || floorindex == 999 : 
+		Window
+	case floorindex == 2 : 
+		Window
+		t(0, '1, 0)
+		WindowOrnamentRound
+	else :
+		Window
+		WindowLedge
+		t(0, '1, 0)
+		WindowOrnamentTriangle
+</code></pre><ul><li><p>第一フロア (二階) と最上階には特別な装飾はないため、<strong>Window</strong> 形状のみが呼び出されます。</p></li><li><p>第二フロア (三階) には新しい形状 <strong>WindowOrnamentRound</strong>
+を追加します。このエレメントは窓の上の境界線に配置されるため、現在のスコープを y 軸方向に
+<strong>'1</strong> 移動します。</p></li><li><p>他の窓タイル (中間階) には、<strong>WindowLedge</strong> 形状と <strong>WindowOrnamentTriangle</strong> 装飾が追加されます。<br>最終的なアセットを直接使用せずに、最初に代用となる立方体を挿入します。
+実際のアセットのサイズをより設定し易くなります。この場合、組み込みの立方体 アセットを使用できます。</p></li></ul><ol start=2><li><strong>WindowTile</strong> ルールの後に以下のルールを追加して、サイズを設定し、X 軸でスコープをセンタリングします。立方体を挿入して、見やすくするために色をつけ、代用となる立法体を作成します。</li></ol><pre><code>WindowOrnamentTriangle --&gt;
+	s('1.7, 1.2, 0.3)
+	center(x) 
+	i(&quot;builtin:cube&quot;)
+	color(&quot;#ff0000&quot;)
+
 WindowOrnamentRound --&gt;
-	s('1.7, 1.2, 0.4) center(x) i(&quot;builtin:cube&quot;) color(&quot;#00ff00&quot;)
+	s('1.7, 1.2, 0.4)
+	center(x)
+	i(&quot;builtin:cube&quot;)
+	color(&quot;#00ff00&quot;)
+
 WindowLedge --&gt;
-	s('1.5, 0.2, 0.1) t(0,-0.2,0) center(x) i(&quot;builtin:cube&quot;)
-color(&quot;#0000ff&quot;)
-</code></pre><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-969DA945-B804-403F-844C-9A1AF8577EE0-web.png data-lightbox=" " data-title=" "><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-969DA945-B804-403F-844C-9A1AF8577EE0-web.png width></a>
-<a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-FDA1D5D8-0CBF-463A-95BD-47EBB4C00BD5-web.png data-lightbox=代理として色つきのキューブを使用した窓装飾 data-title=代理として色つきのキューブを使用した窓装飾><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-FDA1D5D8-0CBF-463A-95BD-47EBB4C00BD5-web.png width></a><h4 id=代理アセットを実際のアセットに交換>代理アセットを実際のアセットに交換</h4><p>窓装飾のサイズは問題なさそうであることが分かりましたので、実際のアセットをキューブの代わりに挿入します。
-WindowLedge については、まだキューブのままにしておきます。</p><pre><code>WindowOrnamentTriangle --&gt; 
-	s('1.7, 1.2, 0.3) center(x) i(tri_wintop_asset)
+	s('1.5, 0.2, 0.1)
+	t(0, -0.2, 0)
+	center(x)
+	i(&quot;builtin:cube&quot;)
+	color(&quot;#0000ff&quot;)
+</code></pre><ol start=3><li>ルール ファイルを保存し、モデルを生成します。</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-969DA945-B804-403F-844C-9A1AF8577EE0-web.png data-lightbox=" " data-title=" "><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-969DA945-B804-403F-844C-9A1AF8577EE0-web.png width></a>
+<a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-FDA1D5D8-0CBF-463A-95BD-47EBB4C00BD5-web.png data-lightbox=代用として色つきの立方体を使用した窓の装飾 data-title=代用として色つきの立方体を使用した窓の装飾><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-FDA1D5D8-0CBF-463A-95BD-47EBB4C00BD5-web.png width></a><h4 id=代用となる立方体を実際のアセットに交換>代用となる立方体を実際のアセットに交換</h4><p>代用となる立方体を実際のアセットと交換するために、以下の手順を実行します。</p><ol><li>窓の装飾のサイズは妥当なようなので、立方体の代わりにアセットを挿入し、(<strong>WindowLedge</strong> については立方体のまま) 色を各ルールの <strong>Wall</strong> 形状の呼び出しに置き換えます。</li></ol><pre><code>WindowOrnamentTriangle --&gt;
+	s('1.7, 1.2, 0.3)
+	center(x) 
+	i(tri_wintop_asset)
+	Wall(0)
+
 WindowOrnamentRound --&gt;
-	s('1.7, 1.2, 0.4) center(x) i(round_wintop_asset)
-</code></pre><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-68A04B40-9188-4981-A9A1-D635EED9C401-web.png data-lightbox=" " data-title=" "><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-68A04B40-9188-4981-A9A1-D635EED9C401-web.png width></a>
-<a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-4A0A04FD-E93B-48CC-B755-7E726921762E-web.png data-lightbox=窓装飾アセットを挿入した状態 data-title=窓装飾アセットを挿入した状態><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-4A0A04FD-E93B-48CC-B755-7E726921762E-web.png width></a><p>第二フロアの窓についてはまだ完了していません。円形の窓装飾にはサイドピラー（側柱）が付いていません。そこで、先に作成した
-WindowOrnamentRound ルールに対して新たに split
-コマンドを追加します。この行により、以下のモディリオン
-アセット用のスコープが準備されることになります。</p><pre><code>WindowOrnamentRound --&gt;
-		s('1.7, 1.2, 0.4) center(x) i(round_wintop_asset) Wall(0)
-		split(x){~1 : WindowMod | window_width : NIL | ~1 : WindowMod }
-</code></pre><p>さらにサイズを設定し、モディリオン アセットを挿入します。相対的に y
-方向をマイナスにする変換 ('-1)
-が適用され、アセットの上面が装飾の下面に一致していることに注意してください。</p><pre><code>WindowMod --&gt;
-	s(0.2,'1.3,'0.6) t(0,'-1,0) center(x) i(modillion_asset) Wall(0)
-</code></pre><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-2C21C225-7627-45AB-B89E-29B8384915C2-web.png data-lightbox=ピラーが挿入された窓装飾 data-title=ピラーが挿入された窓装飾><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-2C21C225-7627-45AB-B89E-29B8384915C2-web.png width></a><h3 id=ドア>ドア</h3><p>ドアタイルは垂直方向に分割されて、ドア、アーチおよび上部エリアに分かれます。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-8EDAD727-5B82-4BC5-A082-A0935CB9D02B-web.png data-lightbox=ドアタイルの構造 data-title=ドアタイルの構造><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-8EDAD727-5B82-4BC5-A082-A0935CB9D02B-web.png width></a><p>楕円形にならないようにするために、アーチ部の高さはドアの幅（現在の x
-スコープ）の半分である必要があります。</p><pre><code>DoorTile --&gt;
-	split(y){~1 : Door | scope.sx/2 : Arcs | 0.5 : Arctop}
-</code></pre><p>上部エリアでは、壁エレメントとその上に重なったモディリオン
-アセットが挿入されます。</p><pre><code># 壁素材と中央に配置したモディリオンを追加
-Arctop --&gt;
+	s('1.7, 1.2, 0.4)
+	center(x)
+	i(round_wintop_asset)
+	Wall(0)
+
+WindowLedge --&gt;
+	s('1.5, 0.2, 0.1)
+	t(0, -0.2, 0)
+	center(x)
+	i(&quot;builtin:cube&quot;)
+	Wall(0)
+</code></pre><ol start=2><li>ルール ファイルを保存し、モデルを適用します。</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-68A04B40-9188-4981-A9A1-D635EED9C401-web.png data-lightbox=" " data-title=" "><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-68A04B40-9188-4981-A9A1-D635EED9C401-web.png width></a>
+<a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-4A0A04FD-E93B-48CC-B755-7E726921762E-web.png data-lightbox=窓の装飾アセットを挿入した状態 data-title=窓の装飾アセットを挿入した状態><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-4A0A04FD-E93B-48CC-B755-7E726921762E-web.png width></a><ol start=3><li>丸い窓の装飾には、第二フロアの側面の柱がないため、分割操作で <strong>WindowOrnamentRound</strong> ルールを拡張します。これにより、以下のモディリオン アセット用のスコープが準備されます。</li></ol><pre><code>WindowOrnamentRound --&gt;
+	s('1.7, 1.2, 0.4)
+	center(x)
+	i(round_wintop_asset)
+	Wall(0)
+	split(x) {           ~1 : WindowMod
+		 | window_width : NIL
+		 |           ~1 : WindowMod }
+</code></pre><ol start=4><li><strong>WindowOrnamentRound</strong> ルールの後に <strong>WindowMod</strong> ルールを追加します。サイズはモディリオンを挿入する前に設定されます。</li></ol><pre><code>WindowMod --&gt;
+	s(0.2, '1.3, '0.6)
+	t(0, '-1, 0)
+	center(x)
+	i(modillion_asset)
+	Wall(0)
+</code></pre><p>y 方向に相対的な負の移動 <strong>('-1)</strong> を適用すると、アセットの上面が装飾の下面に揃えられることに注意してください。<br>5. ルール ファイルを保存し、モデルを生成します。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-2C21C225-7627-45AB-B89E-29B8384915C2-web.png data-lightbox=ピラーが挿入された窓の装飾 data-title=ピラーが挿入された窓の装飾><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-2C21C225-7627-45AB-B89E-29B8384915C2-web.png width></a><h3 id=ドアの追加>ドアの追加</h3><p>ドア タイルは垂直方向に分割されて、ドア、アーチおよび上部エリアに分割されます。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-8EDAD727-5B82-4BC5-A082-A0935CB9D02B-web.png data-lightbox=ドアタイルの構造 data-title=ドアタイルの構造><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-8EDAD727-5B82-4BC5-A082-A0935CB9D02B-web.png width></a><p>続いて、以下のルールを <strong>Window</strong> ルールの下に追加します。</p><ol><li>楕円形のアーチにならないようにするために、アーチ部の高さはドア (現在の x
+スコープ) の幅の半分にする必要があります。</li></ol><pre><code>DoorTile --&gt;
+	split(y) {         ~1 : Door
+		 | scope.sx/2 : Arcs
+		 |        0.5 : Arctop }
+</code></pre><ol start=2><li>ドアの上部エリアでは、壁のエレメントとその上に重なったモディリオン アセットが挿入されます。</li></ol><pre><code>Arctop --&gt;
 	Wall(1)
-	s(0.5,'1,0.3) center(x) i(modillion_asset) Wall(1)
-</code></pre><p>アーチ エリアはさらに分割され、2 つのアーチ
-アセットが挿入されます。ここで、先に定義した変数 <strong>wall_inset</strong>
-を使用します。アーチの右半分を回転して正しい向きになるようにする必要があります。</p><pre><code>Arcs --&gt;  
-	s('1,'1,wall_inset) t(0,0,-wall_inset)
+	s(0.5, '1, 0.3)
+	center(x)
+	i(modillion_asset)
+	Wall(1)
+</code></pre><ol start=3><li>アーチ エリアはさらに分割され、2 つのアーチ アセットが挿入されます。インセットに対して事前に定義した変数 <strong>wall_inset</strong> を使用します。また、アーチの右半分を回転して正しい向きにする必要があります。</li></ol><pre><code>Arcs --&gt;
+	s('1, '1, wall_inset)
+	t(0, 0, -wall_inset)
 	Doortop
 	i(&quot;builtin:cube&quot;)
-	split(x){ ~1 : ArcAsset 
-			| ~1 : r(scopeCenter,0,0,-90) ArcAsset}
-</code></pre><p>最後に、Doortop と Door に Wall シェープをセットして実際のアーチ
-アセットを挿入します。</p><pre><code>Doortop --&gt;	Wall(0)
-		
-Door --&gt; t(0,0,-wall_inset) Wall(0)
+	split(x) { ~1 : ArcAsset
+		 | ~1 : r(scopeCenter,0,0,-90) ArcAsset }
+</code></pre><ol start=4><li>実際のアーチ アセットを <strong>ArcAsset</strong> ルールに挿入し、<strong>Doortop</strong> ルールと <strong>Door</strong> ルールに <strong>Wall</strong> タイプを設定します。</li></ol><pre><code>ArcAsset --&gt; 
+	i(halfarc_asset)
+	Wall(1)
 
-ArcAsset --&gt; i(halfarc_asset) Wall(1)
-</code></pre><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-6196FD30-2608-4089-9531-A9406930837D-web.png data-lightbox=アセットを挿入した状態のドアタイル data-title=アセットを挿入した状態のドアタイル><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-6196FD30-2608-4089-9531-A9406930837D-web.png width></a><h3 id=レッジ>レッジ</h3><p>続いてはレッジです。ここではトップレッジ用およびボトムレッジ用のルールが必要です。トップレッジにはシンプルな壁のストライプを使用し、ボトムレッジにはレッジ
-アセットを挿入して他のフロアとの区別がつくようにする必要があります。</p><pre><code>TopLedge --&gt; WallStripe 
+Doortop --&gt;
+	Wall(0)
+
+Door --&gt;
+	t(0,0,-wall_inset)
+	Wall(0)
+</code></pre><p><strong>Door</strong> ルールでは、ドアは壁からセット バックしています。<br>5. ルール ファイルを保存し、モデルを生成します。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-6196FD30-2608-4089-9531-A9406930837D-web.png data-lightbox=アセットを挿入した状態のドアタイル data-title=アセットを挿入した状態のドアタイル><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-6196FD30-2608-4089-9531-A9406930837D-web.png width></a><h3 id=レッジの追加>レッジの追加</h3><p>トップ レッジにはシンプルな壁のストライプを使用し、ボトム レッジにはレッジ アセットを挿入して他のフロアとの区別がつくようにする必要があります。</p><ol><li>トップとボトムのレッジにルールを追加します。</li></ol><pre><code>TopLedge --&gt;
+	WallStripe
 
 BottomLedge(floorindex) --&gt;
-	case floorindex == 1 : split(y){~1 : Wall(0) | ~1 : s('1,'1,0.2) LedgeAsset}
-	case floorindex == 999 : split(y){~1 : WallStripe | ~1 : s('1,'1,0.2) LedgeAsset}
+	case floorindex == 1 :
+		split(y) { ~1 : Wall(0)
+			 | ~1 : s('1, '1, 0.2) LedgeAsset }
+	case floorindex == 999 :
+		split(y) { ~1 : WallStripe
+			 | ~1 : s('1, '1, 0.2) LedgeAsset }
 	else : WallStripe
 
-WallStripe --&gt; split(x){ 0.5 : Wall(1) | ~1 : Wall(2) | 0.5 : Wall(1) } 
+WallStripe --&gt;
+	split(x) { 0.5 : Wall(1)
+		 |  ~1 : Wall(2)
+		 | 0.5 : Wall(1) }
 
-LedgeAsset --&gt; i(ledge_asset) Wall(0)
-</code></pre><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-6CBF3E71-6107-480B-8F13-0809342359E2-web.png data-lightbox=" " data-title=" "><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-6CBF3E71-6107-480B-8F13-0809342359E2-web.png width></a>
-<a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-4FBDA8B6-D719-474E-8809-746AECE7B4B5-web.png data-lightbox="レッジ アセットを挿入した状態" data-title="レッジ アセットを挿入した状態"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-4FBDA8B6-D719-474E-8809-746AECE7B4B5-web.png width></a><h3 id=バルコニー>バルコニー</h3><p>次はバルコニーです。</p><ol><li>再度 Floor ルールに注目して第二フロアの case 文に Balcony
-シェープを追加します。</li></ol><pre><code>case floorindex == 2 : 
-		split(y){~1 : Subfloor(floorindex) Balcony | 0.5 : TopLedge}
-</code></pre><ol start=2><li>ここでも最初はシンプルな代理アセットを使用してバルコニーの配置やサイズをチェックします。</li></ol><pre><code>Balcony --&gt; 
-	s('1,2,1) t(0,-0.3,0) i(&quot;builtin:cube&quot;) color(&quot;#99ff55&quot;)
-</code></pre><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-F21F888E-E769-4F18-9367-280DBFABAA36-web.png data-lightbox=バルコニーの位置とサイズを代用キューブで視覚化 data-title=バルコニーの位置とサイズを代用キューブで視覚化><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-F21F888E-E769-4F18-9367-280DBFABAA36-web.png width></a><ol start=3><li>バルコニー ボックスは 3つの要素：桁（Beam）、床（Floor）、手すり（Railing）に分割されます。</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-7D9FD925-AB3D-4211-826C-7D26D53518D5-web.png data-lightbox=バルコニーの解析 data-title=バルコニーの解析><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-7D9FD925-AB3D-4211-826C-7D26D53518D5-web.png width></a><pre><code>Balcony --&gt; 
-	s('1,2,1) t(0,-0.3,0) i(&quot;builtin:cube&quot;) 
-	split(y){0.2 : BalconyBeams 
-			| 0.3 : BalconyFloor 
-			| 1 : RailingBox }
-</code></pre><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-537601ED-E32E-448D-88AF-48924FD10884-web.png data-lightbox=バルコニー要素に分割されたバルコニーキューブ data-title=バルコニー要素に分割されたバルコニーキューブ><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-537601ED-E32E-448D-88AF-48924FD10884-web.png width></a><ol start=4><li>バルコニーを支える桁は split の繰り返しにより作成します。</li></ol><pre><code>BalconyBeams --&gt;			
-	split(x){ ~0.4 : s(0.2,'1,'0.9) center(x)  Wall(0) }*
-</code></pre><p>BalconyFloor シェープは Wall ルールのみをトリガーします。</p><pre><code>BalconyFloor --&gt; Wall(0)
-</code></pre><ol start=5><li>RailingBox に対して component split
-を使用し、バルコニーの手すりとして使用する面を抽出します。</li></ol><pre><code># RailingBox シェープの前、左、右要素を取得
-RailingBox --&gt;
-	comp(f){front : Rail | left : Rail | right : Rail}
-</code></pre><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-B25FE105-E4DE-4FDD-9303-9B8CB69D74E1-web.png data-lightbox=桁と手すりの面が付いたバルコニー data-title=桁と手すりの面が付いたバルコニー><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-B25FE105-E4DE-4FDD-9303-9B8CB69D74E1-web.png width></a><ol start=6><li>最後に、バルコニーの手すりとなるキューブのサイズを決定し挿入します。</li></ol><pre><code>Rail --&gt; 
-	 s('1.1,'1,0.1) t(0,0,-0.1) center(x) i(&quot;builtin:cube&quot;) Wall(0)
-</code></pre><h3 id=ジオメトリ-アセットによるファサードの完成形>ジオメトリ アセットによるファサードの完成形</h3><p>これで最終的なモデルができましたので、このルールを別の区画シェープに適用したり、[Inspector]
-ウィンドウにある属性を変更してファサードのデザインを変えたりして遊んでみましょう。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-5359BA93-6532-42F3-86DE-F468D0E65AEB-web.png data-lightbox=アセットによる最終的なファサードモデル data-title=アセットによる最終的なファサードモデル><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-5359BA93-6532-42F3-86DE-F468D0E65AEB-web.png width></a>
-<a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-E4F81817-7060-482A-A714-B2EBDD8DFF5F-web.png data-lightbox=最終的なファサードモデルをエクスポートし、Blenderでレンダリングした状態 data-title=最終的なファサードモデルをエクスポートし、Blenderでレンダリングした状態><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-E4F81817-7060-482A-A714-B2EBDD8DFF5F-web.png width></a><p>次の <a href=#part-3-%E3%83%95%E3%82%A1%E3%82%B5%E3%83%BC%E3%83%89%E3%81%B8%E3%81%AE%E3%83%86%E3%82%AF%E3%82%B9%E3%83%81%E3%83%A3%E8%B2%BC%E3%82%8A%E4%BB%98%E3%81%91>Part 3</a>
-では、このファサードにテクスチャを貼り付ける方法を学習します。</p><h2 id=part-3-ファサードへのテクスチャ貼り付け>Part 3 :ファサードへのテクスチャ貼り付け</h2><p>このパートではここまでに作成したファサードへテクスチャを貼り付けるテクニックを紹介します。</p><ol><li><p>シーン ファイル
-<strong>Tutorial_07_Facade_Modeling/scenes/FacadeModeling_03.cej</strong>
-を開きます。</p></li><li><p>CGA ファイル <strong>Tutorial_07_Facade_Modeling/rules/facade_03.cga</strong>
-を開きます。</p></li></ol><h3 id=テクスチャ-アセット>テクスチャ アセット</h3><ol><li>ルール ファイルの先頭に、属性として使用するテクスチャを追加します。</li></ol><pre><code>const wall_tex				= &quot;facades/textures/brickwall.jpg&quot;
-const wall2_tex				= &quot;facades/textures/brickwall_bright.jpg&quot;
-const dirt_tex				= &quot;facades/textures/dirtmap.15.tif&quot;
-const doortop_tex			= &quot;facades/textures/doortoptex.jpg&quot;
-</code></pre><ol start=2><li>窓またはドアのテクスチャについてはテクスチャ文字列を取得する関数を使用するため、すべてのテクスチャを個別に並べる必要はありません。</li></ol><pre><code>randomWindowTex = fileRandom(&quot;*facades/textures/window.*.jpg&quot;)
-randomDoorTex = fileRandom(&quot;*facades/textures/doortex.*.jpg&quot;)
-</code></pre><h3 id=グローバル-uv-座標の設定>グローバル UV 座標の設定</h3><p>シェープ グラマーでのテクスチャリングは次の 3 つのコマンドで行われます。</p><ul><li><p><strong>setupProjection():</strong> uv 座標空間を定義します。</p></li><li><p><strong>set(material.map)</strong>: テクスチャ ファイルを設定します。</p></li><li><p><strong>projectUV()</strong>: UV 座標を適用します。</p></li></ul><p>ここでは、ブロック テクスチャとダート テクスチャの 2 つのテクスチャ
-レイヤーをファサードに追加します。ファサード全体で一貫したテクスチャ座標としたいので、Facade
-ルールの中で UV
-セットアップを行う必要があります。前もってテクスチャリング設定をテストできるようにするために、新たに中間的なルールFrontfacadeTex
-を追加します。</p><ol><li>Building ルールを次のように変更します。</li></ol><pre><code>Building --&gt; comp(f) { front : FrontfacadeTex}
-</code></pre><ol start=2><li>新しいルールを作成します。</li></ol><pre><code>FrontfacadeTex --&gt;
-	setupProjection(0, scope.xy, 2.25, 1.5, 0, 0, 1) 	
-	setupProjection(2, scope.xy, '1, '1) 	
-	Frontfacade
-</code></pre><p>setupProjection (0, scope.xy, 2.25, 1.5, 1) はテクスチャのチャンネル 0
-（色チャンネル）に対してテクスチャ座標を定義します。UV 座標はスコープの
-xy 平面に投影され、x 方向に 2.25 単位ごとに、y 方向に 1.5
-単位ごとに繰り返されます。カラーマップを "builtin:uvtest.png"
-にセットします。これは UV
-座標をすばやくチェックするためのテクスチャです。最後に UV
-座標をチャンネル 0 に焼きこんで UV 座標を適用します。</p><ol start=3><li>UV 設定を確認するためにファサードを生成してみます。</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-7A97A590-0539-4E15-9BB6-DE752A4619D3-web.png data-lightbox="ファサード上でカラーマップ UV をテスト" data-title="ファサード上でカラーマップ UV をテスト"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-7A97A590-0539-4E15-9BB6-DE752A4619D3-web.png width></a><ol start=4><li>それでは、ダート チャンネル用の UV セットアップを追加しましょう。</li></ol><pre><code>FrontfacadeTex --&gt;
-	setupProjection(0, scope.xy, 2.25, 1.5,  0, 0, 1) 
-	texture(&quot;builtin:uvtest.png&quot;)  
+LedgeAsset --&gt;
+	i(ledge_asset)
+	Wall(0)
+</code></pre><ol start=2><li>ルール ファイルを保存し、モデルを生成します。</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-6CBF3E71-6107-480B-8F13-0809342359E2-web.png data-lightbox=" " data-title=" "><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-6CBF3E71-6107-480B-8F13-0809342359E2-web.png width></a>
+<a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-4FBDA8B6-D719-474E-8809-746AECE7B4B5-web.png data-lightbox="レッジ アセットを挿入した状態" data-title="レッジ アセットを挿入した状態"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-4FBDA8B6-D719-474E-8809-746AECE7B4B5-web.png width></a><h3 id=バルコニーの追加>バルコニーの追加</h3><p>今度は、バルコニーの作成をしていきます。</p><ol><li><strong>Floor</strong> ルールを編集し、<strong>Balcony</strong> 形状を case floorindex == 2 : に追加します。</li></ol><pre><code>case floorindex == 2 :
+		split(y) {  ~1 : Subfloor(floorindex) Balcony 
+			 | 0.5 : TopLedge }
+</code></pre><ol start=2><li><strong>LedgeAsset</strong> ルールの後に <strong>Balcony</strong> ルールを追加し、バルコニーの配置とサイズを確保するために、色を追加した単純な代用の立方体を作成します。</li></ol><pre><code>Balcony --&gt;
+	s('1, 2, 1)
+	t(0, -0.3, 0)
+	i(&quot;builtin:cube&quot;)
+	color(&quot;#99ff55&quot;)
+</code></pre><ol start=3><li>ルール ファイルを保存し、モデルを生成します。</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-F21F888E-E769-4F18-9367-280DBFABAA36-web.png data-lightbox=バルコニーの位置とサイズを代用の立方体で視覚化 data-title=バルコニーの位置とサイズを代用の立方体で視覚化><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-F21F888E-E769-4F18-9367-280DBFABAA36-web.png width></a><ol start=4><li>以下の図のように、バルコニー ボックスを 3 つの要素に分割します。：梁 (Beams)、床 (Floor)、手すり (Railing)</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-7D9FD925-AB3D-4211-826C-7D26D53518D5-web.png data-lightbox=バルコニーの解析 data-title=バルコニーの解析><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-7D9FD925-AB3D-4211-826C-7D26D53518D5-web.png width></a><p>a. バルコニーを <strong>BalconyBeams</strong>、<strong>BalconyFloor</strong>、および <strong>RailingBox</strong> エレメントに分割して、<strong>Balcony</strong> ルールの緑色を置き換えます。</p><pre><code>Balcony --&gt;
+		s('1, 2, 1)
+		t(0, -0.3, 0)
+		i(&quot;builtin:cube&quot;)
+		split(y) { 0.2 : BalconyBeams
+				 | 0.3 : BalconyFloor
+				 |   1 : RailingBox }
+</code></pre><p>b. ルール ファイルを保存し、モデルを生成します。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-537601ED-E32E-448D-88AF-48924FD10884-web.png data-lightbox=バルコニー要素に分割されたバルコニー立方体 data-title=バルコニー要素に分割されたバルコニー立方体><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-537601ED-E32E-448D-88AF-48924FD10884-web.png width></a><ol start=5><li>繰り返し分割してバルコニーを支える梁を作成します。</li></ol><pre><code>BalconyBeams --&gt;
+	split(x) { ~0.4 : s(0.2, '1, '0.9) center(x) Wall(0) }*
+</code></pre><p><strong>BalconyFloor</strong> 形状は <strong>Wall</strong> ルールのみを定義します。</p><pre><code>BalconyFloor --&gt; Wall(0)
+</code></pre><ol start=6><li><strong>RailingBox</strong> ルールに対して component split を使用し、バルコニーの手すりとして使用する面を抽出します。</li></ol><pre><code>RailingBox --&gt;
+	comp(f) { front : Rail | left : Rail | right : Rail }
+</code></pre><ol start=7><li>バルコニー ボックスのサイズを設定するには、立方体を挿入してバルコニー レールを作成します。</li></ol><pre><code>Rail --&gt;
+	s('1.1, '1, 0.1)
+	t(0, 0, -0.1)
+	center(x)
+	i(&quot;builtin:cube&quot;)
+	Wall(0)
+</code></pre><ol start=8><li>ルール ファイルを保存し、モデルを生成します。</li></ol><p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-5359BA93-6532-42F3-86DE-F468D0E65AEB-web.png data-lightbox=アセットによる最終的なファサードモデル data-title=アセットによる最終的なファサードモデル><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-5359BA93-6532-42F3-86DE-F468D0E65AEB-web.png width></a>
+<a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-E4F81817-7060-482A-A714-B2EBDD8DFF5F-web.png data-lightbox=最終的なファサードモデルをエクスポートし、Blenderでレンダリングした状態 data-title=最終的なファサードモデルをエクスポートし、Blenderでレンダリングした状態><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-E4F81817-7060-482A-A714-B2EBDD8DFF5F-web.png width></a></p><p>これで、ジオメトリ アセットが挿入された最終モデルが完成しました。ルールを様々な区画に適用したり、<strong>[Inspector]</strong> ウィンドウにあるユーザー属性を変更してファサードのデザインを変えることができます。</p><p>最終結果については、<strong>FacadeModeling_03.cej</strong> シーンと <strong>facade_03.cga</strong> ルールを開くことで確認できます。</p><p>次のセクションでは、ファサードにテクスチャを適用する方法を学習します。</p><h2 id=part-3-ファサードのテクスチャを作成>Part 3 :ファサードのテクスチャを作成</h2><p>次に、ファサードにテクスチャを適用します。</p><h3 id=テクスチャ-アセットの作成>テクスチャ アセットの作成</h3><p>テクスチャ アセットを作成するには、以下の手順を実行します。</p><ol><li>アセットを定義した後に、ルール ファイルの先頭に使用するテクスチャを追加します。</li></ol><pre><code>const wall_tex    = &quot;facades/textures/brickwall.jpg&quot;
+const wall2_tex   = &quot;facades/textures/brickwall_bright.jpg&quot;
+const dirt_tex    = &quot;facades/textures/dirtmap.15.tif&quot;
+const doortop_tex = &quot;facades/textures/doortoptex.jpg&quot;
+</code></pre><ol start=2><li>窓とドアのテクスチャについては、それぞれのアセット フォルダーからランダムなテクスチャ文字列を取得する関数を定義することでテクスチャを個別にリストする必要がなくなります。テクスチャの後に以下の行を追加します。</li></ol><pre><code>randomWindowTex = fileRandom(&quot;*facades/textures/window.*.jpg&quot;)
+randomDoorTex   = fileRandom(&quot;*facades/textures/doortex.*.jpg&quot;)
+</code></pre><h3 id=グローバル-uv-座標の設定>グローバル UV 座標の設定</h3><p>CGA を使用したテクスチャリングは、以下の 3 つの手順で行われます。</p><ol><li><p><strong>setupProjection ()</strong> - UV 座標空間を定義します。</p></li><li><p><strong>set (material.map) またはtexture ()</strong> - テクスチャ ファイルを設定します。</p></li><li><p><strong>projectUV ()</strong> - UV 座標を適用します。</p></li></ol><h3 id=テクスチャ-レイヤーの追加>テクスチャ レイヤーの追加</h3><p>レンガのテクスチャとダート マップという 2 つのテクスチャ レイヤーをファサードに追加します。ファサード全体で一貫したテクスチャ座標を維持するには、ファサード ルールに UV 設定を追加する必要があります。テクスチャ設定を事前にテストするために、新しい中間的なルール <strong>FrontfacadeTex</strong> を追加します。</p><ol><li><strong>Building</strong> ルールを以下のように変更します。</li></ol><pre><code>Building --&gt;
+	comp(f) { front : FrontfacadeTex }
+</code></pre><ol start=2><li><strong>Building</strong> ルールの後に新しい <strong>FrontfacadeTex</strong> ルールを作成します。</li></ol><pre><code>FrontfacadeTex --&gt;
+	setupProjection(0, scope.xy, 2.25, 1.5, 0, 0, 1)
+	texture(&quot;builtin:uvtest.png&quot;)
 	projectUV(0)
-	
-	setupProjection(2, scope.xy, '1, '1) 	
-	set(material.dirtmap, &quot;builtin:uvtest.png&quot;)  
-	projectUV(2)
-</code></pre><p>このテクスチャはファサード全体にわたって適用されなければなりません。したがって相対オペレーター
-'1 および '1 を UV
-セットアップに使用します。これはファサードと同じサイズになります。</p><ol start=5><li>再度ファサードを生成すると以下のような結果になります。</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-BC71319D-4538-4FD9-97C1-4D54BD671968-web.png data-lightbox="ファサード上にテスト用のカラーおよびダート UV を貼り付けた状態" data-title="ファサード上にテスト用のカラーおよびダート UV を貼り付けた状態"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-BC71319D-4538-4FD9-97C1-4D54BD671968-web.png width></a><ol start=6><li>実際のテクスチャでファサードがどのように見えるか興味があるなら、ビルト
-インの uvtest テクスチャを実際のものと入れ替えてください。</li></ol><pre><code>FrontfacadeTex --&gt;
-	setupProjection(0, scope.xy, 2.25, 1.5,  0, 0, 1) 
-	texture(wall_tex)  
+</code></pre><p><strong>setupProjection (0,scope.xy,2.25,1.5,0,0,1)</strong> は、テクスチャ チャネル 0 (カラー チャネル) のテクスチャ座標を定義します。UV 座標はスコープの x、y 平面に沿って投影され、x 方向には 2.25 単位ごと、y 方向には 1.5 単位ごとに繰り返されます。texture () 操作は <strong>set (material.map)</strong> のショートカットです。この場合、カラー マップを <strong>builtin:uvtest.png</strong> に設定します。これは、UV 座標をすばやく確認するためのテクスチャです。最後に、チャンネル 0 の UV 座標をベイクし、UV 座標を適用します。</p><ol start=3><li>ルール ファイルを保存しファサードを生成して、 UV 設定を確認します。</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-7A97A590-0539-4E15-9BB6-DE752A4619D3-web.png data-lightbox="ファサード上でカラーマップ UV をテスト" data-title="ファサード上でカラーマップ UV をテスト"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-7A97A590-0539-4E15-9BB6-DE752A4619D3-web.png width></a><ol start=4><li>ダート チャンネルの UV セットアップを追加します。</li></ol><pre><code>FrontfacadeTex --&gt;
+	setupProjection(0, scope.xy, 2.25, 1.5, 0, 0, 1)
+	texture(&quot;builtin:uvtest.png&quot;)
 	projectUV(0)
-	
-	setupProjection(2, scope.xy, '1, '1) 	
-	set(material.dirtmap, dirt_tex)  
+
+	setupProjection(2, scope.xy, '1, '1)
+	set(material.dirtmap, (&quot;builtin:uvtest.png&quot;))
 	projectUV(2)
-</code></pre><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-DBA218D4-A4DB-4998-A1F1-E3DF7CA81FE8-web.png data-lightbox=" " data-title=" "><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-DBA218D4-A4DB-4998-A1F1-E3DF7CA81FE8-web.png width></a><div style=text-align:center>ファサード上でカラーおよびダート UV をテストした状態<br>左: ブロック テクスチャ; 中央: ダート テクスチャ; 右: ブロックとダート
-テクスチャの合成</div><p>このファサードに対して UV 座標は問題ないようです。</p><ol start=7><li>実際の建物に対しては、この時点では UV
-セットアップ以外は必要ないため、 FrontfacadeTex
-ルールを以下のように書き換えます。</li></ol><pre><code>FrontfacadeTex --&gt;
-	setupProjection(0, scope.xy, 2.25, 1.5,  0, 0, 1) 		
-	setupProjection(2, scope.xy, '1, '1) 	
+</code></pre><p>このテクスチャはファサード全体に広がる必要があるため、ファサードの寸法である UV 設定には相対演算子 &lsquo;1 と &lsquo;1 を使用します。</p><ol start=5><li>ルール ファイルを再度保存して、生成します。</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-BC71319D-4538-4FD9-97C1-4D54BD671968-web.png data-lightbox="ファサード上にテスト用のカラーおよびダート UV を貼り付けた状態" data-title="ファサード上にテスト用のカラーおよびダート UV を貼り付けた状態"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-BC71319D-4538-4FD9-97C1-4D54BD671968-web.png width></a><ol start=6><li>ファサードがテクスチャでどのように見えるかを確認するために、<strong>builtin:uvtest.png</strong> テクスチャを実際のテクスチャと交換します。</li></ol><pre><code>FrontfacadeTex --&gt;
+	setupProjection(0, scope.xy, 2.25, 1.5, 0, 0, 1)
+	texture(wall_tex)
+	projectUV(0)
+
+	setupProjection(2, scope.xy, '1, '1)
+	set(material.dirtmap, dirt_tex)
+	projectUV(2)
+</code></pre><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-DBA218D4-A4DB-4998-A1F1-E3DF7CA81FE8-web.png data-lightbox=" " data-title=" "><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-DBA218D4-A4DB-4998-A1F1-E3DF7CA81FE8-web.png width></a><p>UV 座標はファサードに適しています。</p><ol start=7><li>建物の場合、この時点では UV のセットアップのみが必要なため、<strong>FrontfacadeTex</strong> ルールを以下のように変更します。</li></ol><pre><code>FrontfacadeTex --&gt;
+	setupProjection(0, scope.xy, 2.25, 1.5,  0, 0, 1)
+	setupProjection(2, scope.xy, '1, '1)
 	Frontfacade
-</code></pre><p>これで元々の Frontfacade ルールに以降の要素で使用する UV
-座標のセットアップが正しく付与されました。</p><h3 id=壁へのテクスチャリング>壁へのテクスチャリング</h3><p>Wall ルールにどのようなタイプ
-パラメーターを追加したか覚えていますか？ここでやっとその恩恵を受けることができます。異なるテクスチャを持つ3つの壁タイプを作成したいと思います。</p><ol><li>Wall ルールを以下のように変更します。</li></ol><pre><code>Wall(walltype) --&gt;
+</code></pre><p><strong>Frontfacade</strong> ルールでは、後続のエレメントに対して UV 座標が正しく設定されるようになりました。</p><p>詳細については、<a href=https://doc.arcgis.com/en/cityengine/latest/cga/cga-texturing-essential-knowledge.htm>Texturing: Essential knowledge</a> の <a href=https://doc.arcgis.com/en/cityengine/latest/cga/cityengine-cga-introduction.htm>CGA reference</a> を参照してください。</p><h3 id=壁にテクスチャを貼り付ける>壁にテクスチャを貼り付ける</h3><p>ワークフローの前半で、<strong>walltype</strong> パラメータを <strong>Wall</strong> ルールに追加しました。これを使用して、壁のタイプごとに異なるテクスチャを割り当てます。</p><ol><li><strong>Wall</strong> ルールを探して以下のように変更します。</li></ol><pre><code>Wall(walltype) --&gt;
 	// dark bricks with dirt
 	case walltype == 1 :
 		color(wallColor)
-		texture(wall_tex)  
+		texture(wall_tex)
 		set(material.dirtmap, dirt_tex)
 		projectUV(0) projectUV(2)
-	// bright bricks with dirt	
+	// bright bricks with dirt
 	case walltype == 2 :
 		color(wallColor)
-		texture(wall2_tex)  
+		texture(wall2_tex)
 		set(material.dirtmap, dirt_tex)
 		projectUV(0) projectUV(2)
-	// dirt only	
+	// dirt only
 	else :
 		color(wallColor)
 		set(material.dirtmap, dirt_tex)
 		projectUV(2)
-</code></pre><p>このようにすべての要素にテクスチャが付与されました。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-15C4CD15-E68A-45E9-9EFB-9E3C29F7DE2D-web.png data-lightbox=すべての壁エレメントにテクスチャが付与されたファサード data-title=すべての壁エレメントにテクスチャが付与されたファサード><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-15C4CD15-E68A-45E9-9EFB-9E3C29F7DE2D-web.png width></a><h3 id=窓アセットへのテクスチャリング>窓アセットへのテクスチャリング</h3><p>窓アセットに対しては、窓テクスチャのセットを使用してガラス面を色付けしたいと思います。そのためには
-UV
-座標をガラスシェープ全体にわたって適用されるようにする必要がありますが、これは
-x および y 方向に <strong>'1</strong> を使用することで可能です。</p><ol><li>テクスチャとして、以前定義した randomWindowTex
-関数を呼び出して使用します。</li></ol><pre><code>Glass --&gt;
-	setupProjection(0,scope.xy, '1, '1)
+</code></pre><ol start=2><li>ルール ファイルを保存してモデルを再生します。</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-881E897B-4416-49F9-8BB6-19749C672327-web.png data-lightbox=壁が適用されたファサード data-title=壁が適用されたファサード><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-881E897B-4416-49F9-8BB6-19749C672327-web.png width></a><p>すべての壁エレメントは、いずれかのタイプの壁でテクスチャされます。</p><h3 id=窓アセットのテクスチャを設定する>窓アセットのテクスチャを設定する</h3><p>窓アセットの場合、一連の窓テクスチャを使用してガラス板に色を付けるため、ガラス形状全体にわたるように UV 座標を設定する必要があります。これを行うには、x 方向と y 方向の両方に <strong>&lsquo;1</strong> を使用します。テクスチャ操作では、前に定義した <strong>randomWindowTex</strong> 関数を呼び出すことによって、ランダムなガラスのテクスチャが選択されます。</p><ol><li><strong>Window</strong> ルールの後に <strong>Glass</strong> ルールを追加します。</li></ol><pre><code>Glass --&gt;
+	setupProjection(0, scope.xy, '1, '1)
 	projectUV(0)
 	texture(randomWindowTex)
-</code></pre><ol start=2><li>さらにガラスに反射効果を与えます。</li></ol><pre><code>Glass --&gt;
-	setupProjection(0,scope.xy, '1, '1)
-	projectUV(0)
-	texture(randomWindowTex) 
-	set(material.specular.r, 1) set(material.specular.g, 1)   
-      set(material.specular.b, 1)
-	set(material.shininess, 4)
-</code></pre><h3 id=ドアシェープへのテクスチャリング>ドアシェープへのテクスチャリング</h3><p>ドア面は窓ガラスと同様にテクスチャリングします。</p><pre><code>Doortop --&gt;
+</code></pre><ol start=2><li>ルール ファイルを保存して、モデルを生成します。</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-15C4CD15-E68A-45E9-9EFB-9E3C29F7DE2D-web.png data-lightbox=窓が適用されたファサード data-title=窓が適用されたファサード><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-15C4CD15-E68A-45E9-9EFB-9E3C29F7DE2D-web.png width></a><ol start=3><li>次に、ガラスに鏡面光沢を追加します。</li></ol><pre><code>Glass --&gt;
 	setupProjection(0, scope.xy, '1, '1)
-	texture(doortop_tex) 
 	projectUV(0)
+	texture(randomWindowTex)
+	set(material.specular.r, 1)
+	set(material.specular.g, 1)
+	set(material.specular.b, 1)
+	set(material.shininess, 4)
+</code></pre><ol start=4><li>ルール ファイルを保存してモデルを生成します。</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-863EA4CD-69D7-4181-8D2C-A49E43D70AD4-web.png data-lightbox data-title><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-863EA4CD-69D7-4181-8D2C-A49E43D70AD4-web.png width></a><h3 id=ドア形状にテクスチャを貼り付ける>ドア形状にテクスチャを貼り付ける</h3><p>ドア面は窓ガラスと同じテクスチャになっています。<strong>Doortop</strong> ルールと <strong>Door</strong> ルールを以下のように置き換えます。</p><pre><code>Doortop --&gt;
+	setupProjection(0, scope.xy, '1, '1)
+	texture(doortop_tex)
+	projectUV(0)
+
 Door --&gt;
-	t(0,0,-wall_inset)
-	setupProjection(0,scope.xy, '1, '1)
-	texture(randomDoorTex) 
+	t(0, 0, -wall_inset)
+	setupProjection(0, scope.xy, '1, '1)
+	texture(randomDoorTex)
 	projectUV(0)
-</code></pre><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-6596F59E-08D1-42BE-9E14-44482EF8F227-web.png data-lightbox=すべてのテクスチャが適用されたファサードの完成形 data-title=すべてのテクスチャが適用されたファサードの完成形><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-6596F59E-08D1-42BE-9E14-44482EF8F227-web.png width></a><footer class=footline></footer></div></div><div id=navigation><a class="nav nav-prev" href=../../../../cityengine/tutorials/classic/tutorial-6-basic-shape-grammar/ title="チュートリアル 6: 基本的なシェープ グラマー"><i class="fa fa-chevron-left"></i><label>チュートリアル 6: 基本的なシェープ グラマー</label></a>
+</code></pre><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-6596F59E-08D1-42BE-9E14-44482EF8F227-web.png data-lightbox=すべてのテクスチャが適用されたファサードの完成形 data-title=すべてのテクスチャが適用されたファサードの完成形><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-7-Facade-modeling/GUID-6596F59E-08D1-42BE-9E14-44482EF8F227-web.png width></a><p><strong>FacadeModeling_04.cej</strong> シーンと <strong>facade_04.cga</strong> ルールを開いて、最終結果を確認します。</p><p>このチュートリアルでは、以下の方法を学習しました。</p><ul><li>ファサードの構造をモデル化</li><li>窓、ドア、レッジなどのアセットを挿入</li><li>壁、窓、ドアにテクスチャを適用</li></ul><p>CGA 形状文法の詳細については、 <a href=https://doc.arcgis.com/en/cityengine/latest/tutorials/essentials-rule-based-modeling.htm>Rule-based modeling tutorial</a>、および <a href=https://doc.arcgis.com/en/cityengine/latest/get-started/get-started-rule-based-modeling.htm>Rule-based modeling</a> と <a href=https://doc.arcgis.com/en/cityengine/latest/help/help-cga-modeling-overview.htm>CGA modeling</a> のヘルプ トピックを参照してください。</p><footer class=footline></footer></div></div><div id=navigation><a class="nav nav-prev" href=../../../../cityengine/tutorials/classic/tutorial-6-basic-shape-grammar/ title="チュートリアル 6: 基本的なシェープ グラマー"><i class="fa fa-chevron-left"></i><label>チュートリアル 6: 基本的なシェープ グラマー</label></a>
 <a class="nav nav-next" href=../../../../cityengine/tutorials/classic/tutorial-8-mass-modeling/ title="チュートリアル 8 : マスモデリング" style=margin-right:0><label>チュートリアル 8 : マスモデリング</label><i class="fa fa-chevron-right"></i></a></div></section><div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px><div style=border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px></div></div><script src=../../../../js/clipboard.min.js></script><script src=../../../../js/featherlight.min.js></script><script src=../../../../js/html5shiv-printshiv.min.js></script><script src=../../../../js/modernizr.custom.71422.js></script><script src=../../../../js/docdock.js></script><script src=../../../../theme-original/script.js></script></body></html>
