@@ -1,4 +1,4 @@
-<!doctype html><html><head><script async src="https://www.googletagmanager.com/gtag/js?id=UA-219516431-1"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-219516431-1')</script><title>チュートリアル 9: 高度なシェープ グラマー | ArcGIS リソース集</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name=revised content="2024-01-29T14:25:59 UTC"><link rel="shortcut icon" href=../../../../images/favicon.png type=image/x-icon><link href=../../../../css/nucleus.css rel=stylesheet><link href=../../../../css/font-awesome.min.css rel=stylesheet><link href=../../../../css/hybrid.css rel=stylesheet><link href=../../../../css/featherlight.min.css rel=stylesheet><link href=../../../../css/auto-complete.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.css rel=stylesheet><link href=../../../../theme-original/style.css rel=stylesheet><link rel=stylesheet href=../../../../css/bootstrap.min.css><script src=../../../../js/jquery-2.x.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js></script><style type=text/css>:root #header+#content>#left>#rlblock_left{display:none!important}</style><meta name=description content="写真から建物をモデリングする方法や、いくつかの高度な CGA テクニックについて学習します。"></head><body data-url=../../../../cityengine/tutorials/classic/tutorial-9-advanced-shape-grammar/><div id=headermain></div><nav id=sidebar><div class=highlightable><div id=header-wrapper><div id=header><a class=baselink href>ArcGIS リソース集</a></div><div class=searchbox><label for=search-by><i class="fa fa-search"></i></label>
+<!doctype html><html><head><script async src="https://www.googletagmanager.com/gtag/js?id=UA-219516431-1"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-219516431-1')</script><title>チュートリアル 9: 高度なシェープ グラマー | ArcGIS リソース集</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name=revised content="2024-01-30T09:28:35 UTC"><link rel="shortcut icon" href=../../../../images/favicon.png type=image/x-icon><link href=../../../../css/nucleus.css rel=stylesheet><link href=../../../../css/font-awesome.min.css rel=stylesheet><link href=../../../../css/hybrid.css rel=stylesheet><link href=../../../../css/featherlight.min.css rel=stylesheet><link href=../../../../css/auto-complete.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.css rel=stylesheet><link href=../../../../theme-original/style.css rel=stylesheet><link rel=stylesheet href=../../../../css/bootstrap.min.css><script src=../../../../js/jquery-2.x.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js></script><style type=text/css>:root #header+#content>#left>#rlblock_left{display:none!important}</style><meta name=description content="写真から建物をモデリングする方法や、いくつかの高度な CGA テクニックについて学習します。"></head><body data-url=../../../../cityengine/tutorials/classic/tutorial-9-advanced-shape-grammar/><div id=headermain></div><nav id=sidebar><div class=highlightable><div id=header-wrapper><div id=header><a class=baselink href>ArcGIS リソース集</a></div><div class=searchbox><label for=search-by><i class="fa fa-search"></i></label>
 <input data-search-input id=search-by type=text placeholder=検索...>
 <span data-search-clear><i class="fa fa-close"></i></span></div><script type=text/javascript src=../../../../js/lunr.min.js></script><script type=text/javascript src=../../../../js/auto-complete.js></script><script type=text/javascript>var baseurl=""</script><script type=text/javascript src=../../../../js/search.js></script></div><ul class=topics><li data-nav-id=/ class=dd-item><a href=../../../../><i class="fa fa-fw fa-home"></i></a></li><li data-nav-id=/cityengine/ class="dd-item parent haschildren"><div><a href=../../../../cityengine/>ArcGIS CityEngine</a>
 <i class="fa fa-angle-down fa-lg category-icon"></i></div><ul><li data-nav-id=/cityengine/get-started/ class="dd-item haschildren"><div><a href=../../../../cityengine/get-started/>スタートアップ ガイド</a><i class="fa fa-angle-right fa-lg category-icon"></i></div><ul><li data-nav-id=/cityengine/get-started/setup/ class="dd-item haschildren"><div><a href=../../../../cityengine/get-started/setup/>セットアップ</a><i class="fa fa-angle-right fa-lg category-icon"></i></div><ul><li data-nav-id=/cityengine/get-started/setup/environment/ class=dd-item><div><a href=../../../../cityengine/get-started/setup/environment/>システム要件</a></div></li><li data-nav-id=/cityengine/get-started/setup/download/ class=dd-item><div><a href=../../../../cityengine/get-started/setup/download/>ダウンロード</a></div></li><li data-nav-id=/cityengine/get-started/setup/install/ class="dd-item haschildren"><div><a href=../../../../cityengine/get-started/setup/install/>インストールと認証</a><i class="fa fa-angle-right fa-lg category-icon"></i></div><ul><li data-nav-id=/cityengine/get-started/setup/install/installation/ class=dd-item><div><a href=../../../../cityengine/get-started/setup/install/installation/>インストールとアンインストール</a></div></li><li data-nav-id=/cityengine/get-started/setup/install/authorization/ class=dd-item><div><a href=../../../../cityengine/get-started/setup/install/authorization/>ソフトウェアの認証</a></div></li></ul></li><li data-nav-id=/cityengine/get-started/setup/license-manager/ class=dd-item><div><a href=../../../../cityengine/get-started/setup/license-manager/>ライセンス マネージャー</a></div></li></ul></li><li data-nav-id=/cityengine/get-started/quickstart-tutorials/ class="dd-item haschildren"><div><a href=../../../../cityengine/get-started/quickstart-tutorials/>クイック スタート チュートリアル</a><i class="fa fa-angle-right fa-lg category-icon"></i></div><ul><li data-nav-id=/cityengine/get-started/quickstart-tutorials/basic-operation/ class=dd-item><div><a href=../../../../cityengine/get-started/quickstart-tutorials/basic-operation/>基本操作</a></div></li><li data-nav-id=/cityengine/get-started/quickstart-tutorials/create-project/ class=dd-item><div><a href=../../../../cityengine/get-started/quickstart-tutorials/create-project/>プロジェクトの作成</a></div></li><li data-nav-id=/cityengine/get-started/quickstart-tutorials/create-cga/ class=dd-item><div><a href=../../../../cityengine/get-started/quickstart-tutorials/create-cga/>CGA の作成</a></div></li><li data-nav-id=/cityengine/get-started/quickstart-tutorials/advanced-cga/ class=dd-item><div><a href=../../../../cityengine/get-started/quickstart-tutorials/advanced-cga/>高度な CGA</a></div></li><li data-nav-id=/cityengine/get-started/quickstart-tutorials/apply-texture/ class=dd-item><div><a href=../../../../cityengine/get-started/quickstart-tutorials/apply-texture/>テクスチャの適用</a></div></li><li data-nav-id=/cityengine/get-started/quickstart-tutorials/utilize-sample/ class=dd-item><div><a href=../../../../cityengine/get-started/quickstart-tutorials/utilize-sample/>サンプルの活用</a></div></li></ul></li></ul></li><li data-nav-id=/cityengine/tutorials/ class="dd-item parent haschildren"><div><a href=../../../../cityengine/tutorials/>チュートリアル</a>
@@ -8,179 +8,218 @@
 <i class="fa fa-angle-down fa-lg category-icon"></i></div><ul><li data-nav-id=/drone2map/get-started/license/ class=dd-item><div><a href=../../../../drone2map/get-started/license/>ライセンス</a></div></li><li data-nav-id=/drone2map/get-started/environment/ class=dd-item><div><a href=../../../../drone2map/get-started/environment/>動作環境</a></div></li><li data-nav-id=/drone2map/get-started/download/ class=dd-item><div><a href=../../../../drone2map/get-started/download/>ダウンロード</a></div></li><li data-nav-id=/drone2map/get-started/installuninstall/ class=dd-item><div><a href=../../../../drone2map/get-started/installuninstall/>インストールとアンインストール</a></div></li><li data-nav-id=/drone2map/get-started/signinsignout/ class=dd-item><div><a href=../../../../drone2map/get-started/signinsignout/>サイン インとサイン アウト</a></div></li></ul></li><li data-nav-id=/drone2map/quick-start/ class="dd-item alwaysopen haschildren"><div><a href=../../../../drone2map/quick-start/>クイックスタート ガイド</a>
 <i class="fa fa-angle-down fa-lg category-icon"></i></div><ul><li data-nav-id=/drone2map/quick-start/2d_rapid/ class="dd-item haschildren"><div><a href=../../../../drone2map/quick-start/2d_rapid/>高速</a><i class="fa fa-angle-right fa-lg category-icon"></i></div><ul><li data-nav-id=/drone2map/quick-start/2d_rapid/2drapid_createproj/ class=dd-item><div><a href=../../../../drone2map/quick-start/2d_rapid/2drapid_createproj/>プロジェクトの作成</a></div></li><li data-nav-id=/drone2map/quick-start/2d_rapid/2drapid_processingoption/ class=dd-item><div><a href=../../../../drone2map/quick-start/2d_rapid/2drapid_processingoption/>処理設定の確認</a></div></li><li data-nav-id=/drone2map/quick-start/2d_rapid/2drapid_result/ class=dd-item><div><a href=../../../../drone2map/quick-start/2d_rapid/2drapid_result/>処理結果の確認</a></div></li></ul></li><li data-nav-id=/drone2map/quick-start/2d_mapping/ class="dd-item haschildren"><div><a href=../../../../drone2map/quick-start/2d_mapping/>2D プロダクト</a><i class="fa fa-angle-right fa-lg category-icon"></i></div><ul><li data-nav-id=/drone2map/quick-start/2d_mapping/2dmapping_createproject/ class=dd-item><div><a href=../../../../drone2map/quick-start/2d_mapping/2dmapping_createproject/>プロジェクトの作成</a></div></li><li data-nav-id=/drone2map/quick-start/2d_mapping/2dmapping_processingoption/ class=dd-item><div><a href=../../../../drone2map/quick-start/2d_mapping/2dmapping_processingoption/>処理設定の確認</a></div></li><li data-nav-id=/drone2map/quick-start/2d_mapping/2dmapping_result/ class=dd-item><div><a href=../../../../drone2map/quick-start/2d_mapping/2dmapping_result/>処理結果の確認</a></div></li></ul></li><li data-nav-id=/drone2map/quick-start/3d_mapping/ class="dd-item haschildren"><div><a href=../../../../drone2map/quick-start/3d_mapping/>3D プロダクト</a><i class="fa fa-angle-right fa-lg category-icon"></i></div><ul><li data-nav-id=/drone2map/quick-start/3d_mapping/3dmapping_createproject/ class=dd-item><div><a href=../../../../drone2map/quick-start/3d_mapping/3dmapping_createproject/>プロジェクトの作成</a></div></li><li data-nav-id=/drone2map/quick-start/3d_mapping/3dmapping_processingoption/ class=dd-item><div><a href=../../../../drone2map/quick-start/3d_mapping/3dmapping_processingoption/>処理設定の確認</a></div></li><li data-nav-id=/drone2map/quick-start/3d_mapping/3dmapping_result/ class=dd-item><div><a href=../../../../drone2map/quick-start/3d_mapping/3dmapping_result/>処理結果の確認</a></div></li></ul></li><li data-nav-id=/drone2map/quick-start/custom/ class="dd-item haschildren"><div><a href=../../../../drone2map/quick-start/custom/>カスタム テンプレート</a><i class="fa fa-angle-right fa-lg category-icon"></i></div><ul><li data-nav-id=/drone2map/quick-start/custom/custom_createproject/ class=dd-item><div><a href=../../../../drone2map/quick-start/custom/custom_createproject/>カスタム テンプレート</a></div></li></ul></li></ul></li></ul></li><section id=shortcuts><li role><a href=https://www.esrij.com/ target=_blank rel=noopener><label>ESRIジャパン株式会社</label></a></li></section><hr><li></li></ul><section id=footer><center><br>© Esri Japan. All rights reserved.<br></center></section></div></nav><section id=body><div id=overlay></div><div class="padding highlightable"><div id=top-bar><div id=breadcrumbs itemscope itemtype=http://data-vocabulary.org/Breadcrumb><span id=sidebar-toggle-span><a href=# id=sidebar-toggle data-sidebar-toggle><i class="fa fa-bars"></i></a></span>
 <span id=toc-menu><i class="fa fa-list-alt"></i></span>
-<span class=links><a href=../../../../>ArcGIS リソース集</a> > <a href=../../../../cityengine/>ArcGIS CityEngine</a> > <a href=../../../../cityengine/tutorials/>チュートリアル</a> > <a href=../../../../cityengine/tutorials/classic/>クラシック</a> > チュートリアル 9: 高度なシェープ グラマー</span></div><div class=progress><div class=wrapper><nav id=TableOfContents><ul><li><a href=#チュートリアル-データ>チュートリアル データ</a></li><li><a href=#概要>概要</a></li><li><a href=#part-1-複雑なファサード-パターン>Part 1: 複雑なファサード パターン</a><ul><li><a href=#チュートリアルのセットアップ>チュートリアルのセットアップ</a></li><li><a href=#建物の生成>建物の生成</a></li><li><a href=#ファサードの解析>ファサードの解析</a></li><li><a href=#属性変数およびアセット>属性、変数およびアセット</a></li><li><a href=#ファサードとフロア>ファサードとフロア</a></li><li><a href=#タイル>タイル</a></li><li><a href=#windows-窓>Windows (窓)</a></li><li><a href=#材質>材質</a></li><li><a href=#細部の要素>細部の要素</a></li><li><a href=#スタイルの変更>スタイルの変更</a></li></ul></li><li><a href=#part-2-キャンドラー-ビルディング>Part 2: キャンドラー ビルディング</a></li><li><a href=#part-3-パルテノン神殿>Part 3: パルテノン神殿</a></li></ul></nav></div></div></div><div id=body-inner><h1>チュートリアル 9: 高度なシェープ グラマー</h1><h2 id=チュートリアル-データ>チュートリアル データ</h2><p>チュートリアル データは、<strong>[Help] メニュー → [Download Tutorials and Examples…]</strong> を選択し、[CityEngine Tutorial] からダウンロードできます。</p><h2 id=概要>概要</h2><p>写真から建物をモデリングする方法や、いくつかの高度な CGA テクニックについて学習します。</p><table><thead><tr><th style=text-align:left>演習</th></tr></thead><tbody><tr><td style=text-align:left>・<a href=#part-1-%E8%A4%87%E9%9B%91%E3%81%AA%E3%83%95%E3%82%A1%E3%82%B5%E3%83%BC%E3%83%89-%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3>Part 1: 複雑なファサード パターン</a></td></tr><tr><td style=text-align:left>・<a href=#part-2-%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%89%E3%83%A9%E3%83%BC-%E3%83%93%E3%83%AB%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0>Part 2: キャンドラー ビルディング</a></td></tr><tr><td style=text-align:left>・<a href=#part-3-%E3%83%91%E3%83%AB%E3%83%86%E3%83%8E%E3%83%B3%E7%A5%9E%E6%AE%BF>Part 3: パルテノン神殿</a></td></tr></tbody></table><h2 id=part-1-複雑なファサード-パターン>Part 1: 複雑なファサード パターン</h2><h3 id=チュートリアルのセットアップ>チュートリアルのセットアップ</h3><p><strong>ComplexPatterns.cej</strong> シーンを開きます。</p><h3 id=建物の生成>建物の生成</h3><p>このチュートリアルでは、実際の写真と CGA のみから建物を再現する CGA ルールを作成する方法を紹介します。<br>これからモデリングするファサードの写真は以下のようなものです。この例にはタイルや窓のレイアウトに特殊なパターンが含まれているため、入れ子式の繰り返し分割やパラメーターの受け渡しなどのいくつかのより高度な CGA メカニズムを使用する必要があります。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-1A784D47-72BC-49D2-A9A3-9F3100F0BF39-web.png data-lightbox=ファサードの写真 data-title=ファサードの写真><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-1A784D47-72BC-49D2-A9A3-9F3100F0BF39-web.png width=500></a>
-<a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-3D223736-73E8-431B-9FF8-925F0447F7E4-web.png data-lightbox=最終成果物となる建物モデル data-title=最終成果物となる建物モデル><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-3D223736-73E8-431B-9FF8-925F0447F7E4-web.png width=500></a><p>まず最初に、建物を生成します。</p><ol><li><p>[3D View] ウィンドウの中で区画を 1 つ選択します。</p></li><li><p>ツールバーの [Generate] ボタンをクリックします。</p></li></ol><h3 id=ファサードの解析>ファサードの解析</h3><p>新しいCGAルールを考える際には、ルールを書き始める前に大雑把なレイアウトをスケッチしていくつかのシェープの名前を定義しておくことをお勧めします。</p><p>ここでモデリングするファサードには、主に 3 つのフロアタイプ、つまり、最上階 (Top Floor)、地上階 (Ground Floor)、中間階 (Upper Floor) があります。下方の階は窓が含まれるタイルからなっていますが、最上階は窓要素のみから構成されています。また下方の階は、2 つの階ずつが同じ造りになっているので、特定の階について正しい状態 (タイルおよび窓の配置) になるように階のインデックス (<em><strong>floorIndex</strong></em>) を Floor シェープとともに渡す必要があります。</p><p>タイルのパターンに基づき、2 つの <strong>Tile</strong> シェープを含む <strong>DoubleTile</strong> を中間的に定義します。これは、階のパターンをコード化してしまってからの助けにもなります。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-5EC301D6-1C84-4286-8AFD-D2BC931423BA-web.png data-lightbox=階とタイルの構造 data-title=階とタイルの構造><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-5EC301D6-1C84-4286-8AFD-D2BC931423BA-web.png width=500></a><p>次に、タイルの中に詳細な下位シェープを定義します。これは 2 つの主要パーツからなります。 <strong>MilkGlass</strong> (すりガラス) および、上部に <strong>Blind</strong> (ブラインド) と埋め込まれた <strong>Subwindow</strong> (小窓) を持つ <strong>Window</strong> シェープです。 これらの要素の位置は各フロアにおける水平方向の位置によって決まるため、下位シェープを正しく配置できるように、この位置のインデックス (<em>tileIndex</em> と呼びます) を Tile シェープのパラメーターとして保存しておく必要があります。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-3B17EC42-A1F8-4D52-A1CA-52218F716C89-web.png data-lightbox="Window タイルの構造" data-title="Window タイルの構造"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-3B17EC42-A1F8-4D52-A1CA-52218F716C89-web.png width=500></a><ol><li>[Navigator] ウィンドウで <strong>Tutorial_09_Advanced_Shape_Grammar/rules/complexpatterns_01.cga</strong> ファイルをダブルクリックして [CGA Rule Editor] ウィンドウを起動し、ファサードを作成するルールを確認します。</li></ol><h3 id=属性変数およびアセット>属性、変数およびアセット</h3><p>属性はルール ファイルの最初の部分で定義されています。これらはルール セット全体を通して使用され、[CGA Rule Editor] ウィンドウの外では <strong>[Window] メニュー → [Inspector]</strong> から変更することもできます。</p><pre><code>// User Attribute
-@Group(&quot;Building&quot;, 1)
-@Range(min=5, max=40, restricted=false) @Distance
-attr buildingH = 27 // 建物の高さ
+<span class=links><a href=../../../../>ArcGIS リソース集</a> > <a href=../../../../cityengine/>ArcGIS CityEngine</a> > <a href=../../../../cityengine/tutorials/>チュートリアル</a> > <a href=../../../../cityengine/tutorials/classic/>クラシック</a> > チュートリアル 9: 高度なシェープ グラマー</span></div><div class=progress><div class=wrapper><nav id=TableOfContents><ul><li><a href=#チュートリアル-データ>チュートリアル データ</a></li><li><a href=#概要>概要</a></li><li><a href=#part-1-建物の探索>Part 1: 建物の探索</a></li><li><a href=#part-2-ファサードのレイアウトを定義>Part 2: ファサードのレイアウトを定義</a><ul><li><a href=#ファサードの解析を実行>ファサードの解析を実行</a></li><li><a href=#サブ-シェープの定義>サブ シェープの定義</a></li></ul></li><li><a href=#part-3-cga-で建物ボリュームを作成>Part 3: CGA で建物ボリュームを作成</a><ul><li><a href=#属性変数およびアセットの追加>属性、変数およびアセットの追加</a></li><li><a href=#建物を押し出す>建物を押し出す</a></li></ul></li><li><a href=#part-4-フロアの追加>Part 4: フロアの追加</a></li><li><a href=#part-5-タイルの追加>Part 5: タイルの追加</a></li><li><a href=#part-6-窓の追加>Part 6: 窓の追加</a></li><li><a href=#part-7-材質の追加>Part 7: 材質の追加</a></li><li><a href=#part-8-詳細の追加>Part 8: 詳細の追加</a></li><li><a href=#part-9-スタイルの追加>Part 9: スタイルの追加</a></li><li><a href=#part-10-キャンドラー-ビルディング>Part 10: キャンドラー ビルディング</a></li><li><a href=#part-11-パルテノン神殿>Part 11: パルテノン神殿</a></li></ul></nav></div></div></div><div id=body-inner><h1>チュートリアル 9: 高度なシェープ グラマー</h1><h2 id=チュートリアル-データ>チュートリアル データ</h2><p>チュートリアル データは、<strong>[Help] メニュー → [Download Tutorials and Examples…]</strong> を選択し、[CityEngine Tutorial] からダウンロードできます。</p><h2 id=概要>概要</h2><p>このチュートリアルでは、建物のファサード イメージを解析し、ファサード コンポーネントを CGA に変換する方法を学習します。以下の実世界の画像から建物を再作成するための CGA ルールのセットを作成する方法を学習します。</p><table><thead><tr><th style=text-align:left>演習</th></tr></thead><tbody><tr><td style=text-align:left>・<a href=#part-1-%E5%BB%BA%E7%89%A9%E3%81%AE%E6%8E%A2%E7%B4%A2>Part 1: 建物の探索</a></td></tr><tr><td style=text-align:left>・<a href=#part-2-%E3%83%95%E3%82%A1%E3%82%B5%E3%83%BC%E3%83%89%E3%81%AE%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%82%92%E5%AE%9A%E7%BE%A9>Part 2: ファサードのレイアウトを定義</a></td></tr><tr><td style=text-align:left>・<a href=#part-3-cga-%E3%81%A7%E5%BB%BA%E7%89%A9%E3%83%9C%E3%83%AA%E3%83%A5%E3%83%BC%E3%83%A0%E3%82%92%E4%BD%9C%E6%88%90>Part 3: CGA で建物ボリュームを作成</a></td></tr><tr><td style=text-align:left>・<a href=#part-4-%E3%83%95%E3%83%AD%E3%82%A2%E3%81%AE%E8%BF%BD%E5%8A%A0>Part 4: フロアの追加</a></td></tr><tr><td style=text-align:left>・<a href=#part-5-%E3%82%BF%E3%82%A4%E3%83%AB%E3%81%AE%E8%BF%BD%E5%8A%A0>Part 5: タイルの追加</a></td></tr><tr><td style=text-align:left>・<a href=#part-6-%E7%AA%93%E3%81%AE%E8%BF%BD%E5%8A%A0>Part 6: 窓の追加</a></td></tr><tr><td style=text-align:left>・<a href=#part-7-%E6%9D%90%E8%B3%AA%E3%81%AE%E8%BF%BD%E5%8A%A0>Part 7: 材質の追加</a></td></tr><tr><td style=text-align:left>・<a href=#part-8-%E8%A9%B3%E7%B4%B0%E3%81%AE%E8%BF%BD%E5%8A%A0>Part 8: 詳細の追加</a></td></tr><tr><td style=text-align:left>・<a href=#part-9-%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E3%81%AE%E8%BF%BD%E5%8A%A0>Part 9: スタイルの追加</a></td></tr><tr><td style=text-align:left>・<a href=#part-10-%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%89%E3%83%A9%E3%83%BC-%E3%83%93%E3%83%AB%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0>Part 10: キャンドラー ビルディング</a></td></tr><tr><td style=text-align:left>・<a href=#part-11-%E3%83%91%E3%83%AB%E3%83%86%E3%83%8E%E3%83%B3%E7%A5%9E%E6%AE%BF>Part 11: パルテノン神殿</a></td></tr></tbody></table><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-2445CD11-B3BB-44BC-B59F-8EA0D6CC1180-web.png data-lightbox=ファサードの写真 data-title=ファサードの写真><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-2445CD11-B3BB-44BC-B59F-8EA0D6CC1180-web.png width></a><p>この例では、タイルと窓のレイアウトが複雑なパターンになっていることに気づきます。また、建物を作成するために、入れ子式の繰り返し分割やパラメーターの受け渡しなど、いくつかの高度な CGA メカニズムが使用されています。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-1A784D47-72BC-49D2-A9A3-9F3100F0BF39-web.png data-lightbox=最終成果物となる建物モデル data-title=最終成果物となる建物モデル><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-1A784D47-72BC-49D2-A9A3-9F3100F0BF39-web.png width></a><p>CGA シェープ グラマーの詳細については、<a href=https://doc.arcgis.com/en/cityengine/latest/tutorials/essentials-rule-based-modeling.htm>Rule-based modeling tutorial</a>、および <a href=https://doc.arcgis.com/en/cityengine/latest/get-started/get-started-rule-based-modeling.htm>Rule-based modeling</a> と <a href=https://doc.arcgis.com/en/cityengine/latest/help/help-cga-modeling-overview.htm>CGA modeling</a> ヘルプ トピックを参照してください。</p><h2 id=part-1-建物の探索>Part 1: 建物の探索</h2><p>まず、上記のファサード イメージの CGA バージョンでシーンを開き、以下の手順を実行します。</p><ol><li><a href=https://doc.arcgis.com/en/cityengine/latest/help/help-navigator.htm>[Navigator]</a> ウィンドウで <strong>Tutorial_09_Advnced_Shape_Grammar</strong> フォルダーを展開します。</li><li>[Scene] フォルダー内の <strong>Complex Patterns.cej</strong> シーンを開きます。
+[Would you like to regenerate these models?] と表示されたら <strong>[YES]</strong> をクリックします。</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-3D223736-73E8-431B-9FF8-925F0447F7E4-web.png data-lightbox data-title><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-3D223736-73E8-431B-9FF8-925F0447F7E4-web.png width></a><h2 id=part-2-ファサードのレイアウトを定義>Part 2: ファサードのレイアウトを定義</h2><p>新しい CGA ルールを計画するときは、ルールの作成を始める前に、大まかなレイアウトをスケッチし、いくつかのシェープ名の定義を行うと便利です。</p><h3 id=ファサードの解析を実行>ファサードの解析を実行</h3><p>まず、ファサードを解析すると、ファサードが主に最上階 (Top Floor)、地上階 (Ground Floor)、中間階 (Upper Floor) の 3 つのフロア タイプで構成されていることがわかります。下層階は窓を含むタイルでできていますが、最上階には窓要素のみが含まれています。その他の下層階は全て同じため、特定の階の正しい外観 (タイルと窓の配置) を作成するために、インデックス (<strong>FloorIndex</strong>) パラメーターを <strong>Floor</strong> シェープとともに渡します。タイルのパターンのため、2 つの <strong>Tile</strong> シェープを含む中間 <strong>DoubleTile</strong> シェープを定義します。これは、フロア パターンをエンコードした後で役に立ちます。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-5EC301D6-1C84-4286-8AFD-D2BC931423BA-web.png data-lightbox=階とタイルの構造 data-title=階とタイルの構造><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-5EC301D6-1C84-4286-8AFD-D2BC931423BA-web.png width></a><h3 id=サブ-シェープの定義>サブ シェープの定義</h3><p>次に、タイル内の詳細なサブ シェープを定義します。これは、<strong>MilkGlass</strong> (すりガラス) シェープと <strong>Window</strong> シェープという 2 つの主要な部分で構成されます。<strong>Window</strong> シェープには、上部の <strong>Blind</strong> と埋め込まれた <strong>Subwindow</strong> (小窓) シェープが含まれています。これらの要素の位置はタイルの水平方向の位置に依存します。サブ シェープ構造を正しく配置できるようにするために、この位置インデックス (<strong>tileIndex</strong>) を <strong>Tile</strong> シェープのパラメーターとして保存する必要があります。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-3B17EC42-A1F8-4D52-A1CA-52218F716C89-web.png data-lightbox="Window タイルの構造" data-title="Window タイルの構造"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-3B17EC42-A1F8-4D52-A1CA-52218F716C89-web.png width></a><h2 id=part-3-cga-で建物ボリュームを作成>Part 3: CGA で建物ボリュームを作成</h2><p>ファサード レイアウトを定義したので、CGA で建物の作成を開始できます。</p><h3 id=属性変数およびアセットの追加>属性、変数およびアセットの追加</h3><p>最初のステップとして、新しいルールを作成し、ルール ファイルの先頭に属性を定義していきます。これらの属性はルール セット全体で使用され、<a href=https://doc.arcgis.com/en/cityengine/latest/help/help-inspector.htm>[Inspector]</a> ウィンドウを使用して属性とパラメーターを調整することで、シーン内に変更できます。ルールの作成を開始するには、以下の手順を実行します。</p><ol><li><strong>[New]</strong> → <strong>[CityEngine]</strong> → <strong>[CGA Rule file]</strong> をクリックします。</li><li><strong>[Next]</strong> をクリックします。</li><li>ルール ファイルに「<strong>myComplexPatterns.cga</strong>」と名前を付けます。</li><li><strong>[Finish]</strong> をクリックします。新しい CGA ファイルが作成され、<a href=https://doc.arcgis.com/en/cityengine/latest/help/help-cga-editor.htm>[CGA Editor]</a> ウィンドウが表示されます。バージョンの記述以外は空です。</li><li>ルール ファイルに次のユーザー属性と、<strong>@StartRule</strong> とアノテーションがつけられた空のルールを下部に追加します。</li></ol><pre><code>// User Attribute 
 
-@Group(&quot;Facade&quot;, 2)
+@Group(&quot;Building&quot;, 1) @Range(min=5, max=40, restricted=false) @Distance
+attr buildingH = 27             // building height
+
+@Group(&quot;Facade&quot;, 2) @Range(min=3, max=6, restricted=false) @Distance
+attr floorH = 3.5               // floor height
 @Range(min=3, max=6, restricted=false) @Distance
-attr floorH = 3.5 // フロアの高さ
-@Range(min=3, max=6, restricted=false) @Distance
-attr groundfloorH = floorH + 1 // 地上階の高さ
+attr groundfloorH = floorH+1    // groundfloor height
 @Range(min=1, max=4, stepsize=1, restricted=false)
 attr nSymmetries = 2
 @Range(min=0.1, max=1, restricted=false) @Distance
-attr borderwallW = 0.3 // 境界壁ストリップの幅
+attr borderwallW = 0.3          // width of border wall stripe
 @Range(min=0.1, max=0.8, restricted=false) @Distance
-attr ledgeH = 0.3 // レッジの高さ
+attr ledgeH = 0.3               // ledge height
 
-@Group(&quot;Window&quot;, 3)
+@Group(&quot;Window&quot;,3) @Range(min=1, max=5, restricted=false) @Distance
+attr windowW = 2.5              // window width
 @Range(min=1, max=5, restricted=false) @Distance
-attr windowW = 2.5 // 窓の幅
-@Range(min=1, max=5, restricted=false) @Distance
-attr milkGlassW = windowW/2 //すりガラスのブレンド幅
+attr milkGlassW = windowW/2     // milkglass blend width
 @Range(min=0.1, max=2.5, restricted=false) @Distance
-attr blindH = 0.8 // ブラインドの高さ
+attr blindH = 0.8               // blind height
 @Range(min=0.01, max=0.5, restricted=false) @Distance
-attr frameW = 0.07 // 窓枠の幅
+attr frameW = 0.07              // frame width
 
-@Group(&quot;Balcony&quot;, 4)
-@Range(min=3, max=6, restricted=false) @Distance
+@Group(&quot;Balcony&quot;,4) @Range(min=3, max=6, restricted=false) @Distance
 attr balconyDepth = 2
 
-@Group(&quot;Colors&quot;, 5)
+@Group(&quot;Colors&quot;,5)
 @Color
-attr brightblue = &quot;#86B1C7&quot; 
+attr brightblue = &quot;#86b1c7&quot; 
 @Color
-attr darkblue = &quot;#33556C&quot;
+attr darkblue   = &quot;#33556c&quot;
 @Color
-attr red = &quot;#5C3F40&quot;
+attr red        = &quot;#5c3f40&quot;
 @Color
-attr grey =&quot;#6B7785&quot;
+attr grey       =&quot;#6b7785&quot;
 @Color
-attr white = &quot;#FFFFFF&quot;
-</code></pre><p><strong>@Group</strong> や <strong>@Range</strong> のような属性に付与されたアノテーションは、[Inspector] ウィンドウでのこれらの表示をコントロールするためのものです。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-9C5BE412-D079-468F-BD5F-ED7ACE4303E1-web.png data-lightbox="[Inspector] ウィンドウ内に表示されている属性" data-title="[Inspector] ウィンドウ内に表示されている属性"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-9C5BE412-D079-468F-BD5F-ED7ACE4303E1-web.png width=500></a><p>その他の変数やアセットは次のブロックで定義されています。</p><pre><code>tileW = windowW + milkGlassW	// タイル全体の幅
+attr white      = &quot;#ffffff&quot;
+
+@StartRule
+Lot --&gt; BuildingVolume
+</code></pre><ol start=6><li>Ctrl ＋ S キーを押して、ルール ファイルを保存します。</li><li>モデルを選択し、<strong>myComplexPatterns.cga</strong> ルールを割り当てます。<a href=https://doc.arcgis.com/en/cityengine/latest/cga/cga-annotations.htm#GUID-DCD0595D-5202-4B7A-8F5F-2E91ADC4C568>@Group</a> や <a href=https://doc.arcgis.com/en/cityengine/latest/cga/cga-annotations.htm#GUID-DCD0595D-5202-4B7A-8F5F-2E91ADC4C568>@Range</a> などのアノテーションが属性に追加され、<strong>[Inspector]</strong> ウィンドウでの外観を制御していることに注目してください。</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-9C5BE412-D079-468F-BD5F-ED7ACE4303E1-web.png data-lightbox="現在のInspector ウィンドウ" data-title="現在のInspector ウィンドウ"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-9C5BE412-D079-468F-BD5F-ED7ACE4303E1-web.png width></a><ol start=8><li><strong>@StartRule</strong> の上に変数とアセットを追加します。</li></ol><pre><code>tileW = windowW + milkGlassW	// total tile width
 const barDiameter = 0.04
 
-// アセット
-const cyl_v = &quot;general/primitives/cylinder.vert.8.notop.tex.obj&quot;
-const cyl_h = &quot;general/primitives/cylinder.hor.8.notop.tex.obj&quot;
-const window_tex = &quot;facade/windows/1_glass_2_blue.tif&quot;
+// assets
+const cyl_v 	    = &quot;primitives/cylinder.vert.8.notop.tex.obj&quot;
+const cyl_h 	    = &quot;primitives/cylinder.hor.8.notop.tex.obj&quot;
+const window_tex    = &quot;facade/windows/1_glass_2_blue.tif&quot;
 const milkGlass_tex = &quot;facade/windows/blend_tex.png&quot;
-</code></pre><p>ここから実際の建物の作成が開始されます。まず、押し出し (extrude) オペレーションによりマス モデルが作成されます。最上階がメイン パートから分割 (split) され、さらに分割されてセットバックによりバルコニーが作成されます。</p><pre><code>Lot --&gt; 
-	extrude(buildingH)  // 建物を立ち上げ
-	split(y){ ~1: MainPart | floorH : UpperPart }  // 最上階を下方の階から分割
-UpperPart --&gt; 
-	// 建物の奥行き方向に分割することによりセットバックを作成
-	split(z){ ~1: TopFloor | balconyDepth : Balcony } 
-</code></pre><p>続いて Component split を各ボリューム パートに適用し、これらの前面、側面、上面を区別してそれぞれから Facade、Wall、Roof ルールをトリガーします。</p><pre><code>MainPart --&gt; 
-	comp(f){ front: Facade | side: Wall | top: Roof }  // 前面にファサード、側面に壁、上面に屋根を作成
-	
-TopFloor --&gt; 
-	comp(f){ front: Floor(-1) | side: Wall | top: Roof }  // 前面にフロア (最上階を-1としてマークする)、側面に壁、上面に屋根を作成
-</code></pre><p>バルコニーのサイズを設定します。手すりを現在のシェープの面上に配置したいので、<strong>Railing</strong> ルールを適用する前面、左側面、右側面を <strong>component split</strong> で取得します。</p><pre><code>Balcony --&gt;
-	s(scope.sx-2*borderwallW,0.7,scope.sz-borderwallW)	center(x) // バルコニーの高さ (手すりの高さ) を 0.7 メートルに設定
-	comp(f){ front: Railing | left: Railing | right: Railing }
-</code></pre><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-2CF2F6CB-5DAA-4126-8E42-A0FE24EE5015-web.png data-lightbox="ボリューム モデリング後の建物の状態" data-title="ボリューム モデリング後の建物の状態"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-2CF2F6CB-5DAA-4126-8E42-A0FE24EE5015-web.png width=500></a><h3 id=ファサードとフロア>ファサードとフロア</h3><p>ここでは、前面のファサードをさらに分割します。最初の分割ではファサードを地上階パートと繰り返し分割 {&mldr;}* により複数の中間階に分割します。分割サイズの前にチルダ記号 ~ (例：~groundfloorH) を付けることにより、フロア間がぴったり合うように高さを自在に変えてファサードに隙間ができるのを防ぐことができます。フロアのインデックスを表す分割インデックス ***split.index*** をパラメーターとして渡すことにより、後で特定のフロア フィーチャをトリガーすることができます。</p><pre><code>Facade --&gt; 
-	// Façade を地上階と中間階の繰り返しとして分割する
-// (すべてのフロアはフロア数を表すスプリット (分割) インデックスでマークされる)
-	split(y){ ~groundfloorH: Floor(split.index) |  { ~floorH: Floor(split.index) }* }
-</code></pre><p>各フロアの左右の端には、狭い Wall エリアがあります。単純に x 方向の分割によりこれを作成します。</p><pre><code>Floor(floorIndex) --&gt; 
-	// 各フロアの両側面に狭い壁の要素を作成
-	// floorIndex パラメーターはのちに使用されるために渡される
-	split(x){borderwallW: Wall | ~1: FloorSub(floorIndex) | borderwallW: Wall }
-</code></pre><p>水平方向の分割コマンドにより、フロア インデックスに基づいてフロアごとに特有な水平要素が作成されます。</p><ul><li>上位フロアには上部レッジのみを作成します。</li><li>最上階には追加の要素は作成せずに TileRow シェープを直接トリガーします。</li><li>後のルールで再度フロア インデックスを使用するため、TileRow シェープによりそれをパラメーターとして渡します。</li></ul><pre><code>FloorSub(floorIndex) --&gt;	
-	case floorIndex == 0: 			// インデックス 0 は地上階    
-		split(y){ 1: Wall | ~1: TileRow(floorIndex) | ledgeH: Wall}  
-	case floorIndex &gt; 0:    			// 中間階
-		split(y){ ~1: TileRow(floorIndex) | ledgeH: Ledge }
-	else:                   			// インデックス -1 は最上階
-    TileRow(floorIndex)
-</code></pre><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-742DC339-C786-4418-B6FF-F56991313C10-web.png data-lightbox=ファサードとフロアとレッジに分割した状態 data-title=ファサードとフロアとレッジに分割した状態><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-742DC339-C786-4418-B6FF-F56991313C10-web.png width=500></a><h3 id=タイル>タイル</h3><p>続いて各フロアをタイルに分割します。最上階は比較的簡単です。このフロアの特有のパターンとして Window 要素を繰り返すだけです。これらのタイルを後で使用するためにパラメーターを -1 としてマークしておきます。</p><p>メインフロアに対して特有の繰り返しパターンを作成するため、DoubleTile という中間シェープを作成します。後のステップで Window 要素を正しく配置するためにパラメーターとして渡されるフロア インデックスおよびタイル インデックス (<em><strong>split.index</strong></em>) が必要となります。</p><pre><code>TileRow(floorIndex) --&gt; 
-	case floorIndex == -1:
-		split(x){ ~windowW: Tile(-1) }*
-// 最上階についてシェープ Tiles を繰り返し、再度 -1 でマークする
-	else: 
-		split(x){ ~tileW*nSymmetries: DoubleTile(floorIndex,split.index) }* 
-// フロアをDoubleTile シェープにさらに分割し、フロア インデックスをパラメーターとして渡す
-</code></pre><p>フロア インデックスとタイル インデックスの組み合わせにより Window 要素の並べ方が決定されます。したがって、<strong>MilkGlass</strong> および <strong>Tile</strong> シェープを異なる順序に繰り返し分割する 2 つのルールを作成します。</p><pre><code>DoubleTile(floorIndex,tileIndex) --&gt;    
-	case tileIndex%2 + floorIndex%2 == 1: 
-// 窓を右に揃える
-		split(x){ ~milkGlassW: MilkGlass | ~windowW: Tile(tileIndex) }* 
+</code></pre><h3 id=建物を押し出す>建物を押し出す</h3><p>これから実際の建物の作成が始まります。建物を押し出すために、以下の手順を実行します。</p><ol><li>押し出し操作でマス モデルを作成します。最上階を主要部分から分割し、再度分割してセット バック バルコニーを作成します。</li></ol><pre><code>BuildingVolume --&gt;
+	extrude(buildingH)
+	split(y) { ~1     : MainPart
+	         | floorH : UpperPart }
+
+UpperPart --&gt;
+	split(z) { ~1           : TopFloor 
+	         | balconyDepth : Balcony }
+</code></pre><ol start=2><li>コンポーネント分割を追加して様々なボリューム パーツに適用し、正面、側面、および上面を区別します。これにより、<strong>Facade</strong>、<strong>Wall</strong>、<strong>Roof</strong> がトリガーされます。</li></ol><pre><code>MainPart --&gt;
+	comp(f) { front : Facade
+	        | side  : Wall
+	        | top   : Roof. } 
+
+TopFloor --&gt;
+	comp(f) { front : Floor(-1)
+	        | side  : Wall
+	        | top   : Roof. }
+</code></pre><ol start=3><li>コンポーネント分割を使用して、<strong>Railing</strong> ルールを呼び出し、手すりを正面、左面、右面に配置します。</li></ol><pre><code>Balcony --&gt;
+	s(scope.sx-2*borderwallW, 1.1, scope.sz-borderwallW)
+	center(x)
+	comp(f) { front : Railing 
+	        | left  : Railing 
+	        | right : Railing }
+</code></pre><p>バルコニーの寸法が決まりました。次に、建物に手すりを追加します。</p><ol start=4><li><p>ルール ファイルを保存します。<br><a href=https://doc.arcgis.com/en/cityengine/latest/help/help-viewport.htm>[3D View]</a> で建物が選択されていることを確認します。</p></li><li><p><strong>Generate models of selected shapes</strong> (Ctrl ＋ G キー) クリックして建物を生成します。</p></li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-2CF2F6CB-5DAA-4126-8E42-A0FE24EE5015-web.png data-lightbox=押し出したモデル data-title=押し出したモデル><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-2CF2F6CB-5DAA-4126-8E42-A0FE24EE5015-web.png width></a><h2 id=part-4-フロアの追加>Part 4: フロアの追加</h2><p>正面ファサードをさらに細分化するには、以下の手順を実行します。</p><ol><li>ファサードを地上階と上層階に分割します。</li></ol><pre><code>Facade --&gt;
+	split(y) { ~groundfloorH : Floor( split.index )
+	         | { ~floorH     : Floor( split.index ) }* }
+</code></pre><p>最初の分割では、繰り返し分割 <strong>{…}</strong> * を使用して、ファサードを地上階部分と上層階に再分割します。<strong>~groundfloorH</strong> のように、分割サイズの高さの前にチルダ記号 <strong>(~)</strong> を使用すると、高さを柔軟に変更でき、ファサードに穴がなくてもフロアを一致させることができます。<strong>split.index</strong> (フロア インデックスを表す) をパラメーターとして渡すことで、後で特定のフロア フィーチャをトリガーできます。</p><ol start=2><li>各フロアの x 方向に単純に分割して、両側に狭い壁エリアを作成します。</li></ol><pre><code>Floor(floorIndex) --&gt;
+	split(x) { borderwallW : Wall
+	         | ~1          : FloorSub(floorIndex)
+	         | borderwallW : Wall }
+</code></pre><ol start=3><li>水平分割コマンドを使用して、フロアごとに特別な水平要素を追加するために以下の要件を使用します。</li></ol><ul><li>上層階には上部のレッジのみが付いています。</li><li>最上階には追加要素は持たず、<strong>TileRow</strong> シェープを直接トリガーします。</li><li>後のルールでフロア インデックスを再度使用するため、フロア インデックスを <strong>TileRow</strong> シェープのパラメーターとして再度割り当てます。</li></ul><pre><code>FloorSub(floorIndex) --&gt;
+	case floorIndex == 0:
+		split(y) { 1      : Wall
+		         | ~1     : TileRow(floorIndex)
+		         | ledgeH : Wall }
+	case floorIndex &gt; 0:
+		split(y) { ~1     : TileRow(floorIndex)
+		         | ledgeH : Ledge }
 	else:
-// 窓を左に揃える 
-		split(x){ ~windowW: Tile(tileIndex) | ~milkGlassW: MilkGlass }*
-</code></pre><p>まず窓テクスチャ用のテクスチャ座標を設定します。Tile シェープ全体を水平方向に分割して窓フレームと中心パートに分けます。中心パートを再度垂直方向に分割して Frame、Window、Blind および Bracing に分けます。</p><pre><code>Tile(tileIndex) --&gt; 
-	setupProjection(0,scope.xy,scope.sx,scope.sy)
-// 窓に対するテクスチャ座標を設定
-	split(x){ frameW: Frame Bracing
-// 窓枠 (Frame) と窓の左側の突っ張り (Bracing) をトリガーする
-	// 中央の窓を下から上に Frame、Window、Frame、Blind、Frame に分割する
-		| ~1: split(y){ frameW: Frame 
-					  | ~1: Window(tileIndex) 
-					  | frameW: Frame  
-					  | blindH: Blind 
-					  | frameW: Frame }| frameW: Frame Bracing } // 窓の右側に窓枠と突っ張りを作成する
-</code></pre><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-41F592F4-B879-4175-B106-0A104681F970-web.png data-lightbox=フロアをタイルに分割した状態 data-title=フロアをタイルに分割した状態><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-41F592F4-B879-4175-B106-0A104681F970-web.png width=500></a><h3 id=windows-窓>Windows (窓)</h3><p>Window シェープに対しては、 DoubleTile のタイル インデックスにより小窓 (subwindows) の位置が決定されます。</p><pre><code>Window(tileIndex) --&gt;
-</code></pre><p>この場合は、窓の左半分の中の右側に subwindows を配置した状態が作成されます。</p><pre><code>case tileIndex%nSymmetries &gt;= 1:  // Subwindows は DoubleTile の位置に応じて配置 		
- split(x){ ~1 : Subwindow(&quot;right&quot;) | frameW : Frame | ~1 : Glass             } 	// 窓の左半分で左揃え
-</code></pre><p>この場合は、窓の右半分の中の左側に subwindows を配置した状態が作成されます。</p><pre><code>case tileIndex%nSymmetries &gt;= 0:
-	split(x){ ~1: Glass | frameW: Frame | ~1: Subwindow(&quot;left&quot;) } // 窓の右半分で左揃え
-</code></pre><p>最上階の窓を表すタイル インデックス -1 により subwindows のない窓が作成されます。</p><pre><code>else:
-	split(x){ ~1: Glass | frameW: Frame | ~1: Glass}
-</code></pre><p>パラメーター &ldquo;left&rdquo; または &ldquo;right"により、RedWindow が正しい位置に配置されます。</p><pre><code>Subwindow(align) --&gt;
-	case align == &quot;left&quot;: 
-		split(x){~3: RedWindow | ~2: Glass}	// 左側に RedWindow を配置
+		TileRow(floorIndex)
+</code></pre><ol start=4><li>ルール ファイルを保存し、モデルを生成します。</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-742DC339-C786-4418-B6FF-F56991313C10-web.png data-lightbox=フロア追加後のモデル data-title=フロア追加後のモデル><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-742DC339-C786-4418-B6FF-F56991313C10-web.png width></a><h2 id=part-5-タイルの追加>Part 5: タイルの追加</h2><p>次に、フロアをタイル分割します。最上階は特別なパターンはなく窓要素が繰り返されているだけです。これらのタイルを後で指定するには、タイルに <strong>-1</strong> パラメーターを設定します。</p><ol><li>メイン フロアの特別な繰り返しパターンを作成するには、中間の <strong>DoubleTile</strong> シェープを作成します。</li></ol><pre><code>TileRow(floorIndex) --&gt;
+	case floorIndex == -1:
+		split(x) { ~windowW : Tile(-1) }*
 	else: 
-		split(x){~2: Glass  | ~3: RedWindow }	// 条件が偽なら右側に配置する
-</code></pre><p>以下のルールでは RedWindow シェープに対する窓枠およびガラス要素が作成されます。</p><pre><code>RedWindow --&gt; 
-	split(x){ frameW: RedFrame   // 左側...
-			| ~1: split(y){ frameW: RedFrame
-| ~1:RedGlass | frameW: RedFrame }  // ... 下側、上側 ...
-		| frameW: RedFrame }	// ... 右側の枠
+		split(x) { ~tileW*nSymmetries : DoubleTile(floorIndex, split.index) }*
+</code></pre><p>後の手順で窓要素を正しく配置するために、パラメーターとして渡すフロア インデックスとタイル インデックス (<strong>split.index</strong>) が必要になります。</p><p>フロア インデックスとタイル インデックスの組み合わせによって、<strong>Double Tile</strong> 内の窓の配置が決まります。<br></p><ol start=2><li>分割を繰り返す 2 つのルールを追加して、<strong>MilkGlass</strong> シェープと <strong>Tile</strong> シェープの異なる配置を取得します。</li></ol><pre><code>DoubleTile(floorIndex, tileIndex) --&gt;
+	case tileIndex%2 + floorIndex%2 == 1:
+		split(x) { ~milkGlassW : MilkGlass 
+		         | ~windowW    : Tile(tileIndex) }*
+	else:
+		split(x) { ~windowW    : Tile(tileIndex)
+		         | ~milkGlassW : MilkGlass }*
+</code></pre><p>フロアとタイルインデックスの組み合わせが <strong>Double Tile</strong> 内の窓の配置を決定します。</p><ol start=3><li>今後の窓テクスチャのテクスチャ座標を設定します。</li></ol><pre><code>Tile(tileIndex) --&gt;
+	setupProjection(0, scope.xy, scope.sx, scope.sy)
+	split(x) { frameW : Frame Bracing 
+	         | ~1     : split(y) { frameW : Frame 
+	                             | ~1     : Window(tileIndex)
+	                             | frameW : Frame 
+	                             | blindH : Blind 
+	                             | frameW : Frame } 
+	         | frameW : Frame Bracing }
+</code></pre><p>次に、<strong>Tile</strong> シェープ全体を水平方向に窓枠と中央部分に分割します。
+中央部分が再び垂直に分割され、枠、窓、枠、ブラインド、およびフレームのコンポーネントに分割されます。</p><ol start=4><li>ルール ファイルを保存して、モデルを生成します。</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-41F592F4-B879-4175-B106-0A104681F970-web.png data-lightbox=タイル追加後のモデル data-title=タイル追加後のモデル><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-41F592F4-B879-4175-B106-0A104681F970-web.png width></a><h2 id=part-6-窓の追加>Part 6: 窓の追加</h2><p>建物に窓を追加するために、以下の手順を実行します。</p><ol><li><strong>Window</strong> シェープの場合、<strong>DoubleTile</strong> のタイル インデックスを使用して小窓 (<strong>Subwindows</strong>) の位置が決定されます。</li></ol><pre><code>Window(tileIndex) --&gt;
+</code></pre><ol start=2><li>右揃えの小窓を窓の左半分に配置します。</li></ol><pre><code>case tileIndex%nSymmetries &gt;= 1:
+		split(x) { ~1     : Subwindow(&quot;right&quot;)
+		         | frameW : Frame
+		         | ~1     : Glass }
+</code></pre><ol start=3><li>左揃えの小窓を窓の右半分に配置します。</li></ol><pre><code>case tileIndex%nSymmetries &gt;= 0:
+		split(x) { ~1     : Glass
+		         | frameW : Frame
+		         | ~1     : Subwindow(&quot;left&quot;) }
+</code></pre><ol start=4><li>最上階の窓を表す <strong>-1</strong> タイル インデックスを使用して、小窓がない窓を作成します。</li></ol><pre><code>else:
+		split(x) { ~1     : Glass
+		         | frameW : Frame
+		         | ~1     : Glass }
+</code></pre><ol start=5><li>左と右のパラメーターを使用して、<strong>RedWindow</strong> を正しい位置に配置します。</li></ol><pre><code>Subwindow(align) --&gt;
+	case align == &quot;left&quot;: 
+		split(x) { ~3 : RedWindow 
+		         | ~2 : Glass }
+	else: 
+		split(x) { ~2 : Glass
+		         | ~3 : RedWindow }
+</code></pre><ol start=6><li><strong>RedWindow</strong> シェープの窓枠要素とガラス要素を作成するルールを追加します。</li></ol><pre><code>RedWindow --&gt;
+	split(x) { frameW : RedFrame 
+	         | ~1     : split(y) { frameW  : RedFrame
+	                             | ~1      : RedGlass
+	                             | frameW  : RedFrame }
+	         | frameW : RedFrame }
 
 RedGlass --&gt;
-	split(y){ ~1: Glass | frameW/2: t(0,0,-frameW) Frame | ~1: t(0,0,-frameW) Glass }
-</code></pre><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-4BEFABD6-CCBF-4286-97D0-858C2097870F-web.png data-lightbox=詳細な窓のジオメトリが作成されたモデル data-title=詳細な窓のジオメトリが作成されたモデル><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-4BEFABD6-CCBF-4286-97D0-858C2097870F-web.png width=500></a><h3 id=材質>材質</h3><p>色とテクスチャを追加します。</p><pre><code>Wall --&gt; color(darkblue)
-
-Blind --&gt; color(grey)
-
-Frame --&gt; 
-	extrude(frameW) color(white)	// 窓を前方に押し出し
-
+	split(y) { ~1       : Glass
+	         | frameW/2 : t(0,0,-frameW) Frame
+	         | ~1       : t(0,0,-frameW) Glass }
+</code></pre><ol start=7><li>ルール ファイルを保存して、モデルを生成します。</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-4BEFABD6-CCBF-4286-97D0-858C2097870F-web.png data-lightbox=窓追加後のモデル data-title=窓追加後のモデル><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-4BEFABD6-CCBF-4286-97D0-858C2097870F-web.png width></a><h2 id=part-7-材質の追加>Part 7: 材質の追加</h2><p>建物に色とテクスチャを適用するには、以下の手順を実行します。</p><ol><li>ファサード要素の色、押し出し、移動を定義します。</li></ol><pre><code>Wall --&gt;
+	color(darkblue)
+Blind --&gt;
+	color(grey)
+Frame --&gt;
+	extrude(frameW)
+	color(white)
 RedFrame --&gt; 
-	t(0,0,-frameW) extrude(frameW*4) color(red)
-
-Glass --&gt; 
-	projectUV(0)  // テクスチャ座標を現在のシェープ ジオメトリに適用し、
-	texture(window_tex) color(white) // テクスチャと色を割り当てる
+	t(0, 0, -frameW)
+	extrude(frameW*4)
+	color(red)
+</code></pre><ol start=2><li>現在のジオメトリ シェープにテクスチャ座標を適用し、テクスチャと色を割り当てます。</li></ol><pre><code>Glass --&gt; 
+	projectUV(0)
+	texture(window_tex)
+	color(white)
 	set(material.specular.r, 0.4)
- set(material.specular.g, 0.4)
- set(material.specular.b, 0.4)
+	set(material.specular.g, 0.4)
+	set(material.specular.b, 0.4)
 	set(material.shininess, 4)
-	set(material.reflectivity,0.3)
+	set(material.reflectivity, 0.3)
 	
 MilkGlass --&gt; 
-	s('1,'1,frameW*1.2) i(&quot;builtin:cube&quot;) 
+	s('1, '1, frameW*1.2)
+	primitiveCube
 	color(brightblue)
-	setupProjection(0, scope.xy, scope.sx, scope.sy)
- texture(milkGlass_tex)
- projectUV(0)
+	setupProjection(0, scope.xy, scope.sx, scope.sy, 0, 0, 0)
+	texture(milkGlass_tex)
+	projectUV(0)
 	set(material.specular.r, 0.7)
- set(material.specular.g, 0.7)
- set(material.specular.b, 0.7)
+	set(material.specular.g, 0.7)
+	set(material.specular.b, 0.7)
 	set(material.shininess, 20)
- set(material.reflectivity,0.05)
-</code></pre><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-2B74E808-1FB6-4992-9953-E137CF6D4D7B-web.png data-lightbox=材質のルールを適用して色やテクスチャが付けられたモデル data-title=材質のルールを適用して色やテクスチャが付けられたモデル><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-2B74E808-1FB6-4992-9953-E137CF6D4D7B-web.png width=500></a><h3 id=細部の要素>細部の要素</h3><p>フロアレッジに背面の壁要素、奥行きを与えるためのキューブ、カバープレートとして使用される2 つ目の薄いキューブを追加して作り込みます。</p><pre><code>Ledge --&gt; 
+	set(material.reflectivity, 0.05)
+</code></pre><ol start=3><li>ルール ファイルを保存して、モデルを生成します。</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-2B74E808-1FB6-4992-9953-E137CF6D4D7B-web.png data-lightbox=テクスチャ適応後のモデル data-title=テクスチャ適応後のモデル><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-2B74E808-1FB6-4992-9953-E137CF6D4D7B-web.png width></a><h2 id=part-8-詳細の追加>Part 8: 詳細の追加</h2><p>最後に要素に詳細を追加するには、以下の手順を実行します。</p><ol><li>フロア レッジに背面の壁要素、奥行きとなる立方体、およびカバー プレートとなる 2 つ目の薄い立方体を追加して洗練させていきます。</li></ol><pre><code>Ledge --&gt;
 	Wall
-	[ s('1,'0.9,0.2) i(&quot;builtin:cube&quot;) Wall ]	
-	t(0,-0.1,0.2) s('1,scope.sy+0.1,0.03) i(&quot;builtin:cube&quot;) Wall
-</code></pre><p>まず横棒を挿入して手すりの水平部分を作成します。縦方向のトリミングを無効にしてこの後作成される角の縦棒が切られるのを防ぎます。<br>縦棒はフローティングにした分割幅を繰り返すことで等間隔に配置します。</p><pre><code>Railing --&gt; 
+	[ s('1, '0.9, 0.2) primitiveCube Wall ]
+	t(0, -0.1, 0.2)
+	s('1, scope.sy+0.1, 0.03)
+	primitiveCube
+	Wall
+</code></pre><ol start=2><li>垂直バーは、フローティングにした分割幅を繰り返すことで等間隔に配置されます。</li></ol><pre><code>Railing --&gt; 
 	[ t(0,scope.sy-barDiameter/2,0) HBar ]
 	set(trim.vertical, false)
-	split(x){ ~tileW/3:  VBar }*
-</code></pre><p>円筒アセットを挿入して縦棒と横棒を作成します。</p><pre><code>VBar --&gt; s(barDiameter,'1,barDiameter) t(0,0,-barDiameter) i(cyl_v) color(white)
-HBar --&gt; s('1,barDiameter,barDiameter) t(0,0,-barDiameter) i(cyl_h) color(white)
-</code></pre><p>Bracing は窓の上下の張出しとその間に配置される縦棒からなります。張出しにはキューブを挿入し、ここでも VBar により円筒アセットをトリガーします。</p><pre><code>Bracing --&gt; 
-	s(barDiameter,'1,0.15) center(x) i(&quot;builtin:cube&quot;)
-split(y){ 0.01: Wall | ~1: t(0,0,0.15) VBar | 0.01: Wall }
-</code></pre><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-3D223736-73E8-431B-9FF8-925F0447F7E4-web.png data-lightbox=レッジや窓の支柱および手すりなどの細部要素を追加したモデル data-title=レッジや窓の支柱および手すりなどの細部要素を追加したモデル><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-3D223736-73E8-431B-9FF8-925F0447F7E4-web.png width=500></a><p>これでモデルが完成しましたので、このルールを別の区画シェープに適用したり、[Inspector] ウィンドウにあるユーザー属性を変えてファサードを様々にデザインしてみましょう。</p><h3 id=スタイルの変更>スタイルの変更</h3><p>style キーワードを使用していくつかの属性を再定義する新しいスタイルを定義します。ここでは、color 属性を再定義することによりカラー バリエーションを作成します。</p><pre><code>@Description(&quot;A Variation in Red&quot;)
+	split(x) { ~tileW/3 : VBar }*
+</code></pre><p>水平バーは、手すりの水平部分を作成するために挿入します。垂直トリミングを無効にすると、垂直コーナーのバーがカットされるのを防ぎます。</p><ol start=3><li>円柱アセットを挿入して垂直バーと水平バーを作成します。</li></ol><pre><code>VBar --&gt;
+	s(barDiameter, '1, barDiameter)
+	t(0, 0, -barDiameter)
+	i(cyl_v)
+	color(white)
+
+HBar --&gt;
+	s('1, barDiameter, barDiameter)
+	t(0, 0, -barDiameter)
+	i(cyl_h)
+	color(white)
+</code></pre><ol start=4><li>窓のブレースは、上下の取り付け金具と中央の水平バーで構成されています。取り付けの場合は、立方体を挿入し、<strong>VBar</strong> でシリンダー アセットをトリガーします。</li></ol><pre><code>Bracing --&gt; 
+	s(barDiameter, '1, 0.15)
+	center(x) 
+	primitiveCube
+	split(y) { 0.01 : Wall
+	         | ~1   : t(0, 0, 0.15) VBar
+	         | 0.01 : Wall }
+</code></pre><ol start=5><li>ルール ファイルを保存して、モデルを生成します。</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-3D223736-73E8-431B-9FF8-925F0447F7E4-web.png data-lightbox=詳細追加後のモデル data-title=詳細追加後のモデル><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-3D223736-73E8-431B-9FF8-925F0447F7E4-web.png width></a><p>最終的なモデルには、レッジ、窓のブレース、手すりなどの詳細要素が追加され表示されます。
+最終モデルが完成したので、様々な <strong>lot</strong> シェープにルールを適用するか、<strong>[Inspector]</strong> ウィンドウでユーザー属性を試してファサード デザインを変更します。</p><h2 id=part-9-スタイルの追加>Part 9: スタイルの追加</h2><p>スタイル キーワードを使用して、一部の属性を再定義する新しいスタイルを定義できます。</p><ol><li>ルール ファイルの一番下で、色属性を再定義してモデルにスタイルを追加します。</li></ol><pre><code>@Description(&quot;A Variation in Red&quot;)
 style Red_Color_Theme
 attr brightblue = &quot;#FF8080&quot;
-attr darkblue = &quot;#D20000&quot;
-attr grey = &quot;#ECCACA&quot;
-attr red = &quot;#361B1B&quot;
-</code></pre><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-2445CD11-B3BB-44BC-B59F-8EA0D6CC1180-web.png data-lightbox="Red_Color_Theme スタイルを適用したモデル" data-title="Red_Color_Theme スタイルを適用したモデル"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-2445CD11-B3BB-44BC-B59F-8EA0D6CC1180-web.png width=500></a><h2 id=part-2-キャンドラー-ビルディング>Part 2: キャンドラー ビルディング</h2><ol><li><p>シーン <strong>Candler_Building.cej</strong> を開きます。</p></li><li><p>[3D View] ウィンドウの中で区画を選択します。</p></li><li><p>画面上部のツールバーから [Generate] ボタンをクリックします。</p></li><li><p>[Navigator] ウィンドウより <strong>candler.01.cga</strong> ファイルをダブルクリックし、キャンドラー ビルディングを作成するためのルールを確認します。</p></li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-8F7D5E36-7363-4F73-A1B3-F07DB73F1935-web.png data-lightbox="生成されたキャンドラー ビルディング" data-title="生成されたキャンドラー ビルディング"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-8F7D5E36-7363-4F73-A1B3-F07DB73F1935-web.png width=500></a><h2 id=part-3-パルテノン神殿>Part 3: パルテノン神殿</h2><ol><li><p>シーン <strong>Parthenon.cej</strong> を開きます。</p></li><li><p>[3D View] ウィンドウの中で区画を選択します。</p></li><li><p>画面上部のツールバーから [Generate] ボタンをクリックします。</p></li><li><p>[Navigator] ウィンドウより <strong>parthenon.cga</strong> ファイルをダブルクリックし、 パルテノン神殿を作成するためのルールを確認します。</p></li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-8B45B01F-006C-420F-9DFD-D3F501C0D5EE-web.png data-lightbox=生成されたパルテノン神殿 data-title=生成されたパルテノン神殿><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-8B45B01F-006C-420F-9DFD-D3F501C0D5EE-web.png width=500></a><footer class=footline></footer></div></div><div id=navigation><a class="nav nav-prev" href=../../../../cityengine/tutorials/classic/tutorial-8-mass-modeling/ title="チュートリアル 8 : マスモデリング"><i class="fa fa-chevron-left"></i><label>チュートリアル 8 : マスモデリング</label></a>
+attr darkblue 	= &quot;#D20000&quot;
+attr grey 	= &quot;#ECCACA&quot;
+attr red 	= &quot;#361B1B&quot;
+</code></pre><ol start=2><li>ルール ファイルを保存します。</li><li><strong>[Inspector]</strong> ウィンドウの <strong>[Style Manager]</strong> のドロップダウン メニューで <strong>[Red_Color_Theme]</strong> をクリックします。</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-176FAB5D-926C-4B06-9719-9622C02ECDEB-web.png data-lightbox=スタイルの選択 data-title=スタイルの選択><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-176FAB5D-926C-4B06-9719-9622C02ECDEB-web.png width></a><p><strong>Red_Color_Theme</strong> スタイルが適用されました。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-2445CD11-B3BB-44BC-B59F-8EA0D6CC1180-web.png data-lightbox=スタイル追加後のモデル data-title=スタイル追加後のモデル><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-2445CD11-B3BB-44BC-B59F-8EA0D6CC1180-web.png width></a><p>最終的なルールファイルを確認するには、<strong>complexpatterns_01.cga</strong> ルールを開きます。</p><h2 id=part-10-キャンドラー-ビルディング>Part 10: キャンドラー ビルディング</h2><p>キャンドラー ビルディングは、CGA がどのようにしてリアルな建物をプロシージャルに作成できるかを示す良い例です。CGA を調べるには、以下の手順を実行します。</p><ol><li><strong>Candler Building.cej</strong> シーンを開きます。</li><li><strong>[Navigator]</strong> ウィンドウで <strong>Candler Building.cga</strong> ファイルをダブル クリックして、<strong>Candler Building</strong> を作成する CGA ルールを探索します。</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-8F7D5E36-7363-4F73-A1B3-F07DB73F1935-web.png data-lightbox="キャンドラー ビルディング" data-title="キャンドラー ビルディング"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-8F7D5E36-7363-4F73-A1B3-F07DB73F1935-web.png width></a><h2 id=part-11-パルテノン神殿>Part 11: パルテノン神殿</h2><p>最後に、パルテノン神殿を探索するために、以下の手順を実行します。</p><ol><li><strong>Parthenon.cej</strong> シーンを開きます。</li><li>もう一度、<strong>parthenon.cga</strong> ファイルをダブル クリックして、パルテノン神殿の裏にあるルールを確認します。</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-8B45B01F-006C-420F-9DFD-D3F501C0D5EE-web.png data-lightbox=パルテノン神殿 data-title=パルテノン神殿><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-9-advanced-shape-grammar/GUID-8B45B01F-006C-420F-9DFD-D3F501C0D5EE-web.png width></a><p>このチュートリアルでは、以下の方法を学習しました。</p><ul><li>画像を取得して解析し、CGA コンポーネントに分割</li><li>窓、タイル、マテリアルなどの要素の追加</li><li>高度なシェープ グラマーのより複雑な例の探求</li></ul><footer class=footline></footer></div></div><div id=navigation><a class="nav nav-prev" href=../../../../cityengine/tutorials/classic/tutorial-8-mass-modeling/ title="チュートリアル 8 : マスモデリング"><i class="fa fa-chevron-left"></i><label>チュートリアル 8 : マスモデリング</label></a>
 <a class="nav nav-next" href=../../../../cityengine/tutorials/classic/tutorial-10-python-scripting/ title="チュートリアル 10: Python スクリプティング" style=margin-right:0><label>チュートリアル 10: Python スクリプティング</label><i class="fa fa-chevron-right"></i></a></div></section><div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px><div style=border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px></div></div><script src=../../../../js/clipboard.min.js></script><script src=../../../../js/featherlight.min.js></script><script src=../../../../js/html5shiv-printshiv.min.js></script><script src=../../../../js/modernizr.custom.71422.js></script><script src=../../../../js/docdock.js></script><script src=../../../../theme-original/script.js></script></body></html>
