@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集</title><link>/</link><description>Recent content on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Mon, 17 Apr 2023 00:00:00 +0900</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>クレジットの利用</title><link>/online/users-guide/credits/use/use-credits/</link><pubDate>Wed, 13 Dec 2023 00:00:00 +0900</pubDate><guid>/online/users-guide/credits/use/use-credits/</guid><description>ArcGIS Online では、データ ストレージや解析機能の実行などの GIS 処理に応じて、決められた数の「サービス クレジット」が消費されます。ここではクレジット消費について説明します。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集</title><link>/</link><description>Recent content on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Mon, 17 Apr 2023 00:00:00 +0900</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>ライセンス</title><link>/pro/get-started/setup/license/</link><pubDate>Fri, 16 Feb 2024 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/license/</guid><description>ArcGIS Pro のライセンス形態には以下の 3 つがあります。
+指定ユーザー (デフォルト) 単独使用 (SU) 同時使用 (CU) ・ ArcGIS Online の GIS Professional ユーザー タイプでは、指定ユーザー ライセンスとして提供されます。
+・ 単独使用、同時使用ライセンスは、ArcGIS Desktop ライセンスとして購入し、ArcGIS Pro を利用する場合にのみご利用いただけます。
+指定ユーザー ライセンス ArcGIS Online 組織サイトのログイン アカウントを通じてライセンス認証されます。
+指定ユーザー ライセンスは、コンピューターではなくユーザーに割り当てられるため、ソフトウェアがインストールされており、動作環境を満たしているコンピューターであれば、どのコンピューターからでも自由に利用することができます (ArcGIS Pro 起動時に、ArcGIS Online のアカウントでサイン インを行います)。 指定ユーザー ライセンスで ArcGIS Pro をお使いいただくためには、2 つの条件を満たしている必要があります。
+ArcGIS Online の GIS Professional ユーザー タイプをご契約の方、または保守契約が有効な ArcGIS Desktop ライセンスを有すること ArcGIS Online の利用登録が完了していること ArcGIS Pro を初めて利用する場合は、まず ArcGIS Online の登録とライセンスの割り当てを行ってください。 詳細は「管理者の操作」をご参照ください。</description></item><item><title>クレジットの利用</title><link>/online/users-guide/credits/use/use-credits/</link><pubDate>Wed, 13 Dec 2023 00:00:00 +0900</pubDate><guid>/online/users-guide/credits/use/use-credits/</guid><description>ArcGIS Online では、データ ストレージや解析機能の実行などの GIS 処理に応じて、決められた数の「サービス クレジット」が消費されます。ここではクレジット消費について説明します。
 クレジットの取得方法 (チャージ) や管理方法については「クレジットの取得と管理」をご参照ください。
 データ ストレージ コンテンツを作成する権限がある場合、様々なタイプのコンテンツをアイテムとして追加できます。追加したアイテムは ArcGIS Online のストレージに保存されますが、保存にはクレジットを消費します。 代表的なストレージ保存におけるクレジット消費は以下の表のとおりです。
 機能 内容 消費クレジット (1 時間単位で計算) データ ストレージの使用 フィーチャ レイヤーの保存
@@ -47,12 +52,7 @@ ArcGIS Pro 逆引きガイド「5-1. 3D マップを作成したい」
 数値地図 (国土基本情報) のインポート サマリー 数値地図 (国土基本情報) (GML) をインポートします。
 使用法 本ツールでは数値地図 (国土基本情報) GML 形式の以下のデータに対応しています。</description></item><item><title>システム要件</title><link>/cityengine/get-started/setup/environment/</link><pubDate>Tue, 08 Aug 2023 00:00:00 +0900</pubDate><guid>/cityengine/get-started/setup/environment/</guid><description>システム要件の確認 ArcGIS CityEngine をインストールするコンピューターがシステム要件を満たしているかどうかをご確認ください。
 システム要件の詳細は、「CityEngine system requirements (英語)」ページをご参照ください。
-同時使用 (Concurrent Use) ライセンスをご利用の場合は、ArcGIS License Manager のシステム要件もご参照ください。</description></item><item><title>ライセンス</title><link>/pro/get-started/setup/license/</link><pubDate>Mon, 17 Apr 2023 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/license/</guid><description>ArcGIS Pro のライセンス形態には以下の 3 つがあります。
-指定ユーザー (デフォルト) 単独使用 (SU) 同時使用 (CU) ・ ArcGIS Online の GIS Professional ユーザー タイプでは、指定ユーザー ライセンスとして提供されます。
-・ 単独使用、同時使用ライセンスは、ArcGIS Desktop ライセンスとして購入し、ArcGIS Pro を利用する場合にのみご利用いただけます。
-指定ユーザー ライセンス ArcGIS Online 組織サイトのログイン アカウントを通じてライセンス認証されます。
-指定ユーザー ライセンスは、コンピューターではなくユーザーに割り当てられるため、ソフトウェアがインストールされており、動作環境を満たしているコンピューターであれば、どのコンピューターからでも自由に利用することができます (ArcGIS Pro 起動時に、ArcGIS Online のアカウントでサイン インを行います)。 指定ユーザー ライセンスで ArcGIS Pro をお使いいただくためには、2 つの条件を満たしている必要があります。
-ArcGIS Online の GIS Professional ユーザー タイプをご契約の方、または保守契約が有効な ArcGIS Desktop ライセンスを有すること ArcGIS Online の利用登録が完了していること ArcGIS Pro を初めて利用する場合は、まず ArcGIS Online の登録とライセンスの割り当てを行ってください。 詳細は「管理者の操作」をご参照ください。</description></item><item><title>はじめに</title><link>/fieldmaps/get-started/introduction/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/introduction/</guid><description>現地調査や報告業務を効率化できる Field Maps の利用を開始する方のためのガイドです。
+同時使用 (Concurrent Use) ライセンスをご利用の場合は、ArcGIS License Manager のシステム要件もご参照ください。</description></item><item><title>はじめに</title><link>/fieldmaps/get-started/introduction/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/introduction/</guid><description>現地調査や報告業務を効率化できる Field Maps の利用を開始する方のためのガイドです。
 Field Maps は、スマートフォンなどのモバイル端末で現地調査データを入力することができる GIS アプリケーションです。併せて使用する ArcGIS Online (クラウド GIS) 上では、Field Maps で入力した調査結果と調査の状況をオフィス作業員がリアルタイムに確認することができます。
 利用の流れ Field Maps Web アプリで、現地調査で使用するデータを作成します。 Field Maps Web アプリで、Web マップを構成します。 Field Maps モバイル アプリを使用して、データを収集します。 必要なライセンス ArcGIS Online のユーザー タイプによって Field Maps で利用可能な機能が異なります。
 Creator、GIS Professional: 組織で共有されているマップの表示、編集、作成ができます。 Mobile Worker: 組織で共有されているマップの表示、編集、位置情報の共有ができます。 Viewer、Editor: 組織で共有されているマップを表示できます。 ArcGIS Online のユーザー タイプを持っていない場合: パブリックに公開されているマップを表示できます。 詳細は、ヘルプをご参照ください。
@@ -139,18 +139,13 @@ CityEngine インストール プログラムである Setup.exe を起動しま
 アンインストール ArcGIS CityEngine をアンインストールする手順を説明します。
 単独使用 (SU) ライセンスの場合は、必ずアンインストール前にライセンスの認証解除を行ってください。
 [コントロール パネル] を使用する方法 Windows の [コントロール パネル] → [プログラムと機能] をクリックします。 ArcGIS CityEngine をクリックして [アンインストールと変更] から [削除] オプションを選択します。 [設定] を使用する方法 [スタート] → [設定] → [アプリ] から [アプリと機能] へ移動します。 ArcGIS CityEngine をクリックし、[アンインストール] から [削除] オプションを選択します。</description></item><item><title>カスタム テンプレート</title><link>/drone2map/quick-start/custom/custom_createproject/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/custom/custom_createproject/</guid><description>カスタム テンプレートを利用したプロジェクトの作成 カスタム テンプレートは以下の2つの方法から選択できます。
-テンプレートリストから選択 テンプレートのインポート
-テンプレートリストから選択 カスタム テンプレートの設定でリストに追加したテンプレートを使用してプロジェクトを作成します。
-Drone2Map を開き、プロジェクト名を入力、画像を追加します。
-テンプレートのドロップダウン リストを開きます。
-カスタム テンプレートが選択できたら [作成] をクリックします。 これで、事前設定したテンプレートを使用したプロジェクトを作成できました。
-テンプレートのインポート デフォルトのテンプレート リストに追加していない場合など、任意のカスタム テンプレートを使用してプロジェクトを作成します。
-Drone2Map を開き、プロジェクト名を入力、画像を追加します。
-テンプレートのドロップダウン リストの左隣の参照ボタンをクリックします。
-[テンプレートのインポート] ダイアログで任意のカスタム テンプレートを選択します。
+デフォルト カスタム テンプレートの利用 テンプレートのインポート
+デフォルト カスタム テンプレートの利用 カスタム テンプレートの設定を行っている場合
+Drone2Map を開くとテンプレートは既に [カスタム] が選択されていますので、プロジェクト名の入力・保存場所の設定・画像の追加を行います。 [作成] をクリックします。 事前設定したテンプレートを使用したプロジェクトが開きます。 処理の実行は、[ホーム] タブの [開始] ボタンをクリックします。
+テンプレートのインポート カスタム テンプレートの設定を行っていない場合または、任意のカスタムテンプレートを使用してプロジェクトを作成する場合
+Drone2Map を開き、テンプレート リストで [カスタム] を選択し、[テンプレートのインポート] ダイアログで任意のカスタム テンプレートを選択します。 プロジェクト名の入力・保存場所の設定・画像の追加を行います。
 [作成] をクリックしてプロジェクトを作成します。
-これで、任意のテンプレートによるプロジェクトが作成できました。
-処理の実行は、[ホーム] タブの [開始] ボタンをクリックします。</description></item><item><title>クイック アクション</title><link>/hub/get-started/quick-action/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hub/get-started/quick-action/</guid><description>ArcGIS Hub を開始するための概要を説明します。 各項目の操作についての詳細は、それぞれのドキュメント ページをご参照ください。
+これで、任意のテンプレートによるプロジェクトが作成できます。 処理の実行は、[ホーム] タブの [開始] ボタンをクリックします。</description></item><item><title>クイック アクション</title><link>/hub/get-started/quick-action/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hub/get-started/quick-action/</guid><description>ArcGIS Hub を開始するための概要を説明します。 各項目の操作についての詳細は、それぞれのドキュメント ページをご参照ください。
 ArcGIS Hub Premium の有効化 (オプション)
 サイトまたはイニシアティブの作成
 コンテンツの作成と追加
@@ -206,22 +201,18 @@ Esri アカウント (https://accounts.</description></item><item><title>チュ�
 演習 ・Part 1: プロジェクトの新規作成 ・Part 2: シーンの作成 ・Part 3: 最初の道路レイアウトの作成 ・Part 4: CityEngine のナビゲーションを探索 ・Part 5: オブジェクトの選択 ・Part 6: ルールを使用したモデルの生成 ・Part 7: ルールの編集 Part 1: プロジェクトの新規作成 はじめに、CityEngine プロジェクトを新規作成します。
 [File] メニュー → [New] → [CityEngine] → [CityEngine project] をクリックします。[Select a wizard] ダイアログ ボックスが表示されます。 [Next] をクリックします。</description></item><item><title>プロジェクトの作成</title><link>/drone2map/quick-start/2d_mapping/2dmapping_createproject/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_mapping/2dmapping_createproject/</guid><description>プロジェクトの作成 Windows の [スタート] ボタン → [ArcGIS] → [Drone2Map] をクリックします。
 ArcGIS Online の組織向けアカウントまたは Portal for ArcGIS アカウントでサイン インします。
-任意のプロジェクト名を入力します。
-プロジェクトを保存する場所を設定します。
-[フォルダーの追加] をクリックし、解凍した 「Sample Banana Plant」 フォルダー内の 「Images」 フォルダーを指定します。ここで選択した画像には、撮影した際の GPS の情報が含まれていないため、[GPS ファイルが必要です] ウィンドウが表示されます。[参照] から Files フォルダー内の Geolocation.csv を指定後 [OK] をクリックします。
-[プロジェクト テンプレートの選択] において [2D プロダクト] を選択します。
-[作成] をクリックします。</description></item><item><title>プロジェクトの作成</title><link>/drone2map/quick-start/2d_rapid/2drapid_createproj/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_rapid/2drapid_createproj/</guid><description>プロジェクトの作成 Windows の [スタート] ボタン → [ArcGIS] → [Drone2Map] をクリックします。
+任意のプロジェクト名を入力し、プロジェクトを保存する場所を設定します。
+[フォルダーの追加] をクリックし、解凍した 「Sample Banana Plant」 フォルダー内の 「Images」 フォルダーを指定します。入力画像には、撮影した際の GPS の情報が含まれていないため、[GPS ファイルが必要です] ウィンドウが表示されます。[参照] から Files フォルダー内の Geolocation.csv を指定後 [OK] をクリックします。
+[2D プロダクト] テンプレートを選択し、[作成] をクリックしてプロジェクトを作成します。</description></item><item><title>プロジェクトの作成</title><link>/drone2map/quick-start/2d_rapid/2drapid_createproj/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_rapid/2drapid_createproj/</guid><description>プロジェクトの作成 Windows の [スタート] ボタン → [ArcGIS] → [Drone2Map] をクリックします。
 ArcGIS Online の組織向けアカウントまたは Portal for ArcGIS アカウントでサイン インします。
 任意のプロジェクト名を入力し、プロジェクトを保存する場所を設定します。
 [フォルダーの追加] をクリックし、解凍した 「Sample Asphalt」フォルダー内の 「Images」 フォルダーを指定します。
-[高速テンプレート] を選択し、[作成] をクリックしてプロジェクトを作成します。
-[フライト データ] タブ の [画像テーブル] をクリックし、画像の情報を確認します。 確認ができたら [画像の中心] テーブル ビューを閉じます。</description></item><item><title>プロジェクトの作成</title><link>/drone2map/quick-start/3d_mapping/3dmapping_createproject/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/3d_mapping/3dmapping_createproject/</guid><description>プロジェクトの作成 Windows の [スタート] ボタン → [ArcGIS] → [Drone2Map] をクリックします。
+[高速] テンプレートを選択し、[作成] をクリックしてプロジェクトを作成します。
+プロジェクト画面が開いたら、[フライト データ] タブの [画像テーブル] をクリックして入力した画像情報を確認することができます。</description></item><item><title>プロジェクトの作成</title><link>/drone2map/quick-start/3d_mapping/3dmapping_createproject/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/3d_mapping/3dmapping_createproject/</guid><description>プロジェクトの作成 Windows の [スタート] ボタン → [ArcGIS] → [Drone2Map] をクリックします。
 ArcGIS Online の組織向けアカウントまたは Portal for ArcGIS アカウントでサイン インします。
-任意のプロジェクト名を入力します。
-プロジェクトを保存する場所を設定します。
+任意のプロジェクト名を入力し、プロジェクトを保存する場所を設定します。
 [フォルダーの追加] をクリックし、解凍した「Small_Buildings」フォルダー内の 「Images」フォルダーを指定します。
-[プロジェクト テンプレートの選択] において [3D プロダクト] を選択します。
-[作成] をクリックします。</description></item><item><title>ライセンス</title><link>/drone2map/get-started/license/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/get-started/license/</guid><description>指定ユーザー ライセンス Drone2Map は、指定ユーザー ライセンスと呼ばれるライセンスを使用します。指定ユーザーライセンスは、ArcGIS Online または Portal for ArcGIS を使用して構成され、組織の管理者が個々のユーザーに Drone2Map ライセンスを割り当てることで、ユーザーは Drone2Map にサイン インしてライセンスを利用します。
+[3D プロダクト] テンプレートを選択し、[作成] をクリックしてプロジェクトを作成します。</description></item><item><title>ライセンス</title><link>/drone2map/get-started/license/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/get-started/license/</guid><description>指定ユーザー ライセンス Drone2Map は、指定ユーザー ライセンスと呼ばれるライセンスを使用します。指定ユーザーライセンスは、ArcGIS Online または Portal for ArcGIS を使用して構成され、組織の管理者が個々のユーザーに Drone2Map ライセンスを割り当てることで、ユーザーは Drone2Map にサイン インしてライセンスを利用します。
 Drone2Map ライセンス ArcGIS Drone2Map 2022.1 以降、Drone2Map ライセンスには 2 つの新しいライセンス レベルが導入されました。購入したライセンス レベルに応じて ArcGIS Drone2Map Standard または ArcGIS Drone2Map Advanced をユーザーに割り当てます。
 バージョン 2.3.3 を使用されていた場合、既に追加されている『ArcGIS Drone2Map』ライセンスでは、バージョン 2022.1 以降の ArcGIS Drone2Map はご利用いただけませんのでご注意ください。
 ライセンス タイプは、ArcGIS Online または Portal for ArcGIS 組織サイトの [ライセンス] タブで確認することができます。
@@ -423,16 +414,15 @@ My Esri で ArcGIS CityEngine 単独使用ライセンスの認証番号を取�
 レポートの作成手順 [組織] → [ステータス] → [レポート] タブ → [レポートの作成] をクリックします。 [レポートの作成] をクリックし、出力したいレポートの種類を選択します。
 アクティビティ：組織サイトで行われた操作に関する簡易なログを出力します。 クレジット：クレジットを消費する処理の詳細情報をユーザーごとに集計し出力します。 アイテム：その時点での組織サイト上のアイテム一覧を出力します。 メンバー：その時点での組織サイト上のメンバー一覧を出力します。 アイテム閲覧数：指定した期間の各アイテムの閲覧数を集計し、出力します。 サービスの使用状況：API キーおよびアプリケーションの認証情報に関連付けられた使用状況を出力します。 ※ アクティビティ、クレジット、サービスの使用状況は、出力する期間を指定します。
 レポートの各種類のフィールドの詳細はヘルプをご参照ください。
-[レポートの作成] をクリックし、出力されたレポートをダウンロードします。 ダウンロードした CSV ファイルが文字化けする場合は、文字コードを「UTF-8」に指定したうえで Excel などで読み込んでください。</description></item><item><title>処理設定の確認</title><link>/drone2map/quick-start/2d_mapping/2dmapping_processingoption/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_mapping/2dmapping_processingoption/</guid><description>処理設定の確認 [ホーム] タブで [オプション] をクリックして処理設定を確認します。 2D プロダクト テンプレートのデフォルトの設定では、[画像の調整] タブの [タイポイント オプション] / [初期の画像の縮尺] が「1/8 (画像サイズの 8 分の 1)」 が選択されています。 [2D プロダクト] タブでは、[トゥルー オルソの作成] と [DSM の作成] のチェック ボックスがオンになっています。
+[レポートの作成] をクリックし、出力されたレポートをダウンロードします。 ダウンロードした CSV ファイルが文字化けする場合は、文字コードを「UTF-8」に指定したうえで Excel などで読み込んでください。</description></item><item><title>処理設定の確認</title><link>/drone2map/quick-start/2d_mapping/2dmapping_processingoption/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_mapping/2dmapping_processingoption/</guid><description>処理設定の確認 [ホーム] タブで [オプション] をクリックして処理設定を確認します。 2D プロダクト テンプレートのデフォルトの設定では、[画像の調整] タブの [タイポイント オプション] の [調整の改善] チェック ボックスがオンになっていることを確認します。[調整の改善] 設定は、タイ ポイント生成の初期調整時に、カメラ モデルを最適化しし、タイ ポイント数を増やしてプロダクトの精度を向上させることができます。 [2D プロダクト] タブでは、[トゥルー オルソの作成] と [DSM の作成] のチェック ボックスがオンになっています。
 今回はデフォルトの設定で処理を実行するので、[OK] をクリックします。
-[ホーム] タブの [開始] をクリックし、処理を実行します。</description></item><item><title>処理設定の確認</title><link>/drone2map/quick-start/2d_rapid/2drapid_processingoption/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_rapid/2drapid_processingoption/</guid><description>処理設定の確認 [ホーム] タブで [オプション] をクリックして処理設定を確認します。 高速テンプレートのデフォルトの設定では、[画像の調整] タブの [タイポイント オプション] / [初期の画像の縮尺] が「1/4 (画像サイズの 4 分の 1)」 が選択されています。 これにより処理時間が短縮されます。その他の設定は、2D テンプレートと似ていますが、2D テンプレートでは [調整の改善] チェックボックスがオンになっておりより高品質なプロダクトを生成するために画像スケールが自動的に調整されるようになっています。時間短縮のため、このオプションはオフになっています。
+[ホーム] タブの [開始] をクリックし、処理を実行します。</description></item><item><title>処理設定の確認</title><link>/drone2map/quick-start/2d_rapid/2drapid_processingoption/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_rapid/2drapid_processingoption/</guid><description>処理設定の確認 [ホーム] タブで [オプション] をクリックして処理設定を確認します。 高速テンプレートのデフォルトの設定では、[画像の調整] タブの [タイポイント オプション] / [初期の画像の縮尺] で「1/4 (画像サイズの 4 分の 1)」が選択されています。 これにより処理時間が短縮されます。その他の設定は、2D テンプレートと似ていますが、2D テンプレートでは [調整の改善] チェックボックスがオンになっており、より高品質なプロダクトを生成するために画像スケールが自動的に調整されるようになっています。時間短縮のため、このオプションはオフになっています。
 [2D プロダクト] タブをクリックすると、作成するプロダクトは、[トゥルーオルソの作成] のチェック ボックスだけがオンになっていることが確認できます。作成するプロダクトを最小限にすることで処理時間を削減することができます。
 今回はデフォルトの設定で処理を実行するので、そのまま [OK] をクリックします。
 [ホーム] タブの [開始] をクリックし、処理を実行します。
 処理を開始すると、[管理] ウィンドウ下部で現在行われている処理の色が変化します。
-また、処理内容と進行状況のバーが最下部に表示され、リアルタイムで確認することができます。</description></item><item><title>処理設定の確認</title><link>/drone2map/quick-start/3d_mapping/3dmapping_processingoption/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/3d_mapping/3dmapping_processingoption/</guid><description>処理設定の確認 [管理] ウィンドウで処理設定を確認します。 3D プロダクト テンプレートのデフォルトの設定では、[画像の調整]、[密度の一致]、 [3D プロダクト] のステップが処理されます。
-[管理] ウィンドウ上部では、「3D プロダクト」の [3D メッシュ] と [ポイント クラウド] にチェックが入っています。ウィンドウ下部の [3D プロダクト] をクリックして [オプション] ウィンドウを開き、処理の詳細を確認します。[ポイント クラウドの作成] の [SLPK] と [LAS] と、[3D テクスチャ メッシュの作成] の [SLPK] のチェック ボックスがオンになっていることを確認します。
-追加のプロダクトを作成したい場合は、[管理] ウィンドウまたは [オプション] ウィンドウで、該当のプロダクトのチェック ボックスをオンにします。
+また、処理内容と進行状況のバーが最下部に表示され、リアルタイムで確認することができます。</description></item><item><title>処理設定の確認</title><link>/drone2map/quick-start/3d_mapping/3dmapping_processingoption/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/3d_mapping/3dmapping_processingoption/</guid><description>処理設定の確認 [ホーム] タブで [オプション] をクリックして処理設定を確認します。 [3D プロダクト] タブをクリックして [ポイント クラウドの作成] の [SLPK] と [LAS] と、[3D テクスチャ メッシュの作成] の [SLPK] のチェック ボックスがオンになっていることを確認します。
+作成するプロダクトを追加したい場合は、[管理] ウィンドウまたは [オプション] ウィンドウで、該当のプロダクトのチェック ボックスをオンにします。
 今回はデフォルトの設定で処理を実行するので、[OK] をクリックします。
 [ホーム] タブの [開始] をクリックし、処理を実行します。</description></item><item><title>動作環境</title><link>/drone2map/get-started/environment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/get-started/environment/</guid><description>インストールを行う前に、動作環境をご確認いただき、要件を満たす環境をご用意ください。最新のシステム要件や推奨されるハードウェア要件につきましてはヘルプをご参照ください。
 ArcGIS Drone2Map 動作環境</description></item><item><title>組織の設定</title><link>/online/get-started/setup/admin/settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/setup/admin/settings/</guid><description>組織の管理者は、ArcGIS Online の Web サイトを構成することで、組織にとって重要な設定を構成できます。
@@ -580,14 +570,14 @@ BA Pro 3.0 以降では、Business Analyst データセットをインストー�
 [メンバーの削除] をクリックします。
 グループとコンテンツの移動と同時に、Esri アクセスの無効化や割り当てられているライセンスの取り消しが行われ、ユーザーが削除されます。</description></item><item><title>処理結果の確認</title><link>/drone2map/quick-start/2d_mapping/2dmapping_result/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_mapping/2dmapping_result/</guid><description>結果の確認 処理が完了すると、[コンテンツ] ウィンドウの「画像プロダクト」グループに「トゥルー オルソ」レイヤーが、「DEM プロダクト」グループに「数値表層モデル」レイヤーが追加されます。
 また、[2Dマップ] ビューには高解像度のトゥルー オルソが表示されます。
-レイヤーの表示・非表示、マップ上で画面移動やズームを行い、トゥルー オルソを確認します。</description></item><item><title>処理結果の確認</title><link>/drone2map/quick-start/2d_rapid/2drapid_result/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_rapid/2drapid_result/</guid><description>処理結果の確認 処理が完了すると、[コンテンツ] ウィンドウの「画像プロダクト」グループに「トゥルーオルソ」レイヤーが追加されます。
+レイヤーの表示・非表示、マップ上で画面移動やズームを行い、トゥルー オルソまたは数値表層モデルを確認します。</description></item><item><title>処理結果の確認</title><link>/drone2map/quick-start/2d_rapid/2drapid_result/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_rapid/2drapid_result/</guid><description>処理結果の確認 処理が完了すると、[コンテンツ] ウィンドウの「画像プロダクト」グループに「トゥルーオルソ」レイヤーが追加されます。
 レイヤーの表示・非表示、マップ上で画面移動やズームを行い、トゥルーオルソを確認します。
 [高速] テンプレートは処理時間を低減するため、低解像度のプロダクトを生成します。
-高解像度のプロダクトを生成したい場合は、[オプション] ウィンドウにおいて手動で解像度パラメーターを変更するか、[2D プロダクト] テンプレートで処理を実行してください。</description></item><item><title>処理結果の確認</title><link>/drone2map/quick-start/3d_mapping/3dmapping_result/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/3d_mapping/3dmapping_result/</guid><description>結果の確認 処理が完了すると [コンテンツ] ウィンドウ → [3D プロダクト] グループに「ポイント クラウド」 レイヤーと「3D メッシュ」レイヤーが、[標高サーフェス] に作成した「DEM」レイヤーが追加され、[3D マップ] には、ポイント クラウドと 3D メッシュが表示されます。
-[コンテンツ] ウィンドウで「ポイント クラウド」レイヤーのチェック ボックスをオフにすると、3D メッシュのみを表示することができます。
+高解像度のプロダクトを生成したい場合は、[オプション] ウィンドウにおいて手動で解像度パラメーターを変更するか、[2D プロダクト] テンプレートで処理を実行してください。</description></item><item><title>処理結果の確認</title><link>/drone2map/quick-start/3d_mapping/3dmapping_result/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/3d_mapping/3dmapping_result/</guid><description>結果の確認 処理が完了すると [コンテンツ] ウィンドウに 3D メッシュとポイント クラウドが追加されます。マップが 3D 表示でない場合は、[3D マップ] タブをクリックして、表示を 3D マップに変更します。
+[コンテンツ] ウィンドウの [3D プロダクト] グループで「ポイント クラウド」レイヤーのチェック ボックスをオンにするとポイント クラウドが表示されます。
 レイヤーの表示・非表示、画面移動やズームを行い、結果を確認します。
 [3D マップ] のマウス操作は、マウスの左ドラッグで画面移動、中央のホイールの回転で拡大 / 縮小、シフトキー + 右ドラッグで回転や傾斜の動作ができます。
-良い結果を得るには、地上基準点(GCP) を使用し、3D プロダクトを生成します。GCP を使用しない場合、誤った標高値によって正しく結果が表示されない場合があります。</description></item><item><title>高度な CGA</title><link>/cityengine/get-started/quickstart-tutorials/advanced-cga/</link><pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate><guid>/cityengine/get-started/quickstart-tutorials/advanced-cga/</guid><description>概要 CGA の作成で作成したモデルの区画や建物の形状を整え、日本の戸建て住宅のような感じにするために、区画と CGA ルールを改良します。
+良い結果を得るには、地上基準点(GCP) を使用してプロダクトを生成します。GCP を使用しない場合、誤った標高値によって正しく結果が表示されない場合があります。</description></item><item><title>高度な CGA</title><link>/cityengine/get-started/quickstart-tutorials/advanced-cga/</link><pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate><guid>/cityengine/get-started/quickstart-tutorials/advanced-cga/</guid><description>概要 CGA の作成で作成したモデルの区画や建物の形状を整え、日本の戸建て住宅のような感じにするために、区画と CGA ルールを改良します。
 演習 ・区画の調整 ・フットプリントの生成 ・分岐の使用 ・今回作成した CGA CGA の作成 での CGA ルールは以下のような記述になっています (以下のコードをコピー &amp;amp; ペーストして利用することもできます。)
 「#」 以下はコメント文ですので実際には書く必要はありません。
 attr Height = rand(5,20) #5~20m の間でランダムに高さを設定 @Color attr roofcolor = listRandom(&amp;quot;#ff7f50;#9acd32;#ff4500&amp;quot;) @Color attr wallcolor = listRandom(&amp;quot;#ffff00;#00ffff;#dda0dd&amp;quot;) Footprint--&amp;gt; extrude(Height) #[Height] 属性に基づいて立ち上げ House House--&amp;gt; comp(f){top: Roof | side: Wall} #シェープをトップ (屋根) とサイド (壁) に分割 Roof--&amp;gt; roofGable(20,1,1) #Gable (切妻型) の屋根を設定 color(roofcolor) Wall--&amp;gt; color(wallcolor) 区画の調整 CityWizard のデフォルト設定で作成された区画は、日本の戸建て住宅としては大きすぎるので、各区画の面積が 100 ～ 150 平方メートルになるように設定します。</description></item><item><title>Web マップの構成</title><link>/fieldmaps/get-started/prepare/configure-map/</link><pubDate>Mon, 27 Nov 2023 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/prepare/configure-map/</guid><description>「Web マップの作成」で作成したマップに対して、各タブで詳細な設定を行います。
@@ -768,7 +758,12 @@ ArcGIS Pro の作業内容は「プロジェクト」に保存されます。プ
 Business Analyst データ ソースの設定 Business Analyst の機能を利用するためには、Business Analyst データ ソースを設定する必要があります。
 本チュートリアルでは、オフライン データセットをデータ ソースとして設定します。
 データセットは任意に変更することができ、オンラインとオフラインの 2 種類から選択可能です。各データの仕様については、こちらをご覧ください。
-[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタンをクリックし、[Business Analyst データ ソース] が JPN_EsriJapan_2024 に設定されているか確認します。設定されていない場合は、[データ ソースの変更] をクリックします。</description></item><item><title>特定の場所を検索したい</title><link>/online/users-guide/map/search/</link><pubDate>Fri, 20 Oct 2023 00:00:00 +0900</pubDate><guid>/online/users-guide/map/search/</guid><description>住所や地名を検索したり、レイヤーの属性情報を基に特定の場所を検索したりして、マップの表示範囲をその場所に移動します。
+[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタンをクリックし、[Business Analyst データ ソース] が JPN_EsriJapan_2024 に設定されているか確認します。設定されていない場合は、[データ ソースの変更] をクリックします。</description></item><item><title>チュートリアル 7 : ファサード モデリング</title><link>/cityengine/tutorials/classic/tutorial-7-facade-modeling/</link><pubDate>Tue, 09 Jan 2024 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-7-facade-modeling/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+概要 このチュートリアルでは、ファサード構造の作成、アセットの挿入、建物へのテクスチャの追加など、写真から建物をモデリングする方法を学習します。また、複雑な CGA のテクニックについても学習します。
+演習 ・Part 1 :ファサードの構造をモデリング ・Part 2 :ファサード アセットの挿入 ・Part 3 :ファサードのテクスチャを作成 Part 1 :ファサードの構造をモデリング ファサード モデリング 以下のワークフローでは、実際の写真からファサードを再作成するための CGA ルール セットを記述する方法を示します
+このセッションでは、CGA ルールでファサードの基本構造を作成します。ルール セットの拡張を進めながら、写真をより詳細に分析し、CGA ルールでプリモデルされたアセットをどのように使用できるかを学習します。
+ルール ファイルの作成 ルール ファイルを作成するために、以下の手順を行います。
+[Navigator] ウィンドウ で Tutorial_07_Facade_Modeling フォルダーを展開します。 scenes フォルダー の FacadeModeling_01.</description></item><item><title>特定の場所を検索したい</title><link>/online/users-guide/map/search/</link><pubDate>Fri, 20 Oct 2023 00:00:00 +0900</pubDate><guid>/online/users-guide/map/search/</guid><description>住所や地名を検索したり、レイヤーの属性情報を基に特定の場所を検索したりして、マップの表示範囲をその場所に移動します。
 住所や地名の検索 Map Viewer を開きます。
 [検索] をクリックします。
 [住所または場所の検索] ボックスに住所や地名を入力します。
@@ -799,12 +794,7 @@ Map Viewer での検索 検索の設定をした Web マップを Map Viewer で
 カスタム変数を用いたカラーコード マップの作成 次に、カスタム変数を作成し、その変数を用いたカラーコード マップを作成します。
 [マップ] タブの [マップの作成] → [カラーコード マップ] をクリックします。 左側に [カラーコード マップ] ダイアログ ボックスが表示されたら、[カスタム変数の作成] をクリックします。 [カスタム変数の作成] ダイアログ ボックスが開いたら、[標準データ] の [年齢] カテゴリをクリックします。 [年代別人口] をクリックします。
 「2020 年代別 人口 (国勢調査)」の横の [&amp;gt;] をクリックして、展開します。
-「2020 人口 20 歳代 (国勢調査)」および「2020 人口 30 歳代 (国勢調査)」にチェックを入れます。 [選択した変数の追加] をクリックします。 [合計値として追加] をクリックします。 [保存および追加] をクリックします。 [カスタム変数の保存] ウィンドウで、「2020年20-30歳代の人口」と入力し、[保存] をクリックします。 マップ上に 20-30 歳代人口が表示されます。</description></item><item><title>チュートリアル 7 : ファサード モデリング</title><link>/cityengine/tutorials/classic/tutorial-7-facade-modeling/</link><pubDate>Fri, 14 Jan 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-7-facade-modeling/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
-概要 このチュートリアルでは、写真から建物をモデリングする方法を解説し、いくつかの複雑な CGA のテクニックを紹介します。最初のパートでは、CGA ルールでどのようにファサード（建物の前面）の基本構造を作成するかを学習します。
-演習 ・Part 1 :ファサードの構造をモデリングする ・Part 2 :アセットの挿入 ・Part 3 :ファサードへのテクスチャ貼り付け Part 1 :ファサードの構造をモデリングする チュートリアルのセットアップ プロジェクト Tutorial_07_Facade_Modeling を自分の CityEngine ワークスペースにインポートします。
-シーン Tutorial_07_Facade_Modeling/scenes/FacadeModeling_01.cej を開きます。
-ファサード モデリング このチュートリアルでは、実際に撮影した写真からどのようにファサードを再現する一連の CGA を記述するかを説明します。これからモデリングするファサードは以下に示すものです。ルールセットの作成が進むにつれて、より詳細に写真を解析していくことになります。
-どのように実際のファサードを解析し、その構造を CGA グラマールールに翻訳していくか、そしてどのように既存のモデルアセットを CGA ルールに使用するかを学習します。</description></item><item><title>商圏分析ツール</title><link>/business-analyst/pro/tips/functionality/esrijtool/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tips/functionality/esrijtool/</guid><description>ESRIジャパンが作成した ArcMap 版の「商圏分析ツール」の各種機能に対応する BA Pro の機能を説明します。
+「2020 人口 20 歳代 (国勢調査)」および「2020 人口 30 歳代 (国勢調査)」にチェックを入れます。 [選択した変数の追加] をクリックします。 [合計値として追加] をクリックします。 [保存および追加] をクリックします。 [カスタム変数の保存] ウィンドウで、「2020年20-30歳代の人口」と入力し、[保存] をクリックします。 マップ上に 20-30 歳代人口が表示されます。</description></item><item><title>商圏分析ツール</title><link>/business-analyst/pro/tips/functionality/esrijtool/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tips/functionality/esrijtool/</guid><description>ESRIジャパンが作成した ArcMap 版の「商圏分析ツール」の各種機能に対応する BA Pro の機能を説明します。
 商圏分析ツール 機能名 (ArcMap 版) 機能名 (BA Pro) 関連チュートリアル 備考 簡易属性検索 属性検索 - フィルタリング 定義クエリによるフィーチャのフィルター - テーブル結合 テーブルの結合 - ポイント集計 エリア内での集計 - 面積按分集計 ポリゴンの按分 - 重複レイヤーの抽出 空間検索 - テーブルのエクスポート テーブル → テーブル - フィールドの削除 フィールドの削除 - 重複ポイントの分散 - - クロスランキング 2 変量色 ・市場シェアの把握 商圏レポート ・インフォグラフィックス・サマリー レポート ・既存店舗を対象とした分析 table { width: 100%; margin-right: 5px; margin-left: 15px; } table th:first-of-type { width: 20%; } table th:nth-of-type(2) { width:20%; } table th:nth-of-type(3) { width: 25%; } table th:nth-of-type(4) { width: 35%; }</description></item><item><title>顧客・店舗情報の取り込み</title><link>/business-analyst/pro/tutorial/geocoding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/geocoding/</guid><description>2022 年版以前の Business Analyst 用オフライン データに付属する従来形式のロケーターは、ArcGIS Pro 3.0 以降では動作しないのでご注意ください (詳細はこちら)。
 本演習にかかる時間はおよそ 15-30 分です。
 目的 住所情報を含むテーブル データと [住所のジオコーディング] ツールを用いて、自社の店舗や顧客をポイント データ化する方法を習得します。
@@ -815,7 +805,10 @@ Map Viewer での検索 検索の設定をした Web マップを Map Viewer で
 C:\Users\&amp;lt;ユーザー名&amp;gt;\Documents\ArcGIS\Packages\BAProチュートリアル-商圏分析_xxxx
 顧客のテーブル データをマップに追加します。
 [マップ] タブ → [レイヤー] グループの [データの追加] をクリックします。 [データ] を選択して、[データの追加] ダイアログを開きます。 演習データ内の Excel シートを選択し、[OK] をクリックします。 &amp;lt;上記展開先&amp;gt;\commondata\userdata\顧客リスト.xlsx\顧客リスト$
-Excel の読み込みができない場合、事前準備に記載の Microsoft Access データベース エンジンのインストールが必要な場合があります。</description></item><item><title>フィーチャの表示や設定を限定した状態のデータを作成したい</title><link>/online/users-guide/manage-data/viewlayer/</link><pubDate>Mon, 26 Jun 2023 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/viewlayer/</guid><description>ホスト フィーチャ レイヤー (親レイヤー) の情報は参照したまま、特定のエリアやフィールド、条件に合ったフィーチャのみを表示したり、編集権限を個別に設定し定義したビュー レイヤー (子レイヤー) を作成することができます。
+Excel の読み込みができない場合、事前準備に記載の Microsoft Access データベース エンジンのインストールが必要な場合があります。</description></item><item><title>チュートリアル 8 : マスモデリング</title><link>/cityengine/tutorials/classic/tutorial-8-mass-modeling/</link><pubDate>Tue, 09 Jan 2024 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-8-mass-modeling/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+概要 このチュートリアルでは、L 字型および U 字型シェープの建物を使ったマスモデリングや区画に高さとセットバックのバリエーションを適用する方法、テクスチャを含む多様な外観のシーンを生成する方法について学習します。
+CGA シェープ グラマーの詳細については、エッセンシャル チュートリアルのルール ベースのモデリングやヘルプの Rule-based modeling、CGA modeling をご参照ください。
+演習 ・Part 1 : L 字型および U 字型シェープ ・Part 2 : 再帰を使用したマスモデリング ・Part 3 : セットバックによる区画の調整 ・Part 4 : マスモデルとセットバックの組み合わせ ・Part 5 : テクスチャ付きファサードの追加 Part 1 : L 字型および U 字型シェープ はじめに CGA を使用して、建物の L 字型マスモデルと U 字型マスモデルを作成します。これは、都市における一般的な建物のタイプを表しています。</description></item><item><title>フィーチャの表示や設定を限定した状態のデータを作成したい</title><link>/online/users-guide/manage-data/viewlayer/</link><pubDate>Mon, 26 Jun 2023 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/viewlayer/</guid><description>ホスト フィーチャ レイヤー (親レイヤー) の情報は参照したまま、特定のエリアやフィールド、条件に合ったフィーチャのみを表示したり、編集権限を個別に設定し定義したビュー レイヤー (子レイヤー) を作成することができます。
 ホスト フィーチャ レイヤー ビューの作成 ビューを作成したいホスト フィーチャ レイヤーのアイテム詳細ページを開きます。
 [概要] タブの [ビュー レイヤーを作成] → [ビュー レイヤー] をクリックします。
 [ビュー レイヤーを作成] ウィザードが表示されます。まず、[レイヤー] でビューに含めるレイヤーを選択し、[次へ] をクリックします。
@@ -827,23 +820,18 @@ Excel の読み込みができない場合、事前準備に記載の Microsoft 
 表示する必要のないフィールドをビューから除外することができます。[フィールドの選択] をクリックし、フィールド名をクリックしてビューから削除または追加し、[完了] をクリックします。 レイヤーの定義が完了したら、[レイヤー定義] 横の矢印をクリックし、レイヤー リストに戻ります。複数のレイヤーをビューに含める場合は、上記の手順を繰り返し、[次へ] をクリックします。
 [作成] でホスト フィーチャ レイヤー ビューのタイトルなどを入力します。</description></item><item><title>スマート マップ サーチで有望エリアの抽出・共有</title><link>/business-analyst/web/tutorial/smart-map-search/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0900</pubDate><guid>/business-analyst/web/tutorial/smart-map-search/</guid><description>複数の変数を選択し、条件に一致する区画エリアを表示することのできる「スマート マップ サーチ」を利用して、以下の条件を満たすエリアを対話的な操作で抽出します。
 20 歳代の人口が多い 独身世帯の比率が高い 借家比率が高い 解析範囲への移動 [マップ] タブ→ [住所または緯度/経度の入力] 左横のアイコンをクリック → [エリアの拡大] を選択します。 [都道府県、市区町村、町丁・字等など] に「大阪市北区」と入力し、Enter キーを押します。 大阪市北区周辺にマップが移動しました。
-絞り込み条件の設定 [マップ] タブ の [マップの作成] → [スマート マップ サーチ] をクリックします。 スマートマップ サーチのクイック ツアーを案内するダイアログが表示された場合は、[却下] をクリックします。 [スマート マップ サーチ] ダイアログで、[すべての変数の参照] をクリックします。 データ ブラウザーの [標準データ] タブ → 「婚姻関係」カテゴリをクリックします。 「2020 人口 未婚 (国勢調査)」にチェックを入れ、 [戻る] をクリックします。 データ ブラウザーの [標準データ] タブ → 「住宅」カテゴリをクリックします。 「2020 一般世帯数 民営借家 (国勢調査)」にチェックを入れ、[戻る] をクリックします。 データ ブラウザーの [標準データ] タブ → 「年齢」カテゴリをクリックします。 [年代別人口] を選択し、「2020 人口 20歳代 (国勢調査)」にチェックを入れます。 ここまでの操作で [選択した変数] に、３つの変数が追加されます。</description></item><item><title>チュートリアル 8 : マスモデリング</title><link>/cityengine/tutorials/classic/tutorial-8-mass-modeling/</link><pubDate>Fri, 14 Jan 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-8-mass-modeling/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
-概要 本チュートリアルでは、シェープグラマー、およびマスモデリングについて学習します。
-演習 ・Part 1 : L 字型およびU字型シェープ ・Part 2 : 再帰を使用したマスモデリング ・Part 3 : セットバックによる区画の調整 ・Part 4 : マスモデルとセットバックの組み合わせ ・Part 5 : テクスチャ付きファサードの追加 Part 1 : L 字型および U 字型シェープ チュートリアルのセットアップ このチュートリアルでは、建物のマスモデルがどのようにシェープ グラマーにより作成されるのかを説明します。L 字型や U 字型マスのような典型的な建築物の立体シェープを作成します。
-プロジェクト Tutorial_08_Mass_Modeling を自分の CityEngine ワークスペースにインポートします。 シーン 01_MassModeling.</description></item><item><title>チュートリアル 9: 高度なシェープ グラマー</title><link>/cityengine/tutorials/classic/tutorial-9-advanced-shape-grammar/</link><pubDate>Fri, 14 Jan 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-9-advanced-shape-grammar/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
-概要 写真から建物をモデリングする方法や、いくつかの高度な CGA テクニックについて学習します。
-演習 ・Part 1: 複雑なファサード パターン ・Part 2: キャンドラー ビルディング ・Part 3: パルテノン神殿 Part 1: 複雑なファサード パターン チュートリアルのセットアップ ComplexPatterns.cej シーンを開きます。
-建物の生成 このチュートリアルでは、実際の写真と CGA のみから建物を再現する CGA ルールを作成する方法を紹介します。
-これからモデリングするファサードの写真は以下のようなものです。この例にはタイルや窓のレイアウトに特殊なパターンが含まれているため、入れ子式の繰り返し分割やパラメーターの受け渡しなどのいくつかのより高度な CGA メカニズムを使用する必要があります。
-まず最初に、建物を生成します。
-[3D View] ウィンドウの中で区画を 1 つ選択します。
-ツールバーの [Generate] ボタンをクリックします。</description></item><item><title>新規候補地に対する分析 (クイック商圏)</title><link>/business-analyst/pro/tutorial/tradearea-analysis/evaluate-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/tradearea-analysis/evaluate-site/</guid><description>本演習にかかる時間はおよそ 15-30 分です。
+絞り込み条件の設定 [マップ] タブ の [マップの作成] → [スマート マップ サーチ] をクリックします。 スマートマップ サーチのクイック ツアーを案内するダイアログが表示された場合は、[却下] をクリックします。 [スマート マップ サーチ] ダイアログで、[すべての変数の参照] をクリックします。 データ ブラウザーの [標準データ] タブ → 「婚姻関係」カテゴリをクリックします。 「2020 人口 未婚 (国勢調査)」にチェックを入れ、 [戻る] をクリックします。 データ ブラウザーの [標準データ] タブ → 「住宅」カテゴリをクリックします。 「2020 一般世帯数 民営借家 (国勢調査)」にチェックを入れ、[戻る] をクリックします。 データ ブラウザーの [標準データ] タブ → 「年齢」カテゴリをクリックします。 [年代別人口] を選択し、「2020 人口 20歳代 (国勢調査)」にチェックを入れます。 ここまでの操作で [選択した変数] に、３つの変数が追加されます。</description></item><item><title>チュートリアル 9: 高度なシェープ グラマー</title><link>/cityengine/tutorials/classic/tutorial-9-advanced-shape-grammar/</link><pubDate>Fri, 19 Jan 2024 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-9-advanced-shape-grammar/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+概要 このチュートリアルでは、建物のファサード イメージを解析し、ファサード コンポーネントを CGA に変換する方法を学習します。以下の実世界の画像から建物を再作成するための CGA ルールのセットを作成する方法を学習します。
+演習 ・Part 1: 建物の探索 ・Part 2: ファサードのレイアウトを定義 ・Part 3: CGA で建物ボリュームを作成 ・Part 4: フロアの追加 ・Part 5: タイルの追加 ・Part 6: 窓の追加 ・Part 7: 材質の追加 ・Part 8: 詳細の追加 ・Part 9: スタイルの追加 ・Part 10: キャンドラー ビルディング ・Part 11: パルテノン神殿 この例では、タイルと窓のレイアウトが複雑なパターンになっていることに気づきます。また、建物を作成するために、入れ子式の繰り返し分割やパラメーターの受け渡しなど、いくつかの高度な CGA メカニズムが使用されています。</description></item><item><title>新規候補地に対する分析 (クイック商圏)</title><link>/business-analyst/pro/tutorial/tradearea-analysis/evaluate-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/tradearea-analysis/evaluate-site/</guid><description>本演習にかかる時間はおよそ 15-30 分です。
 「クイック商圏」を使用することで、商圏作成からレポートの実行までを簡単に行うことができます。本演習では、西船橋駅を評価対象として分析を行います。
 演習 演習用データのダウンロード BA Pro チュートリアル-商圏分析 プロジェクトパッケージが無い場合は、ダウンロードします。 ダウンロードした「BAProチュートリアル-商圏分析.ppkx」を開き、[演習2] マップを開きます。 Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
 クイック商圏 クイック商圏を実行して、西船橋駅を起点とした商圏作成を行います。
 [解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [クイック商圏] をクリックします。 [クイック商圏] ウィザードの [ステップ 1: 位置] で、解析対象となる位置を指定します。
 [場所検索] タブの検索ボックスに「西船橋駅」と入力し、Enter キーを押します。 検索結果が表示されるので、選択して [次へ] をクリックします。 [ステップ2: バッファー] で商圏を作成します。
-[道路距離/時間商圏] タブを選択し、以下のように設定し、[次へ] をクリックします。 距離タイプ: 運転時間 (平常時) 時間: 「5」、「10」、「15」と入力します。単位は「分」に設定します。 ディゾルブ オプション: ディスク ディゾルブ オプションは、ドーナツ状のポリゴンを生成するかを指定します。 ・ディスク : 各ポリゴンは起点から指定した値までの領域になります。 (例: 5,10 分の道路時間商圏の場合、0-5 分の到達圏ポリゴンと 0-10 分の到達圏ポリゴンが生成されます。ドーナツ状になりません。) ・リング : 各ポリゴンは、指定した値の間にある領域のみになります。 (例: 5,10 分の道路時間商圏の場合、0-5 分の到達圏ポリゴンと 5-10 分の到達圏ポリゴンが生成されます。ドーナツ状になります。)</description></item><item><title>カスタム テンプレート作成の基本操作</title><link>/business-analyst/web/tutorial/build-infographics/how-to-customize-infographics/</link><pubDate>Fri, 02 Sep 2022 00:00:00 +0900</pubDate><guid>/business-analyst/web/tutorial/build-infographics/how-to-customize-infographics/</guid><description>本演習にかかる時間の目安は 30 分程度です。
+[道路距離/時間商圏] タブを選択し、以下のように設定し、[次へ] をクリックします。 距離タイプ: 運転時間 (平常時) 時間: 「5」、「10」、「15」と入力します。単位は「分」に設定します。 ディゾルブ オプション: ディスク ディゾルブ オプションは、ドーナツ状のポリゴンを生成するかを指定します。 ・ディスク : 各ポリゴンは起点から指定した値までの領域になります。 (例: 5,10 分の道路時間商圏の場合、0-5 分の到達圏ポリゴンと 0-10 分の到達圏ポリゴンが生成されます。ドーナツ状になりません。) ・リング : 各ポリゴンは、指定した値の間にある領域のみになります。 (例: 5,10 分の道路時間商圏の場合、0-5 分の到達圏ポリゴンと 5-10 分の到達圏ポリゴンが生成されます。ドーナツ状になります。)</description></item><item><title>チュートリアル 10: Python スクリプティング</title><link>/cityengine/tutorials/classic/tutorial-10-python-scripting/</link><pubDate>Sun, 22 Jan 2023 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-10-python-scripting/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+概要 このチュートリアルでは、Python コンソールおよびエディターの基本的な使用方法を学習し、CityEngine タスクの自動化の例をいくつか紹介します。 Python スクリプティング インターフェイスを利用すると、CityEngine の可能性をより広げることができます。
+演習 ・Part 1: Python コンソールおよびエディター ・Part 2: 道路幅の変更 ・Part 3: 建物の変化のアニメーション ・Part 4: アセット ライブラリ ルール ファイルの作成 ・Part 5: startup.py を用いた CityEngine タスクの自動化 Part 1: Python コンソールおよびエディター このセクションでは、Python コンソールおよびエディターを使用して簡単な選択を実行します。
+Python コンソール 新しい Python コンソール ウィンドウを起動します。</description></item><item><title>カスタム テンプレート作成の基本操作</title><link>/business-analyst/web/tutorial/build-infographics/how-to-customize-infographics/</link><pubDate>Fri, 02 Sep 2022 00:00:00 +0900</pubDate><guid>/business-analyst/web/tutorial/build-infographics/how-to-customize-infographics/</guid><description>本演習にかかる時間の目安は 30 分程度です。
 このチュートリアルでは、インフォグラフィックスのカスタマイズの要であるインフォグラフィックス パネルの作成・配置方法、デザインの編集方法について学びます。本演習を通じて、以下のようなインフォグラフィックス テンプレートを作成します。
 ArcGIS Online のサインインおよび BA Web App の起動 演習に入る前に、以下リンクの手順に沿って、ArcGIS Online へのサインインおよび BA Web App の起動を行います。
 セットアップ - BA Web App の設定 プロジェクトの作成 BA Web App は作成した商圏やレポート等をプロジェクト単位で管理します。プロジェクトを組織内で共有することで組織または特定のユーザーと共同作業を行うこともできます。
@@ -860,10 +848,7 @@ ArcGIS Online のサインインおよび BA Web App の起動 演習に入る�
 ポイントを追加するには、マップ上の位置をクリックします。 ラインまたはポリゴンを追加するには、マップ上で開始位置をクリックします。続けて頂点をクリックで追加し、終点をダブル クリックして入力を終了します。ポリゴンの場合は始点と終点が自動的に結ばれます。 属性を入力し、[作成] をクリックします。
 [フィーチャの配置] 左の [&amp;lt;] をクリックして [編集] ウィンドウに戻ります。
 フィーチャの編集 [編集] ウィンドウで [選択] をクリックします。
-マップ上のフィーチャを選択します。</description></item><item><title>チュートリアル 10: Python スクリプティング</title><link>/cityengine/tutorials/classic/tutorial-10-python-scripting/</link><pubDate>Wed, 23 Mar 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-10-python-scripting/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
-概要 Python スクリプト インターフェイスを利用すると、CityEngine の可能性をより広げることができます。このチュートリアルでは、Python Console および Editor の基本的な使用方法を解説し、CityEngine タスクの自動化の例を 2 つ紹介します。詳細については CityEngine Python reference をご参照ください。
-なお、Python スクリプト インターフェイス は、すべてのバージョンの CityEngine で利用できるわけではありません。
-演習 ・Part 1: Python Console および Editor ・Part 2: 道路幅の変更 ・Part 3: FBX ファイルからのカメラ設定 ・Part 4: 建物の変化アニメーション ・Part 5: アセット ライブラリ ルール ファイルの作成 ・Part 6: startup.</description></item><item><title>既存店舗を対象とした分析</title><link>/business-analyst/pro/tutorial/tradearea-analysis/analysis-for-existing-stores/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/tradearea-analysis/analysis-for-existing-stores/</guid><description>本演習にかかる時間はおよそ 30-45 分です。
+マップ上のフィーチャを選択します。</description></item><item><title>既存店舗を対象とした分析</title><link>/business-analyst/pro/tutorial/tradearea-analysis/analysis-for-existing-stores/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/tradearea-analysis/analysis-for-existing-stores/</guid><description>本演習にかかる時間はおよそ 30-45 分です。
 演習 演習用データのダウンロード BA Pro チュートリアル-商圏分析 プロジェクトパッケージが無い場合は、ダウンロードします。 ダウンロードした「BAProチュートリアル-商圏分析.ppkx」を開き、[演習3] マップを開きます。 [コンテンツ] ウィンドウおよびマップ上に「自社店舗」レイヤーがあらかじめ追加されていることを確認します。
 Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
 リング商圏の生成 自社店舗ポイントを起点としたリング商圏を作成します。

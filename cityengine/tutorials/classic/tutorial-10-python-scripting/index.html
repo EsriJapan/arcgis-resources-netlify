@@ -1,4 +1,4 @@
-<!doctype html><html><head><script async src="https://www.googletagmanager.com/gtag/js?id=UA-219516431-1"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-219516431-1')</script><title>チュートリアル 10: Python スクリプティング | ArcGIS リソース集</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name=revised content="2024-01-24T07:18:36 UTC"><link rel="shortcut icon" href=../../../../images/favicon.png type=image/x-icon><link href=../../../../css/nucleus.css rel=stylesheet><link href=../../../../css/font-awesome.min.css rel=stylesheet><link href=../../../../css/hybrid.css rel=stylesheet><link href=../../../../css/featherlight.min.css rel=stylesheet><link href=../../../../css/auto-complete.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.css rel=stylesheet><link href=../../../../theme-original/style.css rel=stylesheet><link rel=stylesheet href=../../../../css/bootstrap.min.css><script src=../../../../js/jquery-2.x.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js></script><style type=text/css>:root #header+#content>#left>#rlblock_left{display:none!important}</style><meta name=description content="Python Console および Editor の基本的な使用方法を学習します。"></head><body data-url=../../../../cityengine/tutorials/classic/tutorial-10-python-scripting/><div id=headermain></div><nav id=sidebar><div class=highlightable><div id=header-wrapper><div id=header><a class=baselink href>ArcGIS リソース集</a></div><div class=searchbox><label for=search-by><i class="fa fa-search"></i></label>
+<!doctype html><html><head><script async src="https://www.googletagmanager.com/gtag/js?id=UA-219516431-1"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-219516431-1')</script><title>チュートリアル 10: Python スクリプティング | ArcGIS リソース集</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name=revised content="2024-02-27T13:16:12 UTC"><link rel="shortcut icon" href=../../../../images/favicon.png type=image/x-icon><link href=../../../../css/nucleus.css rel=stylesheet><link href=../../../../css/font-awesome.min.css rel=stylesheet><link href=../../../../css/hybrid.css rel=stylesheet><link href=../../../../css/featherlight.min.css rel=stylesheet><link href=../../../../css/auto-complete.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.css rel=stylesheet><link href=../../../../theme-original/style.css rel=stylesheet><link rel=stylesheet href=../../../../css/bootstrap.min.css><script src=../../../../js/jquery-2.x.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js></script><style type=text/css>:root #header+#content>#left>#rlblock_left{display:none!important}</style><meta name=description content="Python コンソールおよびエディターの基本的な使用方法を学習します。"></head><body data-url=../../../../cityengine/tutorials/classic/tutorial-10-python-scripting/><div id=headermain></div><nav id=sidebar><div class=highlightable><div id=header-wrapper><div id=header><a class=baselink href>ArcGIS リソース集</a></div><div class=searchbox><label for=search-by><i class="fa fa-search"></i></label>
 <input data-search-input id=search-by type=text placeholder=検索...>
 <span data-search-clear><i class="fa fa-close"></i></span></div><script type=text/javascript src=../../../../js/lunr.min.js></script><script type=text/javascript src=../../../../js/auto-complete.js></script><script type=text/javascript>var baseurl=""</script><script type=text/javascript src=../../../../js/search.js></script></div><ul class=topics><li data-nav-id=/ class=dd-item><a href=../../../../><i class="fa fa-fw fa-home"></i></a></li><li data-nav-id=/cityengine/ class="dd-item parent haschildren"><div><a href=../../../../cityengine/>ArcGIS CityEngine</a>
 <i class="fa fa-angle-down fa-lg category-icon"></i></div><ul><li data-nav-id=/cityengine/get-started/ class="dd-item haschildren"><div><a href=../../../../cityengine/get-started/>スタートアップ ガイド</a><i class="fa fa-angle-right fa-lg category-icon"></i></div><ul><li data-nav-id=/cityengine/get-started/setup/ class="dd-item haschildren"><div><a href=../../../../cityengine/get-started/setup/>セットアップ</a><i class="fa fa-angle-right fa-lg category-icon"></i></div><ul><li data-nav-id=/cityengine/get-started/setup/environment/ class=dd-item><div><a href=../../../../cityengine/get-started/setup/environment/>システム要件</a></div></li><li data-nav-id=/cityengine/get-started/setup/download/ class=dd-item><div><a href=../../../../cityengine/get-started/setup/download/>ダウンロード</a></div></li><li data-nav-id=/cityengine/get-started/setup/install/ class="dd-item haschildren"><div><a href=../../../../cityengine/get-started/setup/install/>インストールと認証</a><i class="fa fa-angle-right fa-lg category-icon"></i></div><ul><li data-nav-id=/cityengine/get-started/setup/install/installation/ class=dd-item><div><a href=../../../../cityengine/get-started/setup/install/installation/>インストールとアンインストール</a></div></li><li data-nav-id=/cityengine/get-started/setup/install/authorization/ class=dd-item><div><a href=../../../../cityengine/get-started/setup/install/authorization/>ソフトウェアの認証</a></div></li></ul></li><li data-nav-id=/cityengine/get-started/setup/license-manager/ class=dd-item><div><a href=../../../../cityengine/get-started/setup/license-manager/>ライセンス マネージャー</a></div></li></ul></li><li data-nav-id=/cityengine/get-started/quickstart-tutorials/ class="dd-item haschildren"><div><a href=../../../../cityengine/get-started/quickstart-tutorials/>クイック スタート チュートリアル</a><i class="fa fa-angle-right fa-lg category-icon"></i></div><ul><li data-nav-id=/cityengine/get-started/quickstart-tutorials/basic-operation/ class=dd-item><div><a href=../../../../cityengine/get-started/quickstart-tutorials/basic-operation/>基本操作</a></div></li><li data-nav-id=/cityengine/get-started/quickstart-tutorials/create-project/ class=dd-item><div><a href=../../../../cityengine/get-started/quickstart-tutorials/create-project/>プロジェクトの作成</a></div></li><li data-nav-id=/cityengine/get-started/quickstart-tutorials/create-cga/ class=dd-item><div><a href=../../../../cityengine/get-started/quickstart-tutorials/create-cga/>CGA の作成</a></div></li><li data-nav-id=/cityengine/get-started/quickstart-tutorials/advanced-cga/ class=dd-item><div><a href=../../../../cityengine/get-started/quickstart-tutorials/advanced-cga/>高度な CGA</a></div></li><li data-nav-id=/cityengine/get-started/quickstart-tutorials/apply-texture/ class=dd-item><div><a href=../../../../cityengine/get-started/quickstart-tutorials/apply-texture/>テクスチャの適用</a></div></li><li data-nav-id=/cityengine/get-started/quickstart-tutorials/utilize-sample/ class=dd-item><div><a href=../../../../cityengine/get-started/quickstart-tutorials/utilize-sample/>サンプルの活用</a></div></li></ul></li></ul></li><li data-nav-id=/cityengine/tutorials/ class="dd-item parent haschildren"><div><a href=../../../../cityengine/tutorials/>チュートリアル</a>
@@ -8,11 +8,9 @@
 <i class="fa fa-angle-down fa-lg category-icon"></i></div><ul><li data-nav-id=/drone2map/get-started/license/ class=dd-item><div><a href=../../../../drone2map/get-started/license/>ライセンス</a></div></li><li data-nav-id=/drone2map/get-started/environment/ class=dd-item><div><a href=../../../../drone2map/get-started/environment/>動作環境</a></div></li><li data-nav-id=/drone2map/get-started/download/ class=dd-item><div><a href=../../../../drone2map/get-started/download/>ダウンロード</a></div></li><li data-nav-id=/drone2map/get-started/installuninstall/ class=dd-item><div><a href=../../../../drone2map/get-started/installuninstall/>インストールとアンインストール</a></div></li><li data-nav-id=/drone2map/get-started/signinsignout/ class=dd-item><div><a href=../../../../drone2map/get-started/signinsignout/>サイン インとサイン アウト</a></div></li></ul></li><li data-nav-id=/drone2map/quick-start/ class="dd-item alwaysopen haschildren"><div><a href=../../../../drone2map/quick-start/>クイックスタート ガイド</a>
 <i class="fa fa-angle-down fa-lg category-icon"></i></div><ul><li data-nav-id=/drone2map/quick-start/2d_rapid/ class="dd-item haschildren"><div><a href=../../../../drone2map/quick-start/2d_rapid/>高速</a><i class="fa fa-angle-right fa-lg category-icon"></i></div><ul><li data-nav-id=/drone2map/quick-start/2d_rapid/2drapid_createproj/ class=dd-item><div><a href=../../../../drone2map/quick-start/2d_rapid/2drapid_createproj/>プロジェクトの作成</a></div></li><li data-nav-id=/drone2map/quick-start/2d_rapid/2drapid_processingoption/ class=dd-item><div><a href=../../../../drone2map/quick-start/2d_rapid/2drapid_processingoption/>処理設定の確認</a></div></li><li data-nav-id=/drone2map/quick-start/2d_rapid/2drapid_result/ class=dd-item><div><a href=../../../../drone2map/quick-start/2d_rapid/2drapid_result/>処理結果の確認</a></div></li></ul></li><li data-nav-id=/drone2map/quick-start/2d_mapping/ class="dd-item haschildren"><div><a href=../../../../drone2map/quick-start/2d_mapping/>2D プロダクト</a><i class="fa fa-angle-right fa-lg category-icon"></i></div><ul><li data-nav-id=/drone2map/quick-start/2d_mapping/2dmapping_createproject/ class=dd-item><div><a href=../../../../drone2map/quick-start/2d_mapping/2dmapping_createproject/>プロジェクトの作成</a></div></li><li data-nav-id=/drone2map/quick-start/2d_mapping/2dmapping_processingoption/ class=dd-item><div><a href=../../../../drone2map/quick-start/2d_mapping/2dmapping_processingoption/>処理設定の確認</a></div></li><li data-nav-id=/drone2map/quick-start/2d_mapping/2dmapping_result/ class=dd-item><div><a href=../../../../drone2map/quick-start/2d_mapping/2dmapping_result/>処理結果の確認</a></div></li></ul></li><li data-nav-id=/drone2map/quick-start/3d_mapping/ class="dd-item haschildren"><div><a href=../../../../drone2map/quick-start/3d_mapping/>3D プロダクト</a><i class="fa fa-angle-right fa-lg category-icon"></i></div><ul><li data-nav-id=/drone2map/quick-start/3d_mapping/3dmapping_createproject/ class=dd-item><div><a href=../../../../drone2map/quick-start/3d_mapping/3dmapping_createproject/>プロジェクトの作成</a></div></li><li data-nav-id=/drone2map/quick-start/3d_mapping/3dmapping_processingoption/ class=dd-item><div><a href=../../../../drone2map/quick-start/3d_mapping/3dmapping_processingoption/>処理設定の確認</a></div></li><li data-nav-id=/drone2map/quick-start/3d_mapping/3dmapping_result/ class=dd-item><div><a href=../../../../drone2map/quick-start/3d_mapping/3dmapping_result/>処理結果の確認</a></div></li></ul></li><li data-nav-id=/drone2map/quick-start/custom/ class="dd-item haschildren"><div><a href=../../../../drone2map/quick-start/custom/>カスタム テンプレート</a><i class="fa fa-angle-right fa-lg category-icon"></i></div><ul><li data-nav-id=/drone2map/quick-start/custom/custom_createproject/ class=dd-item><div><a href=../../../../drone2map/quick-start/custom/custom_createproject/>カスタム テンプレート</a></div></li></ul></li></ul></li></ul></li><section id=shortcuts><li role><a href=https://www.esrij.com/ target=_blank rel=noopener><label>ESRIジャパン株式会社</label></a></li></section><hr><li></li></ul><section id=footer><center><br>© Esri Japan. All rights reserved.<br></center></section></div></nav><section id=body><div id=overlay></div><div class="padding highlightable"><div id=top-bar><div id=breadcrumbs itemscope itemtype=http://data-vocabulary.org/Breadcrumb><span id=sidebar-toggle-span><a href=# id=sidebar-toggle data-sidebar-toggle><i class="fa fa-bars"></i></a></span>
 <span id=toc-menu><i class="fa fa-list-alt"></i></span>
-<span class=links><a href=../../../../>ArcGIS リソース集</a> > <a href=../../../../cityengine/>ArcGIS CityEngine</a> > <a href=../../../../cityengine/tutorials/>チュートリアル</a> > <a href=../../../../cityengine/tutorials/classic/>クラシック</a> > チュートリアル 10: Python スクリプティング</span></div><div class=progress><div class=wrapper><nav id=TableOfContents><ul><li><a href=#チュートリアル-データ>チュートリアル データ</a></li><li><a href=#概要>概要</a></li><li><a href=#part-1-python-console-および-editor>Part 1: Python Console および Editor</a><ul><li><a href=#チュートリアルのセットアップ>チュートリアルのセットアップ</a></li><li><a href=#python-console>Python Console</a></li><li><a href=#python-editor>Python Editor</a></li><li><a href=#console-からのスクリプト実行>Console からのスクリプト実行</a></li><li><a href=#scriptingpy-スクリプトの拡張>scripting.py スクリプトの拡張</a></li></ul></li><li><a href=#part-2-道路幅の変更>Part 2: 道路幅の変更</a><ul><li><a href=#チュートリアルの設定>チュートリアルの設定</a></li><li><a href=#新規-python-スクリプトの作成>新規 Python スクリプトの作成</a></li><li><a href=#incrementstreetwidth-関数>incrementStreetWidth() 関数</a></li><li><a href=#処理のスピードアップ-nouiupdate>処理のスピードアップ: @noUIupdate</a></li><li><a href=#multiplysegmentwidths-関数>multiplySegmentWidths() 関数</a></li><li><a href=#console-からの実行>Console からの実行</a></li></ul></li><li><a href=#part-3-fbx-ファイルからのカメラ設定>Part 3: FBX ファイルからのカメラ設定</a><ul><li><a href=#チュートリアルの設定-1>チュートリアルの設定</a></li><li><a href=#カメラを-fbx-へエクスポートmaya>カメラを FBX へエクスポート（Maya）</a></li><li><a href=#カメラ-インポート-スクリプト>カメラ インポート スクリプト</a></li><li><a href=#cityengine-カメラの設定>CityEngine カメラの設定</a></li></ul></li><li><a href=#part-4-建物の変化アニメーション>Part 4: 建物の変化アニメーション</a><ul><li><a href=#チュートリアルの設定-2>チュートリアルの設定</a></li><li><a href=#アニメーション-スクリプト>アニメーション スクリプト</a></li><li><a href=#建物のバッチ生成>建物のバッチ生成</a></li><li><a href=#バッチ-エクスポート>バッチ エクスポート</a></li></ul></li><li><a href=#part-5-アセット-ライブラリ-ルール-ファイルの作成>Part 5: アセット ライブラリ ルール ファイルの作成</a><ul><li><a href=#チュートリアルの設定-3>チュートリアルの設定</a></li><li><a href=#ライブラリ-モデルの生成>ライブラリ モデルの生成</a></li></ul></li><li><a href=#part-6-startuppy-を用いた-cityengine-タスクの自動化>Part 6: startup.py を用いた CityEngine タスクの自動化</a></li></ul></nav></div></div></div><div id=body-inner><h1>チュートリアル 10: Python スクリプティング</h1><h2 id=チュートリアル-データ>チュートリアル データ</h2><p>チュートリアル データは、<strong>[Help] メニュー → [Download Tutorials and Examples…]</strong> を選択し、[CityEngine Tutorial] からダウンロードできます。</p><h2 id=概要>概要</h2><p>Python スクリプト インターフェイスを利用すると、CityEngine の可能性をより広げることができます。このチュートリアルでは、Python Console および Editor の基本的な使用方法を解説し、CityEngine タスクの自動化の例を 2 つ紹介します。詳細については <a href=https://doc.arcgis.com/en/cityengine/latest/python/cityengine-python-intro.htm>CityEngine Python reference</a> をご参照ください。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-669A98AA-8F6A-4C0D-9B62-CC7F7804A88B-web.png data-lightbox=" " data-title=" "><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-669A98AA-8F6A-4C0D-9B62-CC7F7804A88B-web.png width=400></a><p>なお、Python スクリプト インターフェイス は、すべてのバージョンの CityEngine で利用できるわけではありません。</p><table><thead><tr><th style=text-align:left>演習</th></tr></thead><tbody><tr><td style=text-align:left>・<a href=#part-1-python-console-%E3%81%8A%E3%82%88%E3%81%B3-editor>Part 1: Python Console および Editor</a></td></tr><tr><td style=text-align:left>・<a href=#part-2-%E9%81%93%E8%B7%AF%E5%B9%85%E3%81%AE%E5%A4%89%E6%9B%B4>Part 2: 道路幅の変更</a></td></tr><tr><td style=text-align:left>・<a href=#part-3-fbx-%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%8B%E3%82%89%E3%81%AE%E3%82%AB%E3%83%A1%E3%83%A9%E8%A8%AD%E5%AE%9A>Part 3: FBX ファイルからのカメラ設定</a></td></tr><tr><td style=text-align:left>・<a href=#part-4-%E5%BB%BA%E7%89%A9%E3%81%AE%E5%A4%89%E5%8C%96%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3>Part 4: 建物の変化アニメーション</a></td></tr><tr><td style=text-align:left>・<a href=#part-5-%E3%82%A2%E3%82%BB%E3%83%83%E3%83%88-%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA-%E3%83%AB%E3%83%BC%E3%83%AB-%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AE%E4%BD%9C%E6%88%90>Part 5: アセット ライブラリ ルール ファイルの作成</a></td></tr><tr><td style=text-align:left>・<a href=#part-6-startuppy-%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F-cityengine-%E3%82%BF%E3%82%B9%E3%82%AF%E3%81%AE%E8%87%AA%E5%8B%95%E5%8C%96>Part 6: startup.py を用いた CityEngine タスクの自動化</a></td></tr></tbody></table><h2 id=part-1-python-console-および-editor>Part 1: Python Console および Editor</h2><h3 id=チュートリアルのセットアップ>チュートリアルのセットアップ</h3><ol><li><strong>Tutorial_10_Python_Scripting</strong> を自分の CityEngine ワークスペースにインポートします。</li><li>[Scene] フォルダーから、<strong>Tutorial_10_Python_Scripting/scenes/01_PythonScripting.cej</strong> を開きます。</li></ol><h3 id=python-console>Python Console</h3><p>新規 Python Console ウィンドウを起動します。</p><ol><li>[Window] メニュー → [Console] から [Console] ウィンドウを開きます。</li><li>ツールバーの右端にある小さな三角形から [Python Console] ウィンドウを開きます。</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-2B127CEA-2079-4537-B5AF-27AE7B8CB0A7-web.png data-lightbox="Python Console の起動" data-title="Python Console の起動"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-2B127CEA-2079-4537-B5AF-27AE7B8CB0A7-web.png width=400></a><p>最初の CityEngine Python コマンドとして、シーン要素を固有の名前ですばやく選択する方法を紹介します。</p><ol start=3><li>はじめに、以下のコマンドをタイプします。</li></ol><pre><code>ce.setSelection
-</code></pre><p>タイプ中に Ctrl+Space キーを押すとコマンド補完のポップアップが表示されます。</p><ol start=4><li>以下のコマンドをタイプします。</li></ol><pre><code>ce.setSelection(ce.getObjectsFrom(ce.scene, ce.withName(&quot;*Broadway*&quot;)))
-</code></pre><ol start=5><li><strong>Enter</strong> を押してコマンドを実行します。<br>これにより、名前に Broadway を含むすべてのシーン要素が選択されます。<br><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-C7E89028-15DD-4187-A1BD-A1249B0C7773-web.png data-lightbox="Python Console でコマンド補完機能 (Ctrl-Space) を使用" data-title="Python Console でコマンド補完機能 (Ctrl-Space) を使用"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-C7E89028-15DD-4187-A1BD-A1249B0C7773-web.png width=400></a><br><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-69B5BBE7-97FD-47F8-94CC-3B50C891EA1D-web.png data-lightbox="選択されたブロードウェイ ストリートのシェープ" data-title="選択されたブロードウェイ ストリートのシェープ"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-69B5BBE7-97FD-47F8-94CC-3B50C891EA1D-web.png width=400></a></li></ol><h3 id=python-editor>Python Editor</h3><p>より長く、より高度な Python コマンド、あるいはコマンド群を使おうと思ったら、すぐに CityEngine の Python Editor を使うのが便利です。</p><ol><li><p><strong>[File]</strong> メニュー → <strong>[New&mldr;]</strong> → <strong>[Python Module]</strong> から新規 Python スクリプトを作成します。Python モジュール ダイアログで、プロジェクト内の scripts フォルダーを選択します。</p></li><li><p>新しい Python モジュールに対する名前として <strong>[Name]</strong> に「myHelpers」と入力します。</p></li><li><p><strong>[Finish]</strong> をクリックします。
-<a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/newcap1.png data-lightbox=" " data-title=" "><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/newcap1.png width=400></a></p></li><li><p><strong>[Template]</strong> ポップアップで <strong>[Module:Main]</strong> を選択します。</p></li><li><p><strong>[OK]</strong> をクリックします。
-<a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/newcap2.png data-lightbox=" " data-title=" "><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/newcap2.png width=400></a><br>Python モジュール myHelpers が CityEngine に組み込まれた [Python Editor] ウィンドウに開いたはずです。</p></li></ol><p>ce = CE () の行の後に、新しい関数 selectByAttribute (attr, value) を追加します。</p><pre><code>def selectByAttribute(attr, value):
+<span class=links><a href=../../../../>ArcGIS リソース集</a> > <a href=../../../../cityengine/>ArcGIS CityEngine</a> > <a href=../../../../cityengine/tutorials/>チュートリアル</a> > <a href=../../../../cityengine/tutorials/classic/>クラシック</a> > チュートリアル 10: Python スクリプティング</span></div><div class=progress><div class=wrapper><nav id=TableOfContents><ul><li><a href=#チュートリアル-データ>チュートリアル データ</a></li><li><a href=#概要>概要</a></li><li><a href=#part-1-python-コンソールおよびエディター>Part 1: Python コンソールおよびエディター</a><ul><li><a href=#python-コンソール>Python コンソール</a></li><li><a href=#エディターで-python-モジュールを作成>エディターで Python モジュールを作成</a></li><li><a href=#コンソールからのスクリプト実行>コンソールからのスクリプト実行</a></li><li><a href=#scriptingpy-を使用したモジュールの自動読み込み>scripting.py を使用したモジュールの自動読み込み</a></li></ul></li><li><a href=#part-2-道路幅の変更>Part 2: 道路幅の変更</a><ul><li><a href=#incrementstreetwidth-関数>incrementStreetWidth() 関数</a></li><li><a href=#処理のスピードアップ-nouiupdate>処理のスピードアップ: @noUIupdate</a></li><li><a href=#multiplysegmentwidths-関数>multiplySegmentWidths() 関数</a></li></ul></li><li><a href=#part-3-建物の変化のアニメーション>Part 3: 建物の変化のアニメーション</a><ul><li><a href=#建物の生成>建物の生成</a></li><li><a href=#アニメーション-スクリプト>アニメーション スクリプト</a></li></ul></li><li><a href=#part-4-アセット-ライブラリ-ルール-ファイルの作成>Part 4: アセット ライブラリ ルール ファイルの作成</a></li><li><a href=#part-5-startuppy-を用いた-cityengine-タスクの自動化>Part 5: startup.py を用いた CityEngine タスクの自動化</a></li></ul></nav></div></div></div><div id=body-inner><h1>チュートリアル 10: Python スクリプティング</h1><h2 id=チュートリアル-データ>チュートリアル データ</h2><p>チュートリアル データは、<strong>[Help] メニュー → [Download Tutorials and Examples…]</strong> を選択し、[CityEngine Tutorial] からダウンロードできます。</p><h2 id=概要>概要</h2><p>このチュートリアルでは、Python コンソールおよびエディターの基本的な使用方法を学習し、CityEngine タスクの自動化の例をいくつか紹介します。
+Python スクリプティング インターフェイスを利用すると、CityEngine の可能性をより広げることができます。</p><table><thead><tr><th style=text-align:left>演習</th></tr></thead><tbody><tr><td style=text-align:left>・<a href=#part-1-python-%E3%82%B3%E3%83%B3%E3%82%BD%E3%83%BC%E3%83%AB%E3%81%8A%E3%82%88%E3%81%B3%E3%82%A8%E3%83%87%E3%82%A3%E3%82%BF%E3%83%BC>Part 1: Python コンソールおよびエディター</a></td></tr><tr><td style=text-align:left>・<a href=#part-2-%E9%81%93%E8%B7%AF%E5%B9%85%E3%81%AE%E5%A4%89%E6%9B%B4>Part 2: 道路幅の変更</a></td></tr><tr><td style=text-align:left>・<a href=#part-3-%E5%BB%BA%E7%89%A9%E3%81%AE%E5%A4%89%E5%8C%96%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3>Part 3: 建物の変化のアニメーション</a></td></tr><tr><td style=text-align:left>・<a href=#part-4-%E3%82%A2%E3%82%BB%E3%83%83%E3%83%88-%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA-%E3%83%AB%E3%83%BC%E3%83%AB-%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AE%E4%BD%9C%E6%88%90>Part 4: アセット ライブラリ ルール ファイルの作成</a></td></tr><tr><td style=text-align:left>・<a href=#part-5-startuppy-%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F-cityengine-%E3%82%BF%E3%82%B9%E3%82%AF%E3%81%AE%E8%87%AA%E5%8B%95%E5%8C%96>Part 5: startup.py を用いた CityEngine タスクの自動化</a></td></tr></tbody></table><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-669A98AA-8F6A-4C0D-9B62-CC7F7804A88B-web.png data-lightbox=モジュールの例 data-title=モジュールの例><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-669A98AA-8F6A-4C0D-9B62-CC7F7804A88B-web.png width=600></a><h2 id=part-1-python-コンソールおよびエディター>Part 1: Python コンソールおよびエディター</h2><p>このセクションでは、Python コンソールおよびエディターを使用して簡単な選択を実行します。</p><h3 id=python-コンソール>Python コンソール</h3><p>新しい Python コンソール ウィンドウを起動します。</p><ol><li><p>[<a href=https://doc.arcgis.com/en/cityengine/2023.1/help/help-navigator.htm>Navigator</a>] ウィンドウの <strong>Tutorial_10_Python_Scripting</strong> フォルダーを展開します。</p></li><li><p><strong>scenes</strong> フォルダーのシーン <strong>01_PythonScripting.cej</strong> を開きます。</p></li><li><p><strong>[Window] メニュー → [Console]</strong> から <strong>[Console]</strong> ウィンドウを開きます。</p></li><li><p>右端にある小さな三角形から <strong>[Python Console]</strong> ウィンドウを開きます。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-2B127CEA-2079-4537-B5AF-27AE7B8CB0A7-web.png data-lightbox="コンソール ウィンドウのショートカット メニュー" data-title="コンソール ウィンドウのショートカット メニュー"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-2B127CEA-2079-4537-B5AF-27AE7B8CB0A7-web.png width=500></a></li><li><p><strong>「ce.setS」</strong> と入力します。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-C7E89028-15DD-4187-A1BD-A1249B0C7773-web.png data-lightbox="Python コンソール ウィンドウでのコマンドの完了" data-title="Python コンソール ウィンドウでのコマンドの完了"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-C7E89028-15DD-4187-A1BD-A1249B0C7773-web.png width=500></a><p>入力すると選択できるコマンドのリストが表示されます。最初の CityEngine Python コマンドでは、シーン オブジェクトを固有の名前ですばやく選択できます。<br>まだ開いていない場合、Ctrl+Space キーを押すとコマンド補完のポップアップが表示されます。</p></li><li><p>リストの <strong>ce.setSelection</strong> をダブルクリックし、コンソールのエントリを完了します。</p></li><li><p><strong>ce.setSelection</strong> を以下のフル コマンドに拡張します。</p><pre><code>&gt;&gt;&gt; ce.setSelection(ce.getObjectsFrom(ce.scene, ce.withName(&quot;*Broadway*&quot;)))
+</code></pre></li><li><p>Enter を押して、名前に Broadway を含むシーン内のすべてのオブジェクトを選択します。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-69B5BBE7-97FD-47F8-94CC-3B50C891EA1D-web.png data-lightbox="Broadway 道路形状の選択" data-title="Broadway 道路形状の選択"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-69B5BBE7-97FD-47F8-94CC-3B50C891EA1D-web.png width=600></a></li></ol><h3 id=エディターで-python-モジュールを作成>エディターで Python モジュールを作成</h3><p>より長く、より高度な Python コマンド、あるいはコマンド群を使いたいときは、CityEngine の Python エディターを使ってスクリプトを書くと便利です。</p><p>新しい Python モジュールを作成します。</p><ol><li><p><strong>[File] メニュー → [New…] → [Python] → [Python Module]</strong> を選択し、<strong>[Next]</strong> をクリックして <strong>[Create a new Python module]</strong> ダイアログボックスを開きます</p></li><li><p><strong>[Create a new Python module]</strong> ダイアログボックスの <strong>[Source Folder]</strong> で <strong>scripts</strong> フォルダーを参照し、<strong>[OK]</strong> をクリックします。</p></li><li><p><strong>[Name]</strong> ボックスで <strong>「myHelpers」</strong> と入力します。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-54D8448D-2104-4BD6-88BA-A8BB12AC9626-web.png data-lightbox="新規 Python モジュールの作成" data-title="新規 Python モジュールの作成"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-54D8448D-2104-4BD6-88BA-A8BB12AC9626-web.png width=500></a></li><li><p><strong>[Finish]</strong> をクリックし、<strong>[Template]</strong> ウィンドウを開きます。</p></li><li><p><strong>[Module: Main]</strong> テンプレートを選択します。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-9C55B776-C94B-473C-994C-1075C9CC5284-web.png data-lightbox="Module: Main テンプレート" data-title="Module: Main テンプレート"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-9C55B776-C94B-473C-994C-1075C9CC5284-web.png width=500></a></li><li><p><strong>[OK]</strong> をクリックします。</p><p>新しい Python モジュール <strong>myHelpers</strong> が <strong>myHelpers.py</strong> ファイルとして <strong>scripts</strong> フォルダーに作成され、Python エディターで開かれます。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-6FD52143-61B9-41E9-8748-F7D0A201BCA9-web.png data-lightbox="myHelpers.py スクリプト" data-title="myHelpers.py スクリプト"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-6FD52143-61B9-41E9-8748-F7D0A201BCA9-web.png width=500></a></li><li><p><strong>ce = CE()</strong> の行の後に、新しい関数 <strong>selectByAttribute(attr, value)</strong> を追加します。main 関数の上に以下のコードを追加します。</p><pre><code>def selectByAttribute(attr, value):
     objects = ce.getObjectsFrom(ce.scene)
     selection = []
     for o in objects:
@@ -21,109 +19,50 @@
             selection.append(o)
         
     ce.setSelection(selection)
-</code></pre><p>そしてこれをスクリプトの <strong>main</strong> 文の中で特定のパラメーターとともに使用します。</p><pre><code>if __name__ == '__main__':
+</code></pre><p>この関数は、シーン内のすべてのオブジェクトをループし、最初のパラメーターとして渡された属性の値を読み取ります。そして、その値を 2 番目のパラメーターとして渡された値と比較し、一致すれば、そのオブジェクトを選択範囲に追加します。</p></li><li><p>シーン内の道路形状を選択し、<strong>[Inspector]</strong> ウィンドウの <strong>[Object Attributes]</strong> をクリックして、使用可能な属性を確認します。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-0921A51F-98F1-427C-A21F-BD4397C9C1A7-web.png data-lightbox=道路の属性 data-title=道路の属性><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-0921A51F-98F1-427C-A21F-BD4397C9C1A7-web.png width=600></a></li><li><p>スクリプトでジャンクションに接続されているすべての道路を選択するために、スクリプトの main に特定のパラメーターを持つ関数呼び出しを追加します。</p><pre><code>if __name__ == '__main__':
     selectByAttribute(&quot;connectionStart&quot;,&quot;JUNCTION&quot;)
-</code></pre><p>[Python] メニュー → [Run Script] をクリックするか、[Python Editor] ウィンドウ内で F9キーを押し、スクリプトを実行します。<br><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-1C5BF334-D210-47D2-B70E-5A88F604DA6E-web.png data-lightbox="Junction 道路シェープのみが選択される" data-title="Junction 道路シェープのみが選択される"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-1C5BF334-D210-47D2-B70E-5A88F604DA6E-web.png width=400></a></p><h3 id=console-からのスクリプト実行>Console からのスクリプト実行</h3><p>別の方法として、Helper スクリプトを Python Console から呼び出すことができます。</p><ol><li>[Python Console] ウィンドウで、システムパスに自分のモジュールへのパスを追加します。</li><li>モジュールをインポートします。</li></ol><pre><code>&gt;&gt;&gt; sys.path.append(ce.toFSPath(&quot;scripts&quot;))
-&gt;&gt;&gt; import myHelpers
-</code></pre><ol start=3><li>これで以下の方法により、Console に MyHelpers 関数を任意のパラメーターで呼び出せるようになりました。</li></ol><pre><code>&gt;&gt;&gt; myHelpers.selectByAttribute(&quot;connectionEnd&quot;, &quot;JUNCTION&quot;)
-</code></pre><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-A3B8ABEC-3A47-4E0D-AF76-AA7B3013A01B-web.png data-lightbox="selection 関数の呼び出し" data-title="selection 関数の呼び出し"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-A3B8ABEC-3A47-4E0D-AF76-AA7B3013A01B-web.png width=400></a><h3 id=scriptingpy-スクリプトの拡張>scripting.py スクリプトの拡張</h3><p>scripting.py スクリプトを拡張するには、以下の作業を行います。</p><ol><li>新規ファイル startup.py を自分の CityEngine ワークスペース内に作成します。</li><li>これらの行を追加し、スタートアップ時に Helper スクリプトが自動的にマップされるようにします。</li></ol><pre><code>import sys
+</code></pre></li><li><p>Ctrl+S キーを押して、モジュールを保存します。</p></li><li><p>[Python Editor] ウィンドウ内で F9 キーを押して、スクリプトを実行します。</p><p><strong>Junction</strong> との交差点を持つ道路が選択されます。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-1C5BF334-D210-47D2-B70E-5A88F604DA6E-web.png data-lightbox="Junction 道路形状の選択" data-title="Junction 道路形状の選択"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-1C5BF334-D210-47D2-B70E-5A88F604DA6E-web.png width=600></a></li></ol><h3 id=コンソールからのスクリプト実行>コンソールからのスクリプト実行</h3><p>別の方法として、Python コンソールからスクリプト内の関数を直接呼び出すことができます。</p><ol><li><p>[Python Console] ウィンドウで、先ほど作成したモジュールを含むパスをシステムパスに追加します。</p><pre><code>&gt;&gt;&gt; sys.path.append(ce.toFSPath(&quot;scripts&quot;))
+</code></pre></li><li><p><strong>myHelpers</strong> モジュールをインポートします。</p><pre><code>&gt;&gt;&gt; import myHelpers
+</code></pre></li><li><p>最後に、任意のパラメーターを指定してヘルパー関数を呼び出します。</p><pre><code>&gt;&gt;&gt; myHelpers.selectByAttribute(&quot;connectionEnd&quot;, &quot;JUNCTION&quot;)
+</code></pre><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-A3B8ABEC-3A47-4E0D-AF76-AA7B3013A01B-web.png data-lightbox=カスタムした選択関数の呼び出し data-title=カスタムした選択関数の呼び出し><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-A3B8ABEC-3A47-4E0D-AF76-AA7B3013A01B-web.png width=500></a></li></ol><h3 id=scriptingpy-を使用したモジュールの自動読み込み>scripting.py を使用したモジュールの自動読み込み</h3><p>CityEngine の起動時に <strong>scripting.py</strong> スクリプトを作成して読み込むには、以下の作業を行います。</p><ol><li><p>使用しているオペレーティング システムのファイル ブラウザーを使用して、CityEngineのワークスペースに <strong>scripting.py</strong> という名前のファイルを作成します。</p><p>CityEngine のワークスペースのルート フォルダー内に <strong>{CityEngine Workspace}\scripting.py</strong> のように <strong>scripting.py</strong> ファイルを保存します。</p><div class="notices note"><p>パスは、<strong>[File] メニュー → [Switch Workspace] → [Other]</strong> で確認するか、<strong>[Navigator]</strong> ウィンドウでプロジェクトを右クリックし、<strong>[Show in File Manager]</strong> を選択します。</p></div></li><li><p>以下の行を追加し、起動時にヘルパー スクリプトが自動的にマップされるようにします。</p><pre><code>from scripting import *
 
-sys.path.append({PATH_TO_YOUR_SCRIPTS_DIRECTORY})
-# e.g. sys.path.append(&quot;C:\user\CityEngine\MyProject\scripts&quot;)
+# get a CityEngine instance
+ce = CE()
+
+import sys
+
+sys.path.append(ce.toFSPath(&quot;/Tutorial_10_Python_Scripting__2021_1/scripts&quot;))
 import myHelpers
-</code></pre><p>次回 CityEngine を起動した時には、<strong>myHelpers</strong> モジュールは自動的に読み込まれます。以下の方法で、Console で selection 関数を呼び出すことができます。</p><pre><code>&gt;&gt;&gt; myHelpers.selectByAttribute(&quot;connectionEnd&quot;, &quot;JUNCTION&quot;)
-</code></pre><div class="notices note"><p>任意のコードをファイル <strong>startup.py</strong> に追加することができます。Python Console が CityEngine の中で起動したときにこれが実行されます。<br>作成した <strong>startup.py</strong> ファイルの内容が正しく、正常に実行できることを確認してください。そうでない場合は CityEngine 内の Python コードは実行できません。<strong>startup.py</strong> を作成、変更した後に CityEngine の Python Console を開くと、スタートアップ ファイルの実行に伴う問題はそこに表示されます。<br><strong>startup.py</strong> は CityEngine の起動時には読み取り専用です。変更する際は CityEngine を再起動してください。<br>CityEngine の起動時にスクリプトが正常に更新されない場合、Python キャッシュ ディレクトリ <strong>$USER_DIR/.cityengine/$CEVERSION_DIR/pythonCache/</strong> を削除してください。</p></div><h2 id=part-2-道路幅の変更>Part 2: 道路幅の変更</h2><p>多くのセグメントについて道路幅の属性値を加減したいという場合は少なからずあります。GUI でこれを行うのは容易ではありませんが、簡単な Python によって実現可能です。</p><h3 id=チュートリアルの設定>チュートリアルの設定</h3><p>[Scene] フォルダーから <strong>[Tutorial_10_Python_Scripting/scenes/02_PythonScripting.cej]</strong> を開きます。</p><h3 id=新規-python-スクリプトの作成>新規 Python スクリプトの作成</h3><ol><li><strong>[File]</strong> メニュー → <strong>[New&mldr;] → [Python] → [Python Module]</strong> から新しいルール ファイルを作成します。</li><li>プロジェクトの [script] フォルダーを選択して 「setStreetWidths」 という名前を付け、テンプレートとして <strong>[Module: Main]</strong> を選択します。</li></ol><h3 id=incrementstreetwidth-関数>incrementStreetWidth() 関数</h3><p>この関数は、選択されているすべての道路セグメントの streetWidth 属性値をユーザーが設定した値の分だけ増加します。</p><p>最初は関数定義です。</p><pre><code>def incrementStreetWidth(increment):
-</code></pre><p>選択されているすべてのセグメントを取得し、それらについてループします。</p><pre><code>    selectedSegments = ce.getObjectsFrom(ce.selection, ce.isGraphSegment)
-        for segment in selectedSegments:
-</code></pre><p>新しい道路幅を計算するために、まずコマンド ce.getAttribute() を使用して現在の値を取得する必要があります。属性名の文法上の名前には先頭に &ldquo;/ce/street/&rdquo; が付くことに注意してください。これによりオブジェクトのユーザー属性にアクセスすることができます。</p><pre><code>        oldWidth = ce.getAttribute(segment, &quot;/ce/street/streetWidth&quot;)
-</code></pre><p>最後に、ユーザーが与えたパラメーター increment だけ加えた新しい道路幅を計算し、新しい値をセグメントに割り当てます。</p><pre><code>    newWidth = oldWidth+increment
-        ce.setAttribute(segment, &quot;/ce/street/streetWidth&quot;, newWidth)
-</code></pre><p>関数の全体</p><pre><code>''' increment the street width parameter of all selected street segments'''
-def incrementStreetWidths(increment):
+</code></pre></li><li><p>CityEngine を再起動して、シーン <strong>01_PythonScripting.cej</strong> を開き、<strong>myHelpers</strong> モジュールを自動的に読み込みます。</p></li><li><p>Python コンソールからヘルパー関数を直接呼び出して、自動読み込みが機能していることを確認します。</p><pre><code>&gt;&gt;&gt; myHelpers.selectByAttribute(&quot;sidewalkWidthLeft&quot;, 4)
+</code></pre><p>object attribute の <strong>sidewalkWidthLeft</strong> の値が <strong>4</strong> であるすべての道路が選択されます。</p></li></ol><div class="notices note"><p>任意のコードを <strong>scripting.py</strong> ファイルに追加することができます。scripting モジュールは、新しい Python コンソールが開かれた時や Python エディターからスクリプトが実行された時に自動的に実行されます。</p><p><strong>scripting.py</strong> ファイルが有効で、正しく実行されることを確認してください。そうでない場合は CityEngine 内の Python コードは実行できません。<strong>scripting.py</strong> ファイルを作成または変更した後、CityEngine の Python コンソールを開くと、scripting ファイルの実行に伴う問題はそこに表示されます。</p><p><strong>scripting.py</strong> ファイルは、CityEngine の起動時に一度だけ読み込まれます。変更する際は必ず CityEngine を再起動してください。</p><p>CityEngine の起動時にスクリプトが正常に更新されない場合、Python キャッシュ ディレクトリ <strong>$USER_DIR/.cityengine/$CEVERSION_DIR/pythonCache/</strong> を削除してください。</p></div><h2 id=part-2-道路幅の変更>Part 2: 道路幅の変更</h2><p>多くのセグメントについて道路幅の属性値を増加したいという場合は少なからずあります。GUI で効率的に行うことができない場合は、Python スクリプトを使うと便利です。</p><h3 id=incrementstreetwidth-関数>incrementStreetWidth() 関数</h3><p>このセクションでは、ユーザーによって指定された値から、選択されたすべての道路セグメントの <strong>streetWidths</strong> 属性を増加させる関数を作成します。</p><ol><li><p>シーン <strong>02_PythonScripting.cej</strong> を開きます。</p></li><li><p><strong>setStreetWidths</strong> という新しい Python モジュールを作成します。</p><p>新しいモジュールを作成するには、上記の<a href=#%E3%82%A8%E3%83%87%E3%82%A3%E3%82%BF%E3%83%BC%E3%81%A7-python-%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%82%92%E4%BD%9C%E6%88%90>エディターで Python モジュールを作成</a>セクションのステップ 1 からステップ 6 を実行します。</p></li><li><p>関数定義を追加します。</p><pre><code>def incrementStreetWidths(increment):
+</code></pre></li><li><p>関数内で選択されているすべてのセグメントを取得し、それらをループさせます。</p><pre><code>selectedSegments = ce.getObjectsFrom(ce.selection, ce.isGraphSegment)
+for segment in selectedSegments:
+</code></pre></li><li><p><strong>for</strong> ループ内で新しい道路幅を計算するために、まず <strong>ce.getAttribute()</strong> コマンドを使用して現在の値を取得する必要があります。</p><pre><code>oldWidth = ce.getAttribute(segment, &quot;/ce/street/streetWidth&quot;)
+</code></pre><p>属性名の文法上の名前には先頭に <strong>“/ce/street/”</strong> が付くことに注意してください。これによりオブジェクトのユーザー属性にアクセスすることができます。詳しくは、<a href=https://doc.arcgis.com/en/cityengine/2023.1/python/python-parameters-and-attributes.htm>Parameters and attributes</a> を参照してください。</p></li><li><p>最後に、ユーザーが与えた increment パラメーターだけを追加して新しい道路幅を計算し、新しい値をセグメントに割り当てます。</p><pre><code>newWidth = oldWidth+increment
+ce.setAttribute(segment, &quot;/ce/street/streetWidth&quot;, newWidth)
+</code></pre><p>関数の全体は以下の通りです。</p><pre><code>def incrementStreetWidths(increment):
     selectedSegments = ce.getObjectsFrom(ce.selection, ce.isGraphSegment)
     for segment in selectedSegments:
-        oldWidth = ce.getAttribute(segment, &quot;streetWidth&quot;)
+        oldWidth = ce.getAttribute(segment, &quot;/ce/street/streetWidth&quot;)
         newWidth = oldWidth+increment
         ce.setAttribute(segment, &quot;/ce/street/streetWidth&quot;, newWidth)
-</code></pre><p>スクリプトのメイン ブロックに関数呼び出しを追加し、増加量を指定します。</p><pre><code>if __name__ == '__main__':
-   incrementStreetWidths(10)
-</code></pre><p>複数の道路セグメントを同時選択します。</p><p>[Python] メニュー → [Run Script] をクリックするか、[Python Editor] ウィンドウ内で F9キーを押し、スクリプトを実行します。<br><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/road_witdh.png data-lightbox="道路幅を 10 だけ増加" data-title="道路幅を 10 だけ増加"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/road_witdh.png width=400></a></p><h3 id=処理のスピードアップ-nouiupdate>処理のスピードアップ: @noUIupdate</h3><p>上のスクリプトを実行するとやや時間がかかってしまいます。これはCityEngineにおいてスクリプトは別々のスレッドで実行され、GUI と [3D Viewport] ウィンドウの各コマンドが実行される度に更新されるためです。この場合は、各 <strong>setAttribute()</strong> が呼び出されるたびに道路ネットワークが更新され 3D Viewport ウィンドウ内が再描画されます。<br>上の例のような処理が役に立つケースでは実行は速いに越したことはありません。これは関数定義の上に <strong>@noUIupdate</strong> マーカーを追加することで実現可能です。</p><pre><code>@noUIupdate
-def incrementStreetWidth(increment):
-</code></pre><p>このようにマークされた関数は実行中の GUI の更新をブロックしますが処理内容によっては数倍早く実行されます。</p><div class="notices note"><p>スクリプトコマンドによっては <strong>@noUIupdate</strong> マーカーと組み合わせることでユーザー インターフェイスがフリーズしてしまうこともありますので注意してください。
-<strong>@noUIupdate</strong> を使用した時にユーザー インターフェイスがフリーズ、または予期せぬ挙動が発生した場合は、スクリプトを修正して <strong>@noUIupdate</strong> がスクリプト全体ではなく、特定の関数のみに適用されるようにします。</p></div><h3 id=multiplysegmentwidths-関数>multiplySegmentWidths() 関数</h3><p>2 つ目の関数は同時に複数の属性 streetWidth と sidewalkWidthLeft と sidewalkWidthRight を同時に設定するものです。ユーザーは道路幅の値に掛ける数値を指定することができます。</p><pre><code>@noUIupdate
-def multiplySegmentWidths(factor):
-    selectedSegments = ce.getObjectsFrom(ce.selection, ce.isGraphSegment)
-    for segment in selectedSegments:
-</code></pre><p>以下のヘルパー関数 multiplyAttribute により異なる属性に掛け算を実行することができます。</p><pre><code>        multiplyAttribute(segment, &quot;/ce/street/streetWidth&quot;, factor)
-        multiplyAttribute(segment, &quot;/ce/street/sidewalkWidthLeft&quot;, factor)
-        multiplyAttribute(segment, &quot;/ce/street/sidewalkWidthRight&quot;, factor)
-
-def multiplyAttribute(object, attrname, factor):
-    oldval = ce.getAttribute(object, attrname)
-    newval = oldval*factor
-    ce.setAttribute(object, attrname, newval)
-</code></pre><p>2 つの関数</p><pre><code>''' multiply street and sidewalk widths of all selected street segments by factor '''
-@noUIupdate
-def multiplySegmentWidths(factor):
+</code></pre></li><li><p>スクリプトの main ブロックに関数呼び出しを追加し、増加量を指定します。</p><pre><code>if __name__ == '__main__':
+    incrementStreetWidths(10)
+</code></pre></li><li><p>ファイルを保存します。</p></li><li><p>複数の道路セグメントを選択します。</p></li><li><p>F9 キーを押して、Python スクリプトを実行します。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/road_witdh.png data-lightbox=道路幅 data-title=道路幅><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/road_witdh.png width=600></a></li></ol><h3 id=処理のスピードアップ-nouiupdate>処理のスピードアップ: @noUIupdate</h3><p>選択されているセグメントが多い場合、上のスクリプトを実行するとやや時間がかかってしまいます。これは CityEngine においてスクリプトは別々のスレッドで実行され、GUI と [<a href=https://doc.arcgis.com/en/cityengine/2023.1/help/help-viewport.htm>3D View</a>] ウィンドウの各コマンドが実行される度に更新されるためです。この場合は、各 <strong>setAttribute()</strong> が呼び出されるたびに道路ネットワークが更新され 3D View ウィンドウ内が再描画されます。</p><p>実行時間を早くするには、関数定義の上に <strong>@noUIupdate</strong> デコレーターを追加します。</p><pre><code>@noUIupdate
+def incrementStreetWidths(increment):
+</code></pre><p>このようにマークされた関数は、実行中の GUI の更新をブロックしますが、処理内容によっては数倍早く実行されます。</p><div class="notices note"><p>スクリプト コマンドによっては <strong>@noUIupdate</strong> デコレーターと組み合わせることでユーザー インターフェイスがフリーズしてしまうこともありますので注意してください。</p><p><strong>@noUIupdate</strong> を使用した時にユーザー インターフェイスがフリーズ、または予期せぬ挙動が発生した場合は、スクリプトを修正して <strong>@noUIupdate</strong> がスクリプト全体ではなく、特定の関数のみに適用されるようにします。</p></div><h3 id=multiplysegmentwidths-関数>multiplySegmentWidths() 関数</h3><p><strong>multiplySegmentWidths()</strong> 関数は、複数の属性を同時に設定します。具体的には、<strong>streetWidth</strong>、<strong>sidewalkWidthLeft</strong>、および <strong>sidewalkWidthRight</strong> 属性です。</p><ol><li><p><strong>setStreetWidths</strong> スクリプトに以下の関数を追加します。</p><pre><code>def multiplySegmentWidths(factor):
     selectedSegments = ce.getObjectsFrom(ce.selection, ce.isGraphSegment)
     for segment in selectedSegments:
         multiplyAttribute(segment, &quot;/ce/street/streetWidth&quot;, factor)
         multiplyAttribute(segment, &quot;/ce/street/sidewalkWidthLeft&quot;, factor)
         multiplyAttribute(segment, &quot;/ce/street/sidewalkWidthRight&quot;, factor)
 
-''' multiply attribute of object by factor '''
 def multiplyAttribute(object, attrname, factor):
     oldval = ce.getAttribute(object, attrname)
     newval = oldval*factor
     ce.setAttribute(object, attrname, newval)
-</code></pre><p>スクリプトのメインブロックに関数呼び出しを追加し、掛ける数値を指定します。</p><pre><code>if __name__ == '__main__':
-   multiplySegmentWidths(1.5)
-</code></pre><p>複数の道路セグメントを同時選択します。<br>[Python] メニュー → [Run Script] をクリックするか、[Python Editor] ウィンドウ内で F9キーを押し、スクリプトを実行します。
-<a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/segment_width.png data-lightbox="すべてのセグメントの幅に 1.5 を掛けた結果" data-title="すべてのセグメントの幅に 1.5 を掛けた結果"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/segment_width.png width=400></a></p><h3 id=console-からの実行>Console からの実行</h3><p>[Python Editor] ウィンドウ で関数の引数を設定する代わりに、[Python Console] ウィンドウでもスクリプト モジュールをインポート後に上の関数を容易に呼び出すことができます。</p><pre><code>&gt;&gt; scriptpath = ce.toFSPath(&quot;scripts&quot;)
-&gt;&gt; sys.path.append(scriptpath)
-&gt;&gt; import setStreetWidths
-&gt;&gt; setStreetWidths.multiplySegmentWidths(0.5)
-</code></pre><h2 id=part-3-fbx-ファイルからのカメラ設定>Part 3: FBX ファイルからのカメラ設定</h2><p>このパートでは静的なカメラ データを Maya からの FBX へのエクスポートを経由して CityEngine に取り込む方法を紹介します。</p><h3 id=チュートリアルの設定-1>チュートリアルの設定</h3><p><strong>Tutorial_10_Python_Scripting/scenes/02_PythonScripting.cej</strong> を開きます。</p><h3 id=カメラを-fbx-へエクスポートmaya>カメラを FBX へエクスポート（Maya）</h3><p>Maya をお持ちでない場合は、以下のステップは飛ばして予め用意してある “data/camera.fbx” ファイルを使用してください。</p><ol><li>Maya でエクスポートしたいカメラを選択します。</li><li><strong>[File] メニュー → [Export Selection]</strong> を選択します。
-エクスポート ダイアログで下図に示すような設定になっていることを確認してください。</li></ol><p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-53A2F28D-60E7-4813-AC7D-A2172CE166BA-web.png data-lightbox=" " data-title=" "><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-53A2F28D-60E7-4813-AC7D-A2172CE166BA-web.png width=400></a><br><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/maya.png data-lightbox="Maya におけるカメラの FBX エクスポート" data-title="Maya におけるカメラの FBX エクスポート"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/maya.png width=400></a></p><h3 id=カメラ-インポート-スクリプト>カメラ インポート スクリプト</h3><ol><li><strong>[File] メニュー → [New &mldr;] → [Python] → [Python Module]</strong> から新規 Pythonファイルを作成します。</li><li>プロジェクトの <strong>scripts</strong> フォルダーを選択し、importFBXCamera_dist という名前を付け、テンプレートとして <strong>Module: Main</strong> を選択します。</li></ol><p>FBX ファイルの読み取り</p><ol><li>行を読み込んで id を見つけます。</li><li>カメラ データを格納する配列を用意します。</li><li>カメラ データを保存している FBX ファイルから行を読み取ります。</li></ol><pre><code>def parseLine(lines, id):
-    data = False
-    for line in lines:
-        if line.find(id) &gt;=0 :
-            data = line.partition(id)[2]
-            break
-    if data:
-        data = data[:len(data)-1] # strip \n
-        data = data.split(&quot;,&quot;)        
-    return data
-
-def parseFbxCam(filename):
-    f=open(filename)
-    lines = f.readlines()
-    cnt = 0
-    loc =  parseLine(lines, 'Property: &quot;Lcl Translation&quot;, &quot;Lcl Translation&quot;, &quot;A+&quot;,')
-    rot =  parseLine(lines, 'Property: &quot;Lcl Rotation&quot;, &quot;Lcl Rotation&quot;, &quot;A+&quot;,')
-    return [loc,rot]
-</code></pre><h3 id=cityengine-カメラの設定>CityEngine カメラの設定</h3><p>CityEngine Viewport を取得して位置と回転を設定する関数を呼び出します。</p><pre><code>def setCamData(data):
-    viewport = ce.getObjectsFrom(ce.get3DViews(), ce.isViewport)[0]
-    setCamPosV(viewport, data[0])
-    setCamRotV(viewport, data[1])
-def setCamPosV(v, vec):
-    v.setCameraPosition(vec[0], vec[1], vec[2])
-    
-def setCamRotV(v, vec):
-    v.setCameraRotation(vec[0], vec[1], vec[2])
-</code></pre><p>マスター関数</p><pre><code>def importFbxCamera(fbxfile):
-   
-    data = parseFbxCam(fbxfile)
-    if(data[0] and data[1]) :
-        setCamData(data)
-        print &quot;Camera set to &quot;+str(data)
-    else:
-        print &quot;No camera data found in file &quot;+file
-</code></pre><p>メイン ブロックからの呼び出し</p><pre><code>if __name__ == '__main__':
-    camfile = ce.toFSPath(&quot;data/camera.fbx&quot;)
-    importFbxCamera(camfile)
-</code></pre><p>[Python] メニュー → [Run Script] をクリックするか、[Python Editor] ウィンドウ内で F9キーを押し、スクリプトを実行します。下図のような形でカメラが配置されるはずです。
-<a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-2A210897-BB2A-4B93-8431-FB7F6BFD8169-web.png data-lightbox=スクリプト実行によりカメラが変化 data-title=スクリプト実行によりカメラが変化><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-2A210897-BB2A-4B93-8431-FB7F6BFD8169-web.png width=400></a></p><div class="notices note"><p>アニメーション カーブは読み込まれません。フレーム エクスポート時におけるカメラ変化 (Transformation) のみが読み込まれます。<br>カメラは単一のオブジェクトとしてエクスポートされる必要があります。</p></div><h2 id=part-4-建物の変化アニメーション>Part 4: 建物の変化アニメーション</h2><p>Python スクリプトは生成やエクスポートの処理の自動化に使用することができます。 この例では、建物の属性を設定してその結果のモデルをエクスポートすることでシンプルな建物のアニメーションの処理を 1 ステップで作成する方法を紹介します。</p><h3 id=チュートリアルの設定-2>チュートリアルの設定</h3><p><strong>[Tutorial_10_Python_Scripting/scenes/03_PythonScripting.cej]</strong> を開きます。</p><ol><li>シーンの中で区画を 1 つ選択します。</li><li>ルール ファイル growingBuilding.cga をその区画に適用します。</li><li>建物が生成されない場合は、ツールバーの中にある <strong>[Generate]</strong> をクリックします。</li></ol><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-0643E84D-87F8-40E0-8C99-3084BFD1325A-web.png data-lightbox=属性を変更せずに生成された建物 data-title=属性を変更せずに生成された建物><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-0643E84D-87F8-40E0-8C99-3084BFD1325A-web.png width=400></a><p>ルール ファイルには建物のサイズを変更するための属性が用意されています。これらの値をマニュアルで設定する代わりに、値を変更して様々なモデルをバッチで生成するスクリプトを作成します。</p><h3 id=アニメーション-スクリプト>アニメーション スクリプト</h3><p>新しい Python Main モジュール my_grow_building.py を作成します。</p><p>def growBuilding<br>この関数は、2 つのレンジをループする非常にシンプルなタイムラインを作成し、setAttribute 関数を呼び出します。</p><pre><code>def growBuilding():
+</code></pre></li><li><p><strong>main</strong> ブロックの関数呼び出しを以下のように置き換えます。</p><pre><code>multiplySegmentWidths(1.5)
+</code></pre></li><li><p>モジュールを保存します。</p></li><li><p>複数の道路セグメントを選択します。</p></li><li><p>F9 キーを押して、スクリプトを実行します。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/segment_width.png data-lightbox=セグメント幅 data-title=セグメント幅><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/segment_width.png width=600></a></li></ol><p>変更のたびに UI がリフレッシュされるわけではないため、道路の幅がより速く変更されることに注目してください。</p><h2 id=part-3-建物の変化のアニメーション>Part 3: 建物の変化のアニメーション</h2><p>Python スクリプトを使用することで、生成やエクスポート処理を自動化できます。このワークフローでは、建物属性を設定して建物アニメーションを生成し、結果のモデルセットをエクスポートする方法を説明します。</p><h3 id=建物の生成>建物の生成</h3><p>建物を生成します。</p><ol><li><p>シーン <strong>03_PythonScripting.cej</strong> を開きます。</p><p>&ldquo;Would you like to regenerate these models?&rdquo; と出たら、<strong>[Yes]</strong> をクリックします。</p></li><li><p>建物を選択します。</p><p>建物が生成されない場合、区画を選択し、ツールバーの <strong>[Generate]</strong> (Ctrl+G キー) をクリックします。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-0643E84D-87F8-40E0-8C99-3084BFD1325A-web.png data-lightbox=未修正の属性で生成された建物 data-title=未修正の属性で生成された建物><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-0643E84D-87F8-40E0-8C99-3084BFD1325A-web.png width=500></a><p>ルール ファイルには、建物の寸法を変更する属性が含まれています。<strong>[Inspector]</strong> ウィンドウでこれらの値を手動で設定するのではなく、値を変更するスクリプトを作成し、異なるバージョンのモデルを一括生成します。</p></li></ol><h3 id=アニメーション-スクリプト>アニメーション スクリプト</h3><p>アニメーション スクリプトを記述します。</p><ol><li><p><strong>growBuilding</strong> という新しい Python モジュールを作成します。</p></li><li><p>2 つのレンジをループする非常にシンプルなタイムラインを作成し、<strong>setAttribute</strong> 関数を呼び出すために、<strong>growBuilding</strong> 関数を追加します。</p><pre><code>def growBuilding():
     for i in range(1,14):
         height = 20+i
         doStep(i,height,1)
@@ -132,7 +71,7 @@ def setCamRotV(v, vec):
         height = 34
         width = i-14
         doStep(i,height,width)
-</code></pre><p>def doStep<br>区画のオブジェクトに対し、2 つの属性の height と width が変更されます。</p><pre><code>def doStep(i,height,width):    
+</code></pre></li><li><p><strong>doStep</strong> 関数を使用して、区画のオブジェクトの height と width の属性を変更します。</p><pre><code>def doStep(i,height,width):    
     object = ce.getObjectsFrom(ce.scene, ce.withName(&quot;'Lot1'&quot;))
     ce.setAttributeSource(object, &quot;height&quot;, &quot;OBJECT&quot;)
     ce.setAttributeSource(object, &quot;width&quot;, &quot;OBJECT&quot;)
@@ -140,108 +79,91 @@ def setCamRotV(v, vec):
     ce.setAttribute(object, &quot;width&quot;, width)
     
     Generate(object)
-</code></pre><p>def Generate<br>単純に建物を生成します。</p><pre><code>def Generate(object):
+</code></pre></li><li><p>建物を生成する <strong>Generate</strong> 関数を追加します。</p><pre><code>def Generate(object):
     ce.generateModels(object)
-</code></pre><p>main<br>スクリプトのメイン節の中で growBuilding が呼び出されます。</p><pre><code>if __name__ == '__main__':
-   growBuilding()
-</code></pre><h3 id=建物のバッチ生成>建物のバッチ生成</h3><ol><li>シーンの中で区画を選択します。</li><li>[Python Editor] ウィンドウ の中で F9 キーを押し、スクリプトを実行します。
-<a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-29C1D9F0-1145-49CA-A046-17F395DCB8C4-web.png data-lightbox="5 つの建物シークエンスのスナップショット" data-title="5 つの建物シークエンスのスナップショット"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-29C1D9F0-1145-49CA-A046-17F395DCB8C4-web.png width=400></a></li></ol><h3 id=バッチ-エクスポート>バッチ エクスポート</h3><p>生成されたモデルが満足のいくものであれば、さらに Export 関数を追加します。</p><pre><code>def Export(i, object):
+</code></pre></li><li><p>スクリプトの <strong>main</strong> 節で、<strong>growBuilding</strong> 関数を呼び出します。</p><pre><code>if __name__ == '__main__':
+    growBuilding()
+</code></pre></li><li><p>モジュールを保存します。</p></li><li><p>F9 キーを押して、スクリプトを実行し、建物を一括生成します。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-669A98AA-8F6A-4C0D-9B62-CC7F7804A88B-web.png data-lightbox=モジュールの例 data-title=モジュールの例><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-669A98AA-8F6A-4C0D-9B62-CC7F7804A88B-web.png width=600></a></li><li><p>モデルを一括エクスポートするには、<strong>Export</strong> 関数を追加します。main 節の前に関数があることを確認します。</p><pre><code>def Export(i, object):
     dir = ce.toFSPath(&quot;models&quot;)
     file = &quot;building_merge_&quot; + str(i)
-    #prepare export settings
+    # prepare export settings 
     settings = OBJExportModelSettings()
     settings.setBaseName(file)
     settings.setOutputPath(dir)
-    #do export
+    # do export 
     ce.export(object, settings)
-</code></pre><p>doStep() の中の Generate コールを置き換えます。</p><pre><code>    #Generate(object)
-        Export(i, object)
-</code></pre><p>エクスポート結果は models フォルダーに格納されています。</p><h2 id=part-5-アセット-ライブラリ-ルール-ファイルの作成>Part 5: アセット ライブラリ ルール ファイルの作成</h2><p>大量のアセットがある場合には、それらすべてを一度に見られると便利です。このパートでは、プロジェクトに含まれるアセットを表示する CGA ルール ファイルを自動的に作成する方法を紹介します。</p><h3 id=チュートリアルの設定-3>チュートリアルの設定</h3><p><strong>Tutorial_10_Python_Scripting/scenes/03_PythonScripting.cej</strong> を開きます。</p><p>Python スクリプトにより生成するルール ファイルは以下のような構造を持つことになります。</p><pre><code>Lot --&gt;  Geometries Textures
+</code></pre></li><li><p><strong>doStep()</strong> 関数内の <strong>Generate</strong> コールを置き換えます。</p><pre><code>#Generate(object)
+Export(i, object)
+</code></pre></li><li><p>モジュールを保存します。</p></li><li><p>F9 キーを押して、スクリプトを実行します。</p><p>モデルはプロジェクト内の <strong>models</strong> フォルダーに一括エクスポートされます。</p></li></ol><h2 id=part-4-アセット-ライブラリ-ルール-ファイルの作成>Part 4: アセット ライブラリ ルール ファイルの作成</h2><p>大量のアセットがある場合には、それらすべてを一度に表示できると便利です。このセクションでは、プロジェクトに含まれるアセットを表示する CGA ルール ファイルを自動的に生成する Python スクリプトの書き方を紹介します。</p><ol><li><p>まだ開いていない場合、シーン <strong>03_PythonScripting.cej</strong> を開きます。</p><p>Python スクリプトは、以下の構成でルール ファイルを記述します。</p><pre><code>Lot --&gt;  Geometries Textures
 
 Geometries --&gt; 
-	 Geometry(assetpath)
-	 Geometry(assetpath)
-	 ...
+     Geometry(assetpath)
+     Geometry(assetpath)
+     ...
 
 Geometry(asset) --&gt; i(asset)
-</code></pre><p>これらはジオメトリ アセットおよびそれと同様のテクスチャ画像のための構造です。</p><ul><li>新規 Python メイン モジュール my_asset_lib.py を作成します。</li><li>新規関数 writeCGALib を作成します。</li></ul><pre><code>def writeCGAlib():
-</code></pre><p>ヘッダー情報、スタート ルール Lot および Geometries ルールを書き出します。:</p><pre><code>    cga = &quot;/*Asset Library Loader : Generated by asset_lib.py*/\n version \&quot;2011.1\&quot;\n\n&quot;
+</code></pre><p>これらはジオメトリ アセットおよびそれと同様のテクスチャ画像のための構造です。</p></li><li><p>新しい Python メイン モジュール <strong>asset_lib</strong> を作成します。</p></li><li><p>新しい関数 <strong>writeCGALib</strong> を作成します。</p><pre><code>def writeCGAlib():
+</code></pre></li><li><p>ヘッダー情報およびスタート ルール <strong>Lot</strong> を記述します。</p><pre><code>cga = &quot;/*Asset Library Loader : Generated by asset_lib.py*/\n version \&quot;2023.0\&quot;\n\n&quot;
 
-    #write start rule
-    cga += &quot;Lot --&gt;  Geometries Textures&quot;
-    
-    #write rule showing geometries
-    cga += &quot;\n\nGeometries --&gt; &quot;
-</code></pre><p>asset フォルダーに含まれるすべての obj ファイルについて繰り返し、各アセットに対してルール コール Geometry(assetpath) を用意します。</p><pre><code>    #get all .obj files from asset directory, and call their loader
-    for obj in ce.getObjectsFrom(&quot;/&quot;, ce.isFile, ce.withName(&quot;/Tutorial_10*/assets/*.obj&quot;)):     
-        #and write 
-        cga += &quot;\n\t t(2,0,0)  Geometry(\&quot;&quot;+obj+&quot;\&quot;)&quot;
-</code></pre><p>テクスチャ アセットについても同様のルールを書き出します。</p><pre><code>    #write rule showing jpg textures
-    cga+=&quot;\n\nTextures--&gt;\n\ts(1,0,0) set(scope.ty,-2) set(scope.tz,0) i(\&quot;facades/xy-plane.obj\&quot;)&quot;
-    
-    #get all .jpg files from asset directory, and call their loader
-    for jpg in ce.getObjectsFrom(&quot;/&quot;, ce.isFile, ce.withName(&quot;/Tutorial_10*/assets/*.jpg&quot;)):   
-        cga += &quot;\n\tt(2,0,0)  Texture(\&quot;&quot;+jpg+&quot;\&quot;)&quot;
-</code></pre><p>実際のアセット ローダーのルールを書き出します。</p><pre><code>    //write geometry loader rule
-    cga += &quot;\n\n Geometry(asset) --&gt; s(1,0,0) i(asset) set(scope.ty,0) set(scope.tz,0)&quot;
-    
-    //write texture loader rule
-    cga += &quot;\n\n Texture(asset) --&gt; set(material.colormap, asset)&quot;
-</code></pre><p>将来の .cga ファイル用のファイル ハンドルを開き、cga の内容を書き出します。</p><pre><code>    cgafile = ce.toFSPath(&quot;rules/asset_lib.cga&quot;)
-    CGA = open(cgafile, &quot;w&quot;)
-    CGA.write(cga)
-    CGA.close()
-    print &quot;written file &quot;+cgafile
-</code></pre><p>新しい関数 assignAndGenerateLib() を追加します。これは生成された CGA ファイルをシーンの区画に適用し、モデルを生成します。</p><pre><code>def assignAndGenerateLib():
+cga += &quot;Lot --&gt;  Geometries Textures&quot;
+</code></pre></li><li><p><strong>Geometries</strong> ルールを記述し、<strong>asset</strong> フォルダー内のすべての <strong>.obj</strong> ファイルを取得します。各アセットの <strong>Geometry(assetpath)</strong> 呼び出しルールを用意します。</p><pre><code>cga += &quot;\n\nGeometries --&gt; &quot;
+for obj in ce.getObjectsFrom(&quot;/&quot;, ce.isFile, ce.withName(&quot;/Tutorial_10*/assets/*.obj&quot;)):   
+    cga += &quot;\n\t t(2,0,0)  Geometry(\&quot;&quot;+obj+&quot;\&quot;)&quot;
+</code></pre></li><li><p>テクスチャ アセットについても同様のルールを記述します。</p><pre><code>cga+=&quot;\n\nTextures --&gt; \n\ts(1,0,0) set(scope.ty,3) set(scope.tz,0) i(\&quot;facades/xy-plane.obj\&quot;)&quot;   
+for jpg in ce.getObjectsFrom(&quot;/&quot;, ce.isFile, ce.withName(&quot;/Tutorial_10*/assets/*.jpg&quot;)):
+    cga += &quot;\n\tt(2,0,0)  Texture(\&quot;&quot;+jpg+&quot;\&quot;)&quot;
+</code></pre></li><li><p>アセット ローダーのルールを記述します。</p><pre><code>cga += &quot;\n\n Geometry(asset) --&gt; s(1,0,0) i(asset) set(scope.ty,0) set(scope.tz,0)&quot;
+
+cga += &quot;\n\n Texture(asset) --&gt; set(material.colormap, asset)&quot;
+</code></pre></li><li><p><strong>.cga</strong> ファイルのファイル ハンドルを開き、CGA コンテンツを記述します。</p><pre><code>cgafile = ce.toFSPath(&quot;rules/asset_lib.cga&quot;)
+CGA = open(cgafile, &quot;w&quot;)
+CGA.write(cga)
+CGA.close()
+print &quot;written file &quot;+cgafile
+</code></pre></li><li><p>新しい <strong>assignAndGenerateLib()</strong> 関数を追加します。</p><pre><code>def assignAndGenerateLib():
     object = ce.getObjectsFrom(ce.scene, ce.withName(&quot;'Lot2'&quot;))
     ce.refreshWorkspace()
     ce.setRuleFile(object, &quot;asset_lib.cga&quot;)
     ce.setStartRule(object, &quot;Lot&quot;)
     ce.generateModels(object)
-</code></pre><p>最後に、メイン節の中から 2 つの関数を呼び出します。</p><pre><code>if __name__ == '__main__':
+</code></pre><p>この関数は、生成された <strong>.cga</strong> ファイルをシーンの区画に適用し、モデルを生成します。</p></li><li><p>最後に、main 節の中から 2 つの関数を呼び出します。</p><pre><code>if __name__ == '__main__':
     writeCGAlib() 
     assignAndGenerateLib()
-</code></pre><h3 id=ライブラリ-モデルの生成>ライブラリ モデルの生成</h3><p>[Python Editor] ウィンドウ にファイル asset_lib.py を開き、F9 キーを押します。
-<a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-5C19106D-F072-469C-B981-E654BEAB8CF2-web.png data-lightbox="アセット ライブラリ" data-title="アセット ライブラリ"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-5C19106D-F072-469C-B981-E654BEAB8CF2-web.png width=400></a></p><h2 id=part-6-startuppy-を用いた-cityengine-タスクの自動化>Part 6: startup.py を用いた CityEngine タスクの自動化</h2><p>Python を使用して、大きなタスクや反復的なタスクを自動化することができます。例えば 1 区画の情報を元に全体のモデル作成を自動化することができます。</p><ol><li>プロジェクトを作成するか、既存のプロジェクトを利用します。
-ここでは、チュートリアル プロジェクトの Tutorial_10_Python_Scripting__2019_0 を使います。</li><li>プロジェクトの scripts フォルダーに Python Main モジュールを作成します。チュートリアルに最小限のジョブ <strong>automationJob.py</strong> が含まれているので、こちらを利用します。</li><li>自動化ジョブのタスクを含む関数を挿入します。テストのために、この関数への呼び出しをメイン節に追加します。今回、例として提供されている fgdbToKml では、fileGDB から図形をインポートしてモデルを生成し、KML に書き出します。</li></ol><p>automationJob.py</p><pre><code>from scripting import *
-#get a CityEngine instance
-ce = CE()
- 
-def fgdbToKml(pathFGDB,layerName,ruleName,startRule = &quot;Generate&quot;):
-    #open scene in the automation project
+</code></pre></li><li><p>モジュールを保存します。</p></li><li><p>F9 キーを押して、ライブラリ モデルを生成します。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-5C19106D-F072-469C-B981-E654BEAB8CF2-web.png data-lightbox="アセット ライブラリ" data-title="アセット ライブラリ"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-5C19106D-F072-469C-B981-E654BEAB8CF2-web.png width=600></a></li></ol><h2 id=part-5-startuppy-を用いた-cityengine-タスクの自動化>Part 5: startup.py を用いた CityEngine タスクの自動化</h2><p>Python を使用して、大きなタスクや反復的なタスクを自動化することができます。例えば郡全体の区画情報からモデル生成を自動化することができます。</p><p>タスクを自動化します。</p><ol><li><p><strong>automationJob</strong> という新しい Python モジュールを作成します。</p></li><li><p>自動化されたジョブのタスクを含む関数を挿入します。</p><pre><code>def fgdbToKml(pathFGDB,layerName,ruleName,startRule = &quot;Generate&quot;):
+    # open scene in the automation project
     ce.newFile('/scenes/emptyScene.cej')
      
-    #load a database
+    # load a database
     importSettings = FGDBImportSettings()
     importSettings.setDatasetFilter(['/'+layerName])
     ce.importFile(ce.toFSPath(pathFGDB), importSettings)
      
-    #assign rule file based on the layer name
+    # assign rule file based on the layer name
     layer = ce.getObjectsFrom(ce.scene, ce.isShapeLayer, ce.withName(layerName))[0]
     shapes = ce.getObjectsFrom(layer, ce.isShape)
     ce.setRuleFile(shapes, ruleName)
     ce.setStartRule(shapes, startRule)
      
-    #export models to KML
+    # export models to KML
     exportSettings = KMLExportModelSettings()
     exportSettings.setOutputPath(ce.toFSPath(&quot;models&quot;))
     exportSettings.setBaseName(layerName)
     exportSettings.setCompression(True)
     ce.export(shapes, exportSettings)
      
-    #close CityEngine
+    # close Scene
     ce.waitForUIIdle()
     ce.closeFile()
-
-if __name__ == '__main__':
-    fgdbToKml(&quot;data/CityData.gdb&quot;, &quot;NewShapes&quot;, &quot;/ESRI.lib/rules/Buildings/Building_From_Footprint.cga&quot;, &quot;Generate&quot;)
+</code></pre><p>テストするには、<strong>'__main__'</strong> セクションにこの関数への呼び出しを追加します。提供されている <strong>fgdbToKml</strong> のサンプルは、モデルを生成するために fileGDB からシェープをインポートし、KML に書き出します。</p><pre><code>if __name__ == '__main__':
+    fgdbToKml(&quot;data/CityData.gdb&quot;, &quot;Footprints&quot;, 
+              &quot;/ESRI.lib/rules/Buildings/Building_From_Footprint.cga&quot;, &quot;Generate&quot;)
     pass
-</code></pre><ol start=4><li>ジョブのパラメーターを定義するために構成ファイルを作成します。チュートリアルの \data\jobConfig.cfg にサンプルが含まれています。</li></ol><p>jobConfig.cfg</p><pre><code>[config]
+</code></pre></li><li><p>保存し、F9 キーを押して、すべてが正しく動作するかテストします。テスト後、<strong>models</strong> フォルダーには <strong>Footprints.kmz</strong> ファイルが含まれています。</p><p><strong>Footprints.kmz</strong> ファイルは、後のステップで再度作成するため削除します。</p></li><li><p>このプロセスを自動化するためには、上記の関数のテストに使用したすべての関数パラメーターを構成ファイルに記述する必要があります。</p><p>チュートリアル プロジェクトには、<strong>data</strong> フォルダーにある <strong>jobConfig.cfg</strong> ファイルの例が含まれています。</p><pre><code>[config]
 pathFGDB=data/CityData.gdb
-layerName=NewShapes
+layerName=Footprints
 ruleName=/ESRI.lib/rules/Buildings/Building_From_Footprint.cga
 startRule=Generate
-</code></pre><ol start=5><li>構成ファイルに保管されているパラメーターを使用して自動化ジョブを実行するために、2 つの関数、run(cfg) と getCfgValue(cfg,name) を automationJob.py へ追加します。</li></ol><p>automationJob.py</p><pre><code>def getCfgValue(cfg,name):
+</code></pre></li><li><p><strong>automationJob.py</strong> スクリプトで、<strong>fgdbToKml</strong> 関数の下に <strong>run(cfg)</strong> と <strong>getCfgValue(cfg,name)</strong> 関数を追加して、構成ファイルに保存されたパラメーターで自動化ジョブを実行します。</p><pre><code>def getCfgValue(cfg,name):
     for c in cfg:
         if  c[0] == name: return c[1]
     return None
@@ -253,39 +175,41 @@ def run(cfg):
     startRule = getCfgValue(cfg,'startrule')
      
     fgdbToKml(pathFGDB, layerName, ruleName, startRule)
-</code></pre><ol start=6><li>自動化のために別々の CityEngine ワーク スペースを使用することをお勧めします。
-システムに新しい C：\Automation Workspace フォルダーを作成します。</li><li>/scripts/startup.py ファイルをチュートリアル プロジェクトから、新しい C：\Automation Workspace ルート ディレクトリにコピーします。</li></ol><p>この Python スクリプトの &lsquo;<strong>startup</strong>&rsquo; セクションのコマンドは、CityEngine の起動時に自動的に実行されます。最初の起動引数は、自動化ジョブを含む CityEngine プロジェクトを定義します。これは Automation Workspace にリンクされます。2 番目の引数には設定ファイルが含まれています。これは解析され、 (name,value) ペアのリストとして自動化ジョブに引き渡されます。ジョブが完了したら、CityEngine は安全にシャットダウンされます。</p><p>startup.py</p><pre><code>from scripting import *
+</code></pre><p>参考までに、<strong>scripts</strong> フォルダーにある <strong>automationJob_dist.py</strong> ファイルを開きます。</p></li><li><p><strong>[File] メニュー → [Switch Workspace] → [Other]</strong> をクリックして、自動化用の別のワークスペースを作成します。</p><p>新しいワークスペースに <strong>「C:\Automation Workspace\」</strong> という名前を付けます。</p></li><li><p>チュートリアル プロジェクトから新しい C:\Automation Workspace\ ルート ディレクトリに <strong>startup.py</strong> スクリプトをコピーします。</p><pre><code>from scripting import *
 from java import lang
 import ConfigParser, sys
  
 if __name__ == '__startup__':
-   // get a CityEngine instance
+    # get a CityEngine instance
     ce = CE()
      
-    // get startup arguments
+    # get startup arguments
     projectFolder = lang.System.getProperty(&quot;projectFolder&quot;)
     configFilePath = lang.System.getProperty(&quot;configFilePath&quot;)
      
-    // link the automation project into automation workspace
+    # link the automation project into automation workspace
     if &quot;automationProject&quot; in ce.listProjects(): ce.removeProject(&quot;automationProject&quot;)
     ce.importProject(projectFolder, False, &quot;automationProject&quot;)
      
-    // read configuration file
+    # read configuration file
     cp = ConfigParser.ConfigParser()
     cp.read(configFilePath)
     cfg = cp.items('config') # list of (name,value) pairs
      
-    // run automation job
+    # run automation job
     sys.path.append(ce.toFSPath(&quot;/automationProject/scripts&quot;))
     import automationJob
     automationJob.run(cfg)
      
-    // safely shut down CityEngine
+    # safely shut down CityEngine
     ce.exit()
-</code></pre><ol start=8><li>コマンド ラインを開いて Automation Workspace で CityEngine を起動し、ジョブ定義とパラメーターを渡します。</li></ol><p>Command</p><pre><code>&lt;Path_to_CityEngine.exe&gt; -data &lt;Workspace_Folder&gt; -vmargs -DprojectFolder=&lt;Project_Folder&gt; -DconfigFilePath=&lt;Configuration_FilePath&gt;
+</code></pre><p>この Python スクリプトの <strong>'__startup__'</strong> セクションのコマンドは、CityEngine の起動時に自動的に実行されます。最初の起動引数は、自動化ジョブを含む CityEngine プロジェクトを定義します。これは Automation Workspace にリンクされます。2 番目の引数には <strong>config</strong> ファイルが含まれています。これは解析され、(name,value) ペアのリストとして自動化ジョブに引き渡されます。ジョブが完了したら、CityEngine は安全にシャットダウンされます。</p></li><li><p>コマンド ラインを開いて Automation Workspace で CityEngine を起動し、ジョブ定義とパラメーターを渡します。</p><pre><code>&lt;Path_to_CityEngine.exe&gt; -data &lt;Workspace_Folder&gt; -vmargs 
+-DprojectFolder=&lt;Project_Folder&gt; -DconfigFilePath=&lt;Configuration_FilePath&gt;
  
-#Example:
-&gt; &quot;C:\Program Files\Esri\CityEngine2018.0\CityEngine.exe&quot; -data &quot;C:\Automation Workspace&quot; -vmargs -DprojectFolder=&quot;C:\CE_Workspace\Tutorial_10_Python_Scripting__2018_0&quot; -DconfigFilePath=&quot;C:\CE_Workspace\Tutorial_10_Python_Scripting__2018_0\data\jobConfig.cfg&quot;
-</code></pre><ol start=9><li>ジョブが完了したら、models フォルダー に <a href=https://www.esri.com/ja-jp/arcgis/products/arcgis-earth/overview>ArcGIS Earth</a> で表示できる Footprints.kmz 出力ファイルが格納されます。
-<a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-F2A24687-D8DB-40CE-B305-D1EC2C7F6754-web.png data-lightbox="ArcGIS Earth" data-title="ArcGIS Earth"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-F2A24687-D8DB-40CE-B305-D1EC2C7F6754-web.png width=400></a></li></ol><div class="notices note"><p>automationJob.py ファイルには最小限のジョブしか含まれていません。<a href=https://doc.arcgis.com/en/cityengine/latest/help/cityengine-help-intro.htm>CityEngine Python ヘルプ</a>を参照して、必要に応じて調整をしてください。</p></div><footer class=footline></footer></div></div><div id=navigation><a class="nav nav-prev" href=../../../../cityengine/tutorials/classic/tutorial-9-advanced-shape-grammar/ title="チュートリアル 9: 高度なシェープ グラマー"><i class="fa fa-chevron-left"></i><label>チュートリアル 9: 高度なシェープ グラマー</label></a>
+@ Example:
+&gt; &quot;C:\Program Files\Esri\CityEngine2023.0\CityEngine.exe&quot; -data 
+&quot;C:\Automation Workspace&quot; -vmargs 
+-DprojectFolder=&quot;C:\CE_Workspace\Tutorial_10_Python_Scripting__2021_1&quot; 
+-DconfigFilePath=&quot;C:\CE_Workspace\Tutorial_10_Python_Scripting__2021_1\data\jobConfig.cfg&quot;
+</code></pre><p>ジョブが完了したら、<strong>models</strong> フォルダー に ArcGIS Earth で表示できる <strong>Footprints.kmz</strong> 出力ファイルが含まれています。</p><a href=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-F2A24687-D8DB-40CE-B305-D1EC2C7F6754-web.png data-lightbox="ArcGIS Earth の結果" data-title="ArcGIS Earth の結果"><img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-F2A24687-D8DB-40CE-B305-D1EC2C7F6754-web.png width=600></a></li></ol><div class="notices note"><p>automationJob.py ファイルには最小限のジョブしか含まれていません。<a href=https://doc.arcgis.com/en/cityengine/latest/tutorials/tutorial-10-python-scripting.htm>CityEngine Python ヘルプ</a>を参照して、必要に応じて調整をしてください。</p></div><p>このチュートリアルでは、以下の方法を学習しました。</p><ul><li>Python コンソールとエディターの基本的な使い方を学習しました。</li><li>CityEngine タスクの自動化の例をいくつか学習しました。</li></ul><footer class=footline></footer></div></div><div id=navigation><a class="nav nav-prev" href=../../../../cityengine/tutorials/classic/tutorial-9-advanced-shape-grammar/ title="チュートリアル 9: 高度なシェープ グラマー"><i class="fa fa-chevron-left"></i><label>チュートリアル 9: 高度なシェープ グラマー</label></a>
 <a class="nav nav-next" href=../../../../cityengine/tutorials/classic/tutorial-11-reporting/ title="チュートリアル 11: レポーティング" style=margin-right:0><label>チュートリアル 11: レポーティング</label><i class="fa fa-chevron-right"></i></a></div></section><div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px><div style=border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px></div></div><script src=../../../../js/clipboard.min.js></script><script src=../../../../js/featherlight.min.js></script><script src=../../../../js/html5shiv-printshiv.min.js></script><script src=../../../../js/modernizr.custom.71422.js></script><script src=../../../../js/docdock.js></script><script src=../../../../theme-original/script.js></script></body></html>
