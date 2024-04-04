@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>商圏分析 on ArcGIS リソース集</title><link>/business-analyst/pro/tutorial/tradearea-analysis/</link><description>Recent content in 商圏分析 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="/business-analyst/pro/tutorial/tradearea-analysis/index.xml" rel="self" type="application/rss+xml"/><item><title>新規候補地に対する分析 (クイック商圏)</title><link>/business-analyst/pro/tutorial/tradearea-analysis/evaluate-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/tradearea-analysis/evaluate-site/</guid><description>本演習にかかる時間はおよそ 20 分です。
 「クイック商圏」を使用することで、商圏作成からレポートの実行までを簡単に行うことができます。本演習では、西船橋駅を評価対象として分析を行います。
-演習 演習用データのダウンロード BA Pro チュートリアル-商圏分析 プロジェクトパッケージが無い場合は、ダウンロードします。
-ダウンロードした「BAProチュートリアル-商圏分析.ppkx」を開きます。
+演習 演習用データのダウンロード BA Pro チュートリアル-商圏分析 プロジェクトパッケージが無い場合は、ダウンロードして、プロジェクト パッケージを開きます。
 [演習2] マップを開きます。
 Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
 クイック商圏 クイック商圏を実行して、西船橋駅を起点とした商圏作成を行います。
-[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [クイック商圏] をクリックします。 [クイック商圏] ウィザードの [ステップ 1: 位置] で、解析対象となる位置を指定します。
+[解析] タブ → [ワークフロー] グループの [ビジネス解析] → [クイック商圏] をクリックします。 [クイック商圏] ウィザードの [ステップ 1: 位置] で、解析対象となる位置を指定します。
 [場所検索] タブの検索ボックスに「西船橋駅」と入力し、Enter キーを押します。 検索結果が表示されるので、選択して [次へ] をクリックします。 [ステップ2: バッファー] で商圏を作成します。
 [道路距離/時間商圏] タブを選択し、以下のように設定し、[次へ] をクリックします。 パラメーター 設定値 距離タイプ 運転時間 時間 5, 10, 15 分 ディゾルブ オプション ディスク ディゾルブ オプションでは、複数商圏生成時の形状を指定します。 ・リング：ドーナツ状の商圏を生成します。 ( 例: 5,10 分の道路時間商圏の場合、0-5 分の到達圏ポリゴンと 5-10 分の到達圏ポリゴンを生成します。 ) ・ディスク :ドーナツ状になりません。 ( 例: 5,10 分の道路時間商圏の場合、0-5 分の到達圏ポリゴンと 0-10 分の到達圏ポリゴンを生成します。 )</description></item><item><title>既存店舗を対象とした分析</title><link>/business-analyst/pro/tutorial/tradearea-analysis/analysis-for-existing-stores/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/tradearea-analysis/analysis-for-existing-stores/</guid><description>本演習にかかる時間はおよそ 30 分です。
-演習 演習用データのダウンロード BA Pro チュートリアル-商圏分析 プロジェクトパッケージが無い場合は、ダウンロードします。
-ダウンロードした「BAProチュートリアル-商圏分析.ppkx」を開きます。
+演習 演習用データのダウンロード BA Pro チュートリアル-商圏分析 プロジェクトパッケージが無い場合は、ダウンロードし、プロジェクトパッケージを開きます。
 [演習3] マップを開きます。
 [コンテンツ] ウィンドウおよびマップ上に「自社店舗」レイヤーがあらかじめ追加されていることを確認します。
 Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
