@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>データのカスタマイズ on ArcGIS リソース集</title><link>/business-analyst/pro/tutorial/customize-data/</link><description>Recent content in データのカスタマイズ on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Fri, 19 Nov 2021 00:00:00 +0900</lastBuildDate><atom:link href="/business-analyst/pro/tutorial/customize-data/index.xml" rel="self" type="application/rss+xml"/><item><title>BA データからカスタム変数を作成</title><link>/business-analyst/pro/tutorial/customize-data/how-to-use-existing-ba-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/customize-data/how-to-use-existing-ba-data/</guid><description>本演習にかかる時間はおよそ 30 分です。
+本演習では、Business Analyst オフライン データセット（以下、BA データ）を使用して、独自のカスタム変数を作成する方法を学びます。
+演習用データのダウンロード BA Pro チュートリアル-カスタマイズ プロジェクトパッケージをダウンロードします。 ダウンロードした「BAProチュートリアル-カスタマイズ.ppkx」を開き、[演習1] マップを開きます。 Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
+統計データ コレクションの作成 BA データに搭載されている町丁・字等ポリゴンを使用して、統計データ コレクションを作成します。
+統計データ コレクション（.sdcx）は、Business Analyst 上で使用するための設定を格納するファイルです。 (詳細)
+[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [新しい統計データ コレクション] をクリックします。
+[統計データ コレクションの作成] ダイアログが開いたら、[入力データ] 右部にある参照ボタンをクリックし、以下のフィーチャクラスを選択します。
+&amp;lt;データセット配置先&amp;gt;\JPN_EsriJapan_2024R2\Data\Demographic Data\JPN_EsriJapan_2024R2.gdb\Blocks_blk
+[統計データ コレクションの出力] で作成する統計データ コレクションの名前および保存先を確認し、そのまま [作成] をクリックします。
+[SDCX の編集] ダイアログが開きます。</description></item><item><title>独自データからカスタム変数を作成</title><link>/business-analyst/pro/tutorial/customize-data/how-to-use-unique-data/</link><pubDate>Fri, 19 Nov 2021 00:00:00 +0900</pubDate><guid>/business-analyst/pro/tutorial/customize-data/how-to-use-unique-data/</guid><description>本演習にかかる時間はおよそ 30 分です。
+区画別に集計した顧客数や売上高など、独自の数値情報を持つデータを使用して、カスタム変数として登録する方法を学びます。本演習では、千葉県内の自社顧客データを用いて、町丁・字等ポリゴンを作成し、それを独自変数として登録します。
+演習用データのダウンロード BA Pro チュートリアル-カスタマイズ プロジェクトパッケージをダウンロードします。 ダウンロードした「BAProチュートリアル-カスタマイズ.ppkx」を開き、[演習2] マップを開きます。 Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
+売上情報を含むテーブル データの確認 プロジェクトパッケージはデフォルト設定では、以下の場所に展開されます。
+C:\Users&amp;lt;ユーザー名&amp;gt;\Documents\ArcGIS\Packages\BAProチュートリアル-カスタマイズ_xxxx
+統計データ コレクションのデータ ソースとなる、町丁・字等別に集計した顧客数・売上情報を含むテーブル データをマップに追加します。
+[マップ] タブ → [レイヤー] グループの [データの追加] をクリックします。 [データ] を選択して、[データの追加] ダイアログを開きます。 演習データ内の Excel シートを選択し、[OK] をクリックします。 &amp;lt;上記展開先&amp;gt;\commondata\userdata\町丁字等別売上情報.xlsx\町丁字等別売上情報$
+Excel の読み込みができない場合、事前準備に記載の Microsoft Access データベース エンジンのインストールが必要な場合があります。
+[フォルダー] に上記展開先のパスが接続されているため、[フォルダー] から Excel ファイルに接続することができます。
+[コンテンツ] ウィンドウに「町丁字等別売上情報$」が追加されます。
+「町丁字等別売上情報$」を右クリック → [開く] をクリックし、テーブルを開きます。 テーブルに、町丁・字等の区画 ID や区画名、顧客数や売上高などの売上情報が含まれることを確認し、テーブルを閉じます。 町丁・字等ポリゴンの作成 追加したテーブル データを使用して、統計データ コレクションのデータ ソースとなる町丁・字等ポリゴンを作成します。</description></item></channel></rss>

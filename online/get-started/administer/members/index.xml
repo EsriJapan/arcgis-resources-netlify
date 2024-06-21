@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>メンバー on ArcGIS リソース集</title><link>/online/get-started/administer/members/</link><description>Recent content in メンバー on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="/online/get-started/administer/members/index.xml" rel="self" type="application/rss+xml"/><item><title>ロールの変更</title><link>/online/get-started/administer/members/role/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/administer/members/role/</guid><description>組織サイトの管理者は、メンバーにロールを割り当てることで権限の範囲を制御することができます。各ロールの詳細は、ヘルプをご参照ください。
+管理者アカウントで ArcGIS Online にサイン インします。 サイト上部の [組織] タブ → [メンバー] タブをクリックします。 [ロール] 列にある [▼] をクリックして、ロールを変更します。 自身のロールの変更は、[管理者] ユーザーであってもできません。
+メンバーの招待と追加については、「メンバーの追加」をご参照ください。</description></item><item><title>ユーザー タイプの変更</title><link>/online/get-started/administer/members/usertype/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/administer/members/usertype/</guid><description>ユーザー タイプの概要 ArcGIS Online には、Viewer、Editor、Mobile Worker、Creator、GIS Professional の 5 種類のユーザー タイプがあります。これらのユーザー タイプは、組織サイトのメンバーの ID、利用可能な機能とアプリの組み合わせで構成されています。各ユーザー タイプで利用可能な機能やアプリについては、製品ページをご参照ください。
+ユーザー タイプの変更方法 メンバーのユーザー タイプを変更するには、管理者及びユーザー タイプの変更権限を持ったユーザーである必要があります。
+[組織] ページに移動し、[メンバー] タブをクリックします。 [&amp;hellip;] をクリックし、[ユーザー タイプの管理] をクリックして、ユーザー タイプ/ロールの管理画面を開きます。
+割り当てたいユーザー タイプをプルダウンから選択し、[保存] をクリックします。</description></item><item><title>メンバーの削除</title><link>/online/get-started/administer/members/delete-members/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/administer/members/delete-members/</guid><description>ArcGIS Online の組織メンバーを削除します。
+管理者権限を持つユーザーで ArcGIS Online にサイン インします。
+[組織] → [メンバー] タブをクリックします。
+削除したいメンバーを検索します。
+メンバー名の一番右にある […] → [メンバーの削除] をクリックします。
+複数のメンバーを一括で削除する場合は、削除するメンバー名の左にあるチェックボックスをオンにし、[詳細] ドロップダウン メニューの [メンバーの削除] をクリックします。
+削除するメンバーがコンテンツやグループを所有している場合、以下の画面が表示されます。いずれかのオプションを選択し、[次へ] をクリックします。
+コンテンツやグループを所有している状態では、メンバーを削除することができません。
+[コンテンツとグループの削除] を選択した場合は、完全に削除され、元に戻せません。
+手順 5 で [コンテンツとグループの移動] を選択した場合は、削除するメンバーが所有するコンテンツとグループを移行する他のメンバーを [メンバーの検索] ボックスで検索して指定します。
+[移動するコンテンツ]、[移動するグループ] 右の [すべて表示] をクリックして、削除するメンバーが所有するコンテンツやグループの一覧を表示することができます。一覧内のコンテンツやグループのそれぞれのアイテム詳細ページを開いて、個別に所有者の変更を行うこともできます。
+[メンバーの削除] をクリックします。 グループとコンテンツの移動と同時に、Esri アクセスの無効化や割り当てられているライセンスの取り消しが行われ、メンバーが削除されます。</description></item></channel></rss>
