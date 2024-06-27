@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>データの収集 on ArcGIS リソース集</title><link>/survey123/get-started/survey/</link><description>Recent content in データの収集 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Fri, 07 Jun 2024 00:00:00 +0900</lastBuildDate><atom:link href="/survey123/get-started/survey/index.xml" rel="self" type="application/rss+xml"/><item><title>ブラウザーを利用したデータの収集</title><link>/survey123/get-started/survey/web/</link><pubDate>Fri, 07 Jun 2024 00:00:00 +0900</pubDate><guid>/survey123/get-started/survey/web/</guid><description>Survey123 で作成した調査票に、ブラウザーを利用して回答を入力する方法について説明します。
+調査票の使用 ブラウザーを利用して調査票へアクセスします。方法は 2 つあります。
+調査票の作成者によって共有された URL を使用し、調査票を開きます。 調査票の作成者によって共有された QR をスキャンし、調査票を開きます。 調査票に沿って回答を入力します。 調査票の最後に表示される [送信] をクリックします。 ブラウザーを利用して調査票へアクセスするには、インターネットへの接続が必要です。
+調査票の URL、QR を取得する方法については「調査票の公開」をご参照ください。</description></item><item><title>フィールド アプリを利用したデータの収集</title><link>/survey123/get-started/survey/fieldapp/</link><pubDate>Fri, 07 Jun 2024 00:00:00 +0900</pubDate><guid>/survey123/get-started/survey/fieldapp/</guid><description>Survey123 で作成した調査票に、フィールド アプリを利用して回答を入力する方法について説明します。
+フィールド アプリを利用することで、オフライン環境でもデータの収集ができます。
+調査票を作成する方法については「調査票の作成」、ブラウザーを利用して回答を入力する方法については「ブラウザーを利用したデータの収集」をご参照ください。
+フィールド アプリのインストール Survey123 フィールド アプリを利用するには、アプリケーションのインストールが必要です。
+インストール方法および動作環境については「はじめに」をご参照ください。
+調査を開く アプリを起動して表示される [ArcGIS Online でサイン イン] をタップし、ユーザ ー名とパスワードを入力してサイン インします。
+画面キャプチャは一例です。端末やバージョンにより、表記が異なる場合があります 。
+[サイン インしないで続行] をタップすると、サイン インなしでパブリックに公開されている調査に回答することができます。
+[調査のダウンロード] から、共有されている調査を検索し、ダウンロードします。
+デバイスにすでに調査票が存在する場合は、画面右上のアイコンをタップし、[調査のダウンロード] をタップします。
+調査票をダウンロードするには、インターネットへの接続が必要です。
+URL や QR から調査票をダウンロードすることもできます。
+調査票の使用 ダウンロードした調査票をタップし、[+ 収集] をタップします。
+調査票に沿って回答を入力後、画面右下に表示される [☑] をタップします。
+[調査が完了しました] ダイアログが表示されます。
+[調査が完了しました] ダイアログの内容は以下の通りです。
+デバイスがインターネットに接続している場合 [今すぐ送信]: ArcGIS Online に結果が共有されます。</description></item></channel></rss>

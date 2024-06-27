@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>調査票の作成と公開 on ArcGIS リソース集</title><link>/survey123/get-started/prepare/</link><description>Recent content in 調査票の作成と公開 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Thu, 06 Jun 2024 00:00:00 +0900</lastBuildDate><atom:link href="/survey123/get-started/prepare/index.xml" rel="self" type="application/rss+xml"/><item><title>調査票の作成</title><link>/survey123/get-started/prepare/create/</link><pubDate>Fri, 07 Jun 2024 00:00:00 +0900</pubDate><guid>/survey123/get-started/prepare/create/</guid><description>Survey123 で新しい調査票を作成する方法について説明します。
+Web デザイナーでは、質問項目をドラッグ アンド ドロップするだけで調査票の作成ができます。
+新しい調査の作成 ArcGIS Online 組織サイトの右上に表示されている [アプリ ランチャー] → [Survey123] をクリックします。
+画面左上の [+ 新しい調査] をクリックし、調査票の作成を開始します。
+独自の調査票を 1 から作成したい場合は、[Web デザイナーの使用] の [空白の調査] を選択し、[基本操作] をクリックします。
+・調査テンプレート: あらかじめ構成されたテンプレートを使用し、すぐに調査票を作成できます。
+・Survey123 Connect: XLSForm を使用し、よりカスタマイズされた調査票を作成できます。詳細はヘルプをご参照ください。
+画面左上の [調査情報の編集] をクリックし、[調査情報の編集] ダイアログ ボックスを開きます。
+調査の名前、タグ、サマリーを設定し、[OK] をクリックします。
+画面左上の「調査票のタイトルが設定されていません」をクリックし、調査票のタイトルを設定します。
+調査票への質問の追加 Survey123 では、ドラッグ アンド ドロップで調査票に質問項目を追加できます。
+画面右側の [追加] をクリックし、[追加] タブを開きます。</description></item><item><title>調査票の公開</title><link>/survey123/get-started/prepare/publish/</link><pubDate>Fri, 07 Jun 2024 00:00:00 +0900</pubDate><guid>/survey123/get-started/prepare/publish/</guid><description>Survey123 で作成した調査票を保存し、公開、共有する方法について説明します。
+調査票の作成方法については「調査票の作成」をご参照ください。
+調査票の保存とプレビュー Web デザイナー画面右下の [保存] をクリックし、調査票を保存します。
+調査票が保存されると、[保存完了] と表示されます。
+画面右下の [プレビュー] をクリックし、調査票の実際の画面を確認します。
+アイコンを選択することで以下の環境でプレビューすることができます。
+デスクトップ スマートフォン タブレット 調査票の公開 画面右下の [公開] をクリックし、調査票を公開します。
+調査票が公開されると、[公開済み] と表示されます。
+調査票の公開前にフィーチャー レイヤーのスキーマを変更することができます。公開後に変更することはできません。
+詳細はヘルプをご参照ください。
+調査の共有 [調査の共有] タブでは、調査の共有範囲や調査ステータスなどを設定できます。
+[共同作業] タブをクリックし、共同作業ページに移動します。
+[調査の共有] タブをクリックし、調査の公開範囲や調査のステータスを設定します。
+[結果の共有] タブでは 、調査結果の共有範囲を設定できます。
+[URLのコピー] アイコンから調査票の URL を取得します。URL を調査者に共有することで、調査票にアクセスできるようになります。
+[QR を表示] アイコンをクリックし、[クリックしてダウンロード] をクリックすることで、調査の QR を入手できます。</description></item></channel></rss>
