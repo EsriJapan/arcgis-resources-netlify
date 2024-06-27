@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>スタートアップ ガイド on ArcGIS リソース集</title><link>/survey123/get-started/</link><description>Recent content in スタートアップ ガイド on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Wed, 02 Feb 2022 00:00:00 +0900</lastBuildDate><atom:link href="/survey123/get-started/index.xml" rel="self" type="application/rss+xml"/><item><title>はじめに</title><link>/survey123/get-started/introduction/</link><pubDate>Thu, 06 Jun 2024 00:00:00 +0900</pubDate><guid>/survey123/get-started/introduction/</guid><description>Survey123 の利用を開始する方のためのガイドです。
+Survey123 は、現地調査の準備、実施、集計作業をシンプルかつ直感的な操作で行うことができる GIS アプリケーションです。Web ベースの作業により、現地調査の効率を向上させることができます。
+利用の流れ Survey123 Web デザイナーで、現地調査で使用する調査票を作成します。 ブラウザーや Survey123 フィールド アプリを利用し、現地調査を行います。 Survey123 Web サイトで、結果を表示します。 必要なライセンス ArcGIS Online のユーザー タイプによって Survey123 で利用可能な機能が異なります。
+Creator、Professional、Professional Plus: 調査票の作成、データの収集、結果の表示ができます。 Mobile Worker: Web アプリおよびフィールド アプリでの回答の入力、結果の表示ができます。 Contributor: Web アプリでのデータの収集、結果の表示ができます。 Viewer: 結果の表示ができます。 ArcGIS Online のユーザー タイプを持っていない場合: パブリックに公開されている調査のデータの収集、結果の表示ができます。 詳細は「ライセンス」をご参照ください。
+本ガイドは ArcGIS Online で利用される方向けのガイドとなりますが、Survey123 は ArcGIS Enterprise でも利用可能です。
+ArcGIS Enterprise での利用の詳細についてはヘルプをご参照ください。
+フィールド アプリのインストール 動作環境については「システム要件」をご参照ください。
+Android の場合は「Play ストア」、iOS の場合は「App Store」、Windows の場合は「Microsoft Store」アプリケーションを開きます。 キーワードに「Survey123」と入力して ArcGIS Survey123 を検索し、インストールします。</description></item></channel></rss>
