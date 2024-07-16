@@ -117,7 +117,8 @@ Map Viewer からの共有方法 Map Viewer でマップを作成して保存し
 Web マップの作成で Web マップおよびフィーチャ レイヤーを作成した場合は、既に下記の設定はそれぞれ有効化されているため、この手順は不要です。オフライン エリアの作成に進んでください。
 オフラインで使用するコンテンツの有効化 モバイル アプリでオフライン利用するためには、マップのコンテンツがオフラインで使用できる状態になっている必要があります。
 オフライン利用を行う Web マップを Field Maps Web アプリで開きます 。 [オフライン] タブをクリックします。 [コンテンツ] セクション内の [レイヤー] を展開します。 必要なフィールドがない、同期が有効化されていない、などのエラーが表示された場合は、リンクをクリックしてエラーを解決します。 リンクに表示されている内容以外の方法でエラーを解決するには、以下の手順を実行します。
-レイヤー名右に表示される [アイテム詳細の表示] ボタンをクリックします。 アイテム詳細ページで各種設定を変更します。 Field Maps Web アプリに戻り、[コンテンツ] セクション下の [更新] をクリックして、コンテンツの設定を読み込みます。 マップのオフライン モードを有効化 ページ上部の [オフライン] トグルをクリックして、マップのオフライン利用を有効化します。</description></item><item><title>起動と設定</title><link>/fieldmaps/get-started/mobile/start/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/mobile/start/</guid><description>Field Maps の起動方法と設定について説明します。
+レイヤー名右に表示される [アイテム詳細の表示] ボタンをクリックします。 アイテム詳細ページで各種設定を変更します。 Field Maps Web アプリに戻り、[コンテンツ] セクション下の [更新] をクリックして、コンテンツの設定を読み込みます。 各エラーの詳細と解決方法については「FAQ: ArcGIS Online または Field Maps Designer でオフラインを有効化する際に表示される警告の解消方法」をご参照ください。
+マップのオフライン モードを有効化 ページ上部の [オフライン] トグルをクリックして、マップのオフライン利用を有効化します。</description></item><item><title>起動と設定</title><link>/fieldmaps/get-started/mobile/start/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/mobile/start/</guid><description>Field Maps の起動方法と設定について説明します。
 起動 アプリを起動して表示される [ArcGIS Online でサイン イン] をタップし、ユーザー名とパスワードを入力してサイン インします。 マップ一覧の画面が表示されます。タップして任意のマップを開きます。 画面キャプチャは一例です。端末やバージョンにより、表記が異なる場合があります 。
 [サイン インをスキップ] をタップすると、サイン インなしでパブリックに公開されているマップを閲覧することができます。
 設定 データ収集の精度などの各種設定を必要に応じて変更することができます。
@@ -236,7 +237,7 @@ ArcGIS Online の組織向けアカウントまたは Portal for ArcGIS アカ�
 Drone2Map ライセンス ArcGIS Drone2Map 2022.1 以降、Drone2Map ライセンスには 2 つの新しいライセンス レベルが導入されました。購入したライセンス レベルに応じて ArcGIS Drone2Map Standard または ArcGIS Drone2Map Advanced をユーザーに割り当てます。
 バージョン 2.3.3 を使用されていた場合、既に追加されている『ArcGIS Drone2Map』ライセンスでは、バージョン 2022.1 以降の ArcGIS Drone2Map はご利用いただけませんのでご注意ください。
 ライセンス タイプは、ArcGIS Online または Portal for ArcGIS 組織サイトの [ライセンス] タブで確認することができます。
-Drone2Map は、公開者ロールを持つ Creator もしくは GIS Professional のユーザータイプに割り当てることができます。 ライセンス管理については、必ず組織の管理者、またはライセンス管理権限を持っているユーザーが行ってください。
+Drone2Map は、公開者ロールを持つ Creator もしくは Professional、 Professional Plus ユーザータイプに割り当てることができます。 ライセンス管理については、必ず組織の管理者、またはライセンス管理権限を持っているユーザーが行ってください。
 ArcGIS Online 組織サイトをまだ利用していない場合
 ArcGIS Online スタートアップ ガイドを参考に組織サイトのセットアップを行ってください。セットアップ完了後、Drone2Map を利用するメンバーに Drone2Map を割り当てます。</description></item><item><title>ライセンスの割り当てと解除</title><link>/online/get-started/administer/license/assign/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/administer/license/assign/</guid><description>組織の管理者、またはライセンス管理権限を持っているユーザーは、各メンバーに割り当てられたユーザー タイプに含まれていないアドオン ライセンス (ArcGIS Drone2Map など) を ArcGIS Online 組織サイトで割り当てたり、解除したりすることができます。
 1 つの製品のライセンスの割り当てと解除 管理者またはライセンス管理権限を持っているユーザーとして ArcGIS Online にサイン インします。
@@ -626,7 +627,7 @@ Map Viewer でレイヤーを含むマップを開くか、マップにレイヤ
 グループに追加するメンバーを検索します。
 組織外のメンバーを追加する場合は、[ArcGIS Online 組織のすべてのメンバーを検索します。] フィルターを有効化します。</description></item><item><title>ダウンロード</title><link>/drone2map/get-started/download/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/get-started/download/</guid><description>Drone2Map インストーラーのダウンロード MyEsri サイトへアクセスします。
 MyEsri ダウンロード ページにアクセスし、Drone2Map プログラムと必要に応じてパッチをダウンロードします。
-ダウンロード ページへのアクセス方法、ダウンロード方法は、 「製品ダウンロード」 ページをご参照ください。</description></item><item><title>チュートリアル ビデオ</title><link>/business-analyst/web/tutorial/tutorial-video/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/web/tutorial/tutorial-video/</guid><description>BA Web and Mobile Apps の各種ツールの操作方法を学ぶことのできるチュートリアル ビデオを提供しています。
+ダウンロード ページへのアクセス方法、ダウンロード方法は、 「製品のダウンロード」 ページをご参照ください。</description></item><item><title>チュートリアル ビデオ</title><link>/business-analyst/web/tutorial/tutorial-video/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/web/tutorial/tutorial-video/</guid><description>BA Web and Mobile Apps の各種ツールの操作方法を学ぶことのできるチュートリアル ビデオを提供しています。
 ビデオと実際のアプリケーションでユーザー インターフェイスが異なる場合があります。
 機能紹介ビデオ BA Web App の各種ツールの操作方法を学ぶことができるビデオです。 下表のリンクをクリックすると、別タブでビデオを再生できます。
 機能紹介ビデオでは、日本語字幕をご利用いただけます。ビデオを開いたら、画面右下の [CC] ボタンをクリック → [Japanese] を選択してください。
