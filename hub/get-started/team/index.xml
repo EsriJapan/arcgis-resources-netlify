@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>チーム on ArcGIS リソース集</title><link>/hub/get-started/team/</link><description>Recent content in チーム on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="/hub/get-started/team/index.xml" rel="self" type="application/rss+xml"/><item><title>コア チーム</title><link>/hub/get-started/team/core-team/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hub/get-started/team/core-team/</guid><description>コア チームは、ArcGIS Hub でサイトまたはイニシアティブが作成されると自動的に作成される、ArcGIS Online のグループです。このグループには、ArcGIS Online 組織のメンバーを含めることができます。コア チーム メンバーとして、適切な権限を持つ人は次のことができます。
-サイト/ページの編集 (これらのアイテムはコア チーム グループと自動的に共有されます） コア チーム グループに共有されているアイテムの編集 他のグループ メンバーにメッセージを送信 サイトを編集するときに、コンテンツ ライブラリに含まれるコンテンツを表示 メンバーの追加 コア チームには、コンテンツを作成および編集するための権限を持っている ArcGIS Online 組織のユーザーを追加できます。
-サイトまたはイニシアティブを編集モードで開きます。
-編集ナビゲーション バーの 2 つ目のドロップダウン メニュー (サイトまたはイニシアティブ名が表示) → [チーム] をクリックします。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>チーム on ArcGIS リソース集</title><link>/hub/get-started/team/</link><description>Recent content in チーム on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="/hub/get-started/team/index.xml" rel="self" type="application/rss+xml"/><item><title>コア チーム</title><link>/hub/get-started/team/core-team/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hub/get-started/team/core-team/</guid><description>コア チームは、ArcGIS Hub でサイトが作成されると自動的に作成される、ArcGIS Online のグループです。このグループには、ArcGIS Online 組織のメンバーを含めることができます。コア チーム メンバーとして、適切な権限を持つ人は次のことができます。
+サイト/ページの編集 (これらのアイテムはコア チーム グループと自動的に共有されます) コア チーム グループに共有されているアイテムの編集 他のグループ メンバーにメッセージを送信 サイトを編集するときに、コンテンツ ライブラリに含まれるコンテンツを表示 メンバーの追加 コア チームには、コンテンツを作成および編集するための権限を持っている ArcGIS Online 組織のユーザーを追加できます。
+サイトを編集モードで開きます。
+編集ナビゲーション バーの 2 つ目のドロップダウン メニュー (サイト名が表示) → [チーム] をクリックします。
 [メンバーの追加] をクリックします。
 追加するユーザーのチェックボックスをオンにし、[追加] をクリックします。
 アイテムの共有 コア チームのメンバーは、コンテンツ グループに共有されているアイテムを表示できます (デフォルトでは、多くのアイテムがこのグループに追加されます)。コア チーム メンバーがアイテムを編集できるようにするには、各アイテムのアクセス権の編集で、コア チーム メンバーの編集を許可する必要があります。

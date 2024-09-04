@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>クイック アクション on ArcGIS リソース集</title><link>/hub/get-started/quick-action/</link><description>Recent content in クイック アクション on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="/hub/get-started/quick-action/index.xml" rel="self" type="application/rss+xml"/><item><title>ArcGIS Hub Premium の有効化</title><link>/hub/get-started/quick-action/activate-premium/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hub/get-started/quick-action/activate-premium/</guid><description>ArcGIS Hub Premium では、既存の ArcGIS Online 組織サイトとは別に、ステークホルダーと地域課題を解決していくためのコミュニティ組織サイトを利用できます。ArcGIS Hub Premium のライセンスを有効化して、コミュニティ組織サイトを設定する方法を説明します。
+この手順は ArcGIS Hub Premium をご契約された組織のみが対象です。
+ArcGIS Hub Premium のサブスクリプションの有効化とコミュニティ組織サイトの設定は、組織向けの ArcGIS Online 開始手順と同様で、管理者がセットアップする必要があります。
+以下の手順に沿ってセットアップを行います。
+コミュニティ組織の有効化 管理者メンバーの追加 (オプション) コミュニティ組織サイトの設定 コミュニティ アカウント作成の無効化 (オプション) コミュニティ組織の有効化 届いたメールからコミュニティ組織の有効化を行い、コミュニティ組織のタイトルや管理者の作成を行います。
+コミュニティ組織の有効化完了までの手順は変更される場合があります。
+ESRI ジャパンから送信される、以下の件名の案内メールを開きます。
+【ESRIジャパン】出荷のお知らせ (EJ ○○○○○○○○)
+件名の後に EJ から始まるESRIジャパン受注番号が付きます。
+件名は変更される場合があります。メールが見当たらない場合は、弊社の営業担当者か、online@esrij.com にお問い合わせください。
+メール文章内の、＜お客様のサブスクリプションID 有効化ページ＞ の URL (下図参照) をクリックします。 メールに記載の「ライセンス顧客 ID」「サブスクリプション ID」は各種お問い合わせの際に必要な情報となりますので、この案内メールは大切に保管してください。
+親組織のアカウントでサイン インします。</description></item></channel></rss>
