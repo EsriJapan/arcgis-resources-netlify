@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>チュートリアル on ArcGIS リソース集</title><link>/business-analyst/pro/tutorial/</link><description>Recent content in チュートリアル on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Fri, 19 Nov 2021 00:00:00 +0900</lastBuildDate><atom:link href="/business-analyst/pro/tutorial/index.xml" rel="self" type="application/rss+xml"/><item><title>はじめに</title><link>/business-analyst/pro/tutorial/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/overview/</guid><description>チュートリアルを開始する前に、ArcGIS Business Analyst および BA Pro の概要を学びます。
+ArcGIS Business Analyst とは ArcGIS Business Analyst は、インフォグラフィックスや人口統計、消費データなどのデータに基づいて、組織がデータに基づいた意思決定ができるように支援する、商圏分析・エリアマーケティング特化型 GIS ソリューションです。 新規出店候補地の立地評価や、自社顧客の市場シェアの把握、市場ポテンシャルの高いエリアの絞りこみなどの解析を行うことができます。
+ArcGIS Business Analyst には、人口統計や、立地評価のための地図や境界などのデータがバンドルされており、国内に加え、海外分析を行うことができます。また、ビジネスの課題を解決するための分析ワークフローも一緒に提供されます。
+ユーザーは、これらを利用して商圏分析や顧客分析などを実行し、その結果を美しく魅力的なレポートを利用して共有することができます。
+提供データは、ローカルに配置する オフライン データ と、ArcGIS Online にアクセスして利用する オンライン データ の 2 種類があります。 詳細は、ArcGIS Business Analyst 製品ページをご参照ください。
+利用できるアプリケーション ArcGIS Business Analyst は利用するユーザーの目的に応じたアプリケーションを提供します。詳細は ArcGIS Business Analyst 製品ページをご参照ください。
+BA Pro とは BA Pro は、高機能デスクトップ型 GIS「ArcGIS Pro」をベースにした、エリアマーケティング特化型のアプリケーションです。 高度な商圏分析や顧客分析、予測分析を行うことができ、クラウド型 GIS「ArcGIS Online」を通して、データを組織内で共有することができます。
+利用できる機能 商圏 商圏分析を行うにあたって、まずは商圏を定義することが分析の第一歩となります。BA Pro では、以下表のように、シンプルなものから高度なものまで多彩な商圏を作成できます。
+名前 説明 イメージ リング商圏 店舗を中心として、半径を指定して作成される円形の商圏です。 道路距離/時間商圏 道路ネットワークデータを使用して、店舗からの道路距離または道路を通行した場合の所要時間に基づき作成される商圏です。到達圏とも呼ばれます。 近似到達圏 既存のポリゴンに近似した到達圏です。 限界値商圏 店舗から外側に向かって、指定した限界値 (人口総数など) に達する地点が境界線となる商圏です。 顧客分布商圏 店舗ごとの顧客データをもとにした、店舗から近い順に顧客データを一定割合含む範囲を指します。実勢商圏とも呼ばれます。 区画商圏 町丁・字等や市区町村等の区画ポリゴンを商圏として出力します。 商圏とは、店舗が顧客を集客できる可能性のある地理的な範囲です。詳細はビジネスマップ用語集をご覧ください。</description></item><item><title>事前準備</title><link>/business-analyst/pro/tutorial/prepare-for-tutorial/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/prepare-for-tutorial/</guid><description>演習を開始するために必要な作業を行います。
+Excel ファイルを操作するためのドライバーをインストール 本チュートリアルでは、演習用データとして Excel 形式のファイルを提供しています。Excel ファイルを BA Pro で操作するには、以下の FAQ に沿って準備を行う必要があります。
+ArcGIS Pro: Excel ファイルの読み込み方と注意事項 (バージョン 3.0 以降)（BA Pro 2.9 以前はこちら） 演習用データ 演習に必要なデータは、各演習中にプロジェクト パッケージ形式 (.ppkx) でダウンロードできます。
+ArcGIS Pro の作業内容は「プロジェクト」に保存されます。プロジェクト パッケージは、プロジェクトに加え、関連するレイヤーやデータなどを含めてパッケージ化したものです。パッケージをダウンロードして開くと、デフォルトで以下のパスにファイルが展開されます。 C:\Users&amp;lt;ユーザー名&amp;gt;\Documents\ArcGIS\Packages&amp;lt;プロジェクト パッケージ名&amp;gt;_xxxx
+新規プロジェクトの作成方法は、ArcGIS Pro 操作ムービーをご覧ください。
+Business Analyst データ ソースの設定 Business Analyst の機能を利用するためには、Business Analyst データ ソースを設定する必要があります。
+本チュートリアルでは、オフライン データセットをデータ ソースとして設定します。
+[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタンをクリックし、[Business Analyst データ ソース] が JPN_EsriJapan_2024R2 に設定されているか確認します。設定されていない場合は、[データ ソースの変更] をクリックします。</description></item><item><title>顧客・店舗情報の取り込み</title><link>/business-analyst/pro/tutorial/geocoding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/geocoding/</guid><description>2022 年版以前の Business Analyst 用オフライン データに付属する従来形式のロケーターは、ArcGIS Pro 3.0 以降では動作しないのでご注意ください (詳細はこちら)。
+本演習にかかる時間はおよそ 15 分です。
+目的 住所情報を含むテーブル データと [住所のジオコーディング] ツールを用いて、自社の店舗や顧客をポイント データ化する方法を習得します。本演習では、顧客の住所情報を元にジオコーディングを行います。
+ジオコーディングとは、住所や郵便番号、場所の名前などのテーブル情報を地図上に展開し、GIS データ化する処理のことをいいます。詳細はビジネスマップ用語集をご覧ください。
+演習 演習用データのダウンロード BA Pro チュートリアル-商圏分析 プロジェクトパッケージが無い場合は、ダウンロードします。
+ダウンロードした「BAProチュートリアル-商圏分析.ppkx」を開きます。
+[演習1] マップが開いていることを確認します。
+Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
+住所情報を含むテーブル データの確認 プロジェクトパッケージはデフォルト設定では、以下の場所に展開されます。
+C:\Users\&amp;lt;ユーザー名&amp;gt;\Documents\ArcGIS\Packages\BAProチュートリアル-商圏分析_xxxx
+顧客のテーブル データをマップに追加します。
+[マップ] タブ → [レイヤー] グループの [データの追加] をクリックします。
+[データ] を選択して、[データの追加] ダイアログを開きます。</description></item></channel></rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>共有 on ArcGIS リソース集</title><link>/online/users-guide/share/</link><description>Recent content in 共有 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 30 Nov 2021 00:00:00 +0900</lastBuildDate><atom:link href="/online/users-guide/share/index.xml" rel="self" type="application/rss+xml"/><item><title>マップを共有したい</title><link>/online/users-guide/share/map/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/share/map/</guid><description>作成したマップ (やレイヤーなどのアイテム) を、他のユーザーやグループに共有することができます。アイテムを共有する権限を持っている必要があります。
+Map Viewer からの共有方法
+[マイ コンテンツ] タブからの共有方法
+マップやレイヤーの共有範囲 マップやレイヤーの共有範囲は次の 3 種類です。
+すべての人に公開 (パブリック): 組織内外にかかわらず、すべてのユーザーに共有します。 組織: 組織内のすべてのユーザーに共有します。 グループ: 特定のグループのメンバーに共有します。 Web マップを共有する場合、参照しているレイヤーも同じ共有範囲である必要があります。Web マップだけを共有しようとした場合、[共有の確認] ダイアログが表示されます。マップに含まれているレイヤーも同時に共有設定を更新してください。
+ArcGIS Online の組織サイトへの匿名アクセスが無効の場合、Web マップや Web アプリ、関連するレイヤーを [すべての人に公開] へ共有しているにも関わらず、組織へのサイン インが求められます。共有した Web マップや Web アプリの URL を下記のように www.arcgis.com を含んだ URL に変更しお伝えください。
+マップの URL:
+https://〇〇.maps.arcgis.com/home/webmap/viewer.html?webmap=&amp;lt;Web マップ ID&amp;gt;
+※ 〇〇は、組織サイト独自のショートネームです。
+パブリック URL に変更後:
+https://www.arcgis.com/home/webmap/viewer.html?webmap=&amp;lt;Web マップ ID&amp;gt;
+Map Viewer からの共有方法 Map Viewer でマップを作成して保存します。 [コンテンツ] ツールバーの [マップの共有] をクリックします。 [共有] ダイアログで、共有する範囲を選択します。 [保存] をクリックします。 [マイ コンテンツ] タブからの共有方法 [コンテンツ] ページ → [マイ コンテンツ] タブを開きます。</description></item><item><title>他組織のメンバーとコンテンツを共有したい</title><link>/online/users-guide/share/other-org/</link><pubDate>Tue, 30 Nov 2021 00:00:00 +0900</pubDate><guid>/online/users-guide/share/other-org/</guid><description>組織外のメンバーが ArcGIS Online の組織アカウントを保有している場合は、そのメンバーを自組織のグループに招待することで、グループ内のコンテンツを共有できます。グループを作成する権限が必要です。 グループの作成 組織サイトで [グループ] ページを表示し、[グループ] タブの [グループの作成] をクリックします。
+[名前]、[サマリー]、[タグ] を入力します。
+サムネイル画像を追加したい場合は、[サムネイルのアップロード] をクリックして設定します。
+[グループのメンバーシップ] の以下のオプションをそれぞれ選択します。
+このグループを表示できる人 このグループに所属できるユーザー グループへの参加方法 コンテンツを提供できるユーザー グループの [メンバー] タブでメンバー全員のリストを表示できるユーザー 各オプションの詳細はヘルプをご参照ください。
+[グループの指定] の以下のオプションを必要に応じて有効化します。
+共有の更新 管理グループ オープンデータ 各オプションの詳細はヘルプをご参照ください。
+[保存] をクリックします。
+メンバーの招待 上で作成したグループのページを開きます。
+[メンバーの招待] をクリックします。
+グループに追加するメンバーを検索します。
+組織外のメンバーを追加する場合は、[ArcGIS Online 組織のすべてのメンバーを検索します。] フィルターを有効化します。</description></item></channel></rss>
