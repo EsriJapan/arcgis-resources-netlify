@@ -1,17 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>コンテンツ on ArcGIS リソース集</title><link>/hub/get-started/content/</link><description>Recent content in コンテンツ on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0900</lastBuildDate><atom:link href="/hub/get-started/content/index.xml" rel="self" type="application/rss+xml"/><item><title>コンテンツの作成</title><link>/hub/get-started/content/create-content/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/hub/get-started/content/create-content/</guid><description>ArcGIS Hub のサイトまたはイニシアティブで共有・公開するコンテンツを作成するには、まずアイテムを ArcGIS Online へ公開します。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>コンテンツ on ArcGIS リソース集</title><link>/hub/get-started/content/</link><description>Recent content in コンテンツ on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="/hub/get-started/content/index.xml" rel="self" type="application/rss+xml"/><item><title>コンテンツの作成</title><link>/hub/get-started/content/create-content/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hub/get-started/content/create-content/</guid><description>ArcGIS Hub のサイトで共有・公開するコンテンツを作成するには、まずアイテムを ArcGIS Online へ公開します。
 ArcGIS Hub でサポートされるアイテム タイプの詳細はヘルプをご参照ください。
 ここでは、緯度経度情報付きのテーブルデータを、GIS データとして ArcGIS Online 上でフィーチャ レイヤーとして公開します。
-サイトまたはイニシアティブを作成している ArcGIS Online 組織サイトにサイン インします。
-ArcGIS Online にフィーチャ レイヤーを公開します。詳細は「ArcGIS Online 逆引きガイド」をご参照ください。
-アイテムをオープンデータとして公開し、サイトの閲覧者がダウンロードできるようにするには、アイテムのエクスポートを許可する必要があります。
-アイテム詳細ページの [設定] タブ → [Feature Layer (ホスト)] 項目で、[他のユーザーが別の形式にエクスポートすることを許可します] チェックボックスをオンにして、[保存] をクリックします。</description></item><item><title>コンテンツ ライブラリへの追加</title><link>/hub/get-started/content/add-content-library/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hub/get-started/content/add-content-library/</guid><description>ArcGIS Hub サイトまたはイニシアティブでアイテムを共有するには、アイテムをコンテンツ ライブラリに追加して共有範囲を設定する必要があります。
+サイトを作成している ArcGIS Online 組織サイトにサイン インします。 ArcGIS Online にフィーチャ レイヤーを公開します。詳細は「ArcGIS Online 逆引きガイド」をご参照ください。 アイテムをオープンデータとして公開し、サイトの閲覧者がダウンロードできるようにするには、アイテムのエクスポートを許可する必要があります。
+アイテム詳細ページの [設定] タブ → [Feature Layer (ホスト)] 項目で、[他のユーザーが別の形式にエクスポートすることを許可します] チェックボックスをオンにして、[保存] をクリックします。</description></item><item><title>コンテンツ ライブラリへの追加</title><link>/hub/get-started/content/add-content-library/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hub/get-started/content/add-content-library/</guid><description>ArcGIS Hub サイトでアイテムを共有するには、アイテムをコンテンツ ライブラリに追加して共有範囲を設定する必要があります。
 既存のアイテムの追加 ArcGIS Online へ公開したフィーチャ レイヤーや、組織に共有された既存のアイテムをコンテンツ ライブラリに追加します。
-サイトまたはイニシアティブを編集モードで開きます。
-編集ナビゲーション バーの 2 つ目のドロップダウン メニュー (サイトまたはイニシアティブ名が表示) → [コンテンツ ライブラリ] をクリックします。
+サイトを編集モードで開きます。
+編集ナビゲーション バーの 2 つ目のドロップダウン メニュー (サイト名が表示) → [コンテンツ ライブラリ] をクリックします。
 画面左側の [既存のコンテンツの追加] をクリックします。
 [既存のコンテンツの追加] ダイアログで、取得元 (マイ コンテンツ、お気に入り、組織、世界 (パブリック)) とコレクション (アプリとマップ、データ、ドキュメント、など) をフィルタリングして、追加するコンテンツを個別に選択します。
-選択が完了したら、[選択] をクリックします。追加したアイテムは、サイトまたはイニシアティブのコンテンツ グループに共有されます。
+選択が完了したら、[選択] をクリックします。追加したアイテムは、サイトのコンテンツ グループに共有されます。
 コンテンツ グループは、サイト上で共有したいアイテムを管理するために使用されるグループです。ArcGIS Hub を使用して新しいアイテムを作成したり、URL を使用してデータセットを追加したり、自分または他のユーザーが作成した既存のアイテムを使用したりすると、そのアイテムはコンテンツ グループに自動的に追加されます。
 アイテムのメタデータを編集 コンテンツ ライブラリに追加したアイテムのメタデータを編集します。
-サイトまたはイニシアティブを編集モードで開きます。
-編集ナビゲーション バーの 2 つ目のドロップダウン メニュー (サイトまたはイニシアティブ名が表示) → [コンテンツ ライブラリ] をクリックします。</description></item></channel></rss>
+サイトを編集モードで開きます。
+編集ナビゲーション バーの 2 つ目のドロップダウン メニュー (サイト名が表示) → [コンテンツ ライブラリ] をクリックします。</description></item></channel></rss>
