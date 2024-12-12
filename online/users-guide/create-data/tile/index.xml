@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>タイル レイヤーを公開したい on ArcGIS リソース集</title><link>/online/users-guide/create-data/tile/</link><description>Recent content in タイル レイヤーを公開したい on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0900</lastBuildDate><atom:link href="/online/users-guide/create-data/tile/index.xml" rel="self" type="application/rss+xml"/><item><title>ArcGIS Pro からタイル レイヤーを公開したい</title><link>/online/users-guide/create-data/tile/arcgispro/</link><pubDate>Mon, 20 Nov 2023 00:00:00 +0900</pubDate><guid>/online/users-guide/create-data/tile/arcgispro/</guid><description>ArcGIS Pro 上のデータをタイル レイヤーとして ArcGIS Online に公開します。タイル レイヤーには、画像形式で高速描画が可能なラスター タイルと、Web マップ上でスタイルを変更できるベクター タイルの 2 種類があります。「ホスト タイル レイヤーの公開」の権限が必要です。
+それぞれのステップの詳細な手順は、「ArcGIS Pro 逆引きガイド」をご参照ください。
+ラスター タイル レイヤーの公開 航空写真や図面などの画像形式のデータを ラスター タイル レイヤーとして公開します。
+ArcGIS Pro を起動し、プロジェクトを作成します。
+ArcGIS Pro 逆引きガイド「1-4. ArcGIS Pro の起動と保存」
+タイル レイヤーとして公開したいデータをマップに追加します。公開しないデータは ArcGIS Pro から削除します。
+ArcGIS Pro 逆引きガイド「2-3. マップにデータを追加・削除したい」
+ArcGIS Online にサイン インしていることを確認し、[共有] タブ → [Web レイヤー] → [Web レイヤーの公開] をクリックします。
+[Web レイヤーとして共有] ウィンドウで、[名前]、[概要]、[タグ] を入力し、[レイヤー タイプ] は [タイル] を選択します。</description></item></channel></rss>
