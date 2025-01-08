@@ -266,22 +266,21 @@ https://www.arcgis.com/home/signin.html パスワードの変更が求められ�
 管理者があらかじめユーザー名を指定しています。画面に従い、パスワードの作成と、パスワードの復旧に必要なセキュリティの質問と答えを設定してください。 次回サイン インする際は、「プロフィールの設定」で表示されるユーザー名と、今回設定したパスワードを入力してください。
 「○○ (組織名) への加入」の画面
 [新しいアカウントの作成] を選択して [次へ] をクリックし、招待を受けたメンバーご自身でユーザー名やパスワードを作成します。
-既に個人向けアカウントをお使いで、そのアカウントを組織向けアカウントとして利用する場合は、[ArcGIS 個人向けアカウントの変換] を選択し、お持ちのユーザー名とパスワードを入力します。</description></item><item><title>プロジェクトの作成</title><link>/cityengine/get-started/quickstart-tutorials/create-project/</link><pubDate>Tue, 23 Jul 2024 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/create-project/</guid><description>概要 プロジェクトを新規作成してデータを作成するまでを学びます。
-CityEngine では、プロジェクト単位でデータを管理します。新規プロジェクトを作成すると、[Navigator] ウィンドウにプロジェクト フォルダーが表示されます。 そしてプロジェクト フォルダー下には assets、data、images、maps、models、rules、scenes、scripts の 8 つのフォルダーが自動的に作成されます。 この各フォルダー内にプロジェクトで必要なデータや画像、ルールやテクスチャなどを格納します。
-演習 ・プロジェクトの新規作成 ・シーン ファイルの作成 ・データの新規作成 ・ルール ファイルの適用 ・補足 Get Map Data でデータをダウンロード プロジェクトの新規作成 [File] メニュー → [New] をクリックします。
-[New] ダイアログで、CityEngine フォルダー → [CityEngine project] を選択し、[Next &amp;gt;] をクリックします。
-[Project name] に任意のプロジェクト名 (ここでは「MyProject」とします) をつけ、[Finish] をクリックします。</description></item><item><title>管理者の操作</title><link>/pro/get-started/setup/admin/</link><pubDate>Tue, 25 Jun 2024 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/admin/</guid><description>ArcGIS Pro のライセンスとエクステンションは ArcGIS Online で管理されるため、ArcGIS Online の利用登録が必要です。
+既に個人向けアカウントをお使いで、そのアカウントを組織向けアカウントとして利用する場合は、[ArcGIS 個人向けアカウントの変換] を選択し、お持ちのユーザー名とパスワードを入力します。</description></item><item><title>管理者の操作</title><link>/pro/get-started/setup/admin/</link><pubDate>Fri, 10 Jan 2025 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/admin/</guid><description>ArcGIS Pro のライセンスとエクステンションは ArcGIS Online で管理されるため、ArcGIS Online の利用登録が必要です。
 ArcGIS Online の登録とライセンスの割り当ては、複数のステップで構成されています。
 ArcGIS Online の組織サイトを既にご利用の方は「メンバーの追加」からライセンスの割り当てを行ってください。
 各ステップの詳しい手順については、各ステップのタイトルからリンクしている ArcGIS Online スタートアップ ガイドをご参照ください。
 1. サブスクリプションの有効化 「サブスクリプションの有効化」とは、ArcGIS Online のクラウドに参加するための手続きに相当します。
 ご契約時に受信されたメールまたはライセンス コンファメーションに記載されている URL から &amp;lt;サブスクリプション ID 有効化ページ&amp;gt; にアクセスし、アカウントの設定を行います。
-保守契約が有効な ArcGIS Desktop ライセンスをお持ちで、サブスクリプションの有効化 URL についての案内メールを受け取ったことがない、ArcGIS Online の利用申請を行ったことがない場合は、利用申請 を行ってください。
+保守契約が有効な ArcGIS Desktop ライセンスをお持ちで、組織内で ArcGIS Online が有効化されていない場合、ご契約時に受信されたメールまたはライセンス コンファメーションや保守登録完了通知内に記載の&amp;lt;お客様のサブスクリプション ID 有効化ぺージ&amp;gt;から ArcGIS Online を有効化してください。不明な場合は、My Esri からお問い合わせください。
 2. 組織の設定 ArcGIS Online では組織専用のサイトを作成することができます。
 組織サイトの設定ページで、ショートネーム (https://○○.maps.arcgis.com の○○の URL 名を決定)、言語、地域、セキュリティを設定します。
 3. メンバーの追加 組織サイトの構成を設定後、管理者は ArcGIS Pro を使用したい利用者を組織サイトに招待できます。
-組織サイトから、メンバーの [名]、[姓]、[電子メール アドレス]、サイン イン時に使用する [ユーザー名]、[ユーザー タイプ]、[ロール]、[一時パスワード] を設定します。
-4. ライセンスの割り当てと解除 ArcGIS Pro で使用するライセンス (エディションおよびエクステンション) は、ArcGIS Online 組織ページより割り当てを行う必要があります。</description></item><item><title>シンボルを変更したい</title><link>/online/users-guide/map/style/</link><pubDate>Thu, 20 Jun 2024 00:00:00 +0900</pubDate><guid>/online/users-guide/map/style/</guid><description>マップに追加したレイヤーのシンボルの色や形を変更します。コンテンツを作成する権限が必要です。
+組織サイトから、メンバーの [名]、[姓]、[電子メール アドレス]、サイン イン時に使用する [ユーザー名]、[ユーザー タイプ]、[ロール]、[一時パスワード] を設定します。</description></item><item><title>プロジェクトの作成</title><link>/cityengine/get-started/quickstart-tutorials/create-project/</link><pubDate>Tue, 23 Jul 2024 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/create-project/</guid><description>概要 プロジェクトを新規作成してデータを作成するまでを学びます。
+CityEngine では、プロジェクト単位でデータを管理します。新規プロジェクトを作成すると、[Navigator] ウィンドウにプロジェクト フォルダーが表示されます。 そしてプロジェクト フォルダー下には assets、data、images、maps、models、rules、scenes、scripts の 8 つのフォルダーが自動的に作成されます。 この各フォルダー内にプロジェクトで必要なデータや画像、ルールやテクスチャなどを格納します。
+演習 ・プロジェクトの新規作成 ・シーン ファイルの作成 ・データの新規作成 ・ルール ファイルの適用 ・補足 Get Map Data でデータをダウンロード プロジェクトの新規作成 [File] メニュー → [New] をクリックします。
+[New] ダイアログで、CityEngine フォルダー → [CityEngine project] を選択し、[Next &amp;gt;] をクリックします。
+[Project name] に任意のプロジェクト名 (ここでは「MyProject」とします) をつけ、[Finish] をクリックします。</description></item><item><title>シンボルを変更したい</title><link>/online/users-guide/map/style/</link><pubDate>Thu, 20 Jun 2024 00:00:00 +0900</pubDate><guid>/online/users-guide/map/style/</guid><description>マップに追加したレイヤーのシンボルの色や形を変更します。コンテンツを作成する権限が必要です。
 シンボルの適用 Map Viewer でレイヤーを含むマップを開くか、マップにレイヤーを追加します。
 [コンテンツ] ツールバーの [レイヤー] をクリックして、[レイヤー] ウィンドウを表示します。
 [レイヤー] ウィンドウでシンボルを設定したいレイヤーを選択します。
