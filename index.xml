@@ -266,7 +266,7 @@ https://www.arcgis.com/home/signin.html パスワードの変更が求められ�
 管理者があらかじめユーザー名を指定しています。画面に従い、パスワードの作成と、パスワードの復旧に必要なセキュリティの質問と答えを設定してください。 次回サイン インする際は、「プロフィールの設定」で表示されるユーザー名と、今回設定したパスワードを入力してください。
 「○○ (組織名) への加入」の画面
 [新しいアカウントの作成] を選択して [次へ] をクリックし、招待を受けたメンバーご自身でユーザー名やパスワードを作成します。
-既に個人向けアカウントをお使いで、そのアカウントを組織向けアカウントとして利用する場合は、[ArcGIS 個人向けアカウントの変換] を選択し、お持ちのユーザー名とパスワードを入力します。</description></item><item><title>管理者の操作</title><link>/pro/get-started/setup/admin/</link><pubDate>Fri, 10 Jan 2025 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/admin/</guid><description>ArcGIS Pro のライセンスとエクステンションは ArcGIS Online で管理されるため、ArcGIS Online の利用登録が必要です。
+既に個人向けアカウントをお使いで、そのアカウントを組織向けアカウントとして利用する場合は、[ArcGIS 個人向けアカウントの変換] を選択し、お持ちのユーザー名とパスワードを入力します。</description></item><item><title>管理者の操作</title><link>/pro/get-started/setup/admin/</link><pubDate>Thu, 09 Jan 2025 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/admin/</guid><description>ArcGIS Pro のライセンスとエクステンションは ArcGIS Online で管理されるため、ArcGIS Online の利用登録が必要です。
 ArcGIS Online の登録とライセンスの割り当ては、複数のステップで構成されています。
 ArcGIS Online の組織サイトを既にご利用の方は「メンバーの追加」からライセンスの割り当てを行ってください。
 各ステップの詳しい手順については、各ステップのタイトルからリンクしている ArcGIS Online スタートアップ ガイドをご参照ください。

@@ -3,7 +3,7 @@
 ・ 単独使用、同時使用ライセンスは、ArcGIS Desktop ライセンスとして購入し、ArcGIS Pro を利用する場合にのみご利用いただけます。
 指定ユーザー ライセンス ArcGIS Online 組織サイトのログイン アカウントを通じてライセンス認証されます。
 指定ユーザー ライセンスは、コンピューターではなくユーザーに割り当てられるため、ソフトウェアがインストールされており、動作環境を満たしているコンピューターであれば、どのコンピューターからでも自由に利用することができます (ArcGIS Pro 起動時に、ArcGIS Online のアカウントでサイン インを行います)。 指定ユーザー ライセンスで ArcGIS Pro をお使いいただくためには、2 つの条件を満たしている必要があります。
-ArcGIS Online の Creator、Professional、Professional Plus ユーザー タイプをご契約の方、または保守契約が有効な ArcGIS Desktop ライセンスを有すること ArcGIS Online の利用登録が完了していること ArcGIS Pro を初めて利用する場合は、まず ArcGIS Online の登録とライセンスの割り当てを行ってください。 詳細は「管理者の操作」をご参照ください。</description></item><item><title>管理者の操作</title><link>/pro/get-started/setup/admin/</link><pubDate>Fri, 10 Jan 2025 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/admin/</guid><description>ArcGIS Pro のライセンスとエクステンションは ArcGIS Online で管理されるため、ArcGIS Online の利用登録が必要です。
+ArcGIS Online の Creator、Professional、Professional Plus ユーザー タイプをご契約の方、または保守契約が有効な ArcGIS Desktop ライセンスを有すること ArcGIS Online の利用登録が完了していること ArcGIS Pro を初めて利用する場合は、まず ArcGIS Online の登録とライセンスの割り当てを行ってください。 詳細は「管理者の操作」をご参照ください。</description></item><item><title>管理者の操作</title><link>/pro/get-started/setup/admin/</link><pubDate>Thu, 09 Jan 2025 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/admin/</guid><description>ArcGIS Pro のライセンスとエクステンションは ArcGIS Online で管理されるため、ArcGIS Online の利用登録が必要です。
 ArcGIS Online の登録とライセンスの割り当ては、複数のステップで構成されています。
 ArcGIS Online の組織サイトを既にご利用の方は「メンバーの追加」からライセンスの割り当てを行ってください。
 各ステップの詳しい手順については、各ステップのタイトルからリンクしている ArcGIS Online スタートアップ ガイドをご参照ください。
