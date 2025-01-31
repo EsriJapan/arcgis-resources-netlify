@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>データのカスタマイズ on ArcGIS リソース集</title><link>/business-analyst/pro/tutorial/customize-data/</link><description>Recent content in データのカスタマイズ on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Fri, 19 Nov 2021 00:00:00 +0900</lastBuildDate><atom:link href="/business-analyst/pro/tutorial/customize-data/index.xml" rel="self" type="application/rss+xml"/><item><title>BA データからカスタム変数を作成</title><link>/business-analyst/pro/tutorial/customize-data/how-to-use-existing-ba-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/customize-data/how-to-use-existing-ba-data/</guid><description>本演習にかかる時間はおよそ 30 分です。
-本演習では、Business Analyst オフライン データセット（以下、BA データ）を使用して、独自のカスタム変数を作成する方法を学びます。
+本演習では、Business Analyst ローカル データセット（以下、BA データ）を使用して、独自のカスタム変数を作成する方法を学びます。
 演習用データのダウンロード BA Pro チュートリアル-カスタマイズ プロジェクトパッケージをダウンロードします。 ダウンロードした「BAProチュートリアル-カスタマイズ.ppkx」を開き、[演習1] マップを開きます。 Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
 統計データ コレクションの作成 BA データに搭載されている町丁・字等ポリゴンを使用して、統計データ コレクションを作成します。
 統計データ コレクション（.sdcx）は、Business Analyst 上で使用するための設定を格納するファイルです。 (詳細)
