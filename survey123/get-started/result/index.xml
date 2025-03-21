@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>結果の表示 on ArcGIS リソース集</title><link>/survey123/get-started/result/</link><description>Recent content in 結果の表示 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Fri, 07 Jun 2024 00:00:00 +0900</lastBuildDate><atom:link href="/survey123/get-started/result/index.xml" rel="self" type="application/rss+xml"/><item><title>Survey123 Web サイトで調査結果を表示</title><link>/survey123/get-started/result/show/</link><pubDate>Fri, 07 Jun 2024 00:00:00 +0900</pubDate><guid>/survey123/get-started/result/show/</guid><description>Survey123 Web サイトで調査結果を表示する方法について説明します。
+Survey123 Web サイト上では、収集された調査結果をグラフ形式やマップ上で確認することができます。
+Survey123 Web サイトで調査結果を表示 ArcGIS Online 組織サイトの右上に表示されている [アプリ ランチャー] → [Survey123] をクリックします。 表示された調査一覧から、結果を表示する調査のサムネイルをクリックします。
+結果を表示できる各ページ の説明は以下の通りです。
+概要 コード総数や最終送信日などの調査結果の概要を確認できます。
+調査結果はリアルタイムで反映されます。
+解析 質問の集計結果を確認できます。
+各質問の右上から、集計結果の表示方法を変更することができます。主な表示方法は以下の通りです。 [カラム] (左上): 選択肢や数値などの質問の集計結果を縦棒グラフで表示します。
+[バー] (右上): 選択肢や数値などの質問の集計結果を横棒グラフで表示します。
+[パイ] (左下): 単一選択や数値などの質問の集計結果を円グラフで表示します。
+[マップ] (右下): 結果のジオメトリをマップ上に表示します。
+データ 調査結果の一覧をマップとテーブルで確認できます。
+任意の結果を選択することで、各結果の詳細も確認、編集できます。</description></item><item><title>データの活用</title><link>/survey123/get-started/result/utilize/</link><pubDate>Fri, 07 Jun 2024 00:00:00 +0900</pubDate><guid>/survey123/get-started/result/utilize/</guid><description>Survey123 で収集したデータを活用する方法について説明します。
+Survey123 では、収集されたデータをエクスポートして別のアプリケーションで使用できるようにしたり、Map Viewer で開いてシンボルを変更したり、他のレイヤーと重ね合わせて解析を実行したりできます。
+また、これらを新しいマップとして保存することで ArcGIS の Web アプリケーションで活用することもできます。
+[データ] タブを開く Survey123 Web サイトから、調査を開きます。
+調査を開く方法については「Survey123 Web サイトで調査結果を表示」をご参照ください。 [データ] タブを開きます。 データのエクスポート Survey123 Web サイトでは、以下のファイル形式でデータをエクスポートできます。
+CSV Excel KML シェープファイル ファイル ジオデータベース 画面中央の [エクスポート] から、出力形式を指定し、データをダウンロードします。 Map Viewer への追加 画面中央の [マップ ビューアーで開く] をクリックします。 画面右上の [新しいタブで開く] アイコンをクリックし、Map Viewer を起動します。 Map Viewer で操作を行います。
+Map Viewer での操作は「ArcGIS Online 逆引きガイド」をご参照ください。 データの活用例 Survey123 での現地調査はさまざまな場面で活用されています。
+事例や活用法をご覧になりたい場合は、「事例・活用法」をご参照ください。</description></item></channel></rss>

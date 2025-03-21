@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>顧客分析 on ArcGIS リソース集</title><link>/business-analyst/pro/tutorial/customer-analysis/</link><description>Recent content in 顧客分析 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="/business-analyst/pro/tutorial/customer-analysis/index.xml" rel="self" type="application/rss+xml"/><item><title>顧客分布を基にした商圏の生成</title><link>/business-analyst/pro/tutorial/customer-analysis/customer-derived-tradearea/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/customer-analysis/customer-derived-tradearea/</guid><description>本演習にかかる時間はおよそ 20 分です。
 本演習では、顧客データを用いて顧客分布商圏を作成し、自動車到達圏で近似することにより、各店舗の実勢商圏とその商圏が自動車で平均何分圏に該当するのかを確認します。
-顧客分布商圏は、店舗から近い順に顧客を一定割合含む範囲を指し「実勢商圏」とも呼びます。詳細は、ビジネスマップ用語集をご覧ください。
+顧客分布商圏は、店舗から近い順に顧客を一定割合含む範囲を指し「実勢商圏」と呼ばれることもあります。詳細は、ビジネスマップ用語集をご覧ください。
 演習 店舗および顧客ポイントを使用して、近い順に顧客の7割をカバーする商圏（顧客分布商圏）を作成します。
 演習用データのダウンロード BA Pro チュートリアル-顧客分析 プロジェクトパッケージをダウンロードします。
 ダウンロードした「BAProチュートリアル-顧客分析.ppkx」を開きます。
