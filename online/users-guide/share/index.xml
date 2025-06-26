@@ -9,7 +9,7 @@ https://〇〇.maps.arcgis.com/home/webmap/viewer.html?webmap=&amp;lt;Web マッ
 ※ 〇〇は、組織サイト独自のショートネームです。
 パブリック URL に変更後:
 https://www.arcgis.com/home/webmap/viewer.html?webmap=&amp;lt;Web マップ ID&amp;gt;
-Map Viewer からの共有方法 Map Viewer でマップを作成して保存します。 [コンテンツ] ツールバーの [マップの共有] をクリックします。 [共有] ダイアログで、共有する範囲を選択します。 [保存] をクリックします。 [マイ コンテンツ] タブからの共有方法 [コンテンツ] ページ → [マイ コンテンツ] タブを開きます。</description></item><item><title>他組織のメンバーとコンテンツを共有したい</title><link>/online/users-guide/share/other-org/</link><pubDate>Tue, 30 Nov 2021 00:00:00 +0900</pubDate><guid>/online/users-guide/share/other-org/</guid><description>組織外のメンバーが ArcGIS Online の組織アカウントを保有している場合は、そのメンバーを自組織のグループに招待することで、グループ内のコンテンツを共有できます。グループを作成する権限が必要です。 グループの作成 組織サイトで [グループ] ページを表示し、[グループ] タブの [グループの作成] をクリックします。
+Map Viewer からの共有方法 Map Viewer でマップを作成して保存します。 [コンテンツ] ツールバーの [マップの共有] タブ → [共有の管理] をクリックします。 [共有] ダイアログで、共有する範囲を選択します。 [保存] をクリックします。 [マイ コンテンツ] タブからの共有方法 [コンテンツ] ページ → [マイ コンテンツ] タブを開きます。</description></item><item><title>他組織のメンバーとコンテンツを共有したい</title><link>/online/users-guide/share/other-org/</link><pubDate>Tue, 30 Nov 2021 00:00:00 +0900</pubDate><guid>/online/users-guide/share/other-org/</guid><description>組織外のメンバーが ArcGIS Online の組織アカウントを保有している場合は、そのメンバーを自組織のグループに招待することで、グループ内のコンテンツを共有できます。グループを作成する権限が必要です。 グループの作成 組織サイトで [グループ] ページを表示し、[グループ] タブの [グループの作成] をクリックします。
 [名前]、[サマリー]、[タグ] を入力します。
 サムネイル画像を追加したい場合は、[サムネイルのアップロード] をクリックして設定します。
 [グループのメンバーシップ] の以下のオプションをそれぞれ選択します。
