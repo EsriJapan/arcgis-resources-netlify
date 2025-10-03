@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集</title><link>/</link><description>Recent content on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Mon, 17 Apr 2023 00:00:00 +0900</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>チュートリアル 1 : CityEngine の基本</title><link>/cityengine/tutorials/classic/tutorial-1-essential-skills/</link><pubDate>Wed, 20 Aug 2025 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-1-essential-skills/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集</title><link>/</link><description>Recent content on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Mon, 17 Apr 2023 00:00:00 +0900</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>調査票の作成</title><link>/survey123/get-started/prepare/create/</link><pubDate>Wed, 01 Oct 2025 00:00:00 +0900</pubDate><guid>/survey123/get-started/prepare/create/</guid><description>Survey123 で新しい調査票を作成する方法について説明します。
+Web デザイナーでは、質問項目をドラッグ アンド ドロップするだけで調査票の作成ができます。
+新しい調査の作成 ArcGIS Online 組織サイトの右上に表示されている [アプリ ランチャー] → [Survey123] をクリックします。
+画面左上の [+ 新しい調査] をクリックし、調査票の作成を開始します。
+独自の調査票を白紙の状態から作成したい場合は、[Web デザイナーの使用] の [空白の調査] を選択し、[基本操作] をクリックします。
+・調査テンプレート: あらかじめ構成されたテンプレートを使用し、すぐに調査票を作成できます。
+・フィーチャ レイヤー: 既存のフィーチャ レイヤーを使用し、調査票を作成できます。
+・Survey123 Connect: XLSForm を使用し、よりカスタマイズされた調査票を作成できます。
+詳細はヘルプをご参照ください。
+画面左上の [調査情報の編集] をクリックし、[調査情報の編集] ダイアログ ボックスを開きます。
+調査の名前、タグ、サマリーを設定し、[OK] をクリックします。
+画面中央の「調査票のタイトルが設定されていません」をクリックし、調査票のタイトルを設定します。
+調査票への質問の追加 Survey123 では、ドラッグ アンド ドロップで調査票に質問項目を追加できます。
+画面左側の [追加] をクリックし、[追加] タブを開きます。</description></item><item><title>チュートリアル 1 : CityEngine の基本</title><link>/cityengine/tutorials/classic/tutorial-1-essential-skills/</link><pubDate>Wed, 20 Aug 2025 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-1-essential-skills/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
 概要 このチュートリアルでは、シーンの作成、オブジェクトの選択、ルールの編集など、CityEngine で作業する際に必要なスキルを学びます。
 演習 ・Part 1: プロジェクトの新規作成 ・Part 2: シーンの作成 ・Part 3: 最初の道路レイアウトの作成 ・Part 4: CityEngine のナビゲーションを探索 ・Part 5: オブジェクトの選択 ・Part 6: ルールを使用したモデルの生成 ・Part 7: ルールの編集 Part 1: プロジェクトの新規作成 はじめに、CityEngine プロジェクトを新規作成します。
 [File] メニュー → [New] → [CityEngine] → [CityEngine project] をクリックします。[Select a wizard] ダイアログ ボックスが表示されます。 [Next] をクリックします。</description></item><item><title>基本操作</title><link>/cityengine/get-started/quickstart-tutorials/basic-operation/</link><pubDate>Wed, 20 Aug 2025 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/basic-operation/</guid><description>概要 ここでは、ArcGIS CityEngine の Welcome Wizard を使って、簡単に街のモデルを作成・操作する方法をご紹介します。
@@ -262,7 +275,22 @@ https://www.arcgis.com/home/signin.html パスワードの変更が求められ�
 管理者があらかじめユーザー名を指定しています。画面に従い、パスワードの作成と、パスワードの復旧に必要なセキュリティの質問と答えを設定してください。 次回サイン インする際は、「プロフィールの設定」で表示されるユーザー名と、今回設定したパスワードを入力してください。
 「○○ (組織名) への加入」の画面
 [新しいアカウントの作成] を選択して [次へ] をクリックし、招待を受けたメンバーご自身でユーザー名やパスワードを作成します。
-既に個人向けアカウントをお使いで、そのアカウントを組織向けアカウントとして利用する場合は、[ArcGIS 個人向けアカウントの変換] を選択し、お持ちのユーザー名とパスワードを入力します。</description></item><item><title>チュートリアル 2 : テレインとダイナミック シティ レイアウト</title><link>/cityengine/tutorials/classic/tutorial-2-terrain-and-dynamic-city-layouts/</link><pubDate>Wed, 20 Aug 2025 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-2-terrain-and-dynamic-city-layouts/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+既に個人向けアカウントをお使いで、そのアカウントを組織向けアカウントとして利用する場合は、[ArcGIS 個人向けアカウントの変換] を選択し、お持ちのユーザー名とパスワードを入力します。</description></item><item><title>調査票の公開</title><link>/survey123/get-started/prepare/publish/</link><pubDate>Wed, 01 Oct 2025 00:00:00 +0900</pubDate><guid>/survey123/get-started/prepare/publish/</guid><description>Survey123 で作成した調査票を保存し、公開、共有する方法について説明します。
+調査票の作成方法については「調査票の作成」をご参照ください。
+調査票の保存とプレビュー Web デザイナー画面右上の [保存 (ファイル マーク)] ボタンをクリックし、調査票を保存します。
+調査票が保存されると、アイコンにチェック マークが追加されます。
+画面右上の [プレビュー (四角と三角のマーク)] ボタンをクリックし、調査票の実際の画面を確認します。
+アイコンを選択することで、以下の画面解像度でプレビューすることができます。
+デスクトップ スマートフォン タブレット 調査票の公開 画面右上の [公開] をクリックし、調査票を公開します。
+調査票が公開されると、[公開済み] と表示されます。
+調査票の公開前にフィーチャー レイヤーのスキーマを変更することができます。公開後に変更することはできません。
+詳細はヘルプをご参照ください。
+調査の共有 [調査の共有] タブでは、調査の共有範囲や調査ステータスなどを設定できます。
+[共同作業] をクリックし、共同作業ページに移動します。
+[調査の共有] タブをクリックし、調査の公開範囲や調査のステータスを設定します。
+[結果の共有] タブでは 、調査結果の共有範囲を設定できます。
+[URLのコピー] アイコンから調査票の URL を取得します。URL を調査者に共有することで、調査票にアクセスできるようになります。
+[QR を表示] アイコンをクリックし、[クリックしてダウンロード] をクリックすることで、調査の QR を入手できます。</description></item><item><title>チュートリアル 2 : テレインとダイナミック シティ レイアウト</title><link>/cityengine/tutorials/classic/tutorial-2-terrain-and-dynamic-city-layouts/</link><pubDate>Wed, 20 Aug 2025 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-2-terrain-and-dynamic-city-layouts/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
 概要 通常 CityEngine シーンを起動した際、まずテレインの生成を行います。テレインは単一画像ファイル、または座標系の情報を持つ GeoTIFF ファイルなどの DEM (デジタル標高モデル) から生成できます。 ※ CityEngine で使用する「テレイン」という単語は、ArcGIS の「ラスター」に相当し、ArcGIS の「テレイン」とは別の意味になります。
 このチュートリアルでは、テレインの作成と配置、道路の生成と道路のクリーンアップ、そしてダイナミック シティ レイアウトの基礎について学習します。
 演習 ・Part 1 : テレインの生成 ・Part 2 : 道路の生成 ・Part 3 : 道路のクリーンアップ ・Part 4 : テレインの配置 ・Part 5 : ダイナミック シティ レイアウト ・Part 6 : 道路の操作 Part 1 : テレインの生成 テレインを生成するには、以下を行います。</description></item><item><title>プロジェクトの作成</title><link>/cityengine/get-started/quickstart-tutorials/create-project/</link><pubDate>Wed, 20 Aug 2025 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/create-project/</guid><description>概要 プロジェクトを新規作成してデータを作成するまでを学びます。
@@ -317,33 +345,7 @@ URL や QR から調査票をダウンロードすることもできます。
 調査票に沿って回答を入力後、画面右下に表示される [☑] をタップします。
 [調査が完了しました] ダイアログが表示されます。
 [調査が完了しました] ダイアログの内容は以下の通りです。
-デバイスがインターネットに接続している場合 [今すぐ送信]: ArcGIS Online に結果が共有されます。</description></item><item><title>調査票の作成</title><link>/survey123/get-started/prepare/create/</link><pubDate>Fri, 07 Jun 2024 00:00:00 +0900</pubDate><guid>/survey123/get-started/prepare/create/</guid><description>Survey123 で新しい調査票を作成する方法について説明します。
-Web デザイナーでは、質問項目をドラッグ アンド ドロップするだけで調査票の作成ができます。
-新しい調査の作成 ArcGIS Online 組織サイトの右上に表示されている [アプリ ランチャー] → [Survey123] をクリックします。
-画面左上の [+ 新しい調査] をクリックし、調査票の作成を開始します。
-独自の調査票を 1 から作成したい場合は、[Web デザイナーの使用] の [空白の調査] を選択し、[基本操作] をクリックします。
-・調査テンプレート: あらかじめ構成されたテンプレートを使用し、すぐに調査票を作成できます。
-・Survey123 Connect: XLSForm を使用し、よりカスタマイズされた調査票を作成できます。詳細はヘルプをご参照ください。
-画面左上の [調査情報の編集] をクリックし、[調査情報の編集] ダイアログ ボックスを開きます。
-調査の名前、タグ、サマリーを設定し、[OK] をクリックします。
-画面左上の「調査票のタイトルが設定されていません」をクリックし、調査票のタイトルを設定します。
-調査票への質問の追加 Survey123 では、ドラッグ アンド ドロップで調査票に質問項目を追加できます。
-画面右側の [追加] をクリックし、[追加] タブを開きます。</description></item><item><title>調査票の公開</title><link>/survey123/get-started/prepare/publish/</link><pubDate>Fri, 07 Jun 2024 00:00:00 +0900</pubDate><guid>/survey123/get-started/prepare/publish/</guid><description>Survey123 で作成した調査票を保存し、公開、共有する方法について説明します。
-調査票の作成方法については「調査票の作成」をご参照ください。
-調査票の保存とプレビュー Web デザイナー画面右下の [保存] をクリックし、調査票を保存します。
-調査票が保存されると、[保存完了] と表示されます。
-画面右下の [プレビュー] をクリックし、調査票の実際の画面を確認します。
-アイコンを選択することで以下の環境でプレビューすることができます。
-デスクトップ スマートフォン タブレット 調査票の公開 画面右下の [公開] をクリックし、調査票を公開します。
-調査票が公開されると、[公開済み] と表示されます。
-調査票の公開前にフィーチャー レイヤーのスキーマを変更することができます。公開後に変更することはできません。
-詳細はヘルプをご参照ください。
-調査の共有 [調査の共有] タブでは、調査の共有範囲や調査ステータスなどを設定できます。
-[共同作業] タブをクリックし、共同作業ページに移動します。
-[調査の共有] タブをクリックし、調査の公開範囲や調査のステータスを設定します。
-[結果の共有] タブでは 、調査結果の共有範囲を設定できます。
-[URLのコピー] アイコンから調査票の URL を取得します。URL を調査者に共有することで、調査票にアクセスできるようになります。
-[QR を表示] アイコンをクリックし、[クリックしてダウンロード] をクリックすることで、調査の QR を入手できます。</description></item><item><title>ArcGIS Online Web ページの構成</title><link>/online/users-guide/basic/homeapp/</link><pubDate>Thu, 06 Jun 2024 00:00:00 +0900</pubDate><guid>/online/users-guide/basic/homeapp/</guid><description>ArcGIS Online Web ページの構成を説明します。
+デバイスがインターネットに接続している場合 [今すぐ送信]: ArcGIS Online に結果が共有されます。</description></item><item><title>ArcGIS Online Web ページの構成</title><link>/online/users-guide/basic/homeapp/</link><pubDate>Thu, 06 Jun 2024 00:00:00 +0900</pubDate><guid>/online/users-guide/basic/homeapp/</guid><description>ArcGIS Online Web ページの構成を説明します。
 ホーム: トップ画面 (このページ) へのリンクです。 ギャラリー: 組織内でよく使われるマップやアプリケーションを表示できます。デフォルトでは、米国 Esri 社や全世界のユーザーが提供するおすすめのマップが表示されます。 マップ: Map Viewer に移動します。 シーン: 3 次元表示可能な Scene Viewer に移動します。 ノートブック: ArcGIS Notebooks に移動します。 グループ: 組織内のグループを表示します。 コンテンツ: 自分のコンテンツを管理する [マイ コンテンツ]、お気に入りとして登録したコンテンツを表示する [お気に入り]、所属するグループのコンテンツを表示する [マイ グループ]、組織内で共有されているコンテンツを表示する [組織]、ArcGIS Living Atlas of the World に登録されているコンテンツを表示する [Living Atlas] タブを表示します。Viewer、Contributor、Mobile Worker ユーザー タイプでは、[マイ コンテンツ] タブは表示されません。 組織: 組織内のメンバーの管理や招待、Web サイト設定、クレジット使用量の確認をすることができます。 検索: マップ、レイヤー、アプリケーション、ツール、ファイル、グループなどを対象に検索を行うことができます。 通知: 通知内容を確認することができます。 アプリ: StoryMaps や Survey123 など、アプリの Web サイトへ移動します。 ユーザー: サイン インしているユーザーの名前が表示されます。マイ プロフィール でプロフィールの変更ができます。[サイン アウト] もここで行います。[ヘルプ] で、ArcGIS Online のヘルプ ページに移動します。 権限や組織の設定によっては、表示されないメニューがあります。</description></item><item><title>Web マップの作成</title><link>/fieldmaps/get-started/prepare/create-map/</link><pubDate>Mon, 25 Mar 2024 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/prepare/create-map/</guid><description>Field Maps Web アプリで現地調査の際に利用するフィーチャ レイヤーおよび Web マップを作成することができます。
 Web アプリの起動方法については 「Field Maps Web アプリの利用」をご参照ください。
 フィーチャ レイヤーの作成 Field Maps Web アプリを開き、[＋ 新規マップ] を選択し、[新しいマップの作成] ページで [新しいレイヤーを使用して開始] をクリックします。詳細は「Field Maps Web アプリの利用」をご参照ください。
