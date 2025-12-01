@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>マップの作成と利用 on ArcGIS リソース集</title><link>/online/users-guide/map/</link><description>Recent content in マップの作成と利用 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0900</lastBuildDate><atom:link href="/online/users-guide/map/index.xml" rel="self" type="application/rss+xml"/><item><title>マップを作成したい</title><link>/online/users-guide/map/set-map/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/map/set-map/</guid><description>データの作成で作成したフィーチャ レイヤーなどを、レイヤーとしてマップに追加し、様々なレイヤーを組み合わせてマップを作成することができます。 マップの保存には、コンテンツを作成する権限が必要です (権限を持っていない場合でもマップは作成できますが、保存することはできません)。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>マップの作成と利用 on ArcGIS リソース集</title><link>/online/users-guide/map/</link><description>Recent content in マップの作成と利用 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0900</lastBuildDate><atom:link href="/online/users-guide/map/index.xml" rel="self" type="application/rss+xml"/><item><title>マップを作成したい</title><link>/online/users-guide/map/set-map/</link><pubDate>Wed, 19 Nov 2025 00:00:00 +0900</pubDate><guid>/online/users-guide/map/set-map/</guid><description>データの作成で作成したフィーチャ レイヤーなどを、レイヤーとしてマップに追加し、様々なレイヤーを組み合わせてマップを作成することができます。 マップの保存には、コンテンツを作成する権限が必要です (権限を持っていない場合でもマップは作成できますが、保存することはできません)。
 レイヤーの追加 ArcGIS Online 組織サイトの上部に表示されている [マップ] をクリックします。または、右上に表示されている [アプリ ランチャー] から [Map Viewer] をクリックします。
 [コンテンツ] ツールバーの [追加] をクリックします。
 表示されるいずれかのレイヤーの追加方法を選択します。
 それぞれのレイヤーの追加方法は、以下の通りです。
 レイヤーの参照 [レイヤーの参照] で [マイ コンテンツ] をクリックし、検索する場所を指定します。
 [レイヤーの検索] ボックスにキーワードを入力し、Enter キーで検索します。
-[フィルター] をクリックすると、[フィルター] パネルが開きます。[タイトル] や [関連性] などで検索結果の並べ替えや、[更新日] や [アイテム タイプ] などでフィルターして検索することも可能です。
+[フィルター] をクリックすると、[フィルター] パネルが開きます。[タイトル] や [更新日] などで検索結果の並べ替えや、[更新日] や [アイテム タイプ] などでフィルターして検索することも可能です。
 検索結果の [追加] をクリックして、レイヤーをマップに追加します。追加後に [削除] をクリックしてマップから削除することもできます。
-[閉じる] をクリックして、パネルを閉じます。</description></item><item><title>シンボルを変更したい</title><link>/online/users-guide/map/style/</link><pubDate>Thu, 20 Jun 2024 00:00:00 +0900</pubDate><guid>/online/users-guide/map/style/</guid><description>マップに追加したレイヤーのシンボルの色や形を変更します。コンテンツを作成する権限が必要です。
+[閉じる] をクリックして、パネルを閉じます。</description></item><item><title>シンボルを変更したい</title><link>/online/users-guide/map/style/</link><pubDate>Wed, 19 Nov 2025 00:00:00 +0900</pubDate><guid>/online/users-guide/map/style/</guid><description>マップに追加したレイヤーのシンボルの色や形を変更します。コンテンツを作成する権限が必要です。
 シンボルの適用 Map Viewer でレイヤーを含むマップを開くか、マップにレイヤーを追加します。
 [コンテンツ] ツールバーの [レイヤー] をクリックして、[レイヤー] ウィンドウを表示します。
 [レイヤー] ウィンドウでシンボルを設定したいレイヤーを選択します。
 [設定] ツールバーの [シンボル] をクリックします。
 [シンボル] ウィンドウの [属性の選択] で [フィールド] をクリックし、シンボルを設定する属性フィールドを選択して [追加] をクリックします。属性値でシンボル設定をしない場合は、属性の選択は不要です。
 [スタイルの選択] で描画スタイルを選択します。[スタイル オプション] をクリックすると、レイヤーの外観をカスタマイズできます。
-代表的なシンボル設定 種類 説明 場所 (単一シンボル)すべてのフィーチャを同じシンボルで表現します。 ヒート マップポイントが集中しているエリアを一目で確認できるような表現ができます。 タイプ (個別値シンボル)樹木の種類、道路クラス、都道府県名など、属性のカテゴリごとにシンボルを割り当てて描画します。 数と量 (サイズ)数値またはランク付けされたデータをシンボルの大きさで表現します。データの数値が大きいほど、シンボルの大きさも大きく表示されます。 数と量 (色)数値またはランク付けされたデータを色の濃淡で表現します。データの数値が大きいほど濃い色で、小さいほど淡い色で表示することなどができます。 リレーションシップ数値型の属性を指定し、2 つの属性値の相関関係をカラー ランプで表現します。 その他さまざまなシンボルを設定することができます。詳細はヘルプをご参照ください。</description></item><item><title>ラベルを変更したい</title><link>/online/users-guide/map/label/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/map/label/</guid><description>マップ上のフィーチャにテキストを表示します。
+代表的なシンボル設定 種類 説明 位置 (単一シンボル)すべてのフィーチャを同じシンボルで表現します。 ヒート マップポイントが集中しているエリアを一目で確認できるような表現ができます。 タイプ (個別値シンボル)樹木の種類、道路クラス、都道府県名など、属性のカテゴリごとにシンボルを割り当てて描画します。 数と量 (サイズ)数値またはランク付けされたデータをシンボルの大きさで表現します。データの数値が大きいほど、シンボルの大きさも大きく表示されます。 数と量 (色)数値またはランク付けされたデータを色の濃淡で表現します。データの数値が大きいほど濃い色で、小さいほど淡い色で表示することなどができます。 リレーションシップ数値型の属性を指定し、2 つの属性値の相関関係をカラー ランプで表現します。 その他さまざまなシンボルを設定することができます。詳細はヘルプをご参照ください。</description></item><item><title>ラベルを変更したい</title><link>/online/users-guide/map/label/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/map/label/</guid><description>マップ上のフィーチャにテキストを表示します。
 Map Viewer でレイヤーを含むマップを開くか、マップにレイヤーを追加します。 [レイヤー] ウィンドウで、ラベルを適用するレイヤーを選択します。 [設定] ツールバーの [ラベル] をクリックします。 [フィーチャのラベル作成] ウィンドウで、[ラベルの有効化] 切り替えボタンをオンにします。 使用する PC の画面サイズによって、[設定] ツールバーの [ラベル] などのツールが [その他] タブ内に隠れている場合があります。
 [ラベル クラスの追加] をクリックした後、必要に応じてラベル フィールドの変更、ラベル フィルターの編集、ラベル スタイルの編集等を行います。 ラベル フィールドの変更 [ラベル フィールド] に設定されているフィールド名をクリックし、ラベルに使用する属性フィールドを選択します。
 属性フィールドの代わりに、Arcade で記述したカスタム属性式を使用できます。[式の使用] &amp;lt;/&amp;gt; をクリックし、エディター ウィンドウを使用して式を作成します。詳細はヘルプをご参照ください。
@@ -56,7 +56,7 @@ Enter キーを押すと、検索された住所の位置にマップが移動�
 Web マップのアイテム ページで [設定] タブをクリックします。[アプリケーション設定] セクションにある [検索の有効化] をオンにし、検索対象のレイヤーと属性フィールド等を設定して [保存] をクリックします。詳細はヘルプをご参照ください。
 検索対象として設定できるのは、文字列 (String) 型のフィールドのみです。
 Map Viewer での検索 検索の設定をした Web マップを Map Viewer で開きます。
-[検索] をクリックします。</description></item><item><title>データを編集したい</title><link>/online/users-guide/map/edit/</link><pubDate>Tue, 25 Mar 2025 00:00:00 +0900</pubDate><guid>/online/users-guide/map/edit/</guid><description>Web マップに追加されているレイヤーを編集してフィーチャを追加、編集、削除します。
+[検索] をクリックします。</description></item><item><title>データを編集したい</title><link>/online/users-guide/map/edit/</link><pubDate>Wed, 19 Nov 2025 00:00:00 +0900</pubDate><guid>/online/users-guide/map/edit/</guid><description>Web マップに追加されているレイヤーを編集してフィーチャを追加、編集、削除します。
 編集可能なレイヤーをマップに追加します。
 レイヤーの編集の有効化方法は、「編集の有効化」をご参照ください。
 [設定] ツールバーの [編集] をクリックします。
