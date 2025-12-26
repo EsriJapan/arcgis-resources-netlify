@@ -804,10 +804,10 @@ Map Viewer でレイヤーを含むマップを開くか、マップにレイヤ
 [分析の実行] → [ベンチマーク比較] をクリックし、[ベンチマーク比較] ウィンドウを開きます。
 「流山おおたかの森駅」または「柏の葉キャンパス駅」のポップアップで、[比較] → [新しいベンチマーク比較] でも開くことができます。
 [位置情報の選択] で、[自分のサイト] を選択して [次へ] をクリックします。 [サイトの追加] ウィンドウで [現在のマップ上] タブに切り替えて、「柏の葉キャンパス駅」と「流山おおたかの森駅」のチェックボックスをクリックし、[適用] → [次へ] をクリックします。 [解析条件の選択] で [教育 リスト] を選択します。 [変数リスト] ボタンをクリックすると、各リストに含まれる変数が表示されます。</description></item><item><title>事前準備</title><link>/business-analyst/pro/tutorial/prepare-for-tutorial/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/prepare-for-tutorial/</guid><description>演習を開始するために必要な作業を行います。
-Excel ファイルを操作するためのドライバーをインストール 本チュートリアルでは、演習用データとして Excel 形式のファイルを提供しています。Excel ファイルを BA Pro で操作するには、以下の FAQ に沿って準備を行う必要があります。
-ArcGIS Pro: Excel ファイルの読み込み方と注意事項 (バージョン 3.0 以降)（BA Pro 2.9 以前はこちら） 演習用データ 演習に必要なデータは、各演習中にプロジェクト パッケージ形式 (.ppkx) でダウンロードできます。
+ArcGIS Pro: Excel ファイルの読み込み方と注意事項 (バージョン 3.0 以降)（BA Pro 2.9 以前はこちら）-- 本チュートリアルでは、演習用データとして Excel 形式のファイルを提供しています。ArcGIS Pro 3.4 以前のバージョンを使用する場合、Excel ファイルを BA Pro で操作するには、FAQ に沿って準備を行う必要があります。
+演習用データ 演習に必要なデータは、各演習中にプロジェクト パッケージ形式 (.ppkx) でダウンロードできます。
 ArcGIS Pro の作業内容は「プロジェクト」に保存されます。プロジェクト パッケージは、プロジェクトに加え、関連するレイヤーやデータなどを含めてパッケージ化したものです。パッケージをダウンロードして開くと、デフォルトで以下のパスにファイルが展開されます。 C:\Users&amp;lt;ユーザー名&amp;gt;\Documents\ArcGIS\Packages&amp;lt;プロジェクト パッケージ名&amp;gt;_xxxx
-新規プロジェクトの作成方法は、ArcGIS Pro 操作ムービーをご覧ください。
+新規プロジェクトの作成方法は、ArcGIS Pro 逆引きガイドをご覧ください。
 Business Analyst データ ソースの設定 Business Analyst の機能を利用するためには、Business Analyst データ ソースを設定する必要があります。
 本チュートリアルでは、ローカル データセットをデータ ソースとして設定します。
 [解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタンをクリックし、[Business Analyst データ ソース] が JPN_EsriJapan_2025 に設定されているか確認します。設定されていない場合は、[データ ソースの変更] をクリックします。</description></item><item><title>チュートリアル 7 : ファサード モデリング</title><link>/cityengine/tutorials/classic/tutorial-7-facade-modeling/</link><pubDate>Wed, 20 Aug 2025 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-7-facade-modeling/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
@@ -848,11 +848,9 @@ Map Viewer での検索 検索の設定をした Web マップを Map Viewer で
 左側に [カラーコード マップ] ダイアログ ボックスが表示されたら、[+ カスタム変数の作成] をクリックします。
 [カスタム変数の作成] ダイアログ ボックスが開いたら、[年齢] カテゴリをクリックし、[年代別人口] をクリックします。
 「2020 人口 20 歳代 (国勢調査)」および「2020 人口 30 歳代 (国勢調査)」にチェックを入れます。</description></item><item><title>商圏分析ツール</title><link>/business-analyst/pro/tips/functionality/esrijtool/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tips/functionality/esrijtool/</guid><description>ESRIジャパンが作成した ArcMap 版の「商圏分析ツール」の各種機能に対応する BA Pro の機能を説明します。
-商圏分析ツール 機能名 (ArcMap 版) 機能名 (BA Pro) 関連チュートリアル 備考 簡易属性検索 属性検索 - フィルタリング 定義クエリによるフィーチャのフィルター - テーブル結合 テーブルの結合 - ポイント集計 エリア内での集計 - 面積按分集計 ポリゴンの按分 - 重複レイヤーの抽出 空間検索 - テーブルのエクスポート テーブル → テーブル - フィールドの削除 フィールドの削除 - 重複ポイントの分散 - - クロスランキング 2 変量色 ・市場シェアの把握 商圏レポート ・インフォグラフィックス・サマリー レポート ・既存店舗を対象とした分析 table { width: 100%; margin-right: 5px; margin-left: 15px; } table th:first-of-type { width: 20%; } table th:nth-of-type(2) { width:20%; } table th:nth-of-type(3) { width: 25%; } table th:nth-of-type(4) { width: 35%; }</description></item><item><title>顧客・店舗情報の取り込み</title><link>/business-analyst/pro/tutorial/customer-analysis/geocoding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/customer-analysis/geocoding/</guid><description>2022 年版以前の Business Analyst 用ローカル データセットに付属する従来形式のロケーターは、ArcGIS Pro 3.0 以降では動作しないのでご注意ください (詳細はこちら)。
-本演習にかかる時間はおよそ 15 分です。
+商圏分析ツール 機能名 (ArcMap 版) 機能名 (BA Pro) 関連チュートリアル 備考 簡易属性検索 属性検索 - フィルタリング 定義クエリによるフィーチャのフィルター - テーブル結合 テーブルの結合 - ポイント集計 エリア内での集計 - 面積按分集計 ポリゴンの按分 - 重複レイヤーの抽出 空間検索 - テーブルのエクスポート テーブル → テーブル - フィールドの削除 フィールドの削除 - 重複ポイントの分散 - - クロスランキング 2 変量色 ・市場シェアの把握 商圏レポート ・インフォグラフィックス・サマリー レポート ・既存店舗を対象とした分析 table { width: 100%; margin-right: 5px; margin-left: 15px; } table th:first-of-type { width: 20%; } table th:nth-of-type(2) { width:20%; } table th:nth-of-type(3) { width: 25%; } table th:nth-of-type(4) { width: 35%; }</description></item><item><title>顧客・店舗情報の取り込み</title><link>/business-analyst/pro/tutorial/customer-analysis/geocoding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/customer-analysis/geocoding/</guid><description>2022 年版以前の Business Analyst 用ローカル データセットに付属する従来形式のロケーターは、ArcGIS Pro 3.0 以降では動作しないのでご注意ください (詳細はこちら)。 -- 本演習にかかる時間はおよそ 15 分です。
 目的 住所情報を含むテーブル データと [住所のジオコーディング] ツールを用いて、自社の店舗や顧客をポイント データ化する方法を習得します。本演習では、顧客の住所情報を元に ジオコーディングを行います。
-演習 演習用データのダウンロード BA Pro チュートリアル-顧客分析 プロジェクトパッケージが無い場合は、ダウンロードします。
-ダウンロードした「BAProチュートリアル-商圏分析.ppkx」を開きます。
+演習 演習用データのダウンロード BA Pro チュートリアル-顧客分析 プロジェクトパッケージが無い場合は、ダウンロードします。 ダウンロードした「BAProチュートリアル-商圏分析.ppkx」を開きます。 プロジェクト パッケージを開いた際、[プロジェクト アイテムの修復] メッセージが表示された場合は [OK] をクリックして閉じてください。
 [演習1] マップが開いていることを確認します。
 Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
 住所情報を含むテーブル データの確認 プロジェクトパッケージはデフォルト設定では、以下の場所に展開されます。
@@ -921,7 +919,8 @@ Python コンソール 新しい Python コンソール ウィンドウを起動
 ①既存テンプレート内のパネルを使用 既存テンプレート内のパネルを再利用する方法をご紹介します。ここでは、標準テンプレートの「人口・世帯プロファイル」内の「年代別人口の構成割合」パネルを使用します。
 [ + エレメントの追加] → [別のテンプレートからパネルを追加] をクリックします。 [標準テンプレート] タブ →「人口・世帯プロファイル」にカーソルを合わせ、[開く] をクリックします。 「年代別人口の構成割合」のチャートにカーソルを合わせ、[+ 追加] をクリックし、[パネルの追加] を選択します。 追加したパネルにカーソルを合わせ、[パネル オプション] をクリックします。 [寸法] および [整列と配置] を展開し、以下のように設定します。 寸法 高さ (px): 280 幅 (px): 660 整列と配置 左 (px): 30 上 (px): 510 同じパネル上で [編集] をクリックします。 画面右下の [チャート オプション] をクリックします。 [横軸] タブをクリックして展開し、タイトルに「年代 (代)」と入力します。 同様に [縦軸] タブを展開し、タイトルに「年代別人口の構成割合 (%)」と入力します。 [凡例] タブを展開し、[位置:] の「右」をクリックします。 画面右下の [適用] をクリックし、編集画面を閉じます。 手順 1～3 と同様の手順で「人口・世帯プロファイル」から「年代別人口の構成割合」のテーブルを追加します 追加したテーブルの [パネル オプション] を開き、以下のように設定します。 寸法 高さ (px): 280 幅 (px): 290 整列と配置 左 (px): 730 上 (px): 510 ここまでの操作で、標準テンプレートからパネルを追加し、レイアウトの調整を行うことができました。</description></item><item><title>既存店舗を対象とした分析</title><link>/business-analyst/pro/tutorial/tradearea-analysis/analysis-for-existing-stores/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/tradearea-analysis/analysis-for-existing-stores/</guid><description>本演習にかかる時間はおよそ 30 分です。
 本演習では、既存店舗から商圏を作成し、周辺の人口分布マップや人口特性が把握できるレポートを作成します。
-演習 演習用データのダウンロード BA Pro チュートリアル-商圏分析 プロジェクトパッケージが無い場合は、ダウンロードし、プロジェクトパッケージを開きます。
+演習 演習用データのダウンロード BA Pro チュートリアル-商圏分析 プロジェクトパッケージが無い場合は、ダウンロードし、プロジェクト パッケージを開きます。
+プロジェクト パッケージを開いた際、[プロジェクト アイテムの修復] メッセージが表示された場合は [OK] をクリックして閉じてください。
 [コンテンツ] ウィンドウおよびマップ上に「自社店舗」レイヤーがあらかじめ追加されていることを確認します。
 Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
 リング商圏の生成 自社店舗ポイントを起点としたリング商圏を作成します。
@@ -953,8 +952,7 @@ nr asset xpos xrot xscale 0 scifi_building_9.obj -529.4803009 0 1.051229466 1 sc
 本演習では、顧客データを用いて顧客分布商圏を作成し、自動車到達圏で近似することにより、各店舗の実勢商圏とその商圏が自動車で平均何分圏に該当するのかを確認します。
 顧客分布商圏は、店舗から近い順に顧客を一定割合含む範囲を指し「実勢商圏」と呼ばれることもあります。詳細は、ビジネスマップ用語集をご覧ください。
 演習 店舗および顧客ポイントを使用して、近い順に顧客の7割をカバーする商圏（顧客分布商圏）を作成します。
-演習用データのダウンロード BA Pro チュートリアル-顧客分析 プロジェクトパッケージをダウンロードします。
-ダウンロードした「BAProチュートリアル-顧客分析.ppkx」を開きます。
+演習用データのダウンロード BA Pro チュートリアル-顧客分析 プロジェクトパッケージをダウンロードします。 ダウンロードした「BAProチュートリアル-顧客分析.ppkx」を開きます。 プロジェクト パッケージを開いた際、[プロジェクト アイテムの修復] メッセージが表示された場合は [OK] をクリックして閉じてください。
 [演習2] マップを開きます。
 [コンテンツ] ウィンドウおよびマップ上に「自社店舗」レイヤーおよび「自社顧客」レイヤーが追加されていることを確認します。
 Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
@@ -968,14 +966,13 @@ Business Analyst データ ソース が最新のデータセットに設定さ�
 本演習では、商圏に重なる区画を抽出し、顧客データと市場ポテンシャルをもとに、町丁・字等別の市場シェアを算出します。また、市場シェアとポテンシャルを 2 軸で表現することで「ターゲット エリア」を抽出します。
 市場シェアの詳細は、ビジネスマップ用語集「市場占有率」をご覧ください。
 演習 商圏やポリゴンに重なる町丁・字等を抽出します。
-演習用データのダウンロード BA Pro チュートリアル-顧客分析 プロジェクトパッケージが無い場合は、ダウンロードし、プロジェクトパッケージを開きます。
+演習用データのダウンロード BA Pro チュートリアル-顧客分析 プロジェクトパッケージが無い場合は、ダウンロードし、プロジェクト パッケージを開きます。 プロジェクト パッケージを開いた際、[プロジェクト アイテムの修復] メッセージが表示された場合は [OK] をクリックして閉じてください。
 [演習3] マップを開きます。
 [コンテンツ] ウィンドウおよびマップ上に「自社店舗」レイヤー、「自社顧客」レイヤーおよび「顧客分布商圏_7割」レイヤーが追加されていることを確認します。
 Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
-顧客分布商圏に重なる区画の抽出 [解析] タブ → [ジオプロセシング] グループの [ツール] をクリックし、[ジオプロセシング] ウィンドウの検索ボックスに「カラー コード」と入力します。
-検索結果の中の「カラー コード レイヤー (Color Coded Layer)」ツールをクリックして開きます。
-[カラー コード レイヤー] ツールが開いたら、以下のように設定し、[実行] をクリックします。
-パラメーター 設定値 分類変数 2020 人口総数 出力レイヤー名 2020 人口総数 レイヤー 対象エリア 顧客分布商圏_7割 出力ジオデータベース デフォルトのまま フィーチャ データセット名 顧客分布エリア [2020 人口総数 レイヤー] を選択すると [カラー コード グループ レイヤー] タブが表示されるので、[詳細レベル] を [町丁・字等] に変更します。</description></item><item><title>チュートリアル 13B : ファサード ウィザード - 高度なファサードの作成</title><link>/cityengine/tutorials/classic/tutorial-13b-facade-wizard-advanced-facade-creation/</link><pubDate>Wed, 20 Aug 2025 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-13b-facade-wizard-advanced-facade-creation/</guid><description>チュートリアル データ ArcGIS CityEngineのチュートリアルにアクセスするには、は、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+顧客分布商圏に重なる区画の抽出 顧客分布商圏に重なる町丁・字等ポリゴンを抽出します。
+[解析] タブ → [ワークフロー] グループの [ビジネス解析] → [Business Analyst データの追加] を選択します。 [Business Analyst] ダイアログが表示された場合は、メッセージを確認して [OK] をクリックします。 [Business Analyst データの追加] ダイアログが開きます。
+[対象地域] の [v] ボタンをクリックして、[境界レイヤー] の 「顧客分布商圏_7割」 レイヤーを選択します。 [詳細レベル] の [v] ボタンをクリックして、[町丁・字等] を選択します。 [変数] の横の [+] ボタンをクリックしてデータ ブラウザーを開き、[人口] → [人口総数] → [2020 人口総数 (国勢調査)] 内の [2020 人口総数 (国勢調査)] を選択し、[OK] をクリックします。 以下のように設定されていることを確認し、[OK] をクリックします。 パラメーター 設定値 対象地域 顧客分布商圏_7割 境界モード 区画 詳細レベル 町丁・字等 変数 2020 人口総数 (国勢調査) 出力 Business_Analyst_Data 商圏に重なる町丁・字等レイヤーがマップに追加されます。</description></item><item><title>チュートリアル 13B : ファサード ウィザード - 高度なファサードの作成</title><link>/cityengine/tutorials/classic/tutorial-13b-facade-wizard-advanced-facade-creation/</link><pubDate>Wed, 20 Aug 2025 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-13b-facade-wizard-advanced-facade-creation/</guid><description>チュートリアル データ ArcGIS CityEngineのチュートリアルにアクセスするには、は、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
 概要 このチュートリアルでは、ファサードを分割したルール テンプレートをより直感的に作成したり、詳細なファサード要素をインポートする方法や高度なファサード作成のためのCGA テンプレートの編集方法を分析します。ファサード作成の基本から開始するには、チュートリアル 13a: ファサード ウィザード - 基本的なファサード作成を参照してください。
 この例では、画像ファイルを ファサード ウィザード に読み込んで、ファサード ルール テンプレートを作成します。その後、単純なマス モデルの建物ルールを作成し、以前に生成したファサード ルールを適用します。
 演習 ・Part 1: ファサード分析とルール作成 ・Part 2: 分割タイプで単一分割を作成 ・Part 3: 分割タイプについて ・Part 4: 繰り返し分割 ・Part 5: LOD とアセットの挿入 Part 1: ファサード分析とルール作成 使用する元のファサード テクスチャ ファイルは、高度なファサードです。 ファサード ウィザードを使用してより複雑なファサードを作成するときに頻繁に遭遇する一連の問題があります。</description></item><item><title>チュートリアル 14A : 2D および 3D シェープ モデリング</title><link>/cityengine/tutorials/classic/tutorial-14a-2d-and-3d-shape-modeling/</link><pubDate>Wed, 23 Mar 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-14a-2d-and-3d-shape-modeling/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
@@ -1003,23 +1000,22 @@ Part 1: ポリゴン モデリングとルール 本チュートリアルでは�
 ナビゲート ツール群を使用しながら、シーン内の建物や道路、植物などを探索しましょう。 データの全体を見てみると、デフォルトでは一部の建物だけが生成されていることがわかります。これは、メモリ使用量をセーブするため、少量のモデルのみを生成しているためです。
 [Inspector] ウィンドウで、Buidling_Height、Buidling_Usage、Level of Detail などのパラメーターをいくつか変更します。</description></item><item><title>現状のテリトリーを可視化</title><link>/business-analyst/pro/tutorial/territory-design/create-territory-from-database/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/territory-design/create-territory-from-database/</guid><description>本演習にかかる時間はおよそ 30 分です。
 本演習では、区画ごとに営業担当が整理されたテーブル データを用いて、既存エリアを可視化したテリトリーを作成する方法を学びます。
-演習 演習用データのダウンロード BA Pro チュートリアル-テリトリー プロジェクトパッケージをダウンロードします。
-ダウンロードした「BAProチュートリアル-テリトリー.ppkx」を開きます。
+演習 演習用データのダウンロード BA Pro チュートリアル-テリトリー プロジェクトパッケージをダウンロードします。 ダウンロードした「BAProチュートリアル-テリトリー.ppkx」を開きます。 プロジェクト パッケージを開いた際、[プロジェクト アイテムの修復] メッセージが表示された場合は [OK] をクリックして閉じてください。
 [演習1] マップを開きます。
 Business Analyst データ ソースが最新のデータセットに設定されていることをご確認ください。
 既存の営業担当エリア情報テーブルの確認 プロジェクトパッケージはデフォルト設定では、以下の場所に展開されます。
 C:\Users&amp;lt;ユーザー名&amp;gt;\Documents\ArcGIS\Packages\BAProチュートリアル-テリトリー_xxxx
 既存の営業担当エリア分けの情報を持つテーブル データをマップに追加します。
-[マップ] タブ → [レイヤー] グループの [データの追加] をクリックします。 [データ] を選択して、[データの追加] ダイアログを開きます。 演習データ内の Excel シートを選択し、[OK] をクリックします。 &amp;lt;上記展開先&amp;gt;\commondata\userdata\既存の営業担当エリアリスト.xlsx\担当エリア$
+[マップ] タブ → [レイヤー] グループの [データの追加] をクリックします。 [参照] を選択して、[データの追加] ダイアログを開きます。 演習データ内の Excel シートを選択し、[OK] をクリックします。 &amp;lt;上記展開先&amp;gt;\commondata\userdata\既存の営業担当エリアリスト.xlsx\担当エリア$
 Excel の読み込みができない場合、事前準備をご確認ください。
 [フォルダー] に上記展開先のパスが接続されているため、[フォルダー] から Excel ファイルに接続することができます。
-[コンテンツ] ウィンドウに「担当エリア$」レイヤーが追加されます。
-「担当エリア$」レイヤーを右クリック → [開く] をクリックし、テーブルを開きます。 テーブルに、以下の情報が格納されていることを確認します。</description></item><item><title>チュートリアル 18: ハンドル</title><link>/cityengine/tutorials/classic/tutorial-18-handles/</link><pubDate>Wed, 20 Aug 2025 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-18-handles/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+[コンテンツ] ウィンドウに「担当エリア$」レイヤーが追加されます。</description></item><item><title>チュートリアル 18: ハンドル</title><link>/cityengine/tutorials/classic/tutorial-18-handles/</link><pubDate>Wed, 20 Aug 2025 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-18-handles/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
 概要 このチュートリアルは、主にモデルにハンドル機能を追加したい CGA ルール作成者向けです。ハンドルを設定すると、[Viewport] ウィンドウ内で CGA 属性を編集することができます。モデル編集を簡易化し、どの属性をコントロールできるかを視覚的に確認することができます。
 演習 ・Part 1: 基本的なライン ハンドル ・Part 2: 高度なライン ハンドル ・Part 3: その他のハンドル タイプ Part 1: 基本的なライン ハンドル ハンドルは CGA で使用される属性アノテーションによって生成され、動的な編集ツールを提供します。これにより、モデルの寸法や位置を [Viewport] ウィンドウ内で直接、精密に操作することができます。このセクションでは、まずライン ハンドルの作成から始めます。
 [Navigator] ウィンドウで Tutorial_18_Handles tutorial フォルダーを展開してください。 Scenes フォルダー内の part 1.cej ファイルをダブルクリックし、[Viewport] ウィンドウでシーンを開きます。 「Would you like to regenerate these models?</description></item><item><title>テリトリーの自動最適化</title><link>/business-analyst/pro/tutorial/territory-design/create-optimal-territory/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/territory-design/create-optimal-territory/</guid><description>本演習にかかる時間はおよそ 40 分です。
 テリトリー デザインでは、現状のテリトリーの可視化だけでなく、位置や数値情報を元にテリトリーを自動最適化することができます。本演習では、以下の要素を考慮して、営業担当エリアを最適化します。
-各営業担当エリアの顧客数の合計値を均等にする。 各営業担当エリアが担当拠点を中心にまとまり、飛び地を持たないようにする。 演習 演習用データのダウンロード BA Pro チュートリアル-テリトリー プロジェクトパッケージ無い場合は、ダウンロードし、プロジェクトパッケージを開きます。 [演習2] マップを開きます。 [コンテンツ] ウィンドウおよびマップ上に「営業拠点」レイヤーおよび「世田谷区ポリゴン」レイヤーが追加されていることを確認します。
+各営業担当エリアの顧客数の合計値を均等にする。 各営業担当エリアが担当拠点を中心にまとまり、飛び地を持たないようにする。 演習 演習用データのダウンロード BA Pro チュートリアル-テリトリー プロジェクトパッケージが無い場合は、ダウンロードし、プロジェクト パッケージを開きます。 プロジェクト パッケージを開いた際、[プロジェクト アイテムの修復] メッセージが表示された場合は [OK] をクリックして閉じてください。
+[演習2] マップを開きます。 [コンテンツ] ウィンドウおよびマップ上に「営業拠点」レイヤーおよび「世田谷区ポリゴン」レイヤーが追加されていることを確認します。
 Business Analyst データ ソースが最新のデータセットに設定されていることをご確認ください。
 テリトリー ソリューション レイヤーの作成 最初に、空のテリトリー ソリューション レイヤーを作成します。
 [解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [新しいテリトリー デザイン ソリューション] をクリックします。 [テリトリー ソリューションの作成 (Create Territory Solution)] ツールが開いたら、以下のように設定してツールを実行します。 パラメーター 設定値 入力フィーチャ 世田谷区ポリゴン テリトリー ソリューションの名前 営業担当エリアの最適化 ID フィールド 町丁字等コード 名前フィールド 町丁字等名 マップ上に、世田谷区ポリゴンをベースにした「営業担当エリアの最適化」レイヤーが追加されます。</description></item><item><title>チュートリアル 19: VFX workflows with Alembic</title><link>/cityengine/tutorials/classic/tutorial-19-vfx-workflows-with-alembic/</link><pubDate>Wed, 23 Mar 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-19-vfx-workflows-with-alembic/</guid><description>このチュートリアルは日本語版を提供していません。 英語版をご参照ください。 Tutorial 19: VFX workflows with Alembic</description></item><item><title>チュートリアル 20 : ローカル編集</title><link>/cityengine/tutorials/classic/tutorial-20-local-edits/</link><pubDate>Wed, 20 Aug 2025 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-20-local-edits/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。チュートリアルまたはサンプルを選択すると、プロジェクトが自動的にダウンロードされ、ワークスペースに追加されます。
@@ -1028,23 +1024,24 @@ Business Analyst データ ソースが最新のデータセットに設定さ�
 演習 ・Part 1: 個々の窓の編集 ・Part 2: 地上階の変更 ・Part 3: バルコニーの追加 Part1: 個々の窓の編集 個々の窓を編集するには、以下の手順を完了してください。
 [Navigator] ウィンドウで Tutorial_20_Local_Edits チュートリアル フォルダーを展開します。 scenes フォルダー内の Simple_Building_LE_01.cej ファイルをダブルクリックして、シーンを [Viewport] ウィンドウで開きます。 rules フォルダー内の Simple_Building_LE_01.cga ファイルをダブルクリックして、ルールを [CGA Editor] ウィンドウで開きます。</description></item><item><title>BA データからカスタム変数を作成</title><link>/business-analyst/pro/tutorial/customize-data/how-to-use-existing-ba-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/customize-data/how-to-use-existing-ba-data/</guid><description>本演習にかかる時間はおよそ 30 分です。
 本演習では、Business Analyst ローカル データセット（以下、BA データ）を使用して、独自のカスタム変数を作成する方法を学びます。
-演習用データのダウンロード BA Pro チュートリアル-カスタマイズ プロジェクトパッケージをダウンロードします。 ダウンロードした「BAProチュートリアル-カスタマイズ.ppkx」を開き、[演習1] マップを開きます。 Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
+演習用データのダウンロード BA Pro チュートリアル-カスタマイズ プロジェクトパッケージをダウンロードします。 ダウンロードした「BAProチュートリアル-カスタマイズ.ppkx」を開き、[演習1] マップを開きます。 プロジェクト パッケージを開いた際、[プロジェクト アイテムの修復] メッセージが表示された場合は [OK] をクリックして閉じてください。
+Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
 統計データ コレクションの作成 BA データに搭載されている町丁・字等ポリゴンを使用して、統計データ コレクションを作成します。
 統計データ コレクション（.sdcx）は、Business Analyst 上で使用するための設定を格納するファイルです。 (詳細)
 [解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [新しい統計データ コレクション] をクリックします。
 [統計データ コレクションの作成] ダイアログが開いたら、[入力データ] 右部にある参照ボタンをクリックし、以下のフィーチャクラスを選択します。
 &amp;lt;データセット配置先&amp;gt;\JPN_EsriJapan_2025\Data\Demographic Data\JPN_EsriJapan_2025.gdb\Blocks_blk
-[統計データ コレクションの出力] で作成する統計データ コレクションの名前および保存先を確認し、そのまま [作成] をクリックします。
-[SDCX の編集] ダイアログが開きます。</description></item><item><title>チュートリアル 21: CSV のインポート</title><link>/cityengine/tutorials/classic/tutorial-21-csv-import/</link><pubDate>Wed, 23 Mar 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-21-csv-import/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
+[統計データ コレクションの出力] で作成する統計データ コレクションの名前および保存先を確認し、そのまま [作成] をクリックします。</description></item><item><title>チュートリアル 21: CSV のインポート</title><link>/cityengine/tutorials/classic/tutorial-21-csv-import/</link><pubDate>Wed, 23 Mar 2022 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-21-csv-import/</guid><description>チュートリアル データ チュートリアル データは、[Help] メニュー → [Download Tutorials and Examples…] を選択し、[CityEngine Tutorial] からダウンロードできます。
 概要 このチュートリアルでは、CSV ファイルからデータをインポートし、配列を使用して CGA コードで使用する方法を学習します。 CSV ファイルをインポートするには、建物をフロア毎に分割し、各フロアにスペース使用状況を割り当てることができるルールを使用します。CSV ファイルには、使用可能なスペースの使用状況とその色、および床の高さのリストが含まれています。CGA コードでは、CSV ファイルのデータが配列に読み込まれ、Inspector でルールと対応する UI を駆動するために使用されます。
 演習 ・Part 1: CSV ファイルからデータをインポート ・Part 2: ダッシュボードの作成 Part 1: CSV ファイルからデータをインポート 例のセットアップ
 Assign_Floor_Usages_01.cej シーンを開きます。 Lot スタート ルールを使用して、Assign_Floor_Usages_01.cga ルールファイルを 2D の建物のフットプリント (Footprints) に割り当てます。 MassModel スタート ルールを使用して、Assign_Floor_Usages_01.cga ルール ファイルを 3D マスモデル (Mass Models) に割り当てます。 両方のシェープを選択します。 [Inspector] で展開ボタン をクリックして、最初は空の状態になっている floor_usages 配列属性を展開します。 追加ボタン をクリックして、エレメントを配列に追加します。このボタンを 4 回クリックして、デフォルトの使用状況である ResidentialSingle-Family で 4 つのフロアを作成します。 行を削除する必要がある場合は、各エレメントの横にある灰色の配列インデックスを右クリックして、Delete Row をクリックします。</description></item><item><title>独自データからカスタム変数を作成</title><link>/business-analyst/pro/tutorial/customize-data/how-to-use-unique-data/</link><pubDate>Fri, 19 Nov 2021 00:00:00 +0900</pubDate><guid>/business-analyst/pro/tutorial/customize-data/how-to-use-unique-data/</guid><description>本演習にかかる時間はおよそ 30 分です。
 区画別に集計した顧客数や売上高など、独自の数値情報を持つデータを使用して、カスタム変数として登録する方法を学びます。本演習では、千葉県内の自社顧客データを用いて、町丁・字等ポリゴンを作成し、それを独自変数として登録します。
-演習用データのダウンロード BA Pro チュートリアル-カスタマイズ プロジェクトパッケージをダウンロードします。 ダウンロードした「BAProチュートリアル-カスタマイズ.ppkx」を開き、[演習2] マップを開きます。 Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
+演習用データのダウンロード BA Pro チュートリアル-カスタマイズ プロジェクトパッケージをダウンロードします。 ダウンロードした「BAProチュートリアル-カスタマイズ.ppkx」を開き、[演習2] マップを開きます。 プロジェクト パッケージを開いた際、[プロジェクト アイテムの修復] メッセージが表示された場合は [OK] をクリックして閉じてください。
+Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
 売上情報を含むテーブル データの確認 プロジェクトパッケージはデフォルト設定では、以下の場所に展開されます。
 C:\Users&amp;lt;ユーザー名&amp;gt;\Documents\ArcGIS\Packages\BAProチュートリアル-カスタマイズ_xxxx
 統計データ コレクションのデータ ソースとなる、町丁・字等別に集計した顧客数・売上情報を含むテーブル データをマップに追加します。
-[マップ] タブ → [レイヤー] グループの [データの追加] をクリックします。 [データ] を選択して、[データの追加] ダイアログを開きます。 演習データ内の Excel シートを選択し、[OK] をクリックします。 &amp;lt;上記展開先&amp;gt;\commondata\userdata\町丁字等別売上情報.xlsx\町丁字等別売上情報$
+[マップ] タブ → [レイヤー] グループの [データの追加] をクリックします。 [参照] を選択して、[データの追加] ダイアログを開きます。 演習データ内の Excel シートを選択し、[OK] をクリックします。 &amp;lt;上記展開先&amp;gt;\commondata\userdata\町丁字等別売上情報.xlsx\町丁字等別売上情報$
 Excel の読み込みができない場合、事前準備をご確認ください。
 [フォルダー] に上記展開先のパスが接続されているため、[フォルダー] から Excel ファイルに接続することができます。
 [コンテンツ] ウィンドウに「町丁字等別売上情報$」が追加されます。
@@ -1059,7 +1056,8 @@ rules フォルダーにある dynamic_imports_01.</description></item><item><ti
 演習用プロジェクトの起動 BA Pro を起動して、任意の名前でプロジェクトを作成します。既存のプロジェクトを開いて演習を行うことも可能です。
 新規プロジェクトの作成方法の詳細は、ArcGIS Pro 逆引きガイドをご覧ください。
 Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
-空のテンプレートの作成 [インフォグラフィックス エディター] を起動して、空のインフォグラフィックス テンプレートを準備します。
+マップへのレイヤーの追加 開いているマップに、インフォグラフィックス内のマップに表示するレイヤーを追加します。
+[カタログ] ウィンドウ → [ポータル] タブ → [Living Atlas] をクリックし、検索ボックスに「避難所」と入力し、Enter キーを押します。 検索結果の中の「指定緊急避難場所」をマップにドラッグ &amp;amp; ドロップで追加します。 空のテンプレートの作成 [インフォグラフィックス エディター] を起動して、空のインフォグラフィックス テンプレートを準備します。
 [解析] タブ→ [ビジネス解析] → [インフォグラフィックス エディター] をクリックします。 [インフォグラフィックス エディター] が開いたら、[空のテンプレート] タブから [3列、3行] のテンプレートにカーソルを合わせて [開く] をクリックします。 [＋] をクリックして、行と列を１ ずつ増やします。 [一般設定] をクリックします。 [ページサイズ] から [A4] を選択して、[適用] をクリックします。 以下のようにグリッドを編集します。 [保存] をクリックします。[インフォグラフィックス テンプレートの保存] ダイアログの [タイトル] に「カスタムインフォグラフィックス」と入力して [保存] をクリックします。 [マイ テンプレート] タブで「カスタムインフォグラフィックス」にカーソルをあわせ、[開く] をクリックします。 コンテンツの追加 インフォグラフィックス テンプレートにコンテンツを追加するには</description></item><item><title>クラシック レポート テンプレートの作成</title><link>/business-analyst/pro/tutorial/customize-report/build-classic-report-templates/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/customize-report/build-classic-report-templates/</guid><description>本演習にかかる時間はおよそ 30 分です。
 このチュートリアルでは、クラシック レポート テンプレートの作成・配置方法、デザインの編集方法について学びます。本演習を通じて、以下のようなレポート テンプレートを作成します。
 演習用プロジェクトの起動 BA Pro を起動して、任意の名前でプロジェクトを作成します。既存のプロジェクトを開いて演習を行うことも可能です。
