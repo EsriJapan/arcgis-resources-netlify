@@ -1,0 +1,28 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – データの作成</title><link>/online/users-guide/create-data/</link><description>Recent content in データの作成 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0900</lastBuildDate><atom:link href="/online/users-guide/create-data/index.xml" rel="self" type="application/rss+xml"/><item><title>フィーチャ レイヤーを公開したい</title><link>/online/users-guide/create-data/feature/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/create-data/feature/</guid><description>
+&lt;p>2D のベクター データである&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/feature-layers.htm"target="_blank" rel="noopener">フィーチャ レイヤー&lt;/a>を作成する方法を説明します。フィーチャ レイヤーは地図上で編集したり、シンボルを変更したりできる主題データとして扱うことができます。&lt;/p>
+&lt;ul class="list-disc ml-6">
+&lt;li>
+&lt;a href="/online/users-guide/create-data/feature/build-layer/">独自のフィーチャ レイヤーを作成したい&lt;/a>&lt;br>ArcGIS Online で独自のフィーチャ レイヤーを作成する方法について説明します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/users-guide/create-data/feature/file/">Excel やテキスト ファイルからフィーチャ レイヤーを作成したい&lt;/a>&lt;br>ArcGIS Online で緯度経度、住所の位置情報が入力された Excel やテキスト ファイルからフィーチャ レイヤーを作成する方法について説明します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/users-guide/create-data/feature/shapefile/">シェープファイルを ArcGIS Online にアップロードしたい&lt;/a>&lt;br>シェープファイルを ArcGIS Online にアップロードし、フィーチャ レイヤーとして公開する方法について説明します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/users-guide/create-data/feature/arcgispro/">ArcGIS Pro からフィーチャ レイヤーを公開したい&lt;/a>&lt;br>ArcGIS Pro のマップのデータを ArcGIS Online のフィーチャ レイヤーとして公開する方法について説明します。
+&lt;/li>
+&lt;/ul></description></item><item><title>タイル レイヤーを公開したい</title><link>/online/users-guide/create-data/tile/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/create-data/tile/</guid><description>
+&lt;p>航空写真や背景図から&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/tile-layers.htm"target="_blank" rel="noopener">タイル レイヤー&lt;/a>を作成する方法を説明します。静的なデータとして、またはマップの背景データとして利用できます。&lt;/p>
+&lt;ul class="list-disc ml-6">
+&lt;li>
+&lt;a href="/online/users-guide/create-data/tile/arcgispro/">ArcGIS Pro からタイル レイヤーを公開したい&lt;/a>&lt;br>ArcGIS Pro のマップのデータを ArcGIS Online のタイル レイヤーとして公開する方法について説明します。
+&lt;/li>
+&lt;/ul></description></item><item><title>シーン レイヤーを公開したい</title><link>/online/users-guide/create-data/scene/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/create-data/scene/</guid><description>
+&lt;p>3D のデータである&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/scene-layers.htm"target="_blank" rel="noopener">シーン レイヤー&lt;/a>を作成する方法を説明します。Web 上で 3D データを表示するために使用します。&lt;/p>
+&lt;ul class="list-disc ml-6">
+&lt;li>
+&lt;a href="/online/users-guide/create-data/scene/arcgispro/">ArcGIS Pro からシーン レイヤーを公開したい&lt;/a>&lt;br>ArcGIS Pro の 3D のデータを ArcGIS Online のシーン レイヤーとして公開する方法について説明します。
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

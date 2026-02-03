@@ -1,45 +1,114 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>セットアップ on ArcGIS リソース集</title>
-    <link>/pro/get-started/setup/</link>
-    <description>Recent content in セットアップ on ArcGIS リソース集</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language>
-    <lastBuildDate>Thu, 12 Jan 2023 00:00:00 +0900</lastBuildDate><atom:link href="/pro/get-started/setup/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>ライセンス</title>
-      <link>/pro/get-started/setup/license/</link>
-      <pubDate>Fri, 19 Aug 2022 00:00:00 +0900</pubDate>
-      
-      <guid>/pro/get-started/setup/license/</guid>
-      <description>ArcGIS Pro のライセンス形態には以下の 3 つがあります。
- 指定ユーザー (デフォルト) 単独使用 (SU) 同時使用 (CU)   ・ ArcGIS Online の GIS Professional ユーザー タイプでは、指定ユーザーライセンスとして提供されます。
-・ 単独使用、同時使用ライセンスは、ArcGIS Desktop ライセンスとして購入し、ArcGIS Pro を利用する場合にのみご利用いただけます。
-指定ユーザー ライセンス ArcGIS Online 組織サイトのログイン アカウントを通じてライセンス認証されます。
-指定ユーザー ライセンスは、コンピューターではなくユーザーに割り当てられるため、ソフトウェアがインストールされており、動作環境を満たしているコンピューターであれば、どのコンピューターからでも自由に利用することができます (ArcGIS Pro 起動時に、ArcGIS Online のアカウントでサインインを行います)。 指定ユーザー ライセンスで ArcGIS Pro をお使いいただくためには、2 つの条件を満たしている必要があります。
- ArcGIS Online の GIS Professional ユーザー タイプをご契約の方、または保守契約が有効な ArcGIS Desktop ライセンスを有すること ArcGIS Online の利用登録が完了していること  ArcGIS Pro を初めて利用する場合は、まず ArcGIS Online の登録とライセンスの割り当てを行ってください。 詳細は「管理者の操作」をご参照ください。</description>
-    </item>
-    
-    <item>
-      <title>管理者の操作</title>
-      <link>/pro/get-started/setup/admin/</link>
-      <pubDate>Thu, 03 Nov 2022 00:00:00 +0900</pubDate>
-      
-      <guid>/pro/get-started/setup/admin/</guid>
-      <description>ArcGIS Pro のライセンスとエクステンションは ArcGIS Online で管理されるため、ArcGIS Online の利用登録が必要です。
-ArcGIS Online の登録とライセンスの割り当ては、複数のステップで構成されています。
-ArcGIS Online の組織サイトを既にご利用の方は「メンバーの追加」からライセンスの割り当てを行ってください。
-各ステップの詳しい手順については、各ステップのタイトルからリンクしている ArcGIS Online スタートアップ ガイドをご参照ください。
-1. サブスクリプションの有効化 「サブスクリプションの有効化」とは、ArcGIS Online のクラウドに参加するための手続きに相当します。
-ご契約時に受信されたメールまたはライセンス コンファメーションに記載されている URL から &amp;lt;サブスクリプション ID 有効化ページ&amp;gt; にアクセスし、アカウントの設定を行います。
-保守契約が有効な ArcGIS Desktop ライセンスをお持ちで、サブスクリプションの有効化 URL についての案内メールを受け取ったことがない、ArcGIS Online の利用申請を行ったことがない場合は、利用申請 を行ってください。
-2. 組織の設定 ArcGIS Online では組織専用のサイトを作成することができます。
-組織サイトの設定ページで、ショートネーム (https://○○.maps.arcgis.com の○○の URL 名を決定)、言語、地域、セキュリティを設定します。
-3. メンバーの追加 組織サイトの構成を設定後、管理者は ArcGIS Pro を使用したい利用者を組織サイトに招待できます。
-組織サイトから、メンバーの [名]、[姓]、[電子メール アドレス]、サイン イン時に使用する [ユーザー名]、[ユーザー タイプ]、[ロール]、[一時パスワード] を設定します。
-4. ライセンスの割り当てと解除 ArcGIS Pro で使用するライセンス (エディションおよびエクステンション) は、ArcGIS Online 組織ページより割り当てを行う必要があります。</description>
-    </item>
-    
-  </channel>
-</rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – セットアップ</title><link>/pro/get-started/setup/</link><description>Recent content in セットアップ on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Mon, 17 Apr 2023 00:00:00 +0900</lastBuildDate><atom:link href="/pro/get-started/setup/index.xml" rel="self" type="application/rss+xml"/><item><title>ライセンス</title><link>/pro/get-started/setup/license/</link><pubDate>Wed, 21 Jan 2026 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/license/</guid><description>
+&lt;p>ArcGIS Pro のライセンス形態には以下の 3 つがあります。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="#%e6%8c%87%e5%ae%9a%e3%83%a6%e3%83%bc%e3%82%b6%e3%83%bc-%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9">指定ユーザー&lt;/a> (デフォルト)&lt;/li>
+&lt;li>&lt;a href="#%e5%8d%98%e7%8b%ac%e4%bd%bf%e7%94%a8%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9-su">単独使用 (SU)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#%e5%90%8c%e6%99%82%e4%bd%bf%e7%94%a8%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9-cu">同時使用 (CU) &lt;/a>&lt;/li>
+&lt;/ul>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ArcGIS Online の Creator、Professional、Professional Plus ユーザー タイプでは、指定ユーザー ライセンスとして提供されます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2>指定ユーザー ライセンス&lt;span class="hx:absolute hx:-mt-20" id="指定ユーザー-ライセンス">&lt;/span>
+&lt;a href="#%e6%8c%87%e5%ae%9a%e3%83%a6%e3%83%bc%e3%82%b6%e3%83%bc-%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ArcGIS Online 組織サイトのログイン アカウントを通じてライセンス認証されます。&lt;br>
+指定ユーザー ライセンスは、コンピューターではなくユーザーに割り当てられるため、ソフトウェアがインストールされており、動作環境を満たしているコンピューターであれば、どのコンピューターからでも自由に利用することができます (ArcGIS Pro 起動時に、ArcGIS Online のアカウントでサイン インを行います)。
+&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/pro/get-started/setup/license-named.png" width="300" alt="指定ユーザー ライセンス">
+指定ユーザー ライセンスで ArcGIS Pro をお使いいただくためには、2 つの条件を満たしている必要があります。&lt;/p>
+&lt;ul>
+&lt;li>ArcGIS Online の Creator、Professional、Professional Plus ユーザー タイプをご契約の方、または保守契約が有効な ArcGIS Desktop ライセンスを有すること&lt;/li>
+&lt;li>ArcGIS Online の利用登録が完了していること&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>ArcGIS Pro を初めて利用する場合は、まず ArcGIS Online の登録とライセンスの割り当てを行ってください。&lt;/strong> 詳細は「&lt;a href="/pro/get-started/setup/admin/"title="管理者の操作">管理者の操作&lt;/a>」をご参照ください。&lt;/p>
+&lt;p>既に利用登録済みの方や、ArcGIS Online 組織プラン、または ArcGIS アカデミックパックを契約されている方は、「&lt;a href="/pro/get-started/setup/user/"title="利用者の操作">利用者の操作&lt;/a>」の手順に従ってインストールを行ってください。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">1 つの ESRI 顧客 ID につき、利用できる ArcGIS Online 組織サイトは 1 つです。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">お持ちのライセンス数以上の割り当てはできません。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2>単独使用ライセンス (SU)&lt;span class="hx:absolute hx:-mt-20" id="単独使用ライセンス-su">&lt;/span>
+&lt;a href="#%e5%8d%98%e7%8b%ac%e4%bd%bf%e7%94%a8%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9-su" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>単独使用ライセンスでは、各コンピューターにソフトウェアをインストールし、ライセンス認証をしてご利用いただけます。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">単独使用ライセンスは、ArcGIS Desktop ライセンスとして購入し、ArcGIS Pro を利用する場合にのみご利用いただけます。&lt;br>
+なお、ArcGIS Desktop 単独使用 (SU) ライセンスのご契約でご利用いただける ArcGIS Pro 指定ユーザー ライセンスを単独使用 (SU) ライセンスに変換する機能は、2025 年 11 月 30 日をもって終了しました。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/pro/get-started/setup/license-su.png" width="450" alt="単独使用ライセンス">
+&lt;h2>同時使用ライセンス (CU)&lt;span class="hx:absolute hx:-mt-20" id="同時使用ライセンス-cu">&lt;/span>
+&lt;a href="#%e5%90%8c%e6%99%82%e4%bd%bf%e7%94%a8%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9-cu" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>同時使用ライセンスでは、ネットワーク上の 1 台のコンピューターに &lt;a href="/license-manager/"title="ArcGIS License Manager">ArcGIS License Manager&lt;/a> 製品をインストールして、そのネットワーク上で同時に使用できるソフトウェアのライセンスを一括管理します。&lt;br>インストールするソフトウェア数に制限はなく、同時使用のライセンス数のみを管理します。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">同時使用ライセンスは、ArcGIS Desktop ライセンスとして購入し、ArcGIS Pro を利用する場合にのみご利用いただけます。&lt;br>
+なお、ArcGIS Desktop 同時使用 (CU) ライセンスのご契約でご利用いただける ArcGIS Pro 指定ユーザー ライセンスを同時使用 (CU) ライセンスに変換する機能は、2025 年 11 月 30 日をもって終了しました。また、2026 年 2 月末以前にリリースされたバージョンでは、既存の同時使用ライセンスを引き続きご利用いただけますが、2026 年 3 月 1 日以降にリリースされる ArcGIS Pro では、同時使用ライセンスはサポートされません。詳細は、&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge5996.html"target="_blank" rel="noopener">こちら&lt;/a>をご確認ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/pro/get-started/setup/license-cu.png" width="450" alt="同時使用ライセンス"></description></item><item><title>管理者の操作</title><link>/pro/get-started/setup/admin/</link><pubDate>Wed, 21 Jan 2026 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/admin/</guid><description>
+&lt;p>ArcGIS Pro のライセンスとエクステンションは ArcGIS Online で管理されるため、ArcGIS Online の利用登録が必要です。&lt;br>ArcGIS Online の登録とライセンスの割り当ては、複数のステップで構成されています。&lt;/p>
+&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/pro/get-started/setup/admin-setup.png" width="800" alt="ステップ">
+&lt;p>ArcGIS Online の組織サイトを既にご利用の方は「&lt;a href="/online/get-started/setup/admin/add-members/"title="メンバーの追加">メンバーの追加&lt;/a>」からライセンスの割り当てを行ってください。&lt;br>各ステップの詳しい手順については、各ステップのタイトルからリンクしている ArcGIS Online スタートアップ ガイドをご参照ください。&lt;/p>
+&lt;h2>1. &lt;a href="/online/get-started/setup/admin/activate-subscription/"title="サブスクリプションの有効化">サブスクリプションの有効化&lt;/a>&lt;span class="hx:absolute hx:-mt-20" id="1-サブスクリプションの有効化">&lt;/span>
+&lt;a href="#1-%e3%82%b5%e3%83%96%e3%82%b9%e3%82%af%e3%83%aa%e3%83%97%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%ae%e6%9c%89%e5%8a%b9%e5%8c%96" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>「サブスクリプションの有効化」とは、ArcGIS Online のクラウドに参加するための手続きに相当します。&lt;br>
+ご契約時に受信されたメールまたはライセンス コンファメーションに記載されている URL から &amp;lt;サブスクリプション ID 有効化ページ&amp;gt; にアクセスし、アカウントの設定を行います。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">保守契約が有効な ArcGIS Desktop ライセンスをお持ちで、組織内で ArcGIS Online が有効化されていない場合、ご契約時に受信されたメールまたはライセンス コンファメーションや保守登録完了通知内に記載の&amp;lt;お客様のサブスクリプション ID 有効化ぺージ&amp;gt;から ArcGIS Online を有効化してください。不明な場合は、&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge101.html"target="_blank" rel="noopener">My Esri&lt;/a> からお問い合わせください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2>2. &lt;a href="/online/get-started/setup/admin/settings/"title="組織の設定">組織の設定&lt;/a>&lt;span class="hx:absolute hx:-mt-20" id="2-組織の設定">&lt;/span>
+&lt;a href="#2-%e7%b5%84%e7%b9%94%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ArcGIS Online では組織専用のサイトを作成することができます。&lt;br>
+組織サイトの設定ページで、ショートネーム (https://○○.maps.arcgis.com の○○の URL 名を決定)、言語、地域、セキュリティを設定します。&lt;/p>
+&lt;h2>3. &lt;a href="/online/get-started/setup/admin/add-members/"title="メンバーの追加">メンバーの追加&lt;/a>&lt;span class="hx:absolute hx:-mt-20" id="3-メンバーの追加">&lt;/span>
+&lt;a href="#3-%e3%83%a1%e3%83%b3%e3%83%90%e3%83%bc%e3%81%ae%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>組織サイトの構成を設定後、管理者は ArcGIS Pro を使用したい利用者を組織サイトに招待できます。&lt;br>
+組織サイトから、メンバーの [名]、[姓]、[電子メール アドレス]、サイン イン時に使用する [ユーザー名]、[ユーザー タイプ]、[ロール]、[一時パスワード] を設定します。&lt;/p>
+&lt;h2>4. &lt;a href="/online/get-started/administer/license/assign/"title="ライセンスの割り当てと解除">ライセンスの割り当てと解除&lt;/a>&lt;span class="hx:absolute hx:-mt-20" id="4-ライセンスの割り当てと解除">&lt;/span>
+&lt;a href="#4-%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9%e3%81%ae%e5%89%b2%e3%82%8a%e5%bd%93%e3%81%a6%e3%81%a8%e8%a7%a3%e9%99%a4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ArcGIS Pro で使用するライセンス (エディションおよびエクステンション) は、ArcGIS Online 組織ページより割り当てを行う必要があります。&lt;br>
+管理者の方は組織サイトから各メンバーにライセンスの割り当てを行ってください。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ステップ 3 において、組織サイトへのメンバーの追加が確実に行われている必要があります。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ステップ 3 において、Creator、Professional、Professional Plus ユーザー タイプを設定している場合はライセンスの割り当ての必要はありません。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2>5. &lt;a href="/online/get-started/setup/member/join/"title="組織サイトへ加入">組織サイトへ加入&lt;/a>&lt;span class="hx:absolute hx:-mt-20" id="5-組織サイトへ加入">&lt;/span>
+&lt;a href="#5-%e7%b5%84%e7%b9%94%e3%82%b5%e3%82%a4%e3%83%88%e3%81%b8%e5%8a%a0%e5%85%a5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ArcGIS Pro を利用するためには、ArcGIS Online の組織サイトのメンバーである必要があります。&lt;br>
+ArcGIS Online の組織サイトの管理者から招待を受けたメンバーは、メールに記載されている URL から組織サイトへアクセスし、組織サイトに加入してください。
+&lt;br>
+&lt;br>
+&lt;br>&lt;/p></description></item><item><title>利用者の操作</title><link>/pro/get-started/setup/user/</link><pubDate>Mon, 17 Apr 2023 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/</guid><description>
+&lt;h2>ArcGIS Pro の設定手順&lt;span class="hx:absolute hx:-mt-20" id="arcgis-pro-の設定手順">&lt;/span>
+&lt;a href="#arcgis-pro-%e3%81%ae%e8%a8%ad%e5%ae%9a%e6%89%8b%e9%a0%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ArcGIS Pro を利用するための設定方法を説明します。はじめに ArcGIS Pro の動作環境を確認し、My Esri などから必要なインストーラーをコンピューターの任意の場所にダウンロードします。ダウンロードしたインストーラーを実行し、コンピューターに ArcGIS Pro をインストールします。最後に必要に応じて日本国内用のアドイン ツールやシンボル等をインストールします。&lt;/p>
+&lt;ul class="list-disc ml-6">
+&lt;li>
+&lt;a href="/pro/get-started/setup/user/environment/">システム要件&lt;/a>&lt;br>利用するコンピューターが ArcGIS Pro のシステム要件を満たしているかを確認します。
+&lt;/li>
+&lt;li>
+&lt;a href="/pro/get-started/setup/user/download/">ダウンロード&lt;/a>&lt;br>ArcGIS Pro およびパッチ等のインストーラーをダウンロードする手順を説明します。
+&lt;/li>
+&lt;li>
+&lt;a href="/pro/get-started/setup/user/install/">インストールとアンインストール&lt;/a>&lt;br>ArcGIS Pro およびパッチ等のインストーラーを実行し、インストールします。また必要に応じてアンインストールします。
+&lt;/li>
+&lt;li>
+&lt;a href="/pro/get-started/setup/user/addin-tool/">アドイン ツール&lt;/a>&lt;br>日本国内用のツールはアドイン ツールとして提供しています。任意のツールをダウンロードし、インストールしてご利用ください。
+&lt;/li>
+&lt;li>
+&lt;a href="/pro/get-started/setup/user/style-font/">シンボル スタイルとフォント&lt;/a>&lt;br>ArcGIS Pro で使用できる日本用地図シンボルです。地図シンボルを利用するためには、フォントをインストールし、シンボル スタイルの利用設定を行います。
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

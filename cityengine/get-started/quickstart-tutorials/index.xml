@@ -1,92 +1,1231 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>クイック スタート チュートリアル on ArcGIS リソース集</title>
-    <link>/cityengine/get-started/quickstart-tutorials/</link>
-    <description>Recent content in クイック スタート チュートリアル on ArcGIS リソース集</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language>
-    <lastBuildDate>Wed, 29 Jun 2022 00:00:00 +0900</lastBuildDate><atom:link href="/cityengine/get-started/quickstart-tutorials/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>基本操作</title>
-      <link>/cityengine/get-started/quickstart-tutorials/basic-operation/</link>
-      <pubDate>Wed, 29 Jun 2022 00:00:00 +0900</pubDate>
-      
-      <guid>/cityengine/get-started/quickstart-tutorials/basic-operation/</guid>
-      <description>概要 ここでは、ArcGIS CityEngine の Welcome Wizard を使って、簡単に街のモデルを作成・操作する方法をご紹介します。
-   演習     ・CityEngine の起動   ・City Wizard の利用   ・街の操作    CityEngine の起動  [スタート] → [すべてのプログラム] → [ArcGIS] → [CityEngine 202x.x] をクリックします（Windows 10 の場合）。 自動的に「Welcome to CityEngine」が表示されます。 [Generate an imaginary city] からは、City Wizard を起動して初心者の方でもウィザード形式で簡単に街を作成することができます。  ※ 起動時にこのダイアログが出ない場合は、[File] メニュー → [New] → [CityEngine] フォルダー → [City Wizard] から City Wizard を起動し、ステップ 1.2 の手順 1 から始めてください。</description>
-    </item>
-    
-    <item>
-      <title>プロジェクトの作成</title>
-      <link>/cityengine/get-started/quickstart-tutorials/create-project/</link>
-      <pubDate>Wed, 29 Jun 2022 00:00:00 +0900</pubDate>
-      
-      <guid>/cityengine/get-started/quickstart-tutorials/create-project/</guid>
-      <description>概要 プロジェクトを新規作成してデータを作成するまでを学びます。
-CityEngine では、プロジェクト単位でデータを管理します。新規プロジェクトを作成すると、Navigator ウィンドウにプロジェクト フォルダーが表示されます。そしてプロジェクト フォルダー下には assets、data、images、maps、models、rules、scenes、scripts の 8 つのフォルダーが自動的に作成されます。この各フォルダー内にプロジェクトで必要なデータや画像、ルールやテクスチャなどを格納します。 
-   演習     ・プロジェクトの新規作成   ・シーン ファイルの作成   ・データの新規作成   ・ルール ファイルの適用   ・補足 Get Map Data でデータをダウンロード    プロジェクトの新規作成   [File] メニュー → [New] をクリックします。
-  [New] ダイアログで、[CityEngine] フォルダー → [CityEngine project] を選択し、[Next &amp;gt;] をクリックします。
-    [Project name] に任意のプロジェクト名（ここでは「MyProject」とします）をつけ、[Finish] をクリックします。
-  Navigator ウィンドウに作成した新規プロジェクトが表示されます。</description>
-    </item>
-    
-    <item>
-      <title>CGA の作成</title>
-      <link>/cityengine/get-started/quickstart-tutorials/create-cga/</link>
-      <pubDate>Wed, 29 Jun 2022 00:00:00 +0900</pubDate>
-      
-      <guid>/cityengine/get-started/quickstart-tutorials/create-cga/</guid>
-      <description>概要 CityEngine では、プロシージャルという技術を使用して、都市をモデリングします。プロシージャル モデリングを行うには、CGA スクリプトを書いてルールを定義する必要があります。
-ルールとは、モデルをどのように構築するかを記述した設計図です。そして、そのルールを書きこむのが、CGA スクリプト (ルール ファイル) という一連の処理 (コマンド) を記述したスクリプトです。
- CGA スクリプトを作成して、実際にルールをどのように設定していくかを紹介します。
-   演習     ・準備   ・CGA スクリプトの記述   ・属性   ・基本的なオペレーション   ・今回作成した CGA    準備 プロジェクトの作成から続けて行う場合は、ステップ 1、2 はスキップしてください。
-  [スタート] → [すべてのプログラム] → [ArcGIS] → [CityEngine 202x.x] をクリックし、CityEngine を起動します。
-  Navigator ウィンドウで、前章で作成したプロジェクトの Scene フォルダーを開き、保存したシーン ファイル (MyScene1.cej) をダブルクリックして開きます。
-   Scene ウィンドウ → [New Shapes] のチェックボックスをオフにして、前章で作成したシェープを非表示にします。また、Streetnetwork レイヤーを展開し、Blocks レイヤーのチェックをオンにして表示します。</description>
-    </item>
-    
-    <item>
-      <title>高度な CGA</title>
-      <link>/cityengine/get-started/quickstart-tutorials/advanced-cga/</link>
-      <pubDate>Wed, 29 Jun 2022 00:00:00 +0900</pubDate>
-      
-      <guid>/cityengine/get-started/quickstart-tutorials/advanced-cga/</guid>
-      <description>概要 CGA の作成で作成したモデルの区画や建物の形状を整え、日本の戸建て住宅のような感じにするために、区画と CGA ルールを改良します。
-
-   演習     ・区画の調整   ・フットプリントの生成   ・分岐の使用   ・今回作成した CGA    CGA の作成 での CGA ルールは以下のような記述になっています（以下のコードをコピー &amp;amp; ペーストして利用することもできます。）
-「#」 以下はコメント文ですので実際には書く必要はありません。
-attr Height = rand(5,20) #5~20m の間でランダムに高さを設定@Colorattr roofcolor = listRandom(&amp;quot;#ff7f50;#9acd32;#ff4500&amp;quot;)@Colorattr wallcolor = listRandom(&amp;quot;#ffff00;#00ffff;#dda0dd&amp;quot;)Footprint--&amp;gt;extrude(Height) #[Height] 属性に基づいて立ち上げHouse House--&amp;gt;comp(f){top: Roof | side: Wall} #シェープをトップ（屋根）とサイド（壁）に分割Roof--&amp;gt;roofGable(20,1,1) #Gable（切妻型）の屋根を設定color(roofcolor)Wall--&amp;gt;color(wallcolor)区画の調整 CityWizard のデフォルト設定で作成された区画は、日本の戸建て住宅としては大きすぎるので、各区画の面積が 100 ～ 150 平方メートルになるように設定します。</description>
-    </item>
-    
-    <item>
-      <title>テクスチャの適用</title>
-      <link>/cityengine/get-started/quickstart-tutorials/apply-texture/</link>
-      <pubDate>Wed, 29 Jun 2022 00:00:00 +0900</pubDate>
-      
-      <guid>/cityengine/get-started/quickstart-tutorials/apply-texture/</guid>
-      <description>概要 高度なCGA では区画を整理したり、屋根の種類を増やしたりして日本の住宅地に見られる戸建て住宅を模した形状を作成しましたが、今回はその仕上げとして、建物モデルにテクスチャを貼り付けてより見栄えの良いものにします。 
-   演習     ・テクスチャ画像の準備   ・テクスチャ貼り付け   ・今回作成した CGA    テクスチャ画像の準備 テクスチャに使用する画像は、サンプルデータを使用すれば作るまでもありませんが、残念ながら、日本の住宅地の作成に適用できそうなものはあまりありません。
-ESRIジャパンが作成した屋根と建物の外観 (ファサード) のテクスチャ画像を ArcGIS Online のページよりダウンロードします。
-ダウンロードが完了したら、Zip ファイルを 解凍し、CE2016_ZeroProject/assets/house フォルダーを MyProject プロジェクトの assets フォルダ ー の中にコピーし、Ctrl + F5 キーを押して更新してください。
-また、CE_ZeroProject/rules フォルダーには参考用として CGA の作成からテクスチャの適用で作成した CGA ルールのサンプル ファイルが格納されています。
-プロジェクトの存在するワークスペースは、インストール後、初めて CityEngine を起動したときに設定しています。
-使用しているワークスペースがどこにあるかわからない場合は、Navigator ウィンドウ でプロジェクト フォルダーを右クリック → [Properties] → Location に記述してあるパスを確認してください。
-屋根のテクスチャ Navigator ウィンドウの中で MyProject プロジェクトの中の assets/house フォルダ ーを開きます。</description>
-    </item>
-    
-    <item>
-      <title>サンプルの活用</title>
-      <link>/cityengine/get-started/quickstart-tutorials/utilize-sample/</link>
-      <pubDate>Wed, 29 Jun 2022 00:00:00 +0900</pubDate>
-      
-      <guid>/cityengine/get-started/quickstart-tutorials/utilize-sample/</guid>
-      <description>概要 テクスチャの適用では、建物モデルについては、テクスチャを貼り付けてより見栄えの良いものにしましたが、道路についても、Esri が提供するサンプル データを活用すれば簡単にリアリティを増すことができますので、その方法を紹介します。
-    演習     ・サンプル データの入手   ・サンプル データの利用   ・編集したサンプル データの利用   ・ルールの属性を変更   ・その他のサンプル    サンプル データの入手 CityEngine のサンプル データは、現在使用している「Esri.lib」や「City Wizard」に含まれるもの以外にも、Help メニュー [Download Tutorials and Examples] から取得できる Tutorials や Examples、さらには Esri のオンライン サービスである「ArcGIS Online」から入手できるものがあります。
-どちらも無償ですのでこれを活用しない手はありません。ここでは Download Tutorials and Examples から取得する方法をご紹介します。
-CityEngine アプリケーションからダウンロードする   Help メニュー [Download Tutorials and Examples] を選択します。
-  表示されたダイアログから、[Example Complete Streets 2019.</description>
-    </item>
-    
-  </channel>
-</rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – クイック スタート チュートリアル</title><link>/cityengine/get-started/quickstart-tutorials/</link><description>Recent content in クイック スタート チュートリアル on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 25 Jan 2026 00:00:00 +0900</lastBuildDate><atom:link href="/cityengine/get-started/quickstart-tutorials/index.xml" rel="self" type="application/rss+xml"/><item><title>基本操作</title><link>/cityengine/get-started/quickstart-tutorials/basic-operation/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/basic-operation/</guid><description>
+&lt;h2>概要&lt;span class="hx:absolute hx:-mt-20" id="概要">&lt;/span>
+&lt;a href="#%e6%a6%82%e8%a6%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ここでは、ArcGIS CityEngine の Welcome Wizard を使って、簡単に街のモデルを作成・操作する方法をご紹介します。&lt;/p>
+&lt;h2>CityEngine の起動&lt;span class="hx:absolute hx:-mt-20" id="cityengine-の起動">&lt;/span>
+&lt;a href="#cityengine-%e3%81%ae%e8%b5%b7%e5%8b%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>[スタート] → [すべてのプログラム] → [ArcGIS] → [CityEngine 202x.x] をクリックします。&lt;/li>
+&lt;li>自動的に「Welcome to CityEngine」ウィンドウが表示されます。
+[Generate an Imaginary City] からは、City Wizard を起動して初心者の方でもウィザード形式で簡単に街を作成することができます。&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">※ 起動時にこのウィンドウが出ない場合は、[File] メニュー → [New] → CityEngine フォルダー → [City Wizard] から City Wizard を起動し、「City Wizard の利用」から始めてください。&lt;br>
+※ 本チュートリアルでは、Light テーマを使用します。テーマ カラーは、[Edit] メニュー → [Preferences] → [Appearance] → [CityEngine Theme] から変更できます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/basic-operation/Welcome_to_CityEngine.png" width="700">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h2>City Wizard の利用&lt;span class="hx:absolute hx:-mt-20" id="city-wizard-の利用">&lt;/span>
+&lt;a href="#city-wizard-%e3%81%ae%e5%88%a9%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>Terrain トピックで、[Scene Name] に任意の名前を付けます。Scene (シーン)とは、地形や図形などのレイヤーや設定をひとまとめにするファイルです。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/basic-operation/20250802_1.2.1.png" width="700">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[Next] をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Street Graph トピックで、好きな道路ネットワークの形状を選択し、[Next] をクリックします。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/basic-operation/1.2.3.png" width="700">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;ol start="4">
+&lt;li>
+&lt;p>Rules トピックで、International City を選択します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/basic-operation/20250801_1.2.4.png" width="700">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>手順 1 で指定した名前のプロジェクトが追加され、都市が生成されます。
+CityEngine では、プロジェクトと呼ばれるフォルダーごとにデータを管理します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/basic-operation/20250801_1.1.53.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2>画面の操作&lt;span class="hx:absolute hx:-mt-20" id="画面の操作">&lt;/span>
+&lt;a href="#%e7%94%bb%e9%9d%a2%e3%81%ae%e6%93%8d%e4%bd%9c" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>以下の図は CityEngine のインターフェイスで、代表的なウィンドウ配置の例です。CityEngine にはさまざまなウィンドウが用意されており、ウィンドウは移動して任意の位置に配置することができます。また上部の [Window] メニューから必要なウィンドウを開くことができます。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/basic-operation/20250801_p2.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h4>ウィンドウ&lt;span class="hx:absolute hx:-mt-20" id="ウィンドウ">&lt;/span>
+&lt;a href="#%e3%82%a6%e3%82%a3%e3%83%b3%e3%83%89%e3%82%a6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>・ &lt;strong>Navigator&lt;/strong>: データを管理するウィンドウです。データの追加、削除を行う際に使用します。&lt;br>
+・ &lt;strong>Scene Editor&lt;/strong>: 表示を管理するウィンドウです。レイヤーの表示/非表示などを操作する際に使用します。&lt;br>
+・ &lt;strong>CGA Rule Editor&lt;/strong>: ルール ファイルを表示するウィンドウです。ルールを作成・編集する際に使用します。&lt;br>
+・ &lt;strong>Viewport&lt;/strong>: シーンを表示するウィンドウです。Top View、Side View 等の種類がありますが、デフォルトの Viewport モードは 3D View です。&lt;br>
+・ &lt;strong>Selection Tool&lt;/strong>: データを選択するウィンドウです。単数・複数選択や範囲選択をする際に使用します。&lt;br>
+・ &lt;strong>Inspector&lt;/strong>: 属性を管理するウィンドウです。ルール ファイルやパラメーターの設定を行う際に使用します。&lt;/p>
+&lt;h4>標準ツールバー&lt;span class="hx:absolute hx:-mt-20" id="標準ツールバー">&lt;/span>
+&lt;a href="#%e6%a8%99%e6%ba%96%e3%83%84%e3%83%bc%e3%83%ab%e3%83%90%e3%83%bc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>マップを操作する際に利用できるツールが用意されています。モデルの選択や、移動、図形の作成などをする際に使用します。実際のツール名は英語ですが、各ツールの意味については以下を参考にしてください。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/basic-operation/20250801_1.3_2_5.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h4>3D View ウィンドウ ツールバー&lt;span class="hx:absolute hx:-mt-20" id="3d-view-ウィンドウ-ツールバー">&lt;/span>
+&lt;a href="#3d-view-%e3%82%a6%e3%82%a3%e3%83%b3%e3%83%89%e3%82%a6-%e3%83%84%e3%83%bc%e3%83%ab%e3%83%90%e3%83%bc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>3D View の上部には、表示設定のためのツールバーがあります。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/basic-operation/1.3_3_2.png" width="550">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>※より詳細な説明は [Help] メニュー → [CityEngine Help] からヘルプをご参照ください。&lt;/p>
+&lt;p>それではツールバーを使用して、作成した街のシーンを操作してみましょう。&lt;/p>
+&lt;p>&lt;u>操作例1 (ナビゲーション) :&lt;/u>&lt;/p>
+&lt;p>[Pan/Track] (平面移動)、[Tumble/Rotate] (回転移動)、または [Dolly/Zoom] (ズームイン/アウト) ツールを選択し、クリックしながら画面を操作しましょう。これらはそれぞれ、[Alt] キーを押しながらのマウス中ボタン (ホイール)、左ボタン、右ボタンでのドラッグでも行えます。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/basic-operation/1.3_4_3.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>&lt;u>操作例2 (パラメーターの変更) :&lt;/u>&lt;/p>
+&lt;p>[Select] (選択) ツールで、建物を 1 つクリックして選択します。ここで [F] キーを押すと、この建物にズームします。[Inspector] ウィンドウの [Shape] メニュー で [HeightFactor] (高度係数) パラメーターに任意の値を入力、または、スライダーをドラッグして建物の高度係数を変更しましょう。また、[Shapes] メニューの [Update Seed] (シード値の更新) をクリックして、モデルを更新しましょう。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/basic-operation/1.3_41_2.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>&lt;u>操作例3 (ダイナミック シティ レイアウト) :&lt;/u>&lt;/p>
+&lt;p>[Move] (移動) ツールで道路を 1 つ選択し、表示された 3 方向の矢印または黄色い円をドラッグして道路の形状、位置を変更しましょう。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/basic-operation/1.3_42_2.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>&lt;u>操作例4 (ダイナミック シティ レイアウト) :&lt;/u>&lt;/p>
+&lt;p>道路を作成します。[Street Creation] (道路作成) ツールをクリックし、既存道路の端点にカーソルを合わせます。スナップされ、カーソルがオレンジ色の四角形の表示になったら、クリックします。そのまま何もないスペース上でクリックしていくと、新規に道路を作成できます。最後に再度既存道路の端点にカーソルを合わせ、スナップされたらダブルクリックで道路作成の作業を終了します (道路作成の作業の編集は [Esc] キーを押すことで終了することもできます)。道路を繋いで区画ができると、区画にルールが自動的に適用され、街ができます。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/basic-operation/1.3_5_2_v1.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>&lt;u>操作例5 (効果) :&lt;/u>&lt;/p>
+&lt;p>ビューの設定からは、さまざまな効果や表示を行うことができます。[Viewport] ウィンドウ → [View Settings] (ビューの設定) のカメラのアイコンをクリックして開きます。各機能をオン、オフに切り替えて、効果や表示がどのように変わるのかを試してみましょう。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/basic-operation/20250801_1.3_6_4.png" width="700">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>このように、CityEngine はアルゴリズムで建物や道路の 3D モデルを生成しているため、簡単で対話的な操作性で思い通りの都市を作成・編集することができます。
+建物や道路のモデルを選択して、[Inspector] ウィンドウの “Rule File” で設定したファイルが、そのアルゴリズムを記述したルール ファイルです。もととなる図形からこれに書かれた手順に従って 3D モデルが生成されており、その図形を編集するとすぐにまたルールに従ってモデルが再生成され、このようなレイアウト変更が可能になるのです。&lt;/p>
+&lt;p>[File] メニュー → [Save] でシーンを保存します。&lt;/p></description></item><item><title>プロジェクトの作成</title><link>/cityengine/get-started/quickstart-tutorials/create-project/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/create-project/</guid><description>
+&lt;h2>概要&lt;span class="hx:absolute hx:-mt-20" id="概要">&lt;/span>
+&lt;a href="#%e6%a6%82%e8%a6%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>プロジェクトを新規作成してデータを作成するまでを学びます。&lt;/p>
+&lt;p>CityEngine では、プロジェクト単位でデータを管理します。新規プロジェクトを作成すると、[Navigator] ウィンドウにプロジェクト フォルダーが表示されます。
+そしてプロジェクト フォルダー下には assets、data、images、maps、models、rules、scenes、scripts の 8 つのフォルダーが自動的に作成されます。
+この各フォルダー内にプロジェクトで必要なデータや画像、ルールやテクスチャーなどを格納します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/20250801_%25EF%25BC%2591_MD.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h2>プロジェクトの新規作成&lt;span class="hx:absolute hx:-mt-20" id="プロジェクトの新規作成">&lt;/span>
+&lt;a href="#%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%e3%81%ae%e6%96%b0%e8%a6%8f%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>[File] メニュー → [New] をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[New] ダイアログで、CityEngine フォルダー → [CityEngine project] を選択し、[Next &amp;gt;] をクリックします。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/20250801_2_MD_2.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;ol start="3">
+&lt;li>
+&lt;p>[Project name] に任意のプロジェクト名 (ここでは「MyProject」とします) をつけ、[Finish] をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[Navigator] ウィンドウに作成した新規プロジェクトが表示されます。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/20250801_3_MD.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h2>シーン ファイルの作成&lt;span class="hx:absolute hx:-mt-20" id="シーン-ファイルの作成">&lt;/span>
+&lt;a href="#%e3%82%b7%e3%83%bc%e3%83%b3-%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>プロジェクトを作成したら、シーン ファイルを作成します。
+データを追加した状態でシーンを保存すると、いつでも保存した状態のシーンを開き直すことができます。&lt;/p>
+&lt;ol>
+&lt;li>[Navigator] ウィンドウにあるプロジェクトから scenes フォルダーを右クリック → [New] → [CityEngine Scene] を選択します。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/20250801_4_123_MD.png" width="700">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;ol start="2">
+&lt;li>
+&lt;p>[CityEngine Scene] ダイアログで、[Project folder:] でシーンを保存するフォルダーを指定します。
+&lt;br>特別な理由がない限りはデフォルトの場所に保存することをお勧めします。
+フォルダーを変更する場合は、[Browse] ボタンからシーン ファイルを保存するフォルダーを指定します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[File name:] で、シーン ファイルに名前をつけます。
+ここでは「MyScene1.cej」と名付けます。
+&lt;br>※シーンファイルの拡張子は「.cej」です。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/5MD2.png" width="700">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;ol start="4">
+&lt;li>
+&lt;p>[Coordinate System:] の [Choose] ボタンから座標系を指定します。
+CityEngine で使用できる座標系は投影座標系のみです。
+GIS データなどすでに特定の地理的な座標系を持っているデータがある場合は、同じ座標系をシーンに指定します。
+&lt;br>今回は、Projected Coordinate Systems フォルダー → World フォルダー から、一般的な WEB マップで使用されている [WGS 1984 Web Mercator (auxiliary sphere) ] を設定し、[OK] をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/6%EF%BD%9E7_240717_v2.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>[Finish] をクリックします。
+[&amp;lsquo;my_city.cej&amp;rsquo; has been modified. Save changes? ('my_city.cej&amp;rsquo; が変更されています。保存しますか？) ] というメッセージが表示されたら [Yes] をクリックします。これは前回のプロジェクトのシーンを保存するかどうかを聞いています。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>ファイルを作成したら、[Navigator] ウィンドウの scenes フォルダーの下に作成したシーン ファイルがあることを確認します。
+また、3D View ウィンドウは空の状態になっているはずです。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">マップにグリッドを表示したい場合は、3D View ウィンドウ ツールバーの [View settings] をクリックし、[Grid] にチェックをいれることで有効化します。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/MD_240722_p1.PNG" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h2>データの新規作成&lt;span class="hx:absolute hx:-mt-20" id="データの新規作成">&lt;/span>
+&lt;a href="#%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e6%96%b0%e8%a6%8f%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>CityEngine では GIS データなどの外部のデータをインポートしてそのまま利用することもできますが、自分でデータを一から作成することも可能です。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>ツールバーより [Street creation tools] をクリックし、[Polygonal Street Creation] ウィンドウで [Polygonal street creation] または [Freehand street creation] ツールをクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>3D View ウィンドウ上で区画ができるようにラインを何本か描画します。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/MD_240722_p2.PNG" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>また、[Move]、 [Scale]、 [Rotate] ツールなどを用いて自由に編集しても構いません。
+さらに [Edit streets/curves] ツールを用いることで道路幅などを変更して車線を増やしたり、カーブをつけたりすることができます。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/10.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">道路端部は、[Inspector] ウィンドウで [Nodes] タブの [Type] にて変更可能です。
+また、端部の違いによる演習への影響はありません。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;br>今回、区画シェープは使用しないので、[Scene] ウィンドウの Streetnetwork レイヤーを展開し、Blocks レイヤーのチェックをはずして非表示にします。&lt;/p>
+&lt;p>&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/11_MD_2.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+次に、建物用にポリゴン シェープを新規作成します。&lt;/p>
+&lt;ol start="3">
+&lt;li>
+&lt;p>ツールバーより [Shape drawing tools] をクリックし、[Polygonal Shape Creation] タブの[Polygonal Shape Creation] や [Rectangular Shape Creation] ツールを使用して、任意の場所に図形を 3 つ以上作図します。ここでも図形の移動や方向転換に [Move]、[Scale]、[Rotate] ツールなどを用いるといいでしょう。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/basic-operation/20240722_p13.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;h2>ルール ファイルの適用&lt;span class="hx:absolute hx:-mt-20" id="ルール-ファイルの適用">&lt;/span>
+&lt;a href="#%e3%83%ab%e3%83%bc%e3%83%ab-%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e9%81%a9%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>シェープを作成したら、次はルール ファイルを適用します。
+今回は CityEngine にあらかじめ付属されているライブラリ Esri.lib のルール ファイルを使用します。&lt;/p>
+&lt;p>まずは、Esri.lib のルール ファイルを更新します。&lt;/p>
+&lt;ol>
+&lt;li>[File] メニュー → [Manage ESRI.lib...] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/13_MD.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;ol start="2">
+&lt;li>インストールされていないルール ファイルのチェックボックスが自動的にオンとなっています。
+このまま [Update] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">以前のバージョンをインストールしていた場合や、以降の手順において、テクスチャーがうまく反映されない場合は、[Esri.lib] チェックボックスもオンにして [Update] を実行してください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/20250801_14_MD.png" width="700">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>自動的にウィンドウが閉じたら、ルール ファイルの更新は完了です。
+&lt;br>では、道路ネットワークのルール ファイルを適用してみましょう。&lt;/p>
+&lt;ol start="3">
+&lt;li>
+&lt;p>[Scene] ウィンドウの Streetnetwork レイヤーを展開し、Network レイヤーを選択します。
+右クリック → [Select Objects] を選択します。
+道路ネットワークがすべて選択されます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[Navigator] ウィンドウ → [ESRI.lib] → rules フォルダー → [Streets] → [Street_Modern_Standard.cga] を選択し、道路ネットワークの中心線上にドラッグ &amp;amp; ドロップします (中心線がオレンジ色になったらマウスボタンを放します)。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/15_MD_2.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>&lt;br>次に建物のルール ファイルを適用します。
+建物のルール ファイルは 3 つ用意されています。
+Building_From_Footprint.cga は主に建物のフットプリントなど、平面シェープがあるときに使用します。
+対して、Building_Mass_Texturizer.cga は主に立体シェープがあるときに使用します。
+また、Building_From_OpenStreetMap.cga は Get Map Data 機能でダウンロードした OpenStreetMap データに使用します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[Navigator] ウィンドウ → [ESRI.lib] → rules フォルダー → [Buildings] → [Building_From_Footprint.cga] を建物用シェープの 1 つにドラッグ &amp;amp; ドロップします。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/16_2.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>続いて [Navigator] ウィンドウ → [ESRI.lib] → rules フォルダー → [Buildings] → [Building_Mass_Texturizer.cga] を建物用シェープにドラッグ &amp;amp; ドロップします。
+今回は立体シェープがないので、高さがない平面の状態でルールが適用されます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>ツールバーより [Push Pull tool] ツールをクリックし、カーソルを建物用シェープの上に当てます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>シェープの中央にオレンジ色の球体が表示されるので、球体をクリックし、ホールドしたままカーソルを上にドラッグします。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/17_18_MD.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>9.最後にもうひとつルールを適用してみましょう。 [Navigator] ウィンドウ → [ESRI.lib] → rules フォルダー → [Plants] → [Plant_Distributor.cga] を区画シェープにドラッグ &amp;amp; ドロップします (区画シェープにルールを適用する場合は、[Scene] ウィンドウの Streetnetwork レイヤーを展開し、Blocks レイヤーのチェックボックスをオンにします。)
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/19_MD_2.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>Esri.lib に格納されているルール ファイルには、あらかじめパラメーターがいくつか設定されています。
+[Inspector] ウィンドウを開き、パラメーターを変更してみましょう。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/20_2.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>例：樹木のシェープを選択し、[Inspector] ウィンドウの [Plant] → [Representation] パラメーターを [Realistic] から [Schematic] に変更&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="10">
+&lt;li>[File] メニュー → [Save] でシーンを保存します。&lt;/li>
+&lt;/ol>
+&lt;p>本項目では、プロジェクトを新規作成し、道路ネットワークやシェープなどのデータの作成、ルール ファイルを適用するまでの流れを学習しました。
+これは CityEngine のメイン ワークフローであり、とても重要です。
+&lt;a href="/cityengine/get-started/quickstart-tutorials/create-cga/"title="CGA の作成">CGA の作成&lt;/a>では、CGA ルール ファイルの作成方法を学習します。&lt;/p>
+&lt;h2>補足 Get Map Data でデータをダウンロード&lt;span class="hx:absolute hx:-mt-20" id="補足-get-map-data-でデータをダウンロード">&lt;/span>
+&lt;a href="#%e8%a3%9c%e8%b6%b3-get-map-data-%e3%81%a7%e3%83%87%e3%83%bc%e3%82%bf%e3%82%92%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Get Map Data 機能は、ArcGIS Online から世界中の街の中から選択した任意の範囲の &lt;a href="https://www.openstreetmap.org"target="_blank" rel="noopener">OpenStreetMap&lt;/a> の地図データや衛星画像などを切り出してダウンロードし、プロジェクトで利用できる便利な機能です。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>プロジェクトを作成し、シーン ファイルを作成します (&lt;a href="#%e3%82%b7%e3%83%bc%e3%83%b3-%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e4%bd%9c%e6%88%90">シーン ファイルの作成&lt;/a>参照)。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[File] メニュー → [Get Map Data] をクリックします。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/21_0_MD.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;ol start="3">
+&lt;li>
+&lt;p>ArcGIS Online アカウントでサイン インします (アカウントを持っていない場合は、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/create-account.htm"target="_blank" rel="noopener">アカウントを作成&lt;/a>してサインインします)。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>左上の検索ボックスに、移動したい場所 (住所やランドマーク) を入力します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[Set Extent] をクリックして範囲選択ボックスを表示し、切り出したい範囲を指定します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>ダウンロードしたいデータを指定し、[OK] をクリックし、ウィザードに従って進みます。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/21_MD_edited3.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;ol start="7">
+&lt;li>ダウンロードが終わると自動的にシーンに追加されます (このダウンロードには ArcGIS Online の&lt;a href="https://doc.esrij.com/online/users-guide/credits/use/use-credits/"target="_blank" rel="noopener">クレジット&lt;/a>を消費しません)。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/22_2.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;ol start="8">
+&lt;li>
+&lt;p>Get Map Data をダウンロードすると自動的にBuilding_From_OpenStreetMap.cga が自動的に適用されており、[Inspector] ウィンドウにおいて、ルールのパラメーター (属性) を変更することができます。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/23_MD_2.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">OpenStreetMap は、米国 Esri 社および ESRIジャパンが作成している地図データではなく、OSM コミュニティが作成して、公開しているデータです。
+その詳細度やレイヤーの種類、格納されているデータの内容は地域によって異なります。
+そのため、ダウンロードした地域によっては、ここで紹介した手順と同じ処理が実行できない可能性があります。&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>CGA の作成</title><link>/cityengine/get-started/quickstart-tutorials/create-cga/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/create-cga/</guid><description>
+&lt;h2>概要&lt;span class="hx:absolute hx:-mt-20" id="概要">&lt;/span>
+&lt;a href="#%e6%a6%82%e8%a6%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>CityEngine では、プロシージャルという技術を使用して、都市をモデリングします。プロシージャル モデリングを行うには、CGA スクリプトを書いてルールを定義する必要があります。&lt;br>
+ルールとは、モデルをどのように構築するかを記述した設計図です。
+そして、そのルールを書きこむのが、CGA スクリプト (ルール ファイル) という一連の処理 (コマンド) を記述したスクリプトです。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-cga/3-1-1-cga-script.png" width="700">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>CGA スクリプトを作成して、実際にルールをどのように設定していくかを紹介します。&lt;/p>
+&lt;h2>準備&lt;span class="hx:absolute hx:-mt-20" id="準備">&lt;/span>
+&lt;a href="#%e6%ba%96%e5%82%99" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a href="/cityengine/get-started/quickstart-tutorials/create-project/"title="プロジェクトの作成">プロジェクトの作成&lt;/a>から続けて行う場合は、ステップ 1、2 はスキップしてください。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>[スタート] → [すべてのプログラム] → [ArcGIS] → [CityEngine 202x.x] をクリックし、CityEngine を起動します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[Navigator] ウィンドウで、前章で作成したプロジェクトの scenes フォルダーを開き、保存したシーン ファイル (MyScene1.cej) をダブルクリックして開きます。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/19_MD_2.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>[Scene] ウィンドウ → [New Shapes] のチェックボックスをオフにして、前章で作成したシェープを非表示にします。
+また、Streetnetwork レイヤーを展開し、Blocks レイヤーのチェックをオンにして表示します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-cga/3-1-3-scene-pane-2.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;p>これで準備が整いました。&lt;/p>
+&lt;h2>CGA スクリプトの記述&lt;span class="hx:absolute hx:-mt-20" id="cga-スクリプトの記述">&lt;/span>
+&lt;a href="#cga-%e3%82%b9%e3%82%af%e3%83%aa%e3%83%97%e3%83%88%e3%81%ae%e8%a8%98%e8%bf%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h4>CGA ルール ファイルの作成&lt;span class="hx:absolute hx:-mt-20" id="cga-ルール-ファイルの作成">&lt;/span>
+&lt;a href="#cga-%e3%83%ab%e3%83%bc%e3%83%ab-%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ol>
+&lt;li>
+&lt;p>新規ルール ファイルを作成します。
+[File] メニュー → [New] → [Select a wizard] ダイアログで、CityEngine フォルダー → [CGA Rule File] を選択して、[Next] をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-cga/20250801_3-2-1_2-select-a-wizard-dialog.png" width="700">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>[CGA Rule File] で、フォルダーの格納先を選択し、[File name] に「House_rule.cga」と名前を付けて、[Finish] をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-cga/3-2-2-cga-rule-file.png" width="700">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>[Navigator] ウィンドウ → プロジェクト → rules フォルダー → [House_rule.cga] をダブルクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-cga/3-2-3-navigator-pane.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>画面の左下のウィンドウに House_rule.cga ルール ウィンドウが開きます。
+ウィンドウの右端をつまんで少し右にドラッグしてウィンドウを広げると見やすくなります。&lt;br>
+(ルール ウィンドウ内の右上の [Maximize] ボタンをクリックすれば、ウィンドウを最大表示にすることができます。)&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-cga/3-2-4-house-rule-pane2.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;h4>CGA の記述&lt;span class="hx:absolute hx:-mt-20" id="cga-の記述">&lt;/span>
+&lt;a href="#cga-%e3%81%ae%e8%a8%98%e8%bf%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>ルール ウィンドウにある [House_rule.cga] の中で、以下のように記述します。
+これは Footprint というルールの定義です。
+このルールの中では、extrude() という面を立ち上げる操作 (これを「オペレーション」と呼びます) を行い、その結果、生成した図形を次の House というルールに送ります。
+オペレーションは一般的なプログラミング言語の関数のように引数をとることができます。
+この場合は 10m 立ち上げる、という操作です。「#」は、これより右に書かれた文字列を無視する記号 (コメント アウト) です。&lt;/p>
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;pre>&lt;code>Footprint--&amp;gt;
+extrude(10) #10m 立ち上げるオペレーション
+House #次のルール&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>ルールを記述すると、下図のようになります。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-cga/20250801_3-2-5_3-rule-description.png" width="700">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>ルールを定義したら、[File] メニュー → [Save] をクリックして (またはキーボードの Ctrl + S)、ルール ファイルを保存します。&lt;/p>
+&lt;h4>CGA リファレンス&lt;span class="hx:absolute hx:-mt-20" id="cga-リファレンス">&lt;/span>
+&lt;a href="#cga-%e3%83%aa%e3%83%95%e3%82%a1%e3%83%ac%e3%83%b3%e3%82%b9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>オペレーションの使い方など CGA についての詳細は&lt;a href="https://doc.arcgis.com/en/cityengine/latest/cga/cityengine-cga-introduction.htm"target="_blank" rel="noopener">オンライン ヘルプ&lt;/a>に記載されています。&lt;br>
+各オペレーションをクリックし、その特徴や使用方法を確認します。今回は [&lt;a href="https://doc.arcgis.com/en/cityengine/latest/cga/cga-extrude.htm"target="_blank" rel="noopener">extrude&lt;/a>] (立ち上げ)、[&lt;a href="https://doc.arcgis.com/en/cityengine/latest/cga/cga-comp.htm"target="_blank" rel="noopener">comp&lt;/a>] (シェープの要素分割)、[&lt;a href="https://doc.arcgis.com/en/cityengine/latest/cga/cga-roof-gable.htm"target="_blank" rel="noopener">roofGable&lt;/a>] (切妻型の屋根)、[&lt;a href="https://doc.arcgis.com/en/cityengine/latest/cga/cga-color.htm"target="_blank" rel="noopener">color&lt;/a>] (色の変更) オペレーションを使用しますので、確認してみましょう。&lt;/p>
+&lt;h4>ルールの適用&lt;span class="hx:absolute hx:-mt-20" id="ルールの適用">&lt;/span>
+&lt;a href="#%e3%83%ab%e3%83%bc%e3%83%ab%e3%81%ae%e9%81%a9%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ol>
+&lt;li>
+&lt;p>ツールバーより [Select] (選択) ツールを選択し、3D View ウィンドウで、[Ctrl] キーを押しながらクリックして区画をいくつか選択します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-cga/3-2-7-select-parcels.png" width="700">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>[Inspector] ウィンドウの [Lot] タブ → [Rules] → [Rule file] で、[Assign] ボタンをクリックし、保存した ルール ファイルを参照します。
+このルール ファイルがモデル生成時に使用されます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[Start rule] で、[Select] ボタンをクリックし、[Footprint] を選択します。
+スタート ルールとは、ルール ファイルの中でも実行される最初のルールを定義しています。
+今回はフットプリント (2 次元の建物形状) から作成していくので、Footprint ルールをスタート地点として選択します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-cga/3-2-8-start-rule2.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>ルール ファイルで定義した家モデルが生成されます。
+また、区画上に CGA ルール ファイルをドラッグ &amp;amp; ドロップすることでもモデルを生成することができます。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-cga/3-2-9-generate-model.png" width="700">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;h2>属性&lt;span class="hx:absolute hx:-mt-20" id="属性">&lt;/span>
+&lt;a href="#%e5%b1%9e%e6%80%a7" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>CityEngine の特徴は何と言ってもプロシージャルによるモデリングです。
+プロシージャル モデリングでは、モデルの様々な要素を変数化することで、無数のバリエーションを瞬時に生成することができます。&lt;br>
+また生成した後でも、この変数を変更して動的に形状を変えることができます。
+この変数を「属性 (Attribute)」と呼びます。&lt;/p>
+&lt;h4>属性の設定&lt;span class="hx:absolute hx:-mt-20" id="属性の設定">&lt;/span>
+&lt;a href="#%e5%b1%9e%e6%80%a7%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ol>
+&lt;li>
+&lt;p>CGA を以下のように書き換え、上書き保存 (Ctrl + S) します。
+この “Height” が属性です。&lt;/p>
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;pre>&lt;code>attr Height = 10
+Footprint--&amp;gt;
+extrude(Height)
+House&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>先ほどと同じ 3 つの区画を選択して再度 [Generate model] (Ctrl + G) します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[Inspector] ウィンドウに [Height] という項目が出ているはずです (出ていない場合は、3D View ウィンドウ上のモデル以外の場所をクリックして選択を解除後、生成されたモデルをクリックして選択し直すことで [Inspector] ウィンドウ内が更新されます)。
+この数値を 「30」などの値に変更してみましょう。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-cga/3-3-1-inspector-height.png" width="700">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>変更できましたら、 [Height] のドロップダウン リストから [Rule default] を選択し、変更をリセットします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>CGA 内の attr Height = 10 を以下のランダム関数を使ったものに書き換え、上書き保存した後、再度 [Generate model] します。&lt;/p>
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;pre>&lt;code>attr Height = rand(5,20)&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>各モデルの [Height] の値がランダム関数で定義した高さに設定されていることを確認してください。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[Shapes] メニューの [Update Seed] (モデル更新) ボタンを何度かクリックして、ランダム関数で定義しておいた高さがランダムに変化するのを確認してください。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2>基本的なオペレーション&lt;span class="hx:absolute hx:-mt-20" id="基本的なオペレーション">&lt;/span>
+&lt;a href="#%e5%9f%ba%e6%9c%ac%e7%9a%84%e3%81%aa%e3%82%aa%e3%83%9a%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h4>要素分割と色付け&lt;span class="hx:absolute hx:-mt-20" id="要素分割と色付け">&lt;/span>
+&lt;a href="#%e8%a6%81%e7%b4%a0%e5%88%86%e5%89%b2%e3%81%a8%e8%89%b2%e4%bb%98%e3%81%91" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>先ほど書いた CGA の末尾に House ルールを追加します。&lt;br>
+comp(f) は現在の立体図形 (シェープ) から面の要素を抽出するオペレーションです。
+抽出した要素をそれぞれ Roof と Wall というルールに渡して屋根と壁を作ります。
+color() は色を付けるオペレーション、roofGable() は切妻屋根を作成するオペレーションです。&lt;/p>
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;pre>&lt;code>House--&amp;gt;
+comp(f){top: Roof | side: Wall} #シェープをトップ (屋根) とサイド (壁) に分割
+Roof--&amp;gt;
+roofGable(20,1,1) #Gable (切妻型) の屋根を設定
+color(roofcolor)
+Wall--&amp;gt;
+color(wallcolor)&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>また、先頭の attr Height・・・の行の下に以下の 4 行を追加します。&lt;/p>
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;pre>&lt;code>@Color
+attr roofcolor = listRandom(&amp;#34;#ff7f50;#9acd32;#ff4500&amp;#34;)
+@Color
+attr wallcolor = listRandom(&amp;#34;#ffff00;#00ffff;#dda0dd&amp;#34;)&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>これらは、屋根と壁をそれぞれ 3 つの色からランダムに選択して属性値とする、という記述です。
+色の記述に関しては、任意の検索サイトで「HTML カラーコード」で検索して調べてください。
+@Color は、この下の属性に対して [Inspector] ウィンドウ上で色の選択ができる GUI を利用可能にします。
+このように、属性に付与して [Inspector] ウィンドウ上での振る舞いを定義する「＠」で始まる文字列のことを「アノテーション」と呼びます。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">アノテーションの種類とそれぞれの詳細については、&lt;a href="https://doc.arcgis.com/en/cityengine/latest/cga/cga-annotations.htm"target="_blank" rel="noopener">CGA Annotations&lt;/a> をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>これまでと同様、上書き保存してモデルを再生成します。&lt;br>
+※すでにルールが適用されている区画のみを再選択するには、モデルを 1 つ選択して、右クリック → [Select Objects with Same Rule File] を選択すると簡単です。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-cga/3-4-1-generate-model.png" width="700">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>[Shapes] メニューの [Update Seed] (モデル更新) ボタンを何度かクリックして、ランダム関数で定義しておいた色がランダムに変化するのを確認してください。&lt;/p>
+&lt;p>最後に、[Inspector] ウィンドウを開き、CGA スクリプトで設定した [Height]、[roofcolor]、[wallcolor] の属性を変更してみましょう。&lt;br>
+例: [Height] パラメーターの値を デフォルトから「20 m」に変更し、[roofcolor] と [wallcolor] を変更&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-cga/3-4-2-wall-roofcolor-wallcolor.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>このように、単純なルールを幾つもつなぎ合わせて行くことで、より複雑なモデルを構築していくことができ、また属性の設定により、モデル生成後も自由に形状や色を変えることができるのです。&lt;br>
+&lt;a href="/cityengine/get-started/quickstart-tutorials/advanced-cga/"title="高度な CGA">高度な CGA&lt;/a>では、もう少し高度な CGA を使用して、より現実に即した街並みにします。&lt;/p>
+&lt;h2>今回作成した CGA&lt;span class="hx:absolute hx:-mt-20" id="今回作成した-cga">&lt;/span>
+&lt;a href="#%e4%bb%8a%e5%9b%9e%e4%bd%9c%e6%88%90%e3%81%97%e3%81%9f-cga" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;pre>&lt;code>attr Height = rand(5,20)
+@Color
+attr roofcolor = listRandom(&amp;#34;#ff7f50;#9acd32;#ff4500&amp;#34;)
+@Color
+attr wallcolor = listRandom(&amp;#34;#ffff00;#00ffff;#dda0dd&amp;#34;)
+Footprint --&amp;gt;
+extrude (Height)
+House
+House--&amp;gt;
+comp(f){top: Roof | side: Wall} #シェープをトップ (屋根) とサイド (壁) に分割
+Roof--&amp;gt;
+roofGable(20,1,1) #Gable (切妻型) の屋根を設定
+color(roofcolor)
+Wall--&amp;gt;
+color(wallcolor)&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div></description></item><item><title>高度な CGA</title><link>/cityengine/get-started/quickstart-tutorials/advanced-cga/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/advanced-cga/</guid><description>
+&lt;h2>概要&lt;span class="hx:absolute hx:-mt-20" id="概要">&lt;/span>
+&lt;a href="#%e6%a6%82%e8%a6%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a href="/cityengine/get-started/quickstart-tutorials/create-cga/"title="CGA の作成">CGA の作成&lt;/a>で作成したモデルの区画や建物の形状を整え、日本の戸建て住宅のような感じにするために、区画と CGA ルールを改良します。&lt;/p>
+&lt;p>&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/advanced-cga/advanced-cga-intro.png" width="900">
+&lt;/figure>
+&lt;br>
+&lt;br>&lt;/p>
+&lt;p>&lt;a href="/cityengine/get-started/quickstart-tutorials/create-cga/"title="CGA の作成">CGA の作成&lt;/a> での CGA ルールは以下のような記述になっています (以下のコードをコピー &amp;amp; ペーストして利用することもできます。)&lt;br>
+「#」 以下はコメント文ですので実際には書く必要はありません。&lt;/p>
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;pre>&lt;code>attr Height = rand(5,20) #5~20m の間でランダムに高さを設定
+@Color
+attr roofcolor = listRandom(&amp;#34;#ff7f50;#9acd32;#ff4500&amp;#34;)
+@Color
+attr wallcolor = listRandom(&amp;#34;#ffff00;#00ffff;#dda0dd&amp;#34;)
+Footprint--&amp;gt;
+extrude(Height) #[Height] 属性に基づいて立ち上げ
+House
+House--&amp;gt;
+comp(f){top: Roof | side: Wall} #シェープをトップ (屋根) とサイド (壁) に分割
+Roof--&amp;gt;
+roofGable(20,1,1) #Gable (切妻型) の屋根を設定
+color(roofcolor)
+Wall--&amp;gt;
+color(wallcolor)&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h2>区画の調整&lt;span class="hx:absolute hx:-mt-20" id="区画の調整">&lt;/span>
+&lt;a href="#%e5%8c%ba%e7%94%bb%e3%81%ae%e8%aa%bf%e6%95%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>CityWizard のデフォルト設定で作成された区画は、日本の戸建て住宅としては大きすぎるので、各区画の面積が 100 ～ 150 平方メートルになるように設定します。&lt;/p>
+&lt;ol>
+&lt;li>[Scene] ウィンドウで Streetnetwork レイヤーを右クリックし、[Select Objects] を選択します。&lt;/li>
+&lt;li>[Inspector] ウィンドウで [Block] タブを開き、[Subdivision Type] を「Recursive Subdivision」に変更します。
+また、[lotAreaMin] に「100」、[lotAreaMax] に「150」を入力します。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/advanced-cga/advanced-cga-block2.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h2>フットプリントの生成&lt;span class="hx:absolute hx:-mt-20" id="フットプリントの生成">&lt;/span>
+&lt;a href="#%e3%83%95%e3%83%83%e3%83%88%e3%83%97%e3%83%aa%e3%83%b3%e3%83%88%e3%81%ae%e7%94%9f%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>現状、生成されるモデルは形が少しいびつだったり、まっすぐ立ち上がっていなかったり、家と家の間に全く隙間がなかったりと不自然な点がありますので、区画からフットプリント (建物の 2 次元形状) を生成しつつ、そういった点も改善してみましょう。&lt;/p>
+&lt;p>まず、House_rule.cga で定義されている建物の高さ (Height 属性) のデフォルト値が戸建て住宅に見合うように、5 ～ 10 メートルの間のランダム値になるように変更します。&lt;/p>
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;pre>&lt;code>attr Height = rand(5,10)&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>また、以下の Lot ルールを Footprint ルールの上に追加します。
+やや高度なものを使っていますが、ここでは体験ということであまり深く考えずにこの通りに書いてください。&lt;/p>
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;pre>&lt;code>@StartRule #以下の「Lot」ルールをスタート ルールとする
+Lot--&amp;gt;
+offset(-2,inside) #敷地外周を2m後退して庭を作る
+innerRectangle(edge) {shape : Footprint | remainder :NIL} #フットプリントの形状を長方形にする&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>各オペレーション (関数) の詳細については、オンライン ヘルプの &lt;a href="https://doc.arcgis.com/en/cityengine/latest/cga/cityengine-cga-introduction.htm"target="_blank" rel="noopener">CGA リファレンス&lt;/a> を参照してください。&lt;br>
+CGA が書けたら上書き保存し、[Scene] ウィンドウ → Streetnetwork レイヤー → Blocks レイヤーを選択し、右クリック → [Select Objects] ですべての区画を選択します。
+[Inspector] ウィンドウで [Lot] タブを開き、[Rule File] として [House_rule.cga]、[Start Rule] として [Lot] を選択してモデルを生成します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/advanced-cga/advanced-cga-house-rule3.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h2>分岐の使用&lt;span class="hx:absolute hx:-mt-20" id="分岐の使用">&lt;/span>
+&lt;a href="#%e5%88%86%e5%b2%90%e3%81%ae%e4%bd%bf%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h4>条件による分岐&lt;span class="hx:absolute hx:-mt-20" id="条件による分岐">&lt;/span>
+&lt;a href="#%e6%9d%a1%e4%bb%b6%e3%81%ab%e3%82%88%e3%82%8b%e5%88%86%e5%b2%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>CGA では、対象の図形の状態によって条件分岐させるコードを書くことも可能です。
+ここではフットプリントの面積が 50 平方メートル未満の場合には建物を建てないようにしてみましょう。
+[House_rule.cga] の Footprint ルールを以下のように変更します。
+case の後が条件で、対象図形の面積が 50 以下なら NIL、つまり「何もない状態」で置き換える、そうでなければ Height の高さだけ立ち上げる、とします。&lt;/p>
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;pre>&lt;code>Footprint--&amp;gt;
+case geometry.area() &amp;lt; 50: NIL #50平米より狭い場合は消去
+else:
+extrude(Height)
+House&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h4>割合による分岐&lt;span class="hx:absolute hx:-mt-20" id="割合による分岐">&lt;/span>
+&lt;a href="#%e5%89%b2%e5%90%88%e3%81%ab%e3%82%88%e3%82%8b%e5%88%86%e5%b2%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>屋根形状は現状では切妻屋根 (roofGable) だけですが、寄棟屋根 (roofHip) や片流れ屋根 (roofShed) にしたりするとさらにバリエーションが増します。
+Roof ルールを以下のように変更してみましょう。
+ここでは切妻屋根が 40%、寄棟屋根が 40%、残りが片流れ屋根となるように配合します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/advanced-cga/advanced-cga-roof.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;pre>&lt;code>Roof--&amp;gt;
+40%:
+roofGable(20,1,1) # 切妻屋根
+color(roofcolor)
+40%:
+roofHip(20,1) # 寄棟屋根
+color(roofcolor)
+else:
+roofShed(10) # 片流れ屋根
+color(roofcolor)&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>CGA が書けたら保存し、再度 Blocks レイヤーを右クリック → [Select Objects] ですべての区画を選択後、モデルの生成 ([Generate models of selected shapes] ボタン) をしてみましょう。&lt;br>
+少なくとも形状については、だいぶ日本の住宅地っぽくなったのではないでしょうか？&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/advanced-cga/advanced-cga-result.png" width="700">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>&lt;a href="/cityengine/get-started/quickstart-tutorials/apply-texture/"title="テクスチャーの適用">テクスチャーの適用&lt;/a> ではいよいよテクスチャーの貼り付けです。
+今回作成した単純な建物モデルが、簡単なテクスチャーを貼り付けるだけで一気にそれっぽくなります！&lt;/p>
+&lt;h2>今回作成した CGA&lt;span class="hx:absolute hx:-mt-20" id="今回作成した-cga">&lt;/span>
+&lt;a href="#%e4%bb%8a%e5%9b%9e%e4%bd%9c%e6%88%90%e3%81%97%e3%81%9f-cga" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;pre>&lt;code>attr Height = rand(5,10)
+@Color
+attr roofcolor = listRandom(&amp;#34;#ff7f50;#9acd32;#ff4500&amp;#34;)
+@Color
+attr wallcolor = listRandom(&amp;#34;#ffff00;#00ffff;#dda0dd&amp;#34;)
+@StartRule #以下の「Lot」ルールをスタート ルールとする
+Lot--&amp;gt;
+offset(-2,inside) #敷地外周を2m後退して庭を作る
+innerRectangle(edge) {shape : Footprint | remainder :NIL} #フットプリントの形状を長方形にする
+Footprint--&amp;gt;
+case geometry.area() &amp;lt; 50: NIL #50平米より狭い場合は消去
+else:
+extrude(Height)
+House
+House--&amp;gt;
+comp(f){top: Roof | side: Wall} #シェープをトップ (屋根) とサイド (壁) に分割
+Roof--&amp;gt;
+40%:
+roofGable(20,1,1) # 切妻屋根
+color(roofcolor)
+40%:
+roofHip(20,1) # 寄棟屋根
+color(roofcolor)
+else:
+roofShed(10) # 片流れ屋根
+color(roofcolor)
+Wall--&amp;gt;
+color(wallcolor)&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div></description></item><item><title>テクスチャーの適用</title><link>/cityengine/get-started/quickstart-tutorials/apply-texture/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/apply-texture/</guid><description>
+&lt;h2>概要&lt;span class="hx:absolute hx:-mt-20" id="概要">&lt;/span>
+&lt;a href="#%e6%a6%82%e8%a6%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a href="/cityengine/get-started/quickstart-tutorials/advanced-cga/"title="高度なCGA">高度なCGA&lt;/a> では区画を整理したり、屋根の種類を増やしたりして日本の住宅地に見られる戸建て住宅を模した形状を作成しましたが、今回はその仕上げとして、建物モデルにテクスチャーを貼り付けてより見栄えの良いものにします。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/apply-texture/texture.png" width="700">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h2>テクスチャー画像の準備&lt;span class="hx:absolute hx:-mt-20" id="テクスチャー画像の準備">&lt;/span>
+&lt;a href="#%e3%83%86%e3%82%af%e3%82%b9%e3%83%81%e3%83%a3%e3%83%bc%e7%94%bb%e5%83%8f%e3%81%ae%e6%ba%96%e5%82%99" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>テクスチャーに使用する画像は、サンプル データを使用すれば作るまでもありませんが、残念ながら、日本の住宅地の作成に適用できそうなものはあまりありません。&lt;br>ESRIジャパンが作成した屋根と建物の外観 (ファサード) のテクスチャー画像を &lt;a href="https://ej.maps.arcgis.com/home/item.html?id=2148d9acfd2c45d8800c605ab641903c"target="_blank" rel="noopener">ArcGIS Online のページ&lt;/a>よりダウンロードします。&lt;/p>
+&lt;p>ダウンロードが完了したら、Zip ファイルを 解凍し、CE2025_ZeroProject/assets に格納されている house フォルダーを MyProject プロジェクトの assets フォルダー の中にコピーしてください。&lt;br>
+また、CE2025_ZeroProject/rules フォルダーには参考用として &lt;a href="/cityengine/get-started/quickstart-tutorials/create-cga/"title="CGA の作成">CGA の作成&lt;/a>から&lt;a href="#%e6%a6%82%e8%a6%81">テクスチャーの適用&lt;/a>で作成した CGA ルールのサンプル ファイルが格納されています。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">プロジェクトの存在するワークスペースは、インストール後、初めて CityEngine を起動したときに設定しています。&lt;br>
+使用しているワークスペースがどこにあるかわからない場合は、[Navigator] ウィンドウ でプロジェクト フォルダーを右クリック → [Properties] → [Resource] → [Location] に記述してあるパスを確認してください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h4>屋根のテクスチャー&lt;span class="hx:absolute hx:-mt-20" id="屋根のテクスチャー">&lt;/span>
+&lt;a href="#%e5%b1%8b%e6%a0%b9%e3%81%ae%e3%83%86%e3%82%af%e3%82%b9%e3%83%81%e3%83%a3%e3%83%bc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>[Navigator] ウィンドウの中で MyProject プロジェクトの中の assets → house フォルダーを開きます。&lt;br>
+rooftile から始まる .jpg ファイルをダブル クリックして選択すると、プレビュー表示されます。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/apply-texture/roof-texture.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;h4>建物前面のテクスチャー&lt;span class="hx:absolute hx:-mt-20" id="建物前面のテクスチャー">&lt;/span>
+&lt;a href="#%e5%bb%ba%e7%89%a9%e5%89%8d%e9%9d%a2%e3%81%ae%e3%83%86%e3%82%af%e3%82%b9%e3%83%81%e3%83%a3%e3%83%bc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>同様に house フォルダーの house_texture… も確認します。&lt;br>
+これらは実際の家の写真を &lt;a href="https://doc.arcgis.com/en/cityengine/latest/help/help-facade-wizard.htm"target="_blank" rel="noopener">Crop Image ツール&lt;/a>で正面から見た形に整形し、画像編集ソフトで壁などをきれいに塗りつぶすなどの加工をして作成しました。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/apply-texture/building-side-texture.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h4>テクスチャーの変数化&lt;span class="hx:absolute hx:-mt-20" id="テクスチャーの変数化">&lt;/span>
+&lt;a href="#%e3%83%86%e3%82%af%e3%82%b9%e3%83%81%e3%83%a3%e3%83%bc%e3%81%ae%e5%a4%89%e6%95%b0%e5%8c%96" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>これらのファイルをランダムに選択して変数に格納するため、CGA の中の attr roofcolor = ・・・と attr wallcolor = ・・・の行を以下の 2 行で置き換えます。&lt;/p>
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;pre>&lt;code>const roof_texture_file = fileRandom(&amp;#34;house/rooftile*.jpg&amp;#34;)
+const wall_texture_file = fileRandom(&amp;#34;house/house_texture*.jpg&amp;#34;)&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h4>屋根の分解&lt;span class="hx:absolute hx:-mt-20" id="屋根の分解">&lt;/span>
+&lt;a href="#%e5%b1%8b%e6%a0%b9%e3%81%ae%e5%88%86%e8%a7%a3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>屋根にテクスチャーを適用するための準備として、Roof ルールを以下のように書き換えます。&lt;br>
+comp(f) オペレーションを使用して屋根を要素分割し、屋根の上面のみを取り出して Rooftop ルールに送ります。&lt;br>
+Triangle は、切妻屋根の下の三角形の部分ですが、この後何のルールにも渡さないという事で、末尾に「.」を付けます。&lt;/p>
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;pre>&lt;code>Roof--&amp;gt;
+40%:
+roofGable(20,1,1)
+comp(f){vertical:Triangle.|horizontal:NIL|all:Rooftop}
+40%:
+roofHip(20,1)
+comp(f){horizontal:NIL|all:Rooftop}
+else:
+roofShed(10)
+comp(f){top:Rooftop|vertical:Triangle.|horizontal:NIL}&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h2>テクスチャー貼り付け&lt;span class="hx:absolute hx:-mt-20" id="テクスチャー貼り付け">&lt;/span>
+&lt;a href="#%e3%83%86%e3%82%af%e3%82%b9%e3%83%81%e3%83%a3%e3%83%bc%e8%b2%bc%e3%82%8a%e4%bb%98%e3%81%91" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>モデル上の面へのテクスチャーの貼り付けは、基本的に setupProjection、texture、 projectUV という 3 つのオペレーションで行います。&lt;br>
+既に記載している Wall ルールを一旦削除した後、以下の 2 つのルールを CGA の末尾に追加します。&lt;/p>
+&lt;h4>屋根へのテクスチャー貼り付け&lt;span class="hx:absolute hx:-mt-20" id="屋根へのテクスチャー貼り付け">&lt;/span>
+&lt;a href="#%e5%b1%8b%e6%a0%b9%e3%81%b8%e3%81%ae%e3%83%86%e3%82%af%e3%82%b9%e3%83%81%e3%83%a3%e3%83%bc%e8%b2%bc%e3%82%8a%e4%bb%98%e3%81%91" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;pre>&lt;code>Rooftop--&amp;gt;
+setupProjection(0,scope.xy,10,10) #対象図形の xy 面に 10x10m のサイズでテクスチャー画像を並べ、これを UV セット 0 として設定する
+texture(roof_texture_file) #テクスチャーとして roof_texture_file に格納された画像 (パス) を使用する
+projectUV(0) #UV セット 0 のテクスチャーの貼り付けを実行する&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h4>壁へのテクスチャー貼り付け&lt;span class="hx:absolute hx:-mt-20" id="壁へのテクスチャー貼り付け">&lt;/span>
+&lt;a href="#%e5%a3%81%e3%81%b8%e3%81%ae%e3%83%86%e3%82%af%e3%82%b9%e3%83%81%e3%83%a3%e3%83%bc%e8%b2%bc%e3%82%8a%e4%bb%98%e3%81%91" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;pre>&lt;code>Wall--&amp;gt;
+setupProjection(0, scope.xy, scope.sx, scope.sy) #テクスチャーのサイズを対象図形のサイズと同じにする
+texture(wall_texture_file)
+projectUV(0)&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">この記述では、建物の幅や高さにあわせて壁のテクスチャーが引き伸ばされます。&lt;br>
+それを防ぎたい場合は、setupProjection の第 3 引数、第 4 引数を屋根の場合のよう定数にします。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>CGA が書けたら保存し、再度 [Scene] ウィンドウにて Blocks レイヤーを右クリック → [Select Objects] ですべての区画を選択後、モデルの生成 ([Generate models of selected shapes] ボタン) をしてみましょう。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/apply-texture/generate-model.png" width="700">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>だいぶ日本の住宅地っぽくなったのではないでしょうか？&lt;br>
+今回、作成したモデルは直方体の箱に屋根を付けただけのシンプルなものでしたが、テクスチャーを貼るだけでも一気にリアリティーが増します。&lt;br>
+対象図形の分割や UV セット、サイズ設定、マテリアル設定など、ここでは紹介しきれない機能がまだまだ豊富にあります。&lt;br>
+また、窓枠やバルコニーなど細部のモデリングもルールで記述することができます。&lt;/p>
+&lt;h2>今回作成した CGA&lt;span class="hx:absolute hx:-mt-20" id="今回作成した-cga">&lt;/span>
+&lt;a href="#%e4%bb%8a%e5%9b%9e%e4%bd%9c%e6%88%90%e3%81%97%e3%81%9f-cga" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;pre>&lt;code>attr Height = rand(5,10)
+const roof_texture_file = fileRandom(&amp;#34;house/rooftile*.jpg&amp;#34;)
+const wall_texture_file = fileRandom(&amp;#34;house/house_texture*.jpg&amp;#34;)
+Lot--&amp;gt;
+offset(-2,inside) #敷地外周を2m後退して庭を作る
+innerRectangle(edge) {shape : Footprint | remainder :NIL} #フットプリントの形状を長方形にする
+Footprint--&amp;gt;
+case geometry.area() &amp;lt; 50: NIL #50平米より狭い場合は消去
+else:
+extrude(Height)
+House
+House--&amp;gt;
+comp(f){top: Roof | side: Wall} #シェープをトップ (屋根) とサイド (壁) に分割
+Roof--&amp;gt;
+40%:
+roofGable(20,1,1)
+comp(f){vertical:Triangle.|horizontal:NIL|all:Rooftop}
+40%:
+roofHip(20,1)
+comp(f){horizontal:NIL|all:Rooftop}
+else:
+roofShed(10)
+comp(f){top:Rooftop|vertical:Triangle.|horizontal:NIL}
+Rooftop--&amp;gt;
+setupProjection(0,scope.xy,10,10) #対象図形の xy 面に 10x10m のサイズでテクスチャー画像を並べ、これを UV セット 0 として設定する
+texture(roof_texture_file) #テクスチャーとして roof_texture_file に格納された画像 (パス) を使用する
+projectUV(0) #UV セット 0 のテクスチャー貼り付けを実行する
+Wall--&amp;gt;
+setupProjection(0, scope.xy, scope.sx, scope.sy) #テクスチャーのサイズを対象図形のサイズと同じにする
+texture(wall_texture_file)
+projectUV(0)&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div></description></item><item><title>サンプルの活用</title><link>/cityengine/get-started/quickstart-tutorials/utilize-sample/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/utilize-sample/</guid><description>
+&lt;h2>概要&lt;span class="hx:absolute hx:-mt-20" id="概要">&lt;/span>
+&lt;a href="#%e6%a6%82%e8%a6%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a href="/cityengine/get-started/quickstart-tutorials/apply-texture/"title="テクスチャーの適用">テクスチャーの適用&lt;/a>の建物モデルについては、テクスチャーを貼り付けてより見栄えの良いものにしましたが、道路についても、ArcGIS Online で共有されているサンプル データを活用することで、簡単にリアリティーを増すことができますので、その方法を紹介します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/utilize-sample/sample2.png" width="700">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h2>サンプル データの入手&lt;span class="hx:absolute hx:-mt-20" id="サンプル-データの入手">&lt;/span>
+&lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e5%85%a5%e6%89%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>CityEngine のサンプル データは、現在使用している「Esri.lib」や「City Wizard」に含まれるもの以外にも、[Help] メニュー → [Download Tutorials and Examples] から取得できる Tutorials や Examples、Esri のオンライン サービスである「ArcGIS Online」から入手できるものがあります。&lt;br>
+ここでは、Download Tutorials and Examples から入手する方法をご紹介します。&lt;/p>
+&lt;h4>CityEngine アプリケーションからダウンロードする&lt;span class="hx:absolute hx:-mt-20" id="cityengine-アプリケーションからダウンロードする">&lt;/span>
+&lt;a href="#cityengine-%e3%82%a2%e3%83%97%e3%83%aa%e3%82%b1%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%8b%e3%82%89%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89%e3%81%99%e3%82%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ol>
+&lt;li>Help メニュー → [Download Tutorials and Examples] を選択します。&lt;/li>
+&lt;li>表示されたダイアログから、[Example Complete Streets 2025.0] チェックボックスをオンにし、[Download] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/utilize-sample/20250801_p14.png" width="700">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;ol start="3">
+&lt;li>しばらくすると Navigator ウィンドウにダウンロードした [Example Complete Streets 2025.0] が表示されます。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/utilize-sample/20250801_p11.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Example Complete Streets には高度な道路用 CGA ルール ファイルが格納されています。Navigator ウィンドウ上にあるプロジェクトのルール ファイルは、そのまま他のプロジェクトにも適用できます。&lt;/p>
+&lt;h2>サンプル データの利用&lt;span class="hx:absolute hx:-mt-20" id="サンプル-データの利用">&lt;/span>
+&lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e5%88%a9%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>[Scene] ウィンドウの Streetnetwork レイヤーを展開し、Blocks レイヤーの表示チェックボックスをオフにして非表示にします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Network レイヤーを選択した後、[Select] メニュー [Select Objects in Same Layer] を選択するか、または [3D View] ウィンドウで [Selection] ツールを使い、道路ネットワークをすべて選択します。&lt;br>
+ここで、[Inspector] ウィンドウを開き、パラメーターを確認します。&lt;br>
+現在適用されているルール ファイル (Street_Modern_Standard.cga) は、Esri.lib に格納されている簡単な道路のルール ファイルですので、パラメーターも多くありません。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/utilize-sample/road-rule-parameter2.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>では、次に Complete_Street.cga という道路用のルール ファイルを適用してみましょう。&lt;/p>
+&lt;ol start="3">
+&lt;li>[Navigator] ウィンドウ → [フォルダー] タブ→ Example_Complete_Streets__2025_0 プロジェクト → rules フォルダー → Complete_Streets フォルダー → Complete_Street.cga ルール ファイルを、選択した道路ネットワークにドラッグ &amp;amp; ドロップします。[Set Start Rule] ダイアログが表示された場合は、[Apply to all selected shapes] を選択し [OK] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/utilize-sample/20240722_p2.png" width="700">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;ol start="4">
+&lt;li>自身のプロジェクトの道路に Complete_Street.cga の道路ルールが適用されました。&lt;br>
+[Inspector] ウィンドウを開き、パラメーターを確認します。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/utilize-sample/20240722_p12.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>先ほどの Street_Modern_Standard.cga のルール ファイルと比べて、パラメーター数がかなり多いことが確認できます。&lt;br>
+これは、道路に関する詳細な設定が行えるということになります。見た目では違いが分かりにくいので、道路幅を広げます。&lt;/p>
+&lt;ol start="5">
+&lt;li>道路を選択した状態で [Inspector] ウィンドウの [Segments] タブ [Segment Width] で値を「12」に変更します。または、ツールバー上の [Streets Designer] ツールで対話的に変更しても構いません。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/utilize-sample/20240722_p3.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;ol start="6">
+&lt;li>[Inspector] ウィンドウの [Segment] タブで、他のパラメーターを任意に変更していきます。&lt;br>
+例えば、 [CENTER SECTION LAYOUT] → [Basic Attributes] → [Center_Type] を [White Centerline] に変更すると、中心線の色が変わります。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/utilize-sample/20240722_p4.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>このように Esri が提供しているサンプルなどを使用すれば、高度なルールファイルを自身のシェープに適用して、簡単にモデルを作成することができます。&lt;/p>
+&lt;p>しかし、今回の Complete_Street.cga ルールで使用される素材 (アセット) は西洋的なものが多いので、日本を想定したモデル空間に適用するとしっくりこない場合があります。そんな時は、ルール ファイルを少し編集して、日本風にすることができます。&lt;br>
+続いては、Complete_Street.cga ルールを編集した Complete_Street_jp.cga ルールと日本の道路標示等のアセットを使用し、かつ電線などを生成するルールも使用することで日本の景観を再現します。&lt;/p>
+&lt;h2>編集したサンプル データの利用&lt;span class="hx:absolute hx:-mt-20" id="編集したサンプル-データの利用">&lt;/span>
+&lt;a href="#%e7%b7%a8%e9%9b%86%e3%81%97%e3%81%9f%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e5%88%a9%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h4>使用するアセットの変更&lt;span class="hx:absolute hx:-mt-20" id="使用するアセットの変更">&lt;/span>
+&lt;a href="#%e4%bd%bf%e7%94%a8%e3%81%99%e3%82%8b%e3%82%a2%e3%82%bb%e3%83%83%e3%83%88%e3%81%ae%e5%a4%89%e6%9b%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>シーンを日本風にするために Complete_Street_jp.cga ルールを適用する前にアセットを日本のテクスチャのものに変更します。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">これから行う作業によって先の Complete_Street.cga ルールを使用した際に、右側通行の道路に日本の道路標識が適用されたシーンとなってしまう可能性があります。&lt;br>
+完全に戻したいという場合は、[Navigator] ウィンドウで Example Complete Streets 2025.0 プロジェクトを一度削除し、前述の「サンプル データの入手」を参考に再度 ArcGIS Online よりダウンロードしてください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol>
+&lt;li>
+&lt;p>以下の ArcGIS Online のページから日本語用サンプル データを任意の場所にダウンロードします（サポート ページへのログインが必要です）。&lt;br>
+&lt;a href="https://ej.maps.arcgis.com/home/item.html?id=7d75a96ec2ea40efb9f494a5f8263584"target="_blank" rel="noopener">Example_Complete_Streets 日本対応ファイル&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>ダウンロードした Zip ファイルを展開し、中に格納されている assets フォルダーと rules フォルダーをワークスペース内の Example_Complete_Streets_2025_0 フォルダーにコピー &amp;amp; ペーストし、上書き保存します。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/utilize-sample/20240722_p5.png" width="700">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;ol start="3">
+&lt;li>
+&lt;p>CityEngine を再起動し、[Scene] ウィンドウの Streetnetwork レイヤー → Network レイヤーを選択し、右クリックで [Select Objects] を選択するか、[3D View] ウィンドウで [Selection] ツールを使い、道路ネットワークをすべて選択します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[Navigator] ウィンドウの Example_Complete_Streets_2025_0 プロジェクト → rules フォルダー → Complete_Streets フォルダー → Complete_Street_jp.cga ルール ファイルを、選択した道路ネットワークにドラッグ &amp;amp; ドロップします。[Set Start Rule] ダイアログが表示されますので、[Apply to all selected shapes] を選択し [OK] をクリックします。&lt;br>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/utilize-sample/20240722_p6.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>下図のように右側通行から左側通行に、英語表記から日本語表記に変わり、電柱・電線を生成したりすることができるようになりました。&lt;br>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/utilize-sample/edits.png" width="700">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>このようにルール ファイルやアセットを変更するだけで、一から作成しなくても、自分の目的に合わせてモデルを生成することができます。&lt;/p>
+&lt;h2>ルールの属性を変更&lt;span class="hx:absolute hx:-mt-20" id="ルールの属性を変更">&lt;/span>
+&lt;a href="#%e3%83%ab%e3%83%bc%e3%83%ab%e3%81%ae%e5%b1%9e%e6%80%a7%e3%82%92%e5%a4%89%e6%9b%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>道路ネットワークに適用した Complete_Street_jp.cga には、様々なパラメーター (属性) が用意されており、[Inspector] ウィンドウで直接入力やスライダーバー、プルダウン メニュー等で値を変更することができます。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>道路が選択されていない場合は、再度 [Scene] ウィンドウで Streetnetwork レイヤーを右クリックし、[Select] メニュー → [Select Objects] を選択してすべての道路ポリゴンを選択します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[Inspector] ウィンドウで属性を変更します。属性には例えば次のような項目があります。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h4>中央分離帯を作成&lt;span class="hx:absolute hx:-mt-20" id="中央分離帯を作成">&lt;/span>
+&lt;a href="#%e4%b8%ad%e5%a4%ae%e5%88%86%e9%9b%a2%e5%b8%af%e3%82%92%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ol>
+&lt;li>Complete_Street_jp / CENTER SECTION LAYOUT / Basic Attribute / Center_Type を [Barrier] に変更します。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/utilize-sample/20240722_p7.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h4>街路樹の表示&lt;span class="hx:absolute hx:-mt-20" id="街路樹の表示">&lt;/span>
+&lt;a href="#%e8%a1%97%e8%b7%af%e6%a8%b9%e3%81%ae%e8%a1%a8%e7%a4%ba" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ol start="2">
+&lt;li>Complete_Street_jp / CENTER SECTION LAYOUT / Basic Attribute / Center_Type を [Median] に変更し、Center_Width を「2 m」に設定します。&lt;br>
+中央分離帯に、自動的に街路樹が生成されます。&lt;br>&lt;/li>
+&lt;li>Complete_Street_jp / CENTER SECTION LAYOUT / Median Plantings / Median_Tree_Spacing を「5 m」に変更します。&lt;br>
+また、[Median_Tree_1_Type] で任意の樹木タイプに変更します。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/utilize-sample/20240722_p8_v1.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h4>自動車や歩行者の表示&lt;span class="hx:absolute hx:-mt-20" id="自動車や歩行者の表示">&lt;/span>
+&lt;a href="#%e8%87%aa%e5%8b%95%e8%bb%8a%e3%82%84%e6%ad%a9%e8%a1%8c%e8%80%85%e3%81%ae%e8%a1%a8%e7%a4%ba" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ol start="4">
+&lt;li>Complete_Street_jp / POPULATION / Vehicles_per_km (車線上 1 km 区間あたりの車の台数) を「20」にします。&lt;br>
+また、[Sidewalk] タブに変更し、Complete_Street_jp / POPULATION / People Percentage (歩道上の単位エリアでの人の存在確率) を「30 %」にします。&lt;br>
+数値を大きくすると表示モデルが増えてパフォーマンスが遅くなりますので注意してください。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/utilize-sample/20240722_p9.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h4>電柱・電線の表示&lt;span class="hx:absolute hx:-mt-20" id="電柱電線の表示">&lt;/span>
+&lt;a href="#%e9%9b%bb%e6%9f%b1%e9%9b%bb%e7%b7%9a%e3%81%ae%e8%a1%a8%e7%a4%ba" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ol start="5">
+&lt;li>Complete_Street_jp / Power Lines Construction / Show_Power_Lines を [Enabled] にすることで、電柱と電線が表示されます。&lt;br>&lt;/li>
+&lt;li>Complete_Street_jp / PowerLines / poleDiam で電柱の太さを設定できます。&lt;br>&lt;/li>
+&lt;li>Complete_Street_jp / PowerLines / poleDist で電柱の間隔を設定できます。&lt;br>&lt;/li>
+&lt;li>Complete_Street_jp / PowerLines / powerlineLineHeight で電線の高さを設定できます。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/utilize-sample/Show_Power_Lines_240717.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;h4>ガードレールの表示&lt;span class="hx:absolute hx:-mt-20" id="ガードレールの表示">&lt;/span>
+&lt;a href="#%e3%82%ac%e3%83%bc%e3%83%89%e3%83%ac%e3%83%bc%e3%83%ab%e3%81%ae%e8%a1%a8%e7%a4%ba" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ol start="9">
+&lt;li>Complete_Street_jp / GuardRailsImport / guard_rails を [Enabled] にすることで、ガードレールが表示されます。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/utilize-sample/20240722_p10.png" width="900">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;p>他にも様々な項目がありますので、設定を変更してみてください。&lt;br>
+道路の設定が終了したら、[Scene] ウィンドウの Streetnetwork レイヤーを展開し、Blocks レイヤーのチェックボックスをオンにし、区画を表示させます。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/utilize-sample/street-network2.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;h2>その他のサンプル&lt;span class="hx:absolute hx:-mt-20" id="その他のサンプル">&lt;/span>
+&lt;a href="#%e3%81%9d%e3%81%ae%e4%bb%96%e3%81%ae%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ArcGIS Online には、他にも砂漠の都市 (Example Desert City) やベニス (Example Venice)、ポンペイ (Example Pompeii)、未来のニューヨーク (Example NY2259)、中世の都市 (Example Medieval City)、破壊された街 (Example Downtown Damage) などのサンプルがありますので、これらに含まれるルールを適用してみると、様々な都市の景観を表現することができ、面白いと思います。&lt;br>
+ちなみに、先ほど使用した Complete_Street_jp.cga の中の電柱と電線も、Example Desert City のルールをほとんどそのまま移植したものです。&lt;br>
+このようなルールを自分で 0 から書くのは大変ですが、どのサンプルにどういうルール (モデル) があるのか、頭の片隅にでも入れておけば、それを利用して楽をすることができます。&lt;br>&lt;br>
+ESRIジャパンが作成したサンプル ルールは、ルール パッケージ (RPK) としても ArcGIS Online で共有されています。&lt;br>
+&lt;a href="https://arcg.is/Lqy1S"target="_blank" rel="noopener">ESRIジャパン製のルールパッケージ全集&lt;/a> &lt;br>
+各ルールの適用方法はコンテンツの詳細ページをご確認ください。&lt;/p>
+&lt;h2>補足 Download Tutorials and Examples からサンプル データをダウンロード&lt;span class="hx:absolute hx:-mt-20" id="補足-download-tutorials-and-examples-からサンプル-データをダウンロード">&lt;/span>
+&lt;a href="#%e8%a3%9c%e8%b6%b3-download-tutorials-and-examples-%e3%81%8b%e3%82%89%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-%e3%83%87%e3%83%bc%e3%82%bf%e3%82%92%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ここでは [Help] メニュー → [Download Tutorials and Examples] から Tutorials や Examples を取得する方法をご紹介します。&lt;/p>
+&lt;h4>サンプル データのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="サンプル-データのダウンロード">&lt;/span>
+&lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ol>
+&lt;li>
+&lt;p>[Help] メニュー → [Download Tutorials and Examples] を選択します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>表示されたダイアログから、任意のサンプル データのチェックボックスをオンにし、[Download] をクリックします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/utilize-sample/checkbox3.png" width="700">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>しばらくすると [Navigator] ウィンドウにダウンロードしたプロジェクトが表示されます。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/utilize-sample/navigator-window2.png" width="700">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+このプロジェクトにある CGA やアセットが利用可能です。
+また、[Navigator] ウィンドウ上にあるプロジェクトのルール ファイルは、そのまま他のプロジェクトにも適用することができます。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>このように Esri が提供している Tutorials や Examples 等のサンプルを使用し、高度なルールファイルを自身のシェープに適用して、簡単にモデルを作成することができます。&lt;/p></description></item></channel></rss>

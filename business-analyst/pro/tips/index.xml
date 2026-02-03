@@ -1,0 +1,137 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – Tips</title><link>/business-analyst/pro/tips/</link><description>Recent content in Tips on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Mon, 21 Feb 2022 00:00:00 +0900</lastBuildDate><atom:link href="/business-analyst/pro/tips/index.xml" rel="self" type="application/rss+xml"/><item><title>移行ガイド</title><link>/business-analyst/pro/tips/migration-guide/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0900</pubDate><guid>/business-analyst/pro/tips/migration-guide/</guid><description>
+&lt;p>ArcMap 版 BA Desktop をご利用のユーザー様が、BA Pro へと移行を行う際に必要な手順や、利用可能な各種マテリアルについてご案内します。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="#ba-pro-%e3%81%ae%e7%89%b9%e9%95%b7">BA Pro の特長&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#ba-pro-%e3%81%ae%e3%82%bb%e3%83%83%e3%83%88%e3%82%a2%e3%83%83%e3%83%97">BA Pro のセットアップ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#arcmap-%e7%89%88-ba-desktop-%e3%81%ae%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84%e3%82%92-ba-pro-%e3%81%ab%e7%a7%bb%e8%a1%8c">ArcMap 版 BA Desktop のコンテンツを BA Pro に移行&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#%e4%b8%80%e8%88%ac%e7%9a%84%e3%81%aa%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84">一般的なコンテンツ&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#arcmap-%e3%83%89%e3%82%ad%e3%83%a5%e3%83%a1%e3%83%b3%e3%83%88%e3%81%8a%e3%82%88%e3%81%b3%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab">ArcMap ドキュメントおよびスタイル&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#python-%e3%82%b9%e3%82%af%e3%83%aa%e3%83%97%e3%83%88">Python スクリプト&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#business-analyst-%e5%9b%ba%e6%9c%89%e3%81%ae%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84">Business Analyst 固有のコンテンツ&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88-%e3%83%87%e3%83%bc%e3%82%bf">プロジェクト データ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#business-analyst-%e3%83%87%e3%83%bc%e3%82%bf-%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc">Business Analyst データ レイヤー&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#ba-pro-%e3%81%ae%e8%b5%b7%e5%8b%95%e6%96%b9%e6%b3%95">BA Pro の起動方法&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#ba-pro-%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%e5%ad%a6%e3%81%b6">BA Pro について学ぶ&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>BA Pro の特長&lt;span class="hx:absolute hx:-mt-20" id="ba-pro-の特長">&lt;/span>
+&lt;a href="#ba-pro-%e3%81%ae%e7%89%b9%e9%95%b7" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>BA Pro が持つ特長や ArcMap 版 BA Desktop との違いについては、以下のブログ記事をご参照ください。&lt;/p>
+&lt;ul>
+&lt;li>ArcGIS ブログ「&lt;a href="https://blog.esrij.com/2021/11/26/post-40794/" target="_blank">ArcGIS Business Analyst Pro への移行のススメ&lt;/a>」&lt;/li>
+&lt;/ul>
+&lt;h2>BA Pro のセットアップ&lt;span class="hx:absolute hx:-mt-20" id="ba-pro-のセットアップ">&lt;/span>
+&lt;a href="#ba-pro-%e3%81%ae%e3%82%bb%e3%83%83%e3%83%88%e3%82%a2%e3%83%83%e3%83%97" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a href="/business-analyst/pro/get-started/">ArcGIS Business Analyst Pro スタートアップ ガイド&lt;/a>をご参照ください。&lt;/p>
+&lt;h2>ArcMap 版 BA Desktop のコンテンツを BA Pro に移行&lt;span class="hx:absolute hx:-mt-20" id="arcmap-版-ba-desktop-のコンテンツを-ba-pro-に移行">&lt;/span>
+&lt;a href="#arcmap-%e7%89%88-ba-desktop-%e3%81%ae%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84%e3%82%92-ba-pro-%e3%81%ab%e7%a7%bb%e8%a1%8c" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ArcMap 版 BA Desktop で利用していた各種コンテンツを、BA Pro でもご利用いただくための手順をご紹介します。&lt;/p>
+&lt;h3>一般的なコンテンツ&lt;span class="hx:absolute hx:-mt-20" id="一般的なコンテンツ">&lt;/span>
+&lt;a href="#%e4%b8%80%e8%88%ac%e7%9a%84%e3%81%aa%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>ArcMap ドキュメントおよびスタイル&lt;span class="hx:absolute hx:-mt-20" id="arcmap-ドキュメントおよびスタイル">&lt;/span>
+&lt;a href="#arcmap-%e3%83%89%e3%82%ad%e3%83%a5%e3%83%a1%e3%83%b3%e3%83%88%e3%81%8a%e3%82%88%e3%81%b3%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>ArcMap で作成したマップ ドキュメント (*.mxd) やスタイル (.style) は、ArcGIS Pro にインポートしたり、変換したりすることで、そのまま BA Pro で使用できます。インポートの方法は、ArcGIS Pro 移行ガイドの以下ページをご参照ください。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.esri.com/content/dam/esrisites/ja-jp/media/pdf/implementation-guides/arcgis-pro-migration-guide.pdf#page=13" target="_blank">コンテンツを ArcGIS Pro に移動&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4>Python スクリプト&lt;span class="hx:absolute hx:-mt-20" id="python-スクリプト">&lt;/span>
+&lt;a href="#python-%e3%82%b9%e3%82%af%e3%83%aa%e3%83%97%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>ArcGIS Pro では、ArcMap の Python 2 ではなく、Python 3 を使用します。そのため、ArcMap で作成した Python スクリプトおよびカスタムのジオプロセシング ツールを ArcGIS Pro で利用するためには、スクリプトを更新する必要があります。
+更新方法は、以下の Esri ヘルプ ドキュメントをご参照ください。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/arcpy/get-started/python-migration-for-arcgis-pro.htm" target="_blank">10.x から ArcGIS Pro への Python の移行 - ArcGIS Pro&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3>Business Analyst 固有のコンテンツ&lt;span class="hx:absolute hx:-mt-20" id="business-analyst-固有のコンテンツ">&lt;/span>
+&lt;a href="#business-analyst-%e5%9b%ba%e6%9c%89%e3%81%ae%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>プロジェクト データ&lt;span class="hx:absolute hx:-mt-20" id="プロジェクト-データ">&lt;/span>
+&lt;a href="#%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88-%e3%83%87%e3%83%bc%e3%82%bf" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>ArcMap 版 BA Desktop で作成された商圏などのデータは、Business Analyst プロジェクトに保存されてきました。
+設定を変更していない場合、プロジェクト データの実体は、C:\My Output Data\Projects 配下に保存され、BA Pro からも直接参照することで開くことができます。保存先の詳細は以下の FAQ をご参照ください。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge3394.html" target="_blank">作成した商圏やレポートなどの解析結果はどこに保存されますか？(Business Analyst)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4>Business Analyst データ レイヤー&lt;span class="hx:absolute hx:-mt-20" id="business-analyst-データ-レイヤー">&lt;/span>
+&lt;a href="#business-analyst-%e3%83%87%e3%83%bc%e3%82%bf-%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>ArcMap 版 BA Desktop では、シンボル調整済みの国勢調査や経済センサスなどの統計データを集約した「Business Analyst データ レイヤー」を利用できます。
+ArcGIS Pro でも、以下 FAQ の手順に沿って操作いただくことで、同じレイヤーをご利用いただけます。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge3445.html" target="_blank">ArcMap 版 Business Analyst Desktop で利用できる「Business Analyst データ レイヤー」を Business Analyst Pro でも利用できますか？&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>BA Pro の起動方法&lt;span class="hx:absolute hx:-mt-20" id="ba-pro-の起動方法">&lt;/span>
+&lt;a href="#ba-pro-%e3%81%ae%e8%b5%b7%e5%8b%95%e6%96%b9%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ArcMap 版 BA Desktop では、デスクトップや Windows メニュー上のショートカットを開くことで、オフライン背景地図 (広域地図・公共地図) が予め追加されたマップ ドキュメント (.mxd) を起動できましたが、BA Proでは、スタートメニュー → [ArcGIS] 配下にある [ArcGIS Pro] から起動することができます。&lt;/p>
+&lt;p>また、BA Pro では、オンラインの背景地図がデフォルトで表示されますが、オフライン背景地図 (広域地図・公共地図) は、以下の手順でレイヤー ファイルをマップに追加することで利用可能です。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="/business-analyst/pro/get-started/data/#arcgis-pro-で利用する方法" target="_blank">背景地図の利用 - ArcGIS Pro で利用する方法&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;strong>2022 年版以降のデータセット&lt;/strong>をご利用の場合、オフライン背景地図を利用するためには事前にデータのダウンロード・配置を行っていただく必要がございます。
+データのダウンロード・配置が完了していない場合は、&lt;a href="/business-analyst/pro/get-started/data/offline_basemap/" target="_blank">背景地図の入手&lt;/a> から操作を行ってください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2>BA Pro について学ぶ&lt;span class="hx:absolute hx:-mt-20" id="ba-pro-について学ぶ">&lt;/span>
+&lt;a href="#ba-pro-%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%e5%ad%a6%e3%81%b6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>BA Pro への移行の際にご活用いただける操作方法に関するヘルプや学習用の教材をご案内します。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">名前&lt;/th>
+&lt;th style="text-align: left">説明&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">&lt;a href="/business-analyst/pro/tutorial/" target="_blank">ArcGIS Business Analyst Pro チュートリアル&lt;/a>&lt;/td>
+&lt;td style="text-align: left">BA Pro のチュートリアルです。サンプル データを使用して解析を行うことで、BA Pro の基本的な操作方法や活用方法を学ぶことができます。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;a href="/business-analyst/pro/tips/functionality/" target="_blank">ArcGIS Business Analyst Desktop 機能対応表&lt;/a>&lt;/td>
+&lt;td style="text-align: left">ArcMap 版 BA Desktop で利用できる機能に対応する BA Pro の機能を参照いただけます。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/what-is-business-analyst-pro.htm" target="_blank">Business Analyst—ArcGIS Pro ドキュメント&lt;/a>&lt;/td>
+&lt;td style="text-align: left">BA Pro に関するヘルプ ドキュメントです。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;a href="https://www.esrij.com/cgi-bin/wp/wp-content/uploads/documents/arcgis_pro_user_guide.pdf" target="_blank">ArcGIS Pro 逆引きガイド&lt;/a>&lt;/td>
+&lt;td style="text-align: left">ArcGIS Pro での一般的な操作方法などを解説したガイドです。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;a href="https://www.esrij.com/cgi-bin/wp/wp-content/uploads/documents/arcgispro_faq.pdf" target="_blank">ArcGIS Pro FAQ 集&lt;/a>&lt;/td>
+&lt;td style="text-align: left">ArcGIS Pro のよくある質問をまとめた資料です。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;a href="https://www.esri.com/ja-jp/arcgis/products/arcgis-pro/resources" target="_blank">ArcGIS Pro リソース ページ&lt;/a>&lt;/td>
+&lt;td style="text-align: left">ArcGIS Pro の情報や、ヘルプ、ビデオ、ドキュメント等をご利用いただけます。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/main/welcome-to-the-arcgis-pro-app-help.htm" target="_blank">ArcGIS Pro ヘルプ&lt;/a>&lt;/td>
+&lt;td style="text-align: left">ArcGIS Pro 全般に関するヘルプ ドキュメントです。&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;style class="standard-table">
+table th:first-of-type {
+width: 40%;
+}
+table th:nth-of-type(2) {
+width: 60%;
+}
+&lt;/style></description></item><item><title>機能対応表</title><link>/business-analyst/pro/tips/functionality/</link><pubDate>Fri, 04 Feb 2022 00:00:00 +0900</pubDate><guid>/business-analyst/pro/tips/functionality/</guid><description>
+&lt;p>ArcMap 版 BA Desktop で利用できる機能に対応する BA Pro の機能を記載します。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">今後は BA Pro に対してのみ新機能の追加や機能改善が行われます。ArcMap 版をお使いの方は、「&lt;strong>&lt;a href="https://www.esrij.com/landing-page/arcmap/" target="_blank">ArcMap のサポートについて&lt;/a>&lt;/strong>」(ESRIジャパン コーポレート サイト) をご覧ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ul class="list-disc ml-6">
+&lt;li>
+&lt;a href="/business-analyst/pro/tips/functionality/ba-toolbar/">Business Analyst ツールバー&lt;/a>&lt;br>Business Analyst ツールバーから利用できる機能の対応表です。
+&lt;/li>
+&lt;li>
+&lt;a href="/business-analyst/pro/tips/functionality/td-toolbar/">テリトリー デザイン ツールバー&lt;/a>&lt;br>テリトリー デザイン ツールバーから利用できる機能の対応表です。
+&lt;/li>
+&lt;li>
+&lt;a href="/business-analyst/pro/tips/functionality/esrijtool/">商圏分析ツール&lt;/a>&lt;br>ArcMap 版のアドイン ツールである商圏分析ツールの機能の対応表です。
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

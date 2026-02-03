@@ -1,0 +1,207 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – 共有</title><link>/online/users-guide/share/</link><description>Recent content in 共有 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Tue, 30 Nov 2021 00:00:00 +0900</lastBuildDate><atom:link href="/online/users-guide/share/index.xml" rel="self" type="application/rss+xml"/><item><title>マップを共有したい</title><link>/online/users-guide/share/map/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/share/map/</guid><description>
+&lt;p>作成したマップ (やレイヤーなどのアイテム) を、他のユーザーやグループに共有することができます。アイテムを共有する&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/roles.htm"target="_blank" rel="noopener">権限&lt;/a>を持っている必要があります。&lt;/p>
+&lt;p>&lt;a href="#map-viewer-%e3%81%8b%e3%82%89%e3%81%ae%e5%85%b1%e6%9c%89%e6%96%b9%e6%b3%95">Map Viewer からの共有方法&lt;/a>&lt;br>
+&lt;a href="#%e3%83%9e%e3%82%a4-%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84-%e3%82%bf%e3%83%96%e3%81%8b%e3%82%89%e3%81%ae%e5%85%b1%e6%9c%89%e6%96%b9%e6%b3%95">[マイ コンテンツ] タブからの共有方法&lt;/a>&lt;/p>
+&lt;h3>マップやレイヤーの共有範囲&lt;span class="hx:absolute hx:-mt-20" id="マップやレイヤーの共有範囲">&lt;/span>
+&lt;a href="#%e3%83%9e%e3%83%83%e3%83%97%e3%82%84%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%81%ae%e5%85%b1%e6%9c%89%e7%af%84%e5%9b%b2" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>マップやレイヤーの共有範囲は次の 3 種類です。&lt;/p>
+&lt;ul>
+&lt;li>すべての人に公開 (パブリック): 組織内外にかかわらず、すべてのユーザーに共有します。&lt;/li>
+&lt;li>組織: 組織内のすべてのユーザーに共有します。&lt;/li>
+&lt;li>グループ: 特定のグループのメンバーに共有します。&lt;/li>
+&lt;/ul>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>Web マップを共有する場合、参照しているレイヤーも同じ共有範囲である必要があります。Web マップとレイヤーの共有範囲が異なる場合は [アイテムの共有が正常に更新されました] ウィンドウで [共有の確認] をクリックし、[共有の確認] ダイアログを開きます。内容を確認し、[共有の更新] をクリックすることで、マップに含まれているレイヤーの共有設定を更新できます。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/share/map-update-layer.png"
+alt="共有の更新" width="500">&lt;figcaption>
+&lt;p>共有の更新&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>ArcGIS Online の組織サイトへの&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/configure-security.htm#ESRI_SECTION1_323F5BC306A542258085A4910D261463"target="_blank" rel="noopener">匿名アクセスが無効&lt;/a>の場合、Web マップや Web アプリ、関連するレイヤーを [すべての人に公開] へ共有しているにも関わらず、組織へのサイン インが求められます。共有した Web マップや Web アプリの URL を下記のように &lt;a href="https://www.arcgis.com"target="_blank" rel="noopener">www.arcgis.com&lt;/a> を含んだ URL に変更しお伝えください。&lt;/p>
+&lt;p>マップの URL:&lt;br>
+https://&lt;font color="red" >〇〇.maps.arcgis.com&lt;/font>/home/webmap/viewer.html?webmap=&amp;lt;Web マップ ID&amp;gt;&lt;br>
+※ 〇〇は、組織サイト独自のショートネームです。&lt;/p>
+&lt;p>パブリック URL に変更後:&lt;br>
+https://&lt;font color="red">&lt;a href="https://www.arcgis.com"target="_blank" rel="noopener">www.arcgis.com&lt;/a>&lt;/font>/home/webmap/viewer.html?webmap=&amp;lt;Web マップ ID&amp;gt;&lt;br>&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h3>Map Viewer からの共有方法&lt;span class="hx:absolute hx:-mt-20" id="map-viewer-からの共有方法">&lt;/span>
+&lt;a href="#map-viewer-%e3%81%8b%e3%82%89%e3%81%ae%e5%85%b1%e6%9c%89%e6%96%b9%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>Map Viewer で&lt;a href="/online/users-guide/map/set-map/">マップを作成して保存&lt;/a>します。&lt;/li>
+&lt;li>[コンテンツ] ツールバーの [マップの共有] タブ → [共有の管理] をクリックします。&lt;/li>
+&lt;li>[共有] ダイアログで、&lt;a href="#%e3%83%9e%e3%83%83%e3%83%97%e3%82%84%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%81%ae%e5%85%b1%e6%9c%89%e7%af%84%e5%9b%b2">共有する範囲&lt;/a>を選択します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/share/map-share.png"
+alt="共有範囲" width="300">&lt;figcaption>
+&lt;p>共有範囲&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>[保存] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;h3>[マイ コンテンツ] タブからの共有方法&lt;span class="hx:absolute hx:-mt-20" id="マイ-コンテンツ-タブからの共有方法">&lt;/span>
+&lt;a href="#%e3%83%9e%e3%82%a4-%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84-%e3%82%bf%e3%83%96%e3%81%8b%e3%82%89%e3%81%ae%e5%85%b1%e6%9c%89%e6%96%b9%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>[コンテンツ] ページ → [マイ コンテンツ] タブを開きます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>共有したいアイテムの左のチェックボックスをオンにし、選択状態にします。複数のアイテムを共有する場合は、それらのアイテムを複数選択します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[共有] をクリックします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/share/map-share-contents.png"
+alt="コンテンツの共有" width="500">&lt;figcaption>
+&lt;p>コンテンツの共有&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>特定のアイテムの共有設定を変更したい場合は、共有範囲のアイコンをクリックすることでも変更できます。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/share/map-share-content.png"
+alt="個別コンテンツの共有" width="500">&lt;figcaption>
+&lt;p>個別コンテンツの共有&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>[共有] ダイアログで、&lt;a href="#%e3%83%9e%e3%83%83%e3%83%97%e3%82%84%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%81%ae%e5%85%b1%e6%9c%89%e7%af%84%e5%9b%b2">共有する範囲&lt;/a>を選択します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/share/map-share.png"
+alt="共有範囲" width="300">&lt;figcaption>
+&lt;p>共有範囲&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[保存] をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>共有設定後、[マイ コンテンツ] タブで、各アイテムの共有範囲を確認することができます。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/share/map-shared.png"
+alt="共有" width="500">&lt;figcaption>
+&lt;p>共有&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>他組織のメンバーとコンテンツを共有したい</title><link>/online/users-guide/share/other-org/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/share/other-org/</guid><description>
+&lt;p>組織外のメンバーが ArcGIS Online の組織アカウントを保有している場合は、そのメンバーを自組織のグループに招待することで、グループ内のコンテンツを共有できます。グループを作成する&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/roles.htm"target="_blank" rel="noopener">権限&lt;/a>が必要です。
+&lt;figure>
+&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/share/other-org-overview.png" title="概要" alt="概要" loading="lazy" />
+&lt;figcaption>概要&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h3>グループの作成&lt;span class="hx:absolute hx:-mt-20" id="グループの作成">&lt;/span>
+&lt;a href="#%e3%82%b0%e3%83%ab%e3%83%bc%e3%83%97%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>組織サイトで [グループ] ページを表示し、[グループ] タブの [グループの作成] をクリックします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/share/other-org-group-create.png"
+alt="グループの作成" width="600">&lt;figcaption>
+&lt;p>グループの作成&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[名前]、[サマリー]、[タグ] を入力します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>サムネイル画像を追加したい場合は、[サムネイルのアップロード] をクリックして設定します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[グループのメンバーシップ] の以下のオプションをそれぞれ選択します。&lt;/p>
+&lt;ul>
+&lt;li>このグループを表示できる人&lt;/li>
+&lt;li>このグループに所属できるユーザー&lt;/li>
+&lt;li>グループへの参加方法&lt;/li>
+&lt;li>コンテンツを提供できるユーザー&lt;/li>
+&lt;li>グループの [メンバー] タブでメンバー全員のリストを表示できるユーザー&lt;/li>
+&lt;/ul>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">各オプションの詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/share-maps/create-groups.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>[グループの指定] の以下のオプションを必要に応じて有効化します。&lt;/p>
+&lt;ul>
+&lt;li>共有の更新&lt;/li>
+&lt;li>管理グループ&lt;/li>
+&lt;li>オープンデータ&lt;/li>
+&lt;/ul>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">各オプションの詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/share-maps/create-groups.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>[保存] をクリックします。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3>メンバーの招待&lt;span class="hx:absolute hx:-mt-20" id="メンバーの招待">&lt;/span>
+&lt;a href="#%e3%83%a1%e3%83%b3%e3%83%90%e3%83%bc%e3%81%ae%e6%8b%9b%e5%be%85" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>上で作成したグループのページを開きます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[メンバーの招待] をクリックします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/share/other-org-group-invite.png"
+alt="招待" width="500">&lt;figcaption>
+&lt;p>招待&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>グループに追加するメンバーを検索します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>組織外のメンバーを追加する場合は、[ArcGIS Online 組織のすべてのメンバーを検索します。] フィルターを有効化します。&lt;br>
+&lt;a href="/online/get-started/setup/member/set-profile/">プロフィール&lt;/a>が非公開のユーザーを招待する場合は、招待するユーザー名を正確に&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>招待するメンバーの名前の横のチェックボックスをオンにします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[メンバーの招待] をクリックします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/share/other-org-member-search.png"
+alt="メンバーの検索" width="500">&lt;figcaption>
+&lt;p>メンバーの検索&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">メンバーの招待の詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/share-maps/own-groups.htm#ESRI_SECTION1_D7599325DDF54503B8F4E1134E7487DC"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;/ol>
+&lt;h3>招待通知を確認し、グループへ加入&lt;span class="hx:absolute hx:-mt-20" id="招待通知を確認しグループへ加入">&lt;/span>
+&lt;a href="#%e6%8b%9b%e5%be%85%e9%80%9a%e7%9f%a5%e3%82%92%e7%a2%ba%e8%aa%8d%e3%81%97%e3%82%b0%e3%83%ab%e3%83%bc%e3%83%97%e3%81%b8%e5%8a%a0%e5%85%a5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>招待されたメンバーが、自分が所属する組織サイトにサイン インすると、ユーザー名の左に [通知] ポップアップが表示されます。&lt;/li>
+&lt;li>[通知] ポップアップをクリックし、[招待の表示] をクリックします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/share/other-org-join.png"
+alt="招待の表示" width="400">&lt;figcaption>
+&lt;p>招待の表示&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>[このグループに参加] をクリックしてグループに加入します。&lt;/li>
+&lt;/ol></description></item></channel></rss>

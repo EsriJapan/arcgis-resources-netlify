@@ -1,52 +1,127 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>メンバー on ArcGIS リソース集</title>
-    <link>/online/get-started/administer/members/</link>
-    <description>Recent content in メンバー on ArcGIS リソース集</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language><atom:link href="/online/get-started/administer/members/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>ロールの変更</title>
-      <link>/online/get-started/administer/members/role/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/online/get-started/administer/members/role/</guid>
-      <description>組織サイトの管理者は、メンバーにロールを割り当てることで権限の範囲を制御することができます。各ロールの詳細は、ヘルプをご参照ください。
- 管理者アカウントで ArcGIS Online にサイン インします。 サイト上部の [組織] タブ → [メンバー] タブをクリックします。 [ロール] 列にある [▼] をクリックして、ロールを変更します。   自身のロールの変更は、[管理者] ユーザーであってもできません。
-メンバーの招待と追加については、「メンバーの追加」をご参照ください。
-</description>
-    </item>
-    
-    <item>
-      <title>ユーザー タイプの変更</title>
-      <link>/online/get-started/administer/members/usertype/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/online/get-started/administer/members/usertype/</guid>
-      <description>ユーザー タイプの概要 ArcGIS Online には、Viewer、Editor、Mobile Worker、Creator、GIS Professional の 5 種類のユーザー タイプがあります。これらのユーザー タイプは、組織サイトのメンバーの ID、利用可能な機能とアプリの組み合わせで構成されています。各ユーザー タイプで利用可能な機能やアプリについては、製品ページをご参照ください。
-ユーザー タイプの変更方法 メンバーのユーザー タイプを変更するには、管理者及びユーザー タイプの変更権限を持ったユーザーである必要があります。
- [組織] ページに移動し、[メンバー] タブをクリックします。 [&amp;hellip;] をクリックし、[ユーザー タイプの管理] をクリックして、ユーザー タイプ/ロールの管理画面を開きます。
- 割り当てたいユーザー タイプをプルダウンから選択し、[保存] をクリックします。  </description>
-    </item>
-    
-    <item>
-      <title>メンバーの削除</title>
-      <link>/online/get-started/administer/members/delete-members/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/online/get-started/administer/members/delete-members/</guid>
-      <description>ArcGIS Online の組織メンバーを削除するには、管理者ユーザーで、以下の手順を行います。アイテムやグループを所有していたり、ライセンスが割り当てられている状態ではメンバーを削除することができません。
- メンバーが所有しているアイテムを削除、または別メンバーにアイテムを移行 所有しているグループの所有者の変更またはグループ自体を削除 アドオン ライセンスの割り当て解除 Esri アクセスの無効化 メンバーの削除の実行  メンバーが所有しているアイテムを削除、または別メンバーにアイテムを移行 ※アイテムを所有していない場合は、このステップをスキップします。
-詳細な手順は以下のページをご参照ください。
- 所有者の変更 アイテムの削除  所有しているグループの所有者の変更またはグループ自体を削除 ※グループを所有していない場合は、このステップをスキップします。
- [組織] メニュー → [メンバー] タブ上で削除したいメンバーを検索し、メンバー名の一番右にある […] をクリックします。 [グループの表示] をクリックし、所属しているグループ一覧を表示します。
- 削除するメンバーがグループを所有している場合、グループの所有者の変更もしくは、グループ自体の削除を行います。  グループの所有者の変更を行う場合、グループ名をクリックし、[概要] タブ上で右側にある [所有者] の欄の [所有者の変更] をクリックします。
- グループを削除する場合、グループ名の右側にある [グループの削除] をクリックし、グループを削除します。     アドオン ライセンスの割り当て解除 ※アドオン ライセンスの割り当てがされていない場合は、このステップをスキップします。
-詳細な手順は以下のページをご参照ください。
- ライセンスの割り当てと解除  Esri アクセスの無効化 ※メンバーを完全に削除するために必要なステップです。メンバー アカウントを個人向けプランに変換したい場合は、このステップをスキップします。
- [組織] メニュー → [メンバー] タブ上で削除したいメンバーを検索し、メンバー名の一番右にある […] をクリックします。 [Esri アクセスの無効化] をクリックします。</description>
-    </item>
-    
-  </channel>
-</rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – メンバー</title><link>/online/get-started/administer/members/</link><description>Recent content in メンバー on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Wed, 17 Mar 2021 00:00:00 +0900</lastBuildDate><atom:link href="/online/get-started/administer/members/index.xml" rel="self" type="application/rss+xml"/><item><title>ロールの変更</title><link>/online/get-started/administer/members/role/</link><pubDate>Fri, 17 Mar 2017 00:00:00 +0900</pubDate><guid>/online/get-started/administer/members/role/</guid><description>
+&lt;p>組織サイトの管理者は、メンバーにロールを割り当てることで権限の範囲を制御することができます。各ロールの詳細は、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/roles.htm#ESRI_SECTION1_911D5C251A304BA08B70ABE88D5E4E94"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/p>
+&lt;ol>
+&lt;li>管理者アカウントで ArcGIS Online にサイン インします。&lt;/li>
+&lt;li>サイト上部の [組織] タブ → [メンバー] タブをクリックします。&lt;/li>
+&lt;li>変更したいユーザーのロールをクリックして、ユーザー タイプ/ロールの管理画面を開きます。
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/members/role-change.png"
+alt="ロールの変更" width="500">&lt;figcaption>
+&lt;p>ロールの変更&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>割り当てたいロールをプルダウンから選択し、[保存] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">自身のロールの変更は、管理者ユーザーであってもできません。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">メンバーの招待と追加については、「&lt;a href="/online/get-started/setup/admin/add-members/">メンバーの追加&lt;/a>」をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>ユーザー タイプの変更</title><link>/online/get-started/administer/members/usertype/</link><pubDate>Wed, 17 Mar 2021 00:00:00 +0900</pubDate><guid>/online/get-started/administer/members/usertype/</guid><description>
+&lt;h2>ユーザー タイプの概要&lt;span class="hx:absolute hx:-mt-20" id="ユーザー-タイプの概要">&lt;/span>
+&lt;a href="#%e3%83%a6%e3%83%bc%e3%82%b6%e3%83%bc-%e3%82%bf%e3%82%a4%e3%83%97%e3%81%ae%e6%a6%82%e8%a6%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ArcGIS Online には、&lt;strong>Viewer&lt;/strong>、&lt;strong>Contributor&lt;/strong>、&lt;strong>Mobile Worker&lt;/strong>、&lt;strong>Creator&lt;/strong>、&lt;strong>Professional&lt;/strong>、&lt;strong>Professional Plus&lt;/strong> の 6 種類のユーザー タイプがあります。これらのユーザー タイプは、組織サイトのメンバーの ID、利用可能な機能とアプリの組み合わせで構成されています。各ユーザー タイプで利用可能な機能やアプリについては、&lt;a href="https://www.esrij.com/products/user-types/"target="_blank" rel="noopener">製品ページ&lt;/a>をご参照ください。&lt;/p>
+&lt;h2>ユーザー タイプの変更方法&lt;span class="hx:absolute hx:-mt-20" id="ユーザー-タイプの変更方法">&lt;/span>
+&lt;a href="#%e3%83%a6%e3%83%bc%e3%82%b6%e3%83%bc-%e3%82%bf%e3%82%a4%e3%83%97%e3%81%ae%e5%a4%89%e6%9b%b4%e6%96%b9%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>メンバーのユーザー タイプを変更するには、管理者及びユーザー タイプの変更権限を持ったユーザーである必要があります。&lt;/p>
+&lt;ol>
+&lt;li>[組織] ページに移動し、[メンバー] タブをクリックします。&lt;/li>
+&lt;li>変更したいユーザーのユーザー タイプをクリックして、ユーザー タイプ/ロールの管理画面を開きます。
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/members/usertype-manage.png"
+alt="ユーザー タイプの変更" width="500">&lt;figcaption>
+&lt;p>ユーザー タイプの変更&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>割り当てたいユーザー タイプをプルダウンから選択し、[保存] をクリックします。&lt;/li>
+&lt;/ol></description></item><item><title>メンバーの削除</title><link>/online/get-started/administer/members/delete-members/</link><pubDate>Wed, 05 Mar 2025 00:00:00 +0900</pubDate><guid>/online/get-started/administer/members/delete-members/</guid><description>
+&lt;p>ArcGIS Online の組織メンバーを削除します。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>管理者権限を持つユーザーで ArcGIS Online にサイン インします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[組織] → [メンバー] タブをクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>削除したいメンバーを検索します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>メンバー名の一番右にある […] → [メンバーの削除] をクリックします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/members/delete-members-delete.png"
+alt="メンバーの削除" width="700">&lt;figcaption>
+&lt;p>メンバーの削除&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>複数のメンバーを一括で削除する場合は、削除するメンバー名の左にあるチェックボックスをオンにし、[その他] ドロップダウン メニューの [メンバーの削除] をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/members/delete-members-bulkdelete.png"
+alt="複数メンバーの削除" width="700">&lt;figcaption>
+&lt;p>複数メンバーの削除&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>削除するメンバーがコンテンツやグループを所有している場合、以下の画面が表示されます。いずれかのオプションを選択し、[次へ] をクリックします。&lt;br>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/members/delete-members-manage-items.png"
+alt="グループとコンテンツの管理" width="400">&lt;figcaption>
+&lt;p>グループとコンテンツの管理&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">コンテンツやグループを所有している状態では、メンバーを削除することができません。
+&lt;br>ただしゴミ箱に含まれるコンテンツは、メンバーの削除と同時に削除されます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[コンテンツとグループの削除] を選択した場合は、完全に削除され、元に戻せません。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>手順 5 で [コンテンツとグループの移動] を選択した場合は、削除するメンバーが所有するコンテンツとグループを移行する他のメンバーを [メンバーの検索] ボックスで検索して指定します。&lt;br>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/members/delete-members-transfer-items.png"
+alt="グループとコンテンツの移動" width="400">&lt;figcaption>
+&lt;p>グループとコンテンツの移動&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>[移動するコンテンツ]、[移動するグループ] 右の [すべて表示] をクリックして、削除するメンバーが所有するコンテンツやグループの一覧を表示することができます。一覧内のコンテンツやグループのそれぞれのアイテム詳細ページを開いて、個別に所有者の変更を行うこともできます。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/members/delete-members-content-change.png"
+alt="コンテンツの所有者変更" width="600">&lt;figcaption>
+&lt;p>コンテンツの所有者変更&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>[メンバーの削除] をクリックします。
+グループとコンテンツの移動と同時に、Esri アクセスの無効化や割り当てられているライセンスの取り消しが行われ、メンバーが削除されます。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/members/delete-members-processing.png"
+alt="メンバーの削除" width="400">&lt;figcaption>
+&lt;p>メンバーの削除&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;/ol></description></item></channel></rss>

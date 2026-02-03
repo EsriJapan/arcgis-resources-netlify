@@ -1,48 +1,105 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>メンバーの操作 on ArcGIS リソース集</title>
-    <link>/online/get-started/setup/member/</link>
-    <description>Recent content in メンバーの操作 on ArcGIS リソース集</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language>
-    <lastBuildDate>Fri, 17 Dec 2021 00:00:00 +0900</lastBuildDate><atom:link href="/online/get-started/setup/member/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>組織サイトへ加入</title>
-      <link>/online/get-started/setup/member/join/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/online/get-started/setup/member/join/</guid>
-      <description>この手順を完了したメンバーは、今後組織サイトを利用することができます。メンバーになると、組織で共有されているコンテンツおよびグループにアクセスしたりできるようになります。
- ArcGIS Online の組織サイトの管理者から、アカウントの「ユーザー名」と「初期パスワード」の情報を入手します。  管理者が「招待メールを送信せずにメンバーを自動的に追加」の方法でメンバーを追加した場合は、そのユーザーのアカウントはすぐに利用可能です。
-以下のページにアクセスし、ArcGIS Online にサイン インします。
-https://www.arcgis.com/home/signin.html  パスワードの変更が求められます。任意のパスワードに変更します。これで、組織サイトのメンバーとして加入しました。  詳細については、ヘルプをご参照ください。
-招待メールを受信した場合 組織サイトの管理者から、「ユーザー名」と「初期パスワード」ではなく、招待メールがメンバーへ送信される場合があります。招待メールを受信したメンバーは、以下の手順に従い、組織サイトへの加入を完了してください。
-ここで設定する「ユーザー名」 と「パスワード」は、ArcGIS Pro や各種アプリで利用するために大切なアカウント情報です。忘れないようにして下さい。
-  「ArcGIS Online 組織、○○に加入するための招待です。」という件名のメールを開きます。
-  「「〇〇」組織に加入するには、このリンクをクリックしてアカウントの設定を終了し、パスワードを登録してください。」あるいは「「〇〇」組織に加入するには、このリンクをクリックしてください。」の URL リンクをクリックします。   下記のいずれかの画面がブラウザーで表示されます。
-    「パスワードの設定」の画面
-管理者があらかじめユーザー名を指定しています。画面に従い、パスワードの作成と、パスワードの復旧に必要なセキュリティの質問と答えを設定してください。 次回サイン インする際は、「プロフィールの設定」で表示されるユーザー名と、今回設定したパスワードを入力してください。
-  「○○ (組織名) への加入」の画面
-[新しいアカウントの作成] を選択して [次へ] をクリックし、招待を受けたメンバーご自身でユーザー名やパスワードを作成します。
-  既に個人向けアカウントをお使いで、そのアカウントを組織向けアカウントとして利用する場合は、[ArcGIS 個人向けアカウントの変換] を選択し、お持ちのユーザー名とパスワードを入力します。 </description>
-    </item>
-    
-    <item>
-      <title>プロフィールの設定</title>
-      <link>/online/get-started/setup/member/set-profile/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/online/get-started/setup/member/set-profile/</guid>
-      <description>ユーザーの表示名やプロフィールの公開範囲、表示言語や単位などをプロフィールの設定で変更できます。プロフィールの設定は、いつでも変更できます。
- 初めて ArcGIS Online にサイン インすると、プロフィールの情報が表示されます。 各項目や、鉛筆のアイコンをクリックして編集します。   ❶ 画像を設定します。
-❷ 氏名を変更できます。
-❸ ユーザー名を確認できます。ユーザー名を変更することはできません。
-❹ プロフィールに掲載する自己紹介文を入力します。
-❺ 設定したプロフィールを [すべての人に公開] 、 [組織] 、 [非公開] から選択し、公開範囲を制限することができます。
-❻ その他の設定画面を開きます。表示言語や計測単位などを設定できます。
-サイン イン後、ページ右上の名前 → [マイ プロフィール] をクリックしても、同じページにアクセスできます。 </description>
-    </item>
-    
-  </channel>
-</rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – メンバーの操作</title><link>/online/get-started/setup/member/</link><description>Recent content in メンバーの操作 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 17 Dec 2021 00:00:00 +0900</lastBuildDate><atom:link href="/online/get-started/setup/member/index.xml" rel="self" type="application/rss+xml"/><item><title>組織サイトへ加入</title><link>/online/get-started/setup/member/join/</link><pubDate>Fri, 09 Apr 2021 00:00:00 +0900</pubDate><guid>/online/get-started/setup/member/join/</guid><description>
+&lt;p>この手順を完了したメンバーは、今後組織サイトを利用することができます。メンバーになると、組織で共有されているコンテンツおよびグループにアクセスしたりできるようになります。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>ArcGIS Online の組織サイトの管理者から、アカウントの「ユーザー名」と「初期パスワード」の情報を入手します。
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">管理者が「&lt;a href="/online/get-started/setup/admin/add-members/">招待メールを送信せずにメンバーを自動的に追加&lt;/a>」の方法でメンバーを追加した場合は、そのユーザーのアカウントはすぐに利用可能です。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>以下のページにアクセスし、ArcGIS Online にサイン インします。&lt;br>
+&lt;a href="https://www.arcgis.com/home/signin.html"target="_blank" rel="noopener">https://www.arcgis.com/home/signin.html&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/setup/member/join-signin.png"
+alt="サイン イン" width="300">&lt;figcaption>
+&lt;p>サイン イン&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;ol start="3">
+&lt;li>パスワードの変更が求められます。任意のパスワードに変更します。これで、組織サイトのメンバーとして加入しました。&lt;/li>
+&lt;/ol>
+&lt;p>詳細については、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/get-started/join-org.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/p>
+&lt;h3>招待メールを受信した場合&lt;span class="hx:absolute hx:-mt-20" id="招待メールを受信した場合">&lt;/span>
+&lt;a href="#%e6%8b%9b%e5%be%85%e3%83%a1%e3%83%bc%e3%83%ab%e3%82%92%e5%8f%97%e4%bf%a1%e3%81%97%e3%81%9f%e5%a0%b4%e5%90%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>組織サイトの管理者から、「ユーザー名」と「初期パスワード」ではなく、招待メールがメンバーへ送信される場合があります。招待メールを受信したメンバーは、以下の手順に従い、組織サイトへの加入を完了してください。
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ここで設定する「ユーザー名」 と「パスワード」は、ArcGIS Pro や各種アプリで利用するために大切なアカウント情報です。忘れないようにして下さい。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>「ArcGIS Online 組織、○○に加入するための招待です。」という件名のメールを開きます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>「「〇〇」組織に加入するには、このリンクをクリックしてアカウントの設定を終了し、パスワードを登録してください。」あるいは「「〇〇」組織に加入するには、このリンクをクリックしてください。」の URL リンクをクリックします。
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/setup/member/join-invitelink.png"
+alt="招待リンク" width="500">&lt;figcaption>
+&lt;p>招待リンク&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>下記のいずれかの画面がブラウザーで表示されます。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>「パスワードの設定」の画面&lt;/strong>&lt;br>
+管理者があらかじめユーザー名を指定しています。画面に従い、パスワードの作成と、パスワードの復旧に必要なセキュリティーの質問と答えを設定してください。
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/setup/member/join-password.png"
+alt="パスワードの設定" width="700">&lt;figcaption>
+&lt;p>パスワードの設定&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+次回サイン インする際は、&lt;a href="/online/get-started/setup/member/set-profile/">「プロフィールの設定」で表示されるユーザー名&lt;/a>と、今回設定したパスワードを入力してください。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>「○○ (組織名) への加入」の画面&lt;/strong>&lt;br>
+[新しいアカウントの作成] を選択して [次へ] をクリックし、招待を受けたメンバーご自身でユーザー名やパスワードを作成します。&lt;br>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/setup/member/join-newaccount.png"
+alt="アカウントの作成" width="700">&lt;figcaption>
+&lt;p>アカウントの作成&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>既に個人向けアカウントをお使いで、そのアカウントを組織向けアカウントとして利用する場合は、[ArcGIS 個人向けアカウントの変換] を選択し、お持ちのユーザー名とパスワードを入力します。
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/setup/member/join-existaccount.png"
+alt="アカウントの変換" width="700">&lt;figcaption>
+&lt;p>アカウントの変換&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p></description></item><item><title>プロフィールの設定</title><link>/online/get-started/setup/member/set-profile/</link><pubDate>Fri, 05 Apr 2024 00:00:00 +0900</pubDate><guid>/online/get-started/setup/member/set-profile/</guid><description>
+&lt;p>ユーザーの表示名やプロフィールの公開範囲、表示言語や単位などをプロフィールの設定で変更できます。プロフィールの設定は、いつでも変更できます。&lt;/p>
+&lt;ol>
+&lt;li>ページ右上の名前 → [プロフィール] をクリックします。
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/setup/member/set-profile-myprofile.png"
+alt="プロフィール" width="300">&lt;figcaption>
+&lt;p>プロフィール&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>プロフィールの情報で変更したい箇所や、鉛筆のアイコンをクリックして編集します。
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/setup/member/set-profile-editprofile.png"
+alt="プロフィール編集" width="300">&lt;figcaption>
+&lt;p>プロフィール編集&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;span style="color: red; ">❶&lt;/span> 画像を設定します。&lt;br>
+&lt;span style="color: red; ">❷&lt;/span> 氏名を変更できます。&lt;br>
+&lt;span style="color: red; ">❸&lt;/span> ユーザー名を確認できます。ユーザー名を変更することはできません。&lt;br>
+&lt;span style="color: red; ">❹&lt;/span> プロフィールに掲載する自己紹介文を入力します。&lt;br>
+&lt;span style="color: red; ">❺&lt;/span> 設定したプロフィールを [すべての人に公開]、[組織]、[非公開] から選択し、公開範囲を制限することができます。&lt;br>
+&lt;span style="color: red; ">❻&lt;/span> その他の設定画面を開きます。表示言語や計測単位などを設定できます。&lt;/p></description></item></channel></rss>

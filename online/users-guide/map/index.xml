@@ -1,0 +1,736 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – マップの作成と利用</title><link>/online/users-guide/map/</link><description>Recent content in マップの作成と利用 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0900</lastBuildDate><atom:link href="/online/users-guide/map/index.xml" rel="self" type="application/rss+xml"/><item><title>マップを作成したい</title><link>/online/users-guide/map/set-map/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/map/set-map/</guid><description>
+&lt;p>&lt;a href="/online/users-guide/create-data/">データの作成&lt;/a>で作成したフィーチャ レイヤーなどを、レイヤーとしてマップに追加し、様々なレイヤーを組み合わせてマップを作成することができます。&lt;/br>
+マップの保存には、コンテンツを作成する&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/roles.htm"target="_blank" rel="noopener">権限&lt;/a>が必要です (権限を持っていない場合でもマップは作成できますが、保存することはできません)。&lt;/p>
+&lt;h3>レイヤーの追加&lt;span class="hx:absolute hx:-mt-20" id="レイヤーの追加">&lt;/span>
+&lt;a href="#%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%81%ae%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>ArcGIS Online 組織サイトの上部に表示されている [マップ] をクリックします。または、右上に表示されている [アプリ ランチャー] から [Map Viewer] をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/set-map-app-launcher.png"
+alt="アプリ ランチャー" width="400">&lt;figcaption>
+&lt;p>アプリ ランチャー&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>[コンテンツ] ツールバーの [追加] をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>表示されるいずれかのレイヤーの追加方法を選択します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/set-map-contents-toolbar-add.png"
+alt="レイヤーの追加方法" width="660">&lt;figcaption>
+&lt;p>レイヤーの追加方法&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;p>それぞれのレイヤーの追加方法は、以下の通りです。&lt;/p>
+&lt;h4>レイヤーの参照&lt;span class="hx:absolute hx:-mt-20" id="レイヤーの参照">&lt;/span>
+&lt;a href="#%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%81%ae%e5%8f%82%e7%85%a7" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ol>
+&lt;li>
+&lt;p>[レイヤーの参照] で [マイ コンテンツ] をクリックし、検索する場所を指定します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/set-map-browse-layers.png"
+alt="レイヤーの参照" width="300">&lt;figcaption>
+&lt;p>レイヤーの参照&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>[レイヤーの検索] ボックスにキーワードを入力し、Enter キーで検索します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[フィルター] をクリックすると、[フィルター] パネルが開きます。[タイトル] や [更新日] などで検索結果の並べ替えや、[更新日] や [アイテム タイプ] などでフィルターして検索することも可能です。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>検索結果の [追加] をクリックして、レイヤーをマップに追加します。追加後に [削除] をクリックしてマップから削除することもできます。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/set-map-search-and-add-layers.png"
+alt="レイヤーの検索と追加" width="400">&lt;figcaption>
+&lt;p>レイヤーの検索と追加&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>[閉じる] をクリックして、パネルを閉じます。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[レイヤーの参照] で検索する場所を [Living Atlas] に指定すると、米国 Esri 社やほかのユーザーが提供する高品質なレイヤーをマップに追加できます。レイヤーの詳細は、アイテム説明で確認できます。レイヤーによっては、クレジットを消費するものがあります。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h4>URL からレイヤーを追加&lt;span class="hx:absolute hx:-mt-20" id="url-からレイヤーを追加">&lt;/span>
+&lt;a href="#url-%e3%81%8b%e3%82%89%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%82%92%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>CSV、KML、ArcGIS Server Web サービス、GeoRSS、GeoJSON、タイル レイヤーなどのレイヤー タイプは、URL を使用してマップにレイヤーを追加できます。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/add-layers-from-url.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h4>ファイルからレイヤーを追加&lt;span class="hx:absolute hx:-mt-20" id="ファイルからレイヤーを追加">&lt;/span>
+&lt;a href="#%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%8b%e3%82%89%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%82%92%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>サポートされているファイル形式で保存したデータをインポートして、Map Viewer にレイヤーを追加することができます。
+サポートされているファイル タイプは、CSV、Microsoft Excel、ファイル ジオデータベース、GeoJSON、シェープファイル、KML、GeoPackage などのファイル タイプです。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ホスト フィーチャ レイヤーを作成しないで、ローカルまたはネットワーク ディレクトリからウィンドウにドラッグし追加することができます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/add-layers-from-file.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h4>スケッチ レイヤーの作成&lt;span class="hx:absolute hx:-mt-20" id="スケッチ-レイヤーの作成">&lt;/span>
+&lt;a href="#%e3%82%b9%e3%82%b1%e3%83%83%e3%83%81-%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>マップの任意の場所に、スタンプまたはフィーチャ、テキストを描画できます。スケッチ レイヤー内のフィーチャをクリックしたときに表示されるポップアップも設定できます。&lt;/br>描画したスケッチ レイヤーは、マップと一緒に保存されます。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>スケッチ レイヤーを作成すると [スケッチ] ウィンドウが表示されます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>スケッチ ツールで、マップに追加するフィーチャの種類を選択します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>マップ上でフィーチャを描画します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>描画したフィーチャの外観を変更するには、[スケッチ] ウィンドウの [シンボル] で設定します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/set-map-draw-sketch-layers.png"
+alt="スケッチ レイヤーの描画" width="600">&lt;figcaption>
+&lt;p>スケッチ レイヤーの描画&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>描画したフィーチャにポップアップを追加する場合は、[スケッチ] ウィンドウの [ポップアップ] をクリックし、[ポップアップの有効化] ボタンをオンにします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[タイトル] と [テキスト] エレメントを入力します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[戻る] をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/set-map-popup-sketch-layers.png"
+alt="ポップアップの設定" width="550">&lt;figcaption>
+&lt;p>ポップアップの設定&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;h4>ルート レイヤーの作成&lt;span class="hx:absolute hx:-mt-20" id="ルート-レイヤーの作成">&lt;/span>
+&lt;a href="#%e3%83%ab%e3%83%bc%e3%83%88-%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>ネットワーク解析を実行する&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/roles.htm"target="_blank" rel="noopener">権限&lt;/a>を持つ組織サイトのメンバーは、ターンごとの自動車または歩行者向けのルート案内を取得し、マップ上にルートを表示できます。移動モードを設定し、複数のストップを追加し、出発時間を選択することができます。また、[ルートを構成] し、適切な権限が付与されていれば、[ルートを保存] して他のユーザーと共有することもできます。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/create-route-layers.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h4>メディア レイヤーの追加&lt;span class="hx:absolute hx:-mt-20" id="メディア-レイヤーの追加">&lt;/span>
+&lt;a href="#%e3%83%a1%e3%83%87%e3%82%a3%e3%82%a2-%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%81%ae%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>1 つまたは複数の画像をマップに追加し、目的の位置に画像を配置したレイヤーを作成することができます。 サポートされているファイル タイプは、JPG または PNG です。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/add-media-layers.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h3>マップの保存&lt;span class="hx:absolute hx:-mt-20" id="マップの保存">&lt;/span>
+&lt;a href="#%e3%83%9e%e3%83%83%e3%83%97%e3%81%ae%e4%bf%9d%e5%ad%98" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>[コンテンツ] ツールバーの [保存と開く] → [名前を付けて保存] をクリックして、新しくマップを保存します。
+既存のマップを上書き保存する場合は、[保存] をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/set-map-save-map.png"
+alt="マップの保存" width="300">&lt;figcaption>
+&lt;p>マップの保存&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>[マップの保存] ダイアログで、タイトルの入力、保存するフォルダーの選択等を行い、[保存] をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/set-map-save-map-dialog.png"
+alt="[マップの保存] ダイアログ" width="400">&lt;figcaption>
+&lt;p>[マップの保存] ダイアログ&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>マップが [マイ コンテンツ] に保存されます。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>保存した後でマップのタイトルを変更する場合は、タイトルの横にある [マップ タイトルの変更] をクリックした後、タイトルを変更して、[確認] をクリックし、マップを保存します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/set-map-change-map-name.png"
+alt="マップのタイトルの変更" width="600">&lt;figcaption>
+&lt;p>マップのタイトルの変更&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>シンボルを変更したい</title><link>/online/users-guide/map/style/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/map/style/</guid><description>
+&lt;p>マップに追加したレイヤーのシンボルの色や形を変更します。コンテンツを作成する&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/roles.htm"target="_blank" rel="noopener">権限&lt;/a>が必要です。&lt;/p>
+&lt;h3>シンボルの適用&lt;span class="hx:absolute hx:-mt-20" id="シンボルの適用">&lt;/span>
+&lt;a href="#%e3%82%b7%e3%83%b3%e3%83%9c%e3%83%ab%e3%81%ae%e9%81%a9%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>Map Viewer でレイヤーを含むマップを開くか、&lt;a href="/online/users-guide/map/set-map/">マップにレイヤーを追加&lt;/a>します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[コンテンツ] ツールバーの [レイヤー] をクリックして、[レイヤー] ウィンドウを表示します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[レイヤー] ウィンドウでシンボルを設定したいレイヤーを選択します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[設定] ツールバーの [シンボル] をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/style-select-layers.png"
+alt="レイヤーの選択" width="700&amp;#34;">&lt;figcaption>
+&lt;p>レイヤーの選択&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>[シンボル] ウィンドウの [属性の選択] で [フィールド] をクリックし、シンボルを設定する属性フィールドを選択して [追加] をクリックします。&lt;/br>属性値でシンボル設定をしない場合は、属性の選択は不要です。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/style-select-fields.png"
+alt="フィールドの選択" width="350">&lt;figcaption>
+&lt;p>フィールドの選択&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>[スタイルの選択] で描画スタイルを選択します。[スタイル オプション] をクリックすると、レイヤーの外観をカスタマイズできます。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3>代表的なシンボル設定&lt;span class="hx:absolute hx:-mt-20" id="代表的なシンボル設定">&lt;/span>
+&lt;a href="#%e4%bb%a3%e8%a1%a8%e7%9a%84%e3%81%aa%e3%82%b7%e3%83%b3%e3%83%9c%e3%83%ab%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>種類&lt;/th>
+&lt;th style="text-align: left">説明&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;figure>
+&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/style-location-single-symbol.png" title="位置 (単一シンボル)" alt="位置 (単一シンボル)" loading="lazy" />
+&lt;figcaption>位置 (単一シンボル)&lt;/figcaption>
+&lt;/figure>&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/style-location-mv.htm#ESRI_SECTION1_A06B2E23B234435FAC4D68006F926BC1"target="_blank" rel="noopener">位置 (単一シンボル)&lt;/a>&lt;/br>すべてのフィーチャを同じシンボルで表現します。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;figure>
+&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/style-heat-map.png" title="ヒート マップ" alt="ヒートマップ" loading="lazy" />
+&lt;figcaption>ヒート マップ&lt;/figcaption>
+&lt;/figure>&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/style-location-mv.htm#ESRI_SECTION1_2DFD98C91EAE47A4BAE846E5DE75E978"target="_blank" rel="noopener">ヒート マップ&lt;/a>&lt;/br>ポイントが集中しているエリアを一目で確認できるような表現ができます。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;figure>
+&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/style-type-unique-symbols.png" title="タイプ (個別値シンボル)" alt="タイプ (個別値シンボル)" loading="lazy" />
+&lt;figcaption>タイプ (個別値シンボル)&lt;/figcaption>
+&lt;/figure>&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/style-categories-mv.htm#ESRI_SECTION1_1084DA17FD3C470B87A004AB55132D38"target="_blank" rel="noopener">タイプ (個別値シンボル)&lt;/a>&lt;/br>樹木の種類、道路クラス、都道府県名など、属性のカテゴリごとにシンボルを割り当てて描画します。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;figure>
+&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/style-counts-and-amounts-size.png" title="数と量 (サイズ)" alt="数と量 (サイズ)" loading="lazy" />
+&lt;figcaption>数と量 (サイズ)&lt;/figcaption>
+&lt;/figure>&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/style-numbers-mv.htm#ESRI_SECTION1_872438351B424ECE9B435B47F6E7432F"target="_blank" rel="noopener">数と量 (サイズ)&lt;/a>&lt;/br>数値またはランク付けされたデータをシンボルの大きさで表現します。データの数値が大きいほど、シンボルの大きさも大きく表示されます。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;figure>
+&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/style-counts-and-amounts-color.png" title="数と量 (色)" alt="数と量 (色)" loading="lazy" />
+&lt;figcaption>数と量 (色)&lt;/figcaption>
+&lt;/figure>&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/style-numbers-mv.htm#ESRI_SECTION1_1D8BD412F83148C6ABF315CA10111E66"target="_blank" rel="noopener">数と量 (色)&lt;/a>&lt;/br>数値またはランク付けされたデータを色の濃淡で表現します。データの数値が大きいほど濃い色で、小さいほど淡い色で表示することなどができます。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;figure>
+&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/style-relationship.png" title="リレーションシップ" alt="リレーションシップ" loading="lazy" />
+&lt;figcaption>リレーションシップ&lt;/figcaption>
+&lt;/figure>&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/style-numbers-mv.htm#ESRI_SECTION1_C7FAB061D60344CAB6AC9A190DAED1D2"target="_blank" rel="noopener">リレーションシップ&lt;/a>&lt;/br>数値型の属性を指定し、2 つの属性値の相関関係をカラー ランプで表現します。&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">その他さまざまなシンボルを設定することができます。詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/apply-styles-mv.htm#ESRI_SECTION1_195BD40347774AEDAEC373A7A0898A80"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>ラベルを変更したい</title><link>/online/users-guide/map/label/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/map/label/</guid><description>
+&lt;p>マップ上のフィーチャにテキストを表示します。&lt;/p>
+&lt;ol>
+&lt;li>Map Viewer でレイヤーを含むマップを開くか、&lt;a href="/online/users-guide/map/set-map/#%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%81%ae%e8%bf%bd%e5%8a%a0">マップにレイヤーを追加&lt;/a>します。&lt;/li>
+&lt;li>[レイヤー] ウィンドウで、ラベルを適用するレイヤーを選択します。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/label-Select-layer.png"
+alt="レイヤーの選択" width="350&amp;#34;">&lt;figcaption>
+&lt;p>レイヤーの選択&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;ol start="3">
+&lt;li>[設定] ツールバーの [ラベル] をクリックします。&lt;/li>
+&lt;li>[フィーチャのラベル作成] ウィンドウで、[ラベルの有効化] 切り替えボタンをオンにします。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/label-label.png"
+alt="ラベル" width="300&amp;#34;">&lt;figcaption>
+&lt;p>ラベル&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">使用する PC の画面サイズによって、[設定] ツールバーの [ラベル] などのツールが [その他] タブ内に隠れている場合があります。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="5">
+&lt;li>[ラベル クラスの追加] をクリックした後、必要に応じて&lt;a href="#%e3%83%a9%e3%83%99%e3%83%ab-%e3%83%95%e3%82%a3%e3%83%bc%e3%83%ab%e3%83%89%e3%81%ae%e5%a4%89%e6%9b%b4">ラベル フィールドの変更&lt;/a>、&lt;a href="#%e3%83%a9%e3%83%99%e3%83%ab-%e3%83%95%e3%82%a3%e3%83%ab%e3%82%bf%e3%83%bc%e3%81%ae%e7%b7%a8%e9%9b%86">ラベル フィルターの編集&lt;/a>、&lt;a href="#%e3%83%a9%e3%83%99%e3%83%ab-%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab%e3%81%ae%e7%b7%a8%e9%9b%86">ラベル スタイルの編集&lt;/a>等を行います。&lt;/li>
+&lt;/ol>
+&lt;h3>ラベル フィールドの変更&lt;span class="hx:absolute hx:-mt-20" id="ラベル-フィールドの変更">&lt;/span>
+&lt;a href="#%e3%83%a9%e3%83%99%e3%83%ab-%e3%83%95%e3%82%a3%e3%83%bc%e3%83%ab%e3%83%89%e3%81%ae%e5%a4%89%e6%9b%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>[ラベル フィールド] に設定されているフィールド名をクリックし、ラベルに使用する属性フィールドを選択します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/label-field.gif"
+alt="ラベル フィールド" width="500&amp;#34;">&lt;figcaption>
+&lt;p>ラベル フィールド&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">属性フィールドの代わりに、Arcade で記述したカスタム属性式を使用できます。[式の使用] &amp;lt;/&amp;gt; をクリックし、エディター ウィンドウを使用して式を作成します。詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/configure-labels-mv.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h3>ラベル フィルターの編集&lt;span class="hx:absolute hx:-mt-20" id="ラベル-フィルターの編集">&lt;/span>
+&lt;a href="#%e3%83%a9%e3%83%99%e3%83%ab-%e3%83%95%e3%82%a3%e3%83%ab%e3%82%bf%e3%83%bc%e3%81%ae%e7%b7%a8%e9%9b%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>[フィルター] の [ラベル フィルターの編集] をクリックします。[新しく追加] をクリックしてフィルターを設定します。 詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/apply-filters-mv.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/label-filter.gif"
+alt="ラベル フィルター" width="500&amp;#34;">&lt;figcaption>
+&lt;p>ラベル フィルター&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h3>ラベル スタイルの編集&lt;span class="hx:absolute hx:-mt-20" id="ラベル-スタイルの編集">&lt;/span>
+&lt;a href="#%e3%83%a9%e3%83%99%e3%83%ab-%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab%e3%81%ae%e7%b7%a8%e9%9b%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>[ラベル スタイルの編集] をクリックします。フォント、テキスト サイズ、配置などのラベルのスタイルを変更します。 詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/configure-labels-mv.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/label-style.gif"
+alt="ラベル スタイル" width="500&amp;#34;">&lt;figcaption>
+&lt;p>ラベル スタイル&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ラベル クラスの名前を変更するためにはラベル クラス名の横にある [オプション] をクリックして [名前の変更] をクリックし、新しい名前を入力した後 [OK] をクリックします。
+また、ラベル クラスを削除するにはラベル クラス名の横にある [オプション] をクリックしてから [削除] をクリックします。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="6">
+&lt;li>ラベルの設定が終了したら、[フィーチャのラベル作成] ウィンドウを閉じます。&lt;/li>
+&lt;/ol></description></item><item><title>ポップアップの内容を変更したい</title><link>/online/users-guide/map/popup/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/map/popup/</guid><description>
+&lt;p>フィーチャの属性情報を表示する吹き出しの内容を変更します。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Map Viewer でレイヤーを含むマップを開くか、&lt;a href="/online/users-guide/map/set-map/#%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%81%ae%e8%bf%bd%e5%8a%a0">マップにレイヤーを追加&lt;/a>します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[レイヤー] ウィンドウで、ポップアップを設定するレイヤーを選択します。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/popup-Select-layer.png"
+alt="レイヤーの選択" width="350&amp;#34;">&lt;figcaption>
+&lt;p>レイヤーの選択&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;ol start="3">
+&lt;li>[設定] ツールバーの [ポップアップ] をクリックし、内容を変更します。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/popup-popup.png"
+alt="ポップアップ" width="700&amp;#34;">&lt;figcaption>
+&lt;p>ポップアップ&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;ol start="4">
+&lt;li>
+&lt;p>[ポップアップの有効化]&lt;br>
+切り替えボタンをオンにすることでポップアップを有効化することができます。レイヤーのポップアップを非表示にするには、切り替えボタンをオフにします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[タイトル]&lt;br>
+タイトルの入力・変更ができます。[{}] をクリックして、データからフィールドを選択します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[フィールドリスト]&lt;br>
+フィールド リストのタイトルや説明を追加できます。また、ポップアップに表示するフィールドを選択できます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[添付ファイル]&lt;br>
+添付ファイルが含まれている場合は、自動で [添付ファイル] リストが追加されます。また、タイトルや説明を追加したり、添付ファイルの表示方法を選択できます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[コンテンツの追加]&lt;br>
+画像やチャート、テキストなどのメディアをポップアップに追加することができます。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ポップアップの構成についての詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/configure-pop-ups-mv.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>表示するデータを限定したい</title><link>/online/users-guide/map/filter/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/map/filter/</guid><description>
+&lt;p>条件に当てはまるフィーチャのみをマップ上に表示します。&lt;/p>
+&lt;ol>
+&lt;li>Map Viewer でレイヤーを含むマップを開くか、&lt;a href="/online/users-guide/map/set-map/#%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%81%ae%e8%bf%bd%e5%8a%a0">マップにレイヤーを追加&lt;/a>します。&lt;/li>
+&lt;li>[レイヤー] ウィンドウで、フィルターを適用するレイヤーを選択します。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/filter-Select-layer.png"
+alt="レイヤーの選択" width="350&amp;#34;">&lt;figcaption>
+&lt;p>レイヤーの選択&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;ol start="3">
+&lt;li>[設定] ツールバーの [フィルター] をクリックします。&lt;/li>
+&lt;li>[フィルター] ウィンドウの [新しく追加] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/filter-filter.png"
+alt="フィルター" width="300&amp;#34;">&lt;figcaption>
+&lt;p>フィルター&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;ol start="5">
+&lt;li>条件に使用するフィールドを選択します。&lt;/li>
+&lt;li>[等しい]、[等しくない]、[含む] などの演算子を選択します。&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">日付フィールドを選択している場合は日付演算子を使用できるようになります。詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/apply-filters-mv.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="7">
+&lt;li>値の入力ボックスに条件の値を入力します。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/filter-equation.png"
+alt="フィルター式" width="250&amp;#34;">&lt;figcaption>
+&lt;p>フィルター式&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">複数の式を作成して And/Or 条件を適用することもできます。詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/apply-filters-mv.htm#ESRI_SECTION1_3426232199CF4530A51E0DD5ECFA2F3C"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="8">
+&lt;li>[保存] をクリックします。&lt;/li>
+&lt;/ol></description></item><item><title>属性テーブルを表示したい</title><link>/online/users-guide/map/attribute-table/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/map/attribute-table/</guid><description>
+&lt;p>マップに追加したレイヤーの属性テーブルを表示します。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Map Viewer でレイヤーを含むマップを開くか、&lt;a href="/online/users-guide/map/set-map/">マップにレイヤーを追加&lt;/a>します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[コンテンツ] ツールバーの [レイヤー] をクリックして、[レイヤー] ウィンドウを表示します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[レイヤー] ウィンドウで属性テーブルを表示したいレイヤーの [オプション] をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[テーブルの表示] をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/attribute-table-layer.png"
+alt="テーブルの表示" width="400&amp;#34;">&lt;figcaption>
+&lt;p>テーブルの表示&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>テーブルでは以下の操作を実行できます。&lt;/p>
+&lt;ol>
+&lt;li>表示するタブの切り替え&lt;/li>
+&lt;li>表示するレコードの増減 (表示するレコードを増やすと、左側のメニューに追加で [選択セットの表示]、[すべて表示]、[更新] ボタンが表示されます。)&lt;/li>
+&lt;li>表示の最小化&lt;/li>
+&lt;li>フィールド情報の表示およびフィールドの表示/非表示を定義&lt;/li>
+&lt;li>選択したレコードの範囲にマップをズーム&lt;/li>
+&lt;li>レイヤー全体の範囲にマップをズーム&lt;/li>
+&lt;li>選択されているすべてのレコードの選択を解除&lt;/li>
+&lt;li>レコードの選択&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/attribute-table-table.png"
+alt="テーブル" width="600&amp;#34;">&lt;figcaption>
+&lt;p>テーブル&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">テーブルの操作の詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/show-tables-mv.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">テーブルに表示するレコードを限定したい場合は「&lt;a href="/online/users-guide/map/filter/">表示するデータを限定したい&lt;/a>」をご参照ください。&lt;br>
+フィールドを追加または削除したい場合は「&lt;a href="/online/users-guide/manage-data/field/">フィールドを追加、削除したい&lt;/a>」をご参照ください。&lt;br>
+属性値を編集したい場合は「&lt;a href="/online/users-guide/map/edit/">データを編集したい&lt;/a>」をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>特定の場所を検索したい</title><link>/online/users-guide/map/search/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/map/search/</guid><description>
+&lt;p>住所や地名を検索したり、レイヤーの属性情報を基に特定の場所を検索したりして、マップの表示範囲をその場所に移動します。&lt;/p>
+&lt;h3>住所や地名の検索&lt;span class="hx:absolute hx:-mt-20" id="住所や地名の検索">&lt;/span>
+&lt;a href="#%e4%bd%8f%e6%89%80%e3%82%84%e5%9c%b0%e5%90%8d%e3%81%ae%e6%a4%9c%e7%b4%a2" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>&lt;a href="/online/users-guide/map/set-map/">Map Viewer を開きます&lt;/a>。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[検索] をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[住所または場所の検索] ボックスに住所や地名を入力します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Enter キーを押すと、検索された住所の位置にマップが移動し、ポップアップが表示されます。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/search-search.png"
+alt="検索" width="600&amp;#34;">&lt;figcaption>
+&lt;p>検索&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[住所または場所の検索] ボックスでは、住所、道路の交差点、経度と緯度、フィーチャ ID などを入力し、検索できます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h3>レイヤーの属性情報を基に検索&lt;span class="hx:absolute hx:-mt-20" id="レイヤーの属性情報を基に検索">&lt;/span>
+&lt;a href="#%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%81%ae%e5%b1%9e%e6%80%a7%e6%83%85%e5%a0%b1%e3%82%92%e5%9f%ba%e3%81%ab%e6%a4%9c%e7%b4%a2" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>Web マップの設定&lt;span class="hx:absolute hx:-mt-20" id="web-マップの設定">&lt;/span>
+&lt;a href="#web-%e3%83%9e%e3%83%83%e3%83%97%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>レイヤーの属性情報を基に検索するには、はじめに Web マップを作成し、Web マップのプロパティを設定します。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>属性情報を基に検索したいレイヤーを含む Web マップを作成していない場合は&lt;a href="/online/users-guide/map/set-map/">作成し、保存します&lt;/a>。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Web マップのアイテム ページで [設定] タブをクリックします。[アプリケーション設定] セクションにある [検索の有効化] をオンにし、検索対象のレイヤーと属性フィールド等を設定して [保存] をクリックします。詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/configure-feature-search.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/search-config.png"
+alt="検索設定" width="500&amp;#34;">&lt;figcaption>
+&lt;p>検索設定&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">検索対象として設定できるのは、文字列 (String) 型のフィールドのみです。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h4>Map Viewer での検索&lt;span class="hx:absolute hx:-mt-20" id="map-viewer-での検索">&lt;/span>
+&lt;a href="#map-viewer-%e3%81%a7%e3%81%ae%e6%a4%9c%e7%b4%a2" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ol>
+&lt;li>
+&lt;p>検索の設定をした Web マップを Map Viewer で開きます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[検索] をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[住所または場所の検索] ボックスの左側にある矢印をクリックし、ドロップダウン リストから検索対象のレイヤー名をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>検索ボックスにレイヤーの属性値を入力します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Enter キーを押すと、検索されたフィーチャの位置にマップが移動し、ポップアップが表示されます。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/search-layer.png"
+alt="属性検索" width="600&amp;#34;">&lt;figcaption>
+&lt;p>属性検索&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol></description></item><item><title>データを編集したい</title><link>/online/users-guide/map/edit/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/map/edit/</guid><description>
+&lt;p>Web マップに追加されているレイヤーを編集してフィーチャを追加、編集、削除します。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>編集可能なレイヤーを&lt;a href="/online/users-guide/map/set-map/">マップに追加&lt;/a>します。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">レイヤーの編集の有効化方法は、「&lt;a href="/online/users-guide/manage-data/privilege/">編集の有効化&lt;/a>」をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>[設定] ツールバーの [編集] をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[編集] ウィンドウが表示されるので、フィーチャを&lt;a href="#%e3%83%95%e3%82%a3%e3%83%bc%e3%83%81%e3%83%a3%e3%81%ae%e8%bf%bd%e5%8a%a0">追加&lt;/a>、&lt;a href="#%e3%83%95%e3%82%a3%e3%83%bc%e3%83%81%e3%83%a3%e3%81%ae%e7%b7%a8%e9%9b%86">編集&lt;/a>、&lt;a href="#%e3%83%95%e3%82%a3%e3%83%bc%e3%83%81%e3%83%a3%e3%81%ae%e5%89%8a%e9%99%a4">削除&lt;/a>します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/edit-pane.png"
+alt="編集ウィンドウ" width="400&amp;#34;">&lt;figcaption>
+&lt;p>編集ウィンドウ&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">使用できる編集オプションは、フィーチャ レイヤーで許可されている&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/manage-hosted-feature-layers.htm#ESRI_SECTION1_030A9819DFF7498E9DFCDE6030E5FFBA"target="_blank" rel="noopener">編集のレベル&lt;/a>によって異なります。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">各レイヤーの図形を入力する際、[編集] ウィンドウ上部にある [設定] で [ツールチップの有効化] や [スナップの有効化] 切り替えボタンをオンにすると、描画しやすくなります。詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/edit-features-mv.htm#ESRI_SECTION1_DC808F9F669C4A4DAAAC8A3441EAE0FA"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;/ol>
+&lt;h3>フィーチャの追加&lt;span class="hx:absolute hx:-mt-20" id="フィーチャの追加">&lt;/span>
+&lt;a href="#%e3%83%95%e3%82%a3%e3%83%bc%e3%83%81%e3%83%a3%e3%81%ae%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>[編集] ウィンドウで [フィーチャの作成] セクションに表示されている、編集したいレイヤーのアイコンをクリックして選択します。個別値シンボルを設定している場合は、個別値に応じたアイコンが表示されます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>マップ上をクリックして図形を入力します。&lt;/p>
+&lt;ul>
+&lt;li>ポイントを追加するには、マップ上の位置をクリックします。&lt;/li>
+&lt;li>ラインまたはポリゴンを追加するには、マップ上で開始位置をクリックします。続けて頂点をクリックで追加し、終点をダブル クリックして入力を終了します。ポリゴンの場合は始点と終点が自動的に結ばれます。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>属性を入力し、[作成] をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[フィーチャの作成] 左の [&amp;lt;] をクリックして [編集] ウィンドウに戻ります。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/edit-create.gif"
+alt="フィーチャの追加" width="500&amp;#34;">&lt;figcaption>
+&lt;p>フィーチャの追加&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;h3>フィーチャの編集&lt;span class="hx:absolute hx:-mt-20" id="フィーチャの編集">&lt;/span>
+&lt;a href="#%e3%83%95%e3%82%a3%e3%83%bc%e3%83%81%e3%83%a3%e3%81%ae%e7%b7%a8%e9%9b%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>[編集] ウィンドウで [フィーチャの編集] から適した選択方法をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>マップ上のフィーチャを選択します。&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>選択したフィーチャを移動するには、マップ上でフィーチャを新しい位置にドラッグして [更新] をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/edit-move.gif"
+alt="フィーチャの移動" width="500&amp;#34;">&lt;figcaption>
+&lt;p>フィーチャの移動&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>ラインまたはポリゴンの形状を変更するには、フィーチャを 2 回クリックし、表示されたノードを新しい位置にドラッグしたり、不要なノードを削除したりします。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/edit-reshape.gif"
+alt="フィーチャの形状変更" width="500&amp;#34;">&lt;figcaption>
+&lt;p>フィーチャの形状変更&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>属性を追加または編集するには、編集ウィンドウに表示されるフォームに新しい属性値を入力して [更新] をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/edit-attribute.gif"
+alt="属性の編集" width="500&amp;#34;">&lt;figcaption>
+&lt;p>属性の編集&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">この操作によってフィーチャとその属性が更新されます。この操作は取り消せません。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h3>フィーチャの削除&lt;span class="hx:absolute hx:-mt-20" id="フィーチャの削除">&lt;/span>
+&lt;a href="#%e3%83%95%e3%82%a3%e3%83%bc%e3%83%81%e3%83%a3%e3%81%ae%e5%89%8a%e9%99%a4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>[編集] ウィンドウで [フィーチャの編集] から適した選択方法をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>マップ上のフィーチャを選択します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[削除] を 2 回クリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/edit-delete.gif"
+alt="フィーチャの削除" width="500&amp;#34;">&lt;figcaption>
+&lt;p>フィーチャの削除&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">この操作によってフィーチャとその属性が削除されます。この操作は取り消せません。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">フィーチャの編集の詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/edit-features-mv.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>解析機能を使用したい</title><link>/online/users-guide/map/analysis/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/map/analysis/</guid><description>
+&lt;p>Web マップに追加されているレイヤーに対して空間的な解析やネットワーク解析などを行います。解析機能を利用するためには、「コンテンツの作成、更新、および削除」、「ホスト フィーチャ レイヤーの公開」、「空間解析」の&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/roles.htm"target="_blank" rel="noopener">権限&lt;/a>が必要です。一部のツールでは追加の権限を要する場合があります。ライセンス要件の詳細については、各ツールの&lt;a href="https://doc.arcgis.com/ja/arcgis-online/analyze/licensing-analysis-mv.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Map Viewer でレイヤーを含むマップを開くか、&lt;a href="/online/users-guide/map/set-map/">マップにレイヤーを追加&lt;/a>します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[設定] ツールバーの [解析] をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[ツール] をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/analysis-analysis.png"
+alt="解析ウィンドウ" width="400&amp;#34;">&lt;figcaption>
+&lt;p>解析ウィンドウ&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>ツールボックスをクリックしてツールを展開するか、検索ボックスを使用してツールを検索します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/analysis-tools.png"
+alt="ツールの検索" width="400&amp;#34;">&lt;figcaption>
+&lt;p>ツールの検索&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>ツールを選択します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>入力レイヤーの選択、出力レイヤー名の指定などの、ツールのパラメーターを設定します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/analysis-parameter.png"
+alt="ツールの設定" width="300&amp;#34;">&lt;figcaption>
+&lt;p>ツールの設定&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">解析結果を出力する結果レイヤーの名前には、日本語と特殊文字 (「－」(ハイフン)、「( )」「[ ]」「・」「/」「*」「/」「＃」「%」) は使用しないでください。結果レイヤー名には、半角英数字とアンダースコア (_) を使用できます。結果レイヤーの名前に日本語を使用すると、このレイヤーにアクセスする URL に日本語が含まれ、正常な処理ができない可能性があります。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">パラメーターの詳細は、各ツールの&lt;a href="https://doc.arcgis.com/ja/arcgis-online/analyze/licensing-analysis-mv.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>必要に応じて [環境設定] をクリックして、ツールの実行時に使用する環境を表示し、更新します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[クレジットの推定] をクリックして、ツールの実行時に消費される&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/credits.htm"target="_blank" rel="noopener">クレジット&lt;/a>数を計算します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[実行] をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/map/analysis-run.png"
+alt="ツールの実行" width="400&amp;#34;">&lt;figcaption>
+&lt;p>ツールの実行&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol></description></item></channel></rss>

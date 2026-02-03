@@ -1,0 +1,120 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – Web アプリの作成</title><link>/online/users-guide/create-apps/</link><description>Recent content in Web アプリの作成 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Tue, 30 Nov 2021 00:00:00 +0900</lastBuildDate><atom:link href="/online/users-guide/create-apps/index.xml" rel="self" type="application/rss+xml"/><item><title>Web アプリとは</title><link>/online/users-guide/create-apps/webapp/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/create-apps/webapp/</guid><description>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/create-apps/webapp-flow.png"
+alt="Web アプリとは" width="500">&lt;figcaption>
+&lt;p>Web アプリとは&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>アプリとは、ArcGIS Online で作成するマップ (Web マップ) に目的に応じて機能や見栄えに変更を加えたアプリケーションです。Web アプリは、主に以下の 4 種類があります。&lt;br>
+なお、Web アプリの作成には、コンテンツの「作成、更新、および削除」&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/roles.htm"target="_blank" rel="noopener">権限&lt;/a>が必要です。&lt;/p>
+&lt;p>&lt;a href="#arcgis-instant-apps">1. ArcGIS Instant Apps&lt;/a>&lt;br>
+&lt;a href="#arcgis-experience-builder">2. ArcGIS Experience Builder&lt;/a>&lt;br>
+&lt;a href="#arcgis-storymaps">3. ArcGIS StoryMaps&lt;/a>&lt;br>
+&lt;a href="#arcgis-dashboards">4. ArcGIS Dashboards&lt;/a>&lt;/p>
+&lt;h3>ArcGIS Instant Apps&lt;span class="hx:absolute hx:-mt-20" id="arcgis-instant-apps">&lt;/span>
+&lt;a href="#arcgis-instant-apps" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>マップとデータを簡単に操作できるようにする Web アプリをテンプレートから選び、Web アプリをすばやく作成します。&lt;br />
+詳細は&lt;a href="https://www.esrij.com/products/arcgis-instant-apps/"target="_blank" rel="noopener">製品ページ&lt;/a>をご参照ください。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/create-apps/webapp-instantapps.png"
+alt="ArcGIS Instant Apps" width="750">&lt;figcaption>
+&lt;p>ArcGIS Instant Apps&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;h3>ArcGIS Experience Builder&lt;span class="hx:absolute hx:-mt-20" id="arcgis-experience-builder">&lt;/span>
+&lt;a href="#arcgis-experience-builder" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>2D/3D マップ、テキスト、メディアを含む、レスポンシブ対応の Web アプリやページを作成します。&lt;br />
+詳細は&lt;a href="https://www.esrij.com/products/arcgis-experience-builder/"target="_blank" rel="noopener">製品ページ&lt;/a>をご参照ください。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/create-apps/webapp-exb.png"
+alt="ArcGIS Experience Builder" width="500">&lt;figcaption>
+&lt;p>ArcGIS Experience Builder&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;h3>ArcGIS StoryMaps&lt;span class="hx:absolute hx:-mt-20" id="arcgis-storymaps">&lt;/span>
+&lt;a href="#arcgis-storymaps" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>マップにテキスト、画像、動画などを組み合わせた Web ページを作成します。&lt;br />
+詳細は&lt;a href="https://www.esrij.com/products/arcgis-storymaps/"target="_blank" rel="noopener">製品ページ&lt;/a>をご参照ください。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/create-apps/webapp-storymaps.png"
+alt="ArcGIS StoryMaps" width="750">&lt;figcaption>
+&lt;p>ArcGIS StoryMaps&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;h3>ArcGIS Dashboards&lt;span class="hx:absolute hx:-mt-20" id="arcgis-dashboards">&lt;/span>
+&lt;a href="#arcgis-dashboards" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>マップ、グラフ、ゲージなどを組み合わせて情報を表示するダッシュボードを作成します。&lt;br />
+詳細は&lt;a href="https://www.esrij.com/products/arcgis-dashboards/"target="_blank" rel="noopener">製品ページ&lt;/a>をご参照ください。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/create-apps/webapp-dashboards.png"
+alt="ArcGIS Dashboards" width="750">&lt;figcaption>
+&lt;p>ArcGIS Dashboards&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p></description></item><item><title>開始手順</title><link>/online/users-guide/create-apps/start/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/create-apps/start/</guid><description>
+&lt;p>Web アプリの作成を開始する手順は、以下の A、B、C の 3 つの方法があります。どの方法から開始しても、アプリの作成が可能です。作業しやすい開始手順でアプリの作成を開始してください。&lt;/p>
+&lt;h3>A. Map Viewer から作成&lt;span class="hx:absolute hx:-mt-20" id="a-map-viewer-から作成">&lt;/span>
+&lt;a href="#a-map-viewer-%e3%81%8b%e3%82%89%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>Map Viewer で作成した Web マップを保存します。&lt;/li>
+&lt;li>[アプリの作成] をクリックします。&lt;/li>
+&lt;li>作成したい Web アプリを選択します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/create-apps/start-method-a1.png"
+alt="ArcGIS Instant Apps の起動" width="400">&lt;figcaption>
+&lt;p>ArcGIS Instant Apps の起動&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">左下の [展開] をクリックすることで、各タブの名称を表示することができます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>ご使用のディスプレイのサイズが小さい場合、[その他] に [アプリの作成] が格納されています。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/create-apps/start-method-a2.png"
+alt="その他からアプリの作成" width="250">&lt;figcaption>
+&lt;p>その他からアプリの作成&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h3>B. アイテム詳細ページから作成&lt;span class="hx:absolute hx:-mt-20" id="b-アイテム詳細ページから作成">&lt;/span>
+&lt;a href="#b-%e3%82%a2%e3%82%a4%e3%83%86%e3%83%a0%e8%a9%b3%e7%b4%b0%e3%83%9a%e3%83%bc%e3%82%b8%e3%81%8b%e3%82%89%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>[コンテンツ] タブをクリックし、 [マイ コンテンツ] を表示します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/create-apps/start-method-b1.png"
+alt="マイ コンテンツ" width="750">&lt;figcaption>
+&lt;p>マイ コンテンツ&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Web アプリに使用したい Web マップのタイトルをクリックして、アイテム詳細ページを開きます。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/create-apps/start-method-b2.png"
+alt="アイテム詳細ページ" width="500">&lt;figcaption>
+&lt;p>アイテム詳細ページ&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>画面右側の [Web アプリの作成] をクリックし、作成したい Web アプリを選択します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/create-apps/start-method-b3.png"
+alt="アイテム詳細ページからアプリの作成" width="300">&lt;figcaption>
+&lt;p>アイテム詳細ページからアプリの作成&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3>C. マイ コンテンツから作成&lt;span class="hx:absolute hx:-mt-20" id="c-マイ-コンテンツから作成">&lt;/span>
+&lt;a href="#c-%e3%83%9e%e3%82%a4-%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84%e3%81%8b%e3%82%89%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>[コンテンツ] タブをクリックし、[マイ コンテンツ] を表示します。&lt;/li>
+&lt;li>画面左上にある [アプリの作成] をクリックし、作成したい Web アプリを選択します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/create-apps/start-method-c1.png"
+alt="マイ コンテンツからアプリの作成" width="500">&lt;figcaption>
+&lt;p>マイ コンテンツからアプリの作成&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol></description></item></channel></rss>

@@ -1,0 +1,453 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – 商圏分析</title><link>/business-analyst/pro/tutorial/tradearea-analysis/</link><description>Recent content in 商圏分析 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><atom:link href="/business-analyst/pro/tutorial/tradearea-analysis/index.xml" rel="self" type="application/rss+xml"/><item><title>新規候補地に対する分析 (クイック商圏)</title><link>/business-analyst/pro/tutorial/tradearea-analysis/evaluate-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/tradearea-analysis/evaluate-site/</guid><description>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">本演習にかかる時間はおよそ 20 分です。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>「&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/evaluate-site.htm" target="_blank">クイック商圏&lt;/a>」を使用することで、商圏作成からレポートの実行までを簡単に行うことができます。本演習では、西船橋駅を評価対象として分析を行います。&lt;/p>
+&lt;h1>演習&lt;/h1>&lt;h2>演習用プロジェクトの作成&lt;span class="hx:absolute hx:-mt-20" id="演習用プロジェクトの作成">&lt;/span>
+&lt;a href="#%e6%bc%94%e7%bf%92%e7%94%a8%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>Windows の [スタート] ボタンをクリックし、[ArcGIS] → [ArcGIS Pro] を選択して ArcGIS Pro を起動します。&lt;/li>
+&lt;li>[ArcGIS サイン イン] ダイアログが表示された場合は、ArcGIS Online のユーザー名とパスワードを入力し、[サイン イン] をクリックします。&lt;/li>
+&lt;li>[新しいプロジェクト] から [マップ] をクリックします。&lt;/li>
+&lt;li>[新しいプロジェクトの作成] ダイアログで、「クイック商圏プロジェクト」と名前を付けて [OK] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">新規プロジェクトの作成方法の詳細は、&lt;a href="https://www.esrij.com/cgi-bin/wp/wp-content/uploads/documents/arcgis_pro_user_guide.pdf#page=14" target="_blank">ArcGIS Pro 逆引きガイド&lt;/a>をご覧ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;a href="/business-analyst/pro/tutorial/prepare-for-tutorial/#business-analyst-%e3%83%87%e3%83%bc%e3%82%bf-%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e8%a8%ad%e5%ae%9a">Business Analyst データ ソース&lt;/a> が最新のデータセットに設定されていることをご確認ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2>クイック商圏&lt;span class="hx:absolute hx:-mt-20" id="クイック商圏">&lt;/span>
+&lt;a href="#%e3%82%af%e3%82%a4%e3%83%83%e3%82%af%e5%95%86%e5%9c%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>クイック商圏を実行して、西船橋駅を起点とした商圏作成を行います。&lt;/p>
+&lt;ol>
+&lt;li>[解析] タブ → [ワークフロー] グループの [ビジネス解析] → [クイック商圏] をクリックします。
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/tradearea-analysis/launch-evaluate-site_v36.png">
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;p>[クイック商圏] ウィザードの [ステップ 1: 位置] で、解析対象となる位置を指定します。&lt;/p>
+&lt;ol start="2">
+&lt;li>[場所検索] タブの検索ボックスに「西船橋駅」と入力し、Enter キーを押します。&lt;/li>
+&lt;li>検索結果が表示されるので、選択して [次へ] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;p>[ステップ2: バッファー] で商圏を作成します。&lt;/p>
+&lt;ol start="4">
+&lt;li>[道路距離/時間商圏] タブを選択し、以下のように設定し、[次へ] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">パラメーター&lt;/th>
+&lt;th style="text-align: left">設定値&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">距離タイプ&lt;/td>
+&lt;td style="text-align: left">運転時間&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">時間&lt;/td>
+&lt;td style="text-align: left">5, 10, 15 分&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">ディゾルブ オプション&lt;/td>
+&lt;td style="text-align: left">ディスク&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/tradearea-analysis/evaluate-sites-step2.png">
+&lt;/figure>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>ディゾルブ オプションでは、複数商圏生成時の形状を指定します。&lt;/p>
+&lt;ul>
+&lt;li>リング：ドーナツ状の商圏を生成します。&lt;br/>
+(例: 5,10 分の道路時間商圏の場合、0-5 分の到達圏ポリゴンと 5-10 分の到達圏ポリゴンを生成します。)&lt;/li>
+&lt;li>ディスク :ドーナツ状になりません。&lt;br/>
+(例: 5,10 分の道路時間商圏の場合、0-5 分の到達圏ポリゴンと 0-10 分の到達圏ポリゴンを生成します。)&lt;/li>
+&lt;/ul>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="5">
+&lt;li>[ステップ3: 解析] では、何も設定せず [次へ] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ステップ 3 では、作成する商圏に対してインフォグラフィックスやレポートの作成、統計データの集計を実行できます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="6">
+&lt;li>[ステップ4: サマリー] で設定内容を確認し、[完了] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;p>ツールが実行され、マップ上に商圏が追加されます。&lt;/p>
+&lt;h2>商圏に統計データを集計する&lt;span class="hx:absolute hx:-mt-20" id="商圏に統計データを集計する">&lt;/span>
+&lt;a href="#%e5%95%86%e5%9c%8f%e3%81%ab%e7%b5%b1%e8%a8%88%e3%83%87%e3%83%bc%e3%82%bf%e3%82%92%e9%9b%86%e8%a8%88%e3%81%99%e3%82%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>クイック商圏で作成した商圏に対して、統計データを集計してみましょう。&lt;/p>
+&lt;ol>
+&lt;li>[解析] タブ → [ジオプロセシング] グループの [ツール] をクリックします。&lt;/li>
+&lt;li>表示された [ジオプロセシング] ウィンドウで [ツールボックス] タブを選択します。&lt;/li>
+&lt;li>[Business Analyst ツール] → [解析] → [&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/enrich-layer-advanced.htm" target="_blank">レイヤーへの情報付加 (Enrich Layer)&lt;/a>] を開きます。
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/tradearea-analysis/open-enrichlayer.png">
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;p>レイヤーへの情報付加ツールに必要な項目を設定します。&lt;/p>
+&lt;ol start="4">
+&lt;li>[入力フィーチャ] のプルダウンから「クイック商圏¥バッファー」レイヤーを選択します。&lt;/li>
+&lt;li>[出力フィーチャクラス] で、[参照] ボタンをクリックして「西船橋駅周辺の人口世帯」と入力します。&lt;/li>
+&lt;li>[変数] 横の [+] ボタンをクリックして、データ ブラウザーを開きます。
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/tradearea-analysis/browse-variables.png">
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;p>データ ブラウザーでは、集計する統計変数を選択することができます。今回は、人口総数と世帯総数を選択します。&lt;/p>
+&lt;ol start="6">
+&lt;li>[人口] → [人口総数] → [2020 人口総数] にチェックを入れます。&lt;/li>
+&lt;li>[カテゴリ] に戻り、[世帯] → [世帯総数] → [2020 世帯数 総数] にチェックを入れます。&lt;/li>
+&lt;li>[選択した変数の表示または非表示] をクリックし、2 変数が選択されていることを確認して、[OK] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/tradearea-analysis/enrich-layer.png">
+&lt;/figure>
+&lt;ol start="9">
+&lt;li>各パラメーターが設定されているのを確認して、[実行] をクリックしてツールを実行します。&lt;/li>
+&lt;/ol>
+&lt;p>[コンテンツ] ウィンドウおよびマップに結果レイヤーが追加されるので、商圏別に人口および世帯が集計されていること確認します。&lt;/p>
+&lt;ol start="10">
+&lt;li>結果レイヤーである「西船橋駅周辺の人口世帯」レイヤーを右クリック → [属性テーブル] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/tradearea-analysis/enrich-layer-result.png">
+&lt;/figure>
+&lt;ol start="11">
+&lt;li>[西船橋駅周辺の人口世帯] テーブルの [×] をクリックして、属性テーブルを閉じます。&lt;/li>
+&lt;/ol>
+&lt;h2>解析結果を Excel としてエクスポート&lt;span class="hx:absolute hx:-mt-20" id="解析結果を-excel-としてエクスポート">&lt;/span>
+&lt;a href="#%e8%a7%a3%e6%9e%90%e7%b5%90%e6%9e%9c%e3%82%92-excel-%e3%81%a8%e3%81%97%e3%81%a6%e3%82%a8%e3%82%af%e3%82%b9%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>商圏レイヤーに付与された人口・世帯の値を Excel 形式でエクスポートします。&lt;/p>
+&lt;ol>
+&lt;li>[ジオプロセシング] ウィンドウの [戻る (←) ] ボタンをクリックします。&lt;/li>
+&lt;li>[ツールの検索] に「Excel」と入力します。&lt;/li>
+&lt;li>検索結果から [&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/conversion/table-to-excel.htm" target="_blank">テーブル → Excel (Table to Excel)&lt;/a>] ツールをクリックして開きます。&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">関連するツールが複数表示されますが、今回使用するのは [&lt;strong>テーブル → Excel (Table to Excel)&lt;/strong>] ツールですので、ご注意ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="4">
+&lt;li>以下のように設定して、[実行] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">パラメーター&lt;/th>
+&lt;th style="text-align: left">設定値&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">入力テーブル&lt;/td>
+&lt;td style="text-align: left">西船橋駅周辺の人口世帯&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">出力 Excel ファイル&lt;/td>
+&lt;td style="text-align: left">[参照] ボタンをクリックし、任意の保存場所に「西船橋駅周辺の人口世帯.xlsx」という名前で保存&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">フィールド エイリアスを列ヘッダーとして使用する&lt;/td>
+&lt;td style="text-align: left">チェックをオンにする&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>エクスポートした Excel ファイルを開いて、西船橋駅を起点とした運転時間商圏レイヤーの情報と人口・世帯の集計値が含まれていることを確認します。（要 Microsoft Excel）&lt;/p>
+&lt;ol start="5">
+&lt;li>ツール実行後に [詳細の表示] にカーソルを当て、[パラメーター] タブの [出力 Excel ファイル] を選択します。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/tradearea-analysis/excel-result.png">
+&lt;/figure>
+&lt;ol start="6">
+&lt;li>[プロジェクト] タブ → [保存] を選択し、&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/projects/save-a-project.htm" target="_blank">プロジェクトを保存&lt;/a>します。&lt;/li>
+&lt;/ol>
+&lt;h1>まとめ&lt;/h1>&lt;p>この演習では、マップ上の任意の位置を選択して商圏を作成しました。さらに、商圏内の統計データを集計し、その結果をテーブル データとして出力することができました。また、以下ツールの操作について学びました。&lt;/p>
+&lt;ul>
+&lt;li>[クイック商圏] ツール&lt;/li>
+&lt;li>[レイヤーへの情報付加] ツール&lt;/li>
+&lt;li>[テーブル → Excel] ツール&lt;/li>
+&lt;/ul>
+&lt;style class="info-table">
+table {
+font-size: 13px;
+width: 85%;
+margin-right: 5px;
+margin-left: 15px;
+}
+table th:first-of-type {
+width: 30%;
+}
+table th:nth-of-type(2) {
+width: 70%;
+}
+&lt;/style></description></item><item><title>既存店舗を対象とした分析</title><link>/business-analyst/pro/tutorial/tradearea-analysis/analysis-for-existing-stores/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/tradearea-analysis/analysis-for-existing-stores/</guid><description>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">本演習にかかる時間はおよそ 30 分です。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>本演習では、既存店舗から商圏を作成し、周辺の人口分布マップや人口特性が把握できるレポートを作成します。&lt;/p>
+&lt;h1>演習&lt;/h1>&lt;h2>演習用データのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="演習用データのダウンロード">&lt;/span>
+&lt;a href="#%e6%bc%94%e7%bf%92%e7%94%a8%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>&lt;a href="https://www.arcgis.com/home/item.html?id=6deb3838c178420e9ef622e7ac4b759e" target="_blank">BA Pro チュートリアル-商圏分析 プロジェクトパッケージ&lt;/a>が無い場合は、ダウンロードし、プロジェクト パッケージを開きます。&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/tradearea-analysis/ta-tutorial-ex3-35.png">
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">プロジェクト パッケージを開いた際、[プロジェクト アイテムの修復] メッセージが表示された場合は [OK] をクリックして閉じてください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>[コンテンツ] ウィンドウおよびマップ上に「自社店舗」レイヤーがあらかじめ追加されていることを確認します。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;a href="/business-analyst/pro/tutorial/prepare-for-tutorial/#business-analyst-%e3%83%87%e3%83%bc%e3%82%bf-%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e8%a8%ad%e5%ae%9a">Business Analyst データ ソース&lt;/a> が最新のデータセットに設定されていることをご確認ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2>リング商圏の生成&lt;span class="hx:absolute hx:-mt-20" id="リング商圏の生成">&lt;/span>
+&lt;a href="#%e3%83%aa%e3%83%b3%e3%82%b0%e5%95%86%e5%9c%8f%e3%81%ae%e7%94%9f%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>自社店舗ポイントを起点としたリング商圏を作成します。&lt;/p>
+&lt;ol>
+&lt;li>[解析] タブ → [ジオプロセシング] グループの [ツール] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;p>[ジオプロセシング] ウィンドウが表示されます。&lt;/p>
+&lt;ol start="2">
+&lt;li>
+&lt;p>[ツールボックス] タブ → [Business Analyst ツール] → [商圏] → [&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/generate-trade-area-rings.htm" target="_blank">リング商圏の生成 (Generate Trade Area Rings)&lt;/a>] をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[リング商圏の生成] ツールに、以下のように設定します。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>パラメーター&lt;/th>
+&lt;th>設定値&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>入力フィーチャ&lt;/td>
+&lt;td>自社店舗&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>出力フィーチャクラス&lt;/td>
+&lt;td>リング商圏_1_3km&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>入力方法&lt;/td>
+&lt;td>値&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>距離&lt;/td>
+&lt;td>1 列目に「1」と入力し、[＋他を追加] をクリックして 2 列目に「3」と入力&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>距離単位&lt;/td>
+&lt;td>キロメートル&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ID フィールド&lt;/td>
+&lt;td>店舗ID&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/tradearea-analysis/generate-trade-area-rings.png">
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>[実行] をクリックしてツールを実行します。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>マップに、自社店舗を起点とした 1,3km のリング商圏が追加されます。&lt;/p>
+&lt;h2>カラー コード レイヤー&lt;span class="hx:absolute hx:-mt-20" id="カラー-コード-レイヤー">&lt;/span>
+&lt;a href="#%e3%82%ab%e3%83%a9%e3%83%bc-%e3%82%b3%e3%83%bc%e3%83%89-%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>人口総数を表現する階級区分マップを作成し、店舗周辺の人口分布を把握します。&lt;/p>
+&lt;ol>
+&lt;li>[解析] タブ → [ビジネス解析] → [カラー コード レイヤー] を選択します。
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/tradearea-analysis/color-coded-layer.png">
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[Business Analyst ツール] → [解析] → [&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/create-color-coded-layer.htm" target="_blank">カラー コード レイヤー (Color Coded Layer)&lt;/a>] ではなく、ビジネス解析から起動してください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">データ ブラウザーが起動します。データ ブラウザーでは、人口や世帯などのカテゴリ別に格納された統計変数を検索・選択することができます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="2">
+&lt;li>[人口] → [人口総数] → [2020 人口総数] を選択し、[OK] をクリックして、可視化する変数を選択します。&lt;/li>
+&lt;/ol>
+&lt;p>[シンボル - カラー コード レイヤー] パネルが表示されます。&lt;/p>
+&lt;ol start="3">
+&lt;li>
+&lt;p>[区画] → [対象地域] 横の [v] ボタンをクリックして、[境界レイヤー] に [リング商圏_1_3km] レイヤーを選択します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/tradearea-analysis/ccl_target_area_v36.png">
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[詳細レベル] を [町丁・字等] に設定します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[スタイル] でクラスや配色、分類方法などを任意に設定します。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">各設定項目の詳細は&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/color-coded-layer.htm#ESRI_SECTION1_B8E80273B7CE46BBBE5FDA76A62C8D19" target="_blank">ヘルプ&lt;/a>をご覧ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>[結果の表示] をクリックすると、統計サマリーやヒストグラム、テーブル形式で結果を確認できます。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/tradearea-analysis/ccl_result_panel.jpg">
+&lt;/figure>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2>マップの見た目を調整&lt;span class="hx:absolute hx:-mt-20" id="マップの見た目を調整">&lt;/span>
+&lt;a href="#%e3%83%9e%e3%83%83%e3%83%97%e3%81%ae%e8%a6%8b%e3%81%9f%e7%9b%ae%e3%82%92%e8%aa%bf%e6%95%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ここまでの操作で、リング商圏とカラー コード レイヤーを作成しましたが、自社店舗やリング商圏がカラーコード レイヤーの下に配置されており、各レイヤーの位置関係が分かりにくい状態です。&lt;/p>
+&lt;p>以下のようなマップになるように、各レイヤーの描画順やシンボルを変更します。&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/tradearea-analysis/map-image_v33.png">
+&lt;/figure>
+&lt;ol>
+&lt;li>
+&lt;p>[コンテンツ] ウィンドウで、[描画順にリスト] タブが選択されていることを確認します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>「カラー コード レイヤー」をドラッグ＆ドロップで「リング商圏_1_3km」レイヤーの下に移動させ、以下の順番になるように調整します。&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/tradearea-analysis/adjust-layers_v33.png">
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">レイヤーの順番を入れ替えるときは、[描画順にリスト] タブが選択されている必要があります。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>ここまでの操作で、上から自社店舗、リング商圏、カラーコード レイヤーの順にマップが描画されています。
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/tradearea-analysis/current-map-v33.png">
+&lt;/figure>
+&lt;/p>
+&lt;p>リング商圏のシンボル設定を変更します。&lt;/p>
+&lt;ol start="3">
+&lt;li>[コンテンツ] ウィンドウの「リング商圏_1_3km」レイヤーを右クリック → [シンボル] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;p>[シンボル] ウィンドウが開きます。&lt;/p>
+&lt;ol start="4">
+&lt;li>
+&lt;p>[プライマリ シンボル] を [個別値] から [単一シンボル] に変更します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>シンボルのアイコンをクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/tradearea-analysis/change-symbol1.png">
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;p>[ポリゴン シンボルの書式設定] が開きます。&lt;/p>
+&lt;ol start="6">
+&lt;li>[プロパティ] タブの表示設定を以下のように設定し、[適用] をクリックします。
+&lt;ul>
+&lt;li>色: 色なし&lt;/li>
+&lt;li>アウトライン色: 黒&lt;/li>
+&lt;li>アウトライン幅: 2pt&lt;br/>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/tradearea-analysis/change-symbol2.png">
+&lt;/figure>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;p>カラー コード レイヤーの透過度を調整し、背景地図が見えるようにします。&lt;/p>
+&lt;ol start="7">
+&lt;li>[コンテンツ] ウィンドウの「カラー コード レイヤー」を選択します。&lt;/li>
+&lt;li>表示された [カラー コード グループ レイヤー] タブの [効果] → [透過表示] を「50%」に変更します。&lt;/li>
+&lt;/ol>
+&lt;p>以上で、レイアウトの調整は完了です。&lt;/p>
+&lt;h2>サマリー レポート&lt;span class="hx:absolute hx:-mt-20" id="サマリー-レポート">&lt;/span>
+&lt;a href="#%e3%82%b5%e3%83%9e%e3%83%aa%e3%83%bc-%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>リング商圏内の統計情報を集計したレポートを出力します。&lt;/p>
+&lt;ol>
+&lt;li>[解析] タブ → [ジオプロセシング] → [ツール] をクリックします。&lt;/li>
+&lt;li>[ジオプロセシング] ウィンドウで、[ツールボックス] タブを選択し、[Business Analyst ツール] → [レポート] → [&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/create-summary-reports.htm" target="_blank">サマリー レポート (Summary Reports)&lt;/a>] をクリックします。&lt;/li>
+&lt;li>[サマリー レポート] ツールを以下のように設定し、実行します。&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>パラメーター&lt;/th>
+&lt;th>設定値&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>境界レイヤー&lt;/td>
+&lt;td>リング商圏_1_3km&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>レポートの作成&lt;/td>
+&lt;td>年齢別人口・地域比較レポート (Classic)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>出力フォルダー&lt;/td>
+&lt;td>デフォルトのまま&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>ツールの実行完了後に、出力されたサマリーレポートを確認します。&lt;/p>
+&lt;ol start="4">
+&lt;li>[詳細の表示] にカーソルを当て、[パラメーター] タブの [出力ファイル] をクリックします。&lt;br/>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/tradearea-analysis/summary-report-result25.png">
+&lt;/figure>
+&lt;/li>
+&lt;li>これまでの手順で作成したマップ画像と、リング商圏内の人口を経年比較した値がテーブルやチャートで表現されていることを確認します。&lt;br/>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/tradearea-analysis/summary-report-output25.png">
+&lt;/figure>
+&lt;/li>
+&lt;li>[プロジェクト] タブ → [保存] を選択し、&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/projects/save-a-project.htm" target="_blank">プロジェクトを保存&lt;/a>します。&lt;/li>
+&lt;/ol>
+&lt;h1>まとめ&lt;/h1>&lt;p>この演習では、自社店舗周辺の人口分布を直感的に把握できるマップと、商圏内の人口などの統計情報を集計したレポートを作成することができました。また、以下ツールの操作を学びました。&lt;/p>
+&lt;ul>
+&lt;li>[リング商圏の生成] ツール&lt;/li>
+&lt;li>[カラーコード レイヤー] ツール&lt;/li>
+&lt;li>[サマリー レポート] ツール&lt;/li>
+&lt;/ul>
+&lt;style class="info-table">
+table {
+font-size: 13px;
+width: 85%;
+margin-right: 5px;
+margin-left: 15px;
+}
+table th:first-of-type {
+width: 30%;
+}
+table th:nth-of-type(2) {
+width: 70%;
+}
+&lt;/style></description></item></channel></rss>

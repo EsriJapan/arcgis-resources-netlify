@@ -1,10 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>管理 on ArcGIS リソース集</title>
-    <link>/online/get-started/administer/</link>
-    <description>Recent content in 管理 on ArcGIS リソース集</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language><atom:link href="/online/get-started/administer/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – 管理</title><link>/online/get-started/administer/</link><description>Recent content in 管理 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Wed, 05 Mar 2025 00:00:00 +0900</lastBuildDate><atom:link href="/online/get-started/administer/index.xml" rel="self" type="application/rss+xml"/><item><title>サブスクリプション</title><link>/online/get-started/administer/subscription/</link><pubDate>Wed, 22 Sep 2021 00:00:00 +0900</pubDate><guid>/online/get-started/administer/subscription/</guid><description>
+&lt;p>ArcGIS Online では、サブスクリプションをユーザーが組織サイト上で管理します。サブスクリプションを管理するための主な機能を説明します。&lt;/p>
+&lt;ul class="list-disc ml-6">
+&lt;li>
+&lt;a href="/online/get-started/administer/subscription/credit/">クレジット&lt;/a>&lt;br>ArcGIS Online を利用するために必要な「クレジット」について説明します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/get-started/administer/subscription/report/">レポート&lt;/a>&lt;br>レポートについて説明します。
+&lt;/li>
+&lt;/ul>
+&lt;h2>サブスクリプションの概要&lt;span class="hx:absolute hx:-mt-20" id="サブスクリプションの概要">&lt;/span>
+&lt;a href="#%e3%82%b5%e3%83%96%e3%82%b9%e3%82%af%e3%83%aa%e3%83%97%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%ae%e6%a6%82%e8%a6%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>組織サイトの管理者は、サブスクリプションの情報を [組織] → [概要] タブで確認することができます。&lt;br>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/subscription/subscription-orgoverview.png"
+alt="組織の概要ページ" width="750">&lt;figcaption>
+&lt;p>組織の概要ページ&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>[サブスクリプション ID]&lt;/strong>：この組織サイトのサブスクリプション ID を確認できます。&lt;/li>
+&lt;li>&lt;strong>[アクティビティー レポートの作成]&lt;/strong>：組織に関する&lt;a href="/online/get-started/administer/subscription/report/">レポート&lt;/a>を作成し、ダウンロードできます。&lt;/li>
+&lt;li>&lt;strong>[サービスの健全性ダッシュボード]&lt;/strong>：サービスの状態を確認できます。&lt;/li>
+&lt;li>&lt;strong>[更新日]&lt;/strong>：このサブスクリプションの有効期限を表示します。&lt;/li>
+&lt;/ul>
+&lt;p>詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/view-status.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/p></description></item><item><title>メンバー</title><link>/online/get-started/administer/members/</link><pubDate>Wed, 17 Mar 2021 00:00:00 +0900</pubDate><guid>/online/get-started/administer/members/</guid><description>
+&lt;p>組織の管理者が、組織のメンバーのアカウントを管理する方法について説明します。&lt;/p>
+&lt;ul class="list-disc ml-6">
+&lt;li>
+&lt;a href="/online/get-started/administer/members/role/">ロールの変更&lt;/a>&lt;br>ロールの変更について説明します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/get-started/administer/members/usertype/">ユーザー タイプの変更&lt;/a>&lt;br>ユーザー タイプの概要と変更方法を説明します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/get-started/administer/members/delete-members/">メンバーの削除&lt;/a>&lt;br>メンバーを削除する操作について説明します。
+&lt;/li>
+&lt;/ul></description></item><item><title>ライセンス</title><link>/online/get-started/administer/license/</link><pubDate>Wed, 05 Mar 2025 00:00:00 +0900</pubDate><guid>/online/get-started/administer/license/</guid><description>
+&lt;h3>ArcGIS Online ライセンスの概要&lt;span class="hx:absolute hx:-mt-20" id="arcgis-online-ライセンスの概要">&lt;/span>
+&lt;a href="#arcgis-online-%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9%e3%81%ae%e6%a6%82%e8%a6%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>組織の管理者が、ArcGIS Pro やそのほかのアプリで使用するライセンスを ArcGIS Online 組織サイトで管理する方法について説明します。&lt;/p>
+&lt;ul class="list-disc ml-6">
+&lt;li>
+&lt;a href="/online/get-started/administer/license/assign/">ライセンスの割り当てと解除&lt;/a>&lt;br>ArcGIS Pro やそのほかのアプリで使用するライセンスを、各メンバーに割り当て、解除する方法について説明します。
+&lt;/li>
+&lt;/ul></description></item><item><title>コンテンツ</title><link>/online/get-started/administer/contents/</link><pubDate>Wed, 05 Mar 2025 00:00:00 +0900</pubDate><guid>/online/get-started/administer/contents/</guid><description>
+&lt;h3>ArcGIS Online コンテンツの概要&lt;span class="hx:absolute hx:-mt-20" id="arcgis-online-コンテンツの概要">&lt;/span>
+&lt;a href="#arcgis-online-%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84%e3%81%ae%e6%a6%82%e8%a6%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>組織のメンバーが所有するアイテムやコンテンツを管理する方法について説明します。&lt;/p>
+&lt;ul class="list-disc ml-6">
+&lt;li>
+&lt;a href="/online/get-started/administer/contents/change-owner/">所有者の変更&lt;/a>&lt;br>メンバーが所有するアイテムの所有権の変更について説明します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/get-started/administer/contents/delete/">アイテムの削除と復元&lt;/a>&lt;br>メンバーが所有するアイテムの削除と復元について説明します。
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

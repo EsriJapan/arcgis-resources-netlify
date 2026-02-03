@@ -1,0 +1,122 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – 逆引きガイド</title><link>/online/users-guide/</link><description>Recent content in 逆引きガイド on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Tue, 27 Jan 2026 00:00:00 +0900</lastBuildDate><atom:link href="/online/users-guide/index.xml" rel="self" type="application/rss+xml"/><item><title>基本操作</title><link>/online/users-guide/basic/</link><pubDate>Tue, 30 Nov 2021 00:00:00 +0900</pubDate><guid>/online/users-guide/basic/</guid><description>
+&lt;p>ArcGIS Online の基本操作について説明します。&lt;/p>
+&lt;ul class="list-disc ml-6">
+&lt;li>
+&lt;a href="/online/users-guide/basic/signin/">ArcGIS Online へのサイン イン&lt;/a>&lt;br>ArcGIS Online のサイン インについて説明します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/users-guide/basic/homeapp/">ArcGIS Online Web ページの構成&lt;/a>&lt;br>ArcGIS Online Web ページの構成を説明します。
+&lt;/li>
+&lt;/ul></description></item><item><title>データの作成</title><link>/online/users-guide/create-data/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/create-data/</guid><description>
+&lt;p>ArcGIS Online で利用可能なデータを作成する方法を説明します。ArcGIS Online 上で作成可能なものと、ArcGIS Pro が必要なものがあります。&lt;/p>
+&lt;ul class="list-disc ml-6">
+&lt;li>
+&lt;a href="/online/users-guide/create-data/feature/">フィーチャ レイヤーを公開したい&lt;/a>&lt;br>2D のベクター データであるフィーチャ レイヤーを作成する方法を説明します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/users-guide/create-data/tile/">タイル レイヤーを公開したい&lt;/a>&lt;br>航空写真や背景図からタイル レイヤーを作成する方法を説明します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/users-guide/create-data/scene/">シーン レイヤーを公開したい&lt;/a>&lt;br>3D のデータを表現できるシーン レイヤーを作成する方法を説明します。
+&lt;/li>
+&lt;/ul></description></item><item><title>データの管理</title><link>/online/users-guide/manage-data/</link><pubDate>Tue, 30 Nov 2021 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/</guid><description>
+&lt;p>ArcGIS Online 上に作成したデータの管理画面でできることについて説明します。データの所有者が操作可能です。&lt;/p>
+&lt;ul class="list-disc ml-6">
+&lt;li>
+&lt;a href="/online/users-guide/manage-data/field/">フィールドを追加、削除したい&lt;/a>&lt;br>ホスト フィーチャ レイヤーのフィールドを追加・削除します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/users-guide/manage-data/list/">入力時の選択リストを作成したい&lt;/a>&lt;br>データの編集時に便利な選択リストを作成します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/users-guide/manage-data/privilege/">データの編集に関する設定を変更したい&lt;/a>&lt;br>データの編集に関するさまざまな設定を変更します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/users-guide/manage-data/attachment/">写真やファイルをフィーチャに添付したい&lt;/a>&lt;br>フィーチャに画像などファイルを添付する設定の方法を説明します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/users-guide/manage-data/time/">データを時系列で見たい&lt;/a>&lt;br>データに含まれる時系列情報を使用して、マップ上でアニメーション表示する方法を説明します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/users-guide/manage-data/download/">レイヤーをダウンロードしたい&lt;/a>&lt;br>レイヤーをファイル ジオデータベースやシェープファイルなどの形式でエクスポートする方法を説明します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/users-guide/manage-data/file-update/">データをファイルから更新したい&lt;/a>&lt;br>レイヤー全体を上書き、またはレイヤーにデータを追加したり、一部を更新したりする方法を説明します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/users-guide/manage-data/viewlayer/">フィーチャの表示や設定を限定した状態のデータを作成したい&lt;/a>&lt;br>既存のレイヤーから、フィールドやレコードを限定表示したり、設定を一部変更した状態を保持できるビュー レイヤーを作成する方法を説明します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/users-guide/manage-data/delete/">アイテムを削除、復元したい&lt;/a>&lt;br>コンテンツ上からアイテムを削除・復元する方法を説明します。
+&lt;/li>
+&lt;/ul></description></item><item><title>マップの作成と利用</title><link>/online/users-guide/map/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/map/</guid><description>
+&lt;p>&lt;a href="/online/users-guide/create-data/">データの作成&lt;/a>で作成したフィーチャ レイヤーなどを、レイヤーとしてマップに追加し、様々なレイヤーを組み合わせてマップを作成することができます。&lt;/p>
+&lt;p>マップの保存には、コンテンツを作成する&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/roles.htm"target="_blank" rel="noopener">権限&lt;/a>が必要です (権限を持っていない場合でもマップを作成することはできますが、保存することはできません)。&lt;/p>
+&lt;ul class="list-disc ml-6">
+&lt;li>
+&lt;a href="/online/users-guide/map/set-map/">マップを作成したい&lt;/a>&lt;br>Map Viewer を開き、追加するレイヤーを検索してマップに追加します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/users-guide/map/style/">シンボルを変更したい&lt;/a>&lt;br>マップ上でのレイヤーの見た目 (シンボル) の色や形を変更します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/users-guide/map/label/">ラベルを変更したい&lt;/a>&lt;br>マップ上のフィーチャにテキストを表示します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/users-guide/map/popup/">ポップアップの内容を変更したい&lt;/a>&lt;br>フィーチャの属性情報を表示する吹き出しの内容を変更します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/users-guide/map/filter/">表示するデータを限定したい&lt;/a>&lt;br>条件に当てはまるフィーチャのみをマップ上に表示します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/users-guide/map/attribute-table/">属性テーブルを表示したい&lt;/a>&lt;br>マップに追加したレイヤーの属性テーブルを表示します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/users-guide/map/search/">特定の場所を検索したい&lt;/a>&lt;br>検索機能を使ってマップの表示範囲を検索場所に移動します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/users-guide/map/edit/">データを編集したい&lt;/a>&lt;br>Web マップに追加されているレイヤーを編集してフィーチャを追加、編集、削除します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/users-guide/map/analysis/">解析機能を使用したい&lt;/a>&lt;br>Map Viewer の解析ツールを使用して、空間解析を行います。
+&lt;/li>
+&lt;/ul></description></item><item><title>シーンの作成と利用</title><link>/online/users-guide/scene/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/scene/</guid><description>
+&lt;p>ArcGIS Online 上にあるフィーチャ レイヤーやシーン レイヤーなどを Scene Viewer に追加して、3D シーンの表示と操作を行います。&lt;/p>
+&lt;ul class="list-disc ml-6">
+&lt;li>
+&lt;a href="/online/users-guide/scene/create/">シーンを作成したい&lt;/a>&lt;br>Scene Viewer で 3Dシーンを作成します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/users-guide/scene/style/">シンボルを変更したい&lt;/a>&lt;br>3D データのシンボルの色や形を変更します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/users-guide/scene/bookmark/">シーンのブックマークを作成したい&lt;/a>&lt;br>Scene Viewer で表示されている状態を保存します。
+&lt;/li>
+&lt;/ul></description></item><item><title>共有</title><link>/online/users-guide/share/</link><pubDate>Tue, 30 Nov 2021 00:00:00 +0900</pubDate><guid>/online/users-guide/share/</guid><description>
+&lt;p>ArcGIS Online 上のアイテムを、組織のメンバーや一般ユーザーと共有する方法を説明します。&lt;/p>
+&lt;ul class="list-disc ml-6">
+&lt;li>
+&lt;a href="/online/users-guide/share/map/">マップを共有したい&lt;/a>&lt;br>作成したマップを他のユーザーやグループに共有します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/users-guide/share/other-org/">他組織のメンバーとコンテンツを共有したい&lt;/a>&lt;br>グループを通じて、他組織のメンバーとコンテンツを共有します。
+&lt;/li>
+&lt;/ul></description></item><item><title>Web アプリの作成</title><link>/online/users-guide/create-apps/</link><pubDate>Tue, 30 Nov 2021 00:00:00 +0900</pubDate><guid>/online/users-guide/create-apps/</guid><description>
+&lt;p>Web アプリとは、ArcGIS Online で作成するマップ (Web マップ) に目的に応じて機能や見栄えに変更を加えたアプリケーションです。&lt;/p>
+&lt;ul class="list-disc ml-6">
+&lt;li>
+&lt;a href="/online/users-guide/create-apps/webapp/">Web アプリとは&lt;/a>&lt;br>Web アプリの概要について説明します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/users-guide/create-apps/start/">開始手順&lt;/a>&lt;br>Web アプリの開始手順について説明します。
+&lt;/li>
+&lt;/ul></description></item><item><title>クレジットについて</title><link>/online/users-guide/credits/</link><pubDate>Wed, 13 Dec 2023 00:00:00 +0900</pubDate><guid>/online/users-guide/credits/</guid><description>
+&lt;p>ArcGIS Online におけるクレジットの概要をユーザーと管理者の視点で説明します。&lt;/p>
+&lt;ul class="list-disc ml-6">
+&lt;li>
+&lt;a href="/online/users-guide/credits/use/">クレジットの利用と消費例&lt;/a>&lt;br>クレジットの利用と消費例について説明します。
+&lt;/li>
+&lt;li>
+&lt;a href="/online/users-guide/credits/manage/">クレジットの取得と管理&lt;/a>&lt;br>クレジットの取得と管理について説明します。
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

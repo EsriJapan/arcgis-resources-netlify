@@ -1,26 +1,77 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>ライセンス on ArcGIS リソース集</title>
-    <link>/online/get-started/administer/license/</link>
-    <description>Recent content in ライセンス on ArcGIS リソース集</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language><atom:link href="/online/get-started/administer/license/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>ライセンスの割り当てと解除</title>
-      <link>/online/get-started/administer/license/assign/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/online/get-started/administer/license/assign/</guid>
-      <description>組織の管理者、またはライセンス管理権限を持っているユーザーは、各メンバーに割り当てられたユーザー タイプに含まれていないアドオン ライセンス (ArcGIS Drone2Map、ArcGIS Insights など) を ArcGIS Online 組織サイトで割り当てたり、解除したりすることができます。
-1 つの製品のライセンスの割り当てと解除   管理者またはライセンス管理権限を持っているユーザーとして ArcGIS Online にサイン インします。
-  サイト上部の [組織] タブ → [ライセンス] タブをクリックします。
-  [アドオン ライセンス] ページに利用可能なライセンスの種類が表示されます。
-  割り当てたいライセンスの [管理] をクリックします。   [メンバーの検索] ボックスに対象のメンバーの名前を入力して検索し、ライセンスを割り当てたいメンバー右の切り替えボタンをオンにします。ライセンスの割り当てを解除するには、メンバー右の切り替えボタンをオフにします。   [メンバーに電子メールを送信しますか？] という画面が表示されます。必要に応じて、[メンバーに電子メールを送信しない] または [メンバーに電子メールを送信する] をクリックします。
-  右上の [×] をクリックして、[アドオン ライセンス] ページに戻ります。
-  複数の製品のライセンスの割り当てと解除   管理者またはライセンス管理権限を持っているユーザーとして ArcGIS Online にサイン インします。
-  サイト上部の [組織] タブ → [メンバー] タブをクリックします。</description>
-    </item>
-    
-  </channel>
-</rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – ライセンス</title><link>/online/get-started/administer/license/</link><description>Recent content in ライセンス on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Wed, 05 Mar 2025 00:00:00 +0900</lastBuildDate><atom:link href="/online/get-started/administer/license/index.xml" rel="self" type="application/rss+xml"/><item><title>ライセンスの割り当てと解除</title><link>/online/get-started/administer/license/assign/</link><pubDate>Wed, 05 Mar 2025 00:00:00 +0900</pubDate><guid>/online/get-started/administer/license/assign/</guid><description>
+&lt;p>組織の管理者、またはライセンス管理権限を持っているユーザーは、各メンバーに割り当てられた&lt;a href="/online/get-started/administer/members/usertype/">ユーザー タイプ&lt;/a>に含まれていないアドオン ライセンス (ArcGIS Drone2Map など) を ArcGIS Online 組織サイトで割り当てたり、解除したりすることができます。&lt;/p>
+&lt;h2>1 つの製品のライセンスの割り当てと解除&lt;span class="hx:absolute hx:-mt-20" id="1-つの製品のライセンスの割り当てと解除">&lt;/span>
+&lt;a href="#1-%e3%81%a4%e3%81%ae%e8%a3%bd%e5%93%81%e3%81%ae%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9%e3%81%ae%e5%89%b2%e3%82%8a%e5%bd%93%e3%81%a6%e3%81%a8%e8%a7%a3%e9%99%a4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>管理者またはライセンス管理権限を持っているユーザーとして ArcGIS Online にサイン インします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>サイト上部の [組織] タブ → [ライセンス] タブをクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[アドオン ライセンス] ページに利用可能なライセンスの種類が表示されます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>割り当てたいライセンスの [管理] をクリックします。
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/license/assign-add-on-license.png"
+alt="アドオン ライセンスの管理" width="750">&lt;figcaption>
+&lt;p>アドオン ライセンスの管理&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[メンバーの検索] ボックスに対象のメンバーの名前を入力して検索し、ライセンスを割り当てたいメンバー右の切り替えボタンをオンにします。ライセンスの割り当てを解除するには、メンバー右の切り替えボタンをオフにします。
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/license/assign-search-for-members.png"
+alt="ライセンスの割り当てと解除" width="750">&lt;figcaption>
+&lt;p>ライセンスの割り当てと解除&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[メンバーに電子メールを送信しますか？] という画面が表示されます。必要に応じて、[メンバーに電子メールを送信しない] または [メンバーに電子メールを送信する] をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>右上の [×] をクリックして、[アドオン ライセンス] ページに戻ります。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2>複数の製品のライセンスの割り当てと解除&lt;span class="hx:absolute hx:-mt-20" id="複数の製品のライセンスの割り当てと解除">&lt;/span>
+&lt;a href="#%e8%a4%87%e6%95%b0%e3%81%ae%e8%a3%bd%e5%93%81%e3%81%ae%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9%e3%81%ae%e5%89%b2%e3%82%8a%e5%bd%93%e3%81%a6%e3%81%a8%e8%a7%a3%e9%99%a4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>管理者またはライセンス管理権限を持っているユーザーとして ArcGIS Online にサイン インします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>サイト上部の [組織] タブ → [メンバー] タブをクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>操作を行いたいメンバーの右に表示される […] をクリックし、[アドオン ライセンス] をクリックします。
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/license/assign-manage-add-on-licenses.png"
+alt="メンバーのライセンスの管理" width="500">&lt;figcaption>
+&lt;p>メンバーのライセンスの管理&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>割り当てたいライセンスのチェックボックスをオン、解除したいライセンスのチェックボックスをオフにし、[保存] をクリックします。
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/license/assign-manage-add-on-licenses-window.png"
+alt="複数の製品のライセンスの割り当てと解除" width="750">&lt;figcaption>
+&lt;p>複数の製品のライセンスの割り当てと解除&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>複数のメンバーに同じアドオン ライセンスを一括で割り当てる場合は、ライセンスを割り当てたいメンバーのチェックボックスをオンにして、[アドオン ライセンスの管理] をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/license/assign-multiple-members.png"
+alt="複数メンバーのライセンスの管理" width="750">&lt;figcaption>
+&lt;p>複数メンバーのライセンスの管理&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;/ol></description></item></channel></rss>

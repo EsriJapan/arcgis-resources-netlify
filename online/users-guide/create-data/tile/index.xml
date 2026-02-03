@@ -1,0 +1,119 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – タイル レイヤーを公開したい</title><link>/online/users-guide/create-data/tile/</link><description>Recent content in タイル レイヤーを公開したい on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0900</lastBuildDate><atom:link href="/online/users-guide/create-data/tile/index.xml" rel="self" type="application/rss+xml"/><item><title>ArcGIS Pro からタイル レイヤーを公開したい</title><link>/online/users-guide/create-data/tile/arcgispro/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/create-data/tile/arcgispro/</guid><description>
+&lt;p>ArcGIS Pro 上のデータをタイル レイヤーとして ArcGIS Online に公開します。タイル レイヤーには、画像形式で高速描画が可能な&lt;a href="#%e3%83%a9%e3%82%b9%e3%82%bf%e3%83%bc-%e3%82%bf%e3%82%a4%e3%83%ab-%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%81%ae%e5%85%ac%e9%96%8b">ラスター タイル&lt;/a>と、Web マップ上でスタイルを変更できる&lt;a href="#%e3%83%99%e3%82%af%e3%82%bf%e3%83%bc-%e3%82%bf%e3%82%a4%e3%83%ab-%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%81%ae%e5%85%ac%e9%96%8b">ベクター タイル&lt;/a>の 2 種類があります。「ホスト タイル レイヤーの公開」の権限が必要です。&lt;/p>
+&lt;p>それぞれのステップの詳細な手順は、「&lt;a href="https://www.esrij.com/cgi-bin/wp/wp-content/uploads/documents/arcgis_pro_user_guide.pdf"target="_blank" rel="noopener">ArcGIS Pro 逆引きガイド&lt;/a>」をご参照ください。&lt;/p>
+&lt;h3>ラスター タイル レイヤーの公開&lt;span class="hx:absolute hx:-mt-20" id="ラスター-タイル-レイヤーの公開">&lt;/span>
+&lt;a href="#%e3%83%a9%e3%82%b9%e3%82%bf%e3%83%bc-%e3%82%bf%e3%82%a4%e3%83%ab-%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%81%ae%e5%85%ac%e9%96%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>航空写真や図面などの画像形式のデータを ラスター タイル レイヤーとして公開します。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>ArcGIS Pro を起動し、プロジェクトを作成します。&lt;br>
+ArcGIS Pro 逆引きガイド「1-4. ArcGIS Pro の起動と保存」&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>タイル レイヤーとして公開したいデータをマップに追加します。公開しないデータは ArcGIS Pro から削除します。&lt;br>
+ArcGIS Pro 逆引きガイド「2-3. マップにデータを追加・削除したい」&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>ArcGIS Online にサイン インしていることを確認し、[共有] タブ → [Web レイヤー] → [Web レイヤーの公開] をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[Web レイヤーとして共有] ウィンドウで、[名前]、[概要]、[タグ] を入力し、[レイヤー タイプ] は [タイル] を選択します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/create-data/tile/arcgispro-tilelayer.png"
+alt="ArcGIS Pro でタイル レイヤーの公開" width="800">&lt;figcaption>
+&lt;p>ArcGIS Pro でタイル レイヤーの公開&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[名前] について、既に組織サイト上に存在するサービス名と同じ名前は使用できません。また半角英数字とアンダースコア (_) の使用を推奨します。日本語とアンダースコア (_) 以外の特殊文字、スペースは使用しないでください。公開後、名前は ArcGIS Online のアイテム詳細ページで任意のものに変更できます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>[構成] をクリックし、[詳細レベル] でタイルの最小/最大レベルを指定し、[ローカルにキャッシュ] ラジオ ボタンをオンにします。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/create-data/tile/arcgispro-tileconfig.png"
+alt="タイル レイヤーの構成" width="300">&lt;figcaption>
+&lt;p>タイル レイヤーの構成&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[ローカルにキャッシュ] 以外のオプションを選択している場合、タイル レイヤーの公開処理に ArcGIS Online の&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/credits.htm"target="_blank" rel="noopener">クレジット&lt;/a>を消費します。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>[公開] をクリックして、タイル レイヤーとして ArcGIS Online に共有します。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">レイヤーの公開時に、画面下部に [エラー]、[警告]、[メッセージ] が表示される場合があります。[エラー] が表示された場合は、レイヤーを公開できないため、エラー内容を確認し修正後、再度レイヤーを公開します。[警告] が表示された場合、示されている事項を修正することで、レイヤーのパフォーマンスなどを向上できます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">上記以外に、ジオプロセシング ツールで作成したタイル パッケージをブラウザー経由またはジオプロセシング ツールで ArcGIS Online に共有し、タイル レイヤーを公開する方法があります。詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/publish-tiles.htm#ESRI_SECTION1_9DDC0AFDD2AD4AF59CD36A29721AB67A"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;/ol>
+&lt;h3>ベクター タイル レイヤーの公開&lt;span class="hx:absolute hx:-mt-20" id="ベクター-タイル-レイヤーの公開">&lt;/span>
+&lt;a href="#%e3%83%99%e3%82%af%e3%82%bf%e3%83%bc-%e3%82%bf%e3%82%a4%e3%83%ab-%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%81%ae%e5%85%ac%e9%96%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>境界や道路線などのベクターのデータをベクター タイル レイヤーとして公開します。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>ArcGIS Pro を起動し、プロジェクトを作成します。&lt;br>
+ArcGIS Pro 逆引きガイド「1-4. ArcGIS Pro の起動と保存」&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>ベクター タイル レイヤーとして公開したいデータをマップに追加します。公開しないデータは ArcGIS Pro から削除します。&lt;br>
+ArcGIS Pro 逆引きガイド「2-3. マップにデータを追加・削除したい」&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>ArcGIS Online にサイン インしていることを確認し、[共有] タブ → [Web レイヤー] → [Web レイヤーの公開] をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[Web レイヤーとして共有] ウィンドウで、[名前]、[概要]、[タグ] を入力し、[レイヤー タイプ] は [ベクター タイル] を選択します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/create-data/tile/arcgispro-vectortilelayer.png"
+alt="ArcGIS Pro でベクター タイル レイヤーの公開" width="800">&lt;figcaption>
+&lt;p>ArcGIS Pro でベクター タイル レイヤーの公開&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[名前] について、既に組織サイト上に存在するサービス名と同じ名前は使用できません。また半角英数字とアンダースコア (_) の使用を推奨します。日本語とアンダースコア (_) 以外の特殊文字、スペースは使用しないでください。公開後、名前は ArcGIS Online のアイテム詳細ページで任意のものに変更できます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>[構成] をクリックし、[詳細レベル] でタイルの最小/最大レベルを指定し、[ローカルにキャッシュ] ラジオ ボタンをオンにします。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/create-data/tile/arcgispro-vectortileconfig.png"
+alt="ベクター タイルの構成" width="300">&lt;figcaption>
+&lt;p>ベクター タイルの構成&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[オンライン上にキャッシュ] のオプションを選択している場合、フィーチャ レイヤーも同時に公開されます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>[公開] をクリックして、タイル レイヤーとして ArcGIS Online に共有します。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">レイヤーの公開時に、画面下部に [エラー]、[警告]、[メッセージ] が表示される場合があります。[エラー] が表示された場合は、レイヤーを公開できないため、エラー内容を確認し修正後、再度レイヤーを公開します。[警告] が表示された場合、示されている事項を修正することで、レイヤーのパフォーマンスなどを向上できます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">上記以外に、ジオプロセシング ツールで作成したベクター タイル パッケージをブラウザー経由またはジオプロセシング ツールで ArcGIS Online に共有し、ベクター タイル レイヤーを公開する方法があります。詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/publish-vector-tiles.htm#ESRI_SECTION1_D7F82432E5DD479DA47B4C9DD657610E"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;/ol></description></item></channel></rss>

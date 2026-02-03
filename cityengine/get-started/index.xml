@@ -1,11 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>スタートアップ ガイド on ArcGIS リソース集</title>
-    <link>/cityengine/get-started/</link>
-    <description>Recent content in スタートアップ ガイド on ArcGIS リソース集</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language>
-    <lastBuildDate>Wed, 29 Jun 2022 00:00:00 +0900</lastBuildDate><atom:link href="/cityengine/get-started/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – スタートアップ ガイド</title><link>/cityengine/get-started/</link><description>Recent content in スタートアップ ガイド on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 25 Jan 2026 00:00:00 +0900</lastBuildDate><atom:link href="/cityengine/get-started/index.xml" rel="self" type="application/rss+xml"/><item><title>セットアップ</title><link>/cityengine/get-started/setup/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/setup/</guid><description>
+&lt;p>ArcGIS CityEngine の利用を開始するための操作や設定を説明します。&lt;/p>
+&lt;ul class="list-disc ml-6">
+&lt;li>
+&lt;a href="/cityengine/get-started/setup/environment/">システム要件&lt;/a>&lt;br>利用するコンピューターが ArcGIS CityEngine のシステム要件を満たしているかを確認します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/get-started/setup/download/">ダウンロード&lt;/a>&lt;br>ダウンロードの手順について説明します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/get-started/setup/install/">インストールと認証&lt;/a>&lt;br>ArcGIS CityEngine の利用を開始するためのインストールとソフトウェアの認証手順を説明します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/get-started/setup/license-manager/">ライセンス マネージャー&lt;/a>&lt;br>ライセンス マネージャーの概要について説明します。
+&lt;/li>
+&lt;/ul></description></item><item><title>クイック スタート チュートリアル</title><link>/cityengine/get-started/quickstart-tutorials/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/</guid><description>
+&lt;p>ArcGIS CityEngine の基本的な操作を学習するためのチュートリアルです。&lt;/p>
+&lt;ul class="list-disc ml-6">
+&lt;li>
+&lt;a href="/cityengine/get-started/quickstart-tutorials/basic-operation/">基本操作&lt;/a>&lt;br>CityEngine の起動と基本操作を確認します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/get-started/quickstart-tutorials/create-project/">プロジェクトの作成&lt;/a>&lt;br>プロジェクトを新規作成してデータの作成をします。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/get-started/quickstart-tutorials/create-cga/">CGA の作成&lt;/a>&lt;br>CGA スクリプトを作成して、ルールをどのように設定するかを解説します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/get-started/quickstart-tutorials/advanced-cga/">高度な CGA&lt;/a>&lt;br>日本の戸建て住宅のような感じにするために、区画と CGA ルールを改良します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/get-started/quickstart-tutorials/apply-texture/">テクスチャーの適用&lt;/a>&lt;br>建物モデルにテクスチャーを貼り付けてより見栄えの良い物にします。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/get-started/quickstart-tutorials/utilize-sample/">サンプルの活用&lt;/a>&lt;br>サンプルの活用と利用方法について解説します。
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

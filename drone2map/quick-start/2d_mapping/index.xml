@@ -1,0 +1,45 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – 2D プロダクト</title><link>/drone2map/quick-start/2d_mapping/</link><description>Recent content in 2D プロダクト on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Mon, 25 Dec 2023 00:00:00 +0900</lastBuildDate><atom:link href="/drone2map/quick-start/2d_mapping/index.xml" rel="self" type="application/rss+xml"/><item><title>プロジェクトの作成</title><link>/drone2map/quick-start/2d_mapping/2dmapping_createproject/</link><pubDate>Wed, 27 Dec 2023 00:00:00 +0900</pubDate><guid>/drone2map/quick-start/2d_mapping/2dmapping_createproject/</guid><description>
+&lt;h2>プロジェクトの作成&lt;span class="hx:absolute hx:-mt-20" id="プロジェクトの作成">&lt;/span>
+&lt;a href="#%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>Windows の [スタート] ボタン → [ArcGIS] → [Drone2Map] をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>ArcGIS Online の組織向けアカウントまたは Portal for ArcGIS アカウントでサイン インします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>任意のプロジェクト名を入力し、プロジェクトを保存する場所を設定します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[フォルダーの追加] をクリックし、解凍した 「Sample Banana Plant」 フォルダー内の 「Images」 フォルダーを指定します。入力画像には、撮影した際の GPS の情報が含まれていないため、[GPS ファイルが必要です] ウィンドウが表示されます。[参照] から Files フォルダー内の Geolocation.csv を指定後 [OK] をクリックします。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/QS/2dmapping_gpsfile.png" width= "80%">
+&lt;ol start="5">
+&lt;li>[2D プロダクト] テンプレートを選択し、[作成] をクリックしてプロジェクトを作成します。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/QS/2dmapping_createproject.png">
+&lt;/figure></description></item><item><title>処理設定の確認</title><link>/drone2map/quick-start/2d_mapping/2dmapping_processingoption/</link><pubDate>Tue, 20 Dec 2022 00:00:00 +0900</pubDate><guid>/drone2map/quick-start/2d_mapping/2dmapping_processingoption/</guid><description>
+&lt;h2>処理設定の確認&lt;span class="hx:absolute hx:-mt-20" id="処理設定の確認">&lt;/span>
+&lt;a href="#%e5%87%a6%e7%90%86%e8%a8%ad%e5%ae%9a%e3%81%ae%e7%a2%ba%e8%aa%8d" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>[ホーム] タブで [オプション] をクリックして処理設定を確認します。&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/QS/processing_options.png" alt="オプションボタン" loading="lazy" />&lt;/p>
+&lt;p>2D プロダクト テンプレートのデフォルトの設定では、[画像の調整] タブの [タイポイント オプション] の [調整の改善] チェック ボックスがオンになっていることを確認します。[調整の改善] 設定は、タイ ポイント生成の初期調整時に、カメラ モデルを最適化しし、タイ ポイント数を増やしてプロダクトの精度を向上させることができます。
+[2D プロダクト] タブでは、[トゥルー オルソの作成] と [DSM の作成] のチェック ボックスがオンになっています。&lt;/p>
+&lt;p>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/QS/2dmapping_processingoption1.png" alt="処理オプション1" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/QS/2dmapping_processingoption2.png" alt="処理オプション1" loading="lazy" />&lt;/p>
+&lt;ol start="2">
+&lt;li>
+&lt;p>今回はデフォルトの設定で処理を実行するので、[OK] をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[ホーム] タブの [開始] をクリックし、処理を実行します。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/QS/pricessing_start.png" alt="開始ボタン" loading="lazy" />&lt;/p></description></item><item><title>処理結果の確認</title><link>/drone2map/quick-start/2d_mapping/2dmapping_result/</link><pubDate>Thu, 21 Dec 2023 00:00:00 +0900</pubDate><guid>/drone2map/quick-start/2d_mapping/2dmapping_result/</guid><description>
+&lt;h2>結果の確認&lt;span class="hx:absolute hx:-mt-20" id="結果の確認">&lt;/span>
+&lt;a href="#%e7%b5%90%e6%9e%9c%e3%81%ae%e7%a2%ba%e8%aa%8d" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>処理が完了すると、[コンテンツ] ウィンドウの「画像プロダクト」グループに「トゥルー オルソ」レイヤーが、「DEM プロダクト」グループに「数値表層モデル」レイヤーが追加されます。&lt;/p>
+&lt;p>また、[2Dマップ] ビューには高解像度のトゥルー オルソが表示されます。&lt;/p>
+&lt;p>レイヤーの表示・非表示、マップ上で画面移動やズームを行い、トゥルー オルソまたは数値表層モデルを確認します。&lt;/p>
+&lt;p>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/QS/2dmapping_result.png" alt="結果2D" loading="lazy" />&lt;/p></description></item></channel></rss>
