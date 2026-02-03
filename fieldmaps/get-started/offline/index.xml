@@ -1,31 +1,415 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>オフライン利用 on ArcGIS リソース集</title><link>/fieldmaps/get-started/offline/</link><description>Recent content in オフライン利用 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0900</lastBuildDate><atom:link href="/fieldmaps/get-started/offline/index.xml" rel="self" type="application/rss+xml"/><item><title>オフライン利用のための準備</title><link>/fieldmaps/get-started/offline/prepare/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/offline/prepare/</guid><description>Field Maps Web アプリを利用して、オフライン利用のための準備を行います。
-Web マップの作成で Web マップおよびフィーチャ レイヤーを作成した場合は、既に下記の設定はそれぞれ有効化されているため、この手順は不要です。オフライン エリアの作成に進んでください。
-オフラインで使用するコンテンツの有効化 モバイル アプリでオフライン利用するためには、マップのコンテンツがオフラインで使用できる状態になっている必要があります。
-オフライン利用を行う Web マップを Field Maps Web アプリで開きます 。 [オフライン] タブをクリックします。 [コンテンツ] セクション内の [レイヤー] を展開します。 必要なフィールドがない、同期が有効化されていない、などのエラーが表示された場合は、リンクをクリックしてエラーを解決します。 リンクに表示されている内容以外の方法でエラーを解決するには、以下の手順を実行します。
-レイヤー名右に表示される [アイテム詳細の表示] ボタンをクリックします。 アイテム詳細ページで各種設定を変更します。 Field Maps Web アプリに戻り、[コンテンツ] セクション下の [更新] をクリックして、コンテンツの設定を読み込みます。 各エラーの詳細と解決方法については「FAQ: ArcGIS Online または Field Maps Designer でオフラインを有効化する際に表示される警告の解消方法」をご参照ください。
-マップのオフライン モードを有効化 ページ上部の [オフライン] トグルをクリックして、マップのオフライン利用を有効化します。</description></item><item><title>オフライン エリアの作成</title><link>/fieldmaps/get-started/offline/offlinearea/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/offline/offlinearea/</guid><description>オフラインでマップを操作するには、オフライン用の作業エリアを切り出して利用します。作業エリアはオフライン エリアと呼び、Web アプリで作成する方法とモバイル アプリで作成する方法があります。
-Field Maps Web アプリを使用して作成、ダウンロード あらかじめ作業エリアが決まっている場合や、複数の作業エリアをまとめて作成、管理したい場合に便利です。
-オフライン利用を行う Web マップを Field Maps Web アプリで開きます。
-[オフライン] タブをクリックします。
-[マップ エリア] セクションを開き、[エリアの管理] をクリックします。
-[+ オフライン エリアの作成] をクリックし、スケッチ ツールで切り出す範囲を描画します。また、エリアの名前や切り出す縮尺レベルを設定します。
-[保存] をクリックします。エリア名右に [パッケージ中] と表示され、このラベルの表示が消えると、オフライン エリアの作成は完了です。
-1 つの Web マップにつき 16 のオフライン エリアを作成することが可能です。
-インターネット接続がある環境で Field Maps モバイル アプリを開きます。
-Field Maps のマップ一覧の画面で、該当のマップ名の下に [オフライン エリア] という表示を確認し、タップします。
-作成済みのオフライン エリアをダウンロードします。</description></item><item><title>オフラインで参照するためのベースマップを配置</title><link>/fieldmaps/get-started/offline/deploy-basemap/</link><pubDate>Fri, 31 Mar 2023 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/offline/deploy-basemap/</guid><description>オフライン調査のために、オフライン ベースマップの設定 を行うことができます。組織で共有されているタイルパッケージを使用、もしくは独自の背景データをパッケージ ファイルとして端末に配置することで Field Maps モバイル アプリ上で利用できます。ファイルは USB ケーブルやクラウド ドライブなどを介してコピーすることができ、オフライン環境でも利用可能です。パッケージ ファイルの作成には ArcGIS Pro が必要です。
-組織のタイル パッケージを利用 Field Maps Web アプリ上で、組織で共有されているタイル パッケージをオフライン ベースマップとして設定することができます。
-オフライン利用を行う Web マップを Field Maps Web アプリで開きます。
-[オフライン] タブをクリックします。
-[ベースマップとタイル パッケージ] セクションを開き、[組織のタイル パッケージ] を選択します。
-[参照] をクリックし、組織で共有されている任意のタイルパッケージを、[タイル パッケージの選択] から選択します。
-[保存] をクリックします。
-独自のタイル パッケージを利用 独自の背景データをパッケージ ファイルとして端末に配置することで Field Maps モバイル アプリ上で利用できます。
-パッケージ ファイルの作成 ArcGIS Pro で、下記のいずれかのパッケージ ファイルを作成します。</description></item><item><title>オフライン マップの操作</title><link>/fieldmaps/get-started/offline/edit-sync/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/offline/edit-sync/</guid><description>オフライン マップを Field Maps モバイル アプリで操作します。オフライン環境でデータの収集を行ったのち、インターネット接続がある環境で編集データの同期を行います。
-オフライン マップでデータの収集 Field Maps モバイル アプリを開きます。
-Field Maps のマップ一覧の画面で、オフライン エリアを作成したマップ名をタップします。
-エリア名をタップして、オフライン マップを開きます。
-独自の参照用ベースマップを配置した場合は、右上の […] → [ベースマップ] をタップし、追加したパッケージ ファイルをベースマップとして利用できることを確認します。
-オフライン環境でデータの編集を行います。編集したデータは端末に保存されます。
-収集したデータの同期 端末をインターネットに接続します。 オフライン エリア一覧の画面で同期するエリア名右の […] → [同期] をタップします。 または、マップを開いた状態で [↑↓] → [同期] をタップします。 デフォルトでは、インターネットに接続して 15 分後に自動的に同期が行われます。自動同期を無効にする場合は、アプリの [プロファイル] 設定で [自動同期] のトグルをオフにします。
-モバイル端末上のオフライン エリアを削除したい場合、モバイル アプリから削除することができます。また、元のファイルを削除したい場合は Web アプリ上で削除します。</description></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – オフライン利用</title><link>/fieldmaps/get-started/offline/</link><description>Recent content in オフライン利用 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Tue, 27 Jan 2026 00:00:00 +0900</lastBuildDate><atom:link href="/fieldmaps/get-started/offline/index.xml" rel="self" type="application/rss+xml"/><item><title>オフライン利用のための準備</title><link>/fieldmaps/get-started/offline/prepare/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/offline/prepare/</guid><description>
+&lt;p>Field Maps Web アプリを利用して、オフライン利用のための準備を行います。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;a href="/fieldmaps/get-started/prepare/create-map/">Web マップの作成&lt;/a>で Web マップおよびフィーチャ レイヤーを作成した場合は、既に下記の設定はそれぞれ有効化されているため、この手順は不要です。&lt;a href="/fieldmaps/get-started/offline/offlinearea/">オフライン エリアの作成&lt;/a>に進んでください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h3>オフラインで使用するコンテンツの有効化&lt;span class="hx:absolute hx:-mt-20" id="オフラインで使用するコンテンツの有効化">&lt;/span>
+&lt;a href="#%e3%82%aa%e3%83%95%e3%83%a9%e3%82%a4%e3%83%b3%e3%81%a7%e4%bd%bf%e7%94%a8%e3%81%99%e3%82%8b%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84%e3%81%ae%e6%9c%89%e5%8a%b9%e5%8c%96" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>モバイル アプリでオフライン利用するためには、マップのコンテンツがオフラインで使用できる状態になっている必要があります。&lt;/p>
+&lt;ol>
+&lt;li>オフライン利用を行う Web マップを &lt;a href="/fieldmaps/get-started/prepare/start/">Field Maps Web アプリで開きます&lt;/a> 。&lt;/li>
+&lt;li>[オフライン] タブをクリックします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/prepare-offlinetab.png"
+alt="オフライン タブ" width="150">&lt;figcaption>
+&lt;p>オフライン タブ&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>[コンテンツ] セクション内の [レイヤー] を展開します。&lt;/li>
+&lt;li>必要なフィールドがない、同期が有効化されていない、などのエラーが表示された場合は、リンクをクリックしてエラーを解決します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/prepare-enable-offline-use.png"
+alt="オフライン利用の有効化" width="500">&lt;figcaption>
+&lt;p>オフライン利用の有効化&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>リンクに表示されている内容以外の方法でエラーを解決するには、以下の手順を実行します。&lt;/p>
+&lt;ol>
+&lt;li>レイヤー名右に表示される [アイテム詳細の表示] ボタンをクリックします。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/prepare-itemdetail.png"
+alt="アイテム詳細を開く" width="550">&lt;figcaption>
+&lt;p>アイテム詳細を開く&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;ol>
+&lt;li>アイテム詳細ページで各種設定を変更します。&lt;/li>
+&lt;li>Field Maps Web アプリに戻り、[コンテンツ] セクション下の [更新] をクリックして、コンテンツの設定を読み込みます。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/prepare-update-contents.png"
+alt="コンテンツの更新" width="300">&lt;figcaption>
+&lt;p>コンテンツの更新&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">各エラーの詳細と解決方法については「&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge5807.html"target="_blank" rel="noopener">FAQ: ArcGIS Online または Field Maps Designer でオフラインを有効化する際に表示される警告の解消方法&lt;/a>」をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h3>マップのオフライン モードを有効化&lt;span class="hx:absolute hx:-mt-20" id="マップのオフライン-モードを有効化">&lt;/span>
+&lt;a href="#%e3%83%9e%e3%83%83%e3%83%97%e3%81%ae%e3%82%aa%e3%83%95%e3%83%a9%e3%82%a4%e3%83%b3-%e3%83%a2%e3%83%bc%e3%83%89%e3%82%92%e6%9c%89%e5%8a%b9%e5%8c%96" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>ページ上部の [オフライン] トグルをクリックして、マップのオフライン利用を有効化します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/prepare-enable-offline.png"
+alt="オフラインの有効化" width="400">&lt;figcaption>
+&lt;p>オフラインの有効化&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p></description></item><item><title>オフライン エリアの作成</title><link>/fieldmaps/get-started/offline/offlinearea/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/offline/offlinearea/</guid><description>
+&lt;p>オフラインでマップを操作するには、オフライン用の作業エリアを切り出して利用します。作業エリアはオフライン エリアと呼び、&lt;a href="#field-maps-web-%e3%82%a2%e3%83%97%e3%83%aa%e3%82%92%e4%bd%bf%e7%94%a8%e3%81%97%e3%81%a6%e4%bd%9c%e6%88%90%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89">Web アプリで作成する方法&lt;/a>と&lt;a href="#%e3%83%a2%e3%83%90%e3%82%a4%e3%83%ab-%e3%82%a2%e3%83%97%e3%83%aa%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6%e4%bd%9c%e6%88%90">モバイル アプリで作成する方法&lt;/a>があります。&lt;/p>
+&lt;h3>Field Maps Web アプリを使用して作成、ダウンロード&lt;span class="hx:absolute hx:-mt-20" id="field-maps-web-アプリを使用して作成ダウンロード">&lt;/span>
+&lt;a href="#field-maps-web-%e3%82%a2%e3%83%97%e3%83%aa%e3%82%92%e4%bd%bf%e7%94%a8%e3%81%97%e3%81%a6%e4%bd%9c%e6%88%90%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>あらかじめ作業エリアが決まっている場合や、複数の作業エリアをまとめて作成、管理したい場合に便利です。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>オフライン利用を行う Web マップを &lt;a href="/fieldmaps/get-started/prepare/start/">Field Maps Web アプリで開きます&lt;/a>。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[オフライン] タブをクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[マップ エリア] セクションを開き、[エリアの管理] をクリックします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/offlinearea-manage-area.png"
+alt="マップ エリアの管理" width="400">&lt;figcaption>
+&lt;p>マップ エリアの管理&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[+ オフライン エリアの作成] をクリックし、スケッチ ツールで切り出す範囲を描画します。また、エリアの名前や切り出す縮尺レベルを設定します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/offlinearea-create-area.gif"
+alt="オフライン エリアの作成" width="700">&lt;figcaption>
+&lt;p>オフライン エリアの作成&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[保存] をクリックします。エリア名右に [パッケージ中] と表示され、このラベルの表示が消えると、オフライン エリアの作成は完了です。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/offlinearea-packaging.png"
+alt="パッケージ" width="450">&lt;figcaption>
+&lt;p>パッケージ&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">1 つの Web マップにつき 16 のオフライン エリアを作成することが可能です。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>インターネット接続がある環境で Field Maps モバイル アプリを開きます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Field Maps のマップ一覧の画面で、該当のマップ名の下に [オフライン エリア] という表示を確認し、タップします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/offlinearea-mobilemap.png"
+alt="マップ一覧" width="300">&lt;figcaption>
+&lt;p>マップ一覧&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>作成済みのオフライン エリアをダウンロードします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/offlinearea-download.png"
+alt="オフライン マップのダウンロード" width="300">&lt;figcaption>
+&lt;p>オフライン マップのダウンロード&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3>モバイル アプリを使って作成&lt;span class="hx:absolute hx:-mt-20" id="モバイル-アプリを使って作成">&lt;/span>
+&lt;a href="#%e3%83%a2%e3%83%90%e3%82%a4%e3%83%ab-%e3%82%a2%e3%83%97%e3%83%aa%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>急にオフライン作業をする必要が出た場合や、作業員が自由にエリアを切り出したい場合に便利です。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>インターネット接続がある環境で Field Maps モバイル アプリを開きます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>マップの一覧画面で、オフライン利用したいマップ名右の […] → [オフライン エリアの追加] をタップします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/offlinearea-add.png"
+alt="オフライン エリアの追加" width="250">&lt;figcaption>
+&lt;p>オフライン エリアの追加&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>表示する背景地図の最大縮尺レベルを変更したい場合は、詳細レベルの [部屋] をタップし、縮尺レベルを変更します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/offlinearea-level.png"
+alt="縮尺レベル" width="250">&lt;figcaption>
+&lt;p>縮尺レベル&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>マップを拡大/縮小、移動して、利用したいオフライン エリアの範囲を枠内に収めます。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/offlinearea-extent.png"
+alt="範囲の指定" width="250">&lt;figcaption>
+&lt;p>範囲の指定&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[ダウンロード エリア] をタップし、オフライン エリアを端末にダウンロードします。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>エリア名を分かりやすい名前に変更することが可能です。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/offlinearea-name.png"
+alt="エリア名の変更" width="250">&lt;figcaption>
+&lt;p>エリア名の変更&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>オフラインで参照するためのベースマップを配置</title><link>/fieldmaps/get-started/offline/deploy-basemap/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/offline/deploy-basemap/</guid><description>
+&lt;p>オフライン調査のために、&lt;a href="https://doc.arcgis.com/ja/field-maps/latest/prepare-maps/configure-the-map.htm#ESRI_SECTION2_4308BA6C95E543C1B209EBEB95A00452"target="_blank" rel="noopener">オフライン ベースマップの設定&lt;/a> を行うことができます。組織で共有されているタイルパッケージを使用、もしくは独自の背景データをパッケージ ファイルとして端末に配置することで Field Maps モバイル アプリ上で利用できます。ファイルは USB ケーブルやクラウド ドライブなどを介してコピーすることができ、オフライン環境でも利用可能です。パッケージ ファイルの作成には ArcGIS Pro が必要です。&lt;/p>
+&lt;h3>組織のタイル パッケージを利用&lt;span class="hx:absolute hx:-mt-20" id="組織のタイル-パッケージを利用">&lt;/span>
+&lt;a href="#%e7%b5%84%e7%b9%94%e3%81%ae%e3%82%bf%e3%82%a4%e3%83%ab-%e3%83%91%e3%83%83%e3%82%b1%e3%83%bc%e3%82%b8%e3%82%92%e5%88%a9%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Field Maps Web アプリ上で、組織で共有されているタイル パッケージをオフライン ベースマップとして設定することができます。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>オフライン利用を行う Web マップを &lt;a href="/fieldmaps/get-started/prepare/start/">Field Maps Web アプリで開きます&lt;/a>。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[オフライン] タブをクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[ベースマップとタイル パッケージ] セクションを開き、[組織のタイル パッケージ] を選択します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[参照] をクリックし、組織で共有されている任意のタイルパッケージを、[タイル パッケージの選択] から選択します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[保存] をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/deploy-basemap-organization.png"
+alt="組織のタイル パッケージの選択" width="700">&lt;figcaption>
+&lt;p>組織のタイル パッケージの選択&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;h3>独自のタイル パッケージを利用&lt;span class="hx:absolute hx:-mt-20" id="独自のタイル-パッケージを利用">&lt;/span>
+&lt;a href="#%e7%8b%ac%e8%87%aa%e3%81%ae%e3%82%bf%e3%82%a4%e3%83%ab-%e3%83%91%e3%83%83%e3%82%b1%e3%83%bc%e3%82%b8%e3%82%92%e5%88%a9%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>独自の背景データをパッケージ ファイルとして端末に配置することで Field Maps モバイル アプリ上で利用できます。&lt;/p>
+&lt;h4>パッケージ ファイルの作成&lt;span class="hx:absolute hx:-mt-20" id="パッケージ-ファイルの作成">&lt;/span>
+&lt;a href="#%e3%83%91%e3%83%83%e3%82%b1%e3%83%bc%e3%82%b8-%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>ArcGIS Pro で、下記のいずれかのパッケージ ファイルを作成します。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>背景データの種類&lt;/th>
+&lt;th>作成するデータ&lt;/th>
+&lt;th>作成方法&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>衛星画像、航空写真&lt;/strong>&lt;/td>
+&lt;td>タイル パッケージ (*.tpk、*.tpkx)&lt;/td>
+&lt;td>&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/data-management/create-map-tile-package.htm"target="_blank" rel="noopener">マップ タイル パッケージの作成&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>フィーチャ (区画など)&lt;/strong>&lt;/td>
+&lt;td>ベクター タイル パッケージ (*.vtpk)&lt;/td>
+&lt;td>&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/data-management/create-vector-tile-package.htm"target="_blank" rel="noopener">ベクター タイル パッケージの作成&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4>パッケージ ファイルの配置&lt;span class="hx:absolute hx:-mt-20" id="パッケージ-ファイルの配置">&lt;/span>
+&lt;a href="#%e3%83%91%e3%83%83%e3%82%b1%e3%83%bc%e3%82%b8-%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e9%85%8d%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>利用するモバイル端末の OS や方法で手順が異なります。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="#ios-itunes">iOS (iTunes)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#ios-%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab-%e3%82%a2%e3%83%97%e3%83%aa">iOS (ファイル アプリ)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#android">Android&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h5>iOS (iTunes)&lt;span class="hx:absolute hx:-mt-20" id="ios-itunes">&lt;/span>
+&lt;a href="#ios-itunes" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h5>&lt;ol>
+&lt;li>
+&lt;p>デバイスをコンピューターに接続します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>iTunes を開き、デバイスを選択します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/deploy-basemap-device.png"
+alt="iTunes でデバイスの選択" width="250">&lt;figcaption>
+&lt;p>iTunes でデバイスの選択&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>[ファイル共有] をクリックし、[Field Maps] を選択します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/deploy-basemap-fieldmaps.png"
+alt="Field Maps セクション" width="450">&lt;figcaption>
+&lt;p>Field Maps セクション&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>パッケージ ファイル (*.tpk、*.tpkx、*.vtpk) を [Field Mapsの書類] セクションにドラッグ &amp;amp; ドロップして追加します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/deploy-basemap-sideload.png"
+alt="ファイルのサイド ロード" width="550">&lt;figcaption>
+&lt;p>ファイルのサイド ロード&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[同期] をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Field Maps モバイル アプリを再起動します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>通常のマップまたは&lt;a href="/fieldmaps/get-started/offline/edit-sync/">オフライン マップで利用&lt;/a>します。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h5>iOS (ファイル アプリ)&lt;span class="hx:absolute hx:-mt-20" id="ios-ファイル-アプリ">&lt;/span>
+&lt;a href="#ios-%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab-%e3%82%a2%e3%83%97%e3%83%aa" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h5>&lt;ol>
+&lt;li>
+&lt;p>パッケージ ファイルをクラウド ドライブ (iCloud、Dropbox など) にコピーします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>iOS 端末で、ファイル アプリを起動します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>パッケージ ファイルのアップロード先を参照します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/deploy-basemap-fileapp.png"
+alt="パッケージ ファイルの参照" width="250">&lt;figcaption>
+&lt;p>パッケージ ファイルの参照&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>右上の […] → [選択] → コピーしたいファイルを選択し、下部のフォルダーのアイコンをタップします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/deploy-basemap-select.png"
+alt="パッケージ ファイルの選択" width="250">&lt;figcaption>
+&lt;p>パッケージ ファイルの選択&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[このiPhone内] → [Field Maps] フォルダーを選択し、右上の [コピー] をタップします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/deploy-basemap-copy.png"
+alt="パッケージ ファイルのコピー" width="250">&lt;figcaption>
+&lt;p>パッケージ ファイルのコピー&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Field Maps モバイル アプリを再起動します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>通常のマップまたは&lt;a href="/fieldmaps/get-started/offline/edit-sync/">オフライン マップで利用&lt;/a>します。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h5>Android&lt;span class="hx:absolute hx:-mt-20" id="android">&lt;/span>
+&lt;a href="#android" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h5>&lt;ol>
+&lt;li>
+&lt;p>デバイスをコンピューターに接続します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Windows エクスプローラーを開き、パッケージ ファイルを下記のフォルダーにコピーします。フォルダーが存在しない場合は作成します。&lt;br>
+&lt;em>\Android\data\com.esri.fieldmaps\files\basemaps&lt;/em>&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/deploy-basemap-android.png"
+alt="Android の場合" width="550">&lt;figcaption>
+&lt;p>Android の場合&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>Field Maps モバイル アプリを再起動、またはマップ一覧の画面を下にスワイプし表示を更新します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>通常のマップまたは&lt;a href="/fieldmaps/get-started/offline/edit-sync/">オフライン マップで利用&lt;/a>します。&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>オフライン マップの操作</title><link>/fieldmaps/get-started/offline/edit-sync/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/offline/edit-sync/</guid><description>
+&lt;p>オフライン マップを Field Maps モバイル アプリで操作します。オフライン環境でデータの収集を行ったのち、インターネット接続がある環境で編集データの同期を行います。&lt;/p>
+&lt;h3>オフライン マップでデータの収集&lt;span class="hx:absolute hx:-mt-20" id="オフライン-マップでデータの収集">&lt;/span>
+&lt;a href="#%e3%82%aa%e3%83%95%e3%83%a9%e3%82%a4%e3%83%b3-%e3%83%9e%e3%83%83%e3%83%97%e3%81%a7%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e5%8f%8e%e9%9b%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>Field Maps モバイル アプリを開きます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Field Maps のマップ一覧の画面で、&lt;a href="/fieldmaps/get-started/offline/offlinearea/">オフライン エリアを作成&lt;/a>したマップ名をタップします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>エリア名をタップして、オフライン マップを開きます。&lt;/p>
+&lt;p>&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/edit-sync-map.png"
+alt="オフライン マップを開く" width="250">&lt;figcaption>
+&lt;p>オフライン マップを開く&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>&lt;a href="/fieldmaps/get-started/offline/deploy-basemap/">独自の参照用ベースマップを配置&lt;/a>した場合は、右上の […] → [ベースマップ] をタップし、追加したパッケージ ファイルをベースマップとして利用できることを確認します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/edit-sync-deploymap.png"
+alt="配置済みマップを開く" width="250">&lt;figcaption>
+&lt;p>配置済みマップを開く&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>オフライン環境で&lt;a href="/fieldmaps/get-started/mobile/edit/">データの編集&lt;/a>を行います。編集したデータは端末に保存されます。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3>収集したデータの同期&lt;span class="hx:absolute hx:-mt-20" id="収集したデータの同期">&lt;/span>
+&lt;a href="#%e5%8f%8e%e9%9b%86%e3%81%97%e3%81%9f%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e5%90%8c%e6%9c%9f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>端末をインターネットに接続します。&lt;/li>
+&lt;li>オフライン エリア一覧の画面で同期するエリア名右の […] → [同期] をタップします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/edit-sync-sync1.png"
+alt="同期" width="250">&lt;figcaption>
+&lt;p>同期&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+または、マップを開いた状態で [↑↓] → [同期] をタップします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/edit-sync-sync2.png"
+alt="マップで同期" width="250">&lt;figcaption>
+&lt;p>マップで同期&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>デフォルトでは、インターネットに接続して 15 分後に自動的に同期が行われます。自動同期を無効にする場合は、アプリの [プロファイル] 設定で [自動同期] のトグルをオフにします。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/edit-sync-autosync.png"
+alt="自動同期をオフ" width="400">&lt;figcaption>
+&lt;p>自動同期をオフ&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>モバイル端末上のオフライン エリアを削除したい場合、モバイル アプリから削除することができます。また、元のファイルを削除したい場合は Web アプリ上で削除します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/edit-sync-deletearea.png"
+alt="オフライン エリアの削除" width="600">&lt;figcaption>
+&lt;p>オフライン エリアの削除&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item></channel></rss>

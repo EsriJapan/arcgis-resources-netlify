@@ -1,11 +1,273 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>クレジットの利用と消費例 on ArcGIS リソース集</title><link>/online/users-guide/credits/use/</link><description>Recent content in クレジットの利用と消費例 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Wed, 13 Dec 2023 00:00:00 +0900</lastBuildDate><atom:link href="/online/users-guide/credits/use/index.xml" rel="self" type="application/rss+xml"/><item><title>クレジットの利用</title><link>/online/users-guide/credits/use/use-credits/</link><pubDate>Wed, 19 Nov 2025 00:00:00 +0900</pubDate><guid>/online/users-guide/credits/use/use-credits/</guid><description>ArcGIS Online では、データ ストレージや解析機能の実行などの GIS 処理に応じて、決められた数の「サービス クレジット」が消費されます。ここではクレジット消費について説明します。
-クレジットの取得方法 (チャージ) や管理方法については「クレジットの取得と管理」をご参照ください。
-データ ストレージ コンテンツを作成する権限がある場合、様々なタイプのコンテンツをアイテムとして追加できます。追加したアイテムは ArcGIS Online のストレージに保存されますが、保存にはクレジットを消費します。 代表的なストレージ保存におけるクレジット消費は以下の表のとおりです。
-機能 内容 消費クレジット (1 時間単位で計算) データ ストレージの使用 フィーチャ ストレージ 10 MB の保存で月 2.4 クレジット ホスト フィーチャ レイヤーと ArcGIS Notebooks 内のコンテンツを除くすべてのコンテンツの保存 1 GB の保存で月 1.2 クレジット 詳細は「ストレージ使用におけるクレジット消費の例」をご参照ください。
-なお、次の機能ではストレージを使用しないため、クレジットを消費しません。
-機能 内容 消費クレジット 可視化 マップ / レイヤーの表示 0 クレジット 検索とジオサーチ 住所 / 場所検索 (表示のみ) 0 クレジット 解析機能 空間解析などの特定の処理に対してクレジットが消費されます。 消費クレジットは、解析ツールの種類やデータセットのサイズ (入力フィーチャ数または処理するピクセル数) によって異なります。 代表的なクレジットを消費する解析ツールは次の表のとおりです。</description></item><item><title>ストレージ使用におけるクレジット消費の例</title><link>/online/users-guide/credits/use/consumption-example/</link><pubDate>Wed, 13 Dec 2023 00:00:00 +0900</pubDate><guid>/online/users-guide/credits/use/consumption-example/</guid><description>実際に ArcGIS Online にデータ保存した場合、どのくらいのクレジットが消費されるのかをご紹介します。 なお、データの属性や種類によって作成されるデータの容量は異なるため、下記の例は参考値であることをご承知おきください。
-パターン 1 16,000 件の XY 座標値が含まれた Excel シートからホスト フィーチャ レイヤー (ポイント) を作成し、
-それを基に Web マップを作成して 1 か月保存した場合
-元データ 2 MB のポイントを表すデータ (.xlsx)
-ArcGIS Online 上で作成、保存されるデータ ① 2 MB の Excel ファイル (1 GB の保存で 1.2 クレジット消費対象) ② 5.9 MB のホスト フィーチャ レイヤー (10 MB の保存で 2.4 クレジット消費対象) ③ 3.5 KB の Web マップ (1 GB の保存で 1.2 クレジット消費対象)
-消費されるクレジット ① 0.0025 クレジット ※ 無視するものとする ② 1.</description></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – クレジットの利用と消費例</title><link>/online/users-guide/credits/use/</link><description>Recent content in クレジットの利用と消費例 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Wed, 13 Dec 2023 00:00:00 +0900</lastBuildDate><atom:link href="/online/users-guide/credits/use/index.xml" rel="self" type="application/rss+xml"/><item><title>クレジットの利用</title><link>/online/users-guide/credits/use/use-credits/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/credits/use/use-credits/</guid><description>
+&lt;p>ArcGIS Online では、データ ストレージや解析機能の実行などの GIS 処理に応じて、決められた数の「サービス クレジット」が消費されます。ここではクレジット消費について説明します。&lt;/p>
+&lt;p>クレジットの取得方法 (チャージ) や管理方法については「&lt;a href="/online/users-guide/credits/manage/manage-credits/">クレジットの取得と管理&lt;/a>」をご参照ください。&lt;/p>
+&lt;h3>データ ストレージ&lt;span class="hx:absolute hx:-mt-20" id="データ-ストレージ">&lt;/span>
+&lt;a href="#%e3%83%87%e3%83%bc%e3%82%bf-%e3%82%b9%e3%83%88%e3%83%ac%e3%83%bc%e3%82%b8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>コンテンツを作成する権限がある場合、様々なタイプのコンテンツをアイテムとして追加できます。追加したアイテムは ArcGIS Online のストレージに保存されますが、保存にはクレジットを消費します。
+&lt;br>代表的なストレージ保存におけるクレジット消費は以下の表のとおりです。&lt;/p>
+&lt;table>
+&lt;tr>
+&lt;th width="20%">機能&lt;/th>
+&lt;th width="50%">内容&lt;/th>
+&lt;th width="20%">消費クレジット &lt;span style="font-size: 85%">(1 時間単位で計算)&lt;/span>&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td rowspan="2">データ ストレージの使用&lt;/td>
+&lt;td>フィーチャ ストレージ&lt;/td>
+&lt;td>10 MB の保存で月 2.4 クレジット&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ホスト フィーチャ レイヤーと ArcGIS Notebooks 内のコンテンツを除くすべてのコンテンツの保存&lt;/td>
+&lt;td>1 GB の保存で月 1.2 クレジット&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;p>詳細は「&lt;a href="/online/users-guide/credits/use/consumption-example/">ストレージ使用におけるクレジット消費の例&lt;/a>」をご参照ください。&lt;/p>
+&lt;p>なお、次の機能ではストレージを使用しないため、クレジットを消費しません。&lt;/p>
+&lt;table>
+&lt;tr>
+&lt;th width="30%">機能&lt;/th>
+&lt;th width="50%">内容&lt;/th>
+&lt;th width="20%">消費クレジット&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td>可視化&lt;/td>
+&lt;td>マップ / レイヤーの表示&lt;/td>
+&lt;td>0 クレジット&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>検索とジオサーチ&lt;/td>
+&lt;td>住所 / 場所検索 (表示のみ)&lt;/td>
+&lt;td>0 クレジット&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;h3>解析機能&lt;span class="hx:absolute hx:-mt-20" id="解析機能">&lt;/span>
+&lt;a href="#%e8%a7%a3%e6%9e%90%e6%a9%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>空間&lt;a href="https://doc.esrij.com/online/users-guide/map/analysis/"target="_blank" rel="noopener">解析&lt;/a>などの特定の処理に対してクレジットが消費されます。
+&lt;br>消費クレジットは、解析ツールの種類やデータセットのサイズ (入力フィーチャ数または処理するピクセル数) によって異なります。
+&lt;br>代表的なクレジットを消費する解析ツールは次の表のとおりです。&lt;/p>
+&lt;table>
+&lt;tr>
+&lt;th width="20%">機能&lt;/th>
+&lt;th width="50%">内容&lt;/th>
+&lt;th width="30%">消費クレジット&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td>空間解析&lt;/td>
+&lt;td>ポイントの集約やレイヤーのマージ / オーバーレイなど&lt;/td>
+&lt;td>1,000 フィーチャにつき 1 クレジット&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td rowspan="3">ネットワーク解析&lt;/td>
+&lt;td>移動コストの計算 &lt;span style="font-size: 85%">(単純ルート)&lt;/span>&lt;/td>
+&lt;td>1 件につき 0.005 クレジット&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>移動エリアの生成や最近接の検索&lt;/td>
+&lt;td>1 件につき 0.5 クレジット&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ルート計画 &lt;span style="font-size: 85%">(複数車両によるルート)&lt;/span>&lt;/td>
+&lt;td>1 件につき 1 クレジット&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ジオコーディング&lt;/td>
+&lt;td>住所のジオコーディング &lt;span style="font-size: 85%">(データ保存の場合)&lt;/span>&lt;/td>
+&lt;td>1,000 件につき 40 クレジット&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>データの情報付加&lt;/td>
+&lt;td>レイヤーへの情報付加 &lt;span style="font-size: 85%">(AcrGIS GeoEnrichment Service を利用する場合)&lt;/span>&lt;/td>
+&lt;td>1,000 件につき 10 クレジット&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>解析実行前に [クレジットの推定] を行うことでクレジット消費の見積もりを行えます。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/credits/use-credits-estimation.png"
+alt="クレジットの推定" width="50%">&lt;figcaption>
+&lt;p>クレジットの推定&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>なお、次の解析機能はクレジットを消費しません。&lt;/p>
+&lt;table>
+&lt;tr>
+&lt;th width="20%">機能&lt;/th>
+&lt;th width="50%">内容&lt;/th>
+&lt;th width="30%">消費クレジット&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td>ネットワーク解析&lt;/td>
+&lt;td>交通量の表示&lt;/td>
+&lt;td>0 クレジット&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>空間解析&lt;/td>
+&lt;td>
+&lt;ul>
+&lt;li>可視領域の作成&lt;/li>
+&lt;li>集水域の作成&lt;/li>
+&lt;li>下流解析&lt;/li>
+&lt;/ul>
+&lt;/td>
+&lt;td>0 クレジット&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;p>より詳細な解析機能におけるクレジット消費は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/analyze/credits-analysis-mv.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/p>
+&lt;h3>タイル生成&lt;span class="hx:absolute hx:-mt-20" id="タイル生成">&lt;/span>
+&lt;a href="#%e3%82%bf%e3%82%a4%e3%83%ab%e7%94%9f%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>タイル レイヤーの作成でクレジットが消費される場合があります。
+&lt;br>作成して公開する方法には &lt;a href="/online/users-guide/create-data/tile/arcgispro/">ArcGIS Pro から公開する方法&lt;/a>のほかに、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/tile-layers.htm"target="_blank" rel="noopener">ArcGIS Online で作成する方法&lt;/a>があります。
+&lt;br>クレジット消費は次の表のとおりです。&lt;/p>
+&lt;table>
+&lt;tr>
+&lt;th width="30%">機能&lt;/td>
+&lt;th width="50%">内容&lt;/td>
+&lt;th width="20%">クレジット消費&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td rowspan="2">&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/credits/use-credits-raster.png"
+alt="ラスター タイル" width="40%">&lt;figcaption>
+&lt;p>ラスター タイル&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/td>
+&lt;td>タイルの生成&lt;/td>
+&lt;td >10,000 タイルの生成に 1 クレジット&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ArcGIS Pro でタイル パッケージを作成して公開&lt;/td>
+&lt;td>0 クレジット&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/credits/use-credits-vector.png"
+alt="ベクター タイル" width="40%">&lt;figcaption>
+&lt;p>ベクター タイル&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/td>
+&lt;td>フィーチャ レイヤーから公開&lt;/td>
+&lt;td>0 クレジット&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;span style="font-size: 120%">&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/tile-layers.htm#ESRI_SECTION1_368FBFBECB044972BADDE99DD7761FE3"target="_blank" rel="noopener">ラスター タイル&lt;/a>と&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/tile-layers.htm#ESRI_SECTION1_8F68399EB47B48FF9EF46719FCC96978"target="_blank" rel="noopener">ベクター タイル&lt;/a>はどう違う？&lt;/span>
+&lt;br>ラスター タイルはラスター形式のタイル キャッシュであり、作成に時間はかかりますが、描画速度は速い特徴があります。
+&lt;br>ベクター タイルはベクター形式のタイル キャッシュであり、ラスター タイルよりも描画速度は劣る一方で、縮尺やマップの回転をしても描画が安定している特徴があります。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h3>統計データの参照&lt;span class="hx:absolute hx:-mt-20" id="統計データの参照">&lt;/span>
+&lt;a href="#%e7%b5%b1%e8%a8%88%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e5%8f%82%e7%85%a7" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>ArcGIS Online では 170 以上の国と地域の信頼性の高いオンライン統計データを提供しています。
+&lt;br>国や地域によってデータの種類や粒度は異なりますが、人口や収入、消費行動などのデータが含まれています。これらのデータを参照する場合、クレジットが消費されます。
+&lt;br>消費されるクレジットは次の表のとおりです。&lt;/p>
+&lt;table>
+&lt;tr>
+&lt;th width="20%">機能&lt;/th>
+&lt;th width="50%">内容&lt;/th>
+&lt;th width="30%">消費クレジット&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td rowspan="3">人口統計データ&lt;/td>
+&lt;td>インフォグラフィックスの表示&lt;/td>
+&lt;td>1,000 ビューにつき 10 クレジット&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>インフォグラフィックスのエクスポート&lt;/td>
+&lt;td>1 回のエクスポートにつき 10 クレジット&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>人口統計マップとレイヤーの表示&lt;/td>
+&lt;td>1,000 マップ リクエスト &lt;sup>※&lt;/sup> につき 10 クレジット&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;div style="text-align: right;">
+※ 画面の移動、ズームおよび属性表示
+&lt;/div>
+&lt;p>統計データの詳細については「&lt;a href="https://doc.arcgis.com/en/esri-demographics/latest/esri-demographics/demographics.htm"target="_blank" rel="noopener">Introduction to Esri Demographics (英語)&lt;/a>」をご参照ください。&lt;/p></description></item><item><title>ストレージ使用におけるクレジット消費の例</title><link>/online/users-guide/credits/use/consumption-example/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/credits/use/consumption-example/</guid><description>
+&lt;p>実際に ArcGIS Online にデータ保存した場合、どのくらいのクレジットが消費されるのかをご紹介します。
+&lt;br>なお、データの属性や種類によって作成されるデータの容量は異なるため、下記の例は参考値であることをご承知おきください。&lt;/p>
+&lt;h3>パターン 1&lt;span class="hx:absolute hx:-mt-20" id="パターン-1">&lt;/span>
+&lt;a href="#%e3%83%91%e3%82%bf%e3%83%bc%e3%83%b3-1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>16,000 件の XY 座標値が含まれた &lt;a href="/online/users-guide/create-data/feature/file/">Excel シートからホスト フィーチャ レイヤー (ポイント) を作成&lt;/a>し、&lt;br>それを基に &lt;a href="/online/users-guide/map/set-map/">Web マップ&lt;/a>を作成して 1 か月保存した場合&lt;/p>
+&lt;p>&lt;strong>元データ&lt;/strong>
+&lt;br>2 MB のポイントを表すデータ (.xlsx)&lt;/p>
+&lt;p>&lt;strong>ArcGIS Online 上で作成、保存されるデータ&lt;/strong>
+&lt;br>① 2 MB の Excel ファイル (1 GB の保存で 1.2 クレジット消費対象)
+&lt;br>② 5.9 MB のホスト フィーチャ レイヤー (10 MB の保存で 2.4 クレジット消費対象)
+&lt;br>③ 3.5 KB の Web マップ (1 GB の保存で 1.2 クレジット消費対象)&lt;/p>
+&lt;p>&lt;strong>消費されるクレジット&lt;/strong>
+&lt;br>① 0.0025 クレジット ※ 無視するものとする
+&lt;br>② 1.4 クレジット
+&lt;br>③ 0.0000042 クレジット ※ 無視するものとする&lt;/p>
+&lt;p>この場合 1 か月あたりの消費クレジットの合計は 1.4 クレジットとなる。&lt;/p>
+&lt;h3>パターン 2&lt;span class="hx:absolute hx:-mt-20" id="パターン-2">&lt;/span>
+&lt;a href="#%e3%83%91%e3%82%bf%e3%83%bc%e3%83%b3-2" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>都市の &lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/scene-layers.htm#GUID-2997F76D-A76D-491D-BCF0-4C2264301617"target="_blank" rel="noopener">3D オブジェクト&lt;/a>が含まれた&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/publish-scenes.htm#ESRI_SECTION1_B1CE8603397E4B359A203D336B20BEC1"target="_blank" rel="noopener">シーン レイヤー パッケージ (.slpk)&lt;/a> を ArcGIS Online でホスト シーン レイヤーとして公開し、1 か月保存した場合&lt;/p>
+&lt;p>&lt;strong>元データ&lt;/strong>
+&lt;br>34 MB の 3D オブジェクト シーン レイヤー パッケージ (.slpk)&lt;/p>
+&lt;p>&lt;strong>ArcGIS Online 上で作成、保存されるデータ&lt;/strong>
+&lt;br>① 34 MB のシーン レイヤー パッケージ (1 GB の保存で 1.2 クレジット消費対象)
+&lt;br>② 34 MB のホスト シーン レイヤー (1 GB の保存で 1.2 クレジット消費対象)&lt;/p>
+&lt;p>&lt;strong>消費されるクレジット&lt;/strong>
+&lt;br>① 0.04 クレジット
+&lt;br>② 0.04 クレジット&lt;/p>
+&lt;p>この場合 1 か月あたり消費するクレジットの合計は 0.08 クレジットとなる。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">上記の例のようにテーブル データやシェープファイルは、ArcGIS Online に追加すると「ホスト フィーチャ レイヤー」として公開され、シーン レイヤー パッケージやそのほかの 3D データ は「ホスト シーン レイヤー」として公開されます。公開後、コンテンツ上にある公開元のファイルを削除することでクレジット消費を抑えることもできます。
+&lt;br>また公開を行わず、データのみをストレージに保存することもできます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>変換に対する対応は以下の表をご参照ください。&lt;/p>
+&lt;table>
+&lt;tr>
+&lt;th width="15%">元データの形式&lt;/th>
+&lt;th width="15%">ArcGIS Online での公開方法&lt;/th>
+&lt;th width="20%">消費クレジット&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td>シェープファイル &lt;span style= "font-size: 85%">(.shp)&lt;/span>&lt;/td>
+&lt;td rowspan="3">ホスト フィーチャ レイヤー&lt;/td>
+&lt;td rowspan="3">公開元のファイル: 1 GB の保存で月 1.2 クレジット&lt;br>公開後のレイヤー: 10 MB の保存で月 2.4 クレジット&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ジオデータベース &lt;span style= "font-size: 85%">(.gdb)&lt;/span>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>カンマ区切りのファイル &lt;span style= "font-size: 85%">(.csv)&lt;/span>、&lt;br>Microsoft Excel ドキュメント &lt;span style= "font-size: 85%">(.xls または .xlsx*)&lt;/span>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>シーン レイヤー パッケージ (.slpk)&lt;/td>
+&lt;td>ホスト シーン レイヤー&lt;/td>
+&lt;td>公開元のファイル: 1 GB の保存で月 1.2 クレジット&lt;br>公開後のレイヤー: 1 GB の保存で月 1.2 クレジット&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">各種ファイルからホスト フィーチャ レイヤーを公開する場合、公開元と公開後でデータ格納形式が異なるため、公開元のファイル サイズを元に公開後のサイズを見積もることはできません。
+&lt;br>シーン レイヤー パッケージ (.slpk) を ArcGIS Online に追加し、ホスト シーン レイヤーを公開する場合、公開元のファイルと公開後のレイヤーはほぼ同じサイズとなります。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>詳細については&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/credits.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/p>
+&lt;h3>パターン 3&lt;span class="hx:absolute hx:-mt-20" id="パターン-3">&lt;/span>
+&lt;a href="#%e3%83%91%e3%82%bf%e3%83%bc%e3%83%b3-3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;a href="https://www.esrij.com/products/survey123/"target="_blank" rel="noopener">ArcGIS Survey 123&lt;/a> で &amp;lt;現地被害調査&amp;gt; という調査票を Web で作成 &amp;amp; 共有して、350 レコード存在する状態で 1 か月保存した場合&lt;/p>
+&lt;p>&lt;strong>ArcGIS Online 上で作成、保存されるデータ&lt;/strong>
+&lt;br>① 73 KB の「現地被害調査 (Form)」 (1 GB の保存で 1.2 クレジット消費対象)
+&lt;br>② 2 MB の「現地被害調査 (ホスト フィーチャ レイヤー)」 (10 MB の保存で 2.4 クレジット消費対象)
+&lt;br>③ 75 MB の添付ファイル (②に内包される) (1 GB の保存で 1.2 クレジット消費対象)
+&lt;br>④ 1 KB の「現地被害調査_form (ホスト フィーチャ レイヤー ビュー)」 (クレジットの消費対象外)
+&lt;br>⑤ 1 KB の「現地被害調査_results (ホスト フィーチャ レイヤー ビュー)」 (クレジットの消費対象外)&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ホスト フィーチャ レイヤー ビューに対してはストレージ使用にかかるクレジットは消費せず、元となっている&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/create-hosted-views.htm#ESRI_SECTION1_15FED915137B459C8FA2C587A727ECB2"target="_blank" rel="noopener">ホスト フィーチャ レイヤーに対してのみ消費&lt;/a>されます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;strong>消費されるクレジット&lt;/strong>
+&lt;br>① 0.0000876 クレジット ※ 無視するものとする
+&lt;br>② 0.48 クレジット
+&lt;br>③ 0.09 クレジット&lt;/p>
+&lt;p>この場合 1 か月あたり消費するクレジットの合計は 0.57 クレジットとなる。&lt;/p>
+&lt;p>なお、調査が進展し、データが増えるにつれて ② および ③ のクレジット消費も増えていきます。&lt;/p></description></item></channel></rss>

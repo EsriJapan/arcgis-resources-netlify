@@ -1,1 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>スタートアップ ガイド on ArcGIS リソース集</title><link>/hub/get-started/</link><description>Recent content in スタートアップ ガイド on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="/hub/get-started/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – スタートアップ ガイド</title><link>/hub/get-started/</link><description>Recent content in スタートアップ ガイド on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 05 Sep 2025 00:00:00 +0900</lastBuildDate><atom:link href="/hub/get-started/index.xml" rel="self" type="application/rss+xml"/><item><title>クイック アクション</title><link>/hub/get-started/quick-action/</link><pubDate>Fri, 15 Aug 2025 00:00:00 +0900</pubDate><guid>/hub/get-started/quick-action/</guid><description>
+&lt;p>ArcGIS Hub を開始するための概要を説明します。&lt;br>
+各項目の操作についての詳細は、それぞれのドキュメント ページをご参照ください。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="#arcgis-hub-premium-%e3%81%ae%e6%9c%89%e5%8a%b9%e5%8c%96-%e3%82%aa%e3%83%97%e3%82%b7%e3%83%a7%e3%83%b3">ArcGIS Hub Premium の有効化 (オプション)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#%e3%82%b5%e3%82%a4%e3%83%88%e3%81%ae%e4%bd%9c%e6%88%90">サイトの作成&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84%e3%81%ae%e4%bd%9c%e6%88%90%e3%81%a8%e8%bf%bd%e5%8a%a0">コンテンツの作成と追加&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#%e3%82%b5%e3%82%a4%e3%83%88%e3%81%a8%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84%e3%81%ae%e5%85%b1%e6%9c%89">サイトとコンテンツの共有&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>ArcGIS Hub Premium の有効化 (オプション)&lt;span class="hx:absolute hx:-mt-20" id="arcgis-hub-premium-の有効化-オプション">&lt;/span>
+&lt;a href="#arcgis-hub-premium-%e3%81%ae%e6%9c%89%e5%8a%b9%e5%8c%96-%e3%82%aa%e3%83%97%e3%82%b7%e3%83%a7%e3%83%b3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ArcGIS Hub Premium のライセンスを有効化するには、組織向けの ArcGIS Online 開始手順と同様で、管理者がセットアップする必要があります。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">この手順は ArcGIS Hub Premium をご契約された組織のみが対象です。詳細は「&lt;a href="/hub/get-started/quick-action/activate-premium/">ArcGIS Hub Premium の有効化&lt;/a>」をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/quick-action/quick-action-premium.jpg"
+alt="ArcGIS Hub Premium のイメージ" width="80%">&lt;figcaption>
+&lt;p>ArcGIS Hub Premium のイメージ&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h2>サイトの作成&lt;span class="hx:absolute hx:-mt-20" id="サイトの作成">&lt;/span>
+&lt;a href="#%e3%82%b5%e3%82%a4%e3%83%88%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ArcGIS Hub を開始するには、新しいサイトを作成します。&lt;/p>
+&lt;ol>
+&lt;li>サイトを作成します。詳細な手順は「&lt;a href="/hub/get-started/site/create-site/">サイトの作成&lt;/a>」をご参照ください。&lt;/li>
+&lt;li>サイト エディターでサイトを構成します。詳細な手順は「&lt;a href="/hub/get-started/site/design/configure/">サイトの構成&lt;/a>」および「&lt;a href="/hub/get-started/site/design/card/">カードの配置と設定&lt;/a>」をご参照ください。&lt;/li>
+&lt;li>サイトを保存して公開します。詳細な手順は「&lt;a href="/hub/get-started/site/save-and-publish/save/">サイトの保存&lt;/a>」および「&lt;a href="/hub/get-started/site/save-and-publish/publish/">サイトの公開&lt;/a>」をご参照ください。&lt;/li>
+&lt;/ol>
+&lt;h2>コンテンツの作成と追加&lt;span class="hx:absolute hx:-mt-20" id="コンテンツの作成と追加">&lt;/span>
+&lt;a href="#%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84%e3%81%ae%e4%bd%9c%e6%88%90%e3%81%a8%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>作成したコンテンツは、サイトに関連するコンテンツ カタログに追加することで、サイト上で共有、利用が可能です。&lt;/p>
+&lt;ol>
+&lt;li>サイトで共有、利用するアイテムを作成します。詳細な手順は「&lt;a href="/hub/get-started/content/create-content/">コンテンツの作成&lt;/a>」をご参照ください。&lt;/li>
+&lt;li>サイトに紐づくグループでコンテンツ カタログを構成し、アイテムを特定してコンテンツ カタログに追加します。また、必要に応じてアイテムのメタデータを編集します。&lt;br>
+詳細な手順は、「&lt;a href="/hub/get-started/content/add-content-catalog/">コンテンツをカタログに追加&lt;/a>」をご参照ください。&lt;/li>
+&lt;/ol>
+&lt;h2>サイトとコンテンツの共有&lt;span class="hx:absolute hx:-mt-20" id="サイトとコンテンツの共有">&lt;/span>
+&lt;a href="#%e3%82%b5%e3%82%a4%e3%83%88%e3%81%a8%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84%e3%81%ae%e5%85%b1%e6%9c%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ArcGIS Hub で作成したサイトやコンテンツは、ArcGIS Online のグループにアイテムとして格納し管理することができます。これにより、ArcGIS Online の共有フレームワークを使用して次の範囲で共有することができます。&lt;/p>
+&lt;ul>
+&lt;li>所有者 – アイテムの所有者として、自分だけがそのアイテムにアクセスできます。&lt;/li>
+&lt;li>所属しているグループ – グループ メンバーである場合、そのアイテムをグループで共有できます。&lt;/li>
+&lt;li>組織 – ArcGIS Online 組織サイトのメンバーだけが、そのアイテムにアクセスできます。&lt;/li>
+&lt;li>すべてのユーザー (パブリック) – すべてのユーザーと共有すると、そのアイテムはパブリックになります。サイト、ArcGIS Online を訪れたすべての人 (匿名ユーザーを含む) がそのアイテムを表示できます。&lt;/li>
+&lt;/ul></description></item><item><title>サイト</title><link>/hub/get-started/site/</link><pubDate>Fri, 05 Sep 2025 00:00:00 +0900</pubDate><guid>/hub/get-started/site/</guid><description>
+&lt;p>ArcGIS Hub で新しいサイトを作成する方法を説明します。サイトとは、他のユーザーと情報を共有するために使用できる Web サイトです。サイトは ArcGIS Hub のすべてのライセンス レベルにおいて、無制限で作成できます。&lt;/p>
+&lt;ul class="list-disc ml-6">
+&lt;li>
+&lt;a href="/hub/get-started/site/create-site/">サイトの作成&lt;/a>&lt;br>ArcGIS Hub で新しいサイトを作成する方法について説明します。
+&lt;/li>
+&lt;li>
+&lt;a href="/hub/get-started/site/design/">サイトのデザイン&lt;/a>&lt;br>サイトのデザイン構成についての概要を説明します。
+&lt;/li>
+&lt;li>
+&lt;a href="/hub/get-started/site/save-and-publish/">サイトの保存と公開&lt;/a>&lt;br>ArcGIS Hub サイトの保存と公開について説明します。
+&lt;/li>
+&lt;/ul></description></item><item><title>コンテンツ</title><link>/hub/get-started/content/</link><pubDate>Fri, 29 Aug 2025 00:00:00 +0900</pubDate><guid>/hub/get-started/content/</guid><description>
+&lt;p>ArcGIS Hub サイトで公開・共有するコンテンツの作成や追加について説明します。&lt;br>
+コンテンツとは、ArcGIS Hub におけるマップ、データセット、アプリ、ドキュメント、その他のアイテムを意味します。&lt;/p>
+&lt;ul class="list-disc ml-6">
+&lt;li>
+&lt;a href="/hub/get-started/content/create-content/">コンテンツの作成&lt;/a>&lt;br>サイトで共有・公開するコンテンツの作成について説明します。
+&lt;/li>
+&lt;li>
+&lt;a href="/hub/get-started/content/add-content-catalog/">コンテンツをカタログに追加&lt;/a>&lt;br>サイトでアイテムを共有・公開するために、コンテンツをカタログに追加する方法について説明します。
+&lt;/li>
+&lt;li>
+&lt;a href="/hub/get-started/content/manage-metadata/">メタデータの管理&lt;/a>&lt;br>サイトで共有・公開したアイテムのメタデータの管理について説明します。
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

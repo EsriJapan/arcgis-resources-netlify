@@ -1,28 +1,568 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>顧客分析 on ArcGIS リソース集</title><link>/business-analyst/pro/tutorial/customer-analysis/</link><description>Recent content in 顧客分析 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="/business-analyst/pro/tutorial/customer-analysis/index.xml" rel="self" type="application/rss+xml"/><item><title>顧客・店舗情報の取り込み</title><link>/business-analyst/pro/tutorial/customer-analysis/geocoding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/customer-analysis/geocoding/</guid><description>2022 年版以前の Business Analyst 用ローカル データセットに付属する従来形式のロケーターは、ArcGIS Pro 3.0 以降では動作しないのでご注意ください (詳細はこちら)。 -- 本演習にかかる時間はおよそ 15 分です。
-目的 住所情報を含むテーブル データと [住所のジオコーディング] ツールを用いて、自社の店舗や顧客をポイント データ化する方法を習得します。本演習では、顧客の住所情報を元に ジオコーディングを行います。
-演習 演習用データのダウンロード BA Pro チュートリアル-顧客分析 プロジェクトパッケージが無い場合は、ダウンロードします。 ダウンロードした「BAProチュートリアル-商圏分析.ppkx」を開きます。 プロジェクト パッケージを開いた際、[プロジェクト アイテムの修復] メッセージが表示された場合は [OK] をクリックして閉じてください。
-[演習1] マップが開いていることを確認します。
-Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
-住所情報を含むテーブル データの確認 プロジェクトパッケージはデフォルト設定では、以下の場所に展開されます。
-C:\Users\&amp;lt;ユーザー名&amp;gt;\Documents\ArcGIS\Packages\BAProチュートリアル-商圏分析_xxxx
-顧客のテーブル データをマップに追加します。
-[マップ] タブ → [レイヤー] グループの [データの追加] をクリックします。
-演習データ内の Excel シートを選択し、[OK] をクリックします。</description></item><item><title>顧客分布を基にした商圏の生成</title><link>/business-analyst/pro/tutorial/customer-analysis/customer-derived-tradearea/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/customer-analysis/customer-derived-tradearea/</guid><description>本演習にかかる時間はおよそ 20 分です。
-本演習では、顧客データを用いて顧客分布商圏を作成し、自動車到達圏で近似することにより、各店舗の実勢商圏とその商圏が自動車で平均何分圏に該当するのかを確認します。
-顧客分布商圏は、店舗から近い順に顧客を一定割合含む範囲を指し「実勢商圏」と呼ばれることもあります。詳細は、ビジネスマップ用語集をご覧ください。
-演習 店舗および顧客ポイントを使用して、近い順に顧客の7割をカバーする商圏（顧客分布商圏）を作成します。
-演習用データのダウンロード BA Pro チュートリアル-顧客分析 プロジェクトパッケージをダウンロードします。 ダウンロードした「BAProチュートリアル-顧客分析.ppkx」を開きます。 プロジェクト パッケージを開いた際、[プロジェクト アイテムの修復] メッセージが表示された場合は [OK] をクリックして閉じてください。
-[演習2] マップを開きます。
-[コンテンツ] ウィンドウおよびマップ上に「自社店舗」レイヤーおよび「自社顧客」レイヤーが追加されていることを確認します。
-Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
-顧客分布商圏の生成 [解析] タブ → [ジオプロセシング] グループの [ツール] をクリックします。 [ジオプロセシング] ウィンドウの検索ボックスに「顧客分布商圏」と入力します。 検索結果の中の [顧客分布商圏の生成 (Generate Customer Derived Trade Areas)] ツールをクリックして開きます。 以下のように設定して、[実行] をクリックします。 パラメーター 設定値 店舗 自社店舗 店舗 ID フィールド 店舗ID 顧客 自社顧客 関連付けられた店舗 ID フィールド 店舗ID 出力フィーチャクラス 顧客分布商圏_7割 方法 詳細 (スムージング) 半径 (%) 70 顧客の集計タイプ 個数 顧客の集計タイプは、顧客ポイントの個数以外に顧客の持つ属性 (例えば売上高など) を選択できます。</description></item><item><title>市場シェアの把握</title><link>/business-analyst/pro/tutorial/customer-analysis/market-penetration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/customer-analysis/market-penetration/</guid><description>本演習にかかる時間はおよそ 30 分です。
-本演習では、商圏に重なる区画を抽出し、顧客データと市場ポテンシャルをもとに、町丁・字等別の市場シェアを算出します。また、市場シェアとポテンシャルを 2 軸で表現することで「ターゲット エリア」を抽出します。
-市場シェアの詳細は、ビジネスマップ用語集「市場占有率」をご覧ください。
-演習 商圏やポリゴンに重なる町丁・字等を抽出します。
-演習用データのダウンロード BA Pro チュートリアル-顧客分析 プロジェクトパッケージが無い場合は、ダウンロードし、プロジェクト パッケージを開きます。 プロジェクト パッケージを開いた際、[プロジェクト アイテムの修復] メッセージが表示された場合は [OK] をクリックして閉じてください。
-[演習3] マップを開きます。
-[コンテンツ] ウィンドウおよびマップ上に「自社店舗」レイヤー、「自社顧客」レイヤーおよび「顧客分布商圏_7割」レイヤーが追加されていることを確認します。
-Business Analyst データ ソース が最新のデータセットに設定されていることをご確認ください。
-顧客分布商圏に重なる区画の抽出 顧客分布商圏に重なる町丁・字等ポリゴンを抽出します。
-[解析] タブ → [ワークフロー] グループの [ビジネス解析] → [Business Analyst データの追加] を選択します。 [Business Analyst] ダイアログが表示された場合は、メッセージを確認して [OK] をクリックします。 [Business Analyst データの追加] ダイアログが開きます。
-[対象地域] の [v] ボタンをクリックして、[境界レイヤー] の 「顧客分布商圏_7割」 レイヤーを選択します。 [詳細レベル] の [v] ボタンをクリックして、[町丁・字等] を選択します。 [変数] の横の [+] ボタンをクリックしてデータ ブラウザーを開き、[人口] → [人口総数] → [2020 人口総数 (国勢調査)] 内の [2020 人口総数 (国勢調査)] を選択し、[OK] をクリックします。 以下のように設定されていることを確認し、[OK] をクリックします。 パラメーター 設定値 対象地域 顧客分布商圏_7割 境界モード 区画 詳細レベル 町丁・字等 変数 2020 人口総数 (国勢調査) 出力 Business_Analyst_Data 商圏に重なる町丁・字等レイヤーがマップに追加されます。</description></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – 顧客分析</title><link>/business-analyst/pro/tutorial/customer-analysis/</link><description>Recent content in 顧客分析 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><atom:link href="/business-analyst/pro/tutorial/customer-analysis/index.xml" rel="self" type="application/rss+xml"/><item><title>顧客・店舗情報の取り込み</title><link>/business-analyst/pro/tutorial/customer-analysis/geocoding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/customer-analysis/geocoding/</guid><description>
+&lt;!-- &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">2022 年版以前の Business Analyst 用ローカル データセットに付属する従来形式のロケーターは、ArcGIS Pro 3.0 以降では動作しないのでご注意ください (詳細は&lt;a href="https://www.esrij.com/news/details/155986/" target="_blank">こちら&lt;/a>)。&lt;/div>
+&lt;/div>
+&lt;/div>
+-->
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">本演習にかかる時間はおよそ 15 分です。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h1>目的&lt;/h1>&lt;p>住所情報を含むテーブル データと [&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/geocoding/geocode-addresses.htm" target="_blank">住所のジオコーディング&lt;/a>] ツールを用いて、自社の店舗や顧客をポイント データ化する方法を習得します。本演習では、顧客の住所情報を元に &lt;a href="https://business-map.esrij.com/glossary/3099/" target="_blank">ジオコーディング&lt;/a>を行います。&lt;/p>
+&lt;h1>演習&lt;/h1>&lt;h2>演習用データのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="演習用データのダウンロード">&lt;/span>
+&lt;a href="#%e6%bc%94%e7%bf%92%e7%94%a8%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>&lt;a href="https://www.arcgis.com/home/item.html?id=d4cf8c7d454f4252b379cf9bc263b949" target="_blank">BA Pro チュートリアル-顧客分析 プロジェクトパッケージ&lt;/a>が無い場合は、ダウンロードします。&lt;/li>
+&lt;li>ダウンロードした「BAProチュートリアル-商圏分析.ppkx」を開きます。&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">プロジェクト パッケージを開いた際、[プロジェクト アイテムの修復] メッセージが表示された場合は [OK] をクリックして閉じてください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="3">
+&lt;li>
+&lt;p>[演習1] マップが開いていることを確認します。&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/customer-analysis/ca-tutorial-ex1-35.png">
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;a href="/business-analyst/pro/tutorial/prepare-for-tutorial/#business-analyst-%e3%83%87%e3%83%bc%e3%82%bf-%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e8%a8%ad%e5%ae%9a">Business Analyst データ ソース&lt;/a> が最新のデータセットに設定されていることをご確認ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2>住所情報を含むテーブル データの確認&lt;span class="hx:absolute hx:-mt-20" id="住所情報を含むテーブル-データの確認">&lt;/span>
+&lt;a href="#%e4%bd%8f%e6%89%80%e6%83%85%e5%a0%b1%e3%82%92%e5%90%ab%e3%82%80%e3%83%86%e3%83%bc%e3%83%96%e3%83%ab-%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e7%a2%ba%e8%aa%8d" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>プロジェクトパッケージはデフォルト設定では、以下の場所に展開されます。&lt;/p>
+&lt;blockquote>
+&lt;p>C:\Users\&amp;lt;ユーザー名&amp;gt;\Documents\ArcGIS\Packages\BAProチュートリアル-商圏分析_xxxx&lt;/p>
+&lt;/blockquote>
+&lt;p>顧客のテーブル データをマップに追加します。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>[マップ] タブ → [レイヤー] グループの [データの追加] をクリックします。
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/geocoding/add-data25.png">
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>演習データ内の Excel シートを選択し、[OK] をクリックします。&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;lt;上記展開先&amp;gt;\commondata\userdata\顧客リスト.xlsx\顧客リスト$&lt;/p>
+&lt;/blockquote>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/geocoding/add-customer-data.png">
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">Excel の読み込みができない場合、&lt;a href="/business-analyst/pro/tutorial/prepare-for-tutorial/">事前準備&lt;/a>をご確認ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[フォルダー] に上記展開先のパスが接続されているため、[フォルダー] から Excel ファイルに接続することができます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>[コンテンツ] ウィンドウに「顧客リスト$」レイヤーが追加されます。&lt;/p>
+&lt;ol start="4">
+&lt;li>「顧客リスト$」レイヤーを右クリック → [開く] をクリックし、テーブルを開きます。&lt;/li>
+&lt;/ol>
+&lt;p>テーブルに、住所情報や ID などの情報が格納されていることを確認します。&lt;/p>
+&lt;ol start="5">
+&lt;li>テーブルの [×] ボタンをクリックして、テーブルを閉じます。&lt;br/>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/geocoding/confirm-table.png">
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;h2>顧客ポイント データの作成&lt;span class="hx:absolute hx:-mt-20" id="顧客ポイント-データの作成">&lt;/span>
+&lt;a href="#%e9%a1%a7%e5%ae%a2%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88-%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>「顧客リスト$」レイヤーを右クリック → [テーブルのジオコーディング] を選択します。&lt;br/>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/geocoding/geocode-table_v36.png">
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;p>[テーブルのジオコーディング] ウィザードが起動するので、最初のステップでは使用するロケーター (住所辞書) を選択します。&lt;/p>
+&lt;ol start="2">
+&lt;li>
+&lt;p>[開始→] をクリックして、[ステップ 1: 使用しているロケーター] で、[参照] ボタンをクリックします。
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/geocoding/reference-locator.png">
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>以下のロケーターを選択して [次へ] をクリックします。&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;lt;データセット配置先&amp;gt;\JPN_EsriJapan_2025\Data\Geocoding Data\Pro_Gaiku_2025.loc&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[ArcGIS World Geocoding Service] を選択すると、住居レベルでジオコーディングができます。ただし、ArcGIS Online へのサイン インが必要となり、&lt;a href="https://www.esrij.com/products/arcgis-online/credits/" target="_blank">サービス クレジット&lt;/a>を消費します。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>ジオコーディングに使用するフィールドやデータの出力先などを設定します。&lt;/p>
+&lt;ol start="4">
+&lt;li>[ステップ 2: テーブルについて] では、以下のように設定し [次へ] をクリックします。
+&lt;ul>
+&lt;li>入力テーブル: 顧客リスト$&lt;/li>
+&lt;li>データはどのように～？: 1 つのフィールド&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ステップ 3 では、[データ フィールド] に「住所」を指定し、[次へ] をクリックします。&lt;/li>
+&lt;li>ステップ 4 では、[出力] の [参照] ボタンをクリックし、[名前] に「自社顧客」と入力し、[保存] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">出力フィーチャクラスのデフォルトの保存先は、プロジェクト配下に保存されているファイル ジオデータベースです。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="7">
+&lt;li>[次へ] をクリックして表示されるステップ 6 は、そのまま [完了] をクリックします。&lt;/li>
+&lt;li>設定内容を確認し、[実行] をクリックします。&lt;br/>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/geocoding/run-tool.png">
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;p>ジオコーディングが実行され、照合結果が表示されます。住所が不一致の場所が 1 ヵ所あるようです。&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/data/geocoding/rematch-locations-converted-from-a-table.htm" target="_blank">住所の再照合&lt;/a>を行うと、不一致の住所を正しい位置にプロットし直すことができます。
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/geocoding/result.png">
+&lt;/figure>
+&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">「複数の候補あり」は一致スコアが同一の地点が複数あることを表します。ジオコーディング自体は行われているので、必要に応じて確認を行ってください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="8">
+&lt;li>[はい] をクリックして、[住所の再照合] ウィンドウと [自社顧客] の属性テーブルを開きます。&lt;/li>
+&lt;/ol>
+&lt;h2>住所の再照合&lt;span class="hx:absolute hx:-mt-20" id="住所の再照合">&lt;/span>
+&lt;a href="#%e4%bd%8f%e6%89%80%e3%81%ae%e5%86%8d%e7%85%a7%e5%90%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>不一致だった住所情報は、[住所の再照合] ウィンドウの [不一致] タブから確認できます。現在の住所は「千葉県船橋二宮1-59」となっています。市区町村名が「船橋」になっていたために、住所の照合に失敗したようです。
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/geocoding/check-unmatch.png">
+&lt;/figure>
+&lt;/p>
+&lt;ol>
+&lt;li>[自動的に適用] トグルをオンにして、[住所] に「千葉県船橋&lt;strong>市&lt;/strong>二宮1-59」と入力し、Enter キーを押します。&lt;/li>
+&lt;/ol>
+&lt;p>すると、住所が 100% 一致する候補が 1 ヵ所表示され、マップ上にも候補ポイントが表示されます。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[自動的に適用] を有効にすることにより、住所フィールドの更新後 Enter キーを押すとすぐに新たな候補が検索されるようになります。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="2">
+&lt;li>
+&lt;p>表示された候補を選択して [一致] ボタン（✓）をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/geocoding/click-match.png">
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;p>再照合が実行され、すべての顧客ポイントが正しくプロットされました。プロットした内容を保存します。&lt;/p>
+&lt;ol start="3">
+&lt;li>[編集の保存] ボタンをクリックして、[はい] を選択します。[×] をクリックして、[住所の再照合] ウィンドウを閉じます。&lt;br/>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/geocoding/save-rematch_v33.png">
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>[住所をマップから取得] ボタンを使用すると、マップ上で位置を選択して、住所を照合することができます。&lt;br/>&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/geocoding/rematch-from-map.gif">
+&lt;/figure>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="4">
+&lt;li>[自社顧客] テーブルの [×] をクリックして、テーブルを閉じます。&lt;/li>
+&lt;li>[プロジェクト] タブ → [保存] を選択し、&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/projects/save-a-project.htm" target="_blank">プロジェクトを保存&lt;/a>します。&lt;/li>
+&lt;/ol>
+&lt;h1>まとめ&lt;/h1>&lt;p>この演習では、住所情報を持つテーブル データを使用してジオコーディングを行い、顧客のポイント データを作成することができました。また、以下のツールの操作を学びました。&lt;/p>
+&lt;ul>
+&lt;li>[テーブルのジオコーディング] ツール&lt;/li>
+&lt;li>[住所の再照合] ツール&lt;/li>
+&lt;/ul></description></item><item><title>顧客分布を基にした商圏の生成</title><link>/business-analyst/pro/tutorial/customer-analysis/customer-derived-tradearea/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/customer-analysis/customer-derived-tradearea/</guid><description>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">本演習にかかる時間はおよそ 20 分です。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>本演習では、顧客データを用いて顧客分布商圏を作成し、自動車到達圏で近似することにより、各店舗の実勢商圏とその商圏が自動車で平均何分圏に該当するのかを確認します。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">顧客分布商圏は、店舗から近い順に顧客を一定割合含む範囲を指し「実勢商圏」と呼ばれることもあります。詳細は、&lt;a href="https://www.esrij.com/business-map-glossary/trade_area/prevailing_trade_area/" target="_blank">ビジネスマップ用語集&lt;/a>をご覧ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h1>演習&lt;/h1>&lt;p>店舗および顧客ポイントを使用して、近い順に顧客の7割をカバーする商圏（顧客分布商圏）を作成します。&lt;/p>
+&lt;h2>演習用データのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="演習用データのダウンロード">&lt;/span>
+&lt;a href="#%e6%bc%94%e7%bf%92%e7%94%a8%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>&lt;a href="https://www.arcgis.com/home/item.html?id=d4cf8c7d454f4252b379cf9bc263b949" target="_blank">BA Pro チュートリアル-顧客分析 プロジェクトパッケージ&lt;/a>をダウンロードします。&lt;/li>
+&lt;li>ダウンロードした「BAProチュートリアル-顧客分析.ppkx」を開きます。&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">プロジェクト パッケージを開いた際、[プロジェクト アイテムの修復] メッセージが表示された場合は [OK] をクリックして閉じてください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="3">
+&lt;li>
+&lt;p>[演習2] マップを開きます。&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/customer-analysis/ca-tutorial-ex2-35.png">
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;p>[コンテンツ] ウィンドウおよびマップ上に「自社店舗」レイヤーおよび「自社顧客」レイヤーが追加されていることを確認します。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;a href="/business-analyst/pro/tutorial/prepare-for-tutorial/#business-analyst-%e3%83%87%e3%83%bc%e3%82%bf-%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e8%a8%ad%e5%ae%9a">Business Analyst データ ソース&lt;/a> が最新のデータセットに設定されていることをご確認ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2>顧客分布商圏の生成&lt;span class="hx:absolute hx:-mt-20" id="顧客分布商圏の生成">&lt;/span>
+&lt;a href="#%e9%a1%a7%e5%ae%a2%e5%88%86%e5%b8%83%e5%95%86%e5%9c%8f%e3%81%ae%e7%94%9f%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>[解析] タブ → [ジオプロセシング] グループの [ツール] をクリックします。&lt;/li>
+&lt;li>[ジオプロセシング] ウィンドウの検索ボックスに「顧客分布商圏」と入力します。&lt;/li>
+&lt;li>検索結果の中の [&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/customer-derived-trade-areas.htm" target="_blank">顧客分布商圏の生成 (Generate Customer Derived Trade Areas)&lt;/a>] ツールをクリックして開きます。&lt;/li>
+&lt;li>以下のように設定して、[実行] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>パラメーター&lt;/th>
+&lt;th>設定値&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>店舗&lt;/td>
+&lt;td>自社店舗&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>店舗 ID フィールド&lt;/td>
+&lt;td>店舗ID&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>顧客&lt;/td>
+&lt;td>自社顧客&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>関連付けられた店舗 ID フィールド&lt;/td>
+&lt;td>店舗ID&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>出力フィーチャクラス&lt;/td>
+&lt;td>顧客分布商圏_7割&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>方法&lt;/td>
+&lt;td>詳細 (スムージング)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>半径 (%)&lt;/td>
+&lt;td>70&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>顧客の集計タイプ&lt;/td>
+&lt;td>個数&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/customer-analysis/generate-customer-derived-trade-areas.png">
+&lt;/figure>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">顧客の集計タイプは、顧客ポイントの個数以外に顧客の持つ属性 (例えば売上高など) を選択できます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>マップに、自社店舗を起点とした、顧客の 7 割をカバーする実勢商圏が追加されます。&lt;/p>
+&lt;h2>顧客分布商圏に近似した道路時間商圏の生成&lt;span class="hx:absolute hx:-mt-20" id="顧客分布商圏に近似した道路時間商圏の生成">&lt;/span>
+&lt;a href="#%e9%a1%a7%e5%ae%a2%e5%88%86%e5%b8%83%e5%95%86%e5%9c%8f%e3%81%ab%e8%bf%91%e4%bc%bc%e3%81%97%e3%81%9f%e9%81%93%e8%b7%af%e6%99%82%e9%96%93%e5%95%86%e5%9c%8f%e3%81%ae%e7%94%9f%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>これまでの操作で、顧客の 7 割をカバーする商圏（実勢商圏）を作成しました。次に、作成した各店舗の実勢商圏が自動車で平均何分圏に該当するかを確認します。&lt;/p>
+&lt;ol>
+&lt;li>[ジオプロセシング] ウィンドウの [戻る(←)] ボタンをクリックします。&lt;/li>
+&lt;li>検索ボックスに「近似到達圏」と入力し、[&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/generate-approximate-drive-times.htm" target="_blank">近似到達圏の生成 (Generate Approximate Drive Times)&lt;/a>] ツールをクリックして開きます。&lt;/li>
+&lt;li>ツールを以下のように設定して [実行] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>パラメーター&lt;/th>
+&lt;th>設定値&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>入力フィーチャ&lt;/td>
+&lt;td>顧客分布商圏_7割&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>出力フィーチャクラス&lt;/td>
+&lt;td>近似到達圏_顧客分布&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>距離タイプ&lt;/td>
+&lt;td>運転時間&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>距離単位&lt;/td>
+&lt;td>分&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>それ以外のパラメーター&lt;/td>
+&lt;td>デフォルトのまま&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ツールで設定するパラメーターには、ツール実行のために設定が必須のパラメーターと、任意に設定するオプション パラメーターの 2 種類があります。本演習では、「店舗レイヤー」などのオプション パラメーターは使用していません。各パラメーターの詳細は、パラメーター名にマウス カーソルを当てると表示される情報アイコンにカーソルを合わせることで確認できます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>マップに、顧客分布商圏に近似した道路時間商圏が追加されました。結果の詳細を確認します。&lt;/p>
+&lt;ol start="4">
+&lt;li>[コンテンツ] ウィンドウ上の「近似到達圏_顧客分布」レイヤーを右クリック → [属性テーブル] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;p>「AREA_DESC0」フィールドに、各実勢商圏を道路時間商圏で近似したときの移動時間が格納されます。いずれの顧客分布商圏も 8~10 分程度の商圏範囲であることが分かりました。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/customer-analysis/result-approximate-dt.png">
+&lt;/figure>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">近似到達圏によって得られた移動時間を新しいエリアでの出店時の商圏範囲の基準として利用することで、より高精度な商圏分析を行うことができます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="5">
+&lt;li>[プロジェクト] タブ → [保存] を選択し、&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/projects/save-a-project.htm" target="_blank">プロジェクトを保存&lt;/a>します。&lt;/li>
+&lt;/ol>
+&lt;h1>まとめ&lt;/h1>&lt;p>この演習では、顧客データを基にした実勢商圏を作成することができました。さらに、実勢商圏を近似した道路時間商圏を作成し、各店舗の商圏範囲が自動車で平均何分圏に該当するのかを調べることができました。&lt;/p>
+&lt;p>また、以下のツールの操作について学びました。&lt;/p>
+&lt;ul>
+&lt;li>[顧客分布商圏の生成] ツール&lt;/li>
+&lt;li>[近似到達圏の生成] ツール&lt;/li>
+&lt;/ul>
+&lt;style class="info-table">
+table {
+font-size: 13px;
+width: 85%;
+margin-right: 5px;
+margin-left: 15px;
+}
+table th:first-of-type {
+width: 30%;
+}
+table th:nth-of-type(2) {
+width: 70%;
+}
+&lt;/style></description></item><item><title>市場シェアの把握</title><link>/business-analyst/pro/tutorial/customer-analysis/market-penetration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/customer-analysis/market-penetration/</guid><description>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">本演習にかかる時間はおよそ 30 分です。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>本演習では、商圏に重なる区画を抽出し、顧客データと市場ポテンシャルをもとに、町丁・字等別の市場シェアを算出します。また、市場シェアとポテンシャルを 2 軸で表現することで「ターゲット エリア」を抽出します。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">市場シェアの詳細は、ビジネスマップ用語集「&lt;a href="https://www.esrij.com/business-map-glossary/trade_area/market_share/" target="_blank">市場占有率&lt;/a>」をご覧ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h1>演習&lt;/h1>&lt;p>商圏やポリゴンに重なる町丁・字等を抽出します。&lt;/p>
+&lt;h2>演習用データのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="演習用データのダウンロード">&lt;/span>
+&lt;a href="#%e6%bc%94%e7%bf%92%e7%94%a8%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>&lt;a href="https://www.arcgis.com/home/item.html?id=d4cf8c7d454f4252b379cf9bc263b949" target="_blank">BA Pro チュートリアル-顧客分析 プロジェクトパッケージ&lt;/a>が無い場合は、ダウンロードし、プロジェクト パッケージを開きます。&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">プロジェクト パッケージを開いた際、[プロジェクト アイテムの修復] メッセージが表示された場合は [OK] をクリックして閉じてください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="2">
+&lt;li>
+&lt;p>[演習3] マップを開きます。&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/customer-analysis/ca-tutorial-ex3-35.png">
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;p>[コンテンツ] ウィンドウおよびマップ上に「自社店舗」レイヤー、「自社顧客」レイヤーおよび「顧客分布商圏_7割」レイヤーが追加されていることを確認します。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;a href="/business-analyst/pro/tutorial/prepare-for-tutorial/#business-analyst-%e3%83%87%e3%83%bc%e3%82%bf-%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e8%a8%ad%e5%ae%9a">Business Analyst データ ソース&lt;/a> が最新のデータセットに設定されていることをご確認ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2>顧客分布商圏に重なる区画の抽出&lt;span class="hx:absolute hx:-mt-20" id="顧客分布商圏に重なる区画の抽出">&lt;/span>
+&lt;a href="#%e9%a1%a7%e5%ae%a2%e5%88%86%e5%b8%83%e5%95%86%e5%9c%8f%e3%81%ab%e9%87%8d%e3%81%aa%e3%82%8b%e5%8c%ba%e7%94%bb%e3%81%ae%e6%8a%bd%e5%87%ba" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>顧客分布商圏に重なる町丁・字等ポリゴンを抽出します。&lt;/p>
+&lt;ol>
+&lt;li>[解析] タブ → [ワークフロー] グループの [ビジネス解析] → [Business Analyst データの追加] を選択します。&lt;/li>
+&lt;li>[Business Analyst] ダイアログが表示された場合は、メッセージを確認して [OK] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;p>[Business Analyst データの追加] ダイアログが開きます。&lt;/p>
+&lt;ol start="3">
+&lt;li>[対象地域] の [v] ボタンをクリックして、[境界レイヤー] の 「顧客分布商圏_7割」 レイヤーを選択します。&lt;/li>
+&lt;li>[詳細レベル] の [v] ボタンをクリックして、[町丁・字等] を選択します。&lt;/li>
+&lt;li>[変数] の横の [+] ボタンをクリックしてデータ ブラウザーを開き、[人口] → [人口総数] → [2020 人口総数 (国勢調査)] 内の [2020 人口総数 (国勢調査)] を選択し、[OK] をクリックします。&lt;/li>
+&lt;li>以下のように設定されていることを確認し、[OK] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>パラメーター&lt;/th>
+&lt;th>設定値&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>対象地域&lt;/td>
+&lt;td>顧客分布商圏_7割&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>境界モード&lt;/td>
+&lt;td>区画&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>詳細レベル&lt;/td>
+&lt;td>町丁・字等&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>変数&lt;/td>
+&lt;td>2020 人口総数 (国勢調査)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>出力&lt;/td>
+&lt;td>Business_Analyst_Data&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>商圏に重なる町丁・字等レイヤーがマップに追加されます。&lt;/p>
+&lt;!--1. [解析] タブ → [ジオプロセシング] グループの [ツール] をクリックし、[ジオプロセシング] ウィンドウの検索ボックスに「カラー コード」と入力します。
+2. 検索結果の中の「&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/create-color-coded-layer.htm" target="_blank">カラー コード レイヤー (Color Coded Layer)&lt;/a>」ツールをクリックして開きます。
+3. [カラー コード レイヤー] ツールが開いたら、以下のように設定し、[実行] をクリックします。
+パラメーター | 設定値
+-- | --
+一次変数 | 2020 人口総数
+出力レイヤー名 | 2020 人口総数 レイヤー
+対象エリア | 顧客分布商圏_7割
+出力ジオデータベース | デフォルトのまま
+フィーチャ データセット名 | 顧客分布エリア
+4. [2020 人口総数 レイヤー] を選択すると [カラー コード グループ レイヤー] タブが表示されるので、[詳細レベル] を [町丁・字等] に変更します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/customer-analysis/ccl_level_switch_v36.png">
+&lt;/figure>
+ツールが完了すると、商圏に重なる町丁・字等レイヤーがマップに追加されます。-->
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[詳細レベル] を自動に設定すると、縮尺に応じて表示される区画レベルが変わります。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2>市場シェアを算出する&lt;span class="hx:absolute hx:-mt-20" id="市場シェアを算出する">&lt;/span>
+&lt;a href="#%e5%b8%82%e5%a0%b4%e3%82%b7%e3%82%a7%e3%82%a2%e3%82%92%e7%ae%97%e5%87%ba%e3%81%99%e3%82%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>町丁・字等別の市場シェアを算出します。&lt;/p>
+&lt;ol>
+&lt;li>[ジオプロセシング] ウィンドウの [戻る] ボタンをクリックし、検索ボックスに「市場占有率」と入力します。&lt;/li>
+&lt;li>検索結果の中の [&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/calculate-market-penetration.htm" target="_blank">市場占有率の計算 (Calculate Market Penetration)&lt;/a>] ツールをクリックして開きます。&lt;/li>
+&lt;li>以下のように設定して、[実行] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>パラメーター&lt;/th>
+&lt;th>設定値&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>入力フィーチャ&lt;/td>
+&lt;td>2020 人口総数 レイヤー\町丁・字等&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>出力フィーチャクラス&lt;/td>
+&lt;td>町丁字等別市場シェア&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ID フィールド&lt;/td>
+&lt;td>ID&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>市場占有率の分母フィールド&lt;/td>
+&lt;td>2020 人口総数&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>入力顧客フィーチャ&lt;/td>
+&lt;td>自社顧客&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>エリア説明フィールド&lt;/td>
+&lt;td>NAME&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>レポートの作成&lt;/td>
+&lt;td>チェックボックスをオン&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>ツールが完了すると、マップに市場シェア別に色分けされた町丁・字等が追加されます。作成したレポートを開いて結果を確認します。&lt;/p>
+&lt;ol start="4">
+&lt;li>
+&lt;p>[市場占有率の計算] ツールの [詳細の表示] にカーソルを合わせて、[パラメーター] タブの [出力レポート] をクリックして出力されたレポートを開きます。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/customer-analysis/result-market-penetration.png">
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;p>町丁・字等別の顧客数や市場シェアが記入されたレポートが開きます。&lt;/p>
+&lt;h2>2 つの変数を用いて表示&lt;span class="hx:absolute hx:-mt-20" id="2-つの変数を用いて表示">&lt;/span>
+&lt;a href="#2-%e3%81%a4%e3%81%ae%e5%a4%89%e6%95%b0%e3%82%92%e7%94%a8%e3%81%84%e3%81%a6%e8%a1%a8%e7%a4%ba" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>2 変数シンボルを用いて、2 つの属性の関連性を直感的に理解するマップを作成します。以前は&lt;a href="https://www.esrij.com/business-map-glossary/analytical_method/cross_ranking/" target="_blank">クロスランキング&lt;/a>とも呼ばれていました。&lt;/p>
+&lt;p>ここでは、市場ポテンシャル (人口総数) と市場シェアでシンボル設定し、「市場ポテンシャルは高いが、市場シェアは低い」エリアを可視化します。&lt;/p>
+&lt;ol>
+&lt;li>[コンテンツ] ウィンドウの「町丁字等別市場シェア」レイヤーを右クリック → [シンボル] をクリックして、[シンボル] ウィンドウを開きます。&lt;/li>
+&lt;li>[プライマリ シンボル] を「等級色」から「2 変量色」に変更します。&lt;/li>
+&lt;li>色分けに使用する変数と分類方法を、以下のように設定します。
+&lt;ul>
+&lt;li>フィールド 1: 市場占有率 (%)&lt;/li>
+&lt;li>フィールド 2: 2020 人口総数&lt;/li>
+&lt;li>方法: 等量&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;p>市場シェアの結果レイヤーのシンボルが変更され、[コンテンツ] ウィンドウの凡例が以下のように変わります。右下の色で塗られたエリアは、市場ポテンシャルは高いが市場シェアが低い＝ターゲットとなるエリアであることを表します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/customer-analysis/bivariate-colors.png">
+&lt;/figure>
+&lt;ol start="4">
+&lt;li>[プロジェクト] タブ → [保存] を選択し、&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/projects/save-a-project.htm" target="_blank">プロジェクトを保存&lt;/a>します。&lt;/li>
+&lt;/ol>
+&lt;h1>まとめ&lt;/h1>&lt;p>この演習では、既存のポリゴンに重なる区画ポリゴンと顧客ポイントを使用して、エリア別の市場シェアを算出しました。また、市場ポテンシャルと市場シェアの 2 つの属性で色分けすることで「ターゲット エリア」を可視化することができました。&lt;/p>
+&lt;p>また、以下のツールの操作を学びました。&lt;/p>
+&lt;ul>
+&lt;li>[Business Analyst データの追加] ユーティリティー&lt;/li>
+&lt;li>[市場占有率の計算] ツール&lt;/li>
+&lt;li>シンボル設定 (2 変量)&lt;/li>
+&lt;/ul>
+&lt;style class="info-table">
+table {
+font-size: 13px;
+width: 85%;
+margin-right: 5px;
+margin-left: 15px;
+}
+table th:first-of-type {
+width: 30%;
+}
+table th:nth-of-type(2) {
+width: 70%;
+}
+&lt;/style></description></item></channel></rss>

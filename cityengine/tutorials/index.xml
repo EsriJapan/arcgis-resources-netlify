@@ -1,1 +1,109 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>チュートリアル on ArcGIS リソース集</title><link>/cityengine/tutorials/</link><description>Recent content in チュートリアル on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Thu, 05 Jan 2023 00:00:00 +0900</lastBuildDate><atom:link href="/cityengine/tutorials/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – チュートリアル</title><link>/cityengine/tutorials/</link><description>Recent content in チュートリアル on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Mon, 26 Jan 2026 00:00:00 +0900</lastBuildDate><atom:link href="/cityengine/tutorials/index.xml" rel="self" type="application/rss+xml"/><item><title>エッセンシャル</title><link>/cityengine/tutorials/essentials/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/essentials/</guid><description>
+&lt;p>エッセンシャル チュートリアルは、Houseal Lavigne 計画・設計事務所の都市デザイン プロジェクトに基づいて CityEngine の重要な機能と概要を紹介するチュートリアルです。 &lt;/br>&lt;/p>
+&lt;ul class="list-disc ml-6">
+&lt;li>
+&lt;a href="/cityengine/tutorials/essentials/cityengine-tour/">CityEngine ツアー&lt;/a>&lt;br>CityEngine の主要な特徴や機能について学習します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/essentials/build-cities-with-get-map-data/">Get Map Data を使った都市モデルの構築&lt;/a>&lt;br>Get Map Data の使い方を学習します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/essentials/work-with-gis-data/">GIS データを使った作業&lt;/a>&lt;br>GIS データを使った CityEngine の使い方を学習します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/essentials/rule-based-modeling/">ルール ベースのモデリング&lt;/a>&lt;br>ルール ベースのモデリングを学習します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/essentials/work-with-arcgis-urban-integration/">ArcGIS Urban との統合機能&lt;/a>&lt;br>ArcGIS Urbanとの統合機能を学習します。
+&lt;/li>
+&lt;/ul>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">このエッセンシャル チュートリアルは米 Esri 社が提供する &lt;a href="https://doc.arcgis.com/en/cityengine/latest/tutorials/cityengine-tour.htm"target="_blank" rel="noopener">CityEngine Essentials&lt;/a> (2023 年 7 月時点) を ESRIジャパン株式会社が翻訳したものです。内容については、英語ページと同時には更新されません。適宜、英語ページを参照していただくようお願いします。&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>クラシック</title><link>/cityengine/tutorials/classic/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/</guid><description>
+&lt;p>クラシック チュートリアルは、ArcGIS CityEngine の基本的な機能や操作を学習するためのチュートリアルです。 &lt;/br>&lt;/p>
+&lt;ul class="list-disc ml-6">
+&lt;li>
+&lt;a href="/cityengine/tutorials/classic/tutorial-1-essential-skills/">チュートリアル 1 : CityEngine の基本&lt;/a>&lt;br>このチュートリアルでは、シーンの作成、オブジェクトの選択、ルールの編集など、CityEngine で作業する際に必要なスキルを学びます。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/classic/tutorial-2-terrain-and-dynamic-city-layouts/">チュートリアル 2 : テレインとダイナミック シティ レイアウト&lt;/a>&lt;br>テレインの作成と配置、道路の生成と道路のクリーンアップ、そしてダイナミック シティ レイアウトの基礎について学習します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/classic/tutorial-3-map-control/">チュートリアル 3: マップ制御&lt;/a>&lt;br>マップを使って都市の外観を制御する方法を学習します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/classic/tutorial-4-import-streets/">チュートリアル 4: 道路データのインポート&lt;/a>&lt;br>外部からインポートした道路データを扱う方法を学習します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/classic/tutorial-5-import-initial-shapes/">チュートリアル 5: シェープのインポート&lt;/a>&lt;br>外部モデルをシェープとして取り込む方法を学習します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/classic/tutorial-6-basic-shape-grammar/">チュートリアル 6: 基本的なシェープ グラマー&lt;/a>&lt;br>CityEngine の CGA シェープ グラマーの基本を学習します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/classic/tutorial-7-facade-modeling/">チュートリアル 7 : ファサード モデリング&lt;/a>&lt;br>写真から建物をモデリングする方法を解説し、いくつかの複雑なCGA のテクニックを学習します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/classic/tutorial-8-mass-modeling/">チュートリアル 8 : マスモデリング&lt;/a>&lt;br>建物のマスモデルがどのようにシェープ グラマーにより作成されるのかを学習します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/classic/tutorial-9-advanced-shape-grammar/">チュートリアル 9: 高度なシェープ グラマー&lt;/a>&lt;br>写真から建物をモデリングする方法や、いくつかの高度な CGA テクニックについて学習します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/classic/tutorial-10-python-scripting/">チュートリアル 10: Python スクリプティング&lt;/a>&lt;br>Python コンソールおよびエディターの基本的な使用方法を学習します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/classic/tutorial-11-reporting/">チュートリアル 11: レポーティング&lt;/a>&lt;br>既存の CGA にどのようにレポーティングの動作を組み込み、その結果のレポートがどのように生成されるのかを学習します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/classic/tutorial-12-scripted-report-export/">チュートリアル 12: スクリプトによるレポートのエクスポート&lt;/a>&lt;br>Python をベースにしたエクスポート機能を使ってCGA レポート変数を使用する方法を学習します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/classic/tutorial-13a-facade-wizard-basic-facade-creation/">チュートリアル 13A : ファサード ウィザード - 基本的なファサードの作成&lt;/a>&lt;br>基本的なファサードを作成し、単一分割と反復分割を含むファサード ルール テンプレートを学習します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/classic/tutorial-13b-facade-wizard-advanced-facade-creation/">チュートリアル 13B : ファサード ウィザード - 高度なファサードの作成&lt;/a>&lt;br>ファサードを分割したルール テンプレートをより直感的に作成したり、詳細なファサード要素をインポートする方法や高度なファサード作成のためのCGA テンプレートの編集方法をを学習します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/classic/tutorial-14a-2d-and-3d-shape-modeling/">チュートリアル 14A : 2D および 3D シェープ モデリング&lt;/a>&lt;br>2D および 3D の手動によるシェープの描画および編集テクニックを学習します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/classic/tutorial-14b-advanced-polygonal-modeling/">チュートリアル 14B : 応用的なポリゴン モデリング&lt;/a>&lt;br>応用的なポリゴン モデリングについて学習します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/classic/tutorial-14c-combining-polygonal-modeling-with-rules/">チュートリアル 14C : ルールによるポリゴン モデルの結合&lt;/a>&lt;br>ルール ベースのモデリングを使用したポリゴン モデリングの編集について学習します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/classic/tutorial-15-publish-web-scenes/">チュートリアル 15: Web シーンの共有&lt;/a>&lt;br>CityEngine レイヤーをシーン レイヤー パッケージ (SLPK) ファイルとタイル パッケージ (TPK) ファイルにエクスポートする方法を学習します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/classic/tutorial-16-urban-planning/">チュートリアル 16: 都市計画&lt;/a>&lt;br>CityEngine をどのように典型的な都市計画タスクに利用できるかを学習します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/classic/tutorial-17-desert-city/">チュートリアル 17: Desert City&lt;/a>&lt;br>GIS データのインポートとフィッティング、各オブジェクト タイプに対する CGA ルールの適用、ArcGIS 製品での編集方法について学習します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/classic/tutorial-18-handles/">チュートリアル 18: ハンドル&lt;/a>&lt;br>モデルにハンドル機能を追加する CGA ルールの作成方法を学習します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/classic/tutorial-19-vfx-workflows-with-alembic/">チュートリアル 19: VFX workflows with Alembic&lt;/a>&lt;br>Alembic エクスポーターに基づく VFX 関連のワークフローをいくつか紹介します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/classic/tutorial-20-local-edits/">チュートリアル 20 : ローカル編集&lt;/a>&lt;br>CityEngine でローカル編集を行う方法について学習します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/classic/tutorial-21-csv-import/">チュートリアル 21: CSV のインポート&lt;/a>&lt;br>CSV ファイルからデータをインポートし、配列を使用して CGA コードで使用する方法を学習します。
+&lt;/li>
+&lt;li>
+&lt;a href="/cityengine/tutorials/classic/tutorial-22-dynamic-imports/">チュートリアル 22: ダイナミック インポート&lt;/a>&lt;br>ダイナミック インポートの使用方法を学習します。
+&lt;/li>
+&lt;/ul>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">このクラシック チュートリアルは米 Esri 社が提供する &lt;a href="https://doc.arcgis.com/en/cityengine/latest/tutorials/tutorial-1-essential-skills.htm"target="_blank" rel="noopener">CityEngine Tutorials&lt;/a> (2025 年 8 月時点) を ESRIジャパン株式会社が翻訳したものです。内容については、英語ページと同時には更新されません。適宜、英語ページを参照していただくようお願いします。&lt;/div>
+&lt;/div>
+&lt;/div></description></item></channel></rss>

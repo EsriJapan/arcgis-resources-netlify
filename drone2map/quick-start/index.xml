@@ -1,1 +1,93 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>クイックスタート ガイド on ArcGIS リソース集</title><link>/drone2map/quick-start/</link><description>Recent content in クイックスタート ガイド on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="/drone2map/quick-start/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – クイックスタート ガイド</title><link>/drone2map/quick-start/</link><description>Recent content in クイックスタート ガイド on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Wed, 20 Dec 2023 00:00:00 +0900</lastBuildDate><atom:link href="/drone2map/quick-start/index.xml" rel="self" type="application/rss+xml"/><item><title>高速</title><link>/drone2map/quick-start/2d_rapid/</link><pubDate>Thu, 28 Dec 2023 00:00:00 +0900</pubDate><guid>/drone2map/quick-start/2d_rapid/</guid><description>
+&lt;p>高速テンプレートは、ドローンで撮影した画像から素早くトゥルーオルソや DSM (数値表層モデル) を作成できます。&lt;/p>
+&lt;h2>サンプル データのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="サンプル-データのダウンロード">&lt;/span>
+&lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>サンプル データ：米国アラバマ州のアスファルトプラントの画像セット&lt;br>
+ファイル サイズ：93.7 MB&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;a href="https://doc.arcgis.com/ja/drone2map/latest/help/sample-data.htm#ESRI_SECTION1_411500F79F4D44AB8A688BA533C6DC59" target="_blank" rel="download site">サンプル データ ギャラリー&lt;/a> を表示します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>高速の [ダウンロード] をクリックし、ダウンロードを開始します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Sample_Asphalt.zip を任意の場所に解凍します。&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>2D プロダクト</title><link>/drone2map/quick-start/2d_mapping/</link><pubDate>Mon, 25 Dec 2023 00:00:00 +0900</pubDate><guid>/drone2map/quick-start/2d_mapping/</guid><description>
+&lt;p>2D プロダクト テンプレートでは、高解像度のトゥルーオルソや DSM（数値表層モデル）を作成できます。&lt;/p>
+&lt;h2>サンプル データのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="サンプル-データのダウンロード">&lt;/span>
+&lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>サンプル データについて：コンゴ民主共和国のバナナ農園の画像セット&lt;br>
+ファイル サイズ：54.8 MB&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;a href="https://doc.arcgis.com/ja/drone2map/latest/help/sample-data.htm#ESRI_SECTION1_7A8679A01F9A40A6834B8393F6D67E8B" target="_blank" rel="download site">サンプル データ ギャラリー&lt;/a> を表示します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>2D プロダクトの [ダウンロード] をクリックし、ダウンロードを開始します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Sample_Banana_Plant.zip を任意の場所に解凍します。&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>3D プロダクト</title><link>/drone2map/quick-start/3d_mapping/</link><pubDate>Mon, 25 Dec 2023 00:00:00 +0900</pubDate><guid>/drone2map/quick-start/3d_mapping/</guid><description>
+&lt;p>3D プロダクト テンプレートは、ドローンで撮影した画像から 3D 点群や 3D メッシュを作成できます。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">3D テンプレートの利用および 3D プロダクトの生成には、Drone2Map Advanced ライセンスが必要です。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2>サンプル データのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="サンプル-データのダウンロード">&lt;/span>
+&lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>サンプル データ：ドイツのオフィス パークの画像セット&lt;br>
+ファイル サイズ：236 MB&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;a href="https://doc.arcgis.com/ja/drone2map/latest/help/sample-data.htm#ESRI_SECTION1_BEDC19750772418C86F7D5C5DCE53D04" target="_blank" rel="download site">サンプル データ ギャラリー&lt;/a> を表示します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>3D プロダクトの [ダウンロード] をクリックし、ダウンロードを開始します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Small_Buildings.zip を任意の場所に解凍します。&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>カスタム テンプレート</title><link>/drone2map/quick-start/custom/</link><pubDate>Thu, 21 Dec 2023 00:00:00 +0900</pubDate><guid>/drone2map/quick-start/custom/</guid><description>
+&lt;h2>カスタム テンプレートの設定&lt;span class="hx:absolute hx:-mt-20" id="カスタム-テンプレートの設定">&lt;/span>
+&lt;a href="#%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%a0-%e3%83%86%e3%83%b3%e3%83%97%e3%83%ac%e3%83%bc%e3%83%88%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>カスタム テンプレートをデフォルトのテンプレートとして設定し、いつでも利用できるようにします。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Windows の [スタート] ボタン → [ArcGIS] → [Drone2Map] をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>ArcGIS Online の組織向けアカウントまたは Portal for ArcGIS アカウントでサイン インします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>プロジェクト作成画面の左下の [設定] ボタンをクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[設定] タブを選択し、[設定] ウィンドウを開きます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[設定] ウィンドウの [新しいプロジェクト] タブを選択し、[このデフォルトのカスタム テンプレートを使用] の参照ボタンをクリックします。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/QS/custom_setting.png" alt="テンプレートの設定" loading="lazy" />&lt;/p>
+&lt;ol start="6">
+&lt;li>
+&lt;p>[テンプレートの選択] ウィンドウでカスタム テンプレートファイル（*zip）を選択し、 [OK] をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[このデフォルト プロジェクトテンプレートを使用] のドロップダウン リストから [カスタム テンプレート] を選択します。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/QS/custom_templatelist.png" width="80%">
+&lt;ol start="8">
+&lt;li>カスタム テンプレートの設定ができたら、[設定] ウィンドウで [OK] をクリックして閉じます。
+[新しいプロジェクト] 画面では、[カスタム] テンプレートが選択されていることが確認できます。&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;strong>カスタム テンプレート（*zip）ファイルの作成方法&lt;/strong>&lt;br>
+設定を変更して処理した後に処理オプションを開くまたは、設定オプションを変更した後に [適用] をクリックしてから [テンプレートのエクスポート] をクリックします。任意の名前でエクスポートすることができます。
+&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/QS/custom_processingoption.png" alt="テンプレートのエクスポート" loading="lazy" />&lt;/div>
+&lt;/div>
+&lt;/div></description></item></channel></rss>

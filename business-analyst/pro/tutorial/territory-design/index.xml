@@ -1,18 +1,696 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>テリトリー デザイン on ArcGIS リソース集</title><link>/business-analyst/pro/tutorial/territory-design/</link><description>Recent content in テリトリー デザイン on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="/business-analyst/pro/tutorial/territory-design/index.xml" rel="self" type="application/rss+xml"/><item><title>現状のテリトリーを可視化</title><link>/business-analyst/pro/tutorial/territory-design/create-territory-from-database/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/territory-design/create-territory-from-database/</guid><description>本演習にかかる時間はおよそ 30 分です。
-本演習では、区画ごとに営業担当が整理されたテーブル データを用いて、既存エリアを可視化したテリトリーを作成する方法を学びます。
-演習 演習用データのダウンロード BA Pro チュートリアル-テリトリー プロジェクトパッケージをダウンロードします。 ダウンロードした「BAProチュートリアル-テリトリー.ppkx」を開きます。 プロジェクト パッケージを開いた際、[プロジェクト アイテムの修復] メッセージが表示された場合は [OK] をクリックして閉じてください。
-[演習1] マップを開きます。
-Business Analyst データ ソースが最新のデータセットに設定されていることをご確認ください。
-既存の営業担当エリア情報テーブルの確認 プロジェクトパッケージはデフォルト設定では、以下の場所に展開されます。
-C:\Users&amp;lt;ユーザー名&amp;gt;\Documents\ArcGIS\Packages\BAProチュートリアル-テリトリー_xxxx
-既存の営業担当エリア分けの情報を持つテーブル データをマップに追加します。
-[マップ] タブ → [レイヤー] グループの [データの追加] をクリックします。 [参照] を選択して、[データの追加] ダイアログを開きます。 演習データ内の Excel シートを選択し、[OK] をクリックします。 &amp;lt;上記展開先&amp;gt;\commondata\userdata\既存の営業担当エリアリスト.xlsx\担当エリア$
-Excel の読み込みができない場合、事前準備をご確認ください。
-[フォルダー] に上記展開先のパスが接続されているため、[フォルダー] から Excel ファイルに接続することができます。
-[コンテンツ] ウィンドウに「担当エリア$」レイヤーが追加されます。</description></item><item><title>テリトリーの自動最適化</title><link>/business-analyst/pro/tutorial/territory-design/create-optimal-territory/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/territory-design/create-optimal-territory/</guid><description>本演習にかかる時間はおよそ 40 分です。
-テリトリー デザインでは、現状のテリトリーの可視化だけでなく、位置や数値情報を元にテリトリーを自動最適化することができます。本演習では、以下の要素を考慮して、営業担当エリアを最適化します。
-各営業担当エリアの顧客数の合計値を均等にする。 各営業担当エリアが担当拠点を中心にまとまり、飛び地を持たないようにする。 演習 演習用データのダウンロード BA Pro チュートリアル-テリトリー プロジェクトパッケージが無い場合は、ダウンロードし、プロジェクト パッケージを開きます。 プロジェクト パッケージを開いた際、[プロジェクト アイテムの修復] メッセージが表示された場合は [OK] をクリックして閉じてください。
-[演習2] マップを開きます。 [コンテンツ] ウィンドウおよびマップ上に「営業拠点」レイヤーおよび「世田谷区ポリゴン」レイヤーが追加されていることを確認します。
-Business Analyst データ ソースが最新のデータセットに設定されていることをご確認ください。
-テリトリー ソリューション レイヤーの作成 最初に、空のテリトリー ソリューション レイヤーを作成します。
-[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [新しいテリトリー デザイン ソリューション] をクリックします。 [テリトリー ソリューションの作成 (Create Territory Solution)] ツールが開いたら、以下のように設定してツールを実行します。 パラメーター 設定値 入力フィーチャ 世田谷区ポリゴン テリトリー ソリューションの名前 営業担当エリアの最適化 ID フィールド 町丁字等コード 名前フィールド 町丁字等名 マップ上に、世田谷区ポリゴンをベースにした「営業担当エリアの最適化」レイヤーが追加されます。</description></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – テリトリー デザイン</title><link>/business-analyst/pro/tutorial/territory-design/</link><description>Recent content in テリトリー デザイン on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><atom:link href="/business-analyst/pro/tutorial/territory-design/index.xml" rel="self" type="application/rss+xml"/><item><title>現状のテリトリーを可視化</title><link>/business-analyst/pro/tutorial/territory-design/create-territory-from-database/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/territory-design/create-territory-from-database/</guid><description>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">本演習にかかる時間はおよそ 30 分です。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>本演習では、区画ごとに営業担当が整理されたテーブル データを用いて、既存エリアを可視化したテリトリーを作成する方法を学びます。&lt;/p>
+&lt;h1>演習&lt;/h1>&lt;h2>演習用データのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="演習用データのダウンロード">&lt;/span>
+&lt;a href="#%e6%bc%94%e7%bf%92%e7%94%a8%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>&lt;a href="https://www.arcgis.com/home/item.html?id=0dce6715d8674479b4bd9860c37ad814" target="_blank">BA Pro チュートリアル-テリトリー プロジェクトパッケージ&lt;/a>をダウンロードします。&lt;/li>
+&lt;li>ダウンロードした「BAProチュートリアル-テリトリー.ppkx」を開きます。&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">プロジェクト パッケージを開いた際、[プロジェクト アイテムの修復] メッセージが表示された場合は [OK] をクリックして閉じてください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="3">
+&lt;li>
+&lt;p>[演習1] マップを開きます。&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/territory-design/territory-tutorial-ex1.png">
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;a href="/business-analyst/pro/tutorial/prepare-for-tutorial/#business-analyst-データ-ソースの設定" target="_blank">Business Analyst データ ソース&lt;/a>が最新のデータセットに設定されていることをご確認ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2>既存の営業担当エリア情報テーブルの確認&lt;span class="hx:absolute hx:-mt-20" id="既存の営業担当エリア情報テーブルの確認">&lt;/span>
+&lt;a href="#%e6%97%a2%e5%ad%98%e3%81%ae%e5%96%b6%e6%a5%ad%e6%8b%85%e5%bd%93%e3%82%a8%e3%83%aa%e3%82%a2%e6%83%85%e5%a0%b1%e3%83%86%e3%83%bc%e3%83%96%e3%83%ab%e3%81%ae%e7%a2%ba%e8%aa%8d" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>プロジェクトパッケージはデフォルト設定では、以下の場所に展開されます。&lt;/p>
+&lt;blockquote>
+&lt;p>C:\Users&amp;lt;ユーザー名&amp;gt;\Documents\ArcGIS\Packages\BAProチュートリアル-テリトリー_xxxx&lt;/p>
+&lt;/blockquote>
+&lt;p>既存の営業担当エリア分けの情報を持つテーブル データをマップに追加します。&lt;/p>
+&lt;ol>
+&lt;li>[マップ] タブ → [レイヤー] グループの [データの追加] をクリックします。&lt;/li>
+&lt;li>[参照] を選択して、[データの追加] ダイアログを開きます。&lt;/li>
+&lt;li>演習データ内の Excel シートを選択し、[OK] をクリックします。
+&lt;blockquote>
+&lt;p>&amp;lt;上記展開先&amp;gt;\commondata\userdata\既存の営業担当エリアリスト.xlsx\担当エリア$&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">Excel の読み込みができない場合、&lt;a href="/business-analyst/pro/tutorial/prepare-for-tutorial/">事前準備&lt;/a>をご確認ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[フォルダー] に上記展開先のパスが接続されているため、[フォルダー] から Excel ファイルに接続することができます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>[コンテンツ] ウィンドウに「担当エリア$」レイヤーが追加されます。&lt;/p>
+&lt;ol start="4">
+&lt;li>「担当エリア$」レイヤーを右クリック → [開く] をクリックし、テーブルを開きます。&lt;/li>
+&lt;/ol>
+&lt;p>テーブルに、以下の情報が格納されていることを確認します。&lt;/p>
+&lt;ul>
+&lt;li>町丁字等コード&lt;/li>
+&lt;li>町丁字等名&lt;/li>
+&lt;li>顧客数&lt;/li>
+&lt;li>担当拠点コード&lt;/li>
+&lt;li>担当拠点名&lt;/li>
+&lt;/ul>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/territory-design/territory-area-table.png" width="35%">
+&lt;/figure>
+&lt;ol start="5">
+&lt;li>テーブルの [×] ボタンをクリックして、テーブルを閉じます。&lt;/li>
+&lt;/ol>
+&lt;h2>営業担当エリア ポリゴンの作成&lt;span class="hx:absolute hx:-mt-20" id="営業担当エリア-ポリゴンの作成">&lt;/span>
+&lt;a href="#%e5%96%b6%e6%a5%ad%e6%8b%85%e5%bd%93%e3%82%a8%e3%83%aa%e3%82%a2-%e3%83%9d%e3%83%aa%e3%82%b4%e3%83%b3%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>上記テーブル データを使用して、営業担当エリアの情報を持つ町丁・字等ポリゴンを作成します。&lt;/p>
+&lt;ol>
+&lt;li>ArcGIS Pro 上部の [コマンド検索] で「標準区画」と入力します。&lt;/li>
+&lt;li>検索結果の中の [&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/generate-standard-geography-trade-areas.htm" target="_blank" >標準区画商圏の生成 (Generate Standard Geography Trade Areas)&lt;/a>] ツールをクリックして開きます。&lt;/li>
+&lt;li>以下のように設定して、[実行] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>パラメーター&lt;/th>
+&lt;th>設定値&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>区画レベル&lt;/td>
+&lt;td>町丁・字等 (JP.Blocks)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>出力フィーチャクラス&lt;/td>
+&lt;td>世田谷区営業担当エリア&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>入力タイプ&lt;/td>
+&lt;td>テーブル&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>区画 ID テーブル&lt;/td>
+&lt;td>担当エリア$&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>区画キー フィールド&lt;/td>
+&lt;td>町丁字等コード&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>マップ上に「担当エリア$」テーブルの属性が結合された状態で、世田谷区内の町丁・字等ポリゴンが追加されます。&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/territory-design/result-standard-geography.png">
+&lt;/figure>
+&lt;h2>現状のテリトリーを可視化&lt;span class="hx:absolute hx:-mt-20" id="現状のテリトリーを可視化">&lt;/span>
+&lt;a href="#%e7%8f%be%e7%8a%b6%e3%81%ae%e3%83%86%e3%83%aa%e3%83%88%e3%83%aa%e3%83%bc%e3%82%92%e5%8f%af%e8%a6%96%e5%8c%96" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>前のステップで生成した世田谷区の町丁・字等ポリゴンに含まれる営業担当拠点の情報を元に、現状の担当エリアを再現したテリトリーを作成します。&lt;/p>
+&lt;ol>
+&lt;li>ArcGIS Pro 上部の [コマンド検索] で「テリトリー インポート」と入力します。&lt;/li>
+&lt;li>検索結果の中の [&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/import-territory-solution.htm" target="_blank" >テリトリー ソリューションのインポート (Import Territory Solution)&lt;/a>] ツールをクリックして開きます。&lt;/li>
+&lt;li>以下のように設定します。
+&lt;ul>
+&lt;li>入力データ：世田谷区営業担当エリア&lt;/li>
+&lt;li>テリトリー ソリューションの名前：現状の営業担当エリア&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>[レベル設定] パラメーターを以下のように設定します。
+&lt;ul>
+&lt;li>レベル名：ベース&lt;/li>
+&lt;li>ID フィールド：町丁字等コード&lt;/li>
+&lt;li>名前フィールド：町丁字等名&lt;/li>
+&lt;li>上位 ID フィールド：担当拠点コード&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>[他を追加] をクリックし、追加で以下のように設定します。
+&lt;ul>
+&lt;li>レベル名：テリトリー&lt;/li>
+&lt;li>ID フィールド：担当拠点コード&lt;/li>
+&lt;li>名前フィールド：担当拠点名&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>下図のように設定されていることを確認し、[実行] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/territory-design/import-territory-solution-setting.png" width="30%">
+&lt;/figure>
+&lt;p>マップ上に、現状の営業担当を可視化したテリトリー ソリューション レイヤーが追加されます。なお、テリトリーの色分けは画像と異なる場合があります。&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/territory-design/result-import-territory-solution.png" width="700px">
+&lt;/figure>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>テリトリー ソリューション レイヤーは、テリトリー デザインに関連する各種レイヤーが格納されるグループ レイヤーです。デフォルトで以下の 2 種類のレイヤーが格納されます。&lt;br/>&lt;/p>
+&lt;ul>
+&lt;li>ベース レイヤー：テリトリーを構成する最小単位の区画レイヤー (レベル 0)
+&lt;ul>
+&lt;li>ポリゴンまたはポイント フィーチャを設定できます。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>テリトリー レイヤー：ベース レイヤーやテリトリー レイヤーをグルーピングしたレイヤー (レベル 1～)
+&lt;ul>
+&lt;li>[&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/create-territory-solution.htm" target="_blank">テリトリー ソリューションの作成&lt;/a>] 時にレベル 1 のテリトリー レイヤーが自動で 1 つ作成され、初期設定では空のレイヤーとして出力されます。&lt;/li>
+&lt;li>テリトリー レイヤーは複数のレベルを階層的に作成することができ、それぞれのレベルでテリトリーを構築することができます。&lt;br/>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/territory-design/new-territory-solution-layer.png" width="500px">
+&lt;/figure>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">本演習では、[&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/import-territory-solution.htm" target="_blank" >テリトリー ソリューションのインポート&lt;/a>] ツールを使用して、レベル 1 のテリトリー レイヤーに関する設定を行った上でテリトリー ソリューション レイヤーを作成するため、初めからテリトリー分けが完了した状態で出力されます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2>結果の確認&lt;span class="hx:absolute hx:-mt-20" id="結果の確認">&lt;/span>
+&lt;a href="#%e7%b5%90%e6%9e%9c%e3%81%ae%e7%a2%ba%e8%aa%8d" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>作成されたテリトリー (営業担当エリア) の結果を [テリトリーの検証] ツールを使って確認します。&lt;/p>
+&lt;ol>
+&lt;li>[コンテンツ] ウィンドウ上の「現状の営業担当エリア」レイヤーを選択し、上部に表示される [テリトリー デザイン] タブをクリックします。&lt;/li>
+&lt;li>[テリトリーの検証] ボタンをクリックし、[&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/validate-territories.htm" target="_blank" >テリトリーの検証 (Validate Territories)&lt;/a>] ツールを開きます。&lt;/li>
+&lt;li>デフォルトの設定のまま [OK] をクリックします。&lt;/li>
+&lt;li>結果がフローティングで表示されます。&lt;/li>
+&lt;/ol>
+&lt;p>「テリトリーが連続していません (3)」というメッセージが表示されています。これは、3 つのテリトリーで飛び地が発生していることを表します。&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/territory-design/confirm-result-with-map.png" width="700px">
+&lt;/figure>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">検証結果は必ずしも上記と同じものになるとは限りません。そのため、問題が検出されない場合もあります。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2>チャートの作成&lt;span class="hx:absolute hx:-mt-20" id="チャートの作成">&lt;/span>
+&lt;a href="#%e3%83%81%e3%83%a3%e3%83%bc%e3%83%88%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>次に、テリトリーごとに顧客数の合計値を比較するチャートを作成します。事前準備として、テリトリー レイヤーに対して「顧客数の合計値」をレベル変数として追加します。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">レベル変数は、指定したレベルのテリトリーに対して追加できる数値フィールドです。テリトリーを最適化する時の指標として使用されます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol>
+&lt;li>[コンテンツ] ウィンドウ上の「現状の営業担当エリア」レイヤーを選択し、上部に表示される [テリトリー デザイン] タブをクリックします。&lt;/li>
+&lt;li>[変数の追加] ボタンをクリックし、[&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/add-level-variables.htm" target="_target">レベル変数の追加 (Add Level Variables)&lt;/a>] ツールを開きます。&lt;/li>
+&lt;li>以下のように設定します。
+&lt;ul>
+&lt;li>入力テリトリー ソリューション：現状の営業担当エリア&lt;/li>
+&lt;li>レベル：テリトリー[1]&lt;/li>
+&lt;li>ベース レベル：ベース[0]&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>[変数] パラメーターを以下のように設定します。
+&lt;ul>
+&lt;li>統計フィールド：顧客数&lt;/li>
+&lt;li>統計：合計&lt;/li>
+&lt;li>フィールド名：顧客数&lt;/li>
+&lt;li>フィールドのエイリアス名：顧客数&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>下図のように設定されていることを確認し、[OK] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/territory-design/add-level-variables-setting_1_v36.png" width="23%">
+&lt;/figure>
+&lt;p>テリトリー レイヤーに対して顧客数合計値のレベル変数を設定できました。次に、顧客数の合計値をチャートで可視化します。&lt;/p>
+&lt;ol start="6">
+&lt;li>[テリトリー デザイン] タブの [チャートの作成] ボタンをクリックします。&lt;/li>
+&lt;/ol>
+&lt;p>各テリトリーの顧客数の合計値を比較できるチャートを作成できました。この結果を見ると、拠点 C および E の顧客数が特に多く、拠点によって偏りがあることが分かります。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/territory-design/confirm-result-with-chart.png" width="40%">
+&lt;/figure>
+&lt;ol start="7">
+&lt;li>[プロジェクト] タブ → [保存] を選択し、プロジェクトを保存します。&lt;/li>
+&lt;/ol>
+&lt;h1>まとめ&lt;/h1>&lt;p>この演習では、区画ごとに既存の営業担当が整理されたテーブルを使用して、既存テリトリーを可視化しました。 さらに、テリトリーの結果をマップやチャートを通して確認し、現状のエリア分けの改善点を把握しました。&lt;/p>
+&lt;p>また、以下のツールの操作方法を学びました。&lt;/p>
+&lt;ul>
+&lt;li>[標準区画商圏の生成] ツール&lt;/li>
+&lt;li>[テリトリー ソリューションのインポート] ツール&lt;/li>
+&lt;li>[レベル変数の追加] ツール&lt;/li>
+&lt;li>テリトリー チャートの作成&lt;/li>
+&lt;li>[テリトリーの検証] ツール&lt;/li>
+&lt;/ul>
+&lt;p>各テリトリーが持つ数値を均一化しつつ、飛び地を解消して移動ロスを削減するために、次の演習では、現状の営業担当エリアをテリトリー デザインを用いて最適化する方法を学びます。&lt;/p>
+&lt;style class="info-table">
+table {
+font-size: 13px;
+width: 85%;
+margin-right: 5px;
+margin-left: 15px;
+}
+table th:first-of-type {
+width: 30%;
+}
+table th:nth-of-type(2) {
+width: 70%;
+}
+&lt;/style></description></item><item><title>テリトリーの自動最適化</title><link>/business-analyst/pro/tutorial/territory-design/create-optimal-territory/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/territory-design/create-optimal-territory/</guid><description>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">本演習にかかる時間はおよそ 40 分です。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>テリトリー デザインでは、&lt;a href="/business-analyst/pro/tutorial/territory-design/create-territory-from-database/" target="_blank" >現状のテリトリーの可視化&lt;/a>だけでなく、位置や数値情報を元にテリトリーを自動最適化することができます。本演習では、以下の要素を考慮して、営業担当エリアを最適化します。&lt;/p>
+&lt;ul>
+&lt;li>各営業担当エリアの顧客数の合計値を均等にする。&lt;/li>
+&lt;li>各営業担当エリアが担当拠点を中心にまとまり、飛び地を持たないようにする。&lt;/li>
+&lt;/ul>
+&lt;h1>演習&lt;/h1>&lt;h2>演習用データのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="演習用データのダウンロード">&lt;/span>
+&lt;a href="#%e6%bc%94%e7%bf%92%e7%94%a8%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>&lt;a href="https://www.arcgis.com/home/item.html?id=0dce6715d8674479b4bd9860c37ad814" target="_blank">BA Pro チュートリアル-テリトリー プロジェクトパッケージ&lt;/a>が無い場合は、ダウンロードし、プロジェクト パッケージを開きます。&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">プロジェクト パッケージを開いた際、[プロジェクト アイテムの修復] メッセージが表示された場合は [OK] をクリックして閉じてください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="2">
+&lt;li>[演習2] マップを開きます。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/territory-design/territory-input-data.png">
+&lt;/figure>
+&lt;p>[コンテンツ] ウィンドウおよびマップ上に「営業拠点」レイヤーおよび「世田谷区ポリゴン」レイヤーが追加されていることを確認します。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;a href="/business-analyst/pro/tutorial/prepare-for-tutorial/#business-analyst-データ-ソースの設定" target="_blank">Business Analyst データ ソース&lt;/a>が最新のデータセットに設定されていることをご確認ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2>テリトリー ソリューション レイヤーの作成&lt;span class="hx:absolute hx:-mt-20" id="テリトリー-ソリューション-レイヤーの作成">&lt;/span>
+&lt;a href="#%e3%83%86%e3%83%aa%e3%83%88%e3%83%aa%e3%83%bc-%e3%82%bd%e3%83%aa%e3%83%a5%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3-%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>最初に、空のテリトリー ソリューション レイヤーを作成します。&lt;/p>
+&lt;ol>
+&lt;li>[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [新しいテリトリー デザイン ソリューション] をクリックします。&lt;/li>
+&lt;li>[&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/create-territory-solution.htm" target="_blank">テリトリー ソリューションの作成 (Create Territory Solution)&lt;/a>] ツールが開いたら、以下のように設定してツールを実行します。&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>パラメーター&lt;/th>
+&lt;th>設定値&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>入力フィーチャ&lt;/td>
+&lt;td>世田谷区ポリゴン&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>テリトリー ソリューションの名前&lt;/td>
+&lt;td>営業担当エリアの最適化&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ID フィールド&lt;/td>
+&lt;td>町丁字等コード&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>名前フィールド&lt;/td>
+&lt;td>町丁字等名&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>マップ上に、世田谷区ポリゴンをベースにした「営業担当エリアの最適化」レイヤーが追加されます。&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/territory-design/territory-solution-layer.png">
+&lt;/figure>
+&lt;h2>レベル変数の設定&lt;span class="hx:absolute hx:-mt-20" id="レベル変数の設定">&lt;/span>
+&lt;a href="#%e3%83%ac%e3%83%99%e3%83%ab%e5%a4%89%e6%95%b0%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>次に、テリトリー分けを行う際の最小単位である「ベース レイヤー」に含まれる数値フィールドをレベル変数として設定します。本演習では、世田谷区ポリゴンのポリゴン数および「顧客数」フィールドの合計値の 2 つをレベル変数として設定します。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">レベル変数は、指定したレベルのテリトリーに対して追加できる数値フィールドです。テリトリーを最適化する時の指標として使用されます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol>
+&lt;li>[コンテンツ] ウィンドウ上の「営業担当エリアの最適化」レイヤーを選択し、上部に表示される [テリトリー デザイン] タブをクリックします。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/territory-design/territory-design-tab.png">
+&lt;/figure>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">テリトリー デザインの一連の操作は、[テリトリー デザイン] タブからツールを起動して実行できます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="2">
+&lt;li>[テリトリー デザイン] タブの [変数の追加] ボタンをクリックして、[&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/add-level-variables.htm" target="_target">レベル変数の追加 (Add Level Variables)&lt;/a>] ツールを開きます。&lt;/li>
+&lt;li>以下のように設定されていることを確認します。
+&lt;ul>
+&lt;li>入力テリトリー ソリューション：営業担当エリアの最適化&lt;/li>
+&lt;li>レベル：テリトリー [1]&lt;/li>
+&lt;li>ベース レベル：世田谷区ポリゴン [0]&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>[変数] パラメーターについて、以下のように設定します。&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>パラメーター&lt;/th>
+&lt;th>設定値&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>統計フィールド&lt;/td>
+&lt;td>顧客数&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>統計&lt;/td>
+&lt;td>合計&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>フィールド名&lt;/td>
+&lt;td>顧客数&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>フィールドのエイリアス名&lt;/td>
+&lt;td>顧客数&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5. [他を追加] ボタンをクリックし、さらに以下のように設定します。&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>パラメーター&lt;/th>
+&lt;th>設定値&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>統計フィールド&lt;/td>
+&lt;td>顧客数&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>統計&lt;/td>
+&lt;td>個数&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>フィールド名&lt;/td>
+&lt;td>エリア数&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>フィールドのエイリアス名&lt;/td>
+&lt;td>エリア数&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6. 以下の通りに設定できていることを確認し、[OK] をクリックします。&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/territory-design/add-level-variables-setting_v36.png" width="25%">
+&lt;/figure>
+&lt;h2>レベル変数のバランス調整&lt;span class="hx:absolute hx:-mt-20" id="レベル変数のバランス調整">&lt;/span>
+&lt;a href="#%e3%83%ac%e3%83%99%e3%83%ab%e5%a4%89%e6%95%b0%e3%81%ae%e3%83%90%e3%83%a9%e3%83%b3%e3%82%b9%e8%aa%bf%e6%95%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>テリトリー デザインでは、レベル変数に対して重みを個別に設定し、テリトリーを最適化する際に重視する指標の優先度を制御できます。今回は、各担当エリアの顧客数の合計値がなるべく均等になるように、顧客数の優先度を高く設定します。&lt;/p>
+&lt;ol>
+&lt;li>[テリトリー デザイン] タブの [バランス調整変数] ボタンをクリックして、[&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/set-balance-variables.htm" target="_target">バランス調整変数の設定 (Set Balance Variables)&lt;/a>] ツールを開きます。&lt;/li>
+&lt;li>以下のように設定します。&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>パラメーター&lt;/th>
+&lt;th>設定値&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>入力テリトリー ソリューション&lt;/td>
+&lt;td>営業担当エリアの最適化&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>レベル&lt;/td>
+&lt;td>テリトリー [1]&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>バランス調整変数&lt;/td>
+&lt;td>顧客数：70&lt;br/>エリア数：30&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3. 以下の通りに設定できていることを確認し、[OK] をクリックします。&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/territory-design/set-balance-variables-setting_v36.png" width="25%">
+&lt;/figure>
+&lt;h2>距離パラメーターの設定&lt;span class="hx:absolute hx:-mt-20" id="距離パラメーターの設定">&lt;/span>
+&lt;a href="#%e8%b7%9d%e9%9b%a2%e3%83%91%e3%83%a9%e3%83%a1%e3%83%bc%e3%82%bf%e3%83%bc%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>テリトリーを最適化する際には、距離 (直線距離もしくはネットワーク距離) を考慮できます。&lt;/p>
+&lt;ol>
+&lt;li>[テリトリー デザイン] タブの [距離パラメーター] ボタンをクリックして、[&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/set-territory-distance-parameters.htm" target="_target">テリトリー距離パラメーターの設定 (Set Territory Distance Parameters)&lt;/a>] ツールを開きます。&lt;/li>
+&lt;li>以下のように設定します。&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>パラメーター&lt;/th>
+&lt;th>設定値&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>入力テリトリー ソリューション&lt;/td>
+&lt;td>営業担当エリアの最適化&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>レベル&lt;/td>
+&lt;td>テリトリー [1]&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>距離タイプ&lt;/td>
+&lt;td>直線&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>計測単位&lt;/td>
+&lt;td>キロメートル&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3. 以下の通りに設定できていることを確認し、[OK] をクリックします。&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/territory-design/set-territory-distance-parameters-setting_v36.png" width="25%">
+&lt;/figure>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">距離タイプは、直線距離もしくは運転時間などのネットワーク距離を選択できます。作成するテリトリーが広域にわたる場合、ネットワーク距離を使用した解析は長時間かかります。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2>シード ポイントの追加&lt;span class="hx:absolute hx:-mt-20" id="シード-ポイントの追加">&lt;/span>
+&lt;a href="#%e3%82%b7%e3%83%bc%e3%83%89-%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88%e3%81%ae%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>拠点を起点にしたテリトリーを構築する場合は、テリトリー シード ポイントを設定します。今回は、営業拠点をシード ポイントとして設定します。&lt;/p>
+&lt;ol>
+&lt;li>[テリトリー デザイン] タブの [シード ポイントの読み込み] ボタンをクリックして、[&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/add-territory-seed-points.htm" target="_target">テリトリー シード ポイントの追加 (Add Territory Seed Points)&lt;/a>] ツールを開きます。&lt;/li>
+&lt;li>以下のように設定します。&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>パラメーター&lt;/th>
+&lt;th>設定値&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>入力テリトリー ソリューション&lt;/td>
+&lt;td>営業担当エリアの最適化&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>レベル&lt;/td>
+&lt;td>テリトリー [1]&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>入力シード ポイント フィーチャ&lt;/td>
+&lt;td>営業拠点&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>フィールド マップ&lt;/td>
+&lt;td>名前：拠点名&lt;br/>ID：拠点コード&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3. 以下の通りに設定できていることを確認し、[OK] をクリックします。&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/territory-design/add-territory-seed-points-setting_v36.png" width="25%">
+&lt;/figure>
+&lt;p>「営業担当エリアの最適化」レイヤーに「シード ポイント テリトリー」が追加されます。&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/territory-design/added-territory-seed-points.png">
+&lt;/figure>
+&lt;h2>テリトリーの解析&lt;span class="hx:absolute hx:-mt-20" id="テリトリーの解析">&lt;/span>
+&lt;a href="#%e3%83%86%e3%83%aa%e3%83%88%e3%83%aa%e3%83%bc%e3%81%ae%e8%a7%a3%e6%9e%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ここまでの操作で、テリトリー最適化のための設定が完了しました。これらの設定を元に解析を実行し、最適化したテリトリーを構築します。&lt;/p>
+&lt;ol>
+&lt;li>[テリトリー デザイン] タブの [解析の実行] ボタンをクリックして、[&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/solve-territories.htm" target="_target">テリトリーの解析 (Solve Territories)&lt;/a>] ツールを開きます。&lt;/li>
+&lt;li>以下のように設定し、[OK] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>パラメーター&lt;/th>
+&lt;th>設定値&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>入力テリトリー ソリューション&lt;/td>
+&lt;td>営業担当エリアの最適化&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>レベル&lt;/td>
+&lt;td>テリトリー [1]&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>テリトリー数を決定する方法&lt;/td>
+&lt;td>ユーザー定義&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>テリトリー数&lt;/td>
+&lt;td>7&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">テリトリーの解析結果は、「ユーザー定義」の場合、ツールで指定した数になります。シード ポイントと同じ数を指定するとすべてのシード ポイントが使用され、それよりも少ない場合は、いずれかのシード ポイントが使用されずに最適化されます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>テリトリーの解析が実行され、「営業担当エリアの最適化」テリトリー ソリューション レイヤーが色分けされます。テリトリー シード ポイントを中心にしたテリトリーが構築されました。&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/territory-design/result-territory2.png" width="700px">
+&lt;/figure>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">解析結果は、上記画像と同じものにならない場合があります。また、テリトリー デザインの色分けは画像と異なる場合があります。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2>結果の確認&lt;span class="hx:absolute hx:-mt-20" id="結果の確認">&lt;/span>
+&lt;a href="#%e7%b5%90%e6%9e%9c%e3%81%ae%e7%a2%ba%e8%aa%8d" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>作成されたテリトリーの顧客数やエリア数が均等に割り振られているのか確認します。&lt;/p>
+&lt;ol>
+&lt;li>[テリトリー デザイン] タブの [チャートの作成] ボタンをクリックします。&lt;/li>
+&lt;li>[チャート] ウィンドウ左上の [プロパティ] ボタンをクリックします。&lt;/li>
+&lt;li>チャート プロパティの [数値フィールド] → [+ 選択] ボタンをクリックし、「エリア数」にチェックを入れて [適用] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;p>各テリトリーの顧客数およびエリア数を比較できるチャートが表示されます。各テリトリーの顧客数およびエリア数が自動的に均一化されていることが分かります。
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/territory-design/territory-chart.png">
+&lt;/figure>
+&lt;/p>
+&lt;h2>テリトリーの手動調整&lt;span class="hx:absolute hx:-mt-20" id="テリトリーの手動調整">&lt;/span>
+&lt;a href="#%e3%83%86%e3%83%aa%e3%83%88%e3%83%aa%e3%83%bc%e3%81%ae%e6%89%8b%e5%8b%95%e8%aa%bf%e6%95%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>構築したテリトリーは、各テリトリーのレベル変数の値をチャートで確認しながら、マップ上で対話的に調整することができます。&lt;/p>
+&lt;ol>
+&lt;li>[テリトリー デザイン] タブの [選択] ボタンをクリックし、マップ上でテリトリーの割り当てを変更したいエリアを選択します。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/territory-design/select-area2.png" width="700px">
+&lt;/figure>
+&lt;ol start="2">
+&lt;li>[テリトリーの変更] をクリックし、[テリトリーの変更] ウィンドウで、割り当てたいテリトリーを選択し、[割り当て] をクリックします。
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/territory-design/assign-territory2.png" width="700px">
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>[テリトリーの変更] ウィンドウには、テリトリーの変更作業に役立つ各種オプションがあります。選択したテリトリーにズームしたり、テリトリーのフラッシュ、割り当て変更後のレベル変数値の変化を確認したりできます。&lt;br/>&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/territory-design/assign-territory-option2.gif" width="60%">
+&lt;/figure>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>テリトリーの割り当てを変更すると、マップ上のレイヤーの色分けおよびチャートが更新されます。&lt;/p>
+&lt;ol start="3">
+&lt;li>必要に応じて、マップおよびチャートを確認しながら手順 2, 3 を繰り返し、テリトリーの割り当てを調整します。&lt;/li>
+&lt;/ol>
+&lt;p>以上の手順で、テリトリーの手動調整を実施することができます。&lt;/p>
+&lt;h2>最適化したテリトリーの結果をエクスポート&lt;span class="hx:absolute hx:-mt-20" id="最適化したテリトリーの結果をエクスポート">&lt;/span>
+&lt;a href="#%e6%9c%80%e9%81%a9%e5%8c%96%e3%81%97%e3%81%9f%e3%83%86%e3%83%aa%e3%83%88%e3%83%aa%e3%83%bc%e3%81%ae%e7%b5%90%e6%9e%9c%e3%82%92%e3%82%a8%e3%82%af%e3%82%b9%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>最適化したテリトリーの結果を、フィーチャクラスとしてエクスポートします。&lt;/p>
+&lt;ol>
+&lt;li>[テリトリー デザイン] タブの [ソリューションのエクスポート] ボタンをクリックして、[&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/export-territory-solution.htm" target="_target">テリトリー ソリューションのエクスポート (Export Territory Solution)&lt;/a>] ツールを開きます。&lt;/li>
+&lt;li>以下のように設定し、[OK] をクリックしてツールを実行します。&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>パラメーター&lt;/th>
+&lt;th>設定値&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>入力テリトリー ソリューション&lt;/td>
+&lt;td>営業担当エリアの最適化&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>出力フィーチャクラス&lt;/td>
+&lt;td>最適化後の営業担当エリア&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>出力形状タイプ&lt;/td>
+&lt;td>テリトリー境界&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>マップに「最適化後の営業担当エリア」レイヤーが追加されます。&lt;/p>
+&lt;ol start="3">
+&lt;li>[コンテンツ] ウィンドウの「最適化後の営業担当エリア」レイヤーを右クリック → [シンボル] をクリックします。&lt;/li>
+&lt;li>シンボル設定を以下のように変更します。
+&lt;ul>
+&lt;li>プライマリ シンボル：個別値&lt;/li>
+&lt;li>フィールド 1：テリトリー: 名前&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;p>マップ上の「最適化後の営業担当エリア」レイヤーが、先ほど調整したテリトリー別に色分けされます。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>テリトリーの結果をテリトリー境界としてエクスポートすると、フィーチャの形状としてはベース レイヤー (本演習における「世田谷区ポリゴン」) と同じものが出力されますが、属性情報にはベース レイヤーが元々持つ属性に加え、テリトリー レイヤーの持つ属性も付与されます。各エリアが割り当てられたテリトリーや、各テリトリーの顧客数の合計値などを確認することができます。&lt;br/>&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/territory-design/exported-data-attribute.png">
+&lt;/figure>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="5">
+&lt;li>[プロジェクト] タブ → [保存] を選択し、プロジェクトを保存します。&lt;/li>
+&lt;/ol>
+&lt;h1>まとめ&lt;/h1>&lt;p>この演習では、数値情報や位置情報を元に営業担当エリアのテリトリーを最適化しました。さらに、テリトリーの結果を手動で調整し、エクスポートしました。&lt;/p>
+&lt;p>また、以下のツールの操作方法を学びました。&lt;/p>
+&lt;ul>
+&lt;li>[テリトリー ソリューションの作成] ツール&lt;/li>
+&lt;li>[レベル変数の追加] ツール&lt;/li>
+&lt;li>[バランス調整変数の設定] ツール&lt;/li>
+&lt;li>[テリトリー距離パラメーターの設定] ツール&lt;/li>
+&lt;li>[テリトリー シード ポイントの追加] ツール&lt;/li>
+&lt;li>[テリトリーの解析] ツール&lt;/li>
+&lt;li>テリトリーの割り当て&lt;/li>
+&lt;li>[テリトリー ソリューションのエクスポート] ツール&lt;/li>
+&lt;/ul>
+&lt;style class="info-table">
+table {
+font-size: 13px;
+width: 85%;
+margin-right: 5px;
+margin-left: 15px;
+}
+table th:first-of-type {
+width: 30%;
+}
+table th:nth-of-type(2) {
+width: 70%;
+}
+&lt;/style></description></item></channel></rss>

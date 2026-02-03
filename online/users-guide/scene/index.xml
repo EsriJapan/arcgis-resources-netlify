@@ -1,13 +1,206 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>シーンの作成と利用 on ArcGIS リソース集</title><link>/online/users-guide/scene/</link><description>Recent content in シーンの作成と利用 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0900</lastBuildDate><atom:link href="/online/users-guide/scene/index.xml" rel="self" type="application/rss+xml"/><item><title>シーンを作成したい</title><link>/online/users-guide/scene/create/</link><pubDate>Tue, 25 Mar 2025 00:00:00 +0900</pubDate><guid>/online/users-guide/scene/create/</guid><description>ArcGIS Online 上にあるフィーチャ レイヤーやシーン レイヤーなどを Scene Viewer に追加して、3D シーンの表示と操作が可能です。シーンの保存には、コンテンツを作成する権限が必要です。
-Scene Viewer の起動 ArcGIS Online 組織サイトの右上に表示されている [アプリ ランチャー] → [Scene Viewer] をクリックします。
-[新しいシーン] をクリックします。
-デフォルトでは、球体の 3D ビューアーが起動します。
-グローバル/ローカル シーンの選択 右上の [新しいシーン] をクリックして、[新しいグローバル シーン] または [新しいローカル シーン] を選択します。
-[新しいグローバルシーン] では球体の、[新しいローカル シーン] では平面の 3D ビューアーが起動します。
-ローカル シーンでは [プロパティ] → [指定範囲にクリップ] でシーンの表示範囲をクリップすることができます。詳細はヘルプをご参照ください。
-レイヤーの参照 [コンテンツ] ツールバーの [レイヤーの追加] をクリックします。 [レイヤーの参照] をクリックします。 [マイ コンテンツ] 横の矢印をクリックし、検索する場所を指定します。 [レイヤーの検索] ボックスにキーワードを入力し、Enter キーで検索します。 [フィルター] をクリックすると、[フィルター] パネルが開きます。[タイトル] や [更新日] で検索結果の並べ替えや、[更新日] や [アイテム タイプ] などでフィルターして検索することも可能です。 検索結果の [追加] をクリックして、レイヤーをマップに追加します。追加後に [削除] をクリックしてマップから削除することもできます。 [完了] をクリックして、パネルを閉じます。 [ArcGIS Web サービス]、[GeoJSON]、[CSV]、[見通し線]、[可視領域]、[ディメンション] レイヤーの追加手順については「レイヤーをシーンに追加」 をご参照ください。</description></item><item><title>シンボルを変更したい</title><link>/online/users-guide/scene/style/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/scene/style/</guid><description>シンボルの適用 Scene Viewer でレイヤーを含むシーンを開くか、シーンにレイヤーを追加します。
-[レイヤー マネージャー] パネルを展開し、レイヤー名の横の […] をクリックして、[レイヤーのスタイル] をクリックします。
-[① 表示するメイン属性を選択] ドロップダウン リストから、シンボルの設定をする属性フィールドを選択します。属性値でシンボル設定をしない場合は、[&amp;lt;なし&amp;gt;] を選択します。
-[② 描画スタイルを選択] で、変更したい描画方法の [選択] をクリックします。既に選択されている描画スタイルは [オプション] と表示されます。
-代表的なシンボル設定 種類 説明 2D マーカー/ライン/ポリゴン公園や小売店の場所のようなフィーチャの場所が優先される場合に適しています。 3D オブジェクト街路樹など、シーンの実際のサイズのオブジェクトをシンボル化することができます。 3D パス単一色を使用して実際の計測値で属性別にラインを表示することができます。 3D 立ち上げ単一色を使用して、実際の寸法でポリゴンを立ち上げることができます。 2D タイプ/3D タイプ樹木の種類、道路クラス、都道府県名など、属性のカテゴリごとにシンボルを割り当てて描画します。 2D 数と量/3D 数と量数値またはランク付けされたデータを色の濃淡で表現します。データの数値が大きいほど濃い色で、小さいほど淡い色で表示することなどができます。 その他さまざまなシンボルを設定することができます。詳細はヘルプをご参照ください。</description></item><item><title>シーンのブックマークを作成したい</title><link>/online/users-guide/scene/bookmark/</link><pubDate>Wed, 06 Apr 2022 00:00:00 +0900</pubDate><guid>/online/users-guide/scene/bookmark/</guid><description>Scene Viewer で表示されている状態をスライドに保存しておくことができます。スライドには、レイヤーの表示設定、日光の設定、表示範囲などを含めることができます。
-Scene Viewer でレイヤーを含むシーンを開くか、シーンにレイヤーを追加し、シンボルを設定します。 各レイヤーの表示設定や、レイヤーの表示/非表示、シーンの表示範囲を決めます。 [スライド マネージャー] をクリックします。 [スライドのキャプチャ] をクリックします。 スライドが追加されたら、スライドの名称を適切なものに変更します。 手順 2 ～ 5 を繰り返し ます。 Scene Viewer の下部にマウス カーソルを合わせて表示されるスライドをクリックすると、各ビューにジャンプできます。</description></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – シーンの作成と利用</title><link>/online/users-guide/scene/</link><description>Recent content in シーンの作成と利用 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0900</lastBuildDate><atom:link href="/online/users-guide/scene/index.xml" rel="self" type="application/rss+xml"/><item><title>シーンを作成したい</title><link>/online/users-guide/scene/create/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/scene/create/</guid><description>
+&lt;p>ArcGIS Online 上にあるフィーチャ レイヤーやシーン レイヤーなどを Scene Viewer に追加して、3D シーンの表示と操作が可能です。シーンの保存には、コンテンツを作成する&lt;a href="/online/get-started/administer/members/">権限&lt;/a>が必要です。&lt;/p>
+&lt;h3>Scene Viewer の起動&lt;span class="hx:absolute hx:-mt-20" id="scene-viewer-の起動">&lt;/span>
+&lt;a href="#scene-viewer-%e3%81%ae%e8%b5%b7%e5%8b%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>ArcGIS Online 組織サイトの右上に表示されている [アプリ ランチャー] → [Scene Viewer] をクリックします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/scene/create-start.png"
+alt="Scene Viewer の起動" width="300">&lt;figcaption>
+&lt;p>Scene Viewer の起動&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[新しいシーン] をクリックします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/scene/create-newscene.png"
+alt="新しいシーンの作成" width="400">&lt;figcaption>
+&lt;p>新しいシーンの作成&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>デフォルトでは、球体の 3D ビューアーが起動します。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3>グローバル/ローカル シーンの選択&lt;span class="hx:absolute hx:-mt-20" id="グローバルローカル-シーンの選択">&lt;/span>
+&lt;a href="#%e3%82%b0%e3%83%ad%e3%83%bc%e3%83%90%e3%83%ab%e3%83%ad%e3%83%bc%e3%82%ab%e3%83%ab-%e3%82%b7%e3%83%bc%e3%83%b3%e3%81%ae%e9%81%b8%e6%8a%9e" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>右上の [新しいシーン] をクリックして、[新しいグローバル シーン] または [新しいローカル シーン] を選択します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/scene/create-scene-choice.png"
+alt="シーンの切り替え" width="200">&lt;figcaption>
+&lt;p>シーンの切り替え&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[新しいグローバルシーン] では球体の、[新しいローカル シーン] では平面の 3D ビューアーが起動します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/scene/create-global-local.png"
+alt="3D ビューアーの起動" width="600">&lt;figcaption>
+&lt;p>3D ビューアーの起動&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ローカル シーンでは [プロパティ] → [指定範囲にクリップ] でシーンの表示範囲をクリップすることができます。詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/set-scene-properties.htm#ESRI_SECTION1_8FAC7522456A4258B9243257D4A201FC"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h3>レイヤーの参照&lt;span class="hx:absolute hx:-mt-20" id="レイヤーの参照">&lt;/span>
+&lt;a href="#%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%81%ae%e5%8f%82%e7%85%a7" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>[コンテンツ] ツールバーの [レイヤーの追加] をクリックします。&lt;/li>
+&lt;li>[レイヤーの参照] をクリックします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/scene/create-add-layer.png"
+alt="レイヤーの参照" width="700">&lt;figcaption>
+&lt;p>レイヤーの参照&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>[マイ コンテンツ] 横の矢印をクリックし、検索する場所を指定します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/scene/create-browse-layer.png"
+alt="検索の切り替え" width="300">&lt;figcaption>
+&lt;p>検索の切り替え&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>[レイヤーの検索] ボックスにキーワードを入力し、Enter キーで検索します。&lt;/li>
+&lt;li>[フィルター] をクリックすると、[フィルター] パネルが開きます。[タイトル] や [更新日] で検索結果の並べ替えや、[更新日] や [アイテム タイプ] などでフィルターして検索することも可能です。&lt;/li>
+&lt;li>検索結果の [追加] をクリックして、レイヤーをマップに追加します。追加後に [削除] をクリックしてマップから削除することもできます。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/scene/create-search-layer.png"
+alt="検索したデータの追加" width="400">&lt;figcaption>
+&lt;p>検索したデータの追加&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>[完了] をクリックして、パネルを閉じます。&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[ArcGIS Web サービス]、[GeoJSON]、[CSV]、[見通し線]、[可視領域]、[ディメンション] レイヤーの追加手順については&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/add-layers-to-scene.htm"target="_blank" rel="noopener">「レイヤーをシーンに追加」&lt;/a> をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h3>シーンの保存&lt;span class="hx:absolute hx:-mt-20" id="シーンの保存">&lt;/span>
+&lt;a href="#%e3%82%b7%e3%83%bc%e3%83%b3%e3%81%ae%e4%bf%9d%e5%ad%98" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>[保存] をクリックします。&lt;/li>
+&lt;li>[タイトル]、[サマリー]、[タグ] に適切な文字を入力し、[保存] をクリックします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/scene/create-save.png"
+alt="シーンの保存" width="500">&lt;figcaption>
+&lt;p>シーンの保存&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol></description></item><item><title>シンボルを変更したい</title><link>/online/users-guide/scene/style/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/scene/style/</guid><description>
+&lt;h3>シンボルの適用&lt;span class="hx:absolute hx:-mt-20" id="シンボルの適用">&lt;/span>
+&lt;a href="#%e3%82%b7%e3%83%b3%e3%83%9c%e3%83%ab%e3%81%ae%e9%81%a9%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>Scene Viewer でレイヤーを含むシーンを開くか、シーンにレイヤーを追加します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[レイヤー マネージャー] パネルを展開し、レイヤー名の横の […] をクリックして、[レイヤーのスタイル] をクリックします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/scene/style-style.png"
+alt="レイヤーのスタイル" width="400">&lt;figcaption>
+&lt;p>レイヤーのスタイル&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[① 表示するメイン属性を選択] ドロップダウン リストから、シンボルの設定をする属性フィールドを選択します。属性値でシンボル設定をしない場合は、[&amp;lt;なし&amp;gt;] を選択します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[② 描画スタイルを選択] で、変更したい描画方法の [選択] をクリックします。既に選択されている描画スタイルは [オプション] と表示されます。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3>代表的なシンボル設定&lt;span class="hx:absolute hx:-mt-20" id="代表的なシンボル設定">&lt;/span>
+&lt;a href="#%e4%bb%a3%e8%a1%a8%e7%9a%84%e3%81%aa%e3%82%b7%e3%83%b3%e3%83%9c%e3%83%ab%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>種類&lt;/th>
+&lt;th style="text-align: left">説明&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;figure>
+&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/scene/style-2Dmarker.png" title="2D マーカー/ライン/ポリゴン" alt="2D マーカー/ライン/ポリゴン" loading="lazy" />
+&lt;figcaption>2D マーカー/ライン/ポリゴン&lt;/figcaption>
+&lt;/figure>&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/scene-style-points.htm#ESRI_SECTION1_07C23D7053044ECEAA9D745BBF60D23D"target="_blank" rel="noopener">2D マーカー/&lt;/a>&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/scene-style-lines.htm#ESRI_SECTION1_07C23D7053044ECEAA9D745BBF60D23D"target="_blank" rel="noopener">ライン/&lt;/a>&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/scene-style-polygons.htm#ESRI_SECTION1_07C23D7053044ECEAA9D745BBF60D23D"target="_blank" rel="noopener">ポリゴン&lt;/a>&lt;/br>公園や小売店の場所のようなフィーチャの場所が優先される場合に適しています。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;figure>
+&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/scene/style-3DObject.png" title="3D オブジェクト" alt="3D オブジェクト" loading="lazy" />
+&lt;figcaption>3D オブジェクト&lt;/figcaption>
+&lt;/figure>&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/scene-style-points.htm#ESRI_SECTION1_DA1996687B1449D390244E95B70AAF1A"target="_blank" rel="noopener">3D オブジェクト&lt;/a>&lt;/br>街路樹など、シーンの実際のサイズのオブジェクトをシンボル化することができます。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;figure>
+&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/scene/style-3DPath.png" title="3D パス" alt="3D パス" loading="lazy" />
+&lt;figcaption>3D パス&lt;/figcaption>
+&lt;/figure>&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/scene-style-lines.htm#ESRI_SECTION1_DA1996687B1449D390244E95B70AAF1A"target="_blank" rel="noopener">3D パス&lt;/a>&lt;/br>単一色を使用して実際の計測値で属性別にラインを表示することができます。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;figure>
+&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/scene/style-3Dlaunch.png" title="3D 立ち上げ" alt="3D 立ち上げ" loading="lazy" />
+&lt;figcaption>3D 立ち上げ&lt;/figcaption>
+&lt;/figure>&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/scene-style-polygons.htm#ESRI_SECTION1_DA1996687B1449D390244E95B70AAF1A"target="_blank" rel="noopener">3D 立ち上げ&lt;/a>&lt;/br>単一色を使用して、実際の寸法でポリゴンを立ち上げることができます。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;figure>
+&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/scene/style-type.png" title="2D タイプ/3D タイプ" alt="2D タイプ/3D タイプ" loading="lazy" />
+&lt;figcaption>2D タイプ/3D タイプ&lt;/figcaption>
+&lt;/figure>&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/scene-style-polygons.htm#ESRI_SECTION1_E25966A001A74A8EADCDF03C111C216E"target="_blank" rel="noopener">2D タイプ/&lt;/a>&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/scene-style-polygons.htm#ESRI_SECTION1_3537554C57044B9DA1EEB22972BF73DD"target="_blank" rel="noopener">3D タイプ&lt;/a>&lt;/br>樹木の種類、道路クラス、都道府県名など、属性のカテゴリごとにシンボルを割り当てて描画します。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;figure>
+&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/scene/style-quantity.png" title="2D 数と量/3D 数と量" alt="2D 数と量/3D 数と量" loading="lazy" />
+&lt;figcaption>2D 数と量/3D 数と量&lt;/figcaption>
+&lt;/figure>&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/scene-style-polygons.htm#ESRI_SECTION1_E66D3856408245219C7860B8A99AC838"target="_blank" rel="noopener">2D 数と量/&lt;/a>&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/scene-style-polygons.htm#ESRI_SECTION1_4A175B6A642F490BA3ECCBD55DCAB42E"target="_blank" rel="noopener">3D 数と量&lt;/a>&lt;/br>数値またはランク付けされたデータを色の濃淡で表現します。データの数値が大きいほど濃い色で、小さいほど淡い色で表示することなどができます。&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">その他さまざまなシンボルを設定することができます。詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/configure-content-in-scene.htm#ESRI_SECTION1_A23EBC107DD1416BA5167E8E2B1EF802"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>シーンのブックマークを作成したい</title><link>/online/users-guide/scene/bookmark/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/scene/bookmark/</guid><description>
+&lt;p>Scene Viewer で表示されている状態をスライドに保存しておくことができます。スライドには、レイヤーの表示設定、日光の設定、表示範囲などを含めることができます。&lt;/p>
+&lt;ol>
+&lt;li>Scene Viewer でレイヤーを含むシーンを開くか、シーンにレイヤーを追加し、シンボルを設定します。&lt;/li>
+&lt;li>各レイヤーの表示設定や、レイヤーの表示/非表示、シーンの表示範囲を決めます。&lt;/li>
+&lt;li>[スライド マネージャー] をクリックします。&lt;/li>
+&lt;li>[スライドのキャプチャ] をクリックします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/scene/bookmark-capture.png"
+alt="スライドのキャプチャ" width="600">&lt;figcaption>
+&lt;p>スライドのキャプチャ&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>スライドが追加されたら、スライドの名称を適切なものに変更します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/scene/bookmark-name.png"
+alt="ブックマーク名の変更" width="400">&lt;figcaption>
+&lt;p>ブックマーク名の変更&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>手順 2 ～ 5 を繰り返し ます。&lt;/li>
+&lt;li>Scene Viewer の下部にマウス カーソルを合わせて表示されるスライドをクリックすると、各ビューにジャンプできます。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/scene/bookmark-slide.gif"
+alt="ブックマークの選択" width="700">&lt;figcaption>
+&lt;p>ブックマークの選択&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol></description></item></channel></rss>

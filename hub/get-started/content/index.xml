@@ -1,24 +1,148 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>コンテンツ on ArcGIS リソース集</title><link>/hub/get-started/content/</link><description>Recent content in コンテンツ on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="/hub/get-started/content/index.xml" rel="self" type="application/rss+xml"/><item><title>コンテンツの作成</title><link>/hub/get-started/content/create-content/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hub/get-started/content/create-content/</guid><description>ArcGIS Hub のサイトで共有・公開するコンテンツを作成するには、まずアイテムを ArcGIS Online へ公開します。
-ArcGIS Hub でサポートされるアイテム タイプの詳細はヘルプをご参照ください。
-ここでは、緯度経度情報付きのテーブルデータを、GIS データとして ArcGIS Online 上でフィーチャ レイヤーとして公開します。
-サイトを作成している ArcGIS Online 組織サイトにサイン インします。 ArcGIS Online にフィーチャ レイヤーを公開します。詳細は「ArcGIS Online 逆引きガイド」をご参照ください。 アイテムをオープンデータとして公開し、サイトの閲覧者がダウンロードできるようにするには、アイテムのエクスポートを許可する必要があります。
-アイテム詳細ページの [設定] タブ → [Feature Layer (ホスト)] 項目で、[他のユーザーが別の形式にエクスポートすることを許可します] チェックボックスをオンにして、[保存] をクリックします。</description></item><item><title>コンテンツをカタログに追加</title><link>/hub/get-started/content/add-content-catalog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hub/get-started/content/add-content-catalog/</guid><description>ArcGIS Hub サイトでアイテムを共有するには、アイテムをコンテンツ カタログのグループに追加して共有範囲を設定する必要があります。
-コンテンツをグループに追加 ArcGIS Hub サイトで共有するアイテムはグループ単位で管理できます。共有したいアイテムをあらかじめ作成したグループに追加します。
-ArcGIS Hub のマイ ワークスペースのホーム画面で、[グループ] をクリックし、[マイ グループ] ページを開きます。
-「&amp;lt;サイトのタイトル&amp;gt; Content」グループの [管理] をクリックして、グループの [詳細] ページを開きます。
-サイトの作成時に [空白のカタログ] または [既存のグループによるカタログ] オプションを選択して作成した場合は、任意のグループを選択します。
-[コンテンツ] → [コンテンツの追加] をクリックし、[コンテンツの追加] パネルを開きます。
-追加したいアイテムを選択し、[追加] をクリックしてアイテムをグループに追加します。
-コンテンツ カタログの構成 (オプション) コンテンツ カタログを構成していない ArcGIS Hub サイトで、カタログを新しく構成するための操作を説明します。
-サイトの作成時に [カタログをクイック スタート] オプションを選択して作成した場合、このセクションは必要ありません。
-ArcGIS Hub のマイ ワークスペースのホーム画面で、[コンテンツ] をクリックし、[コンテンツ] ページを開きます。
-サイトの [管理] をクリックし、サイトの [詳細] ページを開きます。</description></item><item><title>メタデータの管理</title><link>/hub/get-started/content/manage-metadata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hub/get-started/content/manage-metadata/</guid><description>コンテンツ カタログに追加したアイテムのメタデータを構成し、ArcGIS Hub サイトでの表示を確認します。
-メタデータの構成 ArcGIS Hub では、ArcGIS Online のアイテム詳細ページの情報を参照し、メタデータとして表示できます。アイテムのメタデータを構成し、アイテムの説明や利用規約を明記します。
-ArcGIS Online のアイテム詳細ページで、タイトルやサマリー、サムネイルなどの情報を入力します。
-メタデータの構成手順や詳細についてはヘルプをご参照ください。
-メタデータの確認 ArcGIS Hub サイトのコンテンツ カタログでアイテムのメタデータを確認します。
-ArcGIS Hub のマイ ワークスペースのホーム画面で、[コンテンツ] をクリックし、[コンテンツ] ページを開きます。
-アイテム名をクリックし、アイテムのプレビュー ページを開きます。
-[詳細] パネルを開き、アイテムの詳細を確認します。
-[カスタム ライセンス] で、[ライセンスの詳細を表示] をクリックすると、利用規約を表示できます。
-必要に応じて [詳細の表示] をクリックし、アイテムの詳細を全画面で確認します。</description></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – コンテンツ</title><link>/hub/get-started/content/</link><description>Recent content in コンテンツ on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 29 Aug 2025 00:00:00 +0900</lastBuildDate><atom:link href="/hub/get-started/content/index.xml" rel="self" type="application/rss+xml"/><item><title>コンテンツの作成</title><link>/hub/get-started/content/create-content/</link><pubDate>Fri, 29 Aug 2025 00:00:00 +0900</pubDate><guid>/hub/get-started/content/create-content/</guid><description>
+&lt;p>ArcGIS Hub のサイトで共有・公開するコンテンツを作成するには、まずアイテムを ArcGIS Online へ公開します。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ArcGIS Hub でサポートされるアイテム タイプの詳細は&lt;a href="https://doc.arcgis.com/ja/hub/content/supported-content.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>ここでは、緯度経度情報付きのテーブル データを、GIS データとして ArcGIS Online 上でフィーチャ レイヤーとして公開します。&lt;/p>
+&lt;ol>
+&lt;li>サイトを作成している ArcGIS Online 組織サイトにサイン インします。&lt;/li>
+&lt;li>ArcGIS Online にフィーチャ レイヤーを公開します。詳細は「&lt;a href="/online/users-guide/create-data/feature/">ArcGIS Online 逆引きガイド&lt;/a>」をご参照ください。&lt;/li>
+&lt;li>アイテムをオープンデータとして公開し、サイトの閲覧者がダウンロードできるようにするには、アイテムのエクスポートを許可する必要があります。&lt;br>
+アイテム詳細ページの [設定] タブ → [Feature Layer (ホスト)] 項目で、[他のユーザーが別の形式にエクスポートすることを許可します] チェックボックスをオンにして、[保存] をクリックします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/content/create-content-allow-export.png"
+alt="アイテムのエクスポートを許可" width="750">&lt;figcaption>
+&lt;p>アイテムのエクスポートを許可&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol></description></item><item><title>コンテンツをカタログに追加</title><link>/hub/get-started/content/add-content-catalog/</link><pubDate>Thu, 21 Aug 2025 00:00:00 +0900</pubDate><guid>/hub/get-started/content/add-content-catalog/</guid><description>
+&lt;p>ArcGIS Hub サイトでアイテムを共有するには、アイテムをコンテンツ カタログのグループに追加して共有範囲を設定する必要があります。&lt;/p>
+&lt;h3>コンテンツをグループに追加&lt;span class="hx:absolute hx:-mt-20" id="コンテンツをグループに追加">&lt;/span>
+&lt;a href="#%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84%e3%82%92%e3%82%b0%e3%83%ab%e3%83%bc%e3%83%97%e3%81%ab%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>ArcGIS Hub サイトで共有するアイテムはグループ単位で管理できます。共有したいアイテムをあらかじめ作成したグループに追加します。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>ArcGIS Hub のマイ ワークスペースのホーム画面で、[グループ] をクリックし、[マイ グループ] ページを開きます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>「&amp;lt;サイトのタイトル&amp;gt; Content」グループの [管理] をクリックして、グループの [詳細] ページを開きます。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/content/add-content-catalog-my-group-page.png"
+alt="マイ グループ ページ" width="650">&lt;figcaption>
+&lt;p>マイ グループ ページ&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;a href="https://doc.esrij.com/hub/get-started/site/create-site#%e3%82%b5%e3%82%a4%e3%83%88%e3%81%ae%e4%bd%9c%e6%88%90"target="_blank" rel="noopener">サイトの作成&lt;/a>時に [空白のカタログ] または [既存のグループによるカタログ] オプションを選択して作成した場合は、任意のグループを選択します。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>[コンテンツ] → [コンテンツの追加] をクリックし、[コンテンツの追加] パネルを開きます。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/content/add-content-catalog-open-content-panel.png"
+alt="コンテンツの追加パネルを開く" width="500">&lt;figcaption>
+&lt;p>コンテンツの追加パネルを開く&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>追加したいアイテムを選択し、[追加] をクリックしてアイテムをグループに追加します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/content/add-content-catalog-add-content-group.png"
+alt="コンテンツをグループに追加" width="550">&lt;figcaption>
+&lt;p>コンテンツをグループに追加&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;h3>コンテンツ カタログの構成 (オプション)&lt;span class="hx:absolute hx:-mt-20" id="コンテンツ-カタログの構成-オプション">&lt;/span>
+&lt;a href="#%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84-%e3%82%ab%e3%82%bf%e3%83%ad%e3%82%b0%e3%81%ae%e6%a7%8b%e6%88%90-%e3%82%aa%e3%83%97%e3%82%b7%e3%83%a7%e3%83%b3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>コンテンツ カタログを構成していない ArcGIS Hub サイトで、カタログを新しく構成するための操作を説明します。&lt;/br>&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">サイトの作成時に [カタログをクイック スタート] オプションを選択して作成した場合、このセクションは必要ありません。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol>
+&lt;li>
+&lt;p>ArcGIS Hub のマイ ワークスペースのホーム画面で、[コンテンツ] をクリックし、[コンテンツ] ページを開きます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>サイトの [管理] をクリックし、サイトの [詳細] ページを開きます。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/content/add-content-catalog-open-detail-page.png"
+alt="コンテンツ ページ" width="650">&lt;figcaption>
+&lt;p>コンテンツ ページ&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>[カタログ] ドロップダウンの [コンテンツ] をクリックし、[カタログの構築] をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/content/add-content-catalog-click-configure-catalog.png"
+alt="カタログの構築をクリック" width="650">&lt;figcaption>
+&lt;p>カタログの構築をクリック&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>画面右側の [カタログの構成] パネルで [フィルターの設定] を展開し、[グループの選択] をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[グループの選択] パネルで、&lt;a href="https://doc.esrij.com/hub/get-started/content/add-content-catalog/#%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84%e3%82%92%e3%82%b0%e3%83%ab%e3%83%bc%e3%83%97%e3%81%ab%e8%bf%bd%e5%8a%a0"target="_blank" rel="noopener">コンテンツをグループに追加&lt;/a>セクションでコンテンツを追加したグループを選択し、[追加] をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/content/add-content-catalog-add-group-catalog.png"
+alt="カタログにグループを追加" width="700">&lt;figcaption>
+&lt;p>カタログにグループを追加&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>[コンテンツ] ページでプレビューを確認し、[変更の保存] をクリックしてカタログの構成を保存します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/content/add-content-catalog-save-catalog-setting.png"
+alt="カタログの構成を保存" width="300">&lt;figcaption>
+&lt;p>カタログの構成を保存&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol></description></item><item><title>メタデータの管理</title><link>/hub/get-started/content/manage-metadata/</link><pubDate>Wed, 20 Aug 2025 00:00:00 +0900</pubDate><guid>/hub/get-started/content/manage-metadata/</guid><description>
+&lt;p>コンテンツ カタログに追加したアイテムのメタデータを構成し、ArcGIS Hub サイトでの表示を確認します。&lt;/p>
+&lt;h3>メタデータの構成&lt;span class="hx:absolute hx:-mt-20" id="メタデータの構成">&lt;/span>
+&lt;a href="#%e3%83%a1%e3%82%bf%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e6%a7%8b%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>ArcGIS Hub では、ArcGIS Online のアイテム詳細ページの情報を参照し、メタデータとして表示できます。アイテムのメタデータを構成し、アイテムの説明や利用規約を明記します。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>ArcGIS Online のアイテム詳細ページで、タイトルやサマリー、サムネイルなどの情報を入力します。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">メタデータの構成手順や詳細については&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/configure-item-details.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;/ol>
+&lt;h3>メタデータの確認&lt;span class="hx:absolute hx:-mt-20" id="メタデータの確認">&lt;/span>
+&lt;a href="#%e3%83%a1%e3%82%bf%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e7%a2%ba%e8%aa%8d" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>ArcGIS Hub サイトのコンテンツ カタログでアイテムのメタデータを確認します。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>ArcGIS Hub のマイ ワークスペースのホーム画面で、[コンテンツ] をクリックし、[コンテンツ] ページを開きます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>アイテム名をクリックし、アイテムのプレビュー ページを開きます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[詳細] パネルを開き、アイテムの詳細を確認します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/content/manage-metadata-confirm-item-detail.png"
+alt="詳細パネルでアイテムの詳細を確認" width="400">&lt;figcaption>
+&lt;p>詳細パネルでアイテムの詳細を確認&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[カスタム ライセンス] で、[ライセンスの詳細を表示] をクリックすると、利用規約を表示できます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>必要に応じて [詳細の表示] をクリックし、アイテムの詳細を全画面で確認します。&lt;/p>
+&lt;/li>
+&lt;/ol></description></item></channel></rss>

@@ -1,9 +1,173 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>データセット on ArcGIS リソース集</title><link>/business-analyst/pro/get-started/data/</link><description>Recent content in データセット on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="/business-analyst/pro/get-started/data/index.xml" rel="self" type="application/rss+xml"/><item><title>オフライン背景地図の設定 (オプション)</title><link>/business-analyst/pro/get-started/data/offline_basemap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/get-started/data/offline_basemap/</guid><description>ローカルで利用可能な背景地図 (広域地図・公共地図) は、個別にダウンロードして利用できます。ご利用される場合は、以下の手順で背景地図をダウンロードし、データの配置を行ってください。
-インターネット接続環境で BA Pro を操作する場合、ArcGIS Online で配信されているオンライン背景地図をご利用いただけます。
-ステップ１：背景地図の入手 「BAPro20xx年版データのダウンロードご案内」に記載された、オフライン背景地図のダウンロード用 URL にアクセスし、以下の zip ファイルをダウンロードします。 広域地図.zip 公共地図.zip ダウンロードした zip ファイルを「BAPro20xx年版データのダウンロードご案内」に記載のパスワードを用いて解凍します。 解凍が終了したら、任意の場所にデータを保存します。 ステップ2：背景地図の利用 解凍した背景地図を ArcGIS Pro で利用する方法を説明します。
-ArcGIS Pro を起動します。 [マップ] タブ → [レイヤー] グループの [データの追加] → [データ] をクリックします。 利用する背景地図に応じてレイヤー ファイルを選択し、[OK] をクリックします。 背景地図 レイヤー ファイル 公共地図 &amp;lt;データ保存先&amp;gt;\公共地図\公共地図.lyr 広域地図 &amp;lt;データ保存先&amp;gt;\広域地図\広域地図.lyr 以上で、BA Pro 上で公共地図・広域地図を利用できるようになります。</description></item><item><title>データのインストール (オプション)</title><link>/business-analyst/pro/get-started/data/install_data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/get-started/data/install_data/</guid><description>ArcMap 版 Business Analyst Desktop もしくは BA Pro 2.9 以前でデータを利用する場合は、データのインストールが必要です。
-BA Pro 3.0 以降では、Business Analyst データセットをインストールして使用することは推奨されません。データセット接続機能をご利用ください。BA Pro 2024 年版データ以降はインストールできません。
-インストールの実行 ArcGIS Business Analyst 20xx 年版データのフォルダー直下に格納されている [setup.exe] を実行します。 インストール ダイアログが起動したら、[次へ] をクリックします。 「ESRIジャパン データ コンテンツ使用規定」の内容に同意された上で、[使用許諾契約の条項に同意します] にチェックを入れて、[次へ] をクリックします。 [完全] を選択し、[次へ] をクリックして次へ進みます。 [カスタム] を選択すると、インストール先のフォルダー変更が可能です。デフォルトのインストール先は「C:\ArcGIS\Business Analyst\JPN_EsriJapan_20xx」です。また、一部データは、インストールの可否を選択することができます。
-[インストール] をクリックして、インストールを開始します。 インストールが開始されるまでに時間がかかることがあります。また、10GB 以上のデータをコピーするため、インストールに長時間 (数十分程度) 要する場合があります。
-インストール完了のウィンドウが表示されたら、[完了] をクリックしてウィンドウを閉じます。 以上で、データのインストールは完了です。
-インストールが完了すると、Windows のスタート メニュー → [ArcGIS] フォルダー内にショートカット「Business Analyst 20xx (オンライン地形図・ArcMap版)」が作成されます。ArcMap 版 BA Desktop をご利用する場合は、こちらのショートカットから ArcMap 版 BA Desktop を起動できます。</description></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – データセット</title><link>/business-analyst/pro/get-started/data/</link><description>Recent content in データセット on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><atom:link href="/business-analyst/pro/get-started/data/index.xml" rel="self" type="application/rss+xml"/><item><title>オフライン背景地図の設定 (オプション)</title><link>/business-analyst/pro/get-started/data/offline_basemap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/get-started/data/offline_basemap/</guid><description>
+&lt;p>ローカルで利用可能な背景地図 (&lt;a href="https://www.gisdata-store.biz/product/1587/" target="_blank">広域地図&lt;/a>・&lt;a href="https://www.gisdata-store.biz/product/1593/" target="_blank">公共地図&lt;/a>) は、個別にダウンロードして利用できます。ご利用される場合は、以下の手順で背景地図をダウンロードし、データの配置を行ってください。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">インターネット接続環境で BA Pro を操作する場合、ArcGIS Online で配信されているオンライン背景地図をご利用いただけます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2>ステップ１：背景地図の入手&lt;span class="hx:absolute hx:-mt-20" id="ステップ１背景地図の入手">&lt;/span>
+&lt;a href="#%e3%82%b9%e3%83%86%e3%83%83%e3%83%97%ef%bc%91%e8%83%8c%e6%99%af%e5%9c%b0%e5%9b%b3%e3%81%ae%e5%85%a5%e6%89%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>「BAPro20xx年版データのダウンロードご案内」に記載された、オフライン背景地図のダウンロード用 URL にアクセスし、以下の zip ファイルをダウンロードします。&lt;/li>
+&lt;/ol>
+&lt;blockquote>
+&lt;ul>
+&lt;li>広域地図.zip&lt;/li>
+&lt;li>公共地図.zip&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;ol start="2">
+&lt;li>ダウンロードした zip ファイルを「BAPro20xx年版データのダウンロードご案内」に記載のパスワードを用いて解凍します。&lt;/li>
+&lt;li>解凍が終了したら、任意の場所にデータを保存します。&lt;/li>
+&lt;/ol>
+&lt;h2>ステップ2：背景地図の利用&lt;span class="hx:absolute hx:-mt-20" id="ステップ2背景地図の利用">&lt;/span>
+&lt;a href="#%e3%82%b9%e3%83%86%e3%83%83%e3%83%972%e8%83%8c%e6%99%af%e5%9c%b0%e5%9b%b3%e3%81%ae%e5%88%a9%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>解凍した背景地図を ArcGIS Pro で利用する方法を説明します。&lt;/p>
+&lt;ol>
+&lt;li>ArcGIS Pro を起動します。&lt;/li>
+&lt;li>[マップ] タブ → [レイヤー] グループの [データの追加] → [データ] をクリックします。&lt;/li>
+&lt;li>利用する背景地図に応じてレイヤー ファイルを選択し、[OK] をクリックします。
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">背景地図&lt;/th>
+&lt;th style="text-align: left">レイヤー ファイル&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">公共地図&lt;/td>
+&lt;td style="text-align: left">&amp;lt;データ保存先&amp;gt;\公共地図\公共地図.lyr&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">広域地図&lt;/td>
+&lt;td style="text-align: left">&amp;lt;データ保存先&amp;gt;\広域地図\広域地図.lyr&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/li>
+&lt;/ol>
+&lt;p>以上で、BA Pro 上で公共地図・広域地図を利用できるようになります。&lt;/p>
+&lt;h3>ArcMap 版 BA Desktop で利用する場合&lt;span class="hx:absolute hx:-mt-20" id="arcmap-版-ba-desktop-で利用する場合">&lt;/span>
+&lt;a href="#arcmap-%e7%89%88-ba-desktop-%e3%81%a7%e5%88%a9%e7%94%a8%e3%81%99%e3%82%8b%e5%a0%b4%e5%90%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>ArcMap 版 BA Desktop で利用する場合は、以下の設定を行うこともできます。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">BA Pro 2025 年版データ以降は、以下のファイルは利用できないのでご注意ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol>
+&lt;li>BA Pro と同様に背景地図の入手・解凍を行います。&lt;/li>
+&lt;li>広域地図・公共地図の両方を、フォルダーごと以下のパスにコピーします。
+&lt;blockquote>
+&lt;p>C:\ArcGIS\Business Analyst\JPN_Esrijapan_20xx\Data\Basemap Data&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>Basemap Data フォルダーが存在しない場合は、手動で作成してください。&lt;br/>
+広域地図・公共地図のレイヤーファイルが以下のパスに保存されるようにします。&lt;/p>
+&lt;ul>
+&lt;li>広域地図：C:\ArcGIS\Business Analyst\JPN_Esrijapan_20xx\Data\Basemap Data\広域地図\広域地図\広域地図.lyr&lt;/li>
+&lt;li>公共地図：C:\ArcGIS\Business Analyst\JPN_Esrijapan_20xx\Data\Basemap Data\公共地図\公共地図\公共地図.lyr&lt;/li>
+&lt;/ul>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="3">
+&lt;li>&lt;a href="https://www.esrij.com/cgi-bin/wp/wp-content/uploads/resources/ba2024-basemap-file.zip"target="_blank" rel="noopener">&lt;strong>背景地図設定用ファイル&lt;/strong>&lt;/a> (2024 年版データ用 ) をダウンロードして解凍します。&lt;/li>
+&lt;li>解凍したフォルダー内の各ファイルを、以下のフォルダーにコピーします。&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">データ名&lt;/th>
+&lt;th style="text-align: left">コピー先のフォルダー&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">・Business Analyst 20xx Koiki.mxd&lt;br/>・Business Analyst 20xx Public.mxd&lt;/td>
+&lt;td style="text-align: left">C:\ArcGIS\Business Analyst\JPN_Esrijapan_20xx\Data&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">・広域地図.lyr&lt;br/>・広域地図_グレースケール.lyr&lt;br/>・公共地図.lyr&lt;br/>・公共地図_グレースケール.lyr&lt;/td>
+&lt;td style="text-align: left">C:\ArcGIS\Business Analyst\JPN_Esrijapan_20xx\Dataset\ArcGIS Online Maps&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3>ArcMap 版 Business Analyst Desktop での利用方法&lt;span class="hx:absolute hx:-mt-20" id="arcmap-版-business-analyst-desktop-での利用方法">&lt;/span>
+&lt;a href="#arcmap-%e7%89%88-business-analyst-desktop-%e3%81%a7%e3%81%ae%e5%88%a9%e7%94%a8%e6%96%b9%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>利用する背景地図に応じて、以下の MXD ファイルを開きます。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">背景地図&lt;/th>
+&lt;th style="text-align: left">レイヤー ファイル&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">公共地図&lt;/td>
+&lt;td style="text-align: left">C:\ArcGIS\Business Analyst\JPN_Esrijapan_20xx\Data\Business Analyst 20xx Public.mxd&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">広域地図&lt;/td>
+&lt;td style="text-align: left">C:\ArcGIS\Business Analyst\JPN_Esrijapan_20xx\Data\Business Analyst 20xx Koiki.mxd&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>Business Analyst ツールバーの [マップ] メニューから、背景地図にチェックを入れて追加することもできます。&lt;br/>&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/get-started/data/add-basemap.png">
+&lt;/figure>&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>データのインストール (オプション)</title><link>/business-analyst/pro/get-started/data/install_data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/get-started/data/install_data/</guid><description>
+&lt;p>ArcMap 版 Business Analyst Desktop もしくは BA Pro 2.9 以前でデータを利用する場合は、データのインストールが必要です。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">BA Pro 3.0 以降では、Business Analyst データセットをインストールして使用することは推奨されません。&lt;a href="/business-analyst/pro/get-started/data/#%e3%83%87%e3%83%bc%e3%82%bf%e3%82%bb%e3%83%83%e3%83%88%e6%8e%a5%e7%b6%9a%e6%a9%9f%e8%83%bd%e3%81%ae%e5%88%a9%e7%94%a8">データセット接続機能&lt;/a>をご利用ください。BA Pro 2024 年版データ以降はインストールできません。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h3>インストールの実行&lt;span class="hx:absolute hx:-mt-20" id="インストールの実行">&lt;/span>
+&lt;a href="#%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab%e3%81%ae%e5%ae%9f%e8%a1%8c" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>ArcGIS Business Analyst 20xx 年版データのフォルダー直下に格納されている [setup.exe] を実行します。&lt;/li>
+&lt;li>インストール ダイアログが起動したら、[次へ] をクリックします。&lt;/li>
+&lt;li>「ESRIジャパン データ コンテンツ使用規定」の内容に同意された上で、[使用許諾契約の条項に同意します] にチェックを入れて、[次へ] をクリックします。&lt;/li>
+&lt;li>[完全] を選択し、[次へ] をクリックして次へ進みます。&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[カスタム] を選択すると、インストール先のフォルダー変更が可能です。デフォルトのインストール先は「C:\ArcGIS\Business Analyst\JPN_EsriJapan_20xx」です。また、一部データは、インストールの可否を選択することができます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="5">
+&lt;li>[インストール] をクリックして、インストールを開始します。&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">インストールが開始されるまでに時間がかかることがあります。また、10GB 以上のデータをコピーするため、インストールに長時間 (数十分程度) 要する場合があります。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="6">
+&lt;li>インストール完了のウィンドウが表示されたら、[完了] をクリックしてウィンドウを閉じます。&lt;/li>
+&lt;/ol>
+&lt;p>以上で、データのインストールは完了です。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>インストールが完了すると、Windows のスタート メニュー → [ArcGIS] フォルダー内にショートカット「Business Analyst 20xx (オンライン地形図・ArcMap版)」が作成されます。ArcMap 版 BA Desktop をご利用する場合は、こちらのショートカットから ArcMap 版 BA Desktop を起動できます。&lt;br/>&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/get-started/data/open-ba-mxd.png" width="20%">
+&lt;/figure>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2>アンインストール&lt;span class="hx:absolute hx:-mt-20" id="アンインストール">&lt;/span>
+&lt;a href="#%e3%82%a2%e3%83%b3%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>以下の手順でデータセットをアンインストールできます。データセット接続機能を用いた場合は、アンインストールの必要はありません。&lt;/p>
+&lt;ol>
+&lt;li>[コントロール パネル] を開き、[プログラムと機能] を開きます。&lt;/li>
+&lt;li>プログラムの一覧から [ArcGIS Business Analyst -20xx 年版データ] を右クリックし、[アンインストール] を選択します。&lt;/li>
+&lt;/ol></description></item></channel></rss>

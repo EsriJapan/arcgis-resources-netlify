@@ -1,14 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>高速 on ArcGIS リソース集</title><link>/drone2map/quick-start/2d_rapid/</link><description>Recent content in 高速 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="/drone2map/quick-start/2d_rapid/index.xml" rel="self" type="application/rss+xml"/><item><title>プロジェクトの作成</title><link>/drone2map/quick-start/2d_rapid/2drapid_createproj/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_rapid/2drapid_createproj/</guid><description>プロジェクトの作成 Windows の [スタート] ボタン → [ArcGIS] → [Drone2Map] をクリックします。
-ArcGIS Online の組織向けアカウントまたは Portal for ArcGIS アカウントでサイン インします。
-任意のプロジェクト名を入力し、プロジェクトを保存する場所を設定します。
-[フォルダーの追加] をクリックし、解凍した 「Sample Asphalt」フォルダー内の 「Images」 フォルダーを指定します。
-[高速] テンプレートを選択し、[作成] をクリックしてプロジェクトを作成します。
-プロジェクト画面が開いたら、[フライト データ] タブの [画像テーブル] をクリックして入力した画像情報を確認することができます。</description></item><item><title>処理設定の確認</title><link>/drone2map/quick-start/2d_rapid/2drapid_processingoption/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_rapid/2drapid_processingoption/</guid><description>処理設定の確認 [ホーム] タブで [オプション] をクリックして処理設定を確認します。 高速テンプレートのデフォルトの設定では、[画像の調整] タブの [タイポイント オプション] / [初期の画像の縮尺] で「1/4 (画像サイズの 4 分の 1)」が選択されています。 これにより処理時間が短縮されます。その他の設定は、2D テンプレートと似ていますが、2D テンプレートでは [調整の改善] チェックボックスがオンになっており、より高品質なプロダクトを生成するために画像スケールが自動的に調整されるようになっています。時間短縮のため、このオプションはオフになっています。
-[2D プロダクト] タブをクリックすると、作成するプロダクトは、[トゥルーオルソの作成] のチェック ボックスだけがオンになっていることが確認できます。作成するプロダクトを最小限にすることで処理時間を削減することができます。
-今回はデフォルトの設定で処理を実行するので、そのまま [OK] をクリックします。
-[ホーム] タブの [開始] をクリックし、処理を実行します。
-処理を開始すると、[管理] ウィンドウ下部で現在行われている処理の色が変化します。
-また、処理内容と進行状況のバーが最下部に表示され、リアルタイムで確認することができます。</description></item><item><title>処理結果の確認</title><link>/drone2map/quick-start/2d_rapid/2drapid_result/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/drone2map/quick-start/2d_rapid/2drapid_result/</guid><description>処理結果の確認 処理が完了すると、[コンテンツ] ウィンドウの「画像プロダクト」グループに「トゥルーオルソ」レイヤーが追加されます。
-レイヤーの表示・非表示、マップ上で画面移動やズームを行い、トゥルーオルソを確認します。
-[高速] テンプレートは処理時間を低減するため、低解像度のプロダクトを生成します。
-高解像度のプロダクトを生成したい場合は、[オプション] ウィンドウにおいて手動で解像度パラメーターを変更するか、[2D プロダクト] テンプレートで処理を実行してください。</description></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – 高速</title><link>/drone2map/quick-start/2d_rapid/</link><description>Recent content in 高速 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Thu, 28 Dec 2023 00:00:00 +0900</lastBuildDate><atom:link href="/drone2map/quick-start/2d_rapid/index.xml" rel="self" type="application/rss+xml"/><item><title>プロジェクトの作成</title><link>/drone2map/quick-start/2d_rapid/2drapid_createproj/</link><pubDate>Fri, 12 Aug 2022 00:00:00 +0900</pubDate><guid>/drone2map/quick-start/2d_rapid/2drapid_createproj/</guid><description>
+&lt;h2>プロジェクトの作成&lt;span class="hx:absolute hx:-mt-20" id="プロジェクトの作成">&lt;/span>
+&lt;a href="#%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>Windows の [スタート] ボタン → [ArcGIS] → [Drone2Map] をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>ArcGIS Online の組織向けアカウントまたは Portal for ArcGIS アカウントでサイン インします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>任意のプロジェクト名を入力し、プロジェクトを保存する場所を設定します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[フォルダーの追加] をクリックし、解凍した 「Sample Asphalt」フォルダー内の 「Images」 フォルダーを指定します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[高速] テンプレートを選択し、[作成] をクリックしてプロジェクトを作成します。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/QS/2drapid_createproject.png">
+&lt;/figure>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">プロジェクト画面が開いたら、[フライト データ] タブの [画像テーブル] をクリックして入力した画像情報を確認することができます。
+&lt;img src=https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/QS/Imagetable_Button.png width="80%">
+&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/QS/Imagetable.png" alt="画像テーブル" loading="lazy" />&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>処理設定の確認</title><link>/drone2map/quick-start/2d_rapid/2drapid_processingoption/</link><pubDate>Wed, 17 Aug 2022 00:00:00 +0900</pubDate><guid>/drone2map/quick-start/2d_rapid/2drapid_processingoption/</guid><description>
+&lt;h2>処理設定の確認&lt;span class="hx:absolute hx:-mt-20" id="処理設定の確認">&lt;/span>
+&lt;a href="#%e5%87%a6%e7%90%86%e8%a8%ad%e5%ae%9a%e3%81%ae%e7%a2%ba%e8%aa%8d" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>[ホーム] タブで [オプション] をクリックして処理設定を確認します。&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/QS/processing_options.png" alt="オプションボタン" loading="lazy" />&lt;/p>
+&lt;p>高速テンプレートのデフォルトの設定では、[画像の調整] タブの [タイポイント オプション] / [初期の画像の縮尺] で「1/4 (画像サイズの 4 分の 1)」が選択されています。
+これにより処理時間が短縮されます。その他の設定は、2D テンプレートと似ていますが、2D テンプレートでは [調整の改善] チェックボックスがオンになっており、より高品質なプロダクトを生成するために画像スケールが自動的に調整されるようになっています。時間短縮のため、このオプションはオフになっています。&lt;br>
+[2D プロダクト] タブをクリックすると、作成するプロダクトは、[トゥルーオルソの作成] のチェック ボックスだけがオンになっていることが確認できます。作成するプロダクトを最小限にすることで処理時間を削減することができます。&lt;/p>
+&lt;p>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/QS/2drapid_processingoption1.png" alt="処理オプション1" loading="lazy" />&lt;/p>
+&lt;p>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/QS/2drapid_processingoption2.png" alt="処理オプション1" loading="lazy" />&lt;/p>
+&lt;ol start="2">
+&lt;li>
+&lt;p>今回はデフォルトの設定で処理を実行するので、そのまま [OK] をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[ホーム] タブの [開始] をクリックし、処理を実行します。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/QS/pricessing_start.png" alt="開始ボタン" loading="lazy" />&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">処理を開始すると、[管理] ウィンドウ下部で現在行われている処理の色が変化します。&lt;br>
+また、処理内容と進行状況のバーが最下部に表示され、リアルタイムで確認することができます。
+&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/QS/2drapid_processingstatus.png" width="50%">&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>処理結果の確認</title><link>/drone2map/quick-start/2d_rapid/2drapid_result/</link><pubDate>Fri, 12 Aug 2022 00:00:00 +0900</pubDate><guid>/drone2map/quick-start/2d_rapid/2drapid_result/</guid><description>
+&lt;h2>処理結果の確認&lt;span class="hx:absolute hx:-mt-20" id="処理結果の確認">&lt;/span>
+&lt;a href="#%e5%87%a6%e7%90%86%e7%b5%90%e6%9e%9c%e3%81%ae%e7%a2%ba%e8%aa%8d" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>処理が完了すると、[コンテンツ] ウィンドウの「画像プロダクト」グループに「トゥルーオルソ」レイヤーが追加されます。&lt;br>
+レイヤーの表示・非表示、マップ上で画面移動やズームを行い、トゥルーオルソを確認します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/QS/2drapid_result.png">
+&lt;/figure>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[高速] テンプレートは処理時間を低減するため、低解像度のプロダクトを生成します。&lt;br>
+高解像度のプロダクトを生成したい場合は、[オプション] ウィンドウにおいて手動で解像度パラメーターを変更するか、[2D プロダクト] テンプレートで処理を実行してください。&lt;/div>
+&lt;/div>
+&lt;/div></description></item></channel></rss>

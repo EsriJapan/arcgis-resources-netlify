@@ -1,26 +1,231 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>コンテンツ on ArcGIS リソース集</title><link>/online/get-started/administer/contents/</link><description>Recent content in コンテンツ on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="/online/get-started/administer/contents/index.xml" rel="self" type="application/rss+xml"/><item><title>所有者の変更</title><link>/online/get-started/administer/contents/change-owner/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/administer/contents/change-owner/</guid><description>所有者の変更 組織の管理者または [コンテンツの再割り当て] 権限を持つ組織のメンバーは、アイテムの所有権の変更を行うことができます。
-すべてのアイテムの所有権を他のメンバーに一括で変更
-組織からメンバーを削除する時など、管理者が一括で当該メンバーが所有するアイテムの所有権を変更します。
-組織のメンバーのアイテムの所有権を他のメンバーに変更
-管理者が当該メンバーが所有するアイテムの一部の所有権を変更します。
-自身が所有するアイテムの所有権を他のメンバーに変更
-組織のメンバー自身がアイテムの所有権を変更します。
-アイテム所有者の変更を行っても ArcGIS Online アイテムの URL、サービス URL は変わりません。そのため、組織サイトに追加している Web マップのリンク修正作業などは必要ありません。
-すべてのアイテムの所有権を他のメンバーに一括で変更 管理者権限を持つユーザーで ArcGIS Online にサイン インします。
-サイト上部の [組織] タブ → [メンバー] タブをクリックします。
-操作を行いたいメンバーの右に表示される […] をクリックして、[コンテンツの移動] をクリックします。
-[コンテンツの移動] ウィンドウで、アイテムの新しい所有者を、ドロップダウン、もしくは検索して選択します。
-[移動] をクリックします。
-[移動] をクリックする前に、所有者が変更されるアイテムのリストを確認するには、[移動するコンテンツ] の下にある [すべて表示] をクリックします。 ゴミ箱に入っているアイテムは転送されません。
-組織のメンバーのアイテムの所有権を他のメンバーに変更 管理者権限を持つユーザーで ArcGIS Online にサイン インします。</description></item><item><title>アイテムの削除と復元</title><link>/online/get-started/administer/contents/delete/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/online/get-started/administer/contents/delete/</guid><description>組織の管理者は、組織のメンバーが保有するアイテムの削除を行うことができます。またゴミ箱機能を有効化している場合、削除から 14 日間に限り、削除したアイテムを復元することができます。
-ゴミ箱機能の詳細と有効化の手順についてはヘルプをご参照ください。
-アイテムの削除 管理者または組織のメンバーが所有するコンテンツの管理権限を持っているユーザーとして ArcGIS Online にサイン インします。
-サイト上部の [組織] タブ → [メンバー] タブをクリックします。
-操作を行いたいメンバーの右に表示される […] をクリックして、[アイテム] をクリックします。
-メンバーの [マイ コンテンツ] ページへ移動します。
-削除したいアイテムのチェックボックスをオンにし、[削除] をクリックします。
-[アイテムの削除] ウィンドウで、アイテムを削除しても問題ないかを確認し、[削除] をクリックします。
-削除したアイテムは [ゴミ箱] に移動します。または完全に削除されます。
-ゴミ箱に移動したアイテムは 14 日後に自動的に削除されます。この期間もストレージ保存におけるクレジットを消費します。詳細についてはヘルプをご参照ください。 なお [表示を増やす ＋] ボタンから [完全に削除 (この操作を取り消すことはできません)] を選択することもできます。
-一部のアイテムはゴミ箱に移動することなく削除されます。 詳細については「削除したアイテムの一部がゴミ箱に移動しないのはなぜですか？」をご参照ください。
-アイテムの復元 管理者または組織のメンバーが所有するコンテンツの管理権限を持っているユーザーとして ArcGIS Online にサイン インします。</description></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – コンテンツ</title><link>/online/get-started/administer/contents/</link><description>Recent content in コンテンツ on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Wed, 05 Mar 2025 00:00:00 +0900</lastBuildDate><atom:link href="/online/get-started/administer/contents/index.xml" rel="self" type="application/rss+xml"/><item><title>所有者の変更</title><link>/online/get-started/administer/contents/change-owner/</link><pubDate>Wed, 05 Mar 2025 00:00:00 +0900</pubDate><guid>/online/get-started/administer/contents/change-owner/</guid><description>
+&lt;p>組織の管理者または [コンテンツの再割り当て] 権限を持つ組織のメンバーは、アイテムの所有権の変更を行うことができます。&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="#%e3%81%99%e3%81%b9%e3%81%a6%e3%81%ae%e3%82%a2%e3%82%a4%e3%83%86%e3%83%a0%e3%81%ae%e6%89%80%e6%9c%89%e6%a8%a9%e3%82%92%e4%bb%96%e3%81%ae%e3%83%a1%e3%83%b3%e3%83%90%e3%83%bc%e3%81%ab%e4%b8%80%e6%8b%ac%e3%81%a7%e5%a4%89%e6%9b%b4">すべてのアイテムの所有権を他のメンバーに一括で変更&lt;/a>&lt;br>
+組織からメンバーを削除する時など、管理者が一括で当該メンバーが所有するアイテムの所有権を変更します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="#%e7%b5%84%e7%b9%94%e3%81%ae%e3%83%a1%e3%83%b3%e3%83%90%e3%83%bc%e3%81%ae%e3%82%a2%e3%82%a4%e3%83%86%e3%83%a0%e3%81%ae%e6%89%80%e6%9c%89%e6%a8%a9%e3%82%92%e4%bb%96%e3%81%ae%e3%83%a1%e3%83%b3%e3%83%90%e3%83%bc%e3%81%ab%e5%a4%89%e6%9b%b4">組織のメンバーのアイテムの所有権を他のメンバーに変更&lt;/a>&lt;br>
+管理者が当該メンバーが所有するアイテムの一部の所有権を変更します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="#%e8%87%aa%e8%ba%ab%e3%81%8c%e6%89%80%e6%9c%89%e3%81%99%e3%82%8b%e3%82%a2%e3%82%a4%e3%83%86%e3%83%a0%e3%81%ae%e6%89%80%e6%9c%89%e6%a8%a9%e3%82%92%e4%bb%96%e3%81%ae%e3%83%a1%e3%83%b3%e3%83%90%e3%83%bc%e3%81%ab%e5%a4%89%e6%9b%b4">自身が所有するアイテムの所有権を他のメンバーに変更&lt;/a>&lt;br>
+組織のメンバー自身がアイテムの所有権を変更します。&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">アイテム所有者の変更を行っても ArcGIS Online アイテムの URL、サービス URL は変わりません。そのため、組織サイトに追加している Web マップのリンク修正作業などは必要ありません。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2>すべてのアイテムの所有権を他のメンバーに一括で変更&lt;span class="hx:absolute hx:-mt-20" id="すべてのアイテムの所有権を他のメンバーに一括で変更">&lt;/span>
+&lt;a href="#%e3%81%99%e3%81%b9%e3%81%a6%e3%81%ae%e3%82%a2%e3%82%a4%e3%83%86%e3%83%a0%e3%81%ae%e6%89%80%e6%9c%89%e6%a8%a9%e3%82%92%e4%bb%96%e3%81%ae%e3%83%a1%e3%83%b3%e3%83%90%e3%83%bc%e3%81%ab%e4%b8%80%e6%8b%ac%e3%81%a7%e5%a4%89%e6%9b%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>管理者権限を持つユーザーで ArcGIS Online にサイン インします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>サイト上部の [組織] タブ → [メンバー] タブをクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>操作を行いたいメンバーの右に表示される […] をクリックして、[コンテンツの移動] をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/contents/change-owner-member-contents-send.png"
+alt="コンテンツの移動" width="500">&lt;figcaption>
+&lt;p>コンテンツの移動&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>[コンテンツの移動] ウィンドウで、アイテムの新しい所有者を、ドロップダウン、もしくは検索して選択します。&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/contents/change-owner-contents-send-window.png"
+alt="新しい所有者の選択" width="500">&lt;figcaption>
+&lt;p>新しい所有者の選択&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>[移動] をクリックします。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>[移動] をクリックする前に、所有者が変更されるアイテムのリストを確認するには、[移動するコンテンツ] の下にある [すべて表示] をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/contents/change-owner-contents-send-item-view.png"
+alt="すべてのアイテムの表示" width="500">&lt;figcaption>
+&lt;p>すべてのアイテムの表示&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ゴミ箱に入っているアイテムは転送されません。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2>組織のメンバーのアイテムの所有権を他のメンバーに変更&lt;span class="hx:absolute hx:-mt-20" id="組織のメンバーのアイテムの所有権を他のメンバーに変更">&lt;/span>
+&lt;a href="#%e7%b5%84%e7%b9%94%e3%81%ae%e3%83%a1%e3%83%b3%e3%83%90%e3%83%bc%e3%81%ae%e3%82%a2%e3%82%a4%e3%83%86%e3%83%a0%e3%81%ae%e6%89%80%e6%9c%89%e6%a8%a9%e3%82%92%e4%bb%96%e3%81%ae%e3%83%a1%e3%83%b3%e3%83%90%e3%83%bc%e3%81%ab%e5%a4%89%e6%9b%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>管理者権限を持つユーザーで ArcGIS Online にサイン インします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>サイト上部の [組織] タブ → [メンバー] タブをクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>操作を行いたいメンバーの右に表示される […] をクリックして、[アイテム] をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/contents/change-owner-member-list.png"
+alt="アイテムの管理" width="500">&lt;figcaption>
+&lt;p>アイテムの管理&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>メンバーの [マイ コンテンツ] ページへ移動します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>所有者を変更したいアイテムのチェックボックスをオンにし、[その他] → [所有者の変更] をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/contents/change-owner-select-item.png"
+alt="アイテムの選択と所有者の変更" width="750">&lt;figcaption>
+&lt;p>アイテムの選択と所有者の変更&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>[所有者の変更] ウィンドウで新しい所有者となるメンバーを選択し、[保存] をクリックします。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2>自身が所有するアイテムの所有権を他のメンバーに変更&lt;span class="hx:absolute hx:-mt-20" id="自身が所有するアイテムの所有権を他のメンバーに変更">&lt;/span>
+&lt;a href="#%e8%87%aa%e8%ba%ab%e3%81%8c%e6%89%80%e6%9c%89%e3%81%99%e3%82%8b%e3%82%a2%e3%82%a4%e3%83%86%e3%83%a0%e3%81%ae%e6%89%80%e6%9c%89%e6%a8%a9%e3%82%92%e4%bb%96%e3%81%ae%e3%83%a1%e3%83%b3%e3%83%90%e3%83%bc%e3%81%ab%e5%a4%89%e6%9b%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">管理者ではないメンバーがこの操作を行うには、管理者があらかじめ [コンテンツの再割り当て] 権限を持つ&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/configure-roles.htm"target="_blank" rel="noopener">カスタム ロールを構成&lt;/a>し、&lt;a href="/online/get-started/administer/members/role/">メンバーのロールを変更&lt;/a>する必要があります。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol>
+&lt;li>
+&lt;p>ArcGIS Online にサイン インします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[マイ コンテンツ] ページへ移動します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>所有者を変更したいアイテムのチェックボックスをオンにし、[その他] → [所有者の変更] をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/contents/change-owner-select-item.png"
+alt="アイテムの選択と所有者の変更" width="750">&lt;figcaption>
+&lt;p>アイテムの選択と所有者の変更&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>[所有者の変更] ウィンドウで新しい所有者となるメンバーを選択し、[保存] をクリックします。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[コンテンツの再割り当て] 権限を持つメンバーが所有者の変更先は、管理者または [コンテンツの受信] 権限を持つメンバーに限られます。[コンテンツの受信] 権限は、管理者があらかじめ&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/configure-roles.htm"target="_blank" rel="noopener">カスタム ロールを構成&lt;/a>し、&lt;a href="/online/get-started/administer/members/role/">メンバーのロールを変更&lt;/a>する必要があります。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;/ol></description></item><item><title>アイテムの削除と復元</title><link>/online/get-started/administer/contents/delete/</link><pubDate>Wed, 05 Jun 2024 00:00:00 +0900</pubDate><guid>/online/get-started/administer/contents/delete/</guid><description>
+&lt;p>組織の管理者は、組織のメンバーが保有する&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/manage-items.htm#ESRI_SECTION1_7DB7FE325E16446CA623231CC0721451"target="_blank" rel="noopener">アイテムの削除&lt;/a>を行うことができます。またゴミ箱機能を有効化している場合、削除から 14 日間に限り、削除したアイテムを&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/manage-items.htm#ESRI_SECTION1_DB87DF8F4E15433D954B7E8B25579A03"target="_blank" rel="noopener">復元&lt;/a>することができます。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ゴミ箱機能の詳細と有効化の手順については&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/configure-details.htm#ESRI_SECTION1_91D3B03954B54E97B68DEA91854AD2F8"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2>アイテムの削除&lt;span class="hx:absolute hx:-mt-20" id="アイテムの削除">&lt;/span>
+&lt;a href="#%e3%82%a2%e3%82%a4%e3%83%86%e3%83%a0%e3%81%ae%e5%89%8a%e9%99%a4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>管理者または組織のメンバーが所有するコンテンツの管理権限を持っているユーザーとして ArcGIS Online にサイン インします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>サイト上部の [組織] タブ → [メンバー] タブをクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>操作を行いたいメンバーの右に表示される […] をクリックして、[アイテム] をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/contents/delete-member-list.png"
+alt="メンバーのアイテム" width="500">&lt;figcaption>
+&lt;p>メンバーのアイテム&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>メンバーの [マイ コンテンツ] ページへ移動します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>削除したいアイテムのチェックボックスをオンにし、[削除] をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/contents/delete-select-item.png"
+alt="アイテムの選択と削除" width="750">&lt;figcaption>
+&lt;p>アイテムの選択と削除&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>[アイテムの削除] ウィンドウで、アイテムを削除しても問題ないかを確認し、[削除] をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>削除したアイテムは [ゴミ箱] に移動します。または完全に削除されます。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>ゴミ箱に移動したアイテムは 14 日後に自動的に削除されます。この期間もストレージ保存におけるクレジットを消費します。詳細については&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/credits.htm#ESRI_SECTION1_4E74456E44D84BFDB5A590BA86FB3B76"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/p>
+&lt;p>なお [さらに表示 ＋] ボタンから [完全に削除 (この操作を取り消すことはできません)] を選択することもできます。&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">一部のアイテムはゴミ箱に移動することなく削除されます。
+詳細については「&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/faq.htm#ESRI_QUESTIONANSWER_60A4B4E5F0994E8DB4A999818B19ED1D"target="_blank" rel="noopener">削除したアイテムの一部がゴミ箱に移動しないのはなぜですか？&lt;/a>」をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;/ol>
+&lt;h2>アイテムの復元&lt;span class="hx:absolute hx:-mt-20" id="アイテムの復元">&lt;/span>
+&lt;a href="#%e3%82%a2%e3%82%a4%e3%83%86%e3%83%a0%e3%81%ae%e5%be%a9%e5%85%83" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>管理者または組織のメンバーが所有するコンテンツの管理権限を持っているユーザーとして ArcGIS Online にサイン インします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>サイト上部の [コンテンツ] → [組織] タブをクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[コンテンツ タイプ] 内の [ゴミ箱] をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>復元したいアイテムを選択し、画面右上の [復元] をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/contents/delete-restore-item.png"
+alt="アイテムの復元" width="800">&lt;figcaption>
+&lt;p>アイテムの復元&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>[アイテムの復元] ウィンドウで、復元先のフォルダーを確認し、[復元] をクリックします。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">元の所有者の [マイ コンテンツ] のフォルダーを復元先として指定可能です。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>アイテムは復元先に指定したフォルダーへ格納されます。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>復元する場合は以下の点などに注意してください。&lt;/p>
+&lt;ul>
+&lt;li>削除前に設定されていたアイテムの共有設定やカテゴリは保存されません。復元後、再度設定を行う必要があります。&lt;/li>
+&lt;li>Web マップにオフライン マップ エリアが定義されていた場合、オフライン マップ エリアはゴミ箱内では保持されません。復元後、再定義する必要があります。&lt;/li>
+&lt;/ul>
+&lt;p>詳細については&lt;a href="https://docuat.arcgis.com/en/arcgis-online/manage-data/restore-items.htm#ESRI_SECTION1_1DC1E3AC83004E07B825F5A335107ED9"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;/ol></description></item></channel></rss>

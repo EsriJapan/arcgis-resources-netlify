@@ -1,12 +1,147 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>クイック アクション on ArcGIS リソース集</title><link>/hub/get-started/quick-action/</link><description>Recent content in クイック アクション on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><atom:link href="/hub/get-started/quick-action/index.xml" rel="self" type="application/rss+xml"/><item><title>ArcGIS Hub Premium の有効化</title><link>/hub/get-started/quick-action/activate-premium/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/hub/get-started/quick-action/activate-premium/</guid><description>ArcGIS Hub Premium では、既存の ArcGIS Online 組織サイトとは別に、ステークホルダーと地域課題を解決していくためのコミュニティ組織サイトを利用できます。ArcGIS Hub Premium のライセンスを有効化して、コミュニティ組織サイトを設定する方法を説明します。
-この手順は ArcGIS Hub Premium をご契約された組織のみが対象です。
-ArcGIS Hub Premium のサブスクリプションの有効化とコミュニティ組織サイトの設定は、組織向けの ArcGIS Online 開始手順と同様で、管理者がセットアップする必要があります。
-以下の手順に沿ってセットアップを行います。
-コミュニティ組織の有効化 管理者メンバーの追加 (オプション) コミュニティ組織サイトの設定 コミュニティ アカウント作成の無効化 (オプション) コミュニティ組織の有効化 届いたメールからコミュニティ組織の有効化を行い、コミュニティ組織のタイトルや管理者の作成を行います。
-コミュニティ組織の有効化完了までの手順は変更される場合があります。
-ESRI ジャパンから送信される、以下の件名の案内メールを開きます。
-【ESRIジャパン】出荷のお知らせ (EJ ○○○○○○○○)
-件名の後に EJ から始まるESRIジャパン受注番号が付きます。
-件名は変更される場合があります。メールが見当たらない場合は、弊社の営業担当者か、online@esrij.com にお問い合わせください。
-メール文章内の、＜お客様のサブスクリプションID 有効化ページ＞ の URL (下図参照) をクリックします。 メールに記載の「ライセンス顧客 ID」「サブスクリプション ID」は各種お問い合わせの際に必要な情報となりますので、この案内メールは大切に保管してください。
-親組織のアカウントでサイン インします。</description></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – クイック アクション</title><link>/hub/get-started/quick-action/</link><description>Recent content in クイック アクション on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 15 Aug 2025 00:00:00 +0900</lastBuildDate><atom:link href="/hub/get-started/quick-action/index.xml" rel="self" type="application/rss+xml"/><item><title>ArcGIS Hub Premium の有効化</title><link>/hub/get-started/quick-action/activate-premium/</link><pubDate>Thu, 15 Aug 2024 00:00:00 +0900</pubDate><guid>/hub/get-started/quick-action/activate-premium/</guid><description>
+&lt;p>ArcGIS Hub Premium では、既存の ArcGIS Online 組織サイトとは別に、ステークホルダーと地域課題を解決していくためのコミュニティ組織サイトを利用できます。ArcGIS Hub Premium のライセンスを有効化して、コミュニティー組織サイトを設定する方法を説明します。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">この手順は ArcGIS Hub Premium をご契約された組織のみが対象です。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>ArcGIS Hub Premium のサブスクリプションの有効化とコミュニティー組織サイトの設定は、組織向けの ArcGIS Online 開始手順と同様で、管理者がセットアップする必要があります。&lt;/p>
+&lt;p>以下の手順に沿ってセットアップを行います。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="#%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3%e3%83%bc%e7%b5%84%e7%b9%94%e3%81%ae%e6%9c%89%e5%8a%b9%e5%8c%96">コミュニティー組織の有効化&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#%e7%ae%a1%e7%90%86%e8%80%85%e3%83%a1%e3%83%b3%e3%83%90%e3%83%bc%e3%81%ae%e8%bf%bd%e5%8a%a0-%e3%82%aa%e3%83%97%e3%82%b7%e3%83%a7%e3%83%b3">管理者メンバーの追加 (オプション)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3%e3%83%bc%e7%b5%84%e7%b9%94%e3%82%b5%e3%82%a4%e3%83%88%e3%81%ae%e8%a8%ad%e5%ae%9a">コミュニティー組織サイトの設定&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3%e3%83%bc-%e3%82%a2%e3%82%ab%e3%82%a6%e3%83%b3%e3%83%88%e4%bd%9c%e6%88%90%e3%81%ae%e7%84%a1%e5%8a%b9%e5%8c%96-%e3%82%aa%e3%83%97%e3%82%b7%e3%83%a7%e3%83%b3">コミュニティー アカウント作成の無効化 (オプション)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>コミュニティー組織の有効化&lt;span class="hx:absolute hx:-mt-20" id="コミュニティー組織の有効化">&lt;/span>
+&lt;a href="#%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3%e3%83%bc%e7%b5%84%e7%b9%94%e3%81%ae%e6%9c%89%e5%8a%b9%e5%8c%96" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>届いたメールからコミュニティー組織の有効化を行い、コミュニティー組織のタイトルや管理者の作成を行います。
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">コミュニティー組織の有効化完了までの手順は変更される場合があります。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>ESRIジャパンから送信される、以下の件名の案内メールを開きます。&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>【ESRIジャパン】出荷のお知らせ (EJ ○○○○○○○○)&lt;/p>
+&lt;p>件名の後に EJ から始まるESRIジャパン受注番号が付きます。&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">件名は変更される場合があります。メールが見当たらない場合は、弊社の営業担当者か、online@esrij.com にお問い合わせください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>メール文章内の、＜お客様のサブスクリプションID 有効化ページ＞ の URL (下図参照) をクリックします。
+&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/setup/admin/activate-subscription-url.png"
+alt="お客様のサブスクリプション ID 有効化ページ" width="450">&lt;figcaption>
+&lt;p>案内メール&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">メールに記載の「ライセンス顧客 ID」「サブスクリプション ID」は各種お問い合わせの際に必要な情報となりますので、この案内メールは大切に保管してください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>親組織のアカウントでサイン インします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/quick-action/activate-premium-signin.png" width="400">
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>画面の案内に従って以下を設定します。&lt;/p>
+&lt;ul>
+&lt;li>ステップ 1
+&lt;ul>
+&lt;li>コミュニティー組織のタイトル&lt;/li>
+&lt;li>ショートネーム (https://○○.maps.arcgis.com の ○○ 部分)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ステップ 2
+&lt;ul>
+&lt;li>コミュニティー組織の管理者の作成
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/quick-action/activate-premium-settings.png"
+alt="Hub コミュニティー組織の設定" width="550">&lt;figcaption>
+&lt;p>Hub コミュニティー組織の設定&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;ul>
+&lt;li>
+&lt;p>組織サイトのショート ネームは組織の URL を作成する際に使用されるため、使用する名前をよく検討することをおすすめします。ショート ネームは最大 16 文字で、半角英数字とハイフンのみ使用できます。ハイフンは、ショート ネームの URL の最初または最後には使用できません。
+また、ArcGIS Hub で作成したすべてのアイテムに保存されるため、ショート ネームを変更した場合、既存のコンテンツへのリンクが壊れる可能性があります。
+ショート ネームの変更に関しては「&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/faq.htm#anchor93"target="_blank" rel="noopener">組織のショート ネームを変更する際の注意事項と、変更後に実施すべきことはそれぞれ何ですか？&lt;/a>」をご参照ください。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>ユーザー名とパスワードは、各種アプリで利用するために大切なアカウント情報です。忘れないようにしてください。&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>ステップ 2 の [Esri ArcGIS Online の利用規約とプライバシーポリシーに同意します。] チェックボックスをオンにし、[次へ] をクリックすると、Hub Premium の有効化が実行されます。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/quick-action/activate-premium-finish.png"
+alt="Hub コミュニティー組織の有効化" width="500">&lt;figcaption>
+&lt;p>Hub コミュニティー組織の有効化&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>コミュニティー組織の有効化に関する設定が完了すると、ArcGIS Hub の概要ページが表示され、サイトを作成することができます。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>コミュニティー組織の有効化に関する設定完了と同時に「Hub コミュニティーの管理」という件名のメールが届きます。コミュニティー組織の管理者アカウント情報です。削除しないように管理してください。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/quick-action/activate-premium-mail.png"
+alt="「Hub コミュニティーの管理」メール" width="550">&lt;figcaption>
+&lt;p>「Hub コミュニティーの管理」メール&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2>管理者メンバーの追加 (オプション)&lt;span class="hx:absolute hx:-mt-20" id="管理者メンバーの追加-オプション">&lt;/span>
+&lt;a href="#%e7%ae%a1%e7%90%86%e8%80%85%e3%83%a1%e3%83%b3%e3%83%90%e3%83%bc%e3%81%ae%e8%bf%bd%e5%8a%a0-%e3%82%aa%e3%83%97%e3%82%b7%e3%83%a7%e3%83%b3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>コミュニティー組織を複数人で管理する場合は、追加のコミュニティー管理者アカウントを作成します。詳細な手順は 「&lt;a href="https://doc.esrij.com/online/get-started/setup/admin/add-members/"target="_blank" rel="noopener">メンバーの追加&lt;/a>」をご参照ください。&lt;/p>
+&lt;h2>コミュニティー組織サイトの設定&lt;span class="hx:absolute hx:-mt-20" id="コミュニティー組織サイトの設定">&lt;/span>
+&lt;a href="#%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3%e3%83%bc%e7%b5%84%e7%b9%94%e3%82%b5%e3%82%a4%e3%83%88%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>コミュニティー組織サイトの ArcGIS Online ホームページを設定します。詳細な手順は「&lt;a href="https://doc.esrij.com/online/get-started/setup/admin/settings"target="_blank" rel="noopener">組織の設定&lt;/a>」をご参照ください。&lt;/p>
+&lt;h2>コミュニティー アカウント作成の無効化 (オプション)&lt;span class="hx:absolute hx:-mt-20" id="コミュニティー-アカウント作成の無効化-オプション">&lt;/span>
+&lt;a href="#%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3%e3%83%bc-%e3%82%a2%e3%82%ab%e3%82%a6%e3%83%b3%e3%83%88%e4%bd%9c%e6%88%90%e3%81%ae%e7%84%a1%e5%8a%b9%e5%8c%96-%e3%82%aa%e3%83%97%e3%82%b7%e3%83%a7%e3%83%b3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>デフォルトでは、サイトのサイン イン画面でユーザー自身によって&lt;a href="https://doc.arcgis.com/ja/hub/community/create-a-community-account.htm"target="_blank" rel="noopener">コミュニティー アカウントを作成&lt;/a>できる設定になっています。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/quick-action/activate-premium-createaccount.png" width="300">&lt;figcaption>
+&lt;h4>コミュニティー アカウントの作成オプション&lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>この設定を変更して、ユーザーによるコミュニティー アカウントの作成を無効化することができます。無効化すると、管理者から招待されたユーザーのみコミュニティ アカウントを作成することができます。
+詳細な手順は「&lt;a href="https://doc.arcgis.com/ja/hub/community/configure-community-sign-in-prompt.htm#ESRI_SECTION1_C30D73392D964D51A8B606128A8A6E8F"target="_blank" rel="noopener">コミュニティー アカウント作成の有効化または無効化&lt;/a>」をご参照ください。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>Facebook や Google、Apple ID、GitHub のソーシャル アカウントでのコミュニティー アカウントの作成も無効化する場合は、[ソーシャル アカウント (Apple、Facebook、GitHub、Google)] のチェックボックスもオフにします。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/quick-action/activate-premium-social.png"
+alt="ソーシャル アカウントのチェックボックス" width="350">&lt;figcaption>
+&lt;p>ソーシャル アカウントのチェックボックス&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item></channel></rss>

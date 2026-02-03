@@ -1,29 +1,225 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>調査票の作成と公開 on ArcGIS リソース集</title><link>/survey123/get-started/prepare/</link><description>Recent content in 調査票の作成と公開 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Thu, 06 Jun 2024 00:00:00 +0900</lastBuildDate><atom:link href="/survey123/get-started/prepare/index.xml" rel="self" type="application/rss+xml"/><item><title>調査票の作成</title><link>/survey123/get-started/prepare/create/</link><pubDate>Wed, 01 Oct 2025 00:00:00 +0900</pubDate><guid>/survey123/get-started/prepare/create/</guid><description>Survey123 で新しい調査票を作成する方法について説明します。
-Web デザイナーでは、質問項目をドラッグ アンド ドロップするだけで調査票の作成ができます。
-新しい調査の作成 ArcGIS Online 組織サイトの右上に表示されている [アプリ ランチャー] → [Survey123] をクリックします。
-画面左上の [+ 新しい調査] をクリックし、調査票の作成を開始します。
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – 調査票の作成と公開</title><link>/survey123/get-started/prepare/</link><description>Recent content in 調査票の作成と公開 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Thu, 06 Jun 2024 00:00:00 +0900</lastBuildDate><atom:link href="/survey123/get-started/prepare/index.xml" rel="self" type="application/rss+xml"/><item><title>調査票の作成</title><link>/survey123/get-started/prepare/create/</link><pubDate>Wed, 01 Oct 2025 00:00:00 +0900</pubDate><guid>/survey123/get-started/prepare/create/</guid><description>
+&lt;p>Survey123 で新しい調査票を作成する方法について説明します。&lt;br>&lt;/p>
+&lt;p>Web デザイナーでは、質問項目をドラッグ アンド ドロップするだけで調査票の作成ができます。&lt;/p>
+&lt;h3>新しい調査の作成&lt;span class="hx:absolute hx:-mt-20" id="新しい調査の作成">&lt;/span>
+&lt;a href="#%e6%96%b0%e3%81%97%e3%81%84%e8%aa%bf%e6%9f%bb%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>ArcGIS Online 組織サイトの右上に表示されている [アプリ ランチャー] → [Survey123] をクリックします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/prepare/create-survey123-app-luncher.png"
+alt="アプリの起動" width="250">&lt;figcaption>
+&lt;p>アプリの起動&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;br>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>画面左上の [+ 新しい調査] をクリックし、調査票の作成を開始します。&lt;br>
 独自の調査票を白紙の状態から作成したい場合は、[Web デザイナーの使用] の [空白の調査] を選択し、[基本操作] をクリックします。
-・調査テンプレート: あらかじめ構成されたテンプレートを使用し、すぐに調査票を作成できます。
-・フィーチャ レイヤー: 既存のフィーチャ レイヤーを使用し、調査票を作成できます。
-・Survey123 Connect: XLSForm を使用し、よりカスタマイズされた調査票を作成できます。
-詳細はヘルプをご参照ください。
-画面左上の [調査情報の編集] をクリックし、[調査情報の編集] ダイアログ ボックスを開きます。
-調査の名前、タグ、サマリーを設定し、[OK] をクリックします。
-画面中央の「調査票のタイトルが設定されていません」をクリックし、調査票のタイトルを設定します。
-調査票への質問の追加 Survey123 では、ドラッグ アンド ドロップで調査票に質問項目を追加できます。
-画面左側の [追加] をクリックし、[追加] タブを開きます。</description></item><item><title>調査票の公開</title><link>/survey123/get-started/prepare/publish/</link><pubDate>Wed, 01 Oct 2025 00:00:00 +0900</pubDate><guid>/survey123/get-started/prepare/publish/</guid><description>Survey123 で作成した調査票を保存し、公開、共有する方法について説明します。
-調査票の作成方法については「調査票の作成」をご参照ください。
-調査票の保存とプレビュー Web デザイナー画面右上の [保存 (ファイル マーク)] ボタンをクリックし、調査票を保存します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/prepare/create-new-survey.png"
+alt="新しい調査の開始" width="800">&lt;figcaption>
+&lt;p>新しい調査の開始&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;br>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">・調査テンプレート: あらかじめ構成されたテンプレートを使用し、すぐに調査票を作成できます。&lt;br>
+・フィーチャ レイヤー: 既存のフィーチャ レイヤーを使用し、調査票を作成できます。&lt;br>
+・Survey123 Connect: XLSForm を使用し、よりカスタマイズされた調査票を作成できます。&lt;br>
+詳細は&lt;a href="https://doc.arcgis.com/ja/survey123/desktop/create-surveys/createsurveys.htm" target="_self">ヘルプ&lt;/a>をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>画面左上の [調査情報の編集] をクリックし、[調査情報の編集] ダイアログ ボックスを開きます。&lt;br>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>調査の名前、タグ、サマリーを設定し、[OK] をクリックします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/prepare/create-survey-title-summary.png"
+alt="調査情報の編集" width="700">&lt;figcaption>
+&lt;p>調査情報の編集&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;br>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>画面中央の「調査票のタイトルが設定されていません」をクリックし、調査票のタイトルを設定します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/prepare/create-edit-survey-title.png"
+alt="調査のタイトル" width="500">&lt;figcaption>
+&lt;p>調査のタイトル&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;br>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3>調査票への質問の追加&lt;span class="hx:absolute hx:-mt-20" id="調査票への質問の追加">&lt;/span>
+&lt;a href="#%e8%aa%bf%e6%9f%bb%e7%a5%a8%e3%81%b8%e3%81%ae%e8%b3%aa%e5%95%8f%e3%81%ae%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Survey123 では、ドラッグ アンド ドロップで調査票に質問項目を追加できます。&lt;/p>
+&lt;ol>
+&lt;li>画面左側の [追加] をクリックし、[追加] タブを開きます。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/prepare/create-survey-addtab.png"
+alt="追加タブ" width="400">&lt;figcaption>
+&lt;p>追加タブ&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;br>&lt;/li>
+&lt;li>使用したい質問項目をドラッグ アンド ドロップで調査票に追加します。&lt;br>
+質問を追加すると、画面右側に [編集] パネルが開きます。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/prepare/create-survey-add-question.gif"
+alt="質問項目の追加" width="700">&lt;figcaption>
+&lt;p>質問項目の追加&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;br>&lt;/li>
+&lt;li>[ラベル] フィールドに質問のタイトルを入力します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/prepare/create-survey-edit-label.png"
+alt="[ラベル]フィールドの入力" width="700">&lt;figcaption>
+&lt;p>[ラベル]フィールドの入力&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;br>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[編集] タブでは、質問にヒントを追加したり、回答の必須/任意を切り替えたりできます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;/ol>
+&lt;h4>調査票に追加できる主な質問項目&lt;span class="hx:absolute hx:-mt-20" id="調査票に追加できる主な質問項目">&lt;/span>
+&lt;a href="#%e8%aa%bf%e6%9f%bb%e7%a5%a8%e3%81%ab%e8%bf%bd%e5%8a%a0%e3%81%a7%e3%81%8d%e3%82%8b%e4%b8%bb%e3%81%aa%e8%b3%aa%e5%95%8f%e9%a0%85%e7%9b%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>調査票に追加できる質問項目は、5 つのセクションに分かれています。&lt;br>&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>テキスト、数値、日付、時刻&lt;br>
+日時やテキスト、数値を入力する基本の質問項目を追加できます。&lt;br>
+詳細は&lt;a href="https://doc.arcgis.com/ja/survey123/browser/create-surveys/textnumberdatetime.htm" target="_self">ヘルプ&lt;/a>をご参照ください。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>選択肢&lt;br>
+[単一選択] や [複数選択] といった選択方式の質問項目を追加できます。&lt;br>
+詳細は&lt;a href="https://doc.arcgis.com/ja/survey123/browser/create-surveys/choice.htm" target="_self">ヘルプ&lt;/a>をご参照ください。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>位置&lt;br>
+位置情報に関する質問項目を追加できます。&lt;br>
+[マップ] では、調査端末の位置情報からポイントを入力できるほか、マップ上でポイントやラインを描画することも可能です。&lt;br>
+詳細は&lt;a href="https://doc.arcgis.com/ja/survey123/browser/create-surveys/location.htm" target="_self">ヘルプ&lt;/a>をご参照ください。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">1 つの調査に複数の [位置] の質問を追加することができますが、結果のジオメトリーとして送信できるのは、1 つの調査につき 1 つの [位置] の質問のみです。&lt;br>
+複数の [位置] の質問を追加した場合は、結果のジオメトリーとして送信したい [位置] の質問の設定を [編集] タブでご確認ください。&lt;br>
+[マップ] の場合: [回答を送信しない] のチェックボックスがオフになっているか&lt;br>
+[住所] の場合: [住所テキストとポイント ジオメトリー] がオンになっているか&lt;br>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>メディアとファイル&lt;br>
+画像や音声、ファイルなどメディアに関する質問項目を追加できます。&lt;br>
+詳細は&lt;a href="https://doc.arcgis.com/ja/survey123/browser/create-surveys/mediafiles.htm" target="_self">ヘルプ&lt;/a>をご参照ください。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>表示と構造&lt;br>
+調査票の構成を設定できます。&lt;br>
+[ページ] では、調査票に別ページを作成できます。&lt;br>
+詳細は&lt;a href="https://doc.arcgis.com/ja/survey123/browser/create-surveys/displaystructure.htm" target="_self">ヘルプ&lt;/a>をご参照ください。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">Survey123 では簡単な設定をするだけで、より高度な調査票にカスタマイズできます。&lt;br>
+カスタマイズできる例は以下のとおりです。&lt;br>
+・ルールの設定: [動作] セクションの [ルールの設定] から、分岐条件を設定することで条件入力に応じた質問の表示/非表示ができます。詳細は&lt;a href="https://doc.arcgis.com/ja/survey123/browser/create-surveys/webdesigneressentials.htm#ESRI_SECTION1_21723D9039E847AF9E69867C802C695A" target="_self">ヘルプ&lt;/a>をご参照ください。&lt;br>
+・計算: [計算] を使用すると、[写真] から位置情報を取得するなど、回答を基に計算した値を結果として収集できます。詳細は&lt;a href="https://doc.arcgis.com/ja/survey123/browser/create-surveys/webdesigneressentials.htm#ESRI_SECTION1_D3A0181870BC463589057A66DBCEAF7F" target="_self">ヘルプ&lt;/a>をご参照ください。&lt;br>
+・テキストとジオメトリーの同時収集: [住所] では、住所テキストとポイント ジオメトリーを同時に収集できます。詳細は&lt;a href="https://doc.arcgis.com/ja/survey123/browser/create-surveys/location.htm#ESRI_SECTION1_9FF9489173C741DD95472F21B5AD8374" target="_self">ヘルプ&lt;/a>をご参照ください。&lt;br>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;/ol></description></item><item><title>調査票の公開</title><link>/survey123/get-started/prepare/publish/</link><pubDate>Wed, 01 Oct 2025 00:00:00 +0900</pubDate><guid>/survey123/get-started/prepare/publish/</guid><description>
+&lt;p>Survey123 で作成した調査票を保存し、公開、共有する方法について説明します。&lt;br>&lt;/p>
+&lt;p>調査票の作成方法については「&lt;a href="/survey123/get-started/prepare/create/">調査票の作成&lt;/a>」をご参照ください。&lt;/p>
+&lt;h3>調査票の保存とプレビュー&lt;span class="hx:absolute hx:-mt-20" id="調査票の保存とプレビュー">&lt;/span>
+&lt;a href="#%e8%aa%bf%e6%9f%bb%e7%a5%a8%e3%81%ae%e4%bf%9d%e5%ad%98%e3%81%a8%e3%83%97%e3%83%ac%e3%83%93%e3%83%a5%e3%83%bc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>Web デザイナー画面右上の [保存 (ファイル マーク)] ボタンをクリックし、調査票を保存します。&lt;br>
 調査票が保存されると、アイコンにチェック マークが追加されます。
-画面右上の [プレビュー (四角と三角のマーク)] ボタンをクリックし、調査票の実際の画面を確認します。
-アイコンを選択することで、以下の画面解像度でプレビューすることができます。
-デスクトップ スマートフォン タブレット 調査票の公開 画面右上の [公開] をクリックし、調査票を公開します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/prepare/publish-save-survey-complete.png"
+alt="調査票の保存" width="600">&lt;figcaption>
+&lt;p>調査票の保存&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>画面右上の [プレビュー (四角と三角のマーク)] ボタンをクリックし、調査票の実際の画面を確認します。&lt;br>
+アイコンを選択することで、以下の画面解像度でプレビューすることができます。&lt;/p>
+&lt;ul>
+&lt;li>デスクトップ&lt;/li>
+&lt;li>スマートフォン&lt;/li>
+&lt;li>タブレット&lt;/li>
+&lt;/ul>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/prepare/publish-preview-survey-screen.png"
+alt="調査票のプレビュー" width="800">&lt;figcaption>
+&lt;p>調査票のプレビュー&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;h3>調査票の公開&lt;span class="hx:absolute hx:-mt-20" id="調査票の公開">&lt;/span>
+&lt;a href="#%e8%aa%bf%e6%9f%bb%e7%a5%a8%e3%81%ae%e5%85%ac%e9%96%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>画面右上の [公開] をクリックし、調査票を公開します。&lt;br>
 調査票が公開されると、[公開済み] と表示されます。
-調査票の公開前にフィーチャー レイヤーのスキーマを変更することができます。公開後に変更することはできません。
-詳細はヘルプをご参照ください。
-調査の共有 [調査の共有] タブでは、調査の共有範囲や調査ステータスなどを設定できます。
-[共同作業] をクリックし、共同作業ページに移動します。
-[調査の共有] タブをクリックし、調査の公開範囲や調査のステータスを設定します。
-[結果の共有] タブでは 、調査結果の共有範囲を設定できます。
-[URLのコピー] アイコンから調査票の URL を取得します。URL を調査者に共有することで、調査票にアクセスできるようになります。
-[QR を表示] アイコンをクリックし、[クリックしてダウンロード] をクリックすることで、調査の QR を入手できます。</description></item></channel></rss>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/prepare/publish-publish-survey-complete.png"
+alt="調査票の公開" width="600">&lt;figcaption>
+&lt;p>調査票の公開&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">調査票の公開前にフィーチャー レイヤーのスキーマを変更することができます。公開後に変更することはできません。&lt;br>
+詳細は&lt;a href="https://doc.arcgis.com/ja/survey123/browser/create-surveys/publishsurvey.htm" target="_self">ヘルプ&lt;/a>をご参照ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;/ol>
+&lt;h3>調査の共有&lt;span class="hx:absolute hx:-mt-20" id="調査の共有">&lt;/span>
+&lt;a href="#%e8%aa%bf%e6%9f%bb%e3%81%ae%e5%85%b1%e6%9c%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>[調査の共有] タブでは、調査の共有範囲や調査ステータスなどを設定できます。&lt;br>&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>[共同作業] をクリックし、共同作業ページに移動します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[調査の共有] タブをクリックし、調査の公開範囲や調査のステータスを設定します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/prepare/publish-survey-cowork-share.png"
+alt="[調査の共有]タブ" width="700">&lt;figcaption>
+&lt;p>[調査の共有]タブ&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[結果の共有] タブでは 、調査結果の共有範囲を設定できます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>[URLのコピー] アイコンから調査票の URL を取得します。URL を調査者に共有することで、調査票にアクセスできるようになります。 &lt;br>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/prepare/publish-survey-cowork-URL.png"
+alt="URL のコピー" width="650">&lt;figcaption>
+&lt;p>URL のコピー&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[QR を表示] アイコンをクリックし、[クリックしてダウンロード] をクリックすることで、調査の QR を入手できます。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;/ol></description></item></channel></rss>
