@@ -46,7 +46,7 @@
 &lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/web-maps-and-layers.htm" target="_blank">Web マップおよびレイヤー&lt;/a> ツールを使用して、BA Web App に ArcGIS Online や Portal for ArcGIS 上のコンテンツを追加する方法を学べます。&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_v23j37oj" target="_blank">ファイルのインポート ツールの使用&lt;/a>&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_te9r5z02" target="_blank">ファイルのインポート ツールの使用&lt;/a>&lt;/td>
 &lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/import-file.htm" target="_blank">ファイルのインポート&lt;/a> ツールを使用して、BA Web App にテーブル データやシェープファイルをインポートする方法を学べます。&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -92,11 +92,7 @@
 &lt;td style="text-align: left">バージョン 23.R02 から新しくなった&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/color-coded-maps.htm" target="_blank">カラーコード マップ&lt;/a> ツールを使用して、統計変数をマップ上に可視化する方法を学べます。&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_7b19kjh4" target="_blank">カラーコード マップ (クラシック)&lt;/a> の作成&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/color-coded-maps-classic.htm" target="_blank">カラーコード マップ (クラシック)&lt;/a> ツールを使用して、統計変数をマップ上に可視化する方法を学べます。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_h92t7fc1" target="_blank">スマート マップ サーチ&lt;/a>&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_43n66qt1" target="_blank">スマート マップ サーチ&lt;/a>&lt;/td>
 &lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/smart-map-search.htm" target="_blank">スマート マップ サーチ&lt;/a> ツールを使用して、複数変数の条件を満たすエリアを絞り込み、マップ上に可視化する方法を学べます。&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -192,19 +188,19 @@
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_lgpmjen8" target="_blank">ArcGIS 組織にマップを共有&lt;/a>&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_wi5dd26z" target="_blank">ArcGIS 組織にマップを共有&lt;/a>&lt;/td>
 &lt;td style="text-align: left">BA Web App で作成した&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/share-maps.htm" target="_blank">マップを ArcGIS 組織に共有する方法&lt;/a>を学べます。&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_25qjh7ul" target="_blank">ArcGIS Dashboard 形式で解析結果を共有&lt;/a>&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_31qfqlki" target="_blank">ArcGIS Dashboard 形式で解析結果を共有&lt;/a>&lt;/td>
 &lt;td style="text-align: left">BA Web App の解析結果を、&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/arcgis-dashboards.htm" target="_blank">ダッシュボード形式で共有する方法&lt;/a>を学べます。&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_p76xbb8f" target="_blank">ArcGIS StoryMaps のストーリーを作成&lt;/a>&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_bnaq1kqy" target="_blank">ArcGIS StoryMaps のストーリーを作成&lt;/a>&lt;/td>
 &lt;td style="text-align: left">BA Web App の解析結果を使用して、&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/story-map.htm" target="_blank">ストーリーマップを作成する方法&lt;/a>を学べます。&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_kroemjd0" target="_blank">マップのエクスポート&lt;/a>&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_7egpj6k3" target="_blank">マップのエクスポート&lt;/a>&lt;/td>
 &lt;td style="text-align: left">BA Web App で作成したマップを &lt;a href="https://doc.arcgis.com/ja/business-analyst/web/pdf-or-image.htm" target="_blank">PDF や画像形式でエクスポートする方法&lt;/a>を学べます。&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -372,8 +368,9 @@ width:74%;
 &lt;/ol>
 &lt;p>以上で、ベンチマーク比較が実行できました。&lt;/p>
 &lt;p>[結果] パネルで [サマリー]、[ヒストグラム]、[バブルチャート]、[テーブル] を切り替えることで、結果の見え方を変えることができます。また、[オプション] ボタン → [区画との比較] をクリックすることで、各商圏と商圏が属する行政界との間でもベンチマークの比較ができます。&lt;br>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/benchmark/result_panel.jpg">&lt;figcaption>
-&lt;h4>結果パネル&lt;/h4>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/benchmark/result_panel.jpg"
+alt="結果パネル">&lt;figcaption>
+&lt;p>結果パネル&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
 &lt;/p>

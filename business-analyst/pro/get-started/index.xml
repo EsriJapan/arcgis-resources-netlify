@@ -12,7 +12,7 @@
 &lt;a href="#%e3%82%bb%e3%83%83%e3%83%88%e3%82%a2%e3%83%83%e3%83%97" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ライセンスの割り当て方法と、BA Pro をインストールする方法を説明します。&lt;/p>
 &lt;h3>ステップ１：ライセンスの割り当て（管理者のみ）&lt;span class="hx:absolute hx:-mt-20" id="ステップ１ライセンスの割り当て管理者のみ">&lt;/span>
 &lt;a href="#%e3%82%b9%e3%83%86%e3%83%83%e3%83%97%ef%bc%91%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9%e3%81%ae%e5%89%b2%e3%82%8a%e5%bd%93%e3%81%a6%e7%ae%a1%e7%90%86%e8%80%85%e3%81%ae%e3%81%bf" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>ArcGIS Pro スタートアップ ガイドの&lt;a href="/pro/get-started/setup/admin/" target="_blank">管理者の操作&lt;/a>をもとに、ArcGIS Online の登録とライセンス割り当てを行います。
-BA Pro を利用する場合は、「&lt;a href="/pro/get-started/setup/admin/#4-ライセンスの割り当てと解除hahahugoshortcode-s5-hbhb-ライセンスの割り当てと解除" target="_blank">４. ライセンスの割り当てと解除&lt;/a>」で、利用ユーザーに対して以下のライセンスを割り当てる必要があります。&lt;/p>
+BA Pro を利用する場合は、「&lt;a href="/pro/get-started/setup/admin/#4-ライセンスの割り当てと解除" target="_blank">４. ライセンスの割り当てと解除&lt;/a>」で、利用ユーザーに対して以下のライセンスを割り当てる必要があります。&lt;/p>
 &lt;ul>
 &lt;li>[ArcGIS Pro エクステンション] グループのライセンス 2 種
 &lt;ul>

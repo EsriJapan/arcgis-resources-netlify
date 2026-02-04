@@ -12,7 +12,7 @@
 &lt;h3>2. (Advanced の場合) アドオン ライセンスの割り当て&lt;span class="hx:absolute hx:-mt-20" id="2-advanced-の場合-アドオン-ライセンスの割り当て">&lt;/span>
 &lt;a href="#2-advanced-%e3%81%ae%e5%a0%b4%e5%90%88-%e3%82%a2%e3%83%89%e3%82%aa%e3%83%b3-%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9%e3%81%ae%e5%89%b2%e3%82%8a%e5%bd%93%e3%81%a6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/get-started/licenses-assign-image_24r2.png" width="50%">
 &lt;/figure>
-&lt;p>BA Web and Mobile Apps Advanced を利用する場合 ArcGIS Online ユーザーに対して、アドオン ライセンスを割り当てます。アドオン ライセンスは Creator 以上の&lt;a href="https://www.esrij.com/products/arcgis-online/plan/organization/"target="_blank" rel="noopener">ユーザー タイプ&lt;/a>に割り当てることができます。&lt;/p>
+&lt;p>BA Web and Mobile Apps Advanced を利用する場合 ArcGIS Online ユーザーに対して、アドオン ライセンスを割り当てます。アドオン ライセンスは Creator 以上の&lt;a href="https://www.esrij.com/products/user-types/"target="_blank" rel="noopener">ユーザー タイプ&lt;/a>に割り当てることができます。&lt;/p>
 &lt;p>&lt;strong>管理者&lt;/strong>の方は組織サイトから各メンバーにライセンスの割り当てを行ってください。ライセンスの割り当て方法は、&lt;a href="/online/get-started/administer/license/assign/" target="_blank">ArcGIS Online スタートアップ ガイド「ライセンスの割り当てと解除」&lt;/a>をご確認ください。&lt;/p>
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
@@ -23,7 +23,7 @@
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">BA Web and Mobile Apps Standard は、割り当てなしで利用できます。利用できる機能の差異については &lt;a href="https://www.esrij.com/cgi-bin/wp/wp-content/uploads/documents/compare-ba-function.pdf"target="_blank" rel="noopener">詳細&lt;/a>をご確認ください。&lt;/div>
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">BA Web and Mobile Apps Standard は、割り当てなしで利用できます。利用できる機能の差異については&lt;a href="https://www.esrij.com/cms/wp-content/uploads/2026/01/202512_compare-ba-function.pdf"target="_blank" rel="noopener">詳細&lt;/a>をご確認ください。&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;h3>3. BA Web App の初期設定&lt;span class="hx:absolute hx:-mt-20" id="3-ba-web-app-の初期設定">&lt;/span>

@@ -50,12 +50,10 @@
 &lt;ul>
 &lt;li>&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge3394.html" target="_blank">作成した商圏やレポートなどの解析結果はどこに保存されますか？(Business Analyst)&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;h4>Business Analyst データ レイヤー&lt;span class="hx:absolute hx:-mt-20" id="business-analyst-データ-レイヤー">&lt;/span>
-&lt;a href="#business-analyst-%e3%83%87%e3%83%bc%e3%82%bf-%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>ArcMap 版 BA Desktop では、シンボル調整済みの国勢調査や経済センサスなどの統計データを集約した「Business Analyst データ レイヤー」を利用できます。
-ArcGIS Pro でも、以下 FAQ の手順に沿って操作いただくことで、同じレイヤーをご利用いただけます。&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge3445.html" target="_blank">ArcMap 版 Business Analyst Desktop で利用できる「Business Analyst データ レイヤー」を Business Analyst Pro でも利用できますか？&lt;/a>&lt;/li>
-&lt;/ul>
+&lt;!-- #### Business Analyst データ レイヤー
+ArcMap 版 BA Desktop では、シンボル調整済みの国勢調査や経済センサスなどの統計データを集約した「Business Analyst データ レイヤー」を利用できます。
+ArcGIS Pro でも、以下 FAQ の手順に沿って操作いただくことで、同じレイヤーをご利用いただけます。
+- &lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge3445.html" target="_blank">ArcMap 版 Business Analyst Desktop で利用できる「Business Analyst データ レイヤー」を Business Analyst Pro でも利用できますか？&lt;/a> -->
 &lt;h2>BA Pro の起動方法&lt;span class="hx:absolute hx:-mt-20" id="ba-pro-の起動方法">&lt;/span>
 &lt;a href="#ba-pro-%e3%81%ae%e8%b5%b7%e5%8b%95%e6%96%b9%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ArcMap 版 BA Desktop では、デスクトップや Windows メニュー上のショートカットを開くことで、オフライン背景地図 (広域地図・公共地図) が予め追加されたマップ ドキュメント (.mxd) を起動できましたが、BA Proでは、スタートメニュー → [ArcGIS] 配下にある [ArcGIS Pro] から起動することができます。&lt;/p>
 &lt;p>また、BA Pro では、オンラインの背景地図がデフォルトで表示されますが、オフライン背景地図 (広域地図・公共地図) は、以下の手順でレイヤー ファイルをマップに追加することで利用可能です。&lt;/p>

@@ -52,7 +52,7 @@
 &lt;tr>
 &lt;td style="text-align: left">住所リストから店舗を登録&lt;/td>
 &lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/geocoding/geocode-addresses.htm" target="_blank">住所のジオコーディング&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/geocoding/">顧客・店舗情報の取り込み&lt;/a>&lt;/td>
+&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/customer-analysis/geocoding/">顧客・店舗情報の取り込み&lt;/a>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -95,7 +95,7 @@
 &lt;tr>
 &lt;td style="text-align: left">住所リストから顧客を登録&lt;/td>
 &lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/geocoding/geocode-addresses.htm" target="_blank">住所のジオコーディング&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/geocoding/">顧客・店舗情報の取り込み&lt;/a>&lt;/td>
+&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/customer-analysis/geocoding/">顧客・店舗情報の取り込み&lt;/a>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -940,7 +940,7 @@ width: 35%;
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align: left">フィルタリング&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/mapping/layer-properties/definition-query.htm" target="_blank">定義クエリによるフィーチャのフィルター&lt;/a>&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/mapping/layer-properties/definition-query.htm" target="_blank">定義クエリーによるフィーチャのフィルター&lt;/a>&lt;/td>
 &lt;td style="text-align: left">-&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>

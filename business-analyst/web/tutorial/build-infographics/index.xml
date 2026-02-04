@@ -497,10 +497,12 @@
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
 &lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>[実行するインフォグラフィックス] が表示されない場合、&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/set-preferences.htm" target="_blank" >初期設定&lt;/a>を開き、以下の通り [開く前にサイト メニューで～] のオプションを有効にして保存します。&lt;br/>&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/create_custom_infographics/report-preference.png">&lt;figcaption>
-&lt;h4>初期設定&lt;/h4>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/create_custom_infographics/report-preference.png"
+alt="初期設定">&lt;figcaption>
+&lt;p>初期設定&lt;/p>
 &lt;/figcaption>
-&lt;/figure>&lt;/div>
+&lt;/figure>
+&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;p>インフォグラフィックスが実行され、円町駅から 1km 圏内の人口分布を確認できました。
