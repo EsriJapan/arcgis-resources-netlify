@@ -671,7 +671,7 @@ alt="[アイテムの復元] ウィンドウ" width="500">&lt;figcaption>
 &lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">復元する場合は以下の点などに注意してください。
 &lt;br>・ 削除前に設定されていたアイテムの共有設定やカテゴリは保存されません。復元後、再度設定を行う必要があります。
 &lt;br>・ Web マップにオフライン マップ エリアが定義されていた場合、オフライン マップ エリアはゴミ箱内では保持されません。復元後、再定義する必要があります。
-&lt;br>詳細については&lt;a href="https://docuat.arcgis.com/en/arcgis-online/manage-data/restore-items.htm#ESRI_SECTION1_1DC1E3AC83004E07B825F5A335107ED9" target="_blank">ヘルプ&lt;/a>をご参照ください。&lt;/div>
+&lt;br>詳細については&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/restore-items.htm#ESRI_SECTION1_1DC1E3AC83004E07B825F5A335107ED9" target="_blank">ヘルプ&lt;/a>をご参照ください。&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;/li>
