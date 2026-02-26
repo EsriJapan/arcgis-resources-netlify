@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – クイック スタート チュートリアル</title><link>/cityengine/get-started/quickstart-tutorials/</link><description>Recent content in クイック スタート チュートリアル on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 25 Jan 2026 00:00:00 +0900</lastBuildDate><atom:link href="/cityengine/get-started/quickstart-tutorials/index.xml" rel="self" type="application/rss+xml"/><item><title>基本操作</title><link>/cityengine/get-started/quickstart-tutorials/basic-operation/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/basic-operation/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – クイック スタート チュートリアル</title><link>/cityengine/get-started/quickstart-tutorials/</link><description>Recent content in クイック スタート チュートリアル on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 25 Jan 2026 00:00:00 +0900</lastBuildDate><atom:link href="/cityengine/get-started/quickstart-tutorials/index.xml" rel="self" type="application/rss+xml"/><item><title>基本操作</title><link>/cityengine/get-started/quickstart-tutorials/basic-operation/</link><pubDate>Sun, 15 Feb 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/basic-operation/</guid><description>
 &lt;h2>概要&lt;span class="hx:absolute hx:-mt-20" id="概要">&lt;/span>
 &lt;a href="#%e6%a6%82%e8%a6%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ここでは、ArcGIS CityEngine の Welcome Wizard を使って、簡単に街のモデルを作成・操作する方法をご紹介します。&lt;/p>
 &lt;h2>CityEngine の起動&lt;span class="hx:absolute hx:-mt-20" id="cityengine-の起動">&lt;/span>
@@ -92,7 +92,7 @@ CityEngine では、プロジェクトと呼ばれるフォルダーごとにデ
 &lt;/figcaption>
 &lt;/figure>
 &lt;p>&lt;u>操作例2 (パラメーターの変更) :&lt;/u>&lt;/p>
-&lt;p>[Select] (選択) ツールで、建物を 1 つクリックして選択します。ここで [F] キーを押すと、この建物にズームします。[Inspector] ウィンドウの [Shape] メニュー で [HeightFactor] (高度係数) パラメーターに任意の値を入力、または、スライダーをドラッグして建物の高度係数を変更しましょう。また、[Shapes] メニューの [Update Seed] (シード値の更新) をクリックして、モデルを更新しましょう。&lt;/p>
+&lt;p>[Select] (選択) ツールで、建物を 1 つクリックして選択します。ここで [F] キーを押すと、この建物にズームします。[Inspector] ウィンドウの [HeightFactor] (高度係数) パラメーターに任意の値を入力、または、スライダーをドラッグして建物の高度係数を変更しましょう。また、[Shapes] メニューの [Update Seed] (シード値の更新) をクリックして、モデルを更新しましょう。&lt;/p>
 &lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/basic-operation/1.3_41_2.png" width="900">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
@@ -104,7 +104,7 @@ CityEngine では、プロジェクトと呼ばれるフォルダーごとにデ
 &lt;/figcaption>
 &lt;/figure>
 &lt;p>&lt;u>操作例4 (ダイナミック シティ レイアウト) :&lt;/u>&lt;/p>
-&lt;p>道路を作成します。[Street Creation] (道路作成) ツールをクリックし、既存道路の端点にカーソルを合わせます。スナップされ、カーソルがオレンジ色の四角形の表示になったら、クリックします。そのまま何もないスペース上でクリックしていくと、新規に道路を作成できます。最後に再度既存道路の端点にカーソルを合わせ、スナップされたらダブルクリックで道路作成の作業を終了します (道路作成の作業の編集は [Esc] キーを押すことで終了することもできます)。道路を繋いで区画ができると、区画にルールが自動的に適用され、街ができます。&lt;/p>
+&lt;p>道路を作成します。[Street creation] (道路作成) ツールをクリックし、既存道路の端点にカーソルを合わせます。道路の端に小さくオレンジの丸が表示になり、スナップされたら、クリックします。そのまま何もないスペース上でクリックしていくと、新規に道路を作成できます。最後に再度既存道路の端点にカーソルを合わせ、スナップされたらダブルクリックで道路作成の作業を終了します (道路作成の作業の編集は [Esc] キーを押すことで終了することもできます)。道路を繋いで区画ができると、区画にルールが自動的に適用され、街ができます。&lt;/p>
 &lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/basic-operation/1.3_5_2_v1.png" width="900">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
@@ -117,7 +117,7 @@ CityEngine では、プロジェクトと呼ばれるフォルダーごとにデ
 &lt;/figure>
 &lt;p>このように、CityEngine はアルゴリズムで建物や道路の 3D モデルを生成しているため、簡単で対話的な操作性で思い通りの都市を作成・編集することができます。
 建物や道路のモデルを選択して、[Inspector] ウィンドウの “Rule File” で設定したファイルが、そのアルゴリズムを記述したルール ファイルです。もととなる図形からこれに書かれた手順に従って 3D モデルが生成されており、その図形を編集するとすぐにまたルールに従ってモデルが再生成され、このようなレイアウト変更が可能になるのです。&lt;/p>
-&lt;p>[File] メニュー → [Save] でシーンを保存します。&lt;/p></description></item><item><title>プロジェクトの作成</title><link>/cityengine/get-started/quickstart-tutorials/create-project/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/create-project/</guid><description>
+&lt;p>[File] メニュー → [Save] でシーンを保存します。&lt;/p></description></item><item><title>プロジェクトの作成</title><link>/cityengine/get-started/quickstart-tutorials/create-project/</link><pubDate>Sun, 15 Feb 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/create-project/</guid><description>
 &lt;h2>概要&lt;span class="hx:absolute hx:-mt-20" id="概要">&lt;/span>
 &lt;a href="#%e6%a6%82%e8%a6%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>プロジェクトを新規作成してデータを作成するまでを学びます。&lt;/p>
 &lt;p>CityEngine では、プロジェクト単位でデータを管理します。新規プロジェクトを作成すると、[Navigator] ウィンドウにプロジェクト フォルダーが表示されます。
@@ -271,7 +271,7 @@ GIS データなどすでに特定の地理的な座標系を持っているデ�
 &lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">以前のバージョンをインストールしていた場合や、以降の手順において、テクスチャーがうまく反映されない場合は、[Esri.lib] チェックボックスもオンにして [Update] を実行してください。&lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/20250801_14_MD.png" width="700">&lt;figcaption>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/20260114_14_MD.png" width="700">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
@@ -397,7 +397,7 @@ Building_From_Footprint.cga は主に建物のフットプリントなど、平�
 その詳細度やレイヤーの種類、格納されているデータの内容は地域によって異なります。
 そのため、ダウンロードした地域によっては、ここで紹介した手順と同じ処理が実行できない可能性があります。&lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>CGA の作成</title><link>/cityengine/get-started/quickstart-tutorials/create-cga/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/create-cga/</guid><description>
+&lt;/div></description></item><item><title>CGA の作成</title><link>/cityengine/get-started/quickstart-tutorials/create-cga/</link><pubDate>Sun, 15 Feb 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/create-cga/</guid><description>
 &lt;h2>概要&lt;span class="hx:absolute hx:-mt-20" id="概要">&lt;/span>
 &lt;a href="#%e6%a6%82%e8%a6%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>CityEngine では、プロシージャルという技術を使用して、都市をモデリングします。プロシージャル モデリングを行うには、CGA スクリプトを書いてルールを定義する必要があります。&lt;br>
 ルールとは、モデルをどのように構築するかを記述した設計図です。
@@ -485,7 +485,7 @@ title="Copy code"
 &lt;/div>
 &lt;/div>
 &lt;p>ルールを記述すると、下図のようになります。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-cga/20250801_3-2-5_3-rule-description.png" width="700">&lt;figcaption>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-cga/20260114_3-2-5_3-rule-description.png" width="700">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
@@ -550,7 +550,7 @@ title="Copy code"
 &lt;/div>
 &lt;/li>
 &lt;li>
-&lt;p>先ほどと同じ 3 つの区画を選択して再度 [Generate model] (Ctrl + G) します。&lt;/p>
+&lt;p>先ほどと同じ 3 つの区画を選択し、[Shape] メニューの [Generate Models] (Ctrl + G) をクリックしてモデルを再生成します。&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>[Inspector] ウィンドウに [Height] という項目が出ているはずです (出ていない場合は、3D View ウィンドウ上のモデル以外の場所をクリックして選択を解除後、生成されたモデルをクリックして選択し直すことで [Inspector] ウィンドウ内が更新されます)。
@@ -564,7 +564,7 @@ title="Copy code"
 &lt;p>変更できましたら、 [Height] のドロップダウン リストから [Rule default] を選択し、変更をリセットします。&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>CGA 内の attr Height = 10 を以下のランダム関数を使ったものに書き換え、上書き保存した後、再度 [Generate model] します。&lt;/p>
+&lt;p>CGA 内の attr Height = 10 を以下のランダム関数を使ったものに書き換え、上書き保存した後、再度 [Shape] メニューの [Generate Models] をクリックします。&lt;/p>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 &lt;div>&lt;pre>&lt;code>attr Height = rand(5,20)&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
 &lt;button
@@ -847,7 +847,7 @@ title="Copy code"
 &lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
 &lt;/button>
 &lt;/div>
-&lt;/div></description></item><item><title>テクスチャーの適用</title><link>/cityengine/get-started/quickstart-tutorials/apply-texture/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/apply-texture/</guid><description>
+&lt;/div></description></item><item><title>テクスチャーの適用</title><link>/cityengine/get-started/quickstart-tutorials/apply-texture/</link><pubDate>Sun, 15 Feb 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/apply-texture/</guid><description>
 &lt;h2>概要&lt;span class="hx:absolute hx:-mt-20" id="概要">&lt;/span>
 &lt;a href="#%e6%a6%82%e8%a6%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a href="/cityengine/get-started/quickstart-tutorials/advanced-cga/"title="高度なCGA">高度なCGA&lt;/a> では区画を整理したり、屋根の種類を増やしたりして日本の住宅地に見られる戸建て住宅を模した形状を作成しましたが、今回はその仕上げとして、建物モデルにテクスチャーを貼り付けてより見栄えの良いものにします。&lt;/p>
 &lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/apply-texture/texture.png" width="700">&lt;figcaption>
@@ -955,7 +955,7 @@ title="Copy code"
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
 &lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">この記述では、建物の幅や高さにあわせて壁のテクスチャーが引き伸ばされます。&lt;br>
-それを防ぎたい場合は、setupProjection の第 3 引数、第 4 引数を屋根の場合のよう定数にします。&lt;/div>
+それを防ぎたい場合は、setupProjection の第 3 引数、第 4 引数を屋根の場合のように定数にします。&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;p>CGA が書けたら保存し、再度 [Scene] ウィンドウにて Blocks レイヤーを右クリック → [Select Objects] ですべての区画を選択後、モデルの生成 ([Generate models of selected shapes] ボタン) をしてみましょう。&lt;/p>

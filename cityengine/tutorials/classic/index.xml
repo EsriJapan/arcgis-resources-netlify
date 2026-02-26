@@ -10949,51 +10949,79 @@ title="Copy code"
 &lt;li>地上階の変更&lt;/li>
 &lt;li>CGA ルールファイルを変更せずにバルコニーを個別に追加&lt;/li>
 &lt;/ul>
-&lt;p>CityEngine の学習をさらに進めるには、その他の&lt;a href="https://doc.esrij.com/cityengine/tutorials/classic/"target="_blank" rel="noopener">クラシック チュートリアル&lt;/a>をご覧ください。&lt;/p></description></item><item><title>チュートリアル 21: CSV のインポート</title><link>/cityengine/tutorials/classic/tutorial-21-csv-import/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-21-csv-import/</guid><description>
+&lt;p>CityEngine の学習をさらに進めるには、その他の&lt;a href="https://doc.esrij.com/cityengine/tutorials/classic/"target="_blank" rel="noopener">クラシック チュートリアル&lt;/a>をご覧ください。&lt;/p></description></item><item><title>チュートリアル 21: CSV のインポート</title><link>/cityengine/tutorials/classic/tutorial-21-csv-import/</link><pubDate>Sun, 15 Feb 2026 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-21-csv-import/</guid><description>
 &lt;h2>チュートリアル データ&lt;span class="hx:absolute hx:-mt-20" id="チュートリアル-データ">&lt;/span>
 &lt;a href="#%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab-%e3%83%87%e3%83%bc%e3%82%bf" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>チュートリアル データは、&lt;strong>[Help] メニュー → [Download Tutorials and Examples…]&lt;/strong> を選択し、[CityEngine Tutorial] からダウンロードできます。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-21-CSV-import/CE_CT_21_20260115_01.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
 &lt;h2>概要&lt;span class="hx:absolute hx:-mt-20" id="概要">&lt;/span>
-&lt;a href="#%e6%a6%82%e8%a6%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>このチュートリアルでは、CSV ファイルからデータをインポートし、配列を使用して &lt;a href="https://doc.arcgis.com/en/cityengine/latest/help/help-cga-modeling-overview.htm"target="_blank" rel="noopener">CGA&lt;/a> コードで使用する方法を学習します。
-CSV ファイルをインポートするには、建物をフロア毎に分割し、各フロアにスペース使用状況を割り当てることができるルールを使用します。CSV ファイルには、使用可能なスペースの使用状況とその色、および床の高さのリストが含まれています。CGA コードでは、CSV ファイルのデータが配列に読み込まれ、&lt;a href="https://doc.arcgis.com/en/cityengine/latest/help/help-inspector.htm"target="_blank" rel="noopener">Inspector&lt;/a> でルールと対応する UI を駆動するために使用されます。&lt;/p>
-&lt;h2>Part 1: CSV ファイルからデータをインポート&lt;span class="hx:absolute hx:-mt-20" id="part-1-csv-ファイルからデータをインポート">&lt;/span>
-&lt;a href="#part-1-csv-%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%8b%e3%82%89%e3%83%87%e3%83%bc%e3%82%bf%e3%82%92%e3%82%a4%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>例のセットアップ&lt;/p>
+&lt;a href="#%e6%a6%82%e8%a6%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>このチュートリアルでは、CSV ファイルからデータをインポートし、配列を使用して &lt;a href="https://doc.arcgis.com/en/cityengine/latest/help/help-cga-modeling-overview.htm"target="_blank" rel="noopener">CGA&lt;/a> コードで利用する方法を学習します。
+CSV ファイルをインポートするには、建物をフロア毎に分割し、各フロアにスペース使用用途を割り当てられるルールを使用します。CSV ファイルには、使用可能な用途の一覧と、その色、およびフロアの高さが含まれています。CGA コードでは、この CSV ファイルのデータが配列に読み込まれ、&lt;a href="https://doc.arcgis.com/en/cityengine/latest/help/help-inspector.htm"target="_blank" rel="noopener">[Inspector]&lt;/a> ウィンドウでルールと対応する UI を動作させるために使用されます。&lt;/p>
+&lt;h2>Part 1: データのセットアップ&lt;span class="hx:absolute hx:-mt-20" id="part-1-データのセットアップ">&lt;/span>
+&lt;a href="#part-1-%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%82%bb%e3%83%83%e3%83%88%e3%82%a2%e3%83%83%e3%83%97" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>データをセットアップするには、次の手順を実行します。&lt;/p>
 &lt;ol>
-&lt;li>&lt;strong>Assign_Floor_Usages_01.cej&lt;/strong> シーンを開きます。&lt;/li>
-&lt;li>Lot スタート ルールを使用して、&lt;strong>Assign_Floor_Usages_01.cga&lt;/strong> ルールファイルを 2D の建物のフットプリント (Footprints) に割り当てます。&lt;/li>
-&lt;li>MassModel スタート ルールを使用して、&lt;strong>Assign_Floor_Usages_01.cga&lt;/strong> ルール ファイルを 3D マスモデル (Mass Models) に割り当てます。&lt;/li>
-&lt;li>両方のシェープを選択します。&lt;/li>
-&lt;li>[Inspector] で展開ボタン をクリックして、最初は空の状態になっている floor_usages 配列属性を展開します。&lt;/li>
-&lt;li>追加ボタン をクリックして、エレメントを配列に追加します。このボタンを 4 回クリックして、デフォルトの使用状況である ResidentialSingle-Family で 4 つのフロアを作成します。&lt;/li>
+&lt;li>[Navigator] ウィンドウで &lt;strong>Tutorial_21_CSV_Import&lt;/strong> チュートリアル フォルダーを展開します。&lt;/li>
+&lt;li>&lt;strong>scenes&lt;/strong> フォルダー内の &lt;strong>Assign_Floor_Usages_01.cej&lt;/strong> シーンを開きます。すると、2D の建物フットプリントと 3D の建物ボリュームが &lt;a href="https://doc.arcgis.com/en/cityengine/latest/help/help-viewport.htm"target="_blank" rel="noopener">[Viewport]&lt;/a> ウィンドウに表示されます。&lt;/li>
 &lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-21-CSV-import/GUID-1058BA22-E09E-4B99-9441-DE19A93F39C7-web.png" width="500">&lt;figcaption>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-21-CSV-import/CE_CT_21_20260115_02.png" width="500">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
-&lt;p>行を削除する必要がある場合は、各エレメントの横にある灰色の配列インデックスを右クリックして、&lt;strong>Delete Row&lt;/strong> をクリックします。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-21-CSV-import/GUID-C4007EFB-4985-4F20-838F-A68F355FB783-web.png" width="500">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>このルールは、2D の建物フットプリント (左) と 3D のマスモデル (右) に適用されます。この初期状態では、ルールにはデフォルトの使用状況、色、および各フロアに割り当てられたフロアの高さがあります。&lt;/p>
-&lt;h3>CSV ファイルからデータをインポート&lt;span class="hx:absolute hx:-mt-20" id="csv-ファイルからデータをインポート">&lt;/span>
-&lt;a href="#csv-%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%8b%e3%82%89%e3%83%87%e3%83%bc%e3%82%bf%e3%82%92%e3%82%a4%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>&lt;strong>Assign_Floor_Usages_02.cej&lt;/strong> シーンを開きます。&lt;/li>
-&lt;li>&lt;strong>Assign_Floor_Usages_02.cga&lt;/strong> ルール ファイルを開きます。&lt;/li>
-&lt;li>「/assets/usages.csv」CSV ファイル内のスペース使用状況データを確認します。
-最初の列にはスペースの使用状況がリストされ、次の列には各使用状況の色と床の高さが含まれています。このファイルはコンマと改行区切り文字で構成されていますが、コンマ、セミコロン、タブ、スペースなど、多くの一般的な区切り文字も有効です。Excel ファイルは以下の様になっています。&lt;/li>
+&lt;ol start="3">
+&lt;li>&lt;strong>rule&lt;/strong> フォルダーにある &lt;strong>Assign_Floor_Usages_01.cga&lt;/strong> ルール ファイルを &lt;strong>Lot&lt;/strong> スタート ルールを使って 2D 建物フットプリントに割り当てます。&lt;/li>
+&lt;li>&lt;strong>Assign_Floor_Usages_01.cga&lt;/strong> ルール ファイルを、&lt;strong>MassModel&lt;/strong> スタート ルールを使って 3D マス モデルに割り当てます。&lt;/li>
+&lt;li>2D 建物フットプリントと 3D 建物マス モデルの両方を選択します。&lt;/li>
+&lt;li>[&lt;strong>Inspector&lt;/strong>] ウィンドウで [&lt;strong>Expand&lt;/strong>] ボタンをクリックし、最初は空になっている &lt;strong>floor_usages&lt;/strong> 配列属性を表示します。[&lt;strong>Add&lt;/strong>] ボタンが表示され、配列に要素を追加できるようになります。&lt;/li>
+&lt;li>[&lt;strong>Add&lt;/strong>] ボタンを 5 回クリックして、デフォルトの用途「&lt;strong>Residential Single-Family&lt;/strong>」を持つ 5 つのフロアを作成します。&lt;/li>
 &lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-21-CSV-import/GUID-15A8B152-780A-42E2-B04E-A1A4C9043BA5-web.png" width="500">&lt;figcaption>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-21-CSV-import/CE_CT_21_20260115_03.png" width="500">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
-&lt;ol start="4">
-&lt;li>CSV ファイルからデータを読み取るには、Constants and Function セクションにある default_floor_height の後に次のコードを追加します。&lt;/li>
+&lt;p>3D 建物マスは、元のモデルで事前に定義された高さを超えないことに気付くでしょう。一方、2D フットプリントから生成されたモデルは、デフォルトの用途である「&lt;strong>Residential Single-Family&lt;/strong>」を持つ 5 つのフロアを作成します。&lt;/p>
+&lt;ol start="8">
+&lt;li>[&lt;strong>Inspector&lt;/strong>] ウィンドウで、最後の配列インデックス要素 (行) を右クリックし、[&lt;strong>Delete row&lt;/strong>] をクリックして、余分なフロアを削除します。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-21-CSV-import/CE_CT_21_20260115_04.png" width="250">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;ol start="9">
+&lt;li>[&lt;strong>Viewport&lt;/strong>] ウィンドウの &lt;strong>Visibility settings&lt;/strong> で、[&lt;strong>Shapes&lt;/strong>] のチェックを外すと、各フロアをより明確に見ることができます。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-21-CSV-import/CE_CT_21_20260115_05.png" width="250">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>現在のシーンでは、デフォルトの用途が「&lt;strong>Residential Single-Family&lt;/strong>」のルールが適用されており、建物はグレーの色で表示され、フロアの高さはデフォルトで 2.85 m になっています。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-21-CSV-import/CE_CT_21_20260115_06.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>&lt;strong>Assign_Floor_Usages_02.cej&lt;/strong> シーンを開き、同じ結果を参照します。&lt;/p>
+&lt;h2>Part 2: CSV ファイルからデータをインポート&lt;span class="hx:absolute hx:-mt-20" id="part-2-csv-ファイルからデータをインポート">&lt;/span>
+&lt;a href="#part-2-csv-%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%8b%e3%82%89%e3%83%87%e3%83%bc%e3%82%bf%e3%82%92%e3%82%a4%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>これらの属性をより明確に定義するために、CSV テーブルを使用して配列を入力し、次の手順を実行します。&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>assets&lt;/strong> フォルダー内の &lt;strong>usages.csv&lt;/strong> ファイルを開き、空間用途データを表示します。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-21-CSV-import/CE_CT_21_20260115_07.png" width="250">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>最初の列には空間用途が一覧表示され、次の列には各用途に対応する色とフロアの高さが含まれています。
+このファイルは、カンマと改行によって区切られています。その他、カンマ・セミコロン・タブ・スペースなど多くの一般的な区切り文字も使用できます。&lt;/p>
+&lt;p>次に、このテーブルの情報を使って配列を入力します。&lt;/p>
+&lt;ol start="2">
+&lt;li>&lt;a href="https://doc.arcgis.com/en/cityengine/latest/help/help-cga-editor.htm"target="_blank" rel="noopener">[&lt;strong>CGA Editor&lt;/strong>]&lt;/a> ウィンドウで &lt;strong>Assign_Floor_Usages_01.cga&lt;/strong> ルール ファイルを開きます。&lt;/li>
+&lt;li>&lt;strong>usages.csv&lt;/strong> ファイルからデータを読み込むために、&lt;strong>Constants and Functions&lt;/strong> セクション内の &lt;strong>default_floor_height&lt;/strong> の定義の後に 次のコードを追加します。&lt;/li>
 &lt;/ol>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 &lt;div>&lt;pre>&lt;code>// read usages data from csv file
 const usages_filename = &amp;#34;usages.csv&amp;#34;
 const usages_data = readStringTable(usages_filename)
-const numUsages = nRows(usages_data) &lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+const numUsages = nRows(usages_data)&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
 &lt;button
 class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
@@ -11003,13 +11031,14 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;p>readStringTable 関数は、CSV ファイルデータを読み取り、文字列配列を返し、usages_data に格納します。配列の次元は 15 x 3 で、これはデータファイルの行と列の数に対応します。nRows 関数は、配列の行数を返します。&lt;/p>
-&lt;ol start="5">
-&lt;li>usage 属性を再定義し、データ配列の最初の列に設定します。括弧は、配列要素のサブセットにアクセスするために使用されます。括弧内では、行が最初にリストされ、列が後にリストされます。0：numUsages-1は、0 から 14 までのすべての行を返します。コンマの後の 0 は、最初の列を示します。配列インデックスは 0 から始まります。&lt;/li>
+&lt;p>&lt;strong>readStringTable&lt;/strong> 関数は CSV ファイルのデータを読み込み、文字列配列として返し、&lt;strong>usages_data&lt;/strong> に格納します。この配列のサイズは 15 × 3 で、これはデータファイルの行数と列数に対応しています。
+&lt;strong>nRows&lt;/strong> 関数は配列の行数を返します。&lt;/p>
+&lt;ol start="4">
+&lt;li>&lt;strong>usages&lt;/strong> 属性を再定義し、データ配列の 1 列目 (用途名) を設定します。&lt;/li>
 &lt;/ol>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 &lt;div>&lt;pre>&lt;code>@Hidden
-attr usages = usages_data[0:numUsages-1,0] &lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+attr usages = usages_data[0:numUsages-1, 0]&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
 &lt;button
 class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
@@ -11019,12 +11048,29 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;ol start="6">
-&lt;li>Inspector で floor_usages 配列の各エレメントをクリックし、ドロップダウン メニューから使用状況を選択して、フロアごとの使用状況を変更します。リストの値は、CSV ファイルの usage 配列から取得されます。この関係は、属性定義の上の @Enum アノテーションで定義されています。&lt;/li>
+&lt;p>括弧 [ ] 内は「行、列」を意味します。
+&lt;strong>0:numUsages-1&lt;/strong> は 0〜14 行すべてを選択しており、0 は最初の列を表します。
+配列インデックスは 0 から始まります。&lt;/p>
+&lt;ol start="5">
+&lt;li>Ctrl+S で CGA ファイルを保存します。&lt;/li>
+&lt;li>[&lt;strong>Generate&lt;/strong>] (Ctrl+G) をクリックして [&lt;strong>Viewport&lt;/strong>] ウィンドウにモデルを生成します。&lt;/li>
 &lt;/ol>
+&lt;p>次に、それぞれの建物を個別に選択し、[&lt;strong>Inspector&lt;/strong>] ウィンドウでフロア用途を更新します。&lt;/p>
+&lt;ol start="7">
+&lt;li>[&lt;strong>Inspector&lt;/strong>] ウィンドウで &lt;strong>floor_usages&lt;/strong> 配列の各要素を選択し、ドロップダウンから用途を選択します。&lt;/li>
+&lt;li>次の構成に合わせて設定してください。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>0 = Retail&lt;/li>
+&lt;li>1 = Office&lt;/li>
+&lt;li>2 = Residential Multi-Family&lt;/li>
+&lt;li>3 = Residential Multi-Family&lt;/li>
+&lt;/ul>
+&lt;p>リスト内の値は、CSV ファイルの &lt;strong>usages&lt;/strong> 配列から読み込まれています。
+この関係は、CGA ルール ファイル内の属性定義の上にある &lt;strong>@Enum&lt;/strong> アノテーションで指定されています。&lt;/p>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 &lt;div>&lt;pre>&lt;code>@Enum(valuesAttr=usages)
-attr floor_usages = stringArray() &lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+attr floor_usages = stringArray()&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
 &lt;button
 class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
@@ -11034,16 +11080,13 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-21-CSV-import/GUID-294AB412-4D78-4806-8D37-24F30C90D2C7-web.png" width="500">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="7">
-&lt;li>他 2 つの列のデータを格納する定数を定義します。これらの行は、usages 定義の下に追加できます。floatArray 関数は、文字列配列を float 配列に変換します。&lt;/li>
+&lt;p>参考として &lt;strong>Assign_Floor_Usages_02.cga&lt;/strong> を確認してください。&lt;/p>
+&lt;ol start="9">
+&lt;li>残りの 2 つの列 (色、フロア高さ) を格納する定数を定義します。&lt;/li>
 &lt;/ol>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;pre>&lt;code>const colors = usages_data[0:numUsages-1,1]
-const floor_heights = floatArray(usages_data[0:numUsages-1,2]) &lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;div>&lt;pre>&lt;code>const colors = usages_data[0:numUsages-1, 1]
+const floor_heights = floatArray(usages_data[0:numUsages-1, 2])&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
 &lt;button
 class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
@@ -11053,8 +11096,10 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;ol start="8">
-&lt;li>特定の使用状況の色または床の高さを取得する関数を記述します。&lt;/li>
+&lt;p>これらの行は &lt;strong>@Hidden&lt;/strong> セクション内の &lt;strong>usages&lt;/strong> 定義の下に追加します。
+&lt;strong>floatArray&lt;/strong> 関数は、文字列配列を浮動小数点配列に変換します。&lt;/p>
+&lt;ol start="10">
+&lt;li>指定した用途に応じた色またはフロア高さを取得する関数を作成します。&lt;/li>
 &lt;/ol>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 &lt;div>&lt;pre>&lt;code>getUsageColor(usage) = _getUsageColorFromIndex(findFirst(usages, usage))
@@ -11064,35 +11109,7 @@ else: colors[usageInd]
 getFloorHeight(usage) = _getFloorHeightFromIndex(findFirst(usages, usage))
 _getFloorHeightFromIndex(usageInd) =
 case usageInd==-1: default_floor_height
-else: floor_heights[usageInd] &lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-&lt;button
-class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-title="Copy code"
->
-&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;ol start="9">
-&lt;li>データを使用して、使用状況ごとに適切な床の高さを取得します。CreateFloor、FloorMass、および SplitMassModel ルールで、default_floor_height を次のコードに置き換えます。&lt;/li>
-&lt;/ol>
-&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;pre>&lt;code>getFloorHeight(floor_usages[floorInd]) &lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-&lt;button
-class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-title="Copy code"
->
-&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;ol start="10">
-&lt;li>データを使用して、用途に応じて各フロアに色を付けます。 FloorMass ルールで、2 つの default_color の部分を次のコードに置き換えます。&lt;/li>
-&lt;/ol>
-&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;pre>&lt;code>getUsageColor(floor_usages[floorInd]) &lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+else: floor_heights[usageInd]&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
 &lt;button
 class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
@@ -11103,22 +11120,11 @@ title="Copy code"
 &lt;/div>
 &lt;/div>
 &lt;ol start="11">
-&lt;li>Ctrl + S キーを押して、CGA ルール ファイルを保存します。&lt;/li>
-&lt;li>シェープを選択します。&lt;/li>
-&lt;li>ツールバーにある &lt;strong>[Generate]&lt;/strong> をクリックします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-21-CSV-import/2022-03-14_15h32_07.png" width="500">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>ルールがインポートされた CSV ファイルのデータを使用して、フロアごとに指定された使用状況に従い、各フロアの高さと色を定めるようになりました。&lt;/p>
-&lt;h2>Part 2: ダッシュボードの作成&lt;span class="hx:absolute hx:-mt-20" id="part-2-ダッシュボードの作成">&lt;/span>
-&lt;a href="#part-2-%e3%83%80%e3%83%83%e3%82%b7%e3%83%a5%e3%83%9c%e3%83%bc%e3%83%89%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
-&lt;li>レポートを修正して、対応する色で使用状況を報告するようにします。FloorMass ルールで、
-usages[0] を次のコードに置き換えます。&lt;/li>
+&lt;li>各用途に対して適切なフロア高さを取得するために、データを使用します。
+&lt;strong>CreateFloor&lt;/strong>、&lt;strong>FloorMass&lt;/strong>、&lt;strong>SplitMassModel&lt;/strong> の各ルール内にある &lt;strong>default_floor_height&lt;/strong> を、次のコードに置き換えます。&lt;/li>
 &lt;/ol>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;pre>&lt;code>floor_usages[floorInd] &lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;div>&lt;pre>&lt;code>getFloorHeight(floor_usages[floorInd])&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
 &lt;button
 class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
@@ -11128,23 +11134,69 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;ol start="2">
-&lt;li>
-&lt;p>CGA ルールファイルを保存して、モデルを再度生成します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>ダッシュボード カードを作成して、使用ごとの総床面積 (GFA) を視覚化します。&lt;/p>
-&lt;p>a) &lt;strong>[Window]&lt;/strong> メニューから &lt;strong>[Dashboard]&lt;/strong> をクリックします。&lt;/p>
-&lt;p>b) &lt;strong>[Add a Chart]&lt;/strong> をクリックして、&lt;strong>[Bar Chart]&lt;/strong> を選択します。&lt;/p>
-&lt;p>c) &lt;strong>[Icon &amp;amp; Title]&lt;/strong> に「GFA by Usage」と入力します。&lt;/p>
-&lt;p>d) &lt;strong>[Report]&lt;/strong> で &lt;strong>[GFA.*.]&lt;/strong> をクリックして、&lt;strong>Unit&lt;/strong> に「sqm」と入力します。&lt;/p>
-&lt;p>e) 最後に &lt;strong>[Add Card]&lt;/strong> をクリックします。&lt;/p>
-&lt;/li>
+&lt;ol start="12">
+&lt;li>用途に応じて各フロアに色を付けるために、データを使用します。
+FloorMass ルール内にある 2 か所の default_color を、次のコードに置き換えます。&lt;/li>
 &lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-21-CSV-import/2022-03-14_15h32_18.png" width="500">&lt;figcaption>
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;pre>&lt;code>getUsageColor(floor_usages[floorInd])&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;ol start="13">
+&lt;li>Ctrl+Shift+S を押してすべてのファイルを保存します。&lt;/li>
+&lt;li>シェープを選択します。&lt;/li>
+&lt;li>モデルを生成します。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-21-CSV-import/CE_CT_21_20260115_08.png" width="500">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
-&lt;/figure></description></item><item><title>チュートリアル 22: ダイナミック インポート</title><link>/cityengine/tutorials/classic/tutorial-22-dynamic-imports/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-22-dynamic-imports/</guid><description>
+&lt;/figure>
+&lt;p>このルールは、インポートした CSV ファイルのデータを使用して、
+各フロアに指定された用途に応じたフロアの高さと色を決定するようになりました。&lt;/p>
+&lt;h2>Part 3: ダッシュボードの作成&lt;span class="hx:absolute hx:-mt-20" id="part-3-ダッシュボードの作成">&lt;/span>
+&lt;a href="#part-3-%e3%83%80%e3%83%83%e3%82%b7%e3%83%a5%e3%83%9c%e3%83%bc%e3%83%89%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>各用途ごとの延べ床面積 (GFA) を可視化するダッシュボードを作成するには、次の手順を実行します：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Assign_Floor_Usages_01.cej&lt;/strong> シーンが開いていることを確認します。&lt;/li>
+&lt;li>&lt;strong>Assign_Floor_Usages_01.cga&lt;/strong> ルール ファイルを再度開きます。&lt;/li>
+&lt;li>レポートが用途とその対応する色を正しくレポートするように修正します。&lt;strong>FloorMass&lt;/strong> ルール内の &lt;strong>usages[0]&lt;/strong> を、次のコードに置き換えます。&lt;/li>
+&lt;/ol>
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;pre>&lt;code>floor_usages[floorInd]&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;ol start="4">
+&lt;li>[&lt;strong>Window&lt;/strong>] → &lt;strong>Dashboard&lt;/strong> をクリックします。&lt;/li>
+&lt;li>[&lt;strong>Add a Chart&lt;/strong>] をクリックします。&lt;/li>
+&lt;li>&lt;strong>Icon &amp;amp; Title&lt;/strong> の欄に &lt;strong>GFA By Usage&lt;/strong> と入力します。&lt;/li>
+&lt;li>&lt;strong>Report&lt;/strong> で &lt;strong>GFA&lt;/strong> をクリックします。&lt;/li>
+&lt;li>&lt;strong>Unit&lt;/strong> に &lt;strong>sqm&lt;/strong> と入力します。&lt;/li>
+&lt;li>残りの入力項目は既定値のままにして、[&lt;strong>Add Card&lt;/strong>] をクリックして完了します。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-21-CSV-import/CE_CT_21_20260115_09.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>&lt;strong>Assign_Floor_Usages_03.cej&lt;/strong> シーンと &lt;strong>Assign_Floor_Usages_03.cga&lt;/strong> ルール ファイルを開き、最終結果を確認します。&lt;/p>
+&lt;p>このチュートリアルでは、以下のことを学習しました。&lt;/p>
+&lt;ul>
+&lt;li>属性に配列データを追加する方法&lt;/li>
+&lt;li>CSV ファイルからデータをインポートし、用途や色など、モデル内のフロアデータを CGA ファイルで定義する方法&lt;/li>
+&lt;li>各用途ごとの GFA を表示するダッシュボードを作成する方法&lt;/li>
+&lt;/ul></description></item><item><title>チュートリアル 22: ダイナミック インポート</title><link>/cityengine/tutorials/classic/tutorial-22-dynamic-imports/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-22-dynamic-imports/</guid><description>
 &lt;h2>チュートリアル データ&lt;span class="hx:absolute hx:-mt-20" id="チュートリアル-データ">&lt;/span>
 &lt;a href="#%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab-%e3%83%87%e3%83%bc%e3%82%bf" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>チュートリアル データは、&lt;strong>[Help] メニュー&lt;/strong> → &lt;strong>[Download Tutorials and Examples&amp;hellip;]&lt;/strong> を選択し、[CityEngine Tutorial] からダウンロードできます。&lt;/p>
 &lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-22-Dynamic-imports/GUID-2CC15C0F-0111-4FAB-BD50-F3531FFE7EF8-web.png" width="500">&lt;figcaption>

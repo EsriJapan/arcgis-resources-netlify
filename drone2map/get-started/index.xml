@@ -1,9 +1,8 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – スタートアップ ガイド</title><link>/drone2map/get-started/</link><description>Recent content in スタートアップ ガイド on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Wed, 26 May 2021 00:00:00 +0900</lastBuildDate><atom:link href="/drone2map/get-started/index.xml" rel="self" type="application/rss+xml"/><item><title>ライセンス</title><link>/drone2map/get-started/license/</link><pubDate>Wed, 26 May 2021 00:00:00 +0900</pubDate><guid>/drone2map/get-started/license/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – スタートアップ ガイド</title><link>/drone2map/get-started/</link><description>Recent content in スタートアップ ガイド on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Thu, 26 Feb 2026 00:00:00 +0900</lastBuildDate><atom:link href="/drone2map/get-started/index.xml" rel="self" type="application/rss+xml"/><item><title>ライセンス</title><link>/drone2map/get-started/license/</link><pubDate>Thu, 26 Feb 2026 00:00:00 +0900</pubDate><guid>/drone2map/get-started/license/</guid><description>
 &lt;h2>指定ユーザー ライセンス&lt;span class="hx:absolute hx:-mt-20" id="指定ユーザー-ライセンス">&lt;/span>
 &lt;a href="#%e6%8c%87%e5%ae%9a%e3%83%a6%e3%83%bc%e3%82%b6%e3%83%bc-%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Drone2Map は、指定ユーザー ライセンスと呼ばれるライセンスを使用します。指定ユーザーライセンスは、ArcGIS Online または Portal for ArcGIS を使用して構成され、組織の管理者が個々のユーザーに Drone2Map ライセンスを割り当てることで、ユーザーは Drone2Map にサイン インしてライセンスを利用します。&lt;/p>
 &lt;h2>Drone2Map ライセンス&lt;span class="hx:absolute hx:-mt-20" id="drone2map-ライセンス">&lt;/span>
-&lt;a href="#drone2map-%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ArcGIS Drone2Map 2022.1 以降、Drone2Map ライセンスには 2 つの新しいライセンス レベルが導入されました。購入したライセンス レベルに応じて ArcGIS Drone2Map Standard または ArcGIS Drone2Map Advanced をユーザーに割り当てます。&lt;/p>
-&lt;p>バージョン 2.3.3 を使用されていた場合、既に追加されている『ArcGIS Drone2Map』ライセンスでは、バージョン 2022.1 以降の ArcGIS Drone2Map はご利用いただけませんのでご注意ください。&lt;/p>
+&lt;a href="#drone2map-%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Drone2Map のライセンスには 2 つのライセンス レベルが導入されています。購入したライセンス レベルに応じて ArcGIS Drone2Map Standard または ArcGIS Drone2Map Advanced をユーザーに割り当てます。&lt;/p>
 &lt;p>ライセンス タイプは、ArcGIS Online または Portal for ArcGIS 組織サイトの [ライセンス] タブで確認することができます。&lt;/p>
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
@@ -19,17 +18,17 @@
 &lt;/li>
 &lt;li>
 &lt;p>ArcGIS Online 組織サイトを既に利用開始している場合&lt;br>
-ArcGIS Online のスタートアップ ガイドの&lt;a href="https://doc.esrij.com/online/get-started/administer/license/assign/"target="_blank" rel="noopener">ライセンスの割り当てと解除&lt;/a>を参考に Drone2Mapを利用するメンバーに Drone2Map を割り当てます。&lt;/p>
+ArcGIS Online のスタートアップ ガイドの&lt;a href="https://doc.esrij.com/online/get-started/administer/license/assign/"target="_blank" rel="noopener">ライセンスの割り当てと解除&lt;/a>を参考に Drone2Map を利用するメンバーに Drone2Map を割り当てます。&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Portal for ArcGIS をご利用の場合&lt;br>
-ライセンス ファイルの取得が必要となります。詳細は以下の Portal for ArcGIS の &lt;a href="https://enterprise.arcgis.com/ja/portal/latest/administer/windows/configure-drone2map-licenses.htm"target="_blank" rel="noopener">ArcGIS Drone2Map ライセンスの構成&lt;/a> をご参考ください。&lt;/p>
+ライセンス ファイルの取得が必要となります。詳細は以下の Portal for ArcGIS の &lt;a href="https://enterprise.arcgis.com/ja/portal/latest/administer/windows/configure-drone2map-licenses.htm"target="_blank" rel="noopener">ArcGIS Drone2Map ライセンスの構成&lt;/a>をご参考ください。&lt;/p>
 &lt;/li>
 &lt;/ul></description></item><item><title>動作環境</title><link>/drone2map/get-started/environment/</link><pubDate>Wed, 26 May 2021 00:00:00 +0900</pubDate><guid>/drone2map/get-started/environment/</guid><description>
 &lt;p>インストールを行う前に、動作環境をご確認いただき、要件を満たす環境をご用意ください。最新のシステム要件や推奨されるハードウェア要件につきましてはヘルプをご参照ください。&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://doc.arcgis.com/ja/drone2map/latest/get-started/arcgis-drone2map-system-requirements.htm"target="_blank" rel="noopener">ArcGIS Drone2Map 動作環境&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>ダウンロード</title><link>/drone2map/get-started/download/</link><pubDate>Wed, 26 May 2021 00:00:00 +0900</pubDate><guid>/drone2map/get-started/download/</guid><description>
+&lt;li>&lt;a href="https://doc.arcgis.com/ja/drone2map/latest/get-started/arcgis-drone2map-system-requirements.htm"target="_blank" rel="noopener">ArcGIS Drone2Map のシステム要件&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>ダウンロード</title><link>/drone2map/get-started/download/</link><pubDate>Thu, 26 Feb 2026 00:00:00 +0900</pubDate><guid>/drone2map/get-started/download/</guid><description>
 &lt;h2>Drone2Map インストーラーのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="drone2map-インストーラーのダウンロード">&lt;/span>
 &lt;a href="#drone2map-%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%a9%e3%83%bc%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
 &lt;li>
@@ -41,7 +40,7 @@ ArcGIS Online のスタートアップ ガイドの&lt;a href="https://doc.esrij
 ダウンロード
 ページへのアクセス方法、ダウンロード方法は、 「&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge107.html"target="_blank" rel="noopener">製品のダウンロード&lt;/a>」 ページをご参照ください。&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>インストールとアンインストール</title><link>/drone2map/get-started/installuninstall/</link><pubDate>Wed, 26 May 2021 00:00:00 +0900</pubDate><guid>/drone2map/get-started/installuninstall/</guid><description>
+&lt;/ol></description></item><item><title>インストールとアンインストール</title><link>/drone2map/get-started/installuninstall/</link><pubDate>Thu, 26 Feb 2026 00:00:00 +0900</pubDate><guid>/drone2map/get-started/installuninstall/</guid><description>
 &lt;h2>Drone2Map のインストール&lt;span class="hx:absolute hx:-mt-20" id="drone2map-のインストール">&lt;/span>
 &lt;a href="#drone2map-%e3%81%ae%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Drone2Map をインストールする手順を説明します。&lt;/p>
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
@@ -61,19 +60,19 @@ ArcGIS Online のスタートアップ ガイドの&lt;a href="https://doc.esrij
 &lt;/li>
 &lt;li>
 &lt;p>Drone2Map がインストールされたら [完了] をクリックします。&lt;br>
-続けて 「ArcGIS Drone2Map 日本語パック」 のインストールが開始します。&lt;/p>
+続けて 「ArcGIS Drone2Map 言語パック」 のインストールが開始します。&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Drone2Map 日本語パックのセットアップが終了したら [OK]
+&lt;p>Drone2Map 言語パックのセットアップが終了したら [OK]
 をクリックします。&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>パッチおよび任意プログラムのインストールについて&lt;/p>
-&lt;p>Drone2Map のパッチをインストールする場合は、続いてインストールをしてください。&lt;/p>
-&lt;/div>
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">パッチおよび任意プログラムのインストールについて&lt;br>
+Drone2Map のパッチやディープ ラーニング ライブラリーなどの追加のインストール パッケージをインストールする場合は、続けてインストールをしてください。&lt;br>
+詳細は&lt;a href="https://doc.arcgis.com/ja/drone2map/latest/get-started/optional-installation-packages.htm"target="_blank" rel="noopener">オプションのインストール パッケージ&lt;/a>をご参照ください。&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;p>以上で Drone2Map のインストールは完了です。&lt;/p>
@@ -82,21 +81,14 @@ ArcGIS Online のスタートアップ ガイドの&lt;a href="https://doc.esrij
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">必ずアンインストール前にオフライン設定の解除を行ってください。&lt;/div>
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">オフライン設定をしている場合はアンインストール前に必ずオフライン設定を解除してください。&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;ol>
-&lt;li>
-&lt;p>Windows の [コントロール パネル] → [プログラムと機能]
-を開きます。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>「ArcGIS Drone2Map 日本語パック」 → 「ArcGIS Drone2Map」
-の順にアンインストールします。各プログラムについて
-[アンインストールと変更]
-をクリックしてアンインストールを実行します。&lt;/p>
-&lt;/li>
-&lt;/ol></description></item><item><title>サイン インとサイン アウト</title><link>/drone2map/get-started/signinsignout/</link><pubDate>Wed, 26 May 2021 00:00:00 +0900</pubDate><guid>/drone2map/get-started/signinsignout/</guid><description>
+&lt;li>Windows の [スタート] ボタンから [設定] ウィンドウを開き、[アプリ] → [インストールされているアプリ] に移動します。&lt;/li>
+&lt;li>アプリのリスト内で 「ArcGIS Drone2Map 言語パック」 → 「ArcGIS Drone2Map」 の順にアンインストールします。
+削除したいアプリに対し [アンインストール] をクリックし、表示されるポップアップ メッセージで [アンインストール] をクリックします。&lt;/li>
+&lt;/ol></description></item><item><title>サイン インとサイン アウト</title><link>/drone2map/get-started/signinsignout/</link><pubDate>Thu, 26 Feb 2026 00:00:00 +0900</pubDate><guid>/drone2map/get-started/signinsignout/</guid><description>
 &lt;h2>Drone2Map へのサイン イン&lt;span class="hx:absolute hx:-mt-20" id="drone2map-へのサイン-イン">&lt;/span>
 &lt;a href="#drone2map-%e3%81%b8%e3%81%ae%e3%82%b5%e3%82%a4%e3%83%b3-%e3%82%a4%e3%83%b3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ライセンスを割り当てた Drone2Map にサイン インする方法を説明します。&lt;/p>
 &lt;p>メンバーへのライセンスの割り当てについては
@@ -105,7 +97,7 @@ ArcGIS Online のスタートアップ ガイドの&lt;a href="https://doc.esrij
 &lt;ol>
 &lt;li>
 &lt;p>Windows [スタート] メニュー → [ArcGIS] フォルダー →
-[Drone2Map] を選択し起動させます。&lt;/p>
+[ArcGIS Drone2Map] を選択し起動します。&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>サイン イン画面でアカウント情報を入力してサイン インを行います。&lt;/p>
@@ -114,7 +106,6 @@ ArcGIS Online のスタートアップ ガイドの&lt;a href="https://doc.esrij
 &lt;h2>Drone2Map からのサイン アウト&lt;span class="hx:absolute hx:-mt-20" id="drone2map-からのサイン-アウト">&lt;/span>
 &lt;a href="#drone2map-%e3%81%8b%e3%82%89%e3%81%ae%e3%82%b5%e3%82%a4%e3%83%b3-%e3%82%a2%e3%82%a6%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Drone2Map からサイン アウトする方法を説明します。&lt;/p>
 &lt;ol>
-&lt;li>Drone2Map
-でプロジェクトを開いた状態で、画面右上のユーザー名をクリック →
-[サイン アウト] をクリックします。&lt;/li>
+&lt;li>Drone2Map を起動し、画面右上の [サイン アウト] をクリックします。&lt;br>
+もしくはプロジェクトを開いた状態で、画面右上のユーザー名をクリック → [サイン アウト] をクリックします。&lt;/li>
 &lt;/ol></description></item></channel></rss>

@@ -1354,32 +1354,30 @@ Viewer]&lt;/strong> をクリックします。&lt;/p>
 &lt;p>他のエッセンシャル チュートリアルもご参照ください。: &lt;a href="/cityengine/tutorials/essentials/cityengine-tour/">CityEngine ツアー&lt;/a>と
 &lt;a href="/cityengine/tutorials/essentials/rule-based-modeling/">ルール ベースのモデリング&lt;/a>&lt;/p>
 &lt;p>CityEngine の学習を続けるには、&lt;a href="/cityengine/tutorials/">CityEngine チュートリアル&lt;/a>
-をご参照ください。&lt;/p></description></item><item><title>ルール ベースのモデリング</title><link>/cityengine/tutorials/essentials/rule-based-modeling/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/essentials/rule-based-modeling/</guid><description>
+をご参照ください。&lt;/p></description></item><item><title>ルール ベースのモデリング</title><link>/cityengine/tutorials/essentials/rule-based-modeling/</link><pubDate>Sun, 15 Feb 2026 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/essentials/rule-based-modeling/</guid><description>
 &lt;p>チュートリアル データは、&lt;strong>[Help] メニュー&lt;/strong> → &lt;strong>[Download Tutorials
 and Examples&amp;hellip;]&lt;/strong> を選択し、[CityEngine Tutorial]
 からダウンロードできます。&lt;/p>
 &lt;p>&lt;em>このチュートリアルは、Houseal Lavigne Associates の Devin Lavigne 氏との共同作業で作成されました。&lt;/em>&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/GUID-7D9CF3D2-8EAF-4B3C-B65B-24CA0AF5A98F-web.png" width="500">&lt;figcaption>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/CE_ET_RuleBasedModeling_20260120_01.png" width="800">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
 &lt;h2>概要&lt;span class="hx:absolute hx:-mt-20" id="概要">&lt;/span>
-&lt;a href="#%e6%a6%82%e8%a6%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>CityEngine は「プロシージャル モデリング アプリケーション」と呼ばれ、2D の形状が一連の手順 (CGA ルール ファイル) を経て 3D のモデルになります。CityEngine の強みは CGA (Computer Generated Architecture) にあります。CityEngine のシェープ グラマーである CGA は、建築物の 3D コンテンツを生成するために指定できる独自のプログラミング言語です。基本的には、CGA のルールを形状に割り当てたり、適用したりすることで 3D モデルが作成されます。
-3D モデルの複雑さは、CGA のルールとその中の指示によって決まります。単純な CGA ファイルでは、建物のフットプリント 形状を取得し、それを押し出して 3D の形状や集合体にすることができます。
-一方、より複雑な CGA ルールでは、集合体のファサードにテクスチャを適用したり、他のパーツに分割して、豊富で詳細な 3D モデルを生成したりすることができます。&lt;/p>
-&lt;p>CGA を書くことにおいての秘訣の 1 つは、ルールを段階的にオーサリングし、その都度機能を組み込んでいくことです。望ましい結果を得るための計画を立てることは重要ですが、500 行のコードを書いてそのまま進めるわけではありません。むしろ、段階的にルールを構築し、結果をテストしながら進めていくのです。&lt;/p>
-&lt;p>このチュートリアルでは、単純なフットプリントから一連の 3D 建物を作成するルールのオーサリングについて説明します。&lt;/p>
+&lt;a href="#%e6%a6%82%e8%a6%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>CityEngine は「プロシージャル モデリング アプリケーション」であり、2D シェープを一連の処理 (CGA ルール ファイル) に通すことで 3D モデルを生成します。CityEngine の強みは、CGA (Computer Generated Architecture) にあります。CGA は CityEngine の建築的な 3D コンテンツを生成するために記述できる独自のプログラミング言語です。基本的に CGA ルールをシェープに割り当てたり適用したりすると、3D モデルが作成されます。3D モデルの複雑さは、CGA ルールおよびその中に記述された指示によって決まります。単純な CGA ファイルは建物のフットプリント形状を押し出して 3D のシェープ (マス) を作成するだけかもしれません。一方、より複雑な CGA ルールでは、マスのファサードにテクスチャーを適用したり、それを分割して詳細な 3D モデルを生成したりすることができます。&lt;/p>
+&lt;p>CGA コードを書くうえで重要なのは、ルールを段階的に作成しその都度機能を追加していくことです。最終的にどうしたいかの計画は必要ですが、いきなり 500 行のコードを書いて実行するわけではありません。どちらかというと、ルールを少しずつ構築し、その都度結果を確認しながら進めていきます。&lt;/p>
+&lt;p>このチュートリアルでは、単純なフットプリントから一連の 3D 建物を作成するルールを記述する方法を学びます。&lt;/p>
 &lt;h2>シーンを開く&lt;span class="hx:absolute hx:-mt-20" id="シーンを開く">&lt;/span>
 &lt;a href="#%e3%82%b7%e3%83%bc%e3%83%b3%e3%82%92%e9%96%8b%e3%81%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>始めるにはプロジェクトの &lt;strong>scenes&lt;/strong> フォルダーから &lt;strong>BasicsOfRules.cej&lt;/strong> を開きます。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/GUID-7436236E-ACAA-4A78-A63A-E54EEFF9432F-web.png" width="500">&lt;figcaption>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/CE_ET_RuleBasedModeling_20260120_02.png" width="600">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
 &lt;/p>
 &lt;h2>Hello, World!&lt;span class="hx:absolute hx:-mt-20" id="hello-world">&lt;/span>
-&lt;a href="#hello-world" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>コーディングには、「Hello, World!」呼ばれるものがあります。これは、簡単なコードを書いて簡単なメッセージを出力することで、基本的な構文を確認し、自分のコードが動作していることを確認する方法です。CityEngine での「Hello World!」バージョンは、ランダムな高さの押し出しで、形状に色を適用するシンプルなものです。&lt;/p>
-&lt;p>最初のルールを作成するために、&lt;strong>rules&lt;/strong> フォルダーを右クリックし、&lt;strong>[New] → [CGA Rule File]&lt;/strong> に進み、ルールに &lt;strong>DetailedBuilding.cga&lt;/strong> と名前をつけます。&lt;/p>
-&lt;p>まず、使用している CityEngine のバージョン (例えばバージョン 2022.1) を記述したコードの行の下に、以下の行を追加してルールを保存します。&lt;/p>
+&lt;a href="#hello-world" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>コーディングには「Hello, World!」というものがあります。これは、簡単なコードを書いて簡単なメッセージを出力することで、基本的な構文を確認したり、コードが正しく動作しているか確認したりする方法です。CityEngine における「Hello, World!」の例は、ランダムな高さで形状を単純に押し出し、色を適用するという、シンプルなものです。&lt;/p>
+&lt;p>最初のルールを作成するために、rules フォルダーを右クリックし、&lt;strong>[New] → [CGA Rule File]&lt;/strong> を選択し、ルール名を &lt;strong>DetailedBuilding.cga&lt;/strong> とします。&lt;/p>
+&lt;p>まず、使用している CityEngine のバージョン (例: version 20XX.X) が書かれている行の下に、以下のコードを追加し、ルールを保存します。&lt;/p>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 &lt;div>&lt;pre>&lt;code>@StartRule
 Footprint --&amp;gt;
@@ -1394,16 +1392,16 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;strong>＠StartRule&lt;/strong> のアノテーションをつけることで、ピッカーから &lt;strong>Footprint&lt;/strong> ルールを利用できるようになります。次の行では、10 から 100 メートルの間でランダムに高さを変えて形状を押し出しています。最後の行では RGB で黄色に着色しています。&lt;/p>
+&lt;p>&lt;strong>@StartRule&lt;/strong> アノテーションを付与すると、この &lt;strong>Footprint&lt;/strong> ルールが利用できるようになります。次の行では、シェープを 10〜100 メートルのランダムな高さに押し出します。最後の行は、シェープを RGB の黄色に着色します。&lt;/p>
 &lt;h2>ルールの割り当て&lt;span class="hx:absolute hx:-mt-20" id="ルールの割り当て">&lt;/span>
 &lt;a href="#%e3%83%ab%e3%83%bc%e3%83%ab%e3%81%ae%e5%89%b2%e3%82%8a%e5%bd%93%e3%81%a6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ルールを保存したら、形状を選択してルールを割り当てます (下図参照)。新しいルールを割り当てた後、何も起こらない場合は、&lt;strong>[Generate Models]&lt;/strong> ツール (Ctrl+G) をクリックするか、メイン メニューの &lt;strong>[Shapes] → [Generate Models]&lt;/strong> をクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/GUID-DE1D0FC2-F7BF-4AB0-A0BF-C5C5C59E2446-web.png" width="500">&lt;figcaption>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/CE_ET_RuleBasedModeling_20260120_03.png" width="600">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
 &lt;/p>
 &lt;h2>属性の追加&lt;span class="hx:absolute hx:-mt-20" id="属性の追加">&lt;/span>
-&lt;a href="#%e5%b1%9e%e6%80%a7%e3%81%ae%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ルールが動作するようになったので、属性として高さを追加して、ルールにいくつかの追加機能を持たせます。重要なのは段階的な変化であることを忘れないでください。つまり、ゼロから始めるのではなく、すでに始めているルールに変更を加えていくのです。&lt;/p>
+&lt;a href="#%e5%b1%9e%e6%80%a7%e3%81%ae%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ルールが動作することを確認できたので、高さを属性として追加し、ルールにいくつかの追加機能を持たせます。重要なポイントは、段階的な変更をすることです。ゼロから書き直すのではなく、すでに作成したルールに変更を追加していきます。&lt;/p>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 &lt;div>&lt;pre>&lt;code>@Group(&amp;#34;Building Shell&amp;#34;)
 @Range(min=0, max=100, stepsize=1)
@@ -1421,21 +1419,20 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;p>これらの変更により、ランダム化された建物の高さが &lt;strong>building_height&lt;/strong> という属性に移動しました。この属性はまだすべての形状で生成されますが、&lt;strong>[Inspector]&lt;/strong> ウィンドウでコントロールできる属性に移動されます。また、乱数を最も近い整数に丸める &lt;strong>rint&lt;/strong> という新しい組み込み関数も追加されました。&lt;/p>
-&lt;p>&lt;strong>@Group&lt;/strong> アノテーションは &lt;strong>[Inspector]&lt;/strong> ウィンドウに表示される属性の場所を整理するのに役立ちます。&lt;strong>@Range&lt;/strong> アノテーションは、スライダーの機能を制御します。建物の高さを属性にすることで、各形状の高さを制御するスライダーを持つことができます。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/GUID-4D22D951-8536-42C6-AC5D-49D1AE40812B-web.png" width="500">&lt;figcaption>
+&lt;p>これらの変更によって、ランダムな建物の高さが &lt;strong>building_height&lt;/strong> という属性に移されました。これにより、依然としてすべてのシェープに対して高さは生成されますが、[&lt;strong>Inspector&lt;/strong>] ウィンドウでユーザーが操作できる属性として管理できるようになります。また、新たに乱数を最も近い整数に丸める &lt;strong>rint&lt;/strong> という組み込み関数を追加しています。&lt;/p>
+&lt;p>&lt;strong>@Group&lt;/strong> アノテーションは、[&lt;strong>Inspector&lt;/strong>] ウィンドウに表示される属性の場所を整理するのに役立ちます。&lt;strong>@Range&lt;/strong> アノテーションは、スライダーを制御するためのものです。建物の高さを属性にすることで、各シェープの高さを調整できるスライダーが利用可能になります。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/CE_ET_RuleBasedModeling_20260120_04.png" width="600">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
-これで建物をクリックすると、高さの調整と乱数のオーバーライドができるようになりました。また、スライダーは範囲の最小値と最大値である 0 から100 の間だけになりました。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/GUID-0B2E7080-F773-40F0-A873-2FA0597FD89A-web.png" width="500">&lt;figcaption>
+&lt;p>建物をクリックすると、高さを調整してランダムに生成された数値を上書きできるようになります。また、スライダーは設定した範囲の最小値と最大値である 0 から 100 の間 だけ動くようになっています。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/CE_ET_RuleBasedModeling_20260120_05.png" width="600">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
 &lt;/p>
 &lt;h2>ハンドルの追加&lt;span class="hx:absolute hx:-mt-20" id="ハンドルの追加">&lt;/span>
-&lt;a href="#%e3%83%8f%e3%83%b3%e3%83%89%e3%83%ab%e3%81%ae%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ハンドルは属性の機能を拡張し、非常に直感的かつ対話的な方法で制御をシーンにもたらします。&lt;/p>
-&lt;p>&lt;strong>＠Handle&lt;/strong> アノテーションと &lt;strong>Mass&lt;/strong> ルールを追加して、モデル内の建物の高さを制御するハンドルを含めることができます。&lt;/p>
+&lt;a href="#%e3%83%8f%e3%83%b3%e3%83%89%e3%83%ab%e3%81%ae%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ハンドルは、属性の機能を拡張し、シーン内で直感的かつインタラクティブに操作できるようにします。建物の高さを制御するハンドルをモデルに追加するために、&lt;strong>@Handle&lt;/strong> アノテーション と &lt;strong>Mass&lt;/strong> ルールを追加します。&lt;/p>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 &lt;div>&lt;pre>&lt;code>@Group(&amp;#34;Building Shell&amp;#34;)
 @Handle(shape=Mass, axis=y)
@@ -1455,15 +1452,14 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;p>モデルを再生成する (CTRL+G) ことを忘れないでください。ハンドルが建物に表示され、高さ属性を調整することができます。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/GUID-BF966D94-158B-4120-9CBA-69D28DEEC242-web.png" width="500">&lt;figcaption>
+&lt;p>モデルを再生成することを忘れないでください (CTRL+G)。そうすると、建物にハンドルが表示され、高さ属性を調整できるようになります。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/CE_ET_RuleBasedModeling_20260120_06.png" width="600">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
-&lt;/p>
 &lt;h2>フロア分割の追加&lt;span class="hx:absolute hx:-mt-20" id="フロア分割の追加">&lt;/span>
-&lt;a href="#%e3%83%95%e3%83%ad%e3%82%a2%e5%88%86%e5%89%b2%e3%81%ae%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ルールの段階的な変更の続きとして、今度は建物をフロアごと (y 軸に沿って) 垂直分割するコードを追加します。&lt;/p>
-&lt;p>新しい &lt;strong>floor_height&lt;/strong> 属性で制御される分割操作で、&lt;strong>Mass&lt;/strong> ルールを作成します。デフォルトの単位はメートルのため、以下のコードでは 3.048 メートルと表示されており、&lt;strong>#&lt;/strong> で示されたコメントは 10 フィートであることを知らせるためのものです。&lt;/p>
+&lt;a href="#%e3%83%95%e3%83%ad%e3%82%a2%e5%88%86%e5%89%b2%e3%81%ae%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ルールを段階的に変更していく流れの続きとして、建物を各フロアごとに 縦方向 (y 軸方向) に分割するコードを追加します。
+新しい &lt;strong>floor_height&lt;/strong> 属性で制御される分割処理を行う &lt;strong>Mass&lt;/strong> ルール を作成します。なお、CityEngine のデフォルトの単位はメートルなので、以下のコードの 3.048 メートルは、コメント (# で表記) にもあるとおり 10 フィート であることを示しています。&lt;/p>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 &lt;div>&lt;pre>&lt;code>@Group(&amp;#34;Building Shell&amp;#34;)
 @Handle(shape=Mass, axis=y)
@@ -1487,12 +1483,12 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;p>&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/GUID-A0988603-B534-493B-81FB-22FCC97AD816-web.png" width="500">&lt;figcaption>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/CE_ET_RuleBasedModeling_20260120_07.png" width="600">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
-建物の最上階の階高が違うことにお気づきでしょうか。これは、分割が下から始まり上に向かって分割され、すべての分割が行われた後に残ったものが最上階の高さであるためです。&lt;/p>
-&lt;p>この違いを修正する 1 つの方法は、階高の前にチルダ文字 (~) を追加することです。これは CityEngine にフローティング サイズを使用するように指示し、ソフトウェアが自動的に分割を調整することを可能にします。各フロアの高さは正確には 3.048 メートルではありませんが、すべて等しくなり、余分な部分がなくなります。&lt;/p>
+&lt;p>建物の最上階のフロアの高さが他の階と異なっていることに気づいているかもしれません。これは、分割が下から開始され上方向に進むため、すべての分割の処理が終わった後に残ったものが最上階の高さになるためです。&lt;/p>
+&lt;p>この問題を修正する 1 つの方法は、floor_height の前にチルダ (~) を付けることです。これは CityEngine に浮動サイズを使用するよう指示するもので、ソフトウェアが自動的に分割を調整できるようにします。この方法では各フロアの高さが正確に 3.048 メートルになるわけではありませんが、すべてのフロアが均等な高さになり、余りの部分がなくなります。&lt;/p>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 &lt;div>&lt;pre>&lt;code>Mass --&amp;gt;
 split(y) { ~floor_height : Floor }*&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
@@ -1505,13 +1501,14 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/GUID-E16372F7-A36C-459D-842C-072C82D5A339-web.png" width="500">&lt;figcaption>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/CE_ET_RuleBasedModeling_20260120_08.png" width="600&amp;#34;">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
 &lt;h2>用途別に着色する関数の構築&lt;span class="hx:absolute hx:-mt-20" id="用途別に着色する関数の構築">&lt;/span>
-&lt;a href="#%e7%94%a8%e9%80%94%e5%88%a5%e3%81%ab%e7%9d%80%e8%89%b2%e3%81%99%e3%82%8b%e9%96%a2%e6%95%b0%e3%81%ae%e6%a7%8b%e7%af%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>まず、&lt;strong>@StartRule&lt;/strong> でフットプリントに色を指定した行をコメント アウトします。ルールからルールへと形状が処理される際に何度も色を変更することができますが、色を設定するのは一度だけにすることをおすすめします。&lt;/p>
-&lt;p>&lt;strong>#color(1,1,0)&lt;/strong> というコメントを追加します。&lt;/p>
+&lt;a href="#%e7%94%a8%e9%80%94%e5%88%a5%e3%81%ab%e7%9d%80%e8%89%b2%e3%81%99%e3%82%8b%e9%96%a2%e6%95%b0%e3%81%ae%e6%a7%8b%e7%af%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>まず、&lt;strong>@StartRule&lt;/strong> 内でフットプリントに色を割り当てている行をコメント アウトする必要があります。
+シェープはルールごとに処理される中で複数回色を変更することもできますが、色は一度だけ設定するのが好ましいです。&lt;/p>
+&lt;p>次のようにコメントを追加して、&lt;strong>#color(1,1,0)&lt;/strong> の行をコメント アウトします。&lt;/p>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 &lt;div>&lt;pre>&lt;code>@StartRule
 Footprint --&amp;gt;
@@ -1527,7 +1524,7 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;p>関数は、ある処理を実行して値を返すために使用し、再利用できるルーチンまたはコードのかたまりです。土地利用によってフロアを着色するには、適切な色を使用するために呼び出される簡単な関数を構築することができます。そのためには、フロアの位置によって異なる土地利用を選択できるようにするための属性も作成する必要があります。&lt;/p>
+&lt;p>関数は、ある処理を実行して値を返すために、再利用できるルーチンやコードのかたまりです。フロアを用途ごとに色付けするために、適切な色を呼び出すシンプルな関数を作成することができます。そのためには、各フロアの位置によって異なる用途を選択できるように、いくつかの属性を作成する必要があります。&lt;/p>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 &lt;div>&lt;pre>&lt;code>@Group(&amp;#34;Building Shell&amp;#34;)
 @Handle(shape=Mass, axis=y)
@@ -1549,7 +1546,7 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;p>次に属性と &lt;strong>@StartRule&lt;/strong> の間に、新しい関数を構築します。以下の関数は、&lt;strong>use&lt;/strong> パラメーターを受け取り、それを評価してファサードの正しい色を返します。&lt;strong>use&lt;/strong> パラメーターが一致しない場合は #FFFFFF、つまり白色を渡します。&lt;/p>
+&lt;p>次に、属性と &lt;strong>@StartRule&lt;/strong> の間に新しい関数を作成します。以下の関数は use パラメーター受け取り、ファサードに対して正しい色を返すよう評価します。もし use パラメーターが一致しない場合は、#FFFFFF (白) の色を返します。&lt;/p>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 &lt;div>&lt;pre>&lt;code>getColor(use) = case use == &amp;#34;Retail&amp;#34; : &amp;#34;#FF6633&amp;#34;
 case use == &amp;#34;Office&amp;#34; : &amp;#34;#6699FF&amp;#34;
@@ -1564,7 +1561,8 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;p>最後に 1 階と上階を求め、そのフロアを着色する関数を呼び出すことで、すべてをまとめます。最上階をすべての上階の分割から区別するために、分割を呼び出すたびに作成される &lt;strong>split.index&lt;/strong> と &lt;strong>split.total&lt;/strong> を使用します。これを行うには、コードを拡張して &lt;strong>Floor&lt;/strong> ルールを追加します。&lt;strong>Floor&lt;/strong> ルールは、まず条件付きルールである &lt;strong>case&lt;/strong> を実行します。&lt;strong>split.index&lt;/strong> が 0 の場合は 1 階、それ以外の場合は上階となります。階が決まると、関数が呼び出され、床の色が設定されます。&lt;/p>
+&lt;p>最後に、1 階と上層階を判定し、それぞれに対して関数を呼び出して色を設定することで、これまでの内容をまとめます。最上階を、ほかの上層階の分割部分と区別するために、分割を呼び出すたびに作成される &lt;strong>split.index&lt;/strong> と &lt;strong>split.total&lt;/strong> を使用します。これを行うために、コードを拡張して &lt;strong>Floor&lt;/strong> ルール を追加します。&lt;/p>
+&lt;p>&lt;strong>Floor&lt;/strong> ルールでは、まず &lt;strong>case&lt;/strong> による条件分岐 を行います。&lt;strong>split.index&lt;/strong> が 0 の場合は 1 階、それ以外の値の場合は上層階となります。階が判定された後、その階に応じて関数が呼び出され、床の色が設定されます。&lt;/p>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 &lt;div>&lt;pre>&lt;code>Floor --&amp;gt;
 case split.index == 0:
@@ -1580,14 +1578,14 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;p>高さや土地利用の属性を工夫することで、より多様なトポロジを実現できるようになりました。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/GUID-6A989C0D-28C3-4146-91C1-1FE8813B0123-web.png" width="500">&lt;figcaption>
+&lt;p>高さや土地利用の属性を工夫することで、より多様なトポロジーを実現できるようになりました。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/CE_ET_RuleBasedModeling_20260120_09.png" width="500">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
-&lt;/p>
 &lt;h2>定数の作成&lt;span class="hx:absolute hx:-mt-20" id="定数の作成">&lt;/span>
-&lt;a href="#%e5%ae%9a%e6%95%b0%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>定数を作成することで、計算を行うための静的な数値を作成することができます。これは次のチュートリアルで説明するレポート作成など、さまざまな場面で役立ちます。以下のコードでは、平方メートルから平方フィートを計算したり、建物の住戸数を計算したりするのに役立ちます。しかし、定数はどんなものにも対応でき、コードのどこにでも配置できます。とはいえ、定数はページの先頭付近にまとめることをおすすめします。これらの定数は、CityEngine のデフォルトのメートル法による値 (メートル) を、アメリカのインペリアル法による値 (フィート) に変換することに注意してください。&lt;/p>
+&lt;a href="#%e5%ae%9a%e6%95%b0%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>定数を作成することで、計算に使用できる固定の数値を作成できるようになります。これは次のチュートリアルで扱うレポート機能などさまざまな場面で役立ちます。以下のコード行は、平方メートルから平方フィートを計算したり、建物の住戸数を計算したりするのにも役立ちます。ただし、定数はどんな用途に対しても使用でき、
+コードの中のどこにでも置くことができます。とはいえ、定数をページの上部付近にまとめておくことを勧めます。なお、これらの定数は CityEngine のデフォルトのメートル法をアメリカのヤード・ポンド法に変換することに注意してください。&lt;/p>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 &lt;div>&lt;pre>&lt;code>const unitScale = 0.3048 # convert meters to feet
 const areaScale = 10.7639 # convert square meters to square feet
@@ -1602,8 +1600,8 @@ title="Copy code"
 &lt;/div>
 &lt;/div>
 &lt;h2>レポートの追加&lt;span class="hx:absolute hx:-mt-20" id="レポートの追加">&lt;/span>
-&lt;a href="#%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88%e3%81%ae%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>CityEngine は 3D モデルの生成だけでなく、ルール内で計算を実行してレポートすることで貴重なデータを得ることができます。つまり、計画や開発を可視化するだけでなく、数値レポートを作成することができるため、CityEngine はジオデザインの分野で強力なツールとなります。例えば、延べ床面積 (GFA)、戸数、土地利用構成などの数値を含めることができます。また、モデルや形状を含むプランを変更すると、レポートが自動的に更新されます。&lt;/p>
-&lt;p>このルールをもとに、実際にデータを報告してみましょう。最初は床面積だけを報告するシンプルなものから始めます。まず、&lt;strong>Floor&lt;/strong> ルールを変更して、&lt;strong>Plate&lt;/strong> というルールにつなげます。&lt;strong>Plate&lt;/strong> ルールでは、ジオメトリをコンポーネント面 &lt;strong>(comp(f))&lt;/strong> に分割し、ジオメトリの面積を計算するために &lt;strong>Reporting&lt;/strong> ルールに形状の底を渡します。最初に底面の形状を分割する必要があります。そうしないと、すべての形状の表面積が計算に含まれてしまうことに注意してください。&lt;/p>
+&lt;a href="#%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88%e3%81%ae%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>CityEngine は 3D モデルを生成することに加えて、ルール内で計算を実行し、それをレポートすることで有用なデータを取得することができます。これは、あなたが計画や開発を視覚化するだけでなく、数値レポートを生成することもできることを意味します。これにより、CityEngine はジオデザインの分野において強力なツールとなります。たとえば、延べ床面積 (GFA)、戸数、または土地利用構成などの数値を含めることができます。また、計画を変更した場合、モデルやシェープを含め、レポートは自動的に更新されます。
+このルールを基に、いくつかのデータをレポートしてみます。最初は簡単に、床面積のみをレポートします。まず、&lt;strong>Floor&lt;/strong> ルールを修正し、&lt;strong>Plate&lt;/strong> と呼ばれるルールに続くようにします。&lt;strong>Plate&lt;/strong> ルールでは、ジオメトリーをコンポーネント面に分解 &lt;strong>(comp(f))&lt;/strong> し、形状の底面を &lt;strong>Reporting&lt;/strong> ルールに渡して、そのジオメトリーの面積を計算します。注意として、最初に底面を分割して取り出す必要があります。そうしないと、計算にすべてのシェープの表面積が含まれてしまうためです。&lt;/p>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 &lt;div>&lt;pre>&lt;code>Floor --&amp;gt;
 case split.index == 0:
@@ -1625,9 +1623,9 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;p>結果を見るには、ルール ファイルを保存 (Ctrl+S) し、すべての形状を選択 (Ctrl+A) し、&lt;strong>[Generate Model]&lt;/strong> (Ctrl+G) をクリックします。&lt;/p>
-&lt;p>&lt;strong>[Inspector]&lt;/strong> ウィンドウで &lt;strong>[Report]&lt;/strong> セクションを展開します。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/GUID-16617997-588E-4478-A6EE-1C39551E5C75-web.png" width="500">&lt;figcaption>
+&lt;p>結果を確認するには、ルール ファイルを保存 (Ctrl+S) し、すべてのシェープを選択 (Ctrl+A) し、その後 &lt;strong>Generate Models&lt;/strong> (Ctrl+G) をクリックします。&lt;/p>
+&lt;p>[&lt;strong>Inspector&lt;/strong>] ウィンドウで [&lt;strong>Report&lt;/strong>] セクション を展開します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/CE_ET_RuleBasedModeling_20260120_10.png" width="600">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
@@ -1644,11 +1642,12 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/GUID-9D510646-7D43-4365-AA81-CD83B59B0FB2-web.png" width="500">&lt;figcaption>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/CE_ET_RuleBasedModeling_20260120_11.png" width="600">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
-&lt;p>もし土地利用による面積や、密度や容積率のような重要かつ一般的な都市計画情報を調べたい場合は、ルールにいくつかの簡単な修正を加え、土地利用情報をパラメーターとして渡すことが可能です。&lt;strong>Plate&lt;/strong> ルールに &lt;strong>landUse&lt;/strong> パラメーターとして土地利用 (&lt;strong>use_ground&lt;/strong> と &lt;strong>use_upper&lt;/strong>) を渡すようにコードを修正すると、&lt;strong>Reporting&lt;/strong> ルールに渡すことができるようになります。&lt;/p>
+&lt;p>もし土地利用ごとの面積を知りたい場合や、密度や容積率といった、重要で一般的な都市計画の情報を知りたい場合には、ルールにいくつかの簡単な修正を加えて、土地利用情報をパラメーターとして渡すことができます。
+&lt;strong>Plate&lt;/strong> ルールに &lt;strong>landUse&lt;/strong> パラメーターとして土地利用 (&lt;strong>use_ground&lt;/strong> と &lt;strong>use_upper&lt;/strong>) を渡すようにコードを修正すると、&lt;strong>Reporting&lt;/strong> ルールに渡すことができるようになります。&lt;/p>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 &lt;div>&lt;pre>&lt;code>Floor --&amp;gt;
 case split.index == 0:
@@ -1670,7 +1669,7 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/GUID-56E9F118-D4BB-4069-A390-D8E5DD230B9C-web.png" width="500">&lt;figcaption>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/CE_ET_RuleBasedModeling_20260120_12.png" width="600">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
@@ -1691,26 +1690,24 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/GUID-5791C815-26EF-4125-9F74-F6050AD56FCB-web.png" width="500">&lt;figcaption>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/CE_ET_RuleBasedModeling_20260120_13.png" width="600">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
 &lt;h2>ダッシュボードの追加&lt;span class="hx:absolute hx:-mt-20" id="ダッシュボードの追加">&lt;/span>
 &lt;a href="#%e3%83%80%e3%83%83%e3%82%b7%e3%83%a5%e3%83%9c%e3%83%bc%e3%83%89%e3%81%ae%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ダッシュボードは、CityEngine のレポートを拡張する素晴らしい方法です。ダッシュボードを使用すると、ルールから報告された任意の値を取得し、必要に応じて追加の計算を適用し、情報を棒グラフやチャートで表示することができます。&lt;/p>
-&lt;p>メイン メニューの &lt;strong>[Window] → [Dashboard]&lt;/strong> をクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/GUID-CCDD5C99-E232-4BAD-96EA-2B8898923540-web.png" width="300">&lt;figcaption>
+&lt;p>メイン メニューの &lt;strong>[Window] → [Dashboard]&lt;/strong> をクリックします。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/CE_ET_RuleBasedModeling_20260120_14.png" width="400">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
-&lt;/p>
-&lt;p>デフォルトでは、&lt;strong>[Inspector]&lt;/strong> ウィンドウに &lt;strong>[Dashboard]&lt;/strong> タブが表示されます。&lt;/p>
-&lt;p>&lt;strong>[Add a Chart]&lt;/strong> ボタンをクリックしてウィンドウを開きます。&lt;strong>[Pie Chart]&lt;/strong> を選択し、&lt;strong>[Title]&lt;/strong> ボックスに &lt;strong>Land Use&lt;/strong> と追加して、&lt;strong>[FloorArea.*]&lt;/strong> を選択します。最後に &lt;strong>[Add Card]&lt;/strong> をクリックし、&lt;strong>[Dashboard]&lt;/strong> ウィンドウのキャンバスに配置して、カードを追加します。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/GUID-5CFFF868-C6B9-4A50-A698-A59F72FFF416-web.png" width="500">&lt;figcaption>
+&lt;p>デフォルトでは、[&lt;strong>Inspector&lt;/strong>] ウィンドウに [&lt;strong>Dashboard&lt;/strong>] タブが表示されます。
+[&lt;strong>Add a Chart&lt;/strong>] ボタンをクリックしてウィンドウを開きます。[&lt;strong>Pie Chart&lt;/strong>] を選択し、[&lt;strong>Title&lt;/strong>] ボックスに &lt;strong>Land Use&lt;/strong> と追加して、[&lt;strong>FloorArea.&lt;/strong>*] を選択します。最後に [&lt;strong>Add Card&lt;/strong>] をクリックし、[&lt;strong>Dashboard&lt;/strong>] ウィンドウのキャンバスに配置して、カードを追加します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/CE_ET_RuleBasedModeling_20260120_15.png" width="600">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
-&lt;/p>
-&lt;p>別のカードを追加します。今回は &lt;strong>[Key Number]&lt;/strong> を選択します。タイトルに「&lt;strong>FAR&lt;/strong>」と名付け、レポートとして &lt;strong>[FloorArea.*]&lt;/strong> を選択して &lt;strong>LotArea&lt;/strong> で除算します。&lt;strong>[Add Card]&lt;/strong> をクリックし、キャンバスに追加します。&lt;/p>
+&lt;p>別のカードを追加します。今回は [&lt;strong>Key Number&lt;/strong>] を選択します。タイトルに「&lt;strong>FAR&lt;/strong>」と名付け、レポートとして[&lt;strong>FloorArea.&lt;/strong>*] を選択して &lt;strong>LotArea&lt;/strong> で除算します。[&lt;strong>Add Card&lt;/strong>] をクリックし、キャンバスに追加します。&lt;/p>
 &lt;p>最後のステップとして、画面上の建物の色に合わせて、チャートに色を追加することができます。これを行うには、&lt;strong>Reporting&lt;/strong> ルールに 2 行目を追加します。これは、土地利用の色取得関数を呼び出し、チャートの属性として追加するものです。&lt;/p>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 &lt;div>&lt;pre>&lt;code>Reporting(landUse) --&amp;gt;
@@ -1725,23 +1722,33 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/GUID-A756A404-2BF8-4BF6-8877-CFC6F5D31B4A-web.png" width="500">&lt;figcaption>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/CE_ET_RuleBasedModeling_20260120_16.png" width="600">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
-&lt;p>CityEngine を設計ツールとして使用した場合のダッシュボードの威力を確認するため、建物を選択し、ハンドルで建物の高さを変更します。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/GUID-AB09187A-042A-44C0-9227-632284507A16-web.png" width="500">&lt;figcaption>
+&lt;p>CityEngine を設計ツールとして使用した場合のダッシュボードの有用性を確認するため、建物を選択し、ハンドルで建物の高さを変更します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/CE_ET_RuleBasedModeling_20260120_17.png" width="600">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
-&lt;/p>
 &lt;p>ダッシュボードがリアルタイムに更新され、都市計画者やデザイナーが地域の要件や設計目標を満たすための計画を作成するのに役立ちます。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/GUID-F4ECD7BC-5E7C-4F66-96F5-43D795005AB5-web.png" width="500">&lt;figcaption>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/rule-based-modeling/CE_ET_RuleBasedModeling_20260120_18.png" width="600">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
 &lt;/p>
-&lt;p>他のエッセンシャル チュートリアルもご参照ください。: &lt;a href="/cityengine/tutorials/essentials/cityengine-tour/">CityEngine ツアー&lt;/a>と &lt;a href="/cityengine/tutorials/essentials/work-with-gis-data/">GIS データを使った作業&lt;/a>&lt;/p>
+&lt;p>このチュートリアルでは、以下のことを学びました。&lt;/p>
+&lt;ul>
+&lt;li>単純な 2D フットプリントから一連の建物を作成するルールを記述すること。&lt;/li>
+&lt;li>ルール内で計算を実行し、貴重なデータを得るためにレポートすること。&lt;/li>
+&lt;li>レポートの値をチャートやグラフで可視化するダッシュボードを作成すること。&lt;/li>
+&lt;/ul>
+&lt;p>また、他のエッセンシャル チュートリアルもご参照ください。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="/cityengine/tutorials/essentials/cityengine-tour/">CityEngine ツアー&lt;/a>&lt;/li>
+&lt;li>&lt;a href="/cityengine/tutorials/essentials/build-cities-with-get-map-data/">Get Map Data を使った都市モデルの構築&lt;/a>&lt;/li>
+&lt;li>&lt;a href="/cityengine/tutorials/essentials/work-with-gis-data/">GIS データを使った作業&lt;/a>&lt;/li>
+&lt;/ul>
 &lt;p>CityEngine の学習を続けるには、&lt;a href="/cityengine/tutorials/">CityEngine チュートリアル&lt;/a>
 をご参照ください。&lt;/p></description></item><item><title>ArcGIS Urban との統合機能</title><link>/cityengine/tutorials/essentials/work-with-arcgis-urban-integration/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/essentials/work-with-arcgis-urban-integration/</guid><description>
 &lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/Work&amp;#43;with&amp;#43;ArcGIS&amp;#43;Urban&amp;#43;integration/GUID-82A11357-2298-46A9-93F9-D1C9CD00F9F5-web.png" width="1000">&lt;figcaption>
