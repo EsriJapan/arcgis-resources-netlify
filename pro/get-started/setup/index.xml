@@ -39,8 +39,9 @@
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">単独使用ライセンスは、ArcGIS Desktop ライセンスとして購入し、ArcGIS Pro を利用する場合にのみご利用いただけます。&lt;br>
-なお、ArcGIS Desktop 単独使用 (SU) ライセンスのご契約でご利用いただける ArcGIS Pro 指定ユーザー ライセンスを単独使用 (SU) ライセンスに変換する機能は、2025 年 11 月 30 日をもって終了しました。&lt;/div>
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ArcGIS Desktop 単独使用 (SU) ライセンスのご契約でご利用いただけた ArcGIS Pro 指定ユーザー（アドオン）を単独使用 (SU) に変換する機能は 2025 年 11 月 30 日に終了しました。
+また、ArcGIS Pro 3.7 以降では、この変換した単独使用 (SU) ライセンスは使用できません。3.6 以前では引き続きご利用いただけます。&lt;br>
+詳細は、&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge6089.html"target="_blank" rel="noopener">こちら&lt;/a>をご確認ください。&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/pro/get-started/setup/license-su.png" width="450" alt="単独使用ライセンス">
