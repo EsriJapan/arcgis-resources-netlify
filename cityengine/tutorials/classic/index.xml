@@ -434,7 +434,7 @@ title="Copy code"
 &lt;strong>Essential_Skils_Part_5.cej&lt;/strong> シーンを開いて完成した例を確認します。&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;p>このチュートリアルでは、プロジェクトとシーンの作成、道路レイアウトの作成、ナビゲーションとオブジェクトの選択、モデルの生成、ルールの編集方法について学習しました。&lt;/p></description></item><item><title>チュートリアル 2 : テレインとダイナミック シティ レイアウト</title><link>/cityengine/tutorials/classic/tutorial-2-terrain-and-dynamic-city-layouts/</link><pubDate>Mon, 26 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-2-terrain-and-dynamic-city-layouts/</guid><description>
+&lt;p>このチュートリアルでは、プロジェクトとシーンの作成、道路レイアウトの作成、ナビゲーションとオブジェクトの選択、モデルの生成、ルールの編集方法について学習しました。&lt;/p></description></item><item><title>チュートリアル 2 : テレインとダイナミック シティ レイアウト</title><link>/cityengine/tutorials/classic/tutorial-2-terrain-and-dynamic-city-layouts/</link><pubDate>Tue, 17 Feb 2026 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-2-terrain-and-dynamic-city-layouts/</guid><description>
 &lt;h2>チュートリアル データ&lt;span class="hx:absolute hx:-mt-20" id="チュートリアル-データ">&lt;/span>
 &lt;a href="#%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab-%e3%83%87%e3%83%bc%e3%82%bf" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>チュートリアル データは、&lt;strong>[Help] メニュー → [Download Tutorials and Examples…]&lt;/strong> を選択し、[CityEngine Tutorial] からダウンロードできます。&lt;/p>
 &lt;h2>概要&lt;span class="hx:absolute hx:-mt-20" id="概要">&lt;/span>
@@ -517,7 +517,7 @@ title="Copy code"
 &lt;/figcaption>
 &lt;/figure>
 &lt;p>解像度はデフォルトで標高マップ画像のサイズに設定されていますが、自由に変更することができます。グリッド サイズをカスタマイズすると、シーンのパフォーマンスに影響を与えます。&lt;/br>
-&lt;strong>scnes&lt;/strong> フォルダー内の &lt;strong>Part_1_End.cej&lt;/strong> を開くと、模範の結果を見ることができます。&lt;/p>
+&lt;strong>scenes&lt;/strong> フォルダー内の &lt;strong>Part_1_End.cej&lt;/strong> を開くと、模範の結果を見ることができます。&lt;/p>
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
@@ -525,7 +525,7 @@ title="Copy code"
 &lt;/div>
 &lt;/div>
 &lt;h2>Part 2 : 道路の生成&lt;span class="hx:absolute hx:-mt-20" id="part-2--道路の生成">&lt;/span>
-&lt;a href="#part-2--%e9%81%93%e8%b7%af%e3%81%ae%e7%94%9f%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a href="https://doc.esrij.com/cityengine/tutorials/tutorial-1-essential-skills/"target="_blank" rel="noopener">チュートリアル 1&lt;/a> では、高さが無い平面上に道路を&lt;a href="https://doc.arcgis.com/en/cityengine/2022.1/help/help-grow-a-street.htm"target="_blank" rel="noopener">生成&lt;/a>する方法を学習しました。このセクションでは実際のテレインの標高上に道路を生成する &lt;strong>[Grow Streets]&lt;/strong> ツールとアルゴリズムを使用して、実際のテレインの標高に直接道路を適応させます。&lt;/br>&lt;/p>
+&lt;a href="#part-2--%e9%81%93%e8%b7%af%e3%81%ae%e7%94%9f%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a href="https://doc.esrij.com/cityengine/tutorials/classic/tutorial-1-essential-skills/"target="_blank" rel="noopener">チュートリアル 1&lt;/a> では、高さが無い平面上に道路を&lt;a href="https://doc.arcgis.com/en/cityengine/2022.1/help/help-grow-a-street.htm"target="_blank" rel="noopener">生成&lt;/a>する方法を学習しました。このセクションでは実際のテレインの標高上に道路を生成する &lt;strong>[Grow Streets]&lt;/strong> ツールとアルゴリズムを使用して、実際のテレインの標高に直接道路を適応させます。&lt;/br>&lt;/p>
 &lt;h3>標高マップでの道路の生成&lt;span class="hx:absolute hx:-mt-20" id="標高マップでの道路の生成">&lt;/span>
 &lt;a href="#%e6%a8%99%e9%ab%98%e3%83%9e%e3%83%83%e3%83%97%e3%81%a7%e3%81%ae%e9%81%93%e8%b7%af%e3%81%ae%e7%94%9f%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
 &lt;li>
@@ -731,8 +731,8 @@ title="Copy code"
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">*手動で描画、またはインポートしたシェープを静的シェープと呼びます。配置に関して、[Dynamic City layout] ツールは、[Allignment] ツールで配置できない動的なシェープを作成します。&lt;/dr>
-ダイナミック シェープは (ダイナミック) ブロックの子として作成されるため (道路も同様)、Block Subdivisioin パラメーターには配置のための特定パラメーターが含まれています。詳細は &lt;a href="https://doc.arcgis.com/en/cityengine/latest/help/help-layers-block-parameters.htm"target="_blank" rel="noopener">Block parameters&lt;/a> をご参照ください。&lt;/div>
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">*手動で描画、またはインポートしたシェープを静的シェープと呼びます。配置に関して、[Dynamic City layout] ツールは、[Alignment] ツールで配置できない動的なシェープを作成します。&lt;/dr>
+ダイナミック シェープは (ダイナミック) ブロックの子として作成されるため (道路も同様)、Block Subdivision パラメーターには配置のための特定パラメーターが含まれています。詳細は &lt;a href="https://doc.arcgis.com/en/cityengine/latest/help/help-layers-block-parameters.htm"target="_blank" rel="noopener">Block parameters&lt;/a> をご参照ください。&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;h3>テレインにグラフを配置&lt;span class="hx:absolute hx:-mt-20" id="テレインにグラフを配置">&lt;/span>
@@ -758,7 +758,7 @@ title="Copy code"
 &lt;p>ツールバーの &lt;strong>[Align Graph to Terrain]&lt;/strong> ツールをクリック、またはメイン メニューの &lt;strong>[Graph] → [Align Graph to Terrain]&lt;/strong> を選択します。&lt;/br>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>[Heightmap]&lt;/strong> 横のドロップダウン ダウンリストから &lt;strong>[Terrain elvation]&lt;/strong> を選択します。
+&lt;p>&lt;strong>[Heightmap]&lt;/strong> 横のドロップダウン ダウンリストから &lt;strong>[Terrain elevation]&lt;/strong> を選択します。
 &lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-2-terrain-and-dynamic-city-layouts/GUID-29F2D9EA-F5F8-40AA-A231-E367EF347A62-web.png" width="400">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
@@ -974,7 +974,7 @@ b. ダブルクリックで道路の描画を終了します。
 セグメントの長さやその他のプロパティは、&lt;strong>[Polygonal Street Creation]&lt;/strong> ツールの [オプション] ウィンドウで設定できます。詳細は、&lt;a href="https://doc.arcgis.com/en/cityengine/2022.1/help/help-graph-overview.htm#ESRI_SECTION1_2661447165214118AB22ECA50E858570"target="_blank" rel="noopener">Draw a polygonal street&lt;/a> をご参照ください。&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>フリーハンドで道路を描くには、ツールバーの &lt;strong>[Frreehand Street Creation]&lt;/strong> ツール (Shift+G) をクリックします。&lt;/br>
+&lt;p>フリーハンドで道路を描くには、ツールバーの &lt;strong>[Freehand Street Creation]&lt;/strong> ツール (Shift+G) をクリックします。&lt;/br>
 a. スナップとクリックで、新しい道路を描画します。
 &lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-2-terrain-and-dynamic-city-layouts/GUID-89678BB5-D8BC-4E43-86FA-2575211320D5-web.png" width="400">&lt;figcaption>
 &lt;h4> &lt;/h4>
@@ -5618,7 +5618,7 @@ title="Copy code"
 &lt;li>画像を取得して解析し、CGA コンポーネントに分割&lt;/li>
 &lt;li>窓、タイル、マテリアルなどの要素の追加&lt;/li>
 &lt;li>高度なシェープ グラマーのより複雑な例の探求&lt;/li>
-&lt;/ul></description></item><item><title>チュートリアル 10: Python スクリプティング</title><link>/cityengine/tutorials/classic/tutorial-10-python-scripting/</link><pubDate>Mon, 26 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-10-python-scripting/</guid><description>
+&lt;/ul></description></item><item><title>チュートリアル 10: Python スクリプティング</title><link>/cityengine/tutorials/classic/tutorial-10-python-scripting/</link><pubDate>Thu, 12 Feb 2026 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-10-python-scripting/</guid><description>
 &lt;h2>チュートリアル データ&lt;span class="hx:absolute hx:-mt-20" id="チュートリアル-データ">&lt;/span>
 &lt;a href="#%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab-%e3%83%87%e3%83%bc%e3%82%bf" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>チュートリアル データは、&lt;strong>[Help] メニュー → [Download Tutorials and Examples…]&lt;/strong> を選択し、[CityEngine Tutorial] からダウンロードできます。&lt;/p>
 &lt;h2>概要&lt;span class="hx:absolute hx:-mt-20" id="概要">&lt;/span>
@@ -5628,6 +5628,12 @@ Python スクリプティング インターフェイスを利用すると、Cit
 &lt;/figure>
 &lt;h2>Part 1: Python コンソールおよびエディター&lt;span class="hx:absolute hx:-mt-20" id="part-1-python-コンソールおよびエディター">&lt;/span>
 &lt;a href="#part-1-python-%e3%82%b3%e3%83%b3%e3%82%bd%e3%83%bc%e3%83%ab%e3%81%8a%e3%82%88%e3%81%b3%e3%82%a8%e3%83%87%e3%82%a3%e3%82%bf%e3%83%bc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>このセクションでは、Python コンソールおよびエディターを使用して簡単な選択を実行します。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">CityEngine 2025.1 では Python 3 (Beta) のサポートが導入されました。しかし、このチュートリアルでは、従来から使用されている成熟した Jython 環境を対象とします。&lt;/div>
+&lt;/div>
+&lt;/div>
 &lt;h3>Python コンソール&lt;span class="hx:absolute hx:-mt-20" id="python-コンソール">&lt;/span>
 &lt;a href="#python-%e3%82%b3%e3%83%b3%e3%82%bd%e3%83%bc%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>新しい Python コンソール ウィンドウを起動します。&lt;/p>
 &lt;ol>
@@ -5642,8 +5648,10 @@ Python スクリプティング インターフェイスを利用すると、Cit
 &lt;/li>
 &lt;li>
 &lt;p>右端にある小さな三角形から &lt;strong>[Python Console]&lt;/strong> ウィンドウを開きます。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-2B127CEA-2079-4537-B5AF-27AE7B8CB0A7-web.png" width="500">
+&lt;p>&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-2B127CEA-2079-4537-B5AF-27AE7B8CB0A7-web.png" width="500">
 &lt;/figure>
+&lt;br>
+CityEngine 2025.1 以降を使用している場合は、プロンプトが表示されたら Jython Console を選択してください。&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>「ce.setS」&lt;/strong> と入力します。&lt;/p>
@@ -5810,12 +5818,15 @@ title="Copy code"
 &lt;li>
 &lt;p>使用しているオペレーティング システムのファイル ブラウザーを使用して、CityEngineのワークスペースに &lt;strong>scripting.py&lt;/strong> という名前のファイルを作成します。&lt;/p>
 &lt;p>CityEngine のワークスペースのルート フォルダー内に &lt;strong>{CityEngine Workspace}\scripting.py&lt;/strong> のように &lt;strong>scripting.py&lt;/strong> ファイルを保存します。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;p>&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
 &lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">パスは、&lt;strong>[File] メニュー → [Switch Workspace] → [Other]&lt;/strong> で確認するか、&lt;strong>[Navigator]&lt;/strong> ウィンドウでプロジェクトを右クリックし、&lt;strong>[Show in File Manager]&lt;/strong> を選択します。&lt;/div>
 &lt;/div>
 &lt;/div>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-378EE220-31E2-4A6A-A5FE-AF5F900311AD-web_1.png" width="700">
+&lt;/figure>
+&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>以下の行を追加し、起動時にヘルパー スクリプトが自動的にマップされるようにします。&lt;/p>
@@ -5852,7 +5863,13 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;p>object attribute の &lt;strong>sidewalkWidthLeft&lt;/strong> の値が &lt;strong>4&lt;/strong> であるすべての道路が選択されます。&lt;/p>
+&lt;p>&lt;strong>sidewalkWidthLeft&lt;/strong> オブジェクト属性の値が &lt;strong>4&lt;/strong> であるすべての道路が選択されます。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-98E35D8B-73E9-4F1F-AA3C-0C1C93E761AE-web_2.png" width="500">
+&lt;/figure>
+&lt;br>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-D4C82177-A9C8-4077-B545-577D22C9299F-web_3.png" width="500">
+&lt;/figure>
+&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
@@ -5861,204 +5878,12 @@ title="Copy code"
 &lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>任意のコードを &lt;strong>scripting.py&lt;/strong> ファイルに追加することができます。scripting モジュールは、新しい Python コンソールが開かれた時や Python エディターからスクリプトが実行された時に自動的に実行されます。&lt;/p>
 &lt;p>&lt;strong>scripting.py&lt;/strong> ファイルが有効で、正しく実行されることを確認してください。そうでない場合は CityEngine 内の Python コードは実行できません。&lt;strong>scripting.py&lt;/strong> ファイルを作成または変更した後、CityEngine の Python コンソールを開くと、scripting ファイルの実行に伴う問題はそこに表示されます。&lt;/p>
 &lt;p>&lt;strong>scripting.py&lt;/strong> ファイルは、CityEngine の起動時に一度だけ読み込まれます。変更する際は必ず CityEngine を再起動してください。&lt;/p>
-&lt;p>CityEngine の起動時にスクリプトが正常に更新されない場合、Python キャッシュ ディレクトリ &lt;strong>$USER_DIR/.cityengine/$CEVERSION_DIR/pythonCache/&lt;/strong> を削除してください。&lt;/p>
+&lt;p>CityEngine の起動時にスクリプトが正常に更新されない場合、Python キャッシュ ディレクトリー &lt;strong>$USER_DIR/.cityengine/$CEVERSION_DIR/pythonCache/&lt;/strong> を削除してください。&lt;/p>
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;h2>Part 2: 道路幅の変更&lt;span class="hx:absolute hx:-mt-20" id="part-2-道路幅の変更">&lt;/span>
-&lt;a href="#part-2-%e9%81%93%e8%b7%af%e5%b9%85%e3%81%ae%e5%a4%89%e6%9b%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>多くのセグメントについて道路幅の属性値を増加したいという場合は少なからずあります。GUI で効率的に行うことができない場合は、Python スクリプトを使うと便利です。&lt;/p>
-&lt;h3>incrementStreetWidth() 関数&lt;span class="hx:absolute hx:-mt-20" id="incrementstreetwidth-関数">&lt;/span>
-&lt;a href="#incrementstreetwidth-%e9%96%a2%e6%95%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>このセクションでは、ユーザーによって指定された値から、選択されたすべての道路セグメントの &lt;strong>streetWidths&lt;/strong> 属性を増加させる関数を作成します。&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>シーン &lt;strong>02_PythonScripting.cej&lt;/strong> を開きます。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>setStreetWidths&lt;/strong> という新しい Python モジュールを作成します。&lt;/p>
-&lt;p>新しいモジュールを作成するには、上記の&lt;a href="#%e3%82%a8%e3%83%87%e3%82%a3%e3%82%bf%e3%83%bc%e3%81%a7-python-%e3%83%a2%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab%e3%82%92%e4%bd%9c%e6%88%90">エディターで Python モジュールを作成&lt;/a>セクションのステップ 1 からステップ 6 を実行します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>関数定義を追加します。&lt;/p>
-&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;pre>&lt;code>def incrementStreetWidths(increment):&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-&lt;button
-class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-title="Copy code"
->
-&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>
-&lt;p>関数内で選択されているすべてのセグメントを取得し、それらをループさせます。&lt;/p>
-&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;pre>&lt;code>selectedSegments = ce.getObjectsFrom(ce.selection, ce.isGraphSegment)
-for segment in selectedSegments:&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-&lt;button
-class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-title="Copy code"
->
-&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>for&lt;/strong> ループ内で新しい道路幅を計算するために、まず &lt;strong>ce.getAttribute()&lt;/strong> コマンドを使用して現在の値を取得する必要があります。&lt;/p>
-&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;pre>&lt;code>oldWidth = ce.getAttribute(segment, &amp;#34;/ce/street/streetWidth&amp;#34;)&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-&lt;button
-class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-title="Copy code"
->
-&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>属性名の文法上の名前には先頭に &lt;strong>“/ce/street/”&lt;/strong> が付くことに注意してください。これによりオブジェクトのユーザー属性にアクセスすることができます。詳しくは、&lt;a href="https://doc.arcgis.com/en/cityengine/2023.1/python/python-parameters-and-attributes.htm"target="_blank" rel="noopener">Parameters and attributes&lt;/a> を参照してください。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>最後に、ユーザーが与えた increment パラメーターだけを追加して新しい道路幅を計算し、新しい値をセグメントに割り当てます。&lt;/p>
-&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;pre>&lt;code>newWidth = oldWidth&amp;#43;increment
-ce.setAttribute(segment, &amp;#34;/ce/street/streetWidth&amp;#34;, newWidth)&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-&lt;button
-class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-title="Copy code"
->
-&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>関数の全体は以下の通りです。&lt;/p>
-&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;pre>&lt;code>def incrementStreetWidths(increment):
-selectedSegments = ce.getObjectsFrom(ce.selection, ce.isGraphSegment)
-for segment in selectedSegments:
-oldWidth = ce.getAttribute(segment, &amp;#34;/ce/street/streetWidth&amp;#34;)
-newWidth = oldWidth&amp;#43;increment
-ce.setAttribute(segment, &amp;#34;/ce/street/streetWidth&amp;#34;, newWidth)&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-&lt;button
-class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-title="Copy code"
->
-&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>
-&lt;p>スクリプトの main ブロックに関数呼び出しを追加し、増加量を指定します。&lt;/p>
-&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;pre>&lt;code>if __name__ == &amp;#39;__main__&amp;#39;:
-incrementStreetWidths(10)&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-&lt;button
-class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-title="Copy code"
->
-&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>
-&lt;p>ファイルを保存します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>複数の道路セグメントを選択します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>F9 キーを押して、Python スクリプトを実行します。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/road_witdh.png" width="600">
-&lt;/figure>
-&lt;/li>
-&lt;/ol>
-&lt;h3>処理のスピードアップ: @noUIupdate&lt;span class="hx:absolute hx:-mt-20" id="処理のスピードアップ-nouiupdate">&lt;/span>
-&lt;a href="#%e5%87%a6%e7%90%86%e3%81%ae%e3%82%b9%e3%83%94%e3%83%bc%e3%83%89%e3%82%a2%e3%83%83%e3%83%97-nouiupdate" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>選択されているセグメントが多い場合、上のスクリプトを実行するとやや時間がかかってしまいます。これは CityEngine においてスクリプトは別々のスレッドで実行され、GUI と [&lt;a href="https://doc.arcgis.com/en/cityengine/2023.1/help/help-viewport.htm"target="_blank" rel="noopener">3D View&lt;/a>] ウィンドウの各コマンドが実行される度に更新されるためです。この場合は、各 &lt;strong>setAttribute()&lt;/strong> が呼び出されるたびに道路ネットワークが更新され 3D View ウィンドウ内が再描画されます。&lt;/p>
-&lt;p>実行時間を早くするには、関数定義の上に &lt;strong>@noUIupdate&lt;/strong> デコレーターを追加します。&lt;/p>
-&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;pre>&lt;code>@noUIupdate
-def incrementStreetWidths(increment):&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-&lt;button
-class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-title="Copy code"
->
-&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;p>このようにマークされた関数は、実行中の GUI の更新をブロックしますが、処理内容によっては数倍早く実行されます。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>スクリプト コマンドによっては &lt;strong>@noUIupdate&lt;/strong> デコレーターと組み合わせることでユーザー インターフェイスがフリーズしてしまうこともありますので注意してください。&lt;/p>
-&lt;p>&lt;strong>@noUIupdate&lt;/strong> を使用した時にユーザー インターフェイスがフリーズ、または予期せぬ挙動が発生した場合は、スクリプトを修正して &lt;strong>@noUIupdate&lt;/strong> がスクリプト全体ではなく、特定の関数のみに適用されるようにします。&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h3>multiplySegmentWidths() 関数&lt;span class="hx:absolute hx:-mt-20" id="multiplysegmentwidths-関数">&lt;/span>
-&lt;a href="#multiplysegmentwidths-%e9%96%a2%e6%95%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>multiplySegmentWidths()&lt;/strong> 関数は、複数の属性を同時に設定します。具体的には、&lt;strong>streetWidth&lt;/strong>、&lt;strong>sidewalkWidthLeft&lt;/strong>、および &lt;strong>sidewalkWidthRight&lt;/strong> 属性です。&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>&lt;strong>setStreetWidths&lt;/strong> スクリプトに以下の関数を追加します。&lt;/p>
-&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;pre>&lt;code>def multiplySegmentWidths(factor):
-selectedSegments = ce.getObjectsFrom(ce.selection, ce.isGraphSegment)
-for segment in selectedSegments:
-multiplyAttribute(segment, &amp;#34;/ce/street/streetWidth&amp;#34;, factor)
-multiplyAttribute(segment, &amp;#34;/ce/street/sidewalkWidthLeft&amp;#34;, factor)
-multiplyAttribute(segment, &amp;#34;/ce/street/sidewalkWidthRight&amp;#34;, factor)
-def multiplyAttribute(object, attrname, factor):
-oldval = ce.getAttribute(object, attrname)
-newval = oldval*factor
-ce.setAttribute(object, attrname, newval)&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-&lt;button
-class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-title="Copy code"
->
-&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>main&lt;/strong> ブロックの関数呼び出しを以下のように置き換えます。&lt;/p>
-&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;pre>&lt;code>multiplySegmentWidths(1.5)&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-&lt;button
-class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-title="Copy code"
->
-&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>
-&lt;p>モジュールを保存します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>複数の道路セグメントを選択します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>F9 キーを押して、スクリプトを実行します。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/segment_width.png" width="600">
-&lt;/figure>
-&lt;/li>
-&lt;/ol>
-&lt;p>変更のたびに UI がリフレッシュされるわけではないため、道路の幅がより速く変更されることに注目してください。&lt;/p>
-&lt;h2>Part 3: 建物の変化のアニメーション&lt;span class="hx:absolute hx:-mt-20" id="part-3-建物の変化のアニメーション">&lt;/span>
-&lt;a href="#part-3-%e5%bb%ba%e7%89%a9%e3%81%ae%e5%a4%89%e5%8c%96%e3%81%ae%e3%82%a2%e3%83%8b%e3%83%a1%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Python スクリプトを使用することで、生成やエクスポート処理を自動化できます。このワークフローでは、建物属性を設定して建物アニメーションを生成し、結果のモデルセットをエクスポートする方法を説明します。&lt;/p>
+&lt;h2>Part 2: 建物の変化のアニメーション&lt;span class="hx:absolute hx:-mt-20" id="part-2-建物の変化のアニメーション">&lt;/span>
+&lt;a href="#part-2-%e5%bb%ba%e7%89%a9%e3%81%ae%e5%a4%89%e5%8c%96%e3%81%ae%e3%82%a2%e3%83%8b%e3%83%a1%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Python スクリプトを使用することで、生成やエクスポート処理を自動化できます。このワークフローでは、建物属性を設定して建物アニメーションを生成し、結果のモデルセットをエクスポートする方法を説明します。&lt;/p>
 &lt;h3>建物の生成&lt;span class="hx:absolute hx:-mt-20" id="建物の生成">&lt;/span>
 &lt;a href="#%e5%bb%ba%e7%89%a9%e3%81%ae%e7%94%9f%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>建物を生成します。&lt;/p>
 &lt;ol>
@@ -6069,7 +5894,7 @@ title="Copy code"
 &lt;li>
 &lt;p>建物を選択します。&lt;/p>
 &lt;p>建物が生成されない場合、区画を選択し、ツールバーの &lt;strong>[Generate]&lt;/strong> (Ctrl+G キー) をクリックします。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-0643E84D-87F8-40E0-8C99-3084BFD1325A-web.png" width="500">
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-0643E84D-87F8-40E0-8C99-3084BFD1325A-web_4.png" width="500">
 &lt;/figure>
 &lt;p>ルール ファイルには、建物の寸法を変更する属性が含まれています。&lt;strong>[Inspector]&lt;/strong> ウィンドウでこれらの値を手動で設定するのではなく、値を変更するスクリプトを作成し、異なるバージョンのモデルを一括生成します。&lt;/p>
 &lt;/li>
@@ -6204,12 +6029,9 @@ title="Copy code"
 &lt;p>モデルはプロジェクト内の &lt;strong>models&lt;/strong> フォルダーに一括エクスポートされます。&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;h2>Part 4: アセット ライブラリ ルール ファイルの作成&lt;span class="hx:absolute hx:-mt-20" id="part-4-アセット-ライブラリ-ルール-ファイルの作成">&lt;/span>
-&lt;a href="#part-4-%e3%82%a2%e3%82%bb%e3%83%83%e3%83%88-%e3%83%a9%e3%82%a4%e3%83%96%e3%83%a9%e3%83%aa-%e3%83%ab%e3%83%bc%e3%83%ab-%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>大量のアセットがある場合には、それらすべてを一度に表示できると便利です。このセクションでは、プロジェクトに含まれるアセットを表示する CGA ルール ファイルを自動的に生成する Python スクリプトの書き方を紹介します。&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>まだ開いていない場合、シーン &lt;strong>03_PythonScripting.cej&lt;/strong> を開きます。&lt;/p>
-&lt;p>Python スクリプトは、以下の構成でルール ファイルを記述します。&lt;/p>
+&lt;h2>Part 3: アセット ライブラリ ルール ファイルの作成&lt;span class="hx:absolute hx:-mt-20" id="part-3-アセット-ライブラリ-ルール-ファイルの作成">&lt;/span>
+&lt;a href="#part-3-%e3%82%a2%e3%82%bb%e3%83%83%e3%83%88-%e3%83%a9%e3%82%a4%e3%83%96%e3%83%a9%e3%83%aa-%e3%83%ab%e3%83%bc%e3%83%ab-%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>大量のアセットがある場合には、それらすべてを一度に表示できると便利です。このセクションでは、プロジェクトに含まれるアセットを表示する CGA ルール ファイルを自動的に生成する Python スクリプトの書き方を紹介します。&lt;br>
+Python スクリプトは、次の構造を持つルール ファイルを書き出します。&lt;/p>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 &lt;div>&lt;pre>&lt;code>Lot --&amp;gt; Geometries Textures
 Geometries --&amp;gt;
@@ -6226,7 +6048,10 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;p>これらはジオメトリ アセットおよびそれと同様のテクスチャ画像のための構造です。&lt;/p>
+&lt;p>これらはジオメトリ アセットおよびそれと同様のテクスチャー画像のための構造です。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>まだ開いていない場合、シーン &lt;strong>03_PythonScripting.cej&lt;/strong> を開きます。&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>新しい Python メイン モジュール &lt;strong>asset_lib&lt;/strong> を作成します。&lt;/p>
@@ -6277,7 +6102,7 @@ title="Copy code"
 &lt;/div>
 &lt;/li>
 &lt;li>
-&lt;p>テクスチャ アセットについても同様のルールを記述します。&lt;/p>
+&lt;p>テクスチャー アセットについても同様のルールを記述します。&lt;/p>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 &lt;div>&lt;pre>&lt;code>cga&amp;#43;=&amp;#34;\n\nTextures --&amp;gt; \n\ts(1,0,0) set(scope.ty,3) set(scope.tz,0) i(\&amp;#34;facades/xy-plane.obj\&amp;#34;)&amp;#34;
 for jpg in ce.getObjectsFrom(&amp;#34;/&amp;#34;, ce.isFile, ce.withName(&amp;#34;/Tutorial_10*/assets/*.jpg&amp;#34;)):
@@ -6368,10 +6193,16 @@ title="Copy code"
 &lt;p>F9 キーを押して、ライブラリ モデルを生成します。&lt;/p>
 &lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-5C19106D-F072-469C-B981-E654BEAB8CF2-web.png" width="600">
 &lt;/figure>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">for ループ文を正しく動作させるためには、適切な Python の構文とインデントに従うことが重要です。そうでない場合、スクリプトが失敗する可能性があります。&lt;/div>
+&lt;/div>
+&lt;/div>
 &lt;/li>
 &lt;/ol>
-&lt;h2>Part 5: startup.py を用いた CityEngine タスクの自動化&lt;span class="hx:absolute hx:-mt-20" id="part-5-startuppy-を用いた-cityengine-タスクの自動化">&lt;/span>
-&lt;a href="#part-5-startuppy-%e3%82%92%e7%94%a8%e3%81%84%e3%81%9f-cityengine-%e3%82%bf%e3%82%b9%e3%82%af%e3%81%ae%e8%87%aa%e5%8b%95%e5%8c%96" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Python を使用して、大きなタスクや反復的なタスクを自動化することができます。例えば郡全体の区画情報からモデル生成を自動化することができます。&lt;/p>
+&lt;h2>Part 4: startup.py を用いた CityEngine タスクの自動化&lt;span class="hx:absolute hx:-mt-20" id="part-4-startuppy-を用いた-cityengine-タスクの自動化">&lt;/span>
+&lt;a href="#part-4-startuppy-%e3%82%92%e7%94%a8%e3%81%84%e3%81%9f-cityengine-%e3%82%bf%e3%82%b9%e3%82%af%e3%81%ae%e8%87%aa%e5%8b%95%e5%8c%96" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Python を使用して、大きなタスクや反復的なタスクを自動化することができます。例えば郡全体の区画情報からモデル生成を自動化することができます。&lt;/p>
 &lt;p>タスクを自動化します。&lt;/p>
 &lt;ol>
 &lt;li>
@@ -6474,11 +6305,24 @@ title="Copy code"
 &lt;p>参考までに、&lt;strong>scripts&lt;/strong> フォルダーにある &lt;strong>automationJob_dist.py&lt;/strong> ファイルを開きます。&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>[File] メニュー → [Switch Workspace] → [Other]&lt;/strong> をクリックして、自動化用の別のワークスペースを作成します。&lt;/p>
-&lt;p>新しいワークスペースに &lt;strong>「C:\Automation Workspace\」&lt;/strong> という名前を付けます。&lt;/p>
+&lt;p>モジュールを保存します。&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>チュートリアル プロジェクトから新しい C:\Automation Workspace\ ルート ディレクトリに &lt;strong>startup.py&lt;/strong> スクリプトをコピーします。&lt;/p>
+&lt;p>次に、自動化用として別の CityEngine ワークスペースを作成するために、&lt;strong>[File] → [Switch Workspace] → [Other]&lt;/strong> をクリックします。新しいワークスペースの名前を C:\Automation Workspace にします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-52ADB186-2E9E-412A-95B0-6BD0B68A301E-web_5.png" width="500">
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>[Launch]&lt;/strong> をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>チュートリアル プロジェクトにある scripts\startup_dist.py スクリプトを、新しい C:\Automation Workspace\ のルート ディレクトリーにコピーします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>これを startup.py にリネームします。startup.py スクリプトには以下の内容が含まれています。&lt;/p>
+&lt;/li>
+&lt;/ol>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 &lt;div>&lt;pre>&lt;code>from scripting import *
 from java import lang
@@ -6511,18 +6355,16 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;p>この Python スクリプトの &lt;strong>&amp;rsquo;__startup__&amp;rsquo;&lt;/strong> セクションのコマンドは、CityEngine の起動時に自動的に実行されます。最初の起動引数は、自動化ジョブを含む CityEngine プロジェクトを定義します。これは Automation Workspace にリンクされます。2 番目の引数には &lt;strong>config&lt;/strong> ファイルが含まれています。これは解析され、(name,value) ペアのリストとして自動化ジョブに引き渡されます。ジョブが完了したら、CityEngine は安全にシャットダウンされます。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>コマンド ラインを開いて Automation Workspace で CityEngine を起動し、ジョブ定義とパラメーターを渡します。&lt;/p>
+&lt;p>この Python スクリプトの &lt;strong>startup&lt;/strong> セクション内のコマンドは、CityEngine の起動時に自動的に実行されます。
+最初の起動引数は、自動化ジョブを含む CityEngine プロジェクトを定義します。これは自動化用ワークスペースにリンクされます。
+2 番目の引数には設定ファイル (config file) が含まれます。これは解析され、(name, value) ペアのリストとして自動化ジョブに渡されます。
+ジョブが完了すると、CityEngine は安全にシャットダウンされます。&lt;/p>
+&lt;ol start="11">
+&lt;li>コマンド ラインを開き、自動化用ワークスペースで CityEngine を起動し、ジョブ定義とパラメーターを渡します。&lt;/li>
+&lt;/ol>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;pre>&lt;code>&amp;lt;Path_to_CityEngine.exe&amp;gt; -data &amp;lt;Workspace_Folder&amp;gt; -vmargs
--DprojectFolder=&amp;lt;Project_Folder&amp;gt; -DconfigFilePath=&amp;lt;Configuration_FilePath&amp;gt;
-@ Example:
-&amp;gt; &amp;#34;C:\Program Files\Esri\CityEngine2023.0\CityEngine.exe&amp;#34; -data
-&amp;#34;C:\Automation Workspace&amp;#34; -vmargs
--DprojectFolder=&amp;#34;C:\CE_Workspace\Tutorial_10_Python_Scripting__2021_1&amp;#34;
--DconfigFilePath=&amp;#34;C:\CE_Workspace\Tutorial_10_Python_Scripting__2021_1\data\jobConfig.cfg&amp;#34;&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;div>&lt;pre>&lt;code>&amp;lt;Path_to_CityEngine.exe&amp;gt; -data &amp;lt;Workspace_Folder&amp;gt; -vmargs -
+DprojectFolder=&amp;lt;Project_Folder&amp;gt; -DconfigFilePath=&amp;lt;Configuration_FilePath&amp;gt;&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
 &lt;button
 class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
@@ -6532,24 +6374,40 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;p>ジョブが完了したら、&lt;strong>models&lt;/strong> フォルダー に ArcGIS Earth で表示できる &lt;strong>Footprints.kmz&lt;/strong> 出力ファイルが含まれています。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-F2A24687-D8DB-40CE-B305-D1EC2C7F6754-web.png" width="600">&lt;figcaption>
+&lt;p>例&lt;/p>
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;pre>&lt;code>&amp;gt; &amp;#34;C:\Program Files\ArcGIS\CityEngine2025.1\CityEngine.exe&amp;#34; -data
+&amp;#34;C:\Automation Workspace&amp;#34; -vmargs
+-DprojectFolder=&amp;#34;C:\CE_Workspace\Tutorial_10_Python_Scripting__2025_1&amp;#34;
+-DconfigFilePath=&amp;#34;C:\CE_Workspace\Tutorial_10_Python_Scripting__2025_1\data\jobConfig.cfg&amp;#34;&lt;/code>&lt;/pre>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>ジョブが完了すると、[models] フォルダーには Footprints.kmz という出力ファイルが生成されます。必要であれば、このファイルを ArcGIS Earth で開くことができます。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-10-python-scripting/GUID-F2A24687-D8DB-40CE-B305-D1EC2C7F6754-web_6.png" width="600">&lt;figcaption>
 &lt;h4>ArcGIS Earth の結果&lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
-&lt;/li>
-&lt;/ol>
+&lt;/p>
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">automationJob.py ファイルには最小限のジョブしか含まれていません。&lt;a href="https://doc.arcgis.com/en/cityengine/latest/tutorials/tutorial-10-python-scripting.htm"target="_blank" rel="noopener">CityEngine Python ヘルプ&lt;/a>を参照して、必要に応じて調整をしてください。&lt;/div>
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">automationJob.py には最小限のジョブのみが含まれています。必要に応じてカスタマイズするには、&lt;a href="https://doc.arcgis.com/en/cityengine/latest/python/cityengine-python-intro.htm"target="_blank" rel="noopener">CityEngine Python&lt;/a> リファレンスを参照してください。&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;p>このチュートリアルでは、以下の方法を学習しました。&lt;/p>
 &lt;ul>
 &lt;li>Python コンソールとエディターの基本的な使い方を学習しました。&lt;/li>
 &lt;li>CityEngine タスクの自動化の例をいくつか学習しました。&lt;/li>
-&lt;/ul></description></item><item><title>チュートリアル 11: レポーティング</title><link>/cityengine/tutorials/classic/tutorial-11-reporting/</link><pubDate>Mon, 26 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-11-reporting/</guid><description>
+&lt;/ul>
+&lt;p>詳細については、&lt;a href="https://doc.arcgis.com/en/cityengine/latest/python/cityengine-python-intro.htm"target="_blank" rel="noopener">CityEngine Python&lt;/a> リファレンスを参照ください。
+CityEngine の学習を続けるには、&lt;a href="https://doc.esrij.com/cityengine/tutorials/"target="_blank" rel="noopener">CityEngine チュートリアル カタログ&lt;/a>をご覧ください。&lt;/p></description></item><item><title>チュートリアル 11: レポーティング</title><link>/cityengine/tutorials/classic/tutorial-11-reporting/</link><pubDate>Mon, 26 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-11-reporting/</guid><description>
 &lt;h2>チュートリアル データ&lt;span class="hx:absolute hx:-mt-20" id="チュートリアル-データ">&lt;/span>
 &lt;a href="#%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab-%e3%83%87%e3%83%bc%e3%82%bf" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>チュートリアル データは、&lt;strong>[Help] メニュー → [Download Tutorials and Examples…]&lt;/strong> を選択し、[CityEngine Tutorial] からダウンロードできます。&lt;/p>
 &lt;h2>概要&lt;span class="hx:absolute hx:-mt-20" id="概要">&lt;/span>
@@ -9019,457 +8877,855 @@ Esc を押すと、開始点の初期位置にリセットできます。&lt;/p>
 • シェープを編集します。&lt;br>
 • 2D シェープから 3D シェープを作成します。&lt;br>
 • CGAモデルを3D シェープに変換します。&lt;br>&lt;/p>
-&lt;p>CityEngine の学習を続けるには、&lt;a href="https://doc.esrij.com/cityengine/tutorials/"target="_blank" rel="noopener">完全な CityEngine チュートリアル カタログ&lt;/a>を参照してください。&lt;/p></description></item><item><title>チュートリアル 14B : 応用的なポリゴン モデリング</title><link>/cityengine/tutorials/classic/tutorial-14b-advanced-polygonal-modeling/</link><pubDate>Mon, 26 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-14b-advanced-polygonal-modeling/</guid><description>
+&lt;p>CityEngine の学習を続けるには、&lt;a href="https://doc.esrij.com/cityengine/tutorials/"target="_blank" rel="noopener">完全な CityEngine チュートリアル カタログ&lt;/a>を参照してください。&lt;/p></description></item><item><title>チュートリアル 14B : 地形のモデリング</title><link>/cityengine/tutorials/classic/tutorial-14b-modeling-on-terrain/</link><pubDate>Fri, 13 Feb 2026 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-14b-modeling-on-terrain/</guid><description>
 &lt;h2>チュートリアル データ&lt;span class="hx:absolute hx:-mt-20" id="チュートリアル-データ">&lt;/span>
-&lt;a href="#%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab-%e3%83%87%e3%83%bc%e3%82%bf" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>チュートリアル データは、&lt;strong>[Help] メニュー → [Download Tutorials and Examples…]&lt;/strong> を選択し、[CityEngine Tutorial] からダウンロードできます。&lt;/p>
-&lt;h2>Part 1: ポリゴンによるモデリング&lt;span class="hx:absolute hx:-mt-20" id="part-1-ポリゴンによるモデリング">&lt;/span>
-&lt;a href="#part-1-%e3%83%9d%e3%83%aa%e3%82%b4%e3%83%b3%e3%81%ab%e3%82%88%e3%82%8b%e3%83%a2%e3%83%87%e3%83%aa%e3%83%b3%e3%82%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
-&lt;li>[Navigator] ウィンドウのチュートリアルのデータフォルダーから、&lt;strong>14B_Advanced_01.cej&lt;/strong> をダブルクリックしてプロジェクトを開きます。&lt;/li>
-&lt;li>&lt;strong>[Polygonal Shape Creation]&lt;/strong> (S) ツールを選択し、最初の頂点 (ポイント) をクリックします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-79D1D52B-AE89-4AD0-8E0D-F1BC0C959381-web.png" width="500">&lt;figcaption>
+&lt;a href="#%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab-%e3%83%87%e3%83%bc%e3%82%bf" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>チュートリアル データは、&lt;strong>[Help] メニュー → [Download Tutorials and Examples…]&lt;/strong> を選択し、[CityEngine Tutorial] からダウンロードできます。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-D4FB71A1-2958-4805-93C9-8241360D041E-web_1.png" width="500">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ラインを動かしている間、&lt;strong>[Polygonal Shape Creation]&lt;/strong> ツール オプションはラインの長さを表示します。また、[ツール オプション] ウィンドウでは、&lt;a href="https://doc.arcgis.com/en/cityengine/latest/help/help-snapping.htm"target="_blank" rel="noopener">スナップ&lt;/a>、円弧、&lt;a href="https://doc.arcgis.com/en/cityengine/latest/help/help-drawing-modes.htm"target="_blank" rel="noopener">平面&lt;/a>のオプションを設定することができます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-A59D58A5-E3C9-4801-8380-9B19217F2393-web.png" width="500">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="3">
-&lt;li>ラインの長さを 11 と指定する場合は、Tab キーを押しながら &lt;strong>[Edge Length]&lt;/strong> フィールドに長さを入力して Enter キーをクリックします。ラインの色がマゼンタ色になり、長さが 11 に固定されます。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-52615B1A-36CB-4655-994B-F812EDC51A2D-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="4">
-&lt;li>スナップ ラインに沿って指定の長さまで移動します。&lt;/br>&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-E7CF9286-0722-4CF9-A905-B902860529FE-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="5">
-&lt;li>クリックして 2 番目の頂点をセットします。&lt;/br>&lt;/li>
-&lt;li>3 番目の頂点では、値を 9 と入力し、Enter キーをクリックします。指定した長さの値をキャンセルしたい場合は、Esc キーをクリックすると、やり直しができます。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-85925645-ED8D-468F-9847-C97B26705AA8-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="7">
-&lt;li>その後の頂点設定は、テキスト入力はせずに 90° のスナップラインを見つけ、適当な長さでクリックします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-0DF5934F-6180-4325-BC92-0A18291D7E86-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="8">
-&lt;li>最後の頂点の設定は始点の頂点上でクリックし、ダブルクリックか Enter キーを押してポリゴン シェープを完成させます。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-8BCF28AF-13F4-4A72-967C-BAEB0FCD76B9-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="9">
-&lt;li>ライン上で微調節が行えます。まず、&lt;strong>[Transform Move]&lt;/strong> (W) ツールをクリックし、変更したいライン上にカーソルを合わせます。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-A88E1146-6B3A-48E0-B6F1-3B5A84D69B43-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="10">
-&lt;li>青いハンドルをドラッグして、エッジの位置に合わせます。&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">色のついた矢印は、それぞれ異なる方向にエッジを移動させます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h2>Part 2: 押し出し&lt;span class="hx:absolute hx:-mt-20" id="part-2-押し出し">&lt;/span>
-&lt;a href="#part-2-%e6%8a%bc%e3%81%97%e5%87%ba%e3%81%97" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
-&lt;li>&lt;strong>[Push Pull]&lt;/strong> (P) ツールをクリックし、ポリゴンの上にカーソルを合わせます。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-C7A3E210-5E4A-4455-9D22-C2F1AD3BF025-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="2">
-&lt;li>オレンジ色のハンドルをドラッグして離すと、3D シェープが完成します。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-29A81701-7D29-4EE5-A7B1-14DCB770B729-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="3">
-&lt;li>中点スナップのハイライトが表示されるまで、前縁にカーソルを合わせます。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-6D415711-DE60-47C1-BB58-7F5284B75E98-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="4">
-&lt;li>クリックしてセグメントを開始し、エッジに対して垂直にスナップしたら、クリックして終了します。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-0055E72A-06F3-4D38-BE22-EADE7D59F529-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="5">
-&lt;li>エッジ ハンドルでエッジをドラッグして、斜めの屋根を作ることができるようになりました。エッジの上にカーソルを置き、オレンジ色のハンドルをドラッグします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-4F74BA89-61BC-4FF2-9EC7-D7C5569DEFC3-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>&lt;strong>14_B_Advanced_02.cej&lt;/strong> を開くと、ここまでの手順で作成したシーンの模範例を見ることが出来ます。&lt;/br>&lt;/p>
-&lt;ol start="6">
-&lt;li>後端部の緑色の矢印をドラッグすると、屋根が平らになります。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-70D67821-D636-4293-B6C4-B930D88D6042-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>色の異なる矢印は、異なる方向に形状を押し出すことができます。エッジをドラッグしながら矢印の上にカーソルを置くと、方向を切り替えることができます。&lt;/br>
-7. 3D シェープを修正します。側面のポリゴンにカーソルを合わせ、緑色のハンドルをドラッグします。ここでも、異なる方向に対して複数の矢印が表示されています。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-02481A81-4D11-4A45-88BD-4DD8C37AFED8-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>色のついた矢印は、それぞれ異なる動作をします。緑色の矢印は、接地面に平行にドラッグし、新しい頂部ポリゴンを作成します。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-EB0BD904-94E7-406A-A980-7DD0F1693F5D-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>青い矢印は、新しいポリゴンを作成せずに既存のエッジに沿ってドラッグします。どちらのタイプも、作成したいシェープによっては非常に有効です。&lt;/p>
-&lt;ol start="8">
-&lt;li>&lt;strong>[Polygonal Shape Creation]&lt;/strong> (S) ツールまたは &lt;strong>[Rectangular Shape Creation]&lt;/strong> (Shift+S) ツールを使って、押し出すバルコニーを描きます。長方形を描いてバルコニーを作成します。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-5665E800-3626-41CE-8F71-C0A2E7ABCAE2-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="9">
-&lt;li>新しいポリゴンにカーソルを合わせ、ハンドルをドラッグします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-F772DEB9-A158-4A2C-9419-4B5A0FADACE7-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="10">
-&lt;li>&lt;strong>[Polygonal Shape Creation]&lt;/strong> (S) ツールをクリックし、壁を押し出すための多角形を作成します。&lt;/li>
-&lt;li>新しいポリゴンをドラッグします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-0C8FD214-C8FD-464B-8C24-676666A99704-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="12">
-&lt;li>バルコニーをはめ込むには、側壁にスナップするセグメントを 2 つ作成します。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-4525D215-5CB3-408B-985D-AFB193A65F2D-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="13">
-&lt;li>バルコニー床の取っ手を下にドラッグします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-01A6AFE5-F29E-4745-83EC-027F393D530F-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>これでバルコニーが完成しました。&lt;/br>
-14. カメラを奥に回転させます。&lt;/br>
-15. 別のバルコニーを作るには、&lt;strong>[Rectangular Shape Creation]&lt;/strong> (Shift+S) ツールをクリックし、壁に矩形を作成します。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-A79AF2CA-20D4-4A51-A1CF-F16A96FD7DC1-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="16">
-&lt;li>バルコニーをドラッグして取り出し、上部に矩形を描きます。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-119583C6-ED09-4BE5-ACC6-66BA8517E6CD-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="17">
-&lt;li>床を下にドラッグします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-F2711B9F-44A9-47A8-869C-5E4855D57C9A-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>&lt;strong>14_B_Advanced_03.cej&lt;/strong> を開くと、ここまでの手順で作成したシーンの模範例を見ることが出来ます。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;a href="https://doc.arcgis.com/en/cityengine/2021.0/help/help-guides.htm"target="_blank" rel="noopener">ガイド&lt;/a>を使用すると、エッジや面をドラッグする際の精度が向上します。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h2>Part 3: 張り出し屋根の作成&lt;span class="hx:absolute hx:-mt-20" id="part-3-張り出し屋根の作成">&lt;/span>
-&lt;a href="#part-3-%e5%bc%b5%e3%82%8a%e5%87%ba%e3%81%97%e5%b1%8b%e6%a0%b9%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>基本的なシェープができたので、より素敵な屋根を作ります。&lt;/p>
+&lt;/p>
+&lt;p>このチュートリアルは、&lt;a href="https://doc.esrij.com/cityengine/tutorials/classic/tutorial-14a-2d-and-3d-shape-modeling/"target="_blank" rel="noopener">「チュートリアル 14A : 2D および 3D シェープ モデリング」&lt;/a>の続編であり、そこで基本的な手動で描画・編集するテクニックについて学べます。本チュートリアルでは、地形を扱うためのツールやオプションについて、さらに詳しく学びます。&lt;/p>
+&lt;ul>
+&lt;li>シェープや道路を地形に合わせる&lt;/li>
+&lt;li>地形をシェープに合わせる&lt;/li>
+&lt;li>[brush] ツールによる地形の編集をする&lt;/li>
+&lt;li>地形上での道路やシェープの描画をする&lt;/li>
+&lt;/ul>
+&lt;p>このチュートリアルは、CityEngine における典型的なワークフローを模倣し、2 つのパートで構成されています。&lt;/p>
+&lt;ul>
+&lt;li>地形にフットプリントや道路を揃えることでシーンのコンテキストを準備します。&lt;/li>
+&lt;li>シナリオを作成し、道路からのセットバックを追加し、マッシングを生成し、植生を追加することで、地形上の再開発案を作成します。&lt;/li>
+&lt;/ul>
+&lt;h2>Part 1:シーン コンテキストの準備&lt;span class="hx:absolute hx:-mt-20" id="part-1シーン-コンテキストの準備">&lt;/span>
+&lt;a href="#part-1%e3%82%b7%e3%83%bc%e3%83%b3-%e3%82%b3%e3%83%b3%e3%83%86%e3%82%ad%e3%82%b9%e3%83%88%e3%81%ae%e6%ba%96%e5%82%99" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>以下の章では、道路、シェープ、地形を互いに整合させるためのさまざまな手法を見ていきます。地形上に道路を描く方法や、地形編集で生じる視覚的なレンダリングの乱れを除去する方法について学びます。これにより、現在の状況を可視化し、分析作業を行い、将来的な介入 (計画) を行うために、コンテキスト データを適切な状態に整えることができるようになります。&lt;/p>
+&lt;h2>Part 2:道路とフットプリントをテレインに合わせる&lt;span class="hx:absolute hx:-mt-20" id="part-2道路とフットプリントをテレインに合わせる">&lt;/span>
+&lt;a href="#part-2%e9%81%93%e8%b7%af%e3%81%a8%e3%83%95%e3%83%83%e3%83%88%e3%83%97%e3%83%aa%e3%83%b3%e3%83%88%e3%82%92%e3%83%86%e3%83%ac%e3%82%a4%e3%83%b3%e3%81%ab%e5%90%88%e3%82%8f%e3%81%9b%e3%82%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>道路とフットプリントをテレインに揃えるには、次の手順を実行します。&lt;/p>
 &lt;ol>
-&lt;li>緑色の矢印を上にドラッグして、屋根を建物から切り離します。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-01CEF9E2-C815-4999-9661-EB2715D93FC6-web.png" width="550">&lt;figcaption>
+&lt;li>&lt;a href="https://doc.arcgis.com/en/cityengine/latest/help/help-navigator.htm"target="_blank" rel="noopener">[Navigator]&lt;/a> ウィンドウで、Tutorial_14_Polygonal_Modeling チュートリアル フォルダーを展開します。&lt;/li>
+&lt;li>scenes フォルダー内の 14B_ModelingOnTerrain.cej ファイルをダブルクリックして、シーンを &lt;a href="https://doc.arcgis.com/en/cityengine/latest/help/help-viewport.htm"target="_blank" rel="noopener">[Viewport]&lt;/a> ウィンドウで開きます。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-A4256757-F97A-46FC-B6B6-784A8012CDFE-web_2.png" width="500">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
-&lt;p>Ctrl キーを押しながら、初期位置に沿ってエッジを挿入します。今は、編集しやすいように屋根を厚くしておいて、後で薄くすることができます。&lt;/p>
-&lt;ol start="2">
-&lt;li>もう一方のポリゴンも同じようにします。ドラッグするときは、最初のポリゴンにスナップします。&lt;/li>
+このシーンは次の 3 つのレイヤーで構成されています。&lt;/li>
 &lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-895F8FF2-9498-4170-BBE4-D1EB3D3457B2-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>&lt;strong>14_B_Advanced_04.cej&lt;/strong> を開くと、ここまでの手順で作成したシーンの模範例を見ることが出来ます。&lt;/br>&lt;/p>
+&lt;ul>
+&lt;li>地形&lt;/li>
+&lt;li>道路&lt;/li>
+&lt;li>フットプリント&lt;/li>
+&lt;/ul>
+&lt;p>道路とフットプリントが地形より下に配置されていることに気づきましたか。これは、高さ情報を含まないジオリファレンス データをインポートした場合によく発生する問題です。
+以下の手順では、これらを地形の上に移動して修正します。この作業は手動で行う必要はありません。CityEngine には、この処理を行うための &lt;strong>[Align Streets to Terrain]&lt;/strong> および &lt;strong>[Align Shapes to Terrain]&lt;/strong> ツールが用意されています。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">データのインポート方法についてさらに詳しく知りたい場合は、&lt;a href="https://doc.esrij.com/cityengine/tutorials/classic/tutorial-4-import-streets/"target="_blank" rel="noopener">チュートリアル 4: 道路データのインポート&lt;/a>、&lt;a href="https://doc.esrij.com/cityengine/tutorials/classic/tutorial-5-import-initial-shapes/"target="_blank" rel="noopener">チュートリアル 5: シェープのインポート&lt;/a>、および &lt;a href="https://doc.esrij.com/cityengine/tutorials/essentials/work-with-gis-data/"target="_blank" rel="noopener">エッセンシャル: GIS データを使った作業&lt;/a>のチュートリアルを参照してください。&lt;/div>
+&lt;/div>
+&lt;/div>
 &lt;ol start="3">
-&lt;li>張り出しを作成します。一番右端の面を手前にドラッグします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-6ECE8D9E-D50D-4211-B3F0-2E4D0EB812F5-web.png" width="550">&lt;figcaption>
+&lt;li>
+&lt;p>まず、&lt;a href="https://doc.arcgis.com/en/cityengine/latest/help/help-scene-editor.htm"target="_blank" rel="noopener">[Scene Editor]&lt;/a> ウィンドウで [Streets] レイヤーを右クリックし、&lt;strong>[Select Objects]&lt;/strong> をクリックして、すべてのストリートを選択します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-EEF464B2-C49E-4700-A9FB-151D9C099832-web_3.png" width="300">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
-&lt;ol start="4">
-&lt;li>隣の面も同じ長さまでドラッグします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-DECE26B8-5BF2-4BF7-B296-136B74040EA6-web.png" width="550">&lt;figcaption>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>メインツールバーの &lt;strong>[Align streets to terrain]&lt;/strong> ツールをクリックして、&lt;strong>[Align Streets to Terrain]&lt;/strong> ダイアログボックスを開きます。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-F261537A-1F47-4D12-AD98-B2F9F9CC424C-web_4.png" width="300">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-E2A75934-1B60-4CDA-9849-AA98E5D5D726-web_5.png" width="300">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>[Align Streets to Terrain]&lt;/strong> ダイアログ ボックスでは、ストリート ノードを地形に合わせるために 2 つのオプションを選択できます。[Project All] は選択したすべてのノードを指定した地形上に投影し、[Project Below] はテレインより下にあるノードだけを移動します。現在、すべてのストリート ノードが地形より下にあるため、どちらの設定でも結果は変わりません。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-3A72631D-96F2-4BB6-8D49-E51D24CE17FB-web_6.png" width="300">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>&lt;strong>[Heightmap]&lt;/strong> オプションでは、どの地形にノードを合わせるかを選択します。
+シーンに複数の地形がある場合でも、常に [y = 0] という選択肢があります。これは、すべてのストリート ノードを地表 (高さ 0) に配置することを意味します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-30608987-C63E-42DD-AA20-2D40D458FB55-web_7.png" width="300">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>CityEngine では、ノードとシェープは常に平面です。
+そのため、2 つのノード間の高低差はセグメント シェープによって均されます。
+そのため、道路を地形に揃えた後でも、道路の一部が地形の下に入り込む場合があります。これを修正するためには、正のオフセット値を設定して道路を少し持ち上げることができます。このチュートリアルの後半では、ストリート シェープに合わせて地形を調整する方法も学びます。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-AB1162C2-9B9B-47AD-B087-D31370F70068-web_8.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
 &lt;ol start="5">
-&lt;li>3 面目もドラッグします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-792B72D9-D090-465F-8755-8215D7A02B2C-web.png" width="550">&lt;figcaption>
+&lt;li>
+&lt;p>&lt;strong>[Heightmap]&lt;/strong> オプションが &lt;strong>[Terrain]&lt;/strong> に設定されていることを確認し、その他のオプションはデフォルトのままにしておきます。&lt;strong>[Finish]&lt;/strong> をクリックして、調整します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-C6E4EC91-0630-45E5-AA0B-4EA07B1E69B2-web_9.png" width="500">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
-&lt;ol start="6">
-&lt;li>4 面目もドラッグさせますが、少し短めに作成します。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-2C915A05-63A4-41E9-AFDE-1CC7EBDF1FEE-web.png" width="550">&lt;figcaption>
+すべての道路が地形に合わせて調整されました。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>[Scene Editor]&lt;/strong> ウィンドウで [Footprint] レイヤー内のすべてのシェープを選択します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>メイン ツールバーの &lt;strong>[Align Shapes to Terrain]&lt;/strong> ツールをクリックして、ダイアログ ボックスを開きます。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-50A71749-8CE3-4FFE-970F-4273DA6812E2-web_10.png" width="300">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
-&lt;ol start="7">
-&lt;li>最後の面は 4 面目にスナップするようにドラッグします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-1EFC5E9F-CDF6-4D47-AE7F-ED14F6448554-web.png" width="550">&lt;figcaption>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-2B8241DF-3EB5-474C-8D77-11E5DDF65329-web_11.png" width="300">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>[Align Shapes to Terrain]&lt;/strong> ダイアログ ボックスは、&lt;strong>[Align Streets to Terrain]&lt;/strong> ダイアログ ボックスとほぼ同じですが、追加の調整オプションが含まれている点が異なります。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-B6325221-FC63-4684-9E63-80F66E6301B1-web_12.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>[Project All] と [Project Below] の機能は、ストリート ノードではなくシェープの頂点に対しても同じように動作します。
+[Project to Object Average] は、シェープ内のすべての頂点の平均高さを計算し、それらをその高さに揃える機能で、非平面シェープを平坦化するために使用できます。&lt;br>
+次の画像は、これらの Translate オプションの違いを示しています
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-C1380E6F-59B0-47AE-AC5F-3955E6F7ABFE-web_13.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>不均一な地形に配置された場合、[Translate to Maximum] では建物のフットプリントが目に見えて浮き上がり、[Translate to Minimum] ではすべての辺が地形上または地形より下になるように沈み込み、[Translate to Average] ではシェープの一部が地形より上に、一部が地形より下になります。&lt;/p>
 &lt;ol start="8">
-&lt;li>カメラの視点を横にまわします。&lt;/li>
-&lt;li>屋根の側面を青い矢印で下にドラッグします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-DD9D142D-71F7-4EAC-A517-DCDC5E033CFD-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="10">
-&lt;li>反対側も同様に行います。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-3D1DA15F-3C1C-42F7-BF6E-0F7F7D9EFE43-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="11">
-&lt;li>最後にシェープの後方にカメラの視点を回し、屋根を手前にドラッグさせて張り出しを作成します。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-19C1812E-AA5A-4591-8ADD-821DD4AB7270-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>&lt;strong>14_B_Advanced_05.cej&lt;/strong> を開くと、ここまでの手順で作成したシーンの模範例を見ることが出来ます。&lt;/p>
-&lt;ol start="12">
-&lt;li>カメラの視点を再度正面にまわします。ここで最後の調整を行います。屋根ポリゴンを見ると、面に不要なラインが存在しているのが分かります。これを消去するには、まず &lt;strong>[Select]&lt;/strong> ツールを使用して、建物シェープ全体を選択します。&lt;/li>
-&lt;li>&lt;strong>[Cleanup Shape]&lt;/strong> ツールをクリックします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-56D02999-2844-4DBB-8952-B52F9EAA2C9B-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="14">
-&lt;li>[Cleanup Shape] ダイアログの [Preset] で、デフォルトを選択し、&lt;strong>[Finish]&lt;/strong> をクリックします。&lt;/br>
-ほぼすべてのラインが消去されます。不要なラインが残っている場合、もう一度実行する必要があります。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-6282CE1F-0A12-415C-891F-57BE82F83BC3-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>&lt;strong>14_B_Advanced_06.cej&lt;/strong> を開くと、ここまでの手順で作成したシーンの模範例を見ることが出来ます。&lt;/p>
-&lt;h2>Part 4: 屋根、窓、ドアの改造&lt;span class="hx:absolute hx:-mt-20" id="part-4-屋根窓ドアの改造">&lt;/span>
-&lt;a href="#part-4-%e5%b1%8b%e6%a0%b9%e7%aa%93%e3%83%89%e3%82%a2%e3%81%ae%e6%94%b9%e9%80%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
-&lt;li>ここで、屋根の厚さを薄くします。複数のポリゴンを一度に動かすには、標準の [Selection] ツールと [transform] ツールを使用します。&lt;/li>
-&lt;li>最初のポリゴンを &lt;strong>[Select]&lt;/strong> ツールで選択します。Ctrl キーをホールドしたまま、次のポリゴンをクリックします。&lt;/li>
-&lt;li>&lt;strong>[Transform Move]&lt;/strong> (W) ツールをクリックし、緑の矢印に沿ってドラッグします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-96069173-DB97-43E1-A772-0875C9428DD5-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="4">
-&lt;li>&lt;strong>[Push Pull]&lt;/strong> (P) ツールを使って、プレーンをドラッグしながら、建物本体ポリゴンの最終調整をします。青い矢印を使用すると、屋根に沿ってシェープを押し引きしながら調整することが出来ます。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-77657A28-C5B6-40F1-96C9-B112E29BD760-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-D8BD8CE7-E58D-4C3D-9FA2-F22349CACC05-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>&lt;strong>14_B_Advanced_07.cej&lt;/strong> を開くと、ここまでの手順で作成したシーンの模範例を見ることが出来ます。&lt;/br>
-5. 次に、建物を装飾していきます。窓を 2 つ描画します。&lt;/br>
-6. &lt;strong>[Push Pull]&lt;/strong> (P) ツールをクリックし、長方形を内側にドラッグします。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-AFF35D9E-8CDC-4E3F-B0CB-4DB4D98C37D3-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="7">
-&lt;li>次に、ドアを 2 枚作成します。ドアを作成する場所にカメラの視点を移動します。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-4F84A1E7-201E-4A0A-BAC9-284C0296F7AD-web.png" width="550">&lt;figcaption>
+&lt;li>ギャップが生じて、後で地形をさらに編集する必要を避けるために、&lt;strong>[Align function]&lt;/strong> を [Translate to Minimum] に設定します。CityEngine では、&lt;a href="https://doc.arcgis.com/en/cityengine/latest/help/cityengine-help-get-map-data.htm"target="_blank" rel="noopener">Get Map Data&lt;/a> を使用した場合も、同じ設定がフットプリントに適用されます。
+さらに、&lt;strong>[Heightmap]&lt;/strong> オプションを [Terrain] に設定し、&lt;strong>[Finish]&lt;/strong> をクリックして調整を適用します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-8FD895EA-00BC-47A8-8E59-74DD9852D415-web_14.png" width="500">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
 &lt;/li>
 &lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-E9CC2365-7C15-4793-83B4-FBCC4BEFEEA3-web.png" width="550">&lt;figcaption>
+&lt;h2>Part 3:Translate to Maximum を使ってフットプリントを調整&lt;span class="hx:absolute hx:-mt-20" id="part-3translate-to-maximum-を使ってフットプリントを調整">&lt;/span>
+&lt;a href="#part-3translate-to-maximum-%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6%e3%83%95%e3%83%83%e3%83%88%e3%83%97%e3%83%aa%e3%83%b3%e3%83%88%e3%82%92%e8%aa%bf%e6%95%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>通常は [Translate to Minimum] オプションが最も適していますが、シェープを調整した後、シェープの大部分が地形の下に入り込んでしまう場合があります。これは、急斜面にある大きなシェープでよく起きる問題です。
+これを修正するには、次の手順を実行します。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>シーンの右下へ移動するか、&lt;strong>[Bookmarks]&lt;/strong> メニューで [Align footprints to terrain] をクリックします。そこに、調整に問題が発生している 2 つの例が表示されています。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-0599B8E5-BB99-4AE5-B0A4-254001E07C47-web_15.png" width="500">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
-&lt;ol start="8">
-&lt;li>家を回転し、もういくつか窓を作成します。&lt;/li>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-7131F00A-4CD7-4AA4-98A4-2A244EF42EAA-web_16.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>これらのシェープを手動で選択するか、または [Shapes to translate to maximum] の &lt;a href="https://doc.arcgis.com/en/cityengine/latest/help/help-select-objects.htm#ESRI_SECTION1_2CB9127CC57C48FABC8AA8633F70CF37"target="_blank" rel="noopener">[selection set]&lt;/a> を適用します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-F34FD44D-9846-4C1C-87DF-6D50A9E68B61-web_17.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-CB1F780B-976B-42DA-A9E0-3B7207A97D4A-web_18.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>再度 &lt;strong>[Align shapes to terrain]&lt;/strong> ツールを実行します。ただし今回は、[Align function] を [Translate to Maximum] に設定します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-3892ABEC-89BF-48FD-9E4F-1DB2D118C352-web_19.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
 &lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-48ABFAB3-55A8-4B50-84A4-0FA217E5D8E7-web.png" width="550">&lt;figcaption>
+&lt;p>ずっと良くなりました。&lt;/p>
+&lt;h2>Part 4:フットプリントに地形を調整&lt;span class="hx:absolute hx:-mt-20" id="part-4フットプリントに地形を調整">&lt;/span>
+&lt;a href="#part-4%e3%83%95%e3%83%83%e3%83%88%e3%83%97%e3%83%aa%e3%83%b3%e3%83%88%e3%81%ab%e5%9c%b0%e5%bd%a2%e3%82%92%e8%aa%bf%e6%95%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>[Translate to Maximum] オプションでフットプリントを調整すると、建物の一部が地表に接していない状態になることがあります。
+これを修正するには、シェープの高さに合わせて地形を持ち上げることが必要です。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>シェープを選択したまま、メイン ツールバーの &lt;strong>[Align Terrain to Shapes]&lt;/strong> ツールをクリックします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-C23E0540-6135-46EC-8F3A-24507AD43859-web_20.png" width="300">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
-&lt;ol start="9">
-&lt;li>最後に緑の矢印を使用して、屋根の一辺を地面と水平に延長させ、オープン ガレージを作成します。&lt;/li>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-AE10AE25-3AB7-4117-A1FF-79F1EB3A6AB1-web_21.png" width="300">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;strong>[Add border]&lt;/strong> チェック ボックスがオンになっている場合、
+調整処理はシェープの範囲に加えて、その外側に少しだけオフセットされた領域にも適用されます。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-5E630BA0-26F2-48DE-85CB-C68250228BAA-web_22.png" width="300">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+デフォルトでは、元の地形と編集後の地形の間が垂直方向に調整されます。&lt;strong>[Smooth borders]&lt;/strong> オプションを使用すると、[Smooth range] または [Constant gradient] を選択して、地形のつなぎ方を指定できます。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-D4BC8FF6-9497-4A51-9C67-688EC9A6C7A8-web_23.png" width="300">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-B25321D3-A4B0-4D24-8665-AF8CECECD509-web_24.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>見た目のよい結果にするために、&lt;strong>[Smooth borders]&lt;/strong> を Smooth range に設定し、
+&lt;strong>[Border range]&lt;/strong> を 2 m に、さらに &lt;strong>[Border easing]&lt;/strong> のチェック ボックスをオンにします。その他のオプションはすべてデフォルトのままにして、&lt;strong>[Apply]&lt;/strong> をクリックしてから &lt;strong>[Close]&lt;/strong> をクリックします。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-5F424C71-BB10-47A2-9D1D-FAD8E071C70D-web_25.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+地形は、選択したシェープの周囲で持ち上げられました。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>シェープの選択を解除し、左側の建物へズームインして詳しく確認します。(&lt;strong>ブックマーク: Terrain smoothing&lt;/strong>)&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-F4A71349-3DDA-4203-BB7C-20BAAA63A822-web_26.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+元の地形と編集後の地形の境界部分に、レンダリングの乱れが見えることが分かります。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>[Terrain Smooth Brush]&lt;/strong> ツールを使用し地形レンダリングの乱れを取り除きます。Brush をクリックすると、スムージングが適用される範囲を示すオレンジ色の円が &lt;strong>[Viewport]&lt;/strong> ウィンドウに表示されます。この円が地形の下にある場合、半透明で表示されます。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-8D360184-8165-4132-B76E-BDB21191D64B-web_27.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+次に進む前に、地形の編集時の視認性を高めるためにシーンの設定を調整します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>[Scene Editor]&lt;/strong> ウィンドウで [Terrain] レイヤーを選択します。
+&lt;a href="https://doc.arcgis.com/en/cityengine/latest/help/help-inspector.htm"target="_blank" rel="noopener">[Inspector]&lt;/a> ウィンドウの &lt;strong>[Layer Options]&lt;/strong> セクションで、&lt;strong>[Wireframe]&lt;/strong> オプションを [Enabled] に設定します。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-078F1A47-00CC-40AC-BB03-7A4C8475AC08-web_28.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+地形の上にグリッドが表示されるようになりました。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>レンダリングの乱れを滑らかにします。
+&lt;strong>[Viewport]&lt;/strong> ウィンドウで、ポインターの位置にスムージングを適用するために地形をクリックし、スムージングを続けるためにドラッグします。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-ABB3259F-7B74-443F-BA87-B48C5B33FB1B-web_29.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+ご覧のとおり、デフォルト設定ではスムージングが強すぎます。スムージングを元に戻すには Ctrl+Z を押します。&lt;strong>[Terrain Smooth Brush]&lt;/strong> ツールのオプションで、[brush size]、[strength]、[smoothing behavior] を変更することで、設定を微調整します。[strength] は、地形の解像度に依存します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>このシーンの地形に対しては、&lt;strong>[Strength]&lt;/strong> を 2.5% に設定し、&lt;strong>[Brush size]&lt;/strong> を 5 m に縮小して細かい操作をできるようにします。円を建物の少し外側に配置し、地形の急な部分を滑らかにするために エッジに沿ってドラッグします。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-8F849CDF-24C9-4805-84AF-5E1782431D94-web_30.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>必要な場所で、地形が調整されたすべての建物の縁に沿ってスムージングを続けます。あなたの結果は、次の画像と似たようなものになるはずです。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-BA91DC10-DF7C-4271-BCD9-18FD20621A50-web_31.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
 &lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-E08CC724-DBB6-405F-9611-40477F468554-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="10">
-&lt;li>柱を作成します。[Rectangle] ツールで、長方形を 2 つ描き、地面に向かってドラッグします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-4D73483C-D9AD-4090-86B4-52C9825D1FCD-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>&lt;strong>14_B_Advanced_08.cej&lt;/strong> を開くと、ここまでの手順で作成したシーンの模範例を見ることが出来ます。&lt;/p>
-&lt;h2>Part 5: テクスチャ&lt;span class="hx:absolute hx:-mt-20" id="part-5-テクスチャ">&lt;/span>
-&lt;a href="#part-5-%e3%83%86%e3%82%af%e3%82%b9%e3%83%81%e3%83%a3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
-&lt;li>まず、家全体を選択します。&lt;/li>
-&lt;li>&lt;strong>[Texture shapes]&lt;/strong> ツールをクリックします。&lt;/li>
-&lt;li>&lt;strong>[Browse]&lt;/strong> をクリックし、wall_white を選択し、開きます。このテクスチャ アセットは、チュートリアルの asset フォルダーの中にあります。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-F4142D81-AF33-4E69-B832-5F4B2C170BAB-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="4">
-&lt;li>一様なテクスチャリングをするために &lt;strong>[Mode]&lt;/strong> で &lt;strong>[Dimensions]&lt;/strong> を選択して適用します。&lt;/br>
-Absolute texture width と Absolute texture height の入力数値はメートル単位でのテクスチャの大きさを表しています。&lt;/li>
-&lt;li>両パラメーターに 10 を指定し、&lt;strong>[Assign]&lt;/strong> をクリックします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-1C380883-D5C9-48EE-84FB-D91EAAA129CB-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="6">
-&lt;li>続いてすべての屋根を選択します。[Select] ツールですべての屋根ポリゴンを選択します。最初のポリゴン上でダブルクリックし、Ctrl キーを押しながら他のポリゴンをクリックします。&lt;/li>
-&lt;li>&lt;strong>[Texture shapes]&lt;/strong> ツールから roof を選択し、&lt;strong>[Assign]&lt;/strong> をクリックします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-CA4661FC-0DC4-4811-BE1D-FF2E20D2ABDC-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="8">
-&lt;li>次はドアと窓です。&lt;strong>[Select]&lt;/strong> ツールで窓を 2 つ選択します。&lt;/li>
-&lt;li>&lt;strong>[Texture shapes]&lt;/strong> ツールで、窓テクスチャを指定します。&lt;/li>
-&lt;li>[Mode] を &lt;strong>[Stretch to polygon]&lt;/strong> に設定することにより、窓にテクスチャがフィットします。&lt;strong>[Assign]&lt;/strong> をクリックして割り当てます。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-CE74FBB3-11E4-469A-B991-55E47885F816-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="11">
-&lt;li>ドアも 2 枚選択します。[Texture] ツールでドアのテクスチャを指定し、&lt;strong>[Assign]&lt;/strong> をクリックします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-B41BC7B7-4869-4CA7-8203-2AC87C259DC0-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="12">
-&lt;li>カメラの視点を家の裏側にまわし、窓を選択します。窓テクスチャを選択し、&lt;strong>[Assign]&lt;/strong> をクリックします。&lt;/br>
-窓テクスチャが間延びしているはずです。&lt;/br>&lt;/li>
-&lt;li>&lt;strong>[Horizontal repetitions]&lt;/strong> に 4 と入力し、&lt;strong>[Assign]&lt;/strong> をクリックします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-0100D214-1E98-4E98-82D8-FC0DFA9F2416-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="14">
-&lt;li>煙突を追加するには、&lt;strong>[Rectangular Shape Creation]&lt;/strong> ツールを使用して、屋根の上に長方形を描き、緑の矢印に沿って上方にドラッグします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-EB55DFF6-41F5-4497-9882-DA829C039EDD-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="15">
-&lt;li>煙突の奥の一辺をクリックし、手前の一辺と同じ高さになる様に下にドラッグします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-789FE65B-C555-4DE7-B998-A599B40C2376-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="16">
-&lt;li>すべての面を選択し、[Texture] ツールでテクスチャを指定します。&lt;/li>
-&lt;li>&lt;strong>[Browse]&lt;/strong> から wall_concrete_6.png を選択し、&lt;strong>[Dimensions]&lt;/strong> を 10 に指定し、&lt;strong>[Assign]&lt;/strong> をクリックします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-C6EECD6E-BB3D-44D5-B7DD-3311AAADFFB8-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="18">
-&lt;li>次にドーマーを追加します。長方形を描き、上にドラッグします。&lt;/li>
-&lt;li>後端を下にドラッグして、ピタッと止まるようにします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-97051FC3-55B4-4951-B8D3-611BB114F194-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol start="20">
-&lt;li>側面にもテクスチャを貼り付けます。&lt;/li>
-&lt;li>すでに学習したように、建物の前面に窓を作成します。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-5EFBBA74-7598-41FE-B4AD-2B190022F638-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>これで家の完成です。必要に応じて煙突を小さくするなど各パーツを微調整してください。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-advanced-polygonal-modeling/GUID-5FE37C99-6045-4ABB-83A8-1CDBC7241E70-web.png" width="550">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>&lt;strong>14_B_Advanced_09.cej&lt;/strong> を開くと、ここまでの手順で作成したシーンの模範例を見ることが出来ます。&lt;/p>
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">テクスチャシェイプの編集時にシェーディングモード (&lt;strong>[View settings] → [Shaded]&lt;/strong>) を使用すると、描画のハイライトがより見やすくなります。&lt;/div>
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">建物に沿ってスムージングするには、通常カメラ位置を調整する必要があります。
+スムージングを停止して再開すると、新しい円と前の円の間に目に見える境界が現れることがあります。これを修正するには、[Continuous smoothing] オプションを使用し、&lt;strong>[Strength]&lt;/strong> を 0.1% に設定して、影響を受けた領域を再びスムージングします。&lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>チュートリアル 14C : ルールによるポリゴン モデルの結合</title><link>/cityengine/tutorials/classic/tutorial-14c-combining-polygonal-modeling-with-rules/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-14c-combining-polygonal-modeling-with-rules/</guid><description>
+&lt;/div>
+&lt;p>素晴らしい、これですべてが正しい位置に配置されました。&lt;/p>
+&lt;h2>Part 5:地形を道路に調整&lt;span class="hx:absolute hx:-mt-20" id="part-5地形を道路に調整">&lt;/span>
+&lt;a href="#part-5%e5%9c%b0%e5%bd%a2%e3%82%92%e9%81%93%e8%b7%af%e3%81%ab%e8%aa%bf%e6%95%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>シーンをさらに詳しく調べると、いくつかの場所で地形が道路と重なっているのが確認できます &lt;strong>(ブックマーク: Align terrain to streets)&lt;/strong>。この理由は、道路のジオメトリーがノードの高さに依存しているためです。ノード シェープは、ノードと同じ高さを持ち、2 つのノード間の高さの差はレーン シェープによって調整されます。この重なりを修正するために、再び &lt;strong>[Align Terrain to Shapes]&lt;/strong> ツールを使用します。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-F30D21C6-A104-497B-8A20-5AC59FD82D08-web_32.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>シーン内のすべての [streets] を選択し、&lt;strong>[Align Terrain to Shapes]&lt;/strong> ツールをクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>前回の調整時の設定をそのままにします。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-4CDD7113-52DE-436D-B45C-839F4CFF8C5A-web_33.png" width="300">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>[Apply]&lt;/strong> をクリックしてから &lt;strong>[Close]&lt;/strong> をクリックします。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-862E9C47-6956-4EA0-A345-447C8E6CAF3A-web_34.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>これで、すべての道路が完全に見えるようになりました。&lt;/p>
+&lt;h2>Part 6:欠損している道路を追加&lt;span class="hx:absolute hx:-mt-20" id="part-6欠損している道路を追加">&lt;/span>
+&lt;a href="#part-6%e6%ac%a0%e6%90%8d%e3%81%97%e3%81%a6%e3%81%84%e3%82%8b%e9%81%93%e8%b7%af%e3%82%92%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>不完全なデータの場合、基になるマップをなぞっていくつかのデータを追加する必要があることがあります。この例では、いくつかの道路が欠けており、次の手順では地形上に道路を手動で描く方法を学びます。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>川の上のエリアへ移動します。(&lt;strong>ブックマーク: Add missing street&lt;/strong>)&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-9B9FC31C-EBA7-4DE9-B933-1AFEA9E7A5F8-web_35.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>[Polygonal Street Creation]&lt;/strong> ツール (G) が選択されていることを確認します。
+ツールオプションで、&lt;strong>[Street Configuration]&lt;/strong> オプションの [Neighborhood_Street_6m] に設定し、&lt;strong>[Re-use settings from neighbors]&lt;/strong> のトグル ボタンをオフにします。このボタンがオンのままだと、既存の道路に接続するセグメントを描き始める際に、選択した道路構成が適用されないためです。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-CF791FE7-7066-4F0B-B836-29BA6198685F-web_36.png" width="300">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>カーブの中心で 最初のクリックを行い、道路に沿ってなぞります。新しいノードは それぞれ自動的に地形上に配置されます。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-26BCD36F-4D1E-4084-9BF7-61EE344D53F9-web_37.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>下の道路に接続した後、Esc を押して描画モードを終了します。
+地形は、&lt;strong>[Align Terrain to Shapes]&lt;/strong> ダイアログ ボックスで最後に使用した設定に基づいて、自動的にストリート シェープに調整されます。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-F28A0ECA-9CDC-4DF9-9D16-C1B6D437FBD0-web_38.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2>Part 7:橋を作成&lt;span class="hx:absolute hx:-mt-20" id="part-7橋を作成">&lt;/span>
+&lt;a href="#part-7%e6%a9%8b%e3%82%92%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ほとんどの場合、道路は地形に沿って配置するのが最適です。
+しかし、橋、高架橋、ランプ、橋脚のような高架構造物の場合については、別の手法が必要になります。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>少しさらにズーム アウトし、先ほど描いた道路の左側のエリアに焦点を当てます(&lt;strong>ブックマーク: Add a bridge&lt;/strong>)。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-E41E319D-672A-4E09-BED7-57D74362D306-web_39.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+ご覧のとおり、地形から、欠けている道路が川を横切っていることがわかります。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>[Polygonal Street Creation]&lt;/strong> ツールを選択します。
+&lt;strong>[Street Configuration]&lt;/strong> オプションを [Simple_Street_Generic_12m] に設定し、
+&lt;strong>[Align terrain]&lt;/strong> と &lt;strong>[Intersect Segments]&lt;/strong> のトグル ボタンをオフにします。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-E7116AB1-B326-4841-8180-8C68B2394C04-web_40.png" width="300">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>ベースマップ画像をガイドにして、地形の端から道路をなぞり始めます。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-FDFC5F55-A0FE-482F-AE57-9A3679FF4971-web_41.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>反対側の既存の道路に接続します。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-46404B9A-7D76-4453-A72F-4D23E0CF7805-web_42.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>地形マップの端まで道路を完成させます。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-20FD6ED8-F171-47B1-91E1-3FC399079534-web_43.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>[Edit street/curves]&lt;/strong> ツールをクリックし、
+マップ上の線に一致させるために、横方向にカーブを調整するよう緑のハンドルをドラッグします。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-C73E5744-72F7-4137-B9C3-19283B613196-web_44.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+次に、カーブを垂直方向に調整します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>カメラを移動して、緑のハンドルの向きが水平から垂直に変わるまで浅い角度にします。カーブが既存の地形により近く沿うように、緑のハンドルをドラッグします。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-3A486B5C-95A7-4B67-9620-1BF1BCA44E1C-web_45.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>次のストリート セグメントも合わせて調整します。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-5BE0DA5B-6847-44DA-8437-D54FE30E7ADE-web_46.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>橋のあとの道路の部分を選択します。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-341BEB41-C0BC-464C-BA7C-ABBBD68CA616-web_47.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>[Align Terrain to Shapes]&lt;/strong> ツールを使用して、シェープを調整します。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-964B8A6C-6804-47DE-AD92-F5AAC014926D-web_48.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+これで最初のパートをやり遂げました。シーンはあなたの再開発提案に向けて準備が整いました。&lt;br>
+第 2 パートに進む前に、シーンを保存することを検討してください。&lt;br>
+バックアップとして、これまでの手順がすべて完了している [14B_ModelingOnTerrain_Redevelopment.cej] シーンも利用できます。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-8A00DA65-E9C1-43E1-B937-766DE42D6DB0-web_49.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2>Part 8:再開発提案を作成&lt;span class="hx:absolute hx:-mt-20" id="part-8再開発提案を作成">&lt;/span>
+&lt;a href="#part-8%e5%86%8d%e9%96%8b%e7%99%ba%e6%8f%90%e6%a1%88%e3%82%92%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>このパートでは、次の 2 つの &lt;a href="https://doc.arcgis.com/en/cityengine/latest/help/help-scenarios.htm"target="_blank" rel="noopener">[scenarios]&lt;/a> を作成します。&lt;/p>
+&lt;ul>
+&lt;li>既存条件&lt;/li>
+&lt;li>再開発
+再開発の目的は、既存の建物を取り除き、敷地を A・B・C の 3 つのセクションに分割し、それぞれに異なるマッシングを与えることです。A と B のセクションについては、lot と block シェープを手動で描き、&lt;a href="https://doc.arcgis.com/en/cityengine/latest/help/help-esri-lib-webstyles.htm"target="_blank" rel="noopener">Esri.lib&lt;/a> の &lt;a href="https://doc.arcgis.com/en/cityengine/latest/help/help-cga-modeling-overview.htm"target="_blank" rel="noopener">CGA&lt;/a> ルールを割り当ててマッシングを生成します。C のセクションについては、マッシングはすでに事前に作られているため、静的モデルとしてインポートし、シーン内で正しい位置に配置します。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-76F11ED5-A8D1-40BF-9D62-2A42EB73E61C-web_50.jpg" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ul>
+&lt;h2>Part 9:敷地の準備&lt;span class="hx:absolute hx:-mt-20" id="part-9敷地の準備">&lt;/span>
+&lt;a href="#part-9%e6%95%b7%e5%9c%b0%e3%81%ae%e6%ba%96%e5%82%99" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>以下の手順では、現在の建築環境と新しい再開発案を比較できるようにシーンを設定します。そのために、次の 2 つのシナリオを作成します。&lt;/p>
+&lt;ul>
+&lt;li>既存条件: 敷地内の既存建物と、以前にあなたが修正した地形 レイヤーが含まれています。&lt;/li>
+&lt;li>再開発: 既存の地形をコピーしたものの上に、新しい開発内容を配置して表示します。このコピーした地形は、提案内容に合わせてさらに修正していきます。&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>
+&lt;p>敷地へ移動し、既存の建物をすべて選択します &lt;strong>(ブックマーク: Site)&lt;/strong>。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-794DA614-B029-4FE0-8095-4FDBF1E513E8-web_51.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>選択した建物を、コンテキスト メニューを使用するか、または Ctrl + X を押して切り取ります。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-7E4E63DA-3C55-40E3-B15F-2BBECE4447EF-web_52.png" width="300">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>[Scene Editor]&lt;/strong> ウィンドウで、プラス アイコンをクリックして Existing Conditions という名前の [New scenario] を作成します。新しい Existing Conditions scenario が作成されます。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-3206B03F-F434-42E1-85BD-3D4904FE1B54-web_53.png" width="300">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+[ID] は最大 4 文字まで可能で、&lt;strong>[Scene Editor]&lt;/strong> ウィンドウに表示されます。これを EC に設定し、&lt;strong>[OK]&lt;/strong> をクリックします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Ctrl+V を押して、先ほど切り取った建物をこの作成したシナリオに貼り付けて追加します。
+[Scene Editor] ウィンドウに新しいレイヤーが作成されます。これを Existing Buildings にリネームします。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-3BB1CA49-46AD-4298-A48D-6E9303D6AFEA-web_54.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>[Scene Editor]&lt;/strong> ウィンドウで Terrain レイヤーを選択します。
+&lt;strong>[Inspector]&lt;/strong> ウィンドウで、&lt;strong>Scenario&lt;/strong> の横にある &lt;strong>[Edit]&lt;/strong> をクリックして、シナリオ タイプを &lt;strong>[Default Layer]&lt;/strong> から &lt;strong>[Scenario Layer]&lt;/strong> に変更します。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-3C7134DC-45B0-49E5-8895-F09F3743D39E-web_55.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>新しく作成されたシナリオを右クリックし、&lt;strong>[Duplicate]&lt;/strong> をクリックします。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-AEFF4CF4-9D1A-48EF-8F03-D1E7E3A9FB02-web_56.png" width="300">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>複製したシナリオに Redevelopment という名前を付けます。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-8A2DB7D4-226F-43B7-A734-01229DFF1F32-web_57.png" width="300">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+作成後、Redevelopment シナリオがアクティブに設定されます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>シナリオから Existing Buildings レイヤーを削除し、地形 レイヤーの名前を Terrain New に変更します。&lt;br>
+RD と EC のシナリオを切り替えて違いを確認します。地形はどちらのシナリオでもまだ同じように見えますが、これ以降の編集は、現在アクティブなシナリオ内の地形にのみ適用されます。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2>Part 10:道路からのセットバックを追加&lt;span class="hx:absolute hx:-mt-20" id="part-10道路からのセットバックを追加">&lt;/span>
+&lt;a href="#part-10%e9%81%93%e8%b7%af%e3%81%8b%e3%82%89%e3%81%ae%e3%82%bb%e3%83%83%e3%83%88%e3%83%90%e3%83%83%e3%82%af%e3%82%92%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>次に、ガイドを使用して敷地に道路からのセットバックを追加します。
+すべてについて、作業を簡単にするために、歩道からの距離として 7 m を使用します。これは既存の建物のセットバックとほぼ同じ距離でもあります。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>敷地の右下へ移動し、&lt;strong>[Guide Creation]&lt;/strong> ツールをクリックします。歩道の外側の縁をクリックし、ガイドをドラッグし始めます。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-5DFE6618-E68A-45E9-9294-E84F6E444C7F-web_58.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+破線と垂線の記号によって示されているように、ガイドは地形上に作成されることになります。しかし、地形とは関係なく、セットバックは歩道から正確に 7 m 設定する必要があります。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>ツール オプションで &lt;strong>[Force Planar]&lt;/strong> のトグルボタンをオンにします。これで、破線が歩道と同じ平面上に描画され、オレンジ色の垂直線が、描画平面上の位置と地形との垂直距離を示します。&lt;strong>[Offset]&lt;/strong> オプションを 7 m に設定し、クリックして平面ガイドを作成します。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-39A14AE9-0575-4054-95B9-ECE7732B53C7-web_59.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>シーンが次の画像と似たようになるまで、ガイドを追加し続けます。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-7C234AF1-90A8-402B-94BF-29496AFC1361-web_60.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+視認性を高めるために、&lt;strong>[Visibility setting]&lt;/strong> で地形を一時的に非表示にするか、F9 を押して非表示にすることができます。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2>Part 11:マッシング用のシェープを描く&lt;span class="hx:absolute hx:-mt-20" id="part-11マッシング用のシェープを描く">&lt;/span>
+&lt;a href="#part-11%e3%83%9e%e3%83%83%e3%82%b7%e3%83%b3%e3%82%b0%e7%94%a8%e3%81%ae%e3%82%b7%e3%82%a7%e3%83%bc%e3%83%97%e3%82%92%e6%8f%8f%e3%81%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>セクション A により近づいて移動します。このセクションでは、利用可能な外周全体を覆うシェープを描きます。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>[Polygonal Shape Creation]&lt;/strong> ツール (S) を選択します。&lt;strong>[Force Planar]&lt;/strong> のトグルボタンがオンになっていることを確認します。これにより、最初に描いた点の高さの値がすべての後続の点に使用され、平面のシェープが保証されます。Y を押してビューを真上に設定し、&lt;strong>[View settings]&lt;/strong> ツールの &lt;strong>[Wireframe on shaded/textured]&lt;/strong> (7) オプションのチェックを外して、グリッドを一時的に非表示にします。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>前の建物の 2 列目の右下の角から始めます。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-ED788C93-3274-4492-81C5-0B87CA2169C4-web_61.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>次の点を、既存の建物の間にあるガイドの交点に配置します。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-4EB2D723-BB99-4AAB-B12A-CD88CF9D6D3A-web_62.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>ガイドの交点に点を追加しながら、道路に沿ってなぞります。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-D628B750-FF47-4C16-BD14-A1DA7E56EF5B-web_63.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+上側左の部分にはガイドを追加していないため、次の点の配置を推測する必要があります。カメラ位置を下げて、垂直線が見えるまで下げます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>左上側の道路のカーブ近くに、次の点を配置するためにクリックします。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-E6FE163E-0FBB-4985-9880-CEB6ABCC279E-web_64.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+[Force Planar] モードでは、すべてのガイドは現在の描画平面に投影されます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>投影されたガイドにスナップし、マウスを動かして、垂直線が前の建物の 1 列目の左上の角に来るまで移動します。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-940DB16F-1986-4FAA-B9C2-740B41434BE2-web_65.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>2 列目の建物の右上の角まで続けて進み、点を追加します。最初の点をクリックするか、Enter を押してポリゴンを終了します。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-28C42AD5-77BF-48F6-B513-BC5E30D76A96-web_66.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>新しく作成したシェープに、/ESRI.lib/rules/Components/Massing/Urban_Block フォルダーにある [Perimeter_Stacked.cga] ルールを割り当て、&lt;strong>[Wireframe on shaded/textured]&lt;/strong> オプションをオンにします。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-51E938C7-F008-4D41-9CEB-67C1036CBB87-web_67.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>[Inspector]&lt;/strong> ウィンドウで、&lt;strong>[Height]&lt;/strong> を 24、&lt;strong>[Depth]&lt;/strong> を 12、そして &lt;strong>[Lower_Side_Position]&lt;/strong> を Front-Right-Corner に設定します。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-26FD771F-1DAA-4E1C-B621-73C28448B708-web_68.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>セクション B では、長屋を生成するために 2 つの長方形のシェープを描きます。
+1 つは上側のガイドから開始し、もう 1 つは下側から開始します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>[Rectangular Shape Creation]&lt;/strong> ツール (Shift+S) に切り替えます。
+&lt;strong>[Force Planar]&lt;/strong> のトグルボタンはオンのままにしておきます。両方の長方形について、長さを 48 m、奥行きを 18 m に設定します。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-842E73D7-86D3-40D0-BAB4-96B2CAF0EE39-web_69.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>/ESRI.lib/rules/Components/Massing/Suburban_Block/ フォルダーにある [Rowhouses.cga] ルールを両方のシェープに割り当てます。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-8D098032-2347-4E36-B2CF-9367BE34A9E4-web_70.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[Inspector] ウィンドウで、上段のマス モデルの &lt;strong>[Height]&lt;/strong> パラメーターを 9 m に、下段のものを 12 m に設定します。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-F101D40D-0B3D-4C04-BE25-5956CCC8A2CF-web_71.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2>Part 12:L 字型のマスモデルを配置&lt;span class="hx:absolute hx:-mt-20" id="part-12l-字型のマスモデルを配置">&lt;/span>
+&lt;a href="#part-12l-%e5%ad%97%e5%9e%8b%e3%81%ae%e3%83%9e%e3%82%b9%e3%83%a2%e3%83%87%e3%83%ab%e3%82%92%e9%85%8d%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>セクション C については、シーンに配置するための既存のマス モデルがすでにあります。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>[Navigator]&lt;/strong> ウィンドウで、[assets] フォルダー内の [L-Shaped Mass.glb] ファイルをシーンにドラッグします。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-E8919015-76D7-467C-8851-EFB28C6B32E6-web_72.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-BB19BDA6-3BC6-4630-ACB9-BDB5ADA3501B-web_73.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>[Visibility Settings]&lt;/strong> を開くために F9 を押して、地形を一時的に非表示にします。
+&lt;strong>[Transform Move]&lt;/strong> ツールをクリックし、&lt;strong>Adjust Position and Orientation&lt;/strong> (o) トグルボタンをオンにして、ハンドル位置を外側下端の角に設定します。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-87EC6B98-B09D-4BD3-869E-BF85E5CFC4EE-web_74.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>F9 を押して地形の表示を再びオンにし、オレンジ色のボールを使って L 字型マスモデルを、下側のガイドと以前の建物位置の交点へ移動します。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-95FCCC92-624B-41BB-B90F-932D9323147E-web_75.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>[Transform Rotate]&lt;/strong> ツールに切り替え、緑のハンドルをドラッグして、L 字型のガイドに合うまで回転させます。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-7D7AE31A-8618-45CD-9286-8052692CD573-web_76.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>F9 を押して、地形を再び非表示にします。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-07E94DB7-26F4-4BB2-8B9B-787818B36EA6-web_77.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+建物の下部がガイドと完全に調整されていないことがわかります。
+その理由は、あなたが作成したガイドが、平らではない道路から作成されたものだからです。赤いハンドルを使って垂直方向にも調整させることはできますが、
+このプロジェクトでは建物は平面のままにしておくべきなので、そのままにしておいて構いません。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>地形を再び表示し、&lt;strong>[Transform Move]&lt;/strong> ツールをクリックします。&lt;strong>[Enable Copy on Move]&lt;/strong> のトグルボタンをオンにし、オレンジのボールを上側のガイドにスナップするまでドラッグします。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-75D9CB2B-395A-4BB8-A20B-07C20CD6C213-web_78.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>[Transform Rotate]&lt;/strong> ツールをクリックし、L 字型がガイドに調整するまで回転させます。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-C47F802F-8014-4E0B-A589-4227B011107D-web_79.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+あなたのシーンは次の画像と同じように見えるはずです。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-C23DFEC7-466E-4D3B-A347-50684CD60712-web_80.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2>Part 13:マッシングを地形に調整&lt;span class="hx:absolute hx:-mt-20" id="part-13マッシングを地形に調整">&lt;/span>
+&lt;a href="#part-13%e3%83%9e%e3%83%83%e3%82%b7%e3%83%b3%e3%82%b0%e3%82%92%e5%9c%b0%e5%bd%a2%e3%81%ab%e8%aa%bf%e6%95%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>マッシングが完了したので、次のステップは建物を地形に調整させることです。各セクションごとに、最良の結果を得るために異なる戦略を適用する必要があります。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>外周の建物により近づいて移動します。見てわかるように、これは地形とかなりうまく統合されています。
+しかし、ストリート レベルでは、建物への直接アクセスがあるべきです。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-78FAD19E-3E8B-4851-8031-2C02AAA6FE43-web_81.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>メイン ツールバーで &lt;strong>[Terrain Edit Brush]&lt;/strong> ツールをクリックします。
+ツール オプションで &lt;strong>[Brush Size]&lt;/strong> を 3.5 m、&lt;strong>[Smooth Borders]&lt;/strong> を [Smooth Range]、&lt;strong>[Range]&lt;/strong> を 2.5 m に設定し、&lt;strong>[Easing]&lt;/strong> トグルボタンをオンにします。スムージング範囲は半透明の外側のリング によって視覚化されます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>スポイト (y) を道路の上にホバーさせて、地形の高さを道路のレベルに設定します。
+または、information displayに示されているポインター位置の標高を読み取り、手動で適切な値を入力することもできます。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-D808FA30-2055-4BDB-9E9A-9357BAF8BE41-web_82.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>道路が完全に平らではないため、新たな重なりを避けるために、道路の上にホバーせずに建物に沿ってドラッグします。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-71AE9B68-9727-4D82-B0A3-FB9AABCECCAA-web_83.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>必要であれば、編集した地形と既存の地形の間の領域を均すために、&lt;strong>[Terrain Smooth Brush]&lt;/strong> ツールを使用します。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-BBFBDCB2-491D-4691-85F9-477DF990DDAC-web_84.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>上側の道路に建物のアクセス エリアを作成するために、上記の手順を繰り返します。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-943E7ED6-EAF5-48BD-BE74-D801EB0F94D4-web_85.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+次に、セクション B に取り組みます。&lt;br>
+目標は、既存の地形に対して 3 分の 1 の割合の一貫した勾配で、長屋周辺の地形を調整させることです。
+これにより、追加の対策に頼ることなく植生を育てるのに適した斜面になります。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>両列のシェープを選択します。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-D03A7096-9885-4410-96C2-FFEA3057ADC1-web_86.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>[Align Terrain to Shapes]&lt;/strong> ツールをクリックして、ダイアログ ボックスを開きます。
+&lt;strong>[Smooth borders]&lt;/strong> を [Constant gradient] に設定し、&lt;strong>[Border range]&lt;/strong> を最大値の 50 m に、そして &lt;strong>[Border gradient]&lt;/strong> を 33.33 度に設定します。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-146B15E4-1E73-4660-AE77-2DB74689FFE5-web_87.png" width="300">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>[Apply]&lt;/strong> をクリックしてから &lt;strong>[Close]&lt;/strong> をクリックします。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-7E3021AF-39F1-44BA-A444-069232933D91-web_88.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>建物の標高を道路の標高に一致させるために、地形を平らにします。
+これを行うには、&lt;strong>[Terrain Edit Brush]&lt;/strong> ツール を使用するか、長屋シェープをコピーして道路の近くに移動し、前回の設定を使用して &lt;strong>[Align Terrain to Shapes]&lt;/strong> ツールを適用することができます。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-9700C80C-194B-4D75-A5BA-E89B808664B4-web_89.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>結果を見るために、一時的にシェープを削除します。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-530CCE95-AB05-45A6-8DD7-2C4463697772-web_90.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>上側の列に対しても位置合わせの手順を繰り返し、必要な箇所の他のエリアも滑らかにします。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-D06995A0-5B51-48F3-AD47-3F56E3A630D4-web_91.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+最後に、セクション C に取り組みます。&lt;strong>[Transform Move]&lt;/strong> ツールを使用して、2 つの L 字型マス モデルを地形上に手動で調整します。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">静的モデルの地形調整はかなり制限されています。
+その理由は、モデルのピボット ポイントだけが考慮されるためです。
+&lt;strong>[Align Terrain to Shapes]&lt;/strong> は無効になっており、&lt;strong>[Align Shapes to Terrain]&lt;/strong> の場合も、[translate] や [project] オプションを使用しても結果は同じ位置になります。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="13">
+&lt;li>
+&lt;p>上側の L 字型を選択します。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>[Transform Move]&lt;/strong> ツールをクリックし、右下の角が地表に触れるまで、緑の矢印 (y 軸) をドラッグします。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-82A464DC-4A12-4218-AE08-388AE893C2BC-web_92.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-6B172309-BCBC-43EB-B60C-38514CC46ACA-web_93.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>道路から下側の L 字型へのアクセスを可能にするために、セクション A のアクセス作業時と同じ方法で &lt;strong>[Terrain Edit Brush]&lt;/strong> ツールを適用します。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2>Part 14:植生を追加&lt;span class="hx:absolute hx:-mt-20" id="part-14植生を追加">&lt;/span>
+&lt;a href="#part-14%e6%a4%8d%e7%94%9f%e3%82%92%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>次のステップでは、建物の間にいくつかの木を追加します。すべての木を手動で植える代わりに、エリア上に木をランダムに配置する CGA ルール を使用します。&lt;br>
+このルールを適用するために、まず建物の間のエリアを覆うシェープを描きます。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>[Polygonal Shape Creation]&lt;/strong> ツールをクリックします。
+ツール オプションで、&lt;strong>[Force Planar]&lt;/strong> のトグルボタンがオフになっていることを確認します。
+このルールでは、シェープが平面になることを望まないためです。そうしないと、木が地形より下や上に配置されてしまいます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>次の画像と似たようなポリゴンを描きます。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-C81A4EE2-F47C-4351-ADEC-EA761A57B099-web_95.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>シェープに、[rules] フォルダー内の [Plant_Distributor_Simple.cga] ルールを割り当てます。[Plant_Distributor_Simple.cga] ルールは、[ESRI.lib] にある[Plant_Distributor.cga] ルールを修正したもので、設定項目を減らし、木のデフォルトの表現として LowPoly が設定されています。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-0F9CD110-4F2D-48E2-8EB1-622B18015AAE-web_96.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-A11E775A-C0B9-4515-A690-D979994D7B60-web_97.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+このルールは、ランダム シード値に基づいて、ランダムな種類・サイズ・位置で木を配置します。シードを変更するとすぐに、異なるバリエーションが得られます。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>ランダム シードを変更するには、メインメニューで &lt;strong>[Shapes]&lt;/strong> → &lt;strong>[Update Seed]&lt;/strong> をクリックするか Ctrl + Shift + G を押します。&lt;strong>[Inspector]&lt;/strong> ウィンドウで &lt;strong>[Density]&lt;/strong> や &lt;strong>[Distribution]&lt;/strong> の属性を調整することで、結果をさらにカスタマイズできます。次の画像では、&lt;strong>[Density]&lt;/strong> が 0.2、&lt;strong>[Distribution]&lt;/strong> が Border に設定されています。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-6F328B80-6AD1-4D56-8208-8F6D1062C318-web_98.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>セクション B については、その間にもう 1 つポリゴンを作成し、同じルールを割り当てます。地表より上に幹が出ないように、地形をシェープに合わせて調整します。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-EE3F92F6-4BBC-460F-A0A5-29C667D3A7F6-web_99.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>セクション A については、建物から少しずらして、中庭にポリゴンを描きます。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-E71EAF77-6EDF-4D33-98F9-E8633DA602CC-web_100.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+これで終了です。&lt;br>
+[Existing Conditions] と [Redevelopment] のシナリオを切り替えることができます。プロジェクトをより良く可視化するために、
+[Terrain] のワイヤーフレームを無効にし、&lt;strong>[Visibility settings]&lt;/strong> で [Shapes] と [Graph Networks] を非表示にします。&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-1DED4E9A-186E-4E75-95F8-6C9467523E05-web_101.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-C4E0207F-5A3F-478B-97E3-F6351F197052-web_102.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-F8C71A19-0894-445F-9836-59E7CCFAF0D0-web_103.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/tutorial-14b-Modeling-on-terrain/GUID-0D1030B8-9BEB-4A93-B2EB-52AE8B959747-web_104.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>チュートリアル 14C : ルールによるポリゴン モデルの結合</title><link>/cityengine/tutorials/classic/tutorial-14c-combining-polygonal-modeling-with-rules/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/tutorials/classic/tutorial-14c-combining-polygonal-modeling-with-rules/</guid><description>
 &lt;h2>チュートリアル データ&lt;span class="hx:absolute hx:-mt-20" id="チュートリアル-データ">&lt;/span>
 &lt;a href="#%e3%83%81%e3%83%a5%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab-%e3%83%87%e3%83%bc%e3%82%bf" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>チュートリアル データは、&lt;strong>[Help] メニュー → [Download Tutorials and Examples…]&lt;/strong> を選択し、[CityEngine Tutorial] からダウンロードできます。&lt;/p>
 &lt;h2>Part 1: ポリゴン モデリングとルール&lt;span class="hx:absolute hx:-mt-20" id="part-1-ポリゴン-モデリングとルール">&lt;/span>

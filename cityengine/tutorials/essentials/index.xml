@@ -316,7 +316,7 @@ and Examples&amp;hellip;]&lt;/strong> を選択し、[CityEngine Tutorial]
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
 &lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">・地図で標高データを取得するには、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/get-started/create-account.htm"target="_blank" rel="noopener">ArcGIS Online の組織アカウント&lt;/a>が必要です。&lt;br>
-・ダウンロードに問題がある場合は、&lt;strong>/maps/Terrain_Imagery_Final/&lt;/strong> チュートリアル プロジェクト フォルダーに必要なデータがあります。そこから、&lt;strong>eleavation.tif&lt;/strong> と &lt;strong>map.osm&lt;/strong> ファイルをシーンにドラッグ アンド ドロップします。&lt;/div>
+・ダウンロードに問題がある場合は、&lt;strong>/maps/Terrain_Imagery_Final/&lt;/strong> チュートリアル プロジェクト フォルダーに必要なデータがあります。そこから、&lt;strong>elevation.tif&lt;/strong> と &lt;strong>map.osm&lt;/strong> ファイルをシーンにドラッグ アンド ドロップします。&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;h3>インポート設定&lt;span class="hx:absolute hx:-mt-20" id="インポート設定">&lt;/span>
@@ -378,7 +378,7 @@ and Examples&amp;hellip;]&lt;/strong> を選択し、[CityEngine Tutorial]
 &lt;h3>建物を白に変更&lt;span class="hx:absolute hx:-mt-20" id="建物を白に変更">&lt;/span>
 &lt;a href="#%e5%bb%ba%e7%89%a9%e3%82%92%e7%99%bd%e3%81%ab%e5%a4%89%e6%9b%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>最後に、次のステップに進む前に、建物の &lt;strong>[Representation]&lt;/strong> 値をすべてデフォルトの白に戻します。これは開発のビジュアライゼーションにおいて使われる一般的な手法です。フルカラー モデルで、シーンの主役となる計画案や開発案を示し、既存の建物を白や控えめな色で表示することで、計画案の周辺の背景を調整し、メインとなる案に注目させます。ここまでのステップは、CityEngine のデフォルト ライブラリ (ESRI.lib) で利用可能なルール ファイル内のオプションを紹介するためのものです。&lt;/p>
 &lt;h3>主要建物のソリッド カラー&lt;span class="hx:absolute hx:-mt-20" id="主要建物のソリッド-カラー">&lt;/span>
-&lt;a href="#%e4%b8%bb%e8%a6%81%e5%bb%ba%e7%89%a9%e3%81%ae%e3%82%bd%e3%83%aa%e3%83%83%e3%83%89-%e3%82%ab%e3%83%a9%e3%83%bc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>[Bookmarks]&lt;/strong> の &lt;strong>[Bookmark 1 - Fernsehturm Berlin]&lt;/strong> をクリックするか、「0」を押して、ベルリンの中心地にあるテレビ塔のベルリン放送局に移動してします。周囲の建物の詳細を確認します。
+&lt;a href="#%e4%b8%bb%e8%a6%81%e5%bb%ba%e7%89%a9%e3%81%ae%e3%82%bd%e3%83%aa%e3%83%83%e3%83%89-%e3%82%ab%e3%83%a9%e3%83%bc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;strong>[Bookmarks]&lt;/strong> の &lt;strong>[Bookmark 1 - Fernsehturm Berlin]&lt;/strong> をクリックするか、「0」を押して、ベルリンの中心地にあるテレビ塔のベルリン放送局に移動します。周囲の建物の詳細を確認します。
 &lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/bookmarks.png" width="700">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
@@ -416,63 +416,60 @@ and Examples&amp;hellip;]&lt;/strong> を選択し、[CityEngine Tutorial]
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;h3>道路と歩道の幅を変更&lt;span class="hx:absolute hx:-mt-20" id="道路と歩道の幅を変更">&lt;/span>
-&lt;a href="#%e9%81%93%e8%b7%af%e3%81%a8%e6%ad%a9%e9%81%93%e3%81%ae%e5%b9%85%e3%82%92%e5%a4%89%e6%9b%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>道路と歩道の幅は、OSM データのインポート時に自動的に設定されます。このチュートリアルでは、クリーンナップの量を最小限にするために、歩道を削除し、道路の幅を狭くします。道路の幅を変更するには、&lt;strong>[Street Network]&lt;/strong> レイヤーを右クリック → &lt;strong>[Select Objects]&lt;/strong> をクリックし、道路ネットワーク全体を選択します。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-75A1B13F-CA8E-4B82-93D4-A845891D0A8D-web.png" width="500">&lt;figcaption>
+&lt;h3>道路の表現を簡略化&lt;span class="hx:absolute hx:-mt-20" id="道路の表現を簡略化">&lt;/span>
+&lt;a href="#%e9%81%93%e8%b7%af%e3%81%ae%e8%a1%a8%e7%8f%be%e3%82%92%e7%b0%a1%e7%95%a5%e5%8c%96" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>道路ネットワークについては、&lt;a href="https://doc.arcgis.com/en/cityengine/latest/help/help-import-osm.htm"target="_blank" rel="noopener">OSM&lt;/a> データのインポート時に、車線の種類、幅、車線数が自動的に設定されています。この詳細な表現は、道路設計を行う際の出発点として役立ちます。しかし、このチュートリアルでは、中央に破線の区画線がある 2 車線の路盤のみで構成され、歩道を含まない、中央に破線の区画線がある 2 本の車道レーンのみで構成されたよりシンプルな道路表現を使用することを目的とします。&lt;br>
+次の手順では、&lt;a href="https://doc.arcgis.com/en/cityengine/latest/help/street-designer-overview.htm"target="_blank" rel="noopener">Street Designer&lt;/a> を使用してそのような道路を作成し、設定として保存し、それを道路ネットワーク全体に適用します。これにより視覚的な複雑さが軽減されるだけでなく、道路ジオメトリーが単純化され、干渉も少なくなります。&lt;/p>
+&lt;p>&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-C84B7CF7-1007-44E8-8E73-47A116E8C16D-web_1.png" width="500">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
-&lt;/p>
-&lt;p>&lt;strong>[Inspector]&lt;/strong> ウィンドウで &lt;strong>[Segment]&lt;/strong> タブがアクティブになっていることを確認し、&lt;strong>[Segment Parameters]&lt;/strong> を以下に変更します。&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Segment Width&lt;/strong>: 9&lt;/li>
-&lt;li>&lt;strong>Lane Width&lt;/strong>: 4&lt;/li>
-&lt;li>&lt;strong>Left Sidewalk Width&lt;/strong>: 0&lt;/li>
-&lt;li>&lt;strong>Right Sidewalk Width&lt;/strong>: 0
-&lt;br>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-C65344FB-AE2B-42D8-B9F6-29BB22DB8199-web.png" width="500">&lt;figcaption>
+大聖堂の前にある区間が、適切な開始地点となります。&lt;/p>
+&lt;ol>
+&lt;li>ツールバーの &lt;strong>[Street Designer]&lt;/strong> ツールをクリックして、選択した道路セグメントの編集を開始します。&lt;/li>
+&lt;li>&lt;strong>[Remove Lanes]&lt;/strong> ツールを使用して、両側の歩道レーンを削除します。&lt;/li>
+&lt;li>&lt;strong>[Edit Lanes]&lt;/strong> ツールに切り替え、レーン端をドラッグして、残っている 2 本のレーンの幅を 4.5 m に設定します。
+または、レーンを選択し、&lt;strong>[Inspector]&lt;/strong> ウィンドウで &lt;strong>[Lane Width]&lt;/strong> パラメーターを手動で設定することもできます。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-6BEADFD4-4DEC-4A1A-8BD9-C6D17428E5CA-web_2.png" width="500">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
-&lt;/li>
-&lt;/ul>
-&lt;p>このセグメントのような動的な形状は、新しいパラメータに応じて調整されます。上と下のスクリーンショットを比較すると、見てわかるようにずっとシンプルな道路になっています。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-C602A865-5B4C-497E-A3C6-CFB4ABAD9C3D-web.png" width="500">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;h3>ルール ファイルの変更&lt;span class="hx:absolute hx:-mt-20" id="ルール-ファイルの変更">&lt;/span>
-&lt;a href="#%e3%83%ab%e3%83%bc%e3%83%ab-%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e5%a4%89%e6%9b%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>建物のフットプリントと同様に、道路にもインポート時にルールが割り当てられます。この場合、デフォルトの &lt;strong>Street_Modern_Standard.cga&lt;/strong> ルールを、同じく ESRI.lib の一部である &lt;strong>Street_Modern_Simple.cga&lt;/strong> ルールに変更します。&lt;br>&lt;/p>
-&lt;p>すべての道路が選択されていない場合は再度選択し、メイン メニューの &lt;strong>[Shapes]&lt;/strong> → &lt;strong>[Assign Rule File]&lt;/strong> をクリックし、&lt;strong>[Assign Rule File]&lt;/strong> ダイアログ ボックスを開きます。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-4589FD61-E8BE-4765-A2CB-1159D111F0B8-web.png" width="700">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;p>次に、CityEngine のワークスペース全体が表示されるように 2 つ上の階層に移動し、&lt;strong>/ESRI.lib/rules/Streets/&lt;/strong> フォルダーを参照します。&lt;strong>Street_Modern_Simple.cga&lt;/strong> ルールを選択します。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-AEE66CA8-3156-44BE-AAD1-D6E05ABAB1C4-web.png" width="300">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;p>新しいルールで道路ネットワークを再生成するには、&lt;strong>[Open]&lt;/strong> をクリックします。すぐにわかる主な違いの 1 つが、横断歩道がなくなったことです。&lt;br>&lt;/p>
-&lt;p>すべての道路形状を選択したまま、&lt;strong>[Inspector]&lt;/strong> ウィンドウで &lt;strong>[Segment]&lt;/strong> を以下の属性値に変更します。&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>NbrOfRightLanes&lt;/strong>: 0&lt;/li>
-&lt;li>&lt;strong>Centerline&lt;/strong>: white
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-9022BD79-146D-4C09-B70C-B85377B354C1-web.png" width="500">&lt;figcaption>
+&lt;ol start="4">
+&lt;li>動的レーン形状のパラメーターを設定した後、&lt;strong>[Rule Parameters]&lt;/strong> セクション内のパラメーターを調整します。ルールファイル内の &lt;strong>[Markings]&lt;/strong> セクションにあるデフォルト属性値は、隣接するレーンに自動的に適応します。&lt;/li>
+&lt;li>左側のレーンで、右側のマーカー スタイルを [Dashed] に設定します。&lt;/li>
+&lt;li>両方のレーンで、外側の道路標示を [Continuous] から [None] に変更します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-8C7A787A-9252-4E82-A04D-6F0D53EF8D37-web_3.png" width="500">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
 &lt;/li>
-&lt;/ul>
-&lt;p>この変更により、センターラインは連続した黄色から破線の白線となり、道路は 2 車線のみとなります。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-E0E3B378-C25D-4E9B-84B9-B629E9A3DFCB-web.png" width="500">&lt;figcaption>
+&lt;li>&lt;strong>[Segment]&lt;/strong> ボタンをクリックし、&lt;a href="https://doc.arcgis.com/en/cityengine/latest/help/street-designer-street-configuration.htm"target="_blank" rel="noopener">[Street Configuration]&lt;/a> セクションを開きます。
+ここには、都市デザイン プロジェクトで利用できるさまざまなプリセットの道路構成が用意されています。
+これらの構成は、そのまま使用できるオプションとしても、自分のカスタム道路デザインを作成する際のベースとしても利用できます。&lt;/li>
+&lt;li>新しい道路デザインを street configuration gallery に追加するために、&lt;strong>[Create new]&lt;/strong> ボタン (+) をクリックします。&lt;/li>
+&lt;li>道路構成の名前を my_City_Street に変更します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-2027F702-990D-4567-AEE8-877AE4DB6E09-web_4.png" width="500">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
-&lt;/p>
+&lt;strong>[Total width]&lt;/strong> パラメーターには、このセグメントの幅が 9.00 メートルと表示されています。&lt;br>
+このカスタムの道路構成を用意したことで、インポートした OSM の道路ネットワーク全体の複雑さを削減する準備が整いました。&lt;/li>
+&lt;li>すべての道路を選択するには、選択中の道路セグメントを右クリックし、&lt;strong>［Select Objects in the Same Layer］&lt;/strong> をクリックします。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-2040B909-9DB3-4C5D-9B53-3807936C37BE-web_5.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>&lt;strong>[Segment]&lt;/strong> ボタンをクリックし、&lt;strong>[Street Configuration]&lt;/strong> セクションを開きます。&lt;/li>
+&lt;li>ギャラリーで my_City_Street の道路構成をクリックします。
+動的シェイプとモデルは、my_City_Street の道路構成パラメーターに従って調整されます。
+上の初期画像と次の画像を比較するとわかるように、道路が簡略化されています。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-7D483C97-AB33-416D-904A-00A729F32FC7-web_6.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
 &lt;h3>グラフ編集のためのシーンを準備&lt;span class="hx:absolute hx:-mt-20" id="グラフ編集のためのシーンを準備">&lt;/span>
 &lt;a href="#%e3%82%b0%e3%83%a9%e3%83%95%e7%b7%a8%e9%9b%86%e3%81%ae%e3%81%9f%e3%82%81%e3%81%ae%e3%82%b7%e3%83%bc%e3%83%b3%e3%82%92%e6%ba%96%e5%82%99" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>はじめに、&lt;strong>[Visibility settings]&lt;/strong> で &lt;strong>[Graph Networks]&lt;/strong> と &lt;strong>[Shapes]&lt;/strong> が表示されていることを確認します。&lt;strong>[Map Layers (ベースマップ画像)]&lt;/strong> をクリックするか、「F9」を押し、&lt;strong>[Models]&lt;/strong> をクリック (もしくは「F12」を入力) し、それらの表示をオフにします。また、&lt;strong>[Scene Editor]&lt;/strong> ウィンドウで &lt;strong>[Footprints]&lt;/strong> レイヤーを非表示にします。
 &lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/visibility_settings.png" width="700">&lt;figcaption>
@@ -498,7 +495,8 @@ and Examples&amp;hellip;]&lt;/strong> を選択し、[CityEngine Tutorial]
 &lt;/figcaption>
 &lt;/figure>
 &lt;/p>
-&lt;p>次にツールバーの &lt;strong>[Cleanup Graph]&lt;/strong> ツールをクリックするか、メイン メニューの &lt;strong>[Graph] メニュー&lt;/strong> → &lt;strong>[Cleanup Graph]&lt;/strong> をクリックして、&lt;strong>[Cleanup Graph]&lt;/strong> ダイアログ ボックスを開きます。ポイントの [Vertical Merge Distance] と [Horizontal Merge Distance] でマージ距離を指定し（ポイント同士が近い場合、マージされます）、赤の破線で示された競合する形状を解決するために &lt;strong>[Resolve Conflicting Shapes]&lt;/strong> チェックボックスをオンにします。&lt;strong>[Finish]&lt;/strong> をクリックします。
+&lt;p>次にツールバーの &lt;strong>[Cleanup Graph]&lt;/strong> ツールをクリックするか、メイン メニューの &lt;strong>[Graph] メニュー&lt;/strong> → &lt;strong>[Cleanup Graph]&lt;/strong> をクリックして、&lt;strong>[Cleanup Graph]&lt;/strong> ダイアログ ボックスを開きます。ポイントの [Vertical Merge Distance] と [Horizontal Merge Distance] でマージ距離を指定し（ポイント同士が近い場合、マージされます）、赤の破線で示された競合する形状を解決するために &lt;strong>[Resolve Conflicting Shapes]&lt;/strong> チェックボックスをオンにします。&lt;strong>[Finish]&lt;/strong> をクリックします。&lt;br>
+望む結果が得られない場合は、マージ距離を徐々に大きくしながら、クリーン ナップ処理を繰り返してください。
 &lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-A57FBE44-F4B4-4E50-B600-709DE8F2F752-web.png" width="500">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
@@ -519,97 +517,80 @@ and Examples&amp;hellip;]&lt;/strong> を選択し、[CityEngine Tutorial]
 &lt;/figcaption>
 &lt;/figure>
 &lt;/p>
-&lt;p>地形が道路より高くなっている場所がいくつかあるほか、道路のひとつが実は公園の下を通るトンネルになっている箇所があります。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-4DE3699B-4642-4317-8CE9-CF0FC91530BF-web.png" width="500">&lt;figcaption>
+&lt;p>地形が道路より高くなっている場所がいくつかあるほか、道路のひとつが実は公園の下を通るトンネルになっている箇所があります。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-4DE3699B-4642-4317-8CE9-CF0FC91530BF-web_7.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h3>トンネル道路の非表示&lt;span class="hx:absolute hx:-mt-20" id="トンネル道路の非表示">&lt;/span>
+&lt;a href="#%e3%83%88%e3%83%b3%e3%83%8d%e3%83%ab%e9%81%93%e8%b7%af%e3%81%ae%e9%9d%9e%e8%a1%a8%e7%a4%ba" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>CityEngine の地形は標高マップに基づいています。このアプローチには、特に広域のパフォーマンス面で利点がありますが、欠点として“穴”を表現できないという点があります。つまり、トンネルを正しくモデル化する方法がありません。
+トンネルを表現する 1 つの方法として、&lt;strong>[Generate Bridges]&lt;/strong> ツールを使用する方法があります。このツールでは、道路を地面より上へ移動させることで橋を生成できますが、このケースでは道路を地下に移動させるために使用します。&lt;/p>
+&lt;ol>
+&lt;li>次の画像に示すように、地下へ移動させる道路を選択するために四角形の選択範囲を作成します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-51155301-0471-4583-BF47-5EEEAEB605A3-web_8.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+次に、&lt;strong>[Generate Bridges]&lt;/strong> ツールを適用します。&lt;/li>
+&lt;li>メインメニューで &lt;strong>[Graph]&lt;/strong> → &lt;strong>[Generate bridges]&lt;/strong> をクリックします。&lt;/li>
+&lt;li>&lt;strong>[Allow tunnels]&lt;/strong> オプションがオンになっていることを確認し、その他の設定はすべてデフォルトのままにします。&lt;/li>
+&lt;li>&lt;strong>[Apply]&lt;/strong> をクリックし、ダイアログ ボックスを閉じます。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-4B332038-0C24-44C4-BF5E-6ED41C05C0F2-web_9.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+トンネルの道路は地形の下に移動されます。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-09CC4969-3EDD-43DE-9B40-C04F45E8A974-web_10.png" width="500">&lt;figcaption>
+&lt;h4> &lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;h3>地形の高さを調整&lt;span class="hx:absolute hx:-mt-20" id="地形の高さを調整">&lt;/span>
+&lt;a href="#%e5%9c%b0%e5%bd%a2%e3%81%ae%e9%ab%98%e3%81%95%e3%82%92%e8%aa%bf%e6%95%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>次に、地形と道路シェープが重ならないように、地形を道路の高さに合わせて調整します。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>公園を横断する長い道路にズーム インし、地形が重なっているいくつかの道路を選択します。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-1F3A4E87-33E6-4B2F-94F0-C199620AE7B7-web_11.png" width="500">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
 &lt;/p>
-&lt;h3>トンネル道路の削除&lt;span class="hx:absolute hx:-mt-20" id="トンネル道路の削除">&lt;/span>
-&lt;a href="#%e3%83%88%e3%83%b3%e3%83%8d%e3%83%ab%e9%81%93%e8%b7%af%e3%81%ae%e5%89%8a%e9%99%a4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>CityEngine の地形は、ハイトマップに基づいており、このアプローチの利点には、特に大きなエリアに対するパフォーマンスに優れていることがありますが、欠点の 1 つは穴を表現できないことがあります。つまり、トンネルを適切にモデリングする方法がありません。そのため地下にある道路のセグメントを削除することになります。&lt;br>&lt;/p>
-&lt;p>トンネルは公園エリアの南側にある交差点の少し後から始まり、主要駅まで続いています。&lt;br>&lt;/p>
-&lt;p>&lt;strong>[Select]&lt;/strong> ツールを使って、2 つの交点間の大きな部分を矩形で選択し、[Delete] キーを押して選択したセグメントを削除します。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-77B091DF-F92D-4862-935B-7DF2648BA9E0-web.png" width="700">&lt;figcaption>
+&lt;/li>
+&lt;li>
+&lt;p>ツールバーの &lt;strong>[Align Terrain to Shapes]&lt;/strong> ツールをクリックします。
+これにより、&lt;strong>[Cleanup Graph]&lt;/strong> ダイアログ ボックスと同様に、現在の選択に対して動作するダイアログボックスが開きます。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-9070C14A-0D9A-4689-9A74-AAE45EBA704F-web_12.png" width="500">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
 &lt;/p>
-&lt;p>トンネルに沿って、道路の一部を削除しながら作業を続けます。交差点では、トンネルのセグメントだけを注意深く選択します。[Shift] キーを押しながらクリックするか、&lt;strong>[Selection Tool]&lt;/strong> オプション ウィンドウで &lt;strong>[Add]&lt;/strong> モードに変更すると効果的です。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/add_mode.png" width="300">&lt;figcaption>
+&lt;/li>
+&lt;li>
+&lt;p>値はデフォルトのままにして &lt;strong>[Apply]&lt;/strong> をクリックします。ダイアログボックスを閉じると、地形が正しく調整されています。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-38E7D821-2E3D-4213-8C57-66A6C06658B7-web_13.png" width="500">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-8660E6F4-ACB2-44B2-95FE-90E6BBFE5EBC-web.png" width="700">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;p>完了したら、下図のようになるはずです。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-313E5934-AA45-4079-A081-0E75B4E94837-web.png" width="500">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;h3>地形の高さの調整&lt;span class="hx:absolute hx:-mt-20" id="地形の高さの調整">&lt;/span>
-&lt;a href="#%e5%9c%b0%e5%bd%a2%e3%81%ae%e9%ab%98%e3%81%95%e3%81%ae%e8%aa%bf%e6%95%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>次に、地形がこれ以上重ならないように、道路の形状の高さを調整します。公園を横切る長い道路にズーム インして、地形が重なっている道路をいくつか選択します。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-1F3A4E87-33E6-4B2F-94F0-C199620AE7B7-web.png" width="700">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;p>ツールバーの &lt;strong>[Align terrain to shapes]&lt;/strong> ツールをクリックします。これは、上記の &lt;strong>[Cleanup Graph]&lt;/strong> ダイアログ ボックスと同様に、現在の選択範囲に対して機能するダイアログ ボックスを開きます。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/align_terrain_to_shapes.png" width="300">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-9070C14A-0D9A-4689-9A74-AAE45EBA704F-web.png" width="500">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;p>すべてをデフォルト値のままにして、&lt;strong>[Apply]&lt;/strong> をクリックします。ダイアログを閉じると、地形が適切に調整されています。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-38E7D821-2E3D-4213-8C57-66A6C06658B7-web.png" width="700">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">シーン内のすべての形状を選択して、これと同じツールで地形を調整することもできますが、結果に満足できない領域に対して調整が生じてしまう可能性があります。このチュートリアルの逐次的なアプローチによって、結果をよりコントロールすることができます。&lt;/div>
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">このツールは、シーン内のすべてのシェープを選択して地形をそれらに合わせるためにも使用できますが、その場合、一部のエリアで望ましくない調整が行われる可能性があります。
+このチュートリアルのように段階的に操作する方法であれば、結果をより細かくコントロールできます。&lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;h3>Terrain Edit Brush を使った地形の微調整&lt;span class="hx:absolute hx:-mt-20" id="terrain-edit-brush-を使った地形の微調整">&lt;/span>
-&lt;a href="#terrain-edit-brush-%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%9f%e5%9c%b0%e5%bd%a2%e3%81%ae%e5%be%ae%e8%aa%bf%e6%95%b4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>ズーム インすると、至近距離でもわずかな重なりを見つけることができます。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-DB86C2E0-06F9-41DC-81B1-96842E28970D-web.png" width="500">&lt;figcaption>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>作業が終わったら、もう一度 &lt;strong>[Bookmark 4 – Terrain Editing]&lt;/strong> に移動します。
+次の画像のようになっているはずです。
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-6064C75B-4000-48B7-AA02-28433F46D675-web&amp;#43;_14.png" width="500">&lt;figcaption>
 &lt;h4> &lt;/h4>
 &lt;/figcaption>
 &lt;/figure>
 &lt;/p>
-&lt;p>CityEngine では、ブラシを使って地形を修正し、必要な高さに変更することもできます。&lt;strong>[Terrain Edit Brush]&lt;/strong> ツールをクリックして、&lt;strong>[Terrain Edit Brush]&lt;/strong> ツール オプションでオプションを変更します。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/terrain_edit_brush.png" width="300">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;p>地形の正確な標高を取得するには、&lt;strong>[Elevation Picker]&lt;/strong> のトグル ボタンをオンにします。カーソルを地図上に移動し、クリックして標高を選択します。道路の下の地形を低くするために、地図上の低い地点を選択します。マップのこの部分は、38m 程度の高さが丁度良いです。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-6D064AEE-1DDA-43B1-AED8-692AB2DF1FC7-web.png" width="700">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;p>標高を選択すると、&lt;strong>[Terrain Edit Brush]&lt;/strong> ツールがアクティブになります。クリック アンド ドラッグで地形を塗りつぶすようにし、ピッカーで選択した高さに標高を編集することで、その &lt;strong>Height&lt;/strong> 値で表示されるようになります。道路が地面より下にある部分がなくなるまで、道路上に対してこの作業を行います。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-BE0A0F07-64F8-463F-8ED7-12A6ABE6D2AF-web.png" width="500">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;p>公園エリアで重なっている他の場所の地形の編集を繰り返します。編集が終わったら、[Bookmarks] より &lt;strong>[Bookmark 4 - Terrain Editing]&lt;/strong> (もしくは「3」を入力) に移動します。下図のようになるはずです。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/tutorials/essentials/build-cities-with-get-map-data/GUID-6064C75B-4000-48B7-AA02-28433F46D675-web.png" width="700">&lt;figcaption>
-&lt;h4> &lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
+&lt;/li>
+&lt;/ol>
 &lt;h2>シナリオの作成&lt;span class="hx:absolute hx:-mt-20" id="シナリオの作成">&lt;/span>
 &lt;a href="#%e3%82%b7%e3%83%8a%e3%83%aa%e3%82%aa%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>次のセクションでは、再開発の可能性について 2 つのシナリオを作成します。&lt;/p>
 &lt;p>&lt;a href="https://doc.arcgis.com/en/cityengine/latest/help/help-scenarios.htm"target="_blank" rel="noopener">シナリオ&lt;/a>では、1 つのシーン内で複数のデザインを作成し、それらを比較することができます。シナリオを異なるビューに並べて表示し、視覚的に比較することができます。&lt;br>
