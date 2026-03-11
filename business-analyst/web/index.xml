@@ -198,9 +198,6 @@
 &lt;a href="/business-analyst/web/tutorial/customize-colorcodedmap/">カスタム変数を用いたカラーコード マップの作成&lt;/a>&lt;br>カラーコード マップの応用的な使い方を学びます。
 &lt;/li>
 &lt;li>
-&lt;a href="/business-analyst/web/tutorial/smart-map-search/">スマート マップ サーチで有望エリアの抽出・共有&lt;/a>&lt;br>スマート マップ サーチの利用方法を学びます。
-&lt;/li>
-&lt;li>
 &lt;a href="/business-analyst/web/tutorial/build-infographics/">インフォグラフィックスの作成&lt;/a>&lt;br>独自のインフォグラフィックス テンプレートを作成する方法を学びます。
 &lt;/li>
 &lt;/ul>
@@ -214,6 +211,6 @@ ArcGIS Business Analyst に関するチュートリアルは、&lt;a href="https
 &lt;p>BA Web and Mobile Apps の操作方法などを調べられる各種ドキュメントです。&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/welcome.htm" target="_blank">ArcGIS Business Analyst Web App ヘルプ | ドキュメント&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://doc.arcgis.com/ja/business-analyst/mobile/mobile-sign-in.htm" target="_blank">ArcGIS Business Analyst Mobile App ヘルプ | ドキュメント&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://doc.arcgis.com/ja/business-analyst/mobile/welcome-mobile.htm" target="_blank">ArcGIS Business Analyst Mobile App ヘルプ | ドキュメント&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledgeList.html?searchMethod=0&amp;searchCondition=0&amp;targetNameFlg=1&amp;searchCategory=1&amp;searchItem=1&amp;searchTag=1&amp;searchKnowledgeKind=1&amp;category%5B102%5D%5B1%5D=213&amp;category%5B102%5D%5B2%5D=222" target="_blank">ArcGIS Business Analyst Web and Mobile Apps に関する FAQ&lt;/a>&lt;/li>
 &lt;/ul></description></item></channel></rss>
