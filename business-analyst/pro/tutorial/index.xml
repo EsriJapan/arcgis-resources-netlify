@@ -278,24 +278,39 @@ width: 20%;
 &lt;/div>
 &lt;h1>演習&lt;/h1>&lt;h2>演習用データのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="演習用データのダウンロード">&lt;/span>
 &lt;a href="#%e6%bc%94%e7%bf%92%e7%94%a8%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
-&lt;li>&lt;a href="https://www.arcgis.com/home/item.html?id=73190eaba36d495dab9efa88bfca8f9d" target="_blank">BA Pro チュートリアル-ハフモデル プロジェクトパッケージ&lt;/a>をダウンロードします。&lt;/li>
-&lt;li>ダウンロードした「BAProチュートリアル-ハフモデル.ppkx」を開き、[演習1] マップを開きます。&lt;/li>
+&lt;li>&lt;a href="https://www.arcgis.com/sharing/rest/content/items/296ef9b8ef284f7498e0af11b3b15e7e/data" target="_blank">BA Pro チュートリアル-ハフモデル zip ファイル&lt;/a>をダウンロードします。&lt;/li>
+&lt;li>ダウンロードした「BAProチュートリアル-ハフモデル.zip」を解凍します。&lt;/li>
 &lt;/ol>
+&lt;h2>演習用プロジェクトの作成&lt;span class="hx:absolute hx:-mt-20" id="演習用プロジェクトの作成">&lt;/span>
+&lt;a href="#%e6%bc%94%e7%bf%92%e7%94%a8%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>&lt;a href="https://www.esrij.com/cgi-bin/wp/wp-content/uploads/documents/arcgis_pro_user_guide.pdf#page=14" target="_blank">ArcGIS Pro 逆引きガイド&lt;/a>の「1-4. ArcGIS Pro の起動と保存」の手順を参考に、ArcGIS Pro の起動とプロジェクトの新規作成を行います。&lt;/li>
+&lt;/ol>
+&lt;!--
+1. Windows の [スタート] ボタンをクリックし、[ArcGIS] → [ArcGIS Pro] を選択して ArcGIS Pro を起動します。
+2. [ArcGIS サイン イン] ダイアログが表示された場合は、ArcGIS Online のユーザー名とパスワードを入力し、[サイン イン] をクリックします。
+3. [新しいプロジェクト] から [マップ] をクリックします。
+4. [新しいプロジェクトの作成] ダイアログで、「ハフモデルプロジェクト」と名前を付けて [OK] をクリックします。
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">プロジェクト パッケージを開いた際、[プロジェクト アイテムの修復] メッセージが表示された場合は [OK] をクリックして閉じてください。&lt;/div>
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">新規プロジェクトの作成方法の詳細は、&lt;a href="https://www.esrij.com/cgi-bin/wp/wp-content/uploads/documents/arcgis_pro_user_guide.pdf#page=14" target="_blank">ArcGIS Pro 逆引きガイド&lt;/a>をご覧ください。&lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;p>[コンテンツ] ウィンドウおよびマップ上に「出店候補地」レイヤーおよび「既存店」レイヤーが追加されていることを確認します。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/huffmodel/huff-input-data.png">
-&lt;/figure>
+-->
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
 &lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;a href="/business-analyst/pro/tutorial/prepare-for-tutorial/#business-analyst-%e3%83%87%e3%83%bc%e3%82%bf-%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e8%a8%ad%e5%ae%9a">Business Analyst データ ソース&lt;/a> が最新のデータセットに設定されていることをご確認ください。&lt;/div>
 &lt;/div>
 &lt;/div>
+&lt;ol start="2">
+&lt;li>&lt;a href="https://www.esrij.com/cms/wp-content/uploads/documents/arcgis_pro_user_guide.pdf#page=25" target="_blank">ArcGIS Pro 逆引きガイド&lt;/a>の「フォルダーやデータベースに接続」の手順を参考に、解凍した「BAProチュートリアル-ハフモデル」フォルダーを接続します。&lt;/li>
+&lt;li>[カタログ] ウィンドウの [フォルダー] を展開し、「BAProチュートリアル-ハフモデル」内の「演習1.lyrx」をマップにドラッグ &amp;amp; ドロップで追加します。&lt;/li>
+&lt;li>[コンテンツ] ウィンドウの「演習1」グループ レイヤーを右クリックし、[レイヤーにズーム] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;p>[コンテンツ] ウィンドウおよびマップ上に「出店候補地」レイヤーおよび「既存店」レイヤーが追加されていることを確認します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/huffmodel/huff-input-data-36.png">
+&lt;/figure>
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
@@ -553,12 +568,6 @@ width: 30%;
 table th:nth-of-type(2) {
 width: 70%;
 }
-table thead tr th {
-background-color: #F9FAFB;
-}
-table tbody tr {
-background-color: #FFFFFF;
-}
 &lt;/style></description></item><item><title>テリトリー デザイン</title><link>/business-analyst/pro/tutorial/territory-design/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/territory-design/</guid><description>
 &lt;h1>目的&lt;/h1>&lt;p>テリトリー デザインを実行して、営業管轄エリアや配送エリアを最適化する方法を習得します。 本演習内では、世田谷区における営業の担当エリアを、テリトリー デザインを実行して可視化・最適化します。&lt;/p>
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
@@ -574,7 +583,375 @@ background-color: #FFFFFF;
 &lt;li>
 &lt;a href="/business-analyst/pro/tutorial/territory-design/create-optimal-territory/">テリトリーの自動最適化&lt;/a>&lt;br>位置情報や、売上高などの数値情報を元にテリトリーを最適化します。
 &lt;/li>
-&lt;/ul></description></item><item><title>データのカスタマイズ</title><link>/business-analyst/pro/tutorial/customize-data/</link><pubDate>Fri, 19 Nov 2021 00:00:00 +0900</pubDate><guid>/business-analyst/pro/tutorial/customize-data/</guid><description>
+&lt;/ul></description></item><item><title>適合性解析</title><link>/business-analyst/pro/tutorial/suitability-analysis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/suitability-analysis/</guid><description>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">本演習にかかる時間はおよそ 30 分です。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h1>目的&lt;/h1>&lt;p>本演習では、メーカーが開発した子ども向け商品を試験的に販売する店舗を決定するため、複数の条件に基づいて候補店舗を評価します。&lt;/p>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">適合性解析は、人口統計や競合店の出店状況などの複数の条件を組み合わせて、候補地ごとの適合度をランク付けすることで、試験販売店舗や新規出店場所などの選定を支援する解析機能です。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/suitability-analysis/sa-image.png"
+alt="適合性解析の実行イメージ">&lt;figcaption>
+&lt;p>適合性解析の実行イメージ&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h1>演習&lt;/h1>&lt;p>試験販売の候補となる店舗の商圏ポリゴンと人口統計データ、競合店ポイント、自社会員ポイントを使用して、適合性解析を行います。&lt;/p>
+&lt;h2>演習用データのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="演習用データのダウンロード">&lt;/span>
+&lt;a href="#%e6%bc%94%e7%bf%92%e7%94%a8%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>&lt;a href="https://www.arcgis.com/sharing/rest/content/items/fb634334d19348aeb8a1331dd9baf78e/data" target="_blank">BA Pro チュートリアル-適合性解析 zip ファイル&lt;/a>をダウンロードします。&lt;/li>
+&lt;li>ダウンロードした「BAProチュートリアル-適合性解析.zip」を解凍します。&lt;/li>
+&lt;/ol>
+&lt;h2>演習用プロジェクトの作成&lt;span class="hx:absolute hx:-mt-20" id="演習用プロジェクトの作成">&lt;/span>
+&lt;a href="#%e6%bc%94%e7%bf%92%e7%94%a8%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>&lt;a href="https://www.esrij.com/cgi-bin/wp/wp-content/uploads/documents/arcgis_pro_user_guide.pdf#page=14" target="_blank">ArcGIS Pro 逆引きガイド&lt;/a>の「1-4. ArcGIS Pro の起動と保存」の手順を参考に、ArcGIS Pro の起動とプロジェクトの新規作成を行います。&lt;/li>
+&lt;/ol>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;a href="/business-analyst/pro/tutorial/prepare-for-tutorial/#business-analyst-%e3%83%87%e3%83%bc%e3%82%bf-%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e8%a8%ad%e5%ae%9a">Business Analyst データ ソース&lt;/a> が最新のデータセットに設定されていることをご確認ください。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="2">
+&lt;li>&lt;a href="https://www.esrij.com/cms/wp-content/uploads/documents/arcgis_pro_user_guide.pdf#page=25" target="_blank">ArcGIS Pro 逆引きガイド&lt;/a>の「フォルダーやデータベースに接続」の手順を参考に、解凍した「BAProチュートリアル-適合性解析」フォルダーを接続します。&lt;/li>
+&lt;li>[カタログ] ウィンドウの [フォルダー] を展開し、「BAProチュートリアル-適合性解析」内の「演習1.lyrx」をマップにドラッグ &amp;amp; ドロップで追加します。&lt;/li>
+&lt;li>[コンテンツ] ウィンドウの「演習1」グループ レイヤーを右クリックし、[レイヤーにズーム] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;p>[コンテンツ] ウィンドウおよびマップ上に「試験販売候補」レイヤー、「競合店舗」レイヤー、「自社会員」レイヤー、「試験販売候補_自転車10分圏」レイヤーが追加されていることを確認します。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/suitability-analysis/add-layer.png">
+&lt;/figure>
+&lt;h2>適合性解析レイヤーを作成&lt;span class="hx:absolute hx:-mt-20" id="適合性解析レイヤーを作成">&lt;/span>
+&lt;a href="#%e9%81%a9%e5%90%88%e6%80%a7%e8%a7%a3%e6%9e%90%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%82%92%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>適合性解析を実行するための解析レイヤーを作成します。&lt;/p>
+&lt;ol>
+&lt;li>[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [適合性解析] をクリックします。&lt;/li>
+&lt;li>[&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/make-suitability-analysis-layer.htm" target="_blank">適合性解析レイヤーの作成 (Make Suitability Analysis Layer) (Business Analyst)&lt;/a>] ツールが起動したら、以下のように設定して [実行] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>パラメーター&lt;/th>
+&lt;th>設定値&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>入力フィーチャ&lt;/td>
+&lt;td>試験販売候補_自転車10分圏&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>適合性解析レイヤー名&lt;/td>
+&lt;td>適合性解析&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;ol start="3">
+&lt;li>マップ上に「適合性解析」グループ レイヤーが追加されます。&lt;/li>
+&lt;li>[コンテンツ] ウィンドウの「試験販売候補_自転車10分圏」レイヤーの左のチェックボックスをオフにし、レイヤーを非表示にします。&lt;/li>
+&lt;/ol>
+&lt;h2>解析条件を追加&lt;span class="hx:absolute hx:-mt-20" id="解析条件を追加">&lt;/span>
+&lt;a href="#%e8%a7%a3%e6%9e%90%e6%9d%a1%e4%bb%b6%e3%82%92%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>解析に使用する条件を適合性解析レイヤーに追加します。&lt;/p>
+&lt;p>はじめにデータ ブラウザーを使用して、新商品のターゲットである年齢層の人口や、ターゲット層の嗜好性に関連する消費データを条件として追加します。&lt;/p>
+&lt;ol>
+&lt;li>[コンテンツ] ウィンドウ上の「適合性解析」グループ レイヤーを選択した状態で、リボン上部に表示される [適合性解析] タブをクリックします。&lt;/li>
+&lt;li>[基準] グループの [条件の追加] の [˅] をクリックし、[データ ブラウザーから変数を追加] をクリックします。&lt;/li>
+&lt;li>[&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/add-variable-based-criteria.htm" target="_blank">変数に基づく適合性条件の追加 (Add Variable Based Suitability Criteria)&lt;/a>] ツールが起動したら、[変数] の右の [+] ボタンをクリックしてデータ ブラウザーを開きます。&lt;/li>
+&lt;li>[年齢] → [学齢別人口] の [2020 人口 3-5歳 (国勢調査メッシュ)] にチェックを入れます。&lt;/li>
+&lt;li>[カテゴリ] をクリックし、[教育] → [在学学校別人口] の [2020 未就学者数 総数 (国勢調査)] にチェックを入れます。&lt;/li>
+&lt;li>[カテゴリ] をクリックし、[消費] → [教養娯楽] の [2025 教養娯楽用品 (ESRIジャパン)] を展開し、[2025 玩具 (推計消費額)] にチェックを入れ、[OK] をクリックします。&lt;/li>
+&lt;li>以下のように設定されていることを確認し、[OK] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>パラメーター&lt;/th>
+&lt;th>設定値&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>入力適合性解析レイヤー&lt;/td>
+&lt;td>適合性解析&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td rowspan="3">変数&lt;/td>
+&lt;td>2020 人口 3-5歳 (国勢調査メッシュ)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2020 未就学者数 総数 (国勢調査)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2025 玩具 (推計消費額)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>次に、試験販売候補の商圏レイヤーが属性として持っている、店舗面積を条件として追加します。&lt;/p>
+&lt;ol>
+&lt;li>[基準] グループの [条件の追加] の [˅] をクリックし、[入力レイヤーからフィールドを追加] をクリックします。&lt;/li>
+&lt;li>[&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/add-field-based-criteria.htm" target="_blank">フィールドに基づく適合性条件の追加 (Add Field Based Suitability Criteria)&lt;/a>] ツールが起動したら、以下のように設定し、[OK] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>パラメーター&lt;/th>
+&lt;th>設定値&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>入力適合性解析レイヤー&lt;/td>
+&lt;td>適合性解析&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>フィールド&lt;/td>
+&lt;td>売場面積&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>最後に、競合店と自社会員のポイント データを条件として追加します。&lt;/p>
+&lt;p>競合店の影響を考慮する条件として、各店舗の商圏内にある競合店の売場面積の合計が小さいほど、試験販売に適した店舗と評価されるように設定します。&lt;/p>
+&lt;ol>
+&lt;li>[基準] グループの [条件の追加] の [˅] をクリックし、[ポイント レイヤーの追加] をクリックします。&lt;/li>
+&lt;li>[&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/add-point-based-criteria.htm" target="_blank">ポイント レイヤーに基づく適合性条件の追加 (Add Point Layer Based Suitability Criteria)&lt;/a>] が起動したら、以下のように設定し、[OK] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>パラメーター&lt;/th>
+&lt;th>設定値&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>入力適合性解析レイヤー&lt;/td>
+&lt;td>適合性解析&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>サイト レイヤーの ID フィールド&lt;/td>
+&lt;td>店舗ID&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ポイント フィーチャ&lt;/td>
+&lt;td>競合店舗&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>条件タイプ&lt;/td>
+&lt;td>加重&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>加重フィールド&lt;/td>
+&lt;td>売場面積&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>統計の種類&lt;/td>
+&lt;td>合計&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>自社会員の売上を考慮する条件として、各店舗の商圏内の会員の売上が高いほど、試験販売に適した店舗と評価されるように設定します。&lt;/p>
+&lt;ol start="3">
+&lt;li>再度 [&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/add-point-based-criteria.htm" target="_blank">ポイント レイヤーに基づく適合性条件の追加 (Add Point Layer Based Suitability Criteria)&lt;/a>] を起動し、以下のように設定して [OK] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>パラメーター&lt;/th>
+&lt;th>設定値&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>入力適合性解析レイヤー&lt;/td>
+&lt;td>適合性解析&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>サイト レイヤーの ID フィールド&lt;/td>
+&lt;td>店舗ID&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ポイント フィーチャ&lt;/td>
+&lt;td>自社会員&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>条件タイプ&lt;/td>
+&lt;td>加重&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>加重フィールド&lt;/td>
+&lt;td>年間売上&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>統計の種類&lt;/td>
+&lt;td>合計&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>自社会員の分布を考慮する条件として、店舗の近くに自社会員がいるほど、試験販売に適した店舗と評価されるように設定します。&lt;/p>
+&lt;ol start="4">
+&lt;li>再度 [&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/add-point-based-criteria.htm" target="_blank">ポイント レイヤーに基づく適合性条件の追加 (Add Point Layer Based Suitability Criteria)&lt;/a>] を起動し、以下のように設定して [OK] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>パラメーター&lt;/th>
+&lt;th>設定値&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>入力適合性解析レイヤー&lt;/td>
+&lt;td>適合性解析&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>サイト レイヤーの ID フィールド&lt;/td>
+&lt;td>店舗ID&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ポイント フィーチャ&lt;/td>
+&lt;td>自社会員&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>条件タイプ&lt;/td>
+&lt;td>最小距離&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>距離タイプ&lt;/td>
+&lt;td>距離&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>計測単位&lt;/td>
+&lt;td>キロメートル&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>サイト中心フィーチャ&lt;/td>
+&lt;td>試験販売候補&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>サイト中心レイヤーの ID フィールド&lt;/td>
+&lt;td>店舗ID&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2>解析条件の調整と結果の確認&lt;span class="hx:absolute hx:-mt-20" id="解析条件の調整と結果の確認">&lt;/span>
+&lt;a href="#%e8%a7%a3%e6%9e%90%e6%9d%a1%e4%bb%b6%e3%81%ae%e8%aa%bf%e6%95%b4%e3%81%a8%e7%b5%90%e6%9e%9c%e3%81%ae%e7%a2%ba%e8%aa%8d" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>追加した条件の影響度などを調整します。&lt;/p>
+&lt;ol>
+&lt;li>リボンの [適合性スコア] グループの [自動計算] のチェックをオフにします。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/suitability-analysis/autocalculate-off.png">
+&lt;/figure>
+&lt;ol start="2">
+&lt;li>[適合性解析] ウィンドウの [条件] タブが開いていることを確認します。&lt;/li>
+&lt;li>「演習1\競合店舗 加重 (合計値/売場面積)」と「演習1\自社会員から距離 (KILOMETERS)」の影響度をプルダウンで [負] に設定します。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/suitability-analysis/criteria-influence.png">
+&lt;/figure>
+&lt;ol start="4">
+&lt;li>近隣に自社会員が少ない店舗を候補から除外するため、「演習1\自社会員から距離 (KILOMETERS)」の [フィルター] を展開し、「0.25」以下でフィルタリングします。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/suitability-analysis/criteria-filter.png">
+&lt;/figure>
+&lt;ol start="5">
+&lt;li>リボンの [適合性スコア] グループの [計算] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;p>適合性解析の結果を確認します。&lt;/p>
+&lt;ol>
+&lt;li>[適合性解析] ウィンドウの左下にある [結果の表示] ボタンをクリックします。&lt;/li>
+&lt;li>結果ウィンドウの左側の [散布図] ボタンをクリックし、散布図を開きます。&lt;/li>
+&lt;li>散布図の横軸に「2020 人口 3-5歳」、縦軸に「2020 未就学者数 総数」のスコアが表示されます。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/suitability-analysis/scatterplot.png">
+&lt;/figure>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">強い相関関係にある変数を複数設定すると、同じ意味を持つ情報を重複して評価することになり、その要素が過度に重視される可能性があります。3-5 歳の人口と未就学者数は対象が重なる部分が大きいため、ターゲット層の人口を特段重視したい場合を除き、片方の変数を削除するか、条件の加重を変更してバランスを調整する必要があります。&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;ol start="4">
+&lt;li>2 つの値が強い相関関係にあることを確認し、[×] をクリックして結果ウィンドウを閉じます。&lt;/li>
+&lt;/ol>
+&lt;p>相関の強い 2 つの変数のうち、片方を削除します。&lt;/p>
+&lt;ol>
+&lt;li>リボン上部の [解析] タブ → [ジオプロセシング] グループの [ツール] ボタンをクリックし、[ジオプロセシング] ウィンドウを開きます。&lt;/li>
+&lt;li>[ジオプロセシング] ウィンドウの検索ボックスに「適合性条件」と入力します。&lt;/li>
+&lt;li>検索結果の中の [&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/remove-suitability-criteria.htm" target="_blank">適合性条件の削除 (Remove Suitability Criteria)&lt;/a>] ツールをクリックして開きます。&lt;/li>
+&lt;li>以下のように設定して [実行] をクリックします。&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>パラメーター&lt;/th>
+&lt;th>設定値&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>入力適合性解析レイヤー&lt;/td>
+&lt;td>適合性解析&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>条件の削除&lt;/td>
+&lt;td>2020 未就学者数 総数&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>ジオプロセシング ツールを開かずに、[適合性解析] ウィンドウの [設定] タブ→ [加重] タブから条件を削除することも可能です。&lt;/p>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/suitability-analysis/remove-criteria.png">
+&lt;/figure>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>自社会員の売上をより重視するために、条件の加重を調整します。&lt;/p>
+&lt;ol>
+&lt;li>[適合性解析] ウィンドウの [設定] タブ→ [加重] タブを開きます。&lt;/li>
+&lt;li>「演習1\自社会員 加重 (合計値/年間売上)」を 30% に設定します。&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/suitability-analysis/adjust-weights.png">
+&lt;/figure>
+&lt;p>適合性解析の結果を確認します。&lt;/p>
+&lt;ol>
+&lt;li>リボン上部の [適合性解析] タブをクリックし、[適合性スコア] グループの [計算] をクリックします。&lt;/li>
+&lt;li>[結果] グループの [結果の表示] ボタンをクリックします。&lt;/li>
+&lt;li>結果ウィンドウの左にある [ヒストグラム][散布図][テーブル] ボタンをクリックし、解析結果を確認します。&lt;/li>
+&lt;li>[コンテンツ] ウィンドウの「適合性解析」グループ レイヤー内の「候補地」レイヤーを右クリック→ [属性テーブル] をクリックし、属性テーブルを開きます。&lt;/li>
+&lt;li>属性テーブルを右にスクロールし、ここまでの手順で追加した各条件の値と、条件値に基づいて 0 から 1 でスコアリングされた値が格納されていることを確認します。&lt;/li>
+&lt;li>[×] をクリックして属性テーブルを閉じます。&lt;/li>
+&lt;li>リボン上部の [適合性解析] タブをクリックし、[基準] グループの [適合性解析ウィンドウ] をクリックします。&lt;/li>
+&lt;li>[適合性解析] ウィンドウの [設定] タブ→ [スコア] タブにある [フィルターの有効化] をオンにし、[ランクによるフィルター] で [上] 「2」と設定することで、試験販売の候補のうち上位 2 店舗のみを表示します。&lt;/li>
+&lt;li>[プロジェクト] タブ → [プロジェクトの保存] を選択し、プロジェクトを保存します。&lt;/li>
+&lt;/ol>
+&lt;h1>まとめ&lt;/h1>&lt;p>子どもに関する統計値や競合店、自社会員といった複数の条件に基づく解析を行い、7 店舗のうち、新商品の試験販売に適した 2 店舗を選び出すことができました。
+本チュートリアルでは以下のツールの操作方法を学びました。&lt;/p>
+&lt;ul>
+&lt;li>[適合性解析レイヤーの作成] ツール&lt;/li>
+&lt;li>[変数に基づく適合性条件の追加] ツール&lt;/li>
+&lt;li>[フィールドに基づく適合性条件の追加] ツール&lt;/li>
+&lt;li>[ポイント レイヤーに基づく適合性条件の追加] ツール&lt;/li>
+&lt;li>適合性解析ウィンドウの操作&lt;/li>
+&lt;li>結果ウィンドウの操作&lt;/li>
+&lt;li>[適合性条件の削除] ツール&lt;/li>
+&lt;/ul>
+&lt;style class="info-table">
+table {
+font-size: 13px;
+width: 85%;
+margin-right: 5px;
+margin-left: 15px;
+}
+table th:first-of-type {
+width: 30%;
+}
+table th:nth-of-type(2) {
+width: 70%;
+}
+&lt;/style></description></item><item><title>データのカスタマイズ</title><link>/business-analyst/pro/tutorial/customize-data/</link><pubDate>Fri, 19 Nov 2021 00:00:00 +0900</pubDate><guid>/business-analyst/pro/tutorial/customize-data/</guid><description>
 &lt;h1>目的&lt;/h1>&lt;p>自社の顧客や売上などの独自のデータや &lt;a href="https://www.gisdata-store.biz/" target="_blank">GIS データストア&lt;/a>で紹介しているような 3rd パーティ製データ、既存の BA 用データを使用してカスタム変数を作成し、マッピングおよび解析で利用する方法を習得します。&lt;/p>
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
