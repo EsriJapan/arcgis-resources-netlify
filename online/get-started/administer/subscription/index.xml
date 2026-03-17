@@ -12,7 +12,7 @@
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
 &lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;strong>組織サイトのクレジットがすべて消費された場合は、サブスクリプションが制限されたり、残りのクレジットがマイナスになったりする場合があります。&lt;/strong>
-&lt;a href="#%e3%82%af%e3%83%ac%e3%82%b8%e3%83%83%e3%83%88%e6%b6%88%e8%b2%bb%e9%87%8f%e3%81%ae%e4%b8%8a%e9%99%90%e8%a8%ad%e5%ae%9a">クレジット消費量の上限設定&lt;/a>などのツールを利用いただくことを推奨します。&lt;br>
+&lt;a href="#%e3%82%af%e3%83%ac%e3%82%b8%e3%83%83%e3%83%88%e6%b6%88%e8%b2%bb%e9%87%8f%e3%81%ae%e4%b8%8a%e9%99%90%e8%a8%ad%e5%ae%9a">クレジット消費量の上限設定&lt;/a>などのツールを利用いただくことをおすすめします。&lt;br>
 なお、クレジットは &lt;a href="http://shop.esrij.com/shopbrand/ct43/"target="_blank" rel="noopener">ESRIジャパンショップ&lt;/a>で追加購入が可能です (教育機関のユーザー様は、営業担当にお問い合わせください)。&lt;br>
 ※サービス クレジットを超過して利用した場合、超過分が次回の契約更新の際、または追加クレジット購入の際に差し引かれます。&lt;/div>
 &lt;/div>
@@ -26,7 +26,7 @@ alt="クレジットの概要" width="750">&lt;figcaption>
 &lt;/figcaption>
 &lt;/figure>
 &lt;/li>
-&lt;li>[ステータス] タブ、または [クレジット] パネルの [ステータスの表示] をクリックすると、クレジット利用状況の詳細を確認できる、[ステータス] ページへ移動します。
+&lt;li>[ダッシュボード] タブ、または [クレジット] パネルの [ステータスの表示] をクリックすると、クレジット利用状況の詳細を確認できる、[ダッシュボード] ページへ移動します。
 &lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/subscription/credit-status.png"
 alt="ステータスの表示" width="750">&lt;figcaption>
 &lt;p>ステータスの表示&lt;/p>
@@ -81,7 +81,7 @@ alt="クレジット チャート" width="750">&lt;figcaption>
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
 &lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;strong>大量のジオコーディングやタイル生成などを実行した場合、処理途中で割り当てられたクレジットがすべて消費されても処理は中断されません。&lt;/strong>&lt;br>
-メンバーにクレジットを全く使用させたくない場合は、[割り当て量の設定] で「0」を割り当てることを推奨します。また、各自に割り当てられたクレジット量の制限内でクレジット消費を行う機能を利用するよう、事前に通知をすることをお勧めします。&lt;/div>
+メンバーにクレジットを全く使用させたくない場合は、[割り当て量の設定] で「0」を割り当てることを推奨します。また、各自に割り当てられたクレジット量の制限内でクレジット消費を行う機能を利用するよう、事前に通知をすることをおすすめします。&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
@@ -96,7 +96,7 @@ alt="クレジット チャート" width="750">&lt;figcaption>
 &lt;h2>レポートの作成&lt;span class="hx:absolute hx:-mt-20" id="レポートの作成">&lt;/span>
 &lt;a href="#%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
 &lt;li>
-&lt;p>[組織] → [ステータス] → [レポート] タブ → [レポートの作成] → [単一レポート] をクリックします。
+&lt;p>[組織] → [レポート] タブ → [レポートの作成] → [単一レポート] をクリックします。
 &lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/subscription/report-create.png"
 alt="組織のレポート" width="600">&lt;figcaption>
 &lt;p>組織のレポート&lt;/p>

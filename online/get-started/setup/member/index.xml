@@ -101,5 +101,5 @@ alt="プロフィール編集" width="300">&lt;figcaption>
 &lt;span style="color: red; ">❷&lt;/span> 氏名を変更できます。&lt;br>
 &lt;span style="color: red; ">❸&lt;/span> ユーザー名を確認できます。ユーザー名を変更することはできません。&lt;br>
 &lt;span style="color: red; ">❹&lt;/span> プロフィールに掲載する自己紹介文を入力します。&lt;br>
-&lt;span style="color: red; ">❺&lt;/span> 設定したプロフィールを [すべての人に公開]、[組織]、[非公開] から選択し、公開範囲を制限することができます。&lt;br>
+&lt;span style="color: red; ">❺&lt;/span> 設定したプロフィールを [すべての人 (パブリック)]、[組織]、[非公開] から選択し、公開範囲を制限することができます。&lt;br>
 &lt;span style="color: red; ">❻&lt;/span> その他の設定画面を開きます。表示言語や計測単位などを設定できます。&lt;/p></description></item></channel></rss>
