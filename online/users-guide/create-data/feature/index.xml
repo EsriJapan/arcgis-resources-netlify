@@ -24,14 +24,15 @@ alt="新しいアイテム ウィンドウで [フィーチャ レイヤー] を
 &lt;li>[独自のレイヤーの定義]: 任意のレイヤー タイプを指定し、空のフィーチャ レイヤーを作成します。&lt;/li>
 &lt;li>[既存のフィーチャ レイヤーを選択]: 組織内に既に公開されているレイヤーから空のフィーチャ レイヤーを作成する際に、ここでレイヤーを選択します。&lt;/li>
 &lt;li>[テンプレートの使用]: あらかじめ用意されたテンプレートから空のフィーチャ レイヤーを作成する際に、ここでテンプレートを選択します。&lt;/li>
-&lt;li>[ArcGIS Server レイヤーの URL を指定]: 組織内外のフィーチャ レイヤーの URL を指定して、空のフィーチャ レイヤーを作成します。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/create-data/feature/build-layer-select-option.png"
+&lt;li>[ArcGIS Server レイヤーの URL を指定]: 組織内外のフィーチャ レイヤーの URL を指定して、空のフィーチャ レイヤーを作成します。&lt;/li>
+&lt;li>[ファイルのアップロード]: CSV、Excel、シェープファイルなどのフィールドを参照して、空のフィーチャ レイヤーを作成します。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/create-data/feature/build-layer-select-option.png"
 alt="[独自のレイヤーの定義] を選択" width="450">&lt;figcaption>
 &lt;p>[独自のレイヤーの定義] を選択&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-ここでは、[独自のレイヤーの定義] オプションを使用し、ホスト フィーチャ レイヤーに含めるレイヤーとテーブルを定義して作成する方法について説明します。&lt;/li>
-&lt;/ul>
+ここでは、[独自のレイヤーの定義] オプションを使用し、ホスト フィーチャ レイヤーに含めるレイヤーとテーブルを定義して作成する方法について説明します。&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>[名前とタイプの指定] でレイヤー名およびレイヤー タイプを指定します。[追加] をクリックすることで、1 つのフィーチャ レイヤー内に複数のレイヤーを含めることができます。レイヤー タイプは、以下の 5 種類です。&lt;/p>

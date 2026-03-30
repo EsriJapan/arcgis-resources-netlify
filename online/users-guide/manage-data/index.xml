@@ -176,7 +176,7 @@ alt="[データを編集したユーザー (編集者名、編集日時) を記�
 &lt;/figure>
 &lt;/li>
 &lt;li>[保存] をクリックします。&lt;/li>
-&lt;li>フィーチャ レイヤーに [GlobalID]、[CreationDate]、[Creator]、[EditDate]、[Editor] の列が自動で追加され、それぞれフィーチャのグローバル ID、作成日時と作成者、更新日時と更新者が自動記録されます。
+&lt;li>フィーチャ レイヤーに [CreationDate]、[Creator]、[EditDate]、[Editor] の列が自動で追加され、それぞれフィーチャの作成日時と作成者、更新日時と更新者が自動記録されます。
 &lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/privilege-track-field.png"
 alt="編集者、編集日時の自動記録のフィールド" width="700">&lt;figcaption>
 &lt;p>編集者、編集日時の自動記録のフィールド&lt;/p>
@@ -264,7 +264,7 @@ alt="添付ファイルの追加" width="700">&lt;figcaption>
 &lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>[ファイルの選択] で添付したいファイルを選択し、[追加] をクリックして、[更新] をクリックします。
+&lt;p>[ファイルの選択] で添付したいファイルを選択し、[追加] をクリックして、[作成] または [更新] をクリックします。
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
@@ -391,9 +391,9 @@ alt="レイヤー更新の種類" width="600">&lt;figcaption>
 &lt;/p>
 &lt;ol>
 &lt;li>フィーチャ レイヤーのアイテム詳細ページを開きます。&lt;/li>
-&lt;li>[∨] ボタンで展開した後、[データの更新] をクリックします。
+&lt;li>画面右側のパネルを [∨ (さらに表示)] をクリックして展開し、[データの更新] をクリックして、[ファイルから更新する] か [フィーチャ レイヤーから更新する] かを選択します。
 &lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/file-update-updatedata.png"
-alt="データの更新" width="250">&lt;figcaption>
+alt="データの更新" width="500">&lt;figcaption>
 &lt;p>データの更新&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
@@ -479,10 +479,10 @@ alt="一意の値のフィールドを設定" width="700">&lt;figcaption>
 &lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>[元のフィールド] で表示されるオブジェクト ID 等以外のフィールドを、レイヤーの一意の値フィールドとして設定することができます。&lt;/p>
 &lt;ol>
 &lt;li>フィーチャ レイヤーのアイテム詳細ページ → [データ] タブ → [フィールド] のフィールドの一覧で、設定したいフィールド名をクリックします。&lt;/li>
-&lt;li>[個別値が必要] トグルをオンにして、[保存] をクリックします。&lt;/li>
+&lt;li>[個別値] の [編集] アイコンをクリックし、[個別値が必要] を選択して、[保存] をクリックします。&lt;/li>
 &lt;/ol>
 &lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/file-update-field-configure-unique-value.png"
-alt="一意の値のフィールドを設定" width="350">&lt;figcaption>
+alt="一意の値のフィールドを設定" width="700">&lt;figcaption>
 &lt;p>一意の値のフィールドを設定&lt;/p>
 &lt;/figcaption>
 &lt;/figure>

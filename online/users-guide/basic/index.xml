@@ -34,7 +34,7 @@ alt="ページ構成" width="750">&lt;figcaption>
 &lt;/figure>
 &lt;ol>
 &lt;li>ホーム: トップ画面 (このページ) へのリンクです。&lt;/li>
-&lt;li>ギャラリー: 組織内でよく使われるマップやアプリケーションを表示できます。デフォルトでは、米国 Esri 社や全世界のユーザーが提供するおすすめのマップが表示されます。&lt;/li>
+&lt;li>ギャラリー: 組織内でよく使われるマップやアプリケーションを表示できます。&lt;/li>
 &lt;li>マップ: Map Viewer に移動します。&lt;/li>
 &lt;li>シーン: 3 次元表示可能な Scene Viewer に移動します。&lt;/li>
 &lt;li>ノートブック: ArcGIS Notebooks に移動します。&lt;/li>
