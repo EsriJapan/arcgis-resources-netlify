@@ -1,158 +1,158 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – チュートリアル</title><link>/business-analyst/pro/tutorial/</link><description>Recent content in チュートリアル on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 19 Nov 2021 00:00:00 +0900</lastBuildDate><atom:link href="/business-analyst/pro/tutorial/index.xml" rel="self" type="application/rss+xml"/><item><title>はじめに</title><link>/business-analyst/pro/tutorial/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/overview/</guid><description>
-&lt;p>チュートリアルを開始する前に、ArcGIS Business Analyst および BA Pro の概要を学びます。&lt;/p>
-&lt;h2>ArcGIS Business Analyst とは&lt;span class="hx:absolute hx:-mt-20" id="arcgis-business-analyst-とは">&lt;/span>
-&lt;a href="#arcgis-business-analyst-%e3%81%a8%e3%81%af" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ArcGIS Business Analyst は、インフォグラフィックスや人口統計、消費データなどのデータに基づいて、組織がデータに基づいた意思決定ができるように支援する、商圏分析・エリアマーケティング特化型 GIS ソリューションです。
-新規出店候補地の立地評価や、自社顧客の市場シェアの把握、市場ポテンシャルの高いエリアの絞りこみなどの解析を行うことができます。&lt;/p>
-&lt;p>ArcGIS Business Analyst には、人口統計や、立地評価のための地図や境界などのデータがバンドルされており、国内に加え、海外分析を行うことができます。また、ビジネスの課題を解決するための分析ワークフローも一緒に提供されます。&lt;/p>
-&lt;p>ユーザーは、これらを利用して商圏分析や顧客分析などを実行し、その結果を美しく魅力的なレポートを利用して共有することができます。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/ba.png">
-&lt;/figure>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">提供データは、ローカルに配置する &lt;strong>ローカル データセット&lt;/strong> と、ArcGIS Online にアクセスして利用する &lt;strong>オンライン データ&lt;/strong> の 2 種類があります。
-詳細は、&lt;a href="https://www.esrij.com/products/arcgis-business-analyst/data/" target="_blank">ArcGIS Business Analyst 製品ページ&lt;/a>をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h2>利用できるアプリケーション&lt;span class="hx:absolute hx:-mt-20" id="利用できるアプリケーション">&lt;/span>
-&lt;a href="#%e5%88%a9%e7%94%a8%e3%81%a7%e3%81%8d%e3%82%8b%e3%82%a2%e3%83%97%e3%83%aa%e3%82%b1%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ArcGIS Business Analyst は利用するユーザーの目的に応じたアプリケーションを提供します。詳細は &lt;a href="https://www.esrij.com/products/arcgis-business-analyst/" target="_blank">ArcGIS Business Analyst 製品ページ&lt;/a>をご参照ください。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/apps.png">
-&lt;/figure>
-&lt;/p>
-&lt;h2>BA Pro とは&lt;span class="hx:absolute hx:-mt-20" id="ba-pro-とは">&lt;/span>
-&lt;a href="#ba-pro-%e3%81%a8%e3%81%af" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>BA Pro は、高機能デスクトップ型 GIS「ArcGIS Pro」をベースにした、エリアマーケティング特化型のアプリケーションです。&lt;br/>
-高度な商圏分析や顧客分析、予測分析を行うことができ、クラウド型 GIS「ArcGIS Online」を通して、データを組織内で共有することができます。&lt;/p>
-&lt;h3>利用できる機能&lt;span class="hx:absolute hx:-mt-20" id="利用できる機能">&lt;/span>
-&lt;a href="#%e5%88%a9%e7%94%a8%e3%81%a7%e3%81%8d%e3%82%8b%e6%a9%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>商圏&lt;span class="hx:absolute hx:-mt-20" id="商圏">&lt;/span>
-&lt;a href="#%e5%95%86%e5%9c%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>商圏分析を行うにあたって、まずは商圏を定義することが分析の第一歩となります。BA Pro では、以下表のように、シンプルなものから高度なものまで多彩な商圏を作成できます。&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">名前&lt;/th>
-&lt;th style="text-align: left">説明&lt;/th>
-&lt;th style="text-align: left">イメージ&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">リング商圏&lt;/td>
-&lt;td style="text-align: left">店舗を中心として、半径を指定して作成される円形の商圏です。&lt;/td>
-&lt;td style="text-align: left">&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/ring-ta.png" width="50%">
-&lt;/figure>
-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">道路距離/時間商圏&lt;/td>
-&lt;td style="text-align: left">道路ネットワークデータを使用して、店舗からの道路距離または道路を通行した場合の所要時間に基づき作成される商圏です。到達圏とも呼ばれます。&lt;/td>
-&lt;td style="text-align: left">&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/drive-time-ta.png" width="50%">
-&lt;/figure>
-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">近似到達圏&lt;/td>
-&lt;td style="text-align: left">既存のポリゴンに近似した到達圏です。&lt;/td>
-&lt;td style="text-align: left">&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/approximate-dt.png" width="50%">
-&lt;/figure>
-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">限界値商圏&lt;/td>
-&lt;td style="text-align: left">店舗から外側に向かって、指定した限界値 (人口総数など) に達する地点が境界線となる商圏です。&lt;/td>
-&lt;td style="text-align: left">&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/threshold-ta.png" width="50%">
-&lt;/figure>
-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">顧客分布商圏&lt;/td>
-&lt;td style="text-align: left">店舗ごとの顧客データをもとにした、店舗から近い順に顧客データを一定割合含む範囲を指します。&lt;a href="https://business-map.esrij.com/glossary/1849/" target="_blank">実勢商圏&lt;/a>とも呼ばれます。&lt;/td>
-&lt;td style="text-align: left">&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/customer-derived-ta.png" width="50%">
-&lt;/figure>
-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">区画商圏&lt;/td>
-&lt;td style="text-align: left">町丁・字等や市区町村等の区画ポリゴンを商圏として出力します。&lt;/td>
-&lt;td style="text-align: left">&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/geography-ta.png" width="50%">
-&lt;/figure>
-&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">商圏とは、店舗が顧客を集客できる可能性のある地理的な範囲です。詳細は&lt;a href="https://business-map.esrij.com/glossary/1861/" target="_blank">ビジネスマップ用語集&lt;/a>をご覧ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h4>解析&lt;span class="hx:absolute hx:-mt-20" id="解析">&lt;/span>
-&lt;a href="#%e8%a7%a3%e6%9e%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>市場エリアの人口統計属性、顧客分布、店舗や施設のネットワークを評価することのできるツールを利用できます。&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">名前&lt;/th>
-&lt;th style="text-align: left">説明&lt;/th>
-&lt;th style="text-align: left">イメージ&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">レイヤーへの情報付加&lt;/td>
-&lt;td style="text-align: left">任意のエリア (商圏・区画など) 内の統計情報を集計します。&lt;/td>
-&lt;td style="text-align: left">&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/enrich-layer.png" width="50%">
-&lt;/figure>
-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">市場占有率の計算&lt;/td>
-&lt;td style="text-align: left">顧客データをエリアごとに集計をして、その値を世帯数や人口総数などの市場ポテンシャルで割ることで、エリアごとの市場シェアを算出します。&lt;/td>
-&lt;td style="text-align: left">&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/market-penetration.png" width="50%">
-&lt;/figure>
-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">カラー コード レイヤー&lt;/td>
-&lt;td style="text-align: left">任意の統計情報の数値情報を元に、町丁・字等などの区画ポリゴンをマッピングします。&lt;/td>
-&lt;td style="text-align: left">&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/color-coded-layer.png" width="50%">
-&lt;/figure>
-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">スパイダー ダイアグラム&lt;/td>
-&lt;td style="text-align: left">店舗・顧客間のラインを生成し、距離を計測します。ラインの形状は直線ですが、道路ネットワークを使用して距離を計測できます。&lt;/td>
-&lt;td style="text-align: left">&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/desire-lines.png" width="50%">
-&lt;/figure>
-&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h4>インフォグラフィックス・クラシック レポート&lt;span class="hx:absolute hx:-mt-20" id="インフォグラフィックスクラシック-レポート">&lt;/span>
-&lt;a href="#%e3%82%a4%e3%83%b3%e3%83%95%e3%82%a9%e3%82%b0%e3%83%a9%e3%83%95%e3%82%a3%e3%83%83%e3%82%af%e3%82%b9%e3%82%af%e3%83%a9%e3%82%b7%e3%83%83%e3%82%af-%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>商圏内の人口・世帯などの統計情報を集計し、PDF や HTML 形式のレポートとして出力します。
-BA Pro では、レイアウト調整済みのテンプレートを利用できます。&lt;br/>&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/report-and-infographics.png" width="60%">
-&lt;/figure>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">利用可能なレポートの詳細は、&lt;a href="https://www.esrij.com/products/arcgis-business-analyst/report/" target="_blank">ArcGIS Business Analyst 製品ページ&lt;/a>をご覧ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h4>ハフモデル&lt;span class="hx:absolute hx:-mt-20" id="ハフモデル">&lt;/span>
-&lt;a href="#%e3%83%8f%e3%83%95%e3%83%a2%e3%83%87%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>&lt;a href="https://business-map.esrij.com/glossary/2021/" target="_blank">ハフモデル&lt;/a>に基づいた市場シェアおよび販売予測のモデルを生成できます。直線距離でなく道路距離や道路時間を用いた「アドバンス ハフモデル」を行うこともできます。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/huff-model.png" width="30%">
-&lt;/figure>
-&lt;h4>適合性解析&lt;span class="hx:absolute hx:-mt-20" id="適合性解析">&lt;/span>
-&lt;a href="#%e9%81%a9%e5%90%88%e6%80%a7%e8%a7%a3%e6%9e%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>適合性解析では、出店候補地周辺の人口・世帯や、出店候補地の持つ売場面積などの数値情報、競合店の分布状況を加味して、ランク付けができます。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/suitability-analysis.png" width="40%">
-&lt;/figure>
-&lt;h4>テリトリー デザイン&lt;span class="hx:absolute hx:-mt-20" id="テリトリー-デザイン">&lt;/span>
-&lt;a href="#%e3%83%86%e3%83%aa%e3%83%88%e3%83%aa%e3%83%bc-%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>テリトリー デザインでは、地図と統計情報を元に、営業管轄エリアなどを最適化・管理できます。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/territory-design.png" width="40%">
-&lt;/figure>
-&lt;h4>カスタム変数&lt;span class="hx:absolute hx:-mt-20" id="カスタム変数">&lt;/span>
-&lt;a href="#%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%a0%e5%a4%89%e6%95%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>自社の売上情報などの独自のデータを取り込み、カスタム変数として登録することで、マッピングや解析に利用することができます。また、登録した変数を ArcGIS Online に共有することで、BA Web and Mobile Apps の解析でも利用できるようになります。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/custom-variables.png" width="50%">
-&lt;/figure>
-&lt;style>
+&lt;p&gt;チュートリアルを開始する前に、ArcGIS Business Analyst および BA Pro の概要を学びます。&lt;/p&gt;
+&lt;h2&gt;ArcGIS Business Analyst とは&lt;span class="hx:absolute hx:-mt-20" id="arcgis-business-analyst-とは"&gt;&lt;/span&gt;
+&lt;a href="#arcgis-business-analyst-%e3%81%a8%e3%81%af" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ArcGIS Business Analyst は、インフォグラフィックスや人口統計、消費データなどのデータに基づいて、組織がデータに基づいた意思決定ができるように支援する、商圏分析・エリアマーケティング特化型 GIS ソリューションです。
+新規出店候補地の立地評価や、自社顧客の市場シェアの把握、市場ポテンシャルの高いエリアの絞りこみなどの解析を行うことができます。&lt;/p&gt;
+&lt;p&gt;ArcGIS Business Analyst には、人口統計や、立地評価のための地図や境界などのデータがバンドルされており、国内に加え、海外分析を行うことができます。また、ビジネスの課題を解決するための分析ワークフローも一緒に提供されます。&lt;/p&gt;
+&lt;p&gt;ユーザーは、これらを利用して商圏分析や顧客分析などを実行し、その結果を美しく魅力的なレポートを利用して共有することができます。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/ba.png"&gt;
+&lt;/figure&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;提供データは、ローカルに配置する &lt;strong&gt;ローカル データセット&lt;/strong&gt; と、ArcGIS Online にアクセスして利用する &lt;strong&gt;オンライン データ&lt;/strong&gt; の 2 種類があります。
+詳細は、&lt;a href="https://www.esrij.com/products/arcgis-business-analyst/data/" target="_blank"&gt;ArcGIS Business Analyst 製品ページ&lt;/a&gt;をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;利用できるアプリケーション&lt;span class="hx:absolute hx:-mt-20" id="利用できるアプリケーション"&gt;&lt;/span&gt;
+&lt;a href="#%e5%88%a9%e7%94%a8%e3%81%a7%e3%81%8d%e3%82%8b%e3%82%a2%e3%83%97%e3%83%aa%e3%82%b1%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ArcGIS Business Analyst は利用するユーザーの目的に応じたアプリケーションを提供します。詳細は &lt;a href="https://www.esrij.com/products/arcgis-business-analyst/" target="_blank"&gt;ArcGIS Business Analyst 製品ページ&lt;/a&gt;をご参照ください。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/apps.png"&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2&gt;BA Pro とは&lt;span class="hx:absolute hx:-mt-20" id="ba-pro-とは"&gt;&lt;/span&gt;
+&lt;a href="#ba-pro-%e3%81%a8%e3%81%af" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;BA Pro は、高機能デスクトップ型 GIS「ArcGIS Pro」をベースにした、エリアマーケティング特化型のアプリケーションです。&lt;br/&gt;
+高度な商圏分析や顧客分析、予測分析を行うことができ、クラウド型 GIS「ArcGIS Online」を通して、データを組織内で共有することができます。&lt;/p&gt;
+&lt;h3&gt;利用できる機能&lt;span class="hx:absolute hx:-mt-20" id="利用できる機能"&gt;&lt;/span&gt;
+&lt;a href="#%e5%88%a9%e7%94%a8%e3%81%a7%e3%81%8d%e3%82%8b%e6%a9%9f%e8%83%bd" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;商圏&lt;span class="hx:absolute hx:-mt-20" id="商圏"&gt;&lt;/span&gt;
+&lt;a href="#%e5%95%86%e5%9c%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;商圏分析を行うにあたって、まずは商圏を定義することが分析の第一歩となります。BA Pro では、以下表のように、シンプルなものから高度なものまで多彩な商圏を作成できます。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;名前&lt;/th&gt;
+&lt;th style="text-align: left"&gt;説明&lt;/th&gt;
+&lt;th style="text-align: left"&gt;イメージ&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;リング商圏&lt;/td&gt;
+&lt;td style="text-align: left"&gt;店舗を中心として、半径を指定して作成される円形の商圏です。&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/ring-ta.png" width="50%"&gt;
+&lt;/figure&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;道路距離/時間商圏&lt;/td&gt;
+&lt;td style="text-align: left"&gt;道路ネットワークデータを使用して、店舗からの道路距離または道路を通行した場合の所要時間に基づき作成される商圏です。到達圏とも呼ばれます。&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/drive-time-ta.png" width="50%"&gt;
+&lt;/figure&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;近似到達圏&lt;/td&gt;
+&lt;td style="text-align: left"&gt;既存のポリゴンに近似した到達圏です。&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/approximate-dt.png" width="50%"&gt;
+&lt;/figure&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;限界値商圏&lt;/td&gt;
+&lt;td style="text-align: left"&gt;店舗から外側に向かって、指定した限界値 (人口総数など) に達する地点が境界線となる商圏です。&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/threshold-ta.png" width="50%"&gt;
+&lt;/figure&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;顧客分布商圏&lt;/td&gt;
+&lt;td style="text-align: left"&gt;店舗ごとの顧客データをもとにした、店舗から近い順に顧客データを一定割合含む範囲を指します。&lt;a href="https://business-map.esrij.com/glossary/1849/" target="_blank"&gt;実勢商圏&lt;/a&gt;とも呼ばれます。&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/customer-derived-ta.png" width="50%"&gt;
+&lt;/figure&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;区画商圏&lt;/td&gt;
+&lt;td style="text-align: left"&gt;町丁・字等や市区町村等の区画ポリゴンを商圏として出力します。&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/geography-ta.png" width="50%"&gt;
+&lt;/figure&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;商圏とは、店舗が顧客を集客できる可能性のある地理的な範囲です。詳細は&lt;a href="https://business-map.esrij.com/glossary/1861/" target="_blank"&gt;ビジネスマップ用語集&lt;/a&gt;をご覧ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4&gt;解析&lt;span class="hx:absolute hx:-mt-20" id="解析"&gt;&lt;/span&gt;
+&lt;a href="#%e8%a7%a3%e6%9e%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;市場エリアの人口統計属性、顧客分布、店舗や施設のネットワークを評価することのできるツールを利用できます。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;名前&lt;/th&gt;
+&lt;th style="text-align: left"&gt;説明&lt;/th&gt;
+&lt;th style="text-align: left"&gt;イメージ&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;レイヤーへの情報付加&lt;/td&gt;
+&lt;td style="text-align: left"&gt;任意のエリア (商圏・区画など) 内の統計情報を集計します。&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/enrich-layer.png" width="50%"&gt;
+&lt;/figure&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;市場占有率の計算&lt;/td&gt;
+&lt;td style="text-align: left"&gt;顧客データをエリアごとに集計をして、その値を世帯数や人口総数などの市場ポテンシャルで割ることで、エリアごとの市場シェアを算出します。&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/market-penetration.png" width="50%"&gt;
+&lt;/figure&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;カラー コード レイヤー&lt;/td&gt;
+&lt;td style="text-align: left"&gt;任意の統計情報の数値情報を元に、町丁・字等などの区画ポリゴンをマッピングします。&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/color-coded-layer.png" width="50%"&gt;
+&lt;/figure&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;スパイダー ダイアグラム&lt;/td&gt;
+&lt;td style="text-align: left"&gt;店舗・顧客間のラインを生成し、距離を計測します。ラインの形状は直線ですが、道路ネットワークを使用して距離を計測できます。&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/desire-lines.png" width="50%"&gt;
+&lt;/figure&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4&gt;インフォグラフィックス・クラシック レポート&lt;span class="hx:absolute hx:-mt-20" id="インフォグラフィックスクラシック-レポート"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%a4%e3%83%b3%e3%83%95%e3%82%a9%e3%82%b0%e3%83%a9%e3%83%95%e3%82%a3%e3%83%83%e3%82%af%e3%82%b9%e3%82%af%e3%83%a9%e3%82%b7%e3%83%83%e3%82%af-%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;商圏内の人口・世帯などの統計情報を集計し、PDF や HTML 形式のレポートとして出力します。
+BA Pro では、レイアウト調整済みのテンプレートを利用できます。&lt;br/&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/report-and-infographics.png" width="60%"&gt;
+&lt;/figure&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;利用可能なレポートの詳細は、&lt;a href="https://www.esrij.com/products/arcgis-business-analyst/report/" target="_blank"&gt;ArcGIS Business Analyst 製品ページ&lt;/a&gt;をご覧ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4&gt;ハフモデル&lt;span class="hx:absolute hx:-mt-20" id="ハフモデル"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%8f%e3%83%95%e3%83%a2%e3%83%87%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;a href="https://business-map.esrij.com/glossary/2021/" target="_blank"&gt;ハフモデル&lt;/a&gt;に基づいた市場シェアおよび販売予測のモデルを生成できます。直線距離でなく道路距離や道路時間を用いた「アドバンス ハフモデル」を行うこともできます。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/huff-model.png" width="30%"&gt;
+&lt;/figure&gt;
+&lt;h4&gt;適合性解析&lt;span class="hx:absolute hx:-mt-20" id="適合性解析"&gt;&lt;/span&gt;
+&lt;a href="#%e9%81%a9%e5%90%88%e6%80%a7%e8%a7%a3%e6%9e%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;適合性解析では、出店候補地周辺の人口・世帯や、出店候補地の持つ売場面積などの数値情報、競合店の分布状況を加味して、ランク付けができます。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/suitability-analysis.png" width="40%"&gt;
+&lt;/figure&gt;
+&lt;h4&gt;テリトリー デザイン&lt;span class="hx:absolute hx:-mt-20" id="テリトリー-デザイン"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%86%e3%83%aa%e3%83%88%e3%83%aa%e3%83%bc-%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;テリトリー デザインでは、地図と統計情報を元に、営業管轄エリアなどを最適化・管理できます。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/territory-design.png" width="40%"&gt;
+&lt;/figure&gt;
+&lt;h4&gt;カスタム変数&lt;span class="hx:absolute hx:-mt-20" id="カスタム変数"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%a0%e5%a4%89%e6%95%b0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;自社の売上情報などの独自のデータを取り込み、カスタム変数として登録することで、マッピングや解析に利用することができます。また、登録した変数を ArcGIS Online に共有することで、BA Web and Mobile Apps の解析でも利用できるようになります。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/overview/custom-variables.png" width="50%"&gt;
+&lt;/figure&gt;
+&lt;style&gt;
 table th:first-of-type {
 width: 20%;
 }
@@ -162,385 +162,400 @@ width: 60%;
 table th:nth-of-type(3) {
 width: 20%;
 }
-&lt;/style></description></item><item><title>事前準備</title><link>/business-analyst/pro/tutorial/prepare-for-tutorial/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/prepare-for-tutorial/</guid><description>
-&lt;p>演習を開始するために必要な作業を行います。&lt;/p>
+&lt;/style&gt;</description></item><item><title>事前準備</title><link>/business-analyst/pro/tutorial/prepare-for-tutorial/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/prepare-for-tutorial/</guid><description>
+&lt;p&gt;演習を開始するために必要な作業を行います。&lt;/p&gt;
 &lt;!--## Excel ファイルを操作するためのドライバーをインストール
 本チュートリアルでは、演習用データとして Excel 形式のファイルを提供しています。Excel ファイルを BA Pro で操作するには、以下の FAQ に沿って準備を行う必要があります。
-- &lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge3475.html" target="_blank">ArcGIS Pro: Excel ファイルの読み込み方と注意事項 (バージョン 3.0 以降)&lt;/a>（BA Pro 2.9 以前は&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge3364.html" target="_blank">こちら&lt;/a>）-->
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">本チュートリアルでは、演習用データとして Excel 形式のファイルを提供しています。ArcGIS Pro 3.4 以前のバージョンを使用する場合、Excel ファイルを BA Pro で操作するには、&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge3475.html" target="_blank">FAQ&lt;/a> に沿って準備を行う必要があります。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h2>演習用データ&lt;span class="hx:absolute hx:-mt-20" id="演習用データ">&lt;/span>
-&lt;a href="#%e6%bc%94%e7%bf%92%e7%94%a8%e3%83%87%e3%83%bc%e3%82%bf" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>演習に必要なデータは、各演習中にプロジェクト パッケージ形式 (.ppkx) でダウンロードできます。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>ArcGIS Pro の作業内容は「&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/projects/what-is-a-project.htm#ESRI_SECTION1_238659AC319E415BA2AB764DC500E4B8" target="_blank">プロジェクト&lt;/a>」に保存されます。プロジェクト パッケージは、プロジェクトに加え、関連するレイヤーやデータなどを含めてパッケージ化したものです。パッケージをダウンロードして開くと、デフォルトで以下のパスにファイルが展開されます。&lt;/p>
-&lt;blockquote>
-&lt;p>C:\Users&amp;lt;ユーザー名&amp;gt;\Documents\ArcGIS\Packages&amp;lt;プロジェクト パッケージ名&amp;gt;_xxxx&lt;/p>
-&lt;/blockquote>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">新規プロジェクトの作成方法は、&lt;a href="https://www.esrij.com/cgi-bin/wp/wp-content/uploads/documents/arcgis_pro_user_guide.pdf#page=14" target="_blank">ArcGIS Pro 逆引きガイド&lt;/a>をご覧ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h2>Business Analyst データ ソースの設定&lt;span class="hx:absolute hx:-mt-20" id="business-analyst-データ-ソースの設定">&lt;/span>
-&lt;a href="#business-analyst-%e3%83%87%e3%83%bc%e3%82%bf-%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Business Analyst の機能を利用するためには、Business Analyst データ ソースを設定する必要があります。&lt;/p>
-&lt;p>本チュートリアルでは、ローカル データセットをデータ ソースとして設定します。&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタンをクリックし、[Business Analyst データ ソース] が &lt;strong>JPN_EsriJapan_2025&lt;/strong> に設定されているか確認します。設定されていない場合は、[データ ソースの変更] をクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/preparation/ba-data-source_v36.png">
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[Business Analyst データ ソース] ダイアログが開いたら、[コンピューター] をクリックし、&lt;strong>JPN_EsriJapan_2025&lt;/strong> を選択します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[OK] をクリックしてダイアログを閉じます。&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">BA Pro 3.2 以前では、Business Analyst データ キャッシュの作成が繰り返す不具合が発生します。&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge5745.html" target="_blank">FAQ の内容&lt;/a>を参考に回避策をお試しください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>オンライン データセットを利用したい場合は、[ポータル] 内の地域別フォルダーの中から、解析対象の国を選択します。たとえば、日本を選択する場合は、[ポータル] → [アジア] → [日本] と選択します。なお、日本を含む一部の国では複数のデータ ソースから選択することができます。各データの詳細は&lt;a href="https://doc.arcgis.com/en/esri-demographics/latest/esri-demographics/demographics.htm" target="_blank">ヘルプページ (英語) &lt;/a>をご覧ください。&lt;br/>&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/preparation/ba-online-dataset.png">
-&lt;/figure>&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>以上で、事前準備完了です。本チュートリアルの各演習に進んでください。&lt;/p></description></item><item><title>商圏分析</title><link>/business-analyst/pro/tutorial/tradearea-analysis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/tradearea-analysis/</guid><description>
-&lt;h1>目的&lt;/h1>&lt;p>自社の店舗情報と ArcGIS Business Analyst で利用可能な人口統計データを利用して、新規候補地や複数の既存店舗を対象とした商圏分析を行う方法を習得します。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">商圏分析の詳細は、&lt;a href="https://www.esrij.com/business-map-glossary/analytical_method/trade_area_analysis/" target="_blank">ビジネスマップ用語集&lt;/a>をご覧ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h1>演習&lt;/h1>&lt;ul class="list-disc ml-6">
-&lt;li>
-&lt;a href="/business-analyst/pro/tutorial/tradearea-analysis/evaluate-site/">新規候補地に対する分析 (クイック商圏)&lt;/a>&lt;br>クイック商圏ツールの使用法や集計結果の Excel への出力方法を学びます。
-&lt;/li>
-&lt;li>
-&lt;a href="/business-analyst/pro/tutorial/tradearea-analysis/analysis-for-existing-stores/">既存店舗を対象とした分析&lt;/a>&lt;br>既存店舗から商圏を作成し、周辺の人口分布マップやレポートを作成します。
-&lt;/li>
-&lt;/ul></description></item><item><title>顧客分析</title><link>/business-analyst/pro/tutorial/customer-analysis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/customer-analysis/</guid><description>
-&lt;h1>目的&lt;/h1>&lt;p>店舗別の顧客データの取り込み方から、顧客分布をもとにした実勢商圏の作成やエリア別の市場シェアを算出方法などを習得します。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">顧客分析の詳細は、&lt;a href="https://www.esrij.com/business-map-glossary/analytical_method/customer_analysis/" target="_blank">ビジネスマップ用語集&lt;/a>をご覧ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h1>演習&lt;/h1>&lt;ul class="list-disc ml-6">
-&lt;li>
-&lt;a href="/business-analyst/pro/tutorial/customer-analysis/geocoding/">顧客・店舗情報の取り込み&lt;/a>&lt;br>住所情報を元に、店舗や顧客などのポイント データに変換する方法を学びます。
-&lt;/li>
-&lt;li>
-&lt;a href="/business-analyst/pro/tutorial/customer-analysis/customer-derived-tradearea/">顧客分布を基にした商圏の生成&lt;/a>&lt;br>店舗ごとの顧客データを基に商圏を生成する方法を学びます。
-&lt;/li>
-&lt;li>
-&lt;a href="/business-analyst/pro/tutorial/customer-analysis/market-penetration/">市場シェアの把握&lt;/a>&lt;br>顧客データの集計値を市場ポテンシャルで割ることで、エリアごとの市場シェアを算出します。
-&lt;/li>
-&lt;/ul></description></item><item><title>ハフ モデル</title><link>/business-analyst/pro/tutorial/huff-model/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/huff-model/</guid><description>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">本演習にかかる時間はおよそ 20 分です。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h1>目的&lt;/h1>&lt;p>出店候補地を起点としたハフ モデルを実行し、需要 (ポテンシャル) の吸引をシミュレーションする方法を習得します。なお、本演習ではポテンシャル データとして 500m メッシュに格納された人口総数を用います。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ハフ モデルの詳細は、&lt;a href="https://business-map.esrij.com/glossary/2021/" target="_blank">ビジネスマップ用語集&lt;/a>をご覧ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">本演習では、人口総数をポテンシャル データとして使用するため、算出される結果は「吸引人口」となります。
-推計消費額などをポテンシャル データに設定すると、ハフ モデルを用いた需要予測の結果を金額ベースで得ることができます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h1>演習&lt;/h1>&lt;h2>演習用データのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="演習用データのダウンロード">&lt;/span>
-&lt;a href="#%e6%bc%94%e7%bf%92%e7%94%a8%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
-&lt;li>&lt;a href="https://www.arcgis.com/home/item.html?id=73190eaba36d495dab9efa88bfca8f9d" target="_blank">BA Pro チュートリアル-ハフモデル プロジェクトパッケージ&lt;/a>をダウンロードします。&lt;/li>
-&lt;li>ダウンロードした「BAProチュートリアル-ハフモデル.ppkx」を開き、[演習1] マップを開きます。&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">プロジェクト パッケージを開いた際、[プロジェクト アイテムの修復] メッセージが表示された場合は [OK] をクリックして閉じてください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>[コンテンツ] ウィンドウおよびマップ上に「出店候補地」レイヤーおよび「既存店」レイヤーが追加されていることを確認します。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/huffmodel/huff-input-data.png">
-&lt;/figure>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;a href="/business-analyst/pro/tutorial/prepare-for-tutorial/#business-analyst-%e3%83%87%e3%83%bc%e3%82%bf-%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e8%a8%ad%e5%ae%9a">Business Analyst データ ソース&lt;/a> が最新のデータセットに設定されていることをご確認ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">既存店のポイント データには、自社店舗と競合店舗の両方が含まれます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h2>ハフ モデルの解析範囲の設定&lt;span class="hx:absolute hx:-mt-20" id="ハフ-モデルの解析範囲の設定">&lt;/span>
-&lt;a href="#%e3%83%8f%e3%83%95-%e3%83%a2%e3%83%87%e3%83%ab%e3%81%ae%e8%a7%a3%e6%9e%90%e7%af%84%e5%9b%b2%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ハフ モデルの吸引シミュレーションを実行する範囲を設定します。本演習では、出店候補地を起点とした運転時間 10 分圏を解析範囲とします。&lt;/p>
-&lt;ol>
-&lt;li>ArcGIS Pro 上部の [コマンド検索] で「道路距離」と入力します。&lt;/li>
-&lt;li>検索結果の中の [&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/generate-drive-time-trade-area.htm" target="_blank">道路距離/時間商圏の生成 (Generate Drive Time Trade Areas)&lt;/a>] ツールをクリックして開きます。&lt;/li>
-&lt;li>ツールを以下のように設定して、[実行] します。&lt;/li>
-&lt;/ol>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>パラメーター&lt;/th>
-&lt;th>設定値&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>入力フィーチャ&lt;/td>
-&lt;td>出店候補地&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>出力フィーチャクラス&lt;/td>
-&lt;td>出店候補地_車10分圏&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>距離タイプ&lt;/td>
-&lt;td>運転時間&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>入力方法&lt;/td>
-&lt;td>値&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>距離&lt;/td>
-&lt;td>10&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>距離単位&lt;/td>
-&lt;td>分&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>マップに、出店候補地を起点とした自動車 10 分圏が追加されます。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/huffmodel/drivetime-10min.png">
-&lt;/figure>
-&lt;/p>
-&lt;h2>ハフ モデル用ポテンシャルレイヤーの抽出&lt;span class="hx:absolute hx:-mt-20" id="ハフ-モデル用ポテンシャルレイヤーの抽出">&lt;/span>
-&lt;a href="#%e3%83%8f%e3%83%95-%e3%83%a2%e3%83%87%e3%83%ab%e7%94%a8%e3%83%9d%e3%83%86%e3%83%b3%e3%82%b7%e3%83%a3%e3%83%ab%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%81%ae%e6%8a%bd%e5%87%ba" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ハフ モデル実行時のポテンシャル レイヤーとして利用するために、運転時間商圏に重なる 500m メッシュを選択します。&lt;/p>
-&lt;ol>
-&lt;li>[解析] タブ → [ワークフロー] グループの [ビジネス解析] → [Business Analyst データの追加] を選択します。&lt;/li>
-&lt;li>[Business Analyst] ダイアログが表示された場合は、メッセージを確認して [OK] をクリックします。&lt;/li>
-&lt;/ol>
-&lt;p>[Business Analyst データの追加] ダイアログが開きます。&lt;/p>
-&lt;ol start="3">
-&lt;li>[対象地域] の [v] ボタンをクリックして、[境界レイヤー] の 「出店候補地_車10分圏」 レイヤーを選択します。&lt;/li>
-&lt;li>[詳細レベル] の [v] ボタンをクリックして、[4次メッシュ] を選択します。&lt;/li>
-&lt;li>[変数] の横の [+] ボタンをクリックしてデータ ブラウザーを開き、[人口] → [人口総数] → [2020 人口総数 (国勢調査)] 内の [2020 人口総数 (国勢調査)] を選択し、[OK] をクリックします。&lt;/li>
-&lt;li>以下のように設定されていることを確認し、[OK] をクリックします。&lt;/li>
-&lt;/ol>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>パラメーター&lt;/th>
-&lt;th>設定値&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>対象地域&lt;/td>
-&lt;td>出店候補地_車10分圏&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>境界モード&lt;/td>
-&lt;td>区画&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>詳細レベル&lt;/td>
-&lt;td>4次メッシュ&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>変数&lt;/td>
-&lt;td>2020 人口総数 (国勢調査)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>出力&lt;/td>
-&lt;td>Business_Analyst_Data&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>[コンテンツ] ウィンドウに「Business_Analyst_Data」という名前のグループ レイヤーが追加され、「出店候補地_車10分圏」の範囲の 500m メッシュが表示されます。&lt;/p>
-&lt;h2>ハフ モデルの実行&lt;span class="hx:absolute hx:-mt-20" id="ハフ-モデルの実行">&lt;/span>
-&lt;a href="#%e3%83%8f%e3%83%95-%e3%83%a2%e3%83%87%e3%83%ab%e3%81%ae%e5%ae%9f%e8%a1%8c" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>あらかじめ追加されている「出店候補地」および「既存店」のポイント データ、運転時間商圏に重なる 500m メッシュを用いて、ハフ モデルを実行します。&lt;/p>
-&lt;ol>
-&lt;li>[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [ハフ モデルの実行] をクリックします。&lt;/li>
-&lt;li>[&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/huff-model.htm" target="_blank">ハフ モデル (Huff Model)&lt;/a>] ツールを以下のように設定して、[実行] します。&lt;/li>
-&lt;/ol>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>パラメーター&lt;/th>
-&lt;th>設定値&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>入力施設フィーチャ&lt;/td>
-&lt;td>既存店&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>施設 ID フィールド&lt;/td>
-&lt;td>店舗ID&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>入力候補地フィーチャ&lt;/td>
-&lt;td>出店候補地&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>候補地 ID フィールド&lt;/td>
-&lt;td>店舗ID&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>入力ポテンシャル フィーチャ&lt;/td>
-&lt;td>Business_Analyst_Data\4次メッシュ&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>ポテンシャル ID フィールド&lt;/td>
-&lt;td>ID&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>ポテンシャル フィールド&lt;/td>
-&lt;td>2020 人口総数&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>出力フィーチャクラス&lt;/td>
-&lt;td>ハフモデル&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>魅力度の変数&lt;/td>
-&lt;td>既存施設の値: 売場面積&lt;br/>候補地の値: 売場面積&lt;br/>指数: 1&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>距離指数&lt;/td>
-&lt;td>-1.5&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>距離タイプ&lt;/td>
-&lt;td>運転時間&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>距離単位&lt;/td>
-&lt;td>分&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">本演習では魅力度を 1 つだけ設定していますが、魅力度を複数設定することも可能です。[魅力度の変数] パラメーターの [他を追加] ボタンをクリックすることで追加の魅力度を設定できます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[距離指数] パラメーターでは「&lt;strong>距離抵抗係数&lt;/strong>」を指定できます。距離抵抗係数は、距離に応じて吸引される需要がどれだけ減少するかを定義したもので、買い回り品と最寄り品の調整を行うことができます。一般的には、食料品などの最寄り品では距離抵抗係数を高く設定し、家具などの買回り品では距離抵抗係数は低く設定します。&lt;br/>
-また、[距離タイプ] パラメーターでは、距離計測の方法を直線距離、道路距離、道路時間のいずれかから指定できます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>マップにハフ モデルの結果レイヤーが追加されます。このレイヤーは、算出された需要の吸引率を元に色分けされており、赤いエリアほど吸引率が高いことを表しています。今回の結果を見ると、出店候補地の西側のエリアには既存店が無く、より吸引率が高いことが分かります。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/huffmodel/huffmodel-result.png">
-&lt;/figure>
-&lt;h2>解析結果の確認&lt;span class="hx:absolute hx:-mt-20" id="解析結果の確認">&lt;/span>
-&lt;a href="#%e8%a7%a3%e6%9e%90%e7%b5%90%e6%9e%9c%e3%81%ae%e7%a2%ba%e8%aa%8d" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>最後に「データ エンジニアリング」機能を用いて、ハフ モデルの解析結果を確認します。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">データ エンジニアリングは、空間解析やデータ サイエンスにおいて役立つツールをまとめたものです。マップやチャートを使ってデータを探索したり、統計情報を表示してデータの値や分布を把握することができます。詳細は &lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/geoprocessing/data-engineering/what-is-data-engineering.htm" target="_blank">Esri ヘルプ&lt;/a>をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;ol>
-&lt;li>[コンテンツ] ウィンドウの「ハフモデル」レイヤー上で右クリック → [データ エンジニアリング] をクリックします。&lt;/li>
-&lt;li>データ エンジニアリング ビュー左部のフィールド パネルに「ハフモデル」レイヤーが持つフィールドの一覧が表示されます。「合計」フィールド上にマウス カーソルを合わせて、3 つのボタンの一番左側の [シンボルの更新] ボタンをクリックします。&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>ハフ モデル ツールで生成される各フィールドは、以下の内容を表します。&lt;/p>
-&lt;div class="info-table">
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">フィールド名&lt;/th>
-&lt;th style="text-align: left">説明&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">ID&lt;/td>
-&lt;td style="text-align: left">エリアの一意な ID を表します。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">確率&lt;/td>
-&lt;td style="text-align: left">エリアの出店候補地における需要の「吸引率」を表します。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">合計&lt;/td>
-&lt;td style="text-align: left">エリアの出店候補地における「吸引需要」を表します。本演習では、ポテンシャルとして人口総数を設定したので、人口総数 × 吸引率 = 吸引人口を表します。&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;/div>&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>「ハフモデル」レイヤーのシンボルを、吸引率ベースから吸引人口ベースにワンクリックで変更できました。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ctrl + Z キーを押すと、変更前のシンボルに戻すことができます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;ol start="3">
-&lt;li>フィールド パネルで「合計」フィールドをクリックして選択し、右側の統計情報パネルにドラッグ &amp;amp; ドロップして追加します。&lt;/li>
-&lt;li>[計算] ボタンをクリックして、追加したフィールドの統計情報を算出します。&lt;/li>
-&lt;/ol>
-&lt;p>算出された統計情報のうち [合計] を確認することで、出店候補地が吸引する「吸引人口」の合算値を確認できます。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/huffmodel/confirm-huff-result.png">
-&lt;/figure>
-&lt;ol start="5">
-&lt;li>[プロジェクト] タブ → [保存] を選択し、&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/projects/save-a-project.htm" target="_blank">プロジェクトを保存&lt;/a>します。&lt;/li>
-&lt;/ol>
-&lt;h1>まとめ&lt;/h1>&lt;p>この演習では、新規出店候補地 1 ヶ所から運転時間商圏を作成し、それに重なる 500m メッシュを選択しました。そして、出店候補地および既存店のポイント データと選択した 500m メッシュを用いてハフ モデルを実行しました。
-更に、データ エンジニアリング機能を用いて、ハフ モデルの解析結果の詳細を確認することができました。&lt;/p>
-&lt;p>また、以下ツールの操作について学びました。&lt;/p>
-&lt;ul>
-&lt;li>[道路距離/時間商圏の生成] ツール&lt;/li>
-&lt;li>[Business Analyst データの追加] ユーティリティー&lt;/li>
-&lt;li>[空間条件で選択] ツール&lt;/li>
-&lt;li>[ハフ モデル] ツール&lt;/li>
-&lt;li>データ エンジニアリング&lt;/li>
-&lt;/ul>
-&lt;style class="info-table">
+- &lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge3475.html" target="_blank"&gt;ArcGIS Pro: Excel ファイルの読み込み方と注意事項 (バージョン 3.0 以降)&lt;/a&gt;（BA Pro 2.9 以前は&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge3364.html" target="_blank"&gt;こちら&lt;/a&gt;）--&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;本チュートリアルでは、演習用データとして Excel 形式のファイルを提供しています。ArcGIS Pro 3.4 以前のバージョンを使用する場合、Excel ファイルを BA Pro で操作するには、&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge3475.html" target="_blank"&gt;FAQ&lt;/a&gt; に沿って準備を行う必要があります。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;演習用データ&lt;span class="hx:absolute hx:-mt-20" id="演習用データ"&gt;&lt;/span&gt;
+&lt;a href="#%e6%bc%94%e7%bf%92%e7%94%a8%e3%83%87%e3%83%bc%e3%82%bf" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;演習に必要なデータは、各演習中にプロジェクト パッケージ形式 (.ppkx) でダウンロードできます。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;ArcGIS Pro の作業内容は「&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/projects/what-is-a-project.htm#ESRI_SECTION1_238659AC319E415BA2AB764DC500E4B8" target="_blank"&gt;プロジェクト&lt;/a&gt;」に保存されます。プロジェクト パッケージは、プロジェクトに加え、関連するレイヤーやデータなどを含めてパッケージ化したものです。パッケージをダウンロードして開くと、デフォルトで以下のパスにファイルが展開されます。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;C:\Users&amp;lt;ユーザー名&amp;gt;\Documents\ArcGIS\Packages&amp;lt;プロジェクト パッケージ名&amp;gt;_xxxx&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;新規プロジェクトの作成方法は、&lt;a href="https://www.esrij.com/cgi-bin/wp/wp-content/uploads/documents/arcgis_pro_user_guide.pdf#page=14" target="_blank"&gt;ArcGIS Pro 逆引きガイド&lt;/a&gt;をご覧ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;Business Analyst データ ソースの設定&lt;span class="hx:absolute hx:-mt-20" id="business-analyst-データ-ソースの設定"&gt;&lt;/span&gt;
+&lt;a href="#business-analyst-%e3%83%87%e3%83%bc%e3%82%bf-%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Business Analyst の機能を利用するためには、Business Analyst データ ソースを設定する必要があります。&lt;/p&gt;
+&lt;p&gt;本チュートリアルでは、ローカル データセットをデータ ソースとして設定します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタンをクリックし、[Business Analyst データ ソース] が &lt;strong&gt;JPN_EsriJapan_2025&lt;/strong&gt; に設定されているか確認します。設定されていない場合は、[データ ソースの変更] をクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/preparation/ba-data-source_v36.png"&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Business Analyst データ ソース] ダイアログが開いたら、[コンピューター] をクリックし、&lt;strong&gt;JPN_EsriJapan_2025&lt;/strong&gt; を選択します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[OK] をクリックしてダイアログを閉じます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;BA Pro 3.2 以前では、Business Analyst データ キャッシュの作成が繰り返す不具合が発生します。&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge5745.html" target="_blank"&gt;FAQ の内容&lt;/a&gt;を参考に回避策をお試しください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;オンライン データセットを利用したい場合は、[ポータル] 内の地域別フォルダーの中から、解析対象の国を選択します。たとえば、日本を選択する場合は、[ポータル] → [アジア] → [日本] と選択します。なお、日本を含む一部の国では複数のデータ ソースから選択することができます。各データの詳細は&lt;a href="https://doc.arcgis.com/en/esri-demographics/latest/esri-demographics/demographics.htm" target="_blank"&gt;ヘルプページ (英語) &lt;/a&gt;をご覧ください。&lt;br/&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/preparation/ba-online-dataset.png"&gt;
+&lt;/figure&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;以上で、事前準備完了です。本チュートリアルの各演習に進んでください。&lt;/p&gt;</description></item><item><title>商圏分析</title><link>/business-analyst/pro/tutorial/tradearea-analysis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/tradearea-analysis/</guid><description>
+&lt;h1&gt;目的&lt;/h1&gt;&lt;p&gt;自社の店舗情報と ArcGIS Business Analyst で利用可能な人口統計データを利用して、新規候補地や複数の既存店舗を対象とした商圏分析を行う方法を習得します。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;商圏分析の詳細は、&lt;a href="https://www.esrij.com/business-map-glossary/analytical_method/trade_area_analysis/" target="_blank"&gt;ビジネスマップ用語集&lt;/a&gt;をご覧ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h1&gt;演習&lt;/h1&gt;&lt;ul class="list-disc ml-6"&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/pro/tutorial/tradearea-analysis/evaluate-site/"&gt;新規候補地に対する分析 (クイック商圏)&lt;/a&gt;&lt;br&gt;クイック商圏ツールの使用法や集計結果の Excel への出力方法を学びます。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/pro/tutorial/tradearea-analysis/analysis-for-existing-stores/"&gt;既存店舗を対象とした分析&lt;/a&gt;&lt;br&gt;既存店舗から商圏を作成し、周辺の人口分布マップやレポートを作成します。
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>顧客分析</title><link>/business-analyst/pro/tutorial/customer-analysis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/customer-analysis/</guid><description>
+&lt;h1&gt;目的&lt;/h1&gt;&lt;p&gt;店舗別の顧客データの取り込み方から、顧客分布をもとにした実勢商圏の作成やエリア別の市場シェアを算出方法などを習得します。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;顧客分析の詳細は、&lt;a href="https://www.esrij.com/business-map-glossary/analytical_method/customer_analysis/" target="_blank"&gt;ビジネスマップ用語集&lt;/a&gt;をご覧ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h1&gt;演習&lt;/h1&gt;&lt;ul class="list-disc ml-6"&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/pro/tutorial/customer-analysis/geocoding/"&gt;顧客・店舗情報の取り込み&lt;/a&gt;&lt;br&gt;住所情報を元に、店舗や顧客などのポイント データに変換する方法を学びます。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/pro/tutorial/customer-analysis/customer-derived-tradearea/"&gt;顧客分布を基にした商圏の生成&lt;/a&gt;&lt;br&gt;店舗ごとの顧客データを基に商圏を生成する方法を学びます。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/pro/tutorial/customer-analysis/market-penetration/"&gt;市場シェアの把握&lt;/a&gt;&lt;br&gt;顧客データの集計値を市場ポテンシャルで割ることで、エリアごとの市場シェアを算出します。
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>ハフ モデル</title><link>/business-analyst/pro/tutorial/huff-model/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/huff-model/</guid><description>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;本演習にかかる時間はおよそ 20 分です。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h1&gt;目的&lt;/h1&gt;&lt;p&gt;出店候補地を起点としたハフ モデルを実行し、需要 (ポテンシャル) の吸引をシミュレーションする方法を習得します。なお、本演習ではポテンシャル データとして 500m メッシュに格納された人口総数を用います。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;ハフ モデルの詳細は、&lt;a href="https://business-map.esrij.com/glossary/2021/" target="_blank"&gt;ビジネスマップ用語集&lt;/a&gt;をご覧ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;本演習では、人口総数をポテンシャル データとして使用するため、算出される結果は「吸引人口」となります。
+推計消費額などをポテンシャル データに設定すると、ハフ モデルを用いた需要予測の結果を金額ベースで得ることができます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h1&gt;演習&lt;/h1&gt;&lt;h2&gt;演習用データのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="演習用データのダウンロード"&gt;&lt;/span&gt;
+&lt;a href="#%e6%bc%94%e7%bf%92%e7%94%a8%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href="https://www.arcgis.com/sharing/rest/content/items/296ef9b8ef284f7498e0af11b3b15e7e/data" target="_blank"&gt;BA Pro チュートリアル-ハフモデル zip ファイル&lt;/a&gt;をダウンロードします。&lt;/li&gt;
+&lt;li&gt;ダウンロードした「BAProチュートリアル-ハフモデル.zip」を解凍します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;演習用プロジェクトの作成&lt;span class="hx:absolute hx:-mt-20" id="演習用プロジェクトの作成"&gt;&lt;/span&gt;
+&lt;a href="#%e6%bc%94%e7%bf%92%e7%94%a8%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href="https://www.esrij.com/cgi-bin/wp/wp-content/uploads/documents/arcgis_pro_user_guide.pdf#page=14" target="_blank"&gt;ArcGIS Pro 逆引きガイド&lt;/a&gt;の「1-4. ArcGIS Pro の起動と保存」の手順を参考に、ArcGIS Pro の起動とプロジェクトの新規作成を行います。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!--
+1. Windows の [スタート] ボタンをクリックし、[ArcGIS] → [ArcGIS Pro] を選択して ArcGIS Pro を起動します。
+2. [ArcGIS サイン イン] ダイアログが表示された場合は、ArcGIS Online のユーザー名とパスワードを入力し、[サイン イン] をクリックします。
+3. [新しいプロジェクト] から [マップ] をクリックします。
+4. [新しいプロジェクトの作成] ダイアログで、「ハフモデルプロジェクト」と名前を付けて [OK] をクリックします。
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;新規プロジェクトの作成方法の詳細は、&lt;a href="https://www.esrij.com/cgi-bin/wp/wp-content/uploads/documents/arcgis_pro_user_guide.pdf#page=14" target="_blank"&gt;ArcGIS Pro 逆引きガイド&lt;/a&gt;をご覧ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+--&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;a href="/business-analyst/pro/tutorial/prepare-for-tutorial/#business-analyst-%e3%83%87%e3%83%bc%e3%82%bf-%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e8%a8%ad%e5%ae%9a"&gt;Business Analyst データ ソース&lt;/a&gt; が最新のデータセットに設定されていることをご確認ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;&lt;a href="https://www.esrij.com/cms/wp-content/uploads/documents/arcgis_pro_user_guide.pdf#page=25" target="_blank"&gt;ArcGIS Pro 逆引きガイド&lt;/a&gt;の「フォルダーやデータベースに接続」の手順を参考に、解凍した「BAProチュートリアル-ハフモデル」フォルダーを接続します。&lt;/li&gt;
+&lt;li&gt;[カタログ] ウィンドウの [フォルダー] を展開し、「BAProチュートリアル-ハフモデル」内の「演習1.lyrx」をマップにドラッグ &amp;amp; ドロップで追加します。&lt;/li&gt;
+&lt;li&gt;[コンテンツ] ウィンドウの「演習1」グループ レイヤーを右クリックし、[レイヤーにズーム] をクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;[コンテンツ] ウィンドウおよびマップ上に「出店候補地」レイヤーおよび「既存店」レイヤーが追加されていることを確認します。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/huffmodel/huff-input-data-36.png"&gt;
+&lt;/figure&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;既存店のポイント データには、自社店舗と競合店舗の両方が含まれます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;ハフ モデルの解析範囲の設定&lt;span class="hx:absolute hx:-mt-20" id="ハフ-モデルの解析範囲の設定"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%8f%e3%83%95-%e3%83%a2%e3%83%87%e3%83%ab%e3%81%ae%e8%a7%a3%e6%9e%90%e7%af%84%e5%9b%b2%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ハフ モデルの吸引シミュレーションを実行する範囲を設定します。本演習では、出店候補地を起点とした運転時間 10 分圏を解析範囲とします。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;ArcGIS Pro 上部の [コマンド検索] で「道路距離」と入力します。&lt;/li&gt;
+&lt;li&gt;検索結果の中の [&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/generate-drive-time-trade-area.htm" target="_blank"&gt;道路距離/時間商圏の生成 (Generate Drive Time Trade Areas)&lt;/a&gt;] ツールをクリックして開きます。&lt;/li&gt;
+&lt;li&gt;ツールを以下のように設定して、[実行] します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;パラメーター&lt;/th&gt;
+&lt;th&gt;設定値&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;入力フィーチャ&lt;/td&gt;
+&lt;td&gt;出店候補地&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;出力フィーチャクラス&lt;/td&gt;
+&lt;td&gt;出店候補地_車10分圏&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;距離タイプ&lt;/td&gt;
+&lt;td&gt;運転時間&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;入力方法&lt;/td&gt;
+&lt;td&gt;値&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;距離&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;距離単位&lt;/td&gt;
+&lt;td&gt;分&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;マップに、出店候補地を起点とした自動車 10 分圏が追加されます。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/huffmodel/drivetime-10min.png"&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2&gt;ハフ モデル用ポテンシャルレイヤーの抽出&lt;span class="hx:absolute hx:-mt-20" id="ハフ-モデル用ポテンシャルレイヤーの抽出"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%8f%e3%83%95-%e3%83%a2%e3%83%87%e3%83%ab%e7%94%a8%e3%83%9d%e3%83%86%e3%83%b3%e3%82%b7%e3%83%a3%e3%83%ab%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%81%ae%e6%8a%bd%e5%87%ba" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ハフ モデル実行時のポテンシャル レイヤーとして利用するために、運転時間商圏に重なる 500m メッシュを選択します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;[解析] タブ → [ワークフロー] グループの [ビジネス解析] → [Business Analyst データの追加] を選択します。&lt;/li&gt;
+&lt;li&gt;[Business Analyst] ダイアログが表示された場合は、メッセージを確認して [OK] をクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;[Business Analyst データの追加] ダイアログが開きます。&lt;/p&gt;
+&lt;ol start="3"&gt;
+&lt;li&gt;[対象地域] の [v] ボタンをクリックして、[境界レイヤー] の 「出店候補地_車10分圏」 レイヤーを選択します。&lt;/li&gt;
+&lt;li&gt;[詳細レベル] の [v] ボタンをクリックして、[4次メッシュ] を選択します。&lt;/li&gt;
+&lt;li&gt;[変数] の横の [+] ボタンをクリックしてデータ ブラウザーを開き、[人口] → [人口総数] → [2020 人口総数 (国勢調査)] 内の [2020 人口総数 (国勢調査)] を選択し、[OK] をクリックします。&lt;/li&gt;
+&lt;li&gt;以下のように設定されていることを確認し、[OK] をクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;パラメーター&lt;/th&gt;
+&lt;th&gt;設定値&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;対象地域&lt;/td&gt;
+&lt;td&gt;出店候補地_車10分圏&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;境界モード&lt;/td&gt;
+&lt;td&gt;区画&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;詳細レベル&lt;/td&gt;
+&lt;td&gt;4次メッシュ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;変数&lt;/td&gt;
+&lt;td&gt;2020 人口総数 (国勢調査)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;出力&lt;/td&gt;
+&lt;td&gt;Business_Analyst_Data&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;[コンテンツ] ウィンドウに「Business_Analyst_Data」という名前のグループ レイヤーが追加され、「出店候補地_車10分圏」の範囲の 500m メッシュが表示されます。&lt;/p&gt;
+&lt;h2&gt;ハフ モデルの実行&lt;span class="hx:absolute hx:-mt-20" id="ハフ-モデルの実行"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%8f%e3%83%95-%e3%83%a2%e3%83%87%e3%83%ab%e3%81%ae%e5%ae%9f%e8%a1%8c" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;あらかじめ追加されている「出店候補地」および「既存店」のポイント データ、運転時間商圏に重なる 500m メッシュを用いて、ハフ モデルを実行します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [ハフ モデルの実行] をクリックします。&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/huff-model.htm" target="_blank"&gt;ハフ モデル (Huff Model)&lt;/a&gt;] ツールを以下のように設定して、[実行] します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;パラメーター&lt;/th&gt;
+&lt;th&gt;設定値&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;入力施設フィーチャ&lt;/td&gt;
+&lt;td&gt;既存店&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;施設 ID フィールド&lt;/td&gt;
+&lt;td&gt;店舗ID&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;入力候補地フィーチャ&lt;/td&gt;
+&lt;td&gt;出店候補地&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;候補地 ID フィールド&lt;/td&gt;
+&lt;td&gt;店舗ID&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;入力ポテンシャル フィーチャ&lt;/td&gt;
+&lt;td&gt;Business_Analyst_Data\4次メッシュ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ポテンシャル ID フィールド&lt;/td&gt;
+&lt;td&gt;ID&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ポテンシャル フィールド&lt;/td&gt;
+&lt;td&gt;2020 人口総数&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;出力フィーチャクラス&lt;/td&gt;
+&lt;td&gt;ハフモデル&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;魅力度の変数&lt;/td&gt;
+&lt;td&gt;既存施設の値: 売場面積&lt;br/&gt;候補地の値: 売場面積&lt;br/&gt;指数: 1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;距離指数&lt;/td&gt;
+&lt;td&gt;-1.5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;距離タイプ&lt;/td&gt;
+&lt;td&gt;運転時間&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;距離単位&lt;/td&gt;
+&lt;td&gt;分&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;本演習では魅力度を 1 つだけ設定していますが、魅力度を複数設定することも可能です。[魅力度の変数] パラメーターの [他を追加] ボタンをクリックすることで追加の魅力度を設定できます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;[距離指数] パラメーターでは「&lt;strong&gt;距離抵抗係数&lt;/strong&gt;」を指定できます。距離抵抗係数は、距離に応じて吸引される需要がどれだけ減少するかを定義したもので、買い回り品と最寄り品の調整を行うことができます。一般的には、食料品などの最寄り品では距離抵抗係数を高く設定し、家具などの買回り品では距離抵抗係数は低く設定します。&lt;br/&gt;
+また、[距離タイプ] パラメーターでは、距離計測の方法を直線距離、道路距離、道路時間のいずれかから指定できます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;マップにハフ モデルの結果レイヤーが追加されます。このレイヤーは、算出された需要の吸引率を元に色分けされており、赤いエリアほど吸引率が高いことを表しています。今回の結果を見ると、出店候補地の西側のエリアには既存店が無く、より吸引率が高いことが分かります。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/huffmodel/huffmodel-result.png"&gt;
+&lt;/figure&gt;
+&lt;h2&gt;解析結果の確認&lt;span class="hx:absolute hx:-mt-20" id="解析結果の確認"&gt;&lt;/span&gt;
+&lt;a href="#%e8%a7%a3%e6%9e%90%e7%b5%90%e6%9e%9c%e3%81%ae%e7%a2%ba%e8%aa%8d" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;最後に「データ エンジニアリング」機能を用いて、ハフ モデルの解析結果を確認します。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;データ エンジニアリングは、空間解析やデータ サイエンスにおいて役立つツールをまとめたものです。マップやチャートを使ってデータを探索したり、統計情報を表示してデータの値や分布を把握することができます。詳細は &lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/geoprocessing/data-engineering/what-is-data-engineering.htm" target="_blank"&gt;Esri ヘルプ&lt;/a&gt;をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;[コンテンツ] ウィンドウの「ハフモデル」レイヤー上で右クリック → [データ エンジニアリング] をクリックします。&lt;/li&gt;
+&lt;li&gt;データ エンジニアリング ビュー左部のフィールド パネルに「ハフモデル」レイヤーが持つフィールドの一覧が表示されます。「合計」フィールド上にマウス カーソルを合わせて、3 つのボタンの一番左側の [シンボルの更新] ボタンをクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;ハフ モデル ツールで生成される各フィールドは、以下の内容を表します。&lt;/p&gt;
+&lt;div class="info-table"&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;フィールド名&lt;/th&gt;
+&lt;th style="text-align: left"&gt;説明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;ID&lt;/td&gt;
+&lt;td style="text-align: left"&gt;エリアの一意な ID を表します。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;確率&lt;/td&gt;
+&lt;td style="text-align: left"&gt;エリアの出店候補地における需要の「吸引率」を表します。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;合計&lt;/td&gt;
+&lt;td style="text-align: left"&gt;エリアの出店候補地における「吸引需要」を表します。本演習では、ポテンシャルとして人口総数を設定したので、人口総数 × 吸引率 = 吸引人口を表します。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;「ハフモデル」レイヤーのシンボルを、吸引率ベースから吸引人口ベースにワンクリックで変更できました。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;ctrl + Z キーを押すと、変更前のシンボルに戻すことができます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol start="3"&gt;
+&lt;li&gt;フィールド パネルで「合計」フィールドをクリックして選択し、右側の統計情報パネルにドラッグ &amp;amp; ドロップして追加します。&lt;/li&gt;
+&lt;li&gt;[計算] ボタンをクリックして、追加したフィールドの統計情報を算出します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;算出された統計情報のうち [合計] を確認することで、出店候補地が吸引する「吸引人口」の合算値を確認できます。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/huffmodel/confirm-huff-result.png"&gt;
+&lt;/figure&gt;
+&lt;ol start="5"&gt;
+&lt;li&gt;[プロジェクト] タブ → [保存] を選択し、&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/projects/save-a-project.htm" target="_blank"&gt;プロジェクトを保存&lt;/a&gt;します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1&gt;まとめ&lt;/h1&gt;&lt;p&gt;この演習では、新規出店候補地 1 ヶ所から運転時間商圏を作成し、それに重なる 500m メッシュを選択しました。そして、出店候補地および既存店のポイント データと選択した 500m メッシュを用いてハフ モデルを実行しました。
+更に、データ エンジニアリング機能を用いて、ハフ モデルの解析結果の詳細を確認することができました。&lt;/p&gt;
+&lt;p&gt;また、以下ツールの操作について学びました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[道路距離/時間商圏の生成] ツール&lt;/li&gt;
+&lt;li&gt;[Business Analyst データの追加] ユーティリティー&lt;/li&gt;
+&lt;li&gt;[空間条件で選択] ツール&lt;/li&gt;
+&lt;li&gt;[ハフ モデル] ツール&lt;/li&gt;
+&lt;li&gt;データ エンジニアリング&lt;/li&gt;
+&lt;/ul&gt;
+&lt;style class="info-table"&gt;
 table {
 font-size: 13px;
 width: 85%;
@@ -553,55 +568,417 @@ width: 30%;
 table th:nth-of-type(2) {
 width: 70%;
 }
-table thead tr th {
-background-color: #F9FAFB;
+&lt;/style&gt;</description></item><item><title>テリトリー デザイン</title><link>/business-analyst/pro/tutorial/territory-design/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/territory-design/</guid><description>
+&lt;h1&gt;目的&lt;/h1&gt;&lt;p&gt;テリトリー デザインを実行して、営業管轄エリアや配送エリアを最適化する方法を習得します。 本演習内では、世田谷区における営業の担当エリアを、テリトリー デザインを実行して可視化・最適化します。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;テリトリー デザインの詳細は、&lt;a href="https://business-map.esrij.com/glossary/4154/" target="_blank"&gt;ビジネスマップ用語集&lt;/a&gt;をご覧ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h1&gt;演習&lt;/h1&gt;&lt;ul class="list-disc ml-6"&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/pro/tutorial/territory-design/create-territory-from-database/"&gt;現状のテリトリーを可視化&lt;/a&gt;&lt;br&gt;既存のエリア分けの情報を持つテーブルを使用して現状のテリトリーをマップに可視化します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/pro/tutorial/territory-design/create-optimal-territory/"&gt;テリトリーの自動最適化&lt;/a&gt;&lt;br&gt;位置情報や、売上高などの数値情報を元にテリトリーを最適化します。
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>適合性解析</title><link>/business-analyst/pro/tutorial/suitability-analysis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/suitability-analysis/</guid><description>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;本演習にかかる時間はおよそ 30 分です。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h1&gt;目的&lt;/h1&gt;&lt;p&gt;本演習では、メーカーが開発した子ども向け商品を試験的に販売する店舗を決定するため、複数の条件に基づいて候補店舗を評価します。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;適合性解析は、人口統計や競合店の出店状況などの複数の条件を組み合わせて、候補地ごとの適合度をランク付けすることで、試験販売店舗や新規出店場所などの選定を支援する解析機能です。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/suitability-analysis/sa-image.png"
+alt="適合性解析の実行イメージ"&gt;&lt;figcaption&gt;
+&lt;p&gt;適合性解析の実行イメージ&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h1&gt;演習&lt;/h1&gt;&lt;p&gt;試験販売の候補となる店舗の商圏ポリゴンと人口統計データ、競合店ポイント、自社会員ポイントを使用して、適合性解析を行います。&lt;/p&gt;
+&lt;h2&gt;演習用データのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="演習用データのダウンロード"&gt;&lt;/span&gt;
+&lt;a href="#%e6%bc%94%e7%bf%92%e7%94%a8%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href="https://www.arcgis.com/sharing/rest/content/items/fb634334d19348aeb8a1331dd9baf78e/data" target="_blank"&gt;BA Pro チュートリアル-適合性解析 zip ファイル&lt;/a&gt;をダウンロードします。&lt;/li&gt;
+&lt;li&gt;ダウンロードした「BAProチュートリアル-適合性解析.zip」を解凍します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;演習用プロジェクトの作成&lt;span class="hx:absolute hx:-mt-20" id="演習用プロジェクトの作成"&gt;&lt;/span&gt;
+&lt;a href="#%e6%bc%94%e7%bf%92%e7%94%a8%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href="https://www.esrij.com/cgi-bin/wp/wp-content/uploads/documents/arcgis_pro_user_guide.pdf#page=14" target="_blank"&gt;ArcGIS Pro 逆引きガイド&lt;/a&gt;の「1-4. ArcGIS Pro の起動と保存」の手順を参考に、ArcGIS Pro の起動とプロジェクトの新規作成を行います。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;a href="/business-analyst/pro/tutorial/prepare-for-tutorial/#business-analyst-%e3%83%87%e3%83%bc%e3%82%bf-%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e8%a8%ad%e5%ae%9a"&gt;Business Analyst データ ソース&lt;/a&gt; が最新のデータセットに設定されていることをご確認ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;&lt;a href="https://www.esrij.com/cms/wp-content/uploads/documents/arcgis_pro_user_guide.pdf#page=25" target="_blank"&gt;ArcGIS Pro 逆引きガイド&lt;/a&gt;の「フォルダーやデータベースに接続」の手順を参考に、解凍した「BAProチュートリアル-適合性解析」フォルダーを接続します。&lt;/li&gt;
+&lt;li&gt;[カタログ] ウィンドウの [フォルダー] を展開し、「BAProチュートリアル-適合性解析」内の「演習1.lyrx」をマップにドラッグ &amp;amp; ドロップで追加します。&lt;/li&gt;
+&lt;li&gt;[コンテンツ] ウィンドウの「演習1」グループ レイヤーを右クリックし、[レイヤーにズーム] をクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;[コンテンツ] ウィンドウおよびマップ上に「試験販売候補」レイヤー、「競合店舗」レイヤー、「自社会員」レイヤー、「試験販売候補_自転車10分圏」レイヤーが追加されていることを確認します。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/suitability-analysis/add-layer.png"&gt;
+&lt;/figure&gt;
+&lt;h2&gt;適合性解析レイヤーを作成&lt;span class="hx:absolute hx:-mt-20" id="適合性解析レイヤーを作成"&gt;&lt;/span&gt;
+&lt;a href="#%e9%81%a9%e5%90%88%e6%80%a7%e8%a7%a3%e6%9e%90%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%82%92%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;適合性解析を実行するための解析レイヤーを作成します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [適合性解析] をクリックします。&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/make-suitability-analysis-layer.htm" target="_blank"&gt;適合性解析レイヤーの作成 (Make Suitability Analysis Layer) (Business Analyst)&lt;/a&gt;] ツールが起動したら、以下のように設定して [実行] をクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;パラメーター&lt;/th&gt;
+&lt;th&gt;設定値&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;入力フィーチャ&lt;/td&gt;
+&lt;td&gt;試験販売候補_自転車10分圏&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;適合性解析レイヤー名&lt;/td&gt;
+&lt;td&gt;適合性解析&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ol start="3"&gt;
+&lt;li&gt;マップ上に「適合性解析」グループ レイヤーが追加されます。&lt;/li&gt;
+&lt;li&gt;[コンテンツ] ウィンドウの「試験販売候補_自転車10分圏」レイヤーの左のチェックボックスをオフにし、レイヤーを非表示にします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;解析条件を追加&lt;span class="hx:absolute hx:-mt-20" id="解析条件を追加"&gt;&lt;/span&gt;
+&lt;a href="#%e8%a7%a3%e6%9e%90%e6%9d%a1%e4%bb%b6%e3%82%92%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;解析に使用する条件を適合性解析レイヤーに追加します。&lt;/p&gt;
+&lt;p&gt;はじめにデータ ブラウザーを使用して、新商品のターゲットである年齢層の人口や、ターゲット層の嗜好性に関連する消費データを条件として追加します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;[コンテンツ] ウィンドウ上の「適合性解析」グループ レイヤーを選択した状態で、リボン上部に表示される [適合性解析] タブをクリックします。&lt;/li&gt;
+&lt;li&gt;[基準] グループの [条件の追加] の [˅] をクリックし、[データ ブラウザーから変数を追加] をクリックします。&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/add-variable-based-criteria.htm" target="_blank"&gt;変数に基づく適合性条件の追加 (Add Variable Based Suitability Criteria)&lt;/a&gt;] ツールが起動したら、[変数] の右の [+] ボタンをクリックしてデータ ブラウザーを開きます。&lt;/li&gt;
+&lt;li&gt;[年齢] → [学齢別人口] の [2020 人口 3-5歳 (国勢調査メッシュ)] にチェックを入れます。&lt;/li&gt;
+&lt;li&gt;[カテゴリ] をクリックし、[教育] → [在学学校別人口] の [2020 未就学者数 総数 (国勢調査)] にチェックを入れます。&lt;/li&gt;
+&lt;li&gt;[カテゴリ] をクリックし、[消費] → [教養娯楽] の [2025 教養娯楽用品 (ESRIジャパン)] を展開し、[2025 玩具 (推計消費額)] にチェックを入れ、[OK] をクリックします。&lt;/li&gt;
+&lt;li&gt;以下のように設定されていることを確認し、[OK] をクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;パラメーター&lt;/th&gt;
+&lt;th&gt;設定値&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;入力適合性解析レイヤー&lt;/td&gt;
+&lt;td&gt;適合性解析&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td rowspan="3"&gt;変数&lt;/td&gt;
+&lt;td&gt;2020 人口 3-5歳 (国勢調査メッシュ)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2020 未就学者数 総数 (国勢調査)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2025 玩具 (推計消費額)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;次に、試験販売候補の商圏レイヤーが属性として持っている、店舗面積を条件として追加します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;[基準] グループの [条件の追加] の [˅] をクリックし、[入力レイヤーからフィールドを追加] をクリックします。&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/add-field-based-criteria.htm" target="_blank"&gt;フィールドに基づく適合性条件の追加 (Add Field Based Suitability Criteria)&lt;/a&gt;] ツールが起動したら、以下のように設定し、[OK] をクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;パラメーター&lt;/th&gt;
+&lt;th&gt;設定値&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;入力適合性解析レイヤー&lt;/td&gt;
+&lt;td&gt;適合性解析&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;フィールド&lt;/td&gt;
+&lt;td&gt;売場面積&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;最後に、競合店と自社会員のポイント データを条件として追加します。&lt;/p&gt;
+&lt;p&gt;競合店の影響を考慮する条件として、各店舗の商圏内にある競合店の売場面積の合計が小さいほど、試験販売に適した店舗と評価されるように設定します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;[基準] グループの [条件の追加] の [˅] をクリックし、[ポイント レイヤーの追加] をクリックします。&lt;/li&gt;
+&lt;li&gt;[&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/add-point-based-criteria.htm" target="_blank"&gt;ポイント レイヤーに基づく適合性条件の追加 (Add Point Layer Based Suitability Criteria)&lt;/a&gt;] が起動したら、以下のように設定し、[OK] をクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;パラメーター&lt;/th&gt;
+&lt;th&gt;設定値&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;入力適合性解析レイヤー&lt;/td&gt;
+&lt;td&gt;適合性解析&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;サイト レイヤーの ID フィールド&lt;/td&gt;
+&lt;td&gt;店舗ID&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ポイント フィーチャ&lt;/td&gt;
+&lt;td&gt;競合店舗&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;条件タイプ&lt;/td&gt;
+&lt;td&gt;加重&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;加重フィールド&lt;/td&gt;
+&lt;td&gt;売場面積&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;統計の種類&lt;/td&gt;
+&lt;td&gt;合計&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;自社会員の売上を考慮する条件として、各店舗の商圏内の会員の売上が高いほど、試験販売に適した店舗と評価されるように設定します。&lt;/p&gt;
+&lt;ol start="3"&gt;
+&lt;li&gt;再度 [&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/add-point-based-criteria.htm" target="_blank"&gt;ポイント レイヤーに基づく適合性条件の追加 (Add Point Layer Based Suitability Criteria)&lt;/a&gt;] を起動し、以下のように設定して [OK] をクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;パラメーター&lt;/th&gt;
+&lt;th&gt;設定値&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;入力適合性解析レイヤー&lt;/td&gt;
+&lt;td&gt;適合性解析&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;サイト レイヤーの ID フィールド&lt;/td&gt;
+&lt;td&gt;店舗ID&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ポイント フィーチャ&lt;/td&gt;
+&lt;td&gt;自社会員&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;条件タイプ&lt;/td&gt;
+&lt;td&gt;加重&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;加重フィールド&lt;/td&gt;
+&lt;td&gt;年間売上&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;統計の種類&lt;/td&gt;
+&lt;td&gt;合計&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;自社会員の分布を考慮する条件として、店舗の近くに自社会員がいるほど、試験販売に適した店舗と評価されるように設定します。&lt;/p&gt;
+&lt;ol start="4"&gt;
+&lt;li&gt;再度 [&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/add-point-based-criteria.htm" target="_blank"&gt;ポイント レイヤーに基づく適合性条件の追加 (Add Point Layer Based Suitability Criteria)&lt;/a&gt;] を起動し、以下のように設定して [OK] をクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;パラメーター&lt;/th&gt;
+&lt;th&gt;設定値&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;入力適合性解析レイヤー&lt;/td&gt;
+&lt;td&gt;適合性解析&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;サイト レイヤーの ID フィールド&lt;/td&gt;
+&lt;td&gt;店舗ID&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ポイント フィーチャ&lt;/td&gt;
+&lt;td&gt;自社会員&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;条件タイプ&lt;/td&gt;
+&lt;td&gt;最小距離&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;距離タイプ&lt;/td&gt;
+&lt;td&gt;距離&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;計測単位&lt;/td&gt;
+&lt;td&gt;キロメートル&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;サイト中心フィーチャ&lt;/td&gt;
+&lt;td&gt;試験販売候補&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;サイト中心レイヤーの ID フィールド&lt;/td&gt;
+&lt;td&gt;店舗ID&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;解析条件の調整と結果の確認&lt;span class="hx:absolute hx:-mt-20" id="解析条件の調整と結果の確認"&gt;&lt;/span&gt;
+&lt;a href="#%e8%a7%a3%e6%9e%90%e6%9d%a1%e4%bb%b6%e3%81%ae%e8%aa%bf%e6%95%b4%e3%81%a8%e7%b5%90%e6%9e%9c%e3%81%ae%e7%a2%ba%e8%aa%8d" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;追加した条件の影響度などを調整します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;リボンの [適合性スコア] グループの [自動計算] のチェックをオフにします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/suitability-analysis/autocalculate-off.png"&gt;
+&lt;/figure&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;[適合性解析] ウィンドウの [条件] タブが開いていることを確認します。&lt;/li&gt;
+&lt;li&gt;「演習1\競合店舗 加重 (合計値/売場面積)」と「演習1\自社会員から距離 (KILOMETERS)」の影響度をプルダウンで [負] に設定します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/suitability-analysis/criteria-influence.png"&gt;
+&lt;/figure&gt;
+&lt;ol start="4"&gt;
+&lt;li&gt;近隣に自社会員が少ない店舗を候補から除外するため、「演習1\自社会員から距離 (KILOMETERS)」の [フィルター] を展開し、「0.25」以下でフィルタリングします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/suitability-analysis/criteria-filter.png"&gt;
+&lt;/figure&gt;
+&lt;ol start="5"&gt;
+&lt;li&gt;リボンの [適合性スコア] グループの [計算] をクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;適合性解析の結果を確認します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;[適合性解析] ウィンドウの左下にある [結果の表示] ボタンをクリックします。&lt;/li&gt;
+&lt;li&gt;結果ウィンドウの左側の [散布図] ボタンをクリックし、散布図を開きます。&lt;/li&gt;
+&lt;li&gt;散布図の横軸に「2020 人口 3-5歳」、縦軸に「2020 未就学者数 総数」のスコアが表示されます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/suitability-analysis/scatterplot.png"&gt;
+&lt;/figure&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;強い相関関係にある変数を複数設定すると、同じ意味を持つ情報を重複して評価することになり、その要素が過度に重視される可能性があります。3-5 歳の人口と未就学者数は対象が重なる部分が大きいため、ターゲット層の人口を特段重視したい場合を除き、片方の変数を削除するか、条件の加重を変更してバランスを調整する必要があります。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol start="4"&gt;
+&lt;li&gt;2 つの値が強い相関関係にあることを確認し、[×] をクリックして結果ウィンドウを閉じます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;相関の強い 2 つの変数のうち、片方を削除します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;リボン上部の [解析] タブ → [ジオプロセシング] グループの [ツール] ボタンをクリックし、[ジオプロセシング] ウィンドウを開きます。&lt;/li&gt;
+&lt;li&gt;[ジオプロセシング] ウィンドウの検索ボックスに「適合性条件」と入力します。&lt;/li&gt;
+&lt;li&gt;検索結果の中の [&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/remove-suitability-criteria.htm" target="_blank"&gt;適合性条件の削除 (Remove Suitability Criteria)&lt;/a&gt;] ツールをクリックして開きます。&lt;/li&gt;
+&lt;li&gt;以下のように設定して [実行] をクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;パラメーター&lt;/th&gt;
+&lt;th&gt;設定値&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;入力適合性解析レイヤー&lt;/td&gt;
+&lt;td&gt;適合性解析&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;条件の削除&lt;/td&gt;
+&lt;td&gt;2020 未就学者数 総数&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;ジオプロセシング ツールを開かずに、[適合性解析] ウィンドウの [設定] タブ→ [加重] タブから条件を削除することも可能です。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/suitability-analysis/remove-criteria.png"&gt;
+&lt;/figure&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;自社会員の売上をより重視するために、条件の加重を調整します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;[適合性解析] ウィンドウの [設定] タブ→ [加重] タブを開きます。&lt;/li&gt;
+&lt;li&gt;「演習1\自社会員 加重 (合計値/年間売上)」を 30% に設定します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/suitability-analysis/adjust-weights.png"&gt;
+&lt;/figure&gt;
+&lt;p&gt;適合性解析の結果を確認します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;リボン上部の [適合性解析] タブをクリックし、[適合性スコア] グループの [計算] をクリックします。&lt;/li&gt;
+&lt;li&gt;[結果] グループの [結果の表示] ボタンをクリックします。&lt;/li&gt;
+&lt;li&gt;結果ウィンドウの左にある [ヒストグラム][散布図][テーブル] ボタンをクリックし、解析結果を確認します。&lt;/li&gt;
+&lt;li&gt;[コンテンツ] ウィンドウの「適合性解析」グループ レイヤー内の「候補地」レイヤーを右クリック→ [属性テーブル] をクリックし、属性テーブルを開きます。&lt;/li&gt;
+&lt;li&gt;属性テーブルを右にスクロールし、ここまでの手順で追加した各条件の値と、条件値に基づいて 0 から 1 でスコアリングされた値が格納されていることを確認します。&lt;/li&gt;
+&lt;li&gt;[×] をクリックして属性テーブルを閉じます。&lt;/li&gt;
+&lt;li&gt;リボン上部の [適合性解析] タブをクリックし、[基準] グループの [適合性解析ウィンドウ] をクリックします。&lt;/li&gt;
+&lt;li&gt;[適合性解析] ウィンドウの [設定] タブ→ [スコア] タブにある [フィルターの有効化] をオンにし、[ランクによるフィルター] で [上] 「2」と設定することで、試験販売の候補のうち上位 2 店舗のみを表示します。&lt;/li&gt;
+&lt;li&gt;[プロジェクト] タブ → [プロジェクトの保存] を選択し、プロジェクトを保存します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1&gt;まとめ&lt;/h1&gt;&lt;p&gt;子どもに関する統計値や競合店、自社会員といった複数の条件に基づく解析を行い、7 店舗のうち、新商品の試験販売に適した 2 店舗を選び出すことができました。
+本チュートリアルでは以下のツールの操作方法を学びました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[適合性解析レイヤーの作成] ツール&lt;/li&gt;
+&lt;li&gt;[変数に基づく適合性条件の追加] ツール&lt;/li&gt;
+&lt;li&gt;[フィールドに基づく適合性条件の追加] ツール&lt;/li&gt;
+&lt;li&gt;[ポイント レイヤーに基づく適合性条件の追加] ツール&lt;/li&gt;
+&lt;li&gt;適合性解析ウィンドウの操作&lt;/li&gt;
+&lt;li&gt;結果ウィンドウの操作&lt;/li&gt;
+&lt;li&gt;[適合性条件の削除] ツール&lt;/li&gt;
+&lt;/ul&gt;
+&lt;style class="info-table"&gt;
+table {
+font-size: 13px;
+width: 85%;
+margin-right: 5px;
+margin-left: 15px;
 }
-table tbody tr {
-background-color: #FFFFFF;
+table th:first-of-type {
+width: 30%;
 }
-&lt;/style></description></item><item><title>テリトリー デザイン</title><link>/business-analyst/pro/tutorial/territory-design/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/territory-design/</guid><description>
-&lt;h1>目的&lt;/h1>&lt;p>テリトリー デザインを実行して、営業管轄エリアや配送エリアを最適化する方法を習得します。 本演習内では、世田谷区における営業の担当エリアを、テリトリー デザインを実行して可視化・最適化します。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">テリトリー デザインの詳細は、&lt;a href="https://business-map.esrij.com/glossary/4154/" target="_blank">ビジネスマップ用語集&lt;/a>をご覧ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h1>演習&lt;/h1>&lt;ul class="list-disc ml-6">
-&lt;li>
-&lt;a href="/business-analyst/pro/tutorial/territory-design/create-territory-from-database/">現状のテリトリーを可視化&lt;/a>&lt;br>既存のエリア分けの情報を持つテーブルを使用して現状のテリトリーをマップに可視化します。
-&lt;/li>
-&lt;li>
-&lt;a href="/business-analyst/pro/tutorial/territory-design/create-optimal-territory/">テリトリーの自動最適化&lt;/a>&lt;br>位置情報や、売上高などの数値情報を元にテリトリーを最適化します。
-&lt;/li>
-&lt;/ul></description></item><item><title>データのカスタマイズ</title><link>/business-analyst/pro/tutorial/customize-data/</link><pubDate>Fri, 19 Nov 2021 00:00:00 +0900</pubDate><guid>/business-analyst/pro/tutorial/customize-data/</guid><description>
-&lt;h1>目的&lt;/h1>&lt;p>自社の顧客や売上などの独自のデータや &lt;a href="https://www.gisdata-store.biz/" target="_blank">GIS データストア&lt;/a>で紹介しているような 3rd パーティ製データ、既存の BA 用データを使用してカスタム変数を作成し、マッピングおよび解析で利用する方法を習得します。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">統計データ コレクションの詳細は &lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/custom-data.htm" target="_blank">Esri ヘルプ ページ&lt;/a>をご参照ください&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h1>演習&lt;/h1>&lt;ul class="list-disc ml-6">
-&lt;li>
-&lt;a href="/business-analyst/pro/tutorial/customize-data/how-to-use-existing-ba-data/">BA データからカスタム変数を作成&lt;/a>&lt;br>BA データから独自のカスタム変数を作成します。
-&lt;/li>
-&lt;li>
-&lt;a href="/business-analyst/pro/tutorial/customize-data/how-to-use-unique-data/">独自データからカスタム変数を作成&lt;/a>&lt;br>売上情報などの自社の独自データをカスタム変数として登録します。
-&lt;/li>
-&lt;/ul></description></item><item><title>レポートのカスタマイズ</title><link>/business-analyst/pro/tutorial/customize-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/customize-report/</guid><description>
-&lt;h1>目的&lt;/h1>&lt;p>ユーザー独自のインフォグラフィックス テンプレートおよびクラシック レポート テンプレートを作成し、ローカル データセットを使用したレポートの作成方法を習得します。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">レポートのカスタマイズには &lt;strong>ArcGIS Pro 3.2&lt;/strong> 以降のバージョンが必要です。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h1>演習&lt;/h1>&lt;ul class="list-disc ml-6">
-&lt;li>
-&lt;a href="/business-analyst/pro/tutorial/customize-report/build-infographic-templates/">インフォグラフィックス テンプレートの作成&lt;/a>&lt;br>インフォグラフィックス テンプレートを作成し、クイック商圏で作成したエリアのインフォグラフィックスを出力します。
-&lt;/li>
-&lt;li>
-&lt;a href="/business-analyst/pro/tutorial/customize-report/build-classic-report-templates/">クラシック レポート テンプレートの作成&lt;/a>&lt;br>クラシック レポート テンプレートを作成し、クイック商圏で作成したエリアのレポートを出力します。
-&lt;/li>
-&lt;/ul></description></item></channel></rss>
+table th:nth-of-type(2) {
+width: 70%;
+}
+&lt;/style&gt;</description></item><item><title>データのカスタマイズ</title><link>/business-analyst/pro/tutorial/customize-data/</link><pubDate>Fri, 19 Nov 2021 00:00:00 +0900</pubDate><guid>/business-analyst/pro/tutorial/customize-data/</guid><description>
+&lt;h1&gt;目的&lt;/h1&gt;&lt;p&gt;自社の顧客や売上などの独自のデータや &lt;a href="https://www.gisdata-store.biz/" target="_blank"&gt;GIS データストア&lt;/a&gt;で紹介しているような 3rd パーティ製データ、既存の BA 用データを使用してカスタム変数を作成し、マッピングおよび解析で利用する方法を習得します。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;統計データ コレクションの詳細は &lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/custom-data.htm" target="_blank"&gt;Esri ヘルプ ページ&lt;/a&gt;をご参照ください&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h1&gt;演習&lt;/h1&gt;&lt;ul class="list-disc ml-6"&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/pro/tutorial/customize-data/how-to-use-existing-ba-data/"&gt;BA データからカスタム変数を作成&lt;/a&gt;&lt;br&gt;BA データから独自のカスタム変数を作成します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/pro/tutorial/customize-data/how-to-use-unique-data/"&gt;独自データからカスタム変数を作成&lt;/a&gt;&lt;br&gt;売上情報などの自社の独自データをカスタム変数として登録します。
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>レポートのカスタマイズ</title><link>/business-analyst/pro/tutorial/customize-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/customize-report/</guid><description>
+&lt;h1&gt;目的&lt;/h1&gt;&lt;p&gt;ユーザー独自のインフォグラフィックス テンプレートおよびクラシック レポート テンプレートを作成し、ローカル データセットを使用したレポートの作成方法を習得します。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;レポートのカスタマイズには &lt;strong&gt;ArcGIS Pro 3.2&lt;/strong&gt; 以降のバージョンが必要です。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h1&gt;演習&lt;/h1&gt;&lt;ul class="list-disc ml-6"&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/pro/tutorial/customize-report/build-infographic-templates/"&gt;インフォグラフィックス テンプレートの作成&lt;/a&gt;&lt;br&gt;インフォグラフィックス テンプレートを作成し、クイック商圏で作成したエリアのインフォグラフィックスを出力します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/pro/tutorial/customize-report/build-classic-report-templates/"&gt;クラシック レポート テンプレートの作成&lt;/a&gt;&lt;br&gt;クラシック レポート テンプレートを作成し、クイック商圏で作成したエリアのレポートを出力します。
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

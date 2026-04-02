@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – スタートアップ ガイド</title><link>/pro/get-started/</link><description>Recent content in スタートアップ ガイド on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Wed, 21 Jan 2026 00:00:00 +0900</lastBuildDate><atom:link href="/pro/get-started/index.xml" rel="self" type="application/rss+xml"/><item><title>セットアップ</title><link>/pro/get-started/setup/</link><pubDate>Mon, 17 Apr 2023 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/</guid><description>
-&lt;p>ArcGIS Pro のライセンス形態と ArcGIS Pro の利用を開始するための管理者の操作、利用者の操作を説明します。&lt;/p>
-&lt;ul class="list-disc ml-6">
-&lt;li>
-&lt;a href="/pro/get-started/setup/license/">ライセンス&lt;/a>&lt;br>ライセンスの形態について説明します。
-&lt;/li>
-&lt;li>
-&lt;a href="/pro/get-started/setup/admin/">管理者の操作&lt;/a>&lt;br>ArcGIS Online の登録とライセンスの割り当てについて説明します。
-&lt;/li>
-&lt;li>
-&lt;a href="/pro/get-started/setup/user/">利用者の操作&lt;/a>&lt;br>ArcGIS Pro の利用者の操作について説明します。
-&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;p&gt;ArcGIS Pro のライセンス形態と ArcGIS Pro の利用を開始するための管理者の操作、利用者の操作を説明します。&lt;/p&gt;
+&lt;ul class="list-disc ml-6"&gt;
+&lt;li&gt;
+&lt;a href="/pro/get-started/setup/license/"&gt;ライセンス&lt;/a&gt;&lt;br&gt;ライセンスの形態について説明します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/pro/get-started/setup/admin/"&gt;管理者の操作&lt;/a&gt;&lt;br&gt;ArcGIS Online の登録とライセンスの割り当てについて説明します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/pro/get-started/setup/user/"&gt;利用者の操作&lt;/a&gt;&lt;br&gt;ArcGIS Pro の利用者の操作について説明します。
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

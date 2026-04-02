@@ -1,56 +1,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – セットアップ</title><link>/cityengine/get-started/setup/</link><description>Recent content in セットアップ on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 25 Jan 2026 00:00:00 +0900</lastBuildDate><atom:link href="/cityengine/get-started/setup/index.xml" rel="self" type="application/rss+xml"/><item><title>システム要件</title><link>/cityengine/get-started/setup/environment/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/setup/environment/</guid><description>
-&lt;h2>システム要件の確認&lt;span class="hx:absolute hx:-mt-20" id="システム要件の確認">&lt;/span>
-&lt;a href="#%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e8%a6%81%e4%bb%b6%e3%81%ae%e7%a2%ba%e8%aa%8d" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ArcGIS CityEngine をインストールするコンピューターがシステム要件を満たしているかどうかをご確認ください。&lt;/p>
-&lt;p>システム要件の詳細は、「&lt;a href="https://doc.arcgis.com/en/cityengine/latest/get-started/cityengine-system-requirements.htm"target="_blank" rel="noopener">CityEngine system requirements&lt;/a> (英語)」ページをご参照ください。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">同時使用 (Concurrent Use) ライセンスをご利用の場合は、&lt;a href="https://desktop.arcgis.com/ja/license-manager/latest/arcgis-license-manager-system-requirements.htm"target="_blank" rel="noopener">ArcGIS License Manager のシステム要件&lt;/a>もご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div></description></item><item><title>ダウンロード</title><link>/cityengine/get-started/setup/download/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/setup/download/</guid><description>
-&lt;p>ArcGIS CityEngine のインストーラーをダウンロードする手順を説明します。&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>My Esri サイトへアクセスします。 アクセスの方法は「&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge101.html"target="_blank" rel="noopener">My Esri とは － My Esri 利用ガイド&lt;/a>」ページをご参照ください。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>My Esri のダウンロード ページへアクセスし、ArcGIS CityEngine をダウンロードします。ダウンロード ページへのアクセスおよびダウンロード方法は「&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge107.html"target="_blank" rel="noopener">製品のダウンロード&lt;/a>」ページをご参照ください。&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ダウンロードには [ソフトウェアのダウンロード] 権限が必要です。&lt;/div>
-&lt;/div>
-&lt;/div></description></item><item><title>インストールと認証</title><link>/cityengine/get-started/setup/install/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/setup/install/</guid><description>
-&lt;p>ArcGIS CityEngine の利用を開始するためのインストールとソフトウェアの認証手順を説明します。&lt;/p>
-&lt;p>利用開始の手順は以下のようなステップから構成されています。
+&lt;h2&gt;システム要件の確認&lt;span class="hx:absolute hx:-mt-20" id="システム要件の確認"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e8%a6%81%e4%bb%b6%e3%81%ae%e7%a2%ba%e8%aa%8d" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ArcGIS CityEngine をインストールするコンピューターがシステム要件を満たしているかどうかをご確認ください。&lt;/p&gt;
+&lt;p&gt;システム要件の詳細は、「&lt;a href="https://doc.arcgis.com/en/cityengine/latest/get-started/cityengine-system-requirements.htm"target="_blank" rel="noopener"&gt;CityEngine system requirements&lt;/a&gt; (英語)」ページをご参照ください。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;同時使用 (Concurrent Use) ライセンスをご利用の場合は、&lt;a href="https://desktop.arcgis.com/ja/license-manager/latest/arcgis-license-manager-system-requirements.htm"target="_blank" rel="noopener"&gt;ArcGIS License Manager のシステム要件&lt;/a&gt;もご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>ダウンロード</title><link>/cityengine/get-started/setup/download/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/setup/download/</guid><description>
+&lt;p&gt;ArcGIS CityEngine のインストーラーをダウンロードする手順を説明します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;My Esri サイトへアクセスします。 アクセスの方法は「&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge101.html"target="_blank" rel="noopener"&gt;My Esri とは － My Esri 利用ガイド&lt;/a&gt;」ページをご参照ください。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;My Esri のダウンロード ページへアクセスし、ArcGIS CityEngine をダウンロードします。ダウンロード ページへのアクセスおよびダウンロード方法は「&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge107.html"target="_blank" rel="noopener"&gt;製品のダウンロード&lt;/a&gt;」ページをご参照ください。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;ダウンロードには [ソフトウェアのダウンロード] 権限が必要です。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>インストールと認証</title><link>/cityengine/get-started/setup/install/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/setup/install/</guid><description>
+&lt;p&gt;ArcGIS CityEngine の利用を開始するためのインストールとソフトウェアの認証手順を説明します。&lt;/p&gt;
+&lt;p&gt;利用開始の手順は以下のようなステップから構成されています。
 ステップは大きく分けて「インストール」と「認証」の 2 つです。
-&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/setup/install/installation-authorization.png" width="500" alt="インストールと認証">&lt;/p>
-&lt;ul class="list-disc ml-6">
-&lt;li>
-&lt;a href="/cityengine/get-started/setup/install/installation/">インストールとアンインストール&lt;/a>&lt;br>インストールとアンインストールの手順について説明します。
-&lt;/li>
-&lt;li>
-&lt;a href="/cityengine/get-started/setup/install/authorization/">ソフトウェアの認証&lt;/a>&lt;br>CityEngine Administrator Wizard での認証について説明します。
-&lt;/li>
-&lt;/ul></description></item><item><title>ライセンス マネージャー</title><link>/cityengine/get-started/setup/license-manager/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/setup/license-manager/</guid><description>
-&lt;p>ライセンス マネージャーは、 ArcGIS CityEngine や ArcGIS Engine、ArcGIS Desktop とエクステンション製品の同時使用ライセンスを管理するために必要です。&lt;br>
-ライセンス マネージャーにより ArcGIS 製品群の同時使用バージョンを任意の台数のマシンにインストールすることで、製品の使用が可能になります。&lt;br>
-ライセンス ファイルに記述されている同時使用ライセンスのライセンス数により、ソフトウェアを同時に使用できるユーザーの人数が決まります。&lt;br>
-ArcGIS CityEngine 同時使用ライセンスを使用するには、ArcGIS License Manager が既に稼動しているか、新たにインストールする必要があります。&lt;/p>
-&lt;p>ライセンス マネージャーの詳細やインストール手順については「&lt;a href="https://desktop.arcgis.com/ja/license-manager/latest/welcome.htm"target="_blank" rel="noopener">License Manager ガイド&lt;/a>」をご参照ください。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">License Manager の各バージョンがサポートしている ArcGIS CityEngine のバージョンについては「&lt;a href="https://desktop.arcgis.com/ja/license-manager/latest/supported-software-products.htm"target="_blank" rel="noopener">サポートされているソフトウェア製品&lt;/a>」をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">米国 Esri は、同時使用ライセンス タイプおよび ArcGIS License Manager のサポート終了を発表しました。&lt;br>
+&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/setup/install/installation-authorization.png" width="500" alt="インストールと認証"&gt;&lt;/p&gt;
+&lt;ul class="list-disc ml-6"&gt;
+&lt;li&gt;
+&lt;a href="/cityengine/get-started/setup/install/installation/"&gt;インストールとアンインストール&lt;/a&gt;&lt;br&gt;インストールとアンインストールの手順について説明します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/cityengine/get-started/setup/install/authorization/"&gt;ソフトウェアの認証&lt;/a&gt;&lt;br&gt;CityEngine Administrator Wizard での認証について説明します。
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>ライセンス マネージャー</title><link>/cityengine/get-started/setup/license-manager/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/setup/license-manager/</guid><description>
+&lt;p&gt;ライセンス マネージャーは、 ArcGIS CityEngine や ArcGIS Engine、ArcGIS Desktop とエクステンション製品の同時使用ライセンスを管理するために必要です。&lt;br&gt;
+ライセンス マネージャーにより ArcGIS 製品群の同時使用バージョンを任意の台数のマシンにインストールすることで、製品の使用が可能になります。&lt;br&gt;
+ライセンス ファイルに記述されている同時使用ライセンスのライセンス数により、ソフトウェアを同時に使用できるユーザーの人数が決まります。&lt;br&gt;
+ArcGIS CityEngine 同時使用ライセンスを使用するには、ArcGIS License Manager が既に稼動しているか、新たにインストールする必要があります。&lt;/p&gt;
+&lt;p&gt;ライセンス マネージャーの詳細やインストール手順については「&lt;a href="https://desktop.arcgis.com/ja/license-manager/latest/welcome.htm"target="_blank" rel="noopener"&gt;License Manager ガイド&lt;/a&gt;」をご参照ください。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;License Manager の各バージョンがサポートしている ArcGIS CityEngine のバージョンについては「&lt;a href="https://desktop.arcgis.com/ja/license-manager/latest/supported-software-products.htm"target="_blank" rel="noopener"&gt;サポートされているソフトウェア製品&lt;/a&gt;」をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;米国 Esri は、同時使用ライセンス タイプおよび ArcGIS License Manager のサポート終了を発表しました。&lt;br&gt;
 2026 年 2 月末以前にリリースされたバージョンでは、既存の同時使用ライセンスは引き続き使用可能ですが、2026 年 3 月 1 日以降にリリースされる ArcGIS Pro および ArcGIS CityEngine では、同時使用ライセンスはサポートされません。
-詳細は「&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge5996.html"target="_blank" rel="noopener">サポート終了情報: 同時使用ライセンス タイプと ArcGIS License Manager について&lt;/a>」をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div></description></item></channel></rss>
+詳細は「&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge5996.html"target="_blank" rel="noopener"&gt;サポート終了情報: 同時使用ライセンス タイプと ArcGIS License Manager について&lt;/a&gt;」をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>

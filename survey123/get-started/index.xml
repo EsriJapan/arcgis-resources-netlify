@@ -1,94 +1,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – スタートアップ ガイド</title><link>/survey123/get-started/</link><description>Recent content in スタートアップ ガイド on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Wed, 02 Feb 2022 00:00:00 +0900</lastBuildDate><atom:link href="/survey123/get-started/index.xml" rel="self" type="application/rss+xml"/><item><title>はじめに</title><link>/survey123/get-started/introduction/</link><pubDate>Thu, 06 Jun 2024 00:00:00 +0900</pubDate><guid>/survey123/get-started/introduction/</guid><description>
-&lt;p>&lt;a href="https://www.esrij.com/products/survey123/"target="_blank" rel="noopener">Survey123&lt;/a> の利用を開始する方のためのガイドです。&lt;/p>
-&lt;p>Survey123 は、現地調査の準備、実施、集計作業をシンプルかつ直感的な操作で行うことができる GIS アプリケーションです。Web ベースの作業により、現地調査の効率を向上させることができます。&lt;/p>
-&lt;h3>利用の流れ&lt;span class="hx:absolute hx:-mt-20" id="利用の流れ">&lt;/span>
-&lt;a href="#%e5%88%a9%e7%94%a8%e3%81%ae%e6%b5%81%e3%82%8c" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>Survey123 Web デザイナーで、現地調査で使用する調査票を作成します。&lt;/li>
-&lt;li>ブラウザーや Survey123 フィールド アプリを利用し、現地調査を行います。&lt;/li>
-&lt;li>Survey123 Web サイトで、結果を表示します。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/introduction/introduction-survey123-flow.png"
-alt="利用の流れ" width="700">&lt;figcaption>
-&lt;p>利用の流れ&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h3>必要なライセンス&lt;span class="hx:absolute hx:-mt-20" id="必要なライセンス">&lt;/span>
-&lt;a href="#%e5%bf%85%e8%a6%81%e3%81%aa%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>ArcGIS Online の&lt;a href="https://www.esrij.com/products/user-types/"target="_blank" rel="noopener">ユーザー タイプ&lt;/a>によって Survey123 で利用可能な機能が異なります。&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Creator&lt;/strong>、&lt;strong>Professional&lt;/strong>、&lt;strong>Professional Plus&lt;/strong>: 調査票の作成、データの収集、結果の表示ができます。&lt;/li>
-&lt;li>&lt;strong>Mobile Worker&lt;/strong>: Web アプリおよびフィールド アプリでの回答の入力、結果の表示ができます。&lt;/li>
-&lt;li>&lt;strong>Contributor&lt;/strong>: Web アプリでのデータの収集、結果の表示ができます。&lt;/li>
-&lt;li>&lt;strong>Viewer&lt;/strong>: 結果の表示ができます。&lt;/li>
-&lt;li>&lt;strong>ArcGIS Online のユーザー タイプを持っていない場合&lt;/strong>: パブリックに公開されている調査のデータの収集、結果の表示ができます。&lt;/li>
-&lt;/ul>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">詳細は「&lt;a href="https://www.esrij.com/products/survey123/license/"target="_blank" rel="noopener">ライセンス&lt;/a>」をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">本ガイドは ArcGIS Online で利用される方向けのガイドとなりますが、Survey123 は &lt;a href= "https://www.esrij.com/products/arcgis-enterprise/" target="_self">ArcGIS Enterprise&lt;/a> でも利用可能です。&lt;br>
-ArcGIS Enterprise での利用の詳細については&lt;a href="https://doc.arcgis.com/ja/survey123/get-started/survey123withenterprise.htm" target="_self">ヘルプ&lt;/a>をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h3>フィールド アプリのインストール&lt;span class="hx:absolute hx:-mt-20" id="フィールド-アプリのインストール">&lt;/span>
-&lt;a href="#%e3%83%95%e3%82%a3%e3%83%bc%e3%83%ab%e3%83%89-%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ae%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">動作環境については「&lt;a href="https://doc.arcgis.com/ja/survey123/get-started/systemrequirements.htm"target="_blank" rel="noopener">システム要件&lt;/a>」をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;ol>
-&lt;li>Android の場合は「Play ストア」、iOS の場合は「App Store」、Windows の場合は「Microsoft Store」アプリケーションを開きます。&lt;/li>
-&lt;li>キーワードに「Survey123」と入力して ArcGIS Survey123 を検索し、インストールします。&lt;/li>
-&lt;/ol></description></item><item><title>調査票の作成と公開</title><link>/survey123/get-started/prepare/</link><pubDate>Thu, 06 Jun 2024 00:00:00 +0900</pubDate><guid>/survey123/get-started/prepare/</guid><description>
-&lt;p>Survey123 で調査票を作成、公開する方法について説明します。&lt;br>&lt;/p>
-&lt;p>Survey123 では Web デザイナーを使用し、Web ベースで調査票を作成、公開することができます。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/prepare/survey123-flow-create.png"
-alt="調査票の作成と公開" width="700">&lt;figcaption>
-&lt;p>調査票の作成と公開&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ul class="list-disc ml-6">
-&lt;li>
-&lt;a href="/survey123/get-started/prepare/create/">調査票の作成&lt;/a>&lt;br>Survey123 Web デザイナーを利用して、調査票を作成する方法について説明します。
-&lt;/li>
-&lt;li>
-&lt;a href="/survey123/get-started/prepare/publish/">調査票の公開&lt;/a>&lt;br>Survey123 で作成した調査票を保存、公開する方法について説明します。
-&lt;/li>
-&lt;/ul></description></item><item><title>データの収集</title><link>/survey123/get-started/survey/</link><pubDate>Fri, 07 Jun 2024 00:00:00 +0900</pubDate><guid>/survey123/get-started/survey/</guid><description>
-&lt;p>Survey123 で作成した調査票を使用し、データを収集する方法について説明します。&lt;br>&lt;/p>
-&lt;p>Survey123 では、ブラウザーまたはフィールド アプリでデータを収集することができます。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/survey/survey123-flow-use.png"
-alt="データの収集" width="700">&lt;figcaption>
-&lt;p>データの収集&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;ul class="list-disc ml-6">
-&lt;li>
-&lt;a href="/survey123/get-started/survey/web/">ブラウザーを利用したデータの収集&lt;/a>&lt;br>作成した調査票に、ブラウザーを利用して回答を入力する方法について説明します。
-&lt;/li>
-&lt;li>
-&lt;a href="/survey123/get-started/survey/fieldapp/">フィールド アプリを利用したデータの収集&lt;/a>&lt;br>作成した調査票に、フィールド アプリを利用して回答を入力する方法について説明します。
-&lt;/li>
-&lt;/ul></description></item><item><title>結果の表示</title><link>/survey123/get-started/result/</link><pubDate>Fri, 07 Jun 2024 00:00:00 +0900</pubDate><guid>/survey123/get-started/result/</guid><description>
-&lt;p>Survey123 で得られた調査結果を表示する方法について説明します。&lt;br>&lt;/p>
-&lt;p>収集したデータの結果は自動で集計され、Survey123 Web サイトを使用して表示、確認することができます。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/result/survey123-flow-result.png"
-alt="結果の表示" width="700">&lt;figcaption>
-&lt;p>結果の表示&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;ul class="list-disc ml-6">
-&lt;li>
-&lt;a href="/survey123/get-started/result/show/">Survey123 Web サイトで調査結果を表示&lt;/a>&lt;br>Survey123 Web サイトで調査結果を表示する方法について説明します。
-&lt;/li>
-&lt;li>
-&lt;a href="/survey123/get-started/result/utilize/">データの活用&lt;/a>&lt;br>Survey123 で得られた調査結果を活用する方法について説明します。
-&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;p&gt;&lt;a href="https://www.esrij.com/products/survey123/"target="_blank" rel="noopener"&gt;Survey123&lt;/a&gt; の利用を開始する方のためのガイドです。&lt;/p&gt;
+&lt;p&gt;Survey123 は、現地調査の準備、実施、集計作業をシンプルかつ直感的な操作で行うことができる GIS アプリケーションです。Web ベースの作業により、現地調査の効率を向上させることができます。&lt;/p&gt;
+&lt;h3&gt;利用の流れ&lt;span class="hx:absolute hx:-mt-20" id="利用の流れ"&gt;&lt;/span&gt;
+&lt;a href="#%e5%88%a9%e7%94%a8%e3%81%ae%e6%b5%81%e3%82%8c" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Survey123 Web デザイナーで、現地調査で使用する調査票を作成します。&lt;/li&gt;
+&lt;li&gt;ブラウザーや Survey123 フィールド アプリを利用し、現地調査を行います。&lt;/li&gt;
+&lt;li&gt;Survey123 Web サイトで、結果を表示します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/introduction/introduction-survey123-flow.png"
+alt="利用の流れ" width="700"&gt;&lt;figcaption&gt;
+&lt;p&gt;利用の流れ&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h3&gt;必要なライセンス&lt;span class="hx:absolute hx:-mt-20" id="必要なライセンス"&gt;&lt;/span&gt;
+&lt;a href="#%e5%bf%85%e8%a6%81%e3%81%aa%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;ArcGIS Online の&lt;a href="https://www.esrij.com/products/user-types/"target="_blank" rel="noopener"&gt;ユーザー タイプ&lt;/a&gt;によって Survey123 で利用可能な機能が異なります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Creator&lt;/strong&gt;、&lt;strong&gt;Professional&lt;/strong&gt;、&lt;strong&gt;Professional Plus&lt;/strong&gt;: 調査票の作成、データの収集、結果の表示ができます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Worker&lt;/strong&gt;: Web アプリおよびフィールド アプリでの回答の入力、結果の表示ができます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contributor&lt;/strong&gt;: Web アプリでのデータの収集、結果の表示ができます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Viewer&lt;/strong&gt;: 結果の表示ができます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ArcGIS Online のユーザー タイプを持っていない場合&lt;/strong&gt;: パブリックに公開されている調査のデータの収集、結果の表示ができます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;詳細は「&lt;a href="https://www.esrij.com/products/survey123/license/"target="_blank" rel="noopener"&gt;ライセンス&lt;/a&gt;」をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;本ガイドは ArcGIS Online で利用される方向けのガイドとなりますが、Survey123 は &lt;a href= "https://www.esrij.com/products/arcgis-enterprise/" target="_self"&gt;ArcGIS Enterprise&lt;/a&gt; でも利用可能です。&lt;br&gt;
+ArcGIS Enterprise での利用の詳細については&lt;a href="https://doc.arcgis.com/ja/survey123/get-started/survey123withenterprise.htm" target="_self"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;フィールド アプリのインストール&lt;span class="hx:absolute hx:-mt-20" id="フィールド-アプリのインストール"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%95%e3%82%a3%e3%83%bc%e3%83%ab%e3%83%89-%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ae%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;動作環境については「&lt;a href="https://doc.arcgis.com/ja/survey123/get-started/systemrequirements.htm"target="_blank" rel="noopener"&gt;システム要件&lt;/a&gt;」をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;Android の場合は「Play ストア」、iOS の場合は「App Store」、Windows の場合は「Microsoft Store」アプリケーションを開きます。&lt;/li&gt;
+&lt;li&gt;キーワードに「Survey123」と入力して ArcGIS Survey123 を検索し、インストールします。&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>調査票の作成と公開</title><link>/survey123/get-started/prepare/</link><pubDate>Thu, 06 Jun 2024 00:00:00 +0900</pubDate><guid>/survey123/get-started/prepare/</guid><description>
+&lt;p&gt;Survey123 で調査票を作成、公開する方法について説明します。&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Survey123 では Web デザイナーを使用し、Web ベースで調査票を作成、公開することができます。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/prepare/survey123-flow-create.png"
+alt="調査票の作成と公開" width="700"&gt;&lt;figcaption&gt;
+&lt;p&gt;調査票の作成と公開&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul class="list-disc ml-6"&gt;
+&lt;li&gt;
+&lt;a href="/survey123/get-started/prepare/create/"&gt;調査票の作成&lt;/a&gt;&lt;br&gt;Survey123 Web デザイナーを利用して、調査票を作成する方法について説明します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/survey123/get-started/prepare/publish/"&gt;調査票の公開&lt;/a&gt;&lt;br&gt;Survey123 で作成した調査票を保存、公開する方法について説明します。
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>データの収集</title><link>/survey123/get-started/survey/</link><pubDate>Fri, 07 Jun 2024 00:00:00 +0900</pubDate><guid>/survey123/get-started/survey/</guid><description>
+&lt;p&gt;Survey123 で作成した調査票を使用し、データを収集する方法について説明します。&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Survey123 では、ブラウザーまたはフィールド アプリでデータを収集することができます。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/survey/survey123-flow-use.png"
+alt="データの収集" width="700"&gt;&lt;figcaption&gt;
+&lt;p&gt;データの収集&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ul class="list-disc ml-6"&gt;
+&lt;li&gt;
+&lt;a href="/survey123/get-started/survey/web/"&gt;ブラウザーを利用したデータの収集&lt;/a&gt;&lt;br&gt;作成した調査票に、ブラウザーを利用して回答を入力する方法について説明します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/survey123/get-started/survey/fieldapp/"&gt;フィールド アプリを利用したデータの収集&lt;/a&gt;&lt;br&gt;作成した調査票に、フィールド アプリを利用して回答を入力する方法について説明します。
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>結果の表示</title><link>/survey123/get-started/result/</link><pubDate>Fri, 07 Jun 2024 00:00:00 +0900</pubDate><guid>/survey123/get-started/result/</guid><description>
+&lt;p&gt;Survey123 で得られた調査結果を表示する方法について説明します。&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;収集したデータの結果は自動で集計され、Survey123 Web サイトを使用して表示、確認することができます。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/result/survey123-flow-result.png"
+alt="結果の表示" width="700"&gt;&lt;figcaption&gt;
+&lt;p&gt;結果の表示&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ul class="list-disc ml-6"&gt;
+&lt;li&gt;
+&lt;a href="/survey123/get-started/result/show/"&gt;Survey123 Web サイトで調査結果を表示&lt;/a&gt;&lt;br&gt;Survey123 Web サイトで調査結果を表示する方法について説明します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/survey123/get-started/result/utilize/"&gt;データの活用&lt;/a&gt;&lt;br&gt;Survey123 で得られた調査結果を活用する方法について説明します。
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

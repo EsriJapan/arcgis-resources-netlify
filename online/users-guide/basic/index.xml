@@ -1,54 +1,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – 基本操作</title><link>/online/users-guide/basic/</link><description>Recent content in 基本操作 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Tue, 30 Nov 2021 00:00:00 +0900</lastBuildDate><atom:link href="/online/users-guide/basic/index.xml" rel="self" type="application/rss+xml"/><item><title>ArcGIS Online へのサイン イン</title><link>/online/users-guide/basic/signin/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/basic/signin/</guid><description>
-&lt;p>ArcGIS Online のサイン インについて説明します。&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>&lt;a href="https://www.arcgis.com/"target="_blank" rel="noopener">https://www.arcgis.com/&lt;/a> の [サイン イン] をクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/basic/signin-top.png"
-alt="サイン イン ボタン" width="600">&lt;figcaption>
-&lt;p>サイン イン ボタン&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;a href="https://www.arcgis.com/home/signin.html"target="_blank" rel="noopener">https://www.arcgis.com/home/signin.html&lt;/a> でサイン イン ページに直接アクセスできます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>
-&lt;p>お手持ちのアカウントとパスワードを該当箇所に入力し、[サイン イン] をクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/basic/signin-window.png"
-alt="サイン イン画面" width="350">&lt;figcaption>
-&lt;p>サイン イン画面&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;/ol></description></item><item><title>ArcGIS Online Web ページの構成</title><link>/online/users-guide/basic/homeapp/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/basic/homeapp/</guid><description>
-&lt;p>ArcGIS Online Web ページの構成を説明します。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/basic/homeapp-top.png"
-alt="ページ構成" width="750">&lt;figcaption>
-&lt;p>ページ構成&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;ol>
-&lt;li>ホーム: トップ画面 (このページ) へのリンクです。&lt;/li>
-&lt;li>ギャラリー: 組織内でよく使われるマップやアプリケーションを表示できます。デフォルトでは、米国 Esri 社や全世界のユーザーが提供するおすすめのマップが表示されます。&lt;/li>
-&lt;li>マップ: Map Viewer に移動します。&lt;/li>
-&lt;li>シーン: 3 次元表示可能な Scene Viewer に移動します。&lt;/li>
-&lt;li>ノートブック: ArcGIS Notebooks に移動します。&lt;/li>
-&lt;li>グループ: 組織内のグループを表示します。&lt;/li>
-&lt;li>コンテンツ: 自分のコンテンツを管理する [マイ コンテンツ]、お気に入りとして登録したコンテンツを表示する [お気に入り]、所属するグループのコンテンツを表示する [グループ]、組織内で共有されているコンテンツを表示する [組織]、&lt;a href="https://livingatlas.arcgis.com/"target="_blank" rel="noopener">ArcGIS Living Atlas of the World&lt;/a> に登録されているコンテンツを表示する [Living Atlas] タブを表示します。Viewer、Contributor、Mobile Worker ユーザー タイプでは、[マイ コンテンツ] タブは表示されません。&lt;/li>
-&lt;li>組織: 管理者権限を持つユーザーが、組織内のメンバーの管理や招待、Web サイト設定、&lt;a href="/online/get-started/administer/subscription/credit/">クレジット&lt;/a>使用量の確認をすることができるページです。&lt;/li>
-&lt;li>検索: マップ、レイヤー、アプリケーション、ツール、ファイル、グループなどを対象に検索を行うことができます。&lt;/li>
-&lt;li>通知: 通知内容を確認することができます。&lt;/li>
-&lt;li>アプリ: StoryMaps や Survey123 など、アプリの Web サイトへ移動します。&lt;/li>
-&lt;li>ユーザー: サイン インしているユーザーの名前が表示されます。&lt;a href="/online/get-started/setup/member/set-profile/">プロフィール&lt;/a> でプロフィールの変更ができます。[サイン アウト] もここで行います。[ヘルプ] で、ArcGIS Online のヘルプ ページに移動します。&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">権限や組織の設定によっては、表示されないメニューがあります。&lt;/div>
-&lt;/div>
-&lt;/div></description></item></channel></rss>
+&lt;p&gt;ArcGIS Online のサイン インについて説明します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.arcgis.com/"target="_blank" rel="noopener"&gt;https://www.arcgis.com/&lt;/a&gt; の [サイン イン] をクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/basic/signin-top.png"
+alt="サイン イン ボタン" width="600"&gt;&lt;figcaption&gt;
+&lt;p&gt;サイン イン ボタン&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;a href="https://www.arcgis.com/home/signin.html"target="_blank" rel="noopener"&gt;https://www.arcgis.com/home/signin.html&lt;/a&gt; でサイン イン ページに直接アクセスできます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;お手持ちのアカウントとパスワードを該当箇所に入力し、[サイン イン] をクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/basic/signin-window.png"
+alt="サイン イン画面" width="350"&gt;&lt;figcaption&gt;
+&lt;p&gt;サイン イン画面&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>ArcGIS Online Web ページの構成</title><link>/online/users-guide/basic/homeapp/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/basic/homeapp/</guid><description>
+&lt;p&gt;ArcGIS Online Web ページの構成を説明します。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/basic/homeapp-top.png"
+alt="ページ構成" width="750"&gt;&lt;figcaption&gt;
+&lt;p&gt;ページ構成&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ol&gt;
+&lt;li&gt;ホーム: トップ画面 (このページ) へのリンクです。&lt;/li&gt;
+&lt;li&gt;ギャラリー: 組織内でよく使われるマップやアプリケーションを表示できます。&lt;/li&gt;
+&lt;li&gt;マップ: Map Viewer に移動します。&lt;/li&gt;
+&lt;li&gt;シーン: 3 次元表示可能な Scene Viewer に移動します。&lt;/li&gt;
+&lt;li&gt;ノートブック: ArcGIS Notebooks に移動します。&lt;/li&gt;
+&lt;li&gt;グループ: 組織内のグループを表示します。&lt;/li&gt;
+&lt;li&gt;コンテンツ: 自分のコンテンツを管理する [マイ コンテンツ]、お気に入りとして登録したコンテンツを表示する [お気に入り]、所属するグループのコンテンツを表示する [グループ]、組織内で共有されているコンテンツを表示する [組織]、&lt;a href="https://livingatlas.arcgis.com/"target="_blank" rel="noopener"&gt;ArcGIS Living Atlas of the World&lt;/a&gt; に登録されているコンテンツを表示する [Living Atlas] タブを表示します。Viewer、Contributor、Mobile Worker ユーザー タイプでは、[マイ コンテンツ] タブは表示されません。&lt;/li&gt;
+&lt;li&gt;組織: 管理者権限を持つユーザーが、組織内のメンバーの管理や招待、Web サイト設定、&lt;a href="/online/get-started/administer/subscription/credit/"&gt;クレジット&lt;/a&gt;使用量の確認をすることができるページです。&lt;/li&gt;
+&lt;li&gt;検索: マップ、レイヤー、アプリケーション、ツール、ファイル、グループなどを対象に検索を行うことができます。&lt;/li&gt;
+&lt;li&gt;通知: 通知内容を確認することができます。&lt;/li&gt;
+&lt;li&gt;アプリ: StoryMaps や Survey123 など、アプリの Web サイトへ移動します。&lt;/li&gt;
+&lt;li&gt;ユーザー: サイン インしているユーザーの名前が表示されます。&lt;a href="/online/get-started/setup/member/set-profile/"&gt;プロフィール&lt;/a&gt; でプロフィールの変更ができます。[サイン アウト] もここで行います。[ヘルプ] で、ArcGIS Online のヘルプ ページに移動します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;権限や組織の設定によっては、表示されないメニューがあります。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>

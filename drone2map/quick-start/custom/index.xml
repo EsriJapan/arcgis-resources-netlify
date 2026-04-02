@@ -1,36 +1,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – カスタム テンプレート</title><link>/drone2map/quick-start/custom/</link><description>Recent content in カスタム テンプレート on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Thu, 26 Feb 2026 00:00:00 +0900</lastBuildDate><atom:link href="/drone2map/quick-start/custom/index.xml" rel="self" type="application/rss+xml"/><item><title>プロジェクトの作成</title><link>/drone2map/quick-start/custom/custom_createproject/</link><pubDate>Thu, 26 Feb 2026 00:00:00 +0900</pubDate><guid>/drone2map/quick-start/custom/custom_createproject/</guid><description>
-&lt;h2>カスタム テンプレートを利用したプロジェクトの作成&lt;span class="hx:absolute hx:-mt-20" id="カスタム-テンプレートを利用したプロジェクトの作成">&lt;/span>
-&lt;a href="#%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%a0-%e3%83%86%e3%83%b3%e3%83%97%e3%83%ac%e3%83%bc%e3%83%88%e3%82%92%e5%88%a9%e7%94%a8%e3%81%97%e3%81%9f%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>カスタム テンプレートは以下の2つの方法から選択できます。&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="#%e3%83%87%e3%83%95%e3%82%a9%e3%83%ab%e3%83%88%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%a0%e3%83%86%e3%83%b3%e3%83%97%e3%83%ac%e3%83%bc%e3%83%88%e3%81%ae%e5%88%a9%e7%94%a8">デフォルト カスタム テンプレートの利用&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#%e3%83%86%e3%83%b3%e3%83%97%e3%83%ac%e3%83%bc%e3%83%88%e3%81%ae%e3%82%a4%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%88">テンプレートのインポート&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a id="デフォルトカスタムテンプレートの利用">&lt;/a>&lt;/p>
-&lt;h3>デフォルト カスタム テンプレートの利用&lt;span class="hx:absolute hx:-mt-20" id="デフォルト-カスタム-テンプレートの利用">&lt;/span>
-&lt;a href="#%e3%83%87%e3%83%95%e3%82%a9%e3%83%ab%e3%83%88-%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%a0-%e3%83%86%e3%83%b3%e3%83%97%e3%83%ac%e3%83%bc%e3%83%88%e3%81%ae%e5%88%a9%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>カスタム テンプレートの設定を行っている場合&lt;/p>
-&lt;ol>
-&lt;li>Drone2Map を開くとテンプレートは既に [カスタム] が選択されていますので、プロジェクト名の入力・保存場所の設定・画像の追加を行います。&lt;/li>
-&lt;/ol>
-&lt;p>&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/quick-start/custom_2_1.png" width="500">
-&lt;/figure>
-2. [作成] をクリックします。&lt;/p>
-&lt;p>事前設定したテンプレートを使用したプロジェクトが開きます。
-処理の実行は、[ホーム] タブの [開始] ボタンをクリックします。&lt;/p>
-&lt;p>&lt;a id="テンプレートのインポート">&lt;/a>&lt;/p>
-&lt;h3>テンプレートのインポート&lt;span class="hx:absolute hx:-mt-20" id="テンプレートのインポート">&lt;/span>
-&lt;a href="#%e3%83%86%e3%83%b3%e3%83%97%e3%83%ac%e3%83%bc%e3%83%88%e3%81%ae%e3%82%a4%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>カスタム テンプレートの設定を行っていない場合または、任意のカスタムテンプレートを使用してプロジェクトを作成する場合&lt;/p>
-&lt;ol>
-&lt;li>Drone2Map を開き、テンプレート リストで [カスタム] を選択し、[テンプレートのインポート] ダイアログで任意のカスタム テンプレートを選択します。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/quick-start/custom_2_3.png" width="500">
-&lt;/figure>
-&lt;ol start="2">
-&lt;li>
-&lt;p>プロジェクト名の入力・保存場所の設定・画像の追加を行います。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[作成] をクリックしてプロジェクトを作成します。&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;p>これで、任意のテンプレートによるプロジェクトが作成できます。
-処理の実行は、[ホーム] タブの [開始] ボタンをクリックします。&lt;/p></description></item></channel></rss>
+&lt;h2&gt;カスタム テンプレートを利用したプロジェクトの作成&lt;span class="hx:absolute hx:-mt-20" id="カスタム-テンプレートを利用したプロジェクトの作成"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%a0-%e3%83%86%e3%83%b3%e3%83%97%e3%83%ac%e3%83%bc%e3%83%88%e3%82%92%e5%88%a9%e7%94%a8%e3%81%97%e3%81%9f%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;カスタム テンプレートは以下の2つの方法から選択できます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#%e3%83%87%e3%83%95%e3%82%a9%e3%83%ab%e3%83%88%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%a0%e3%83%86%e3%83%b3%e3%83%97%e3%83%ac%e3%83%bc%e3%83%88%e3%81%ae%e5%88%a9%e7%94%a8"&gt;デフォルト カスタム テンプレートの利用&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#%e3%83%86%e3%83%b3%e3%83%97%e3%83%ac%e3%83%bc%e3%83%88%e3%81%ae%e3%82%a4%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%88"&gt;テンプレートのインポート&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a id="デフォルトカスタムテンプレートの利用"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;デフォルト カスタム テンプレートの利用&lt;span class="hx:absolute hx:-mt-20" id="デフォルト-カスタム-テンプレートの利用"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%87%e3%83%95%e3%82%a9%e3%83%ab%e3%83%88-%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%a0-%e3%83%86%e3%83%b3%e3%83%97%e3%83%ac%e3%83%bc%e3%83%88%e3%81%ae%e5%88%a9%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;カスタム テンプレートの設定を行っている場合&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Drone2Map を開くとテンプレートは既に [カスタム] が選択されていますので、プロジェクト名の入力・保存場所の設定・画像の追加を行います。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/quick-start/custom_2_1.png" width="500"&gt;
+&lt;/figure&gt;
+2. [作成] をクリックします。&lt;/p&gt;
+&lt;p&gt;事前設定したテンプレートを使用したプロジェクトが開きます。
+処理の実行は、[ホーム] タブの [開始] ボタンをクリックします。&lt;/p&gt;
+&lt;p&gt;&lt;a id="テンプレートのインポート"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;テンプレートのインポート&lt;span class="hx:absolute hx:-mt-20" id="テンプレートのインポート"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%86%e3%83%b3%e3%83%97%e3%83%ac%e3%83%bc%e3%83%88%e3%81%ae%e3%82%a4%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;カスタム テンプレートの設定を行っていない場合または、任意のカスタムテンプレートを使用してプロジェクトを作成する場合&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Drone2Map を開き、テンプレート リストで [カスタム] を選択し、[テンプレートのインポート] ダイアログで任意のカスタム テンプレートを選択します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/quick-start/custom_2_3.png" width="500"&gt;
+&lt;/figure&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;
+&lt;p&gt;プロジェクト名の入力・保存場所の設定・画像の追加を行います。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[作成] をクリックしてプロジェクトを作成します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;これで、任意のテンプレートによるプロジェクトが作成できます。
+処理の実行は、[ホーム] タブの [開始] ボタンをクリックします。&lt;/p&gt;</description></item></channel></rss>

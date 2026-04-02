@@ -1,222 +1,206 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – チュートリアル</title><link>/business-analyst/web/tutorial/</link><description>Recent content in チュートリアル on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 02 Sep 2022 00:00:00 +0900</lastBuildDate><atom:link href="/business-analyst/web/tutorial/index.xml" rel="self" type="application/rss+xml"/><item><title>チュートリアル ビデオ</title><link>/business-analyst/web/tutorial/tutorial-video/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/web/tutorial/tutorial-video/</guid><description>
-&lt;p>BA Web and Mobile Apps の各種ツールの操作方法を学ぶことのできるチュートリアル ビデオを提供しています。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ビデオと実際のアプリケーションでユーザー インターフェイスが異なる場合があります。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h3>機能紹介ビデオ&lt;span class="hx:absolute hx:-mt-20" id="機能紹介ビデオ">&lt;/span>
-&lt;a href="#%e6%a9%9f%e8%83%bd%e7%b4%b9%e4%bb%8b%e3%83%93%e3%83%87%e3%82%aa" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>BA Web App の各種ツールの操作方法を学ぶことができるビデオです。
-下表のリンクをクリックすると、別タブでビデオを再生できます。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>機能紹介ビデオでは、日本語字幕をご利用いただけます。ビデオを開いたら、画面右下の [CC] ボタンをクリック → [Japanese] を選択してください。&lt;br/>&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/enable-subtitle.png" width="280px">
-&lt;/figure>&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h4>BA Web App を使い始めたい&lt;span class="hx:absolute hx:-mt-20" id="ba-web-app-を使い始めたい">&lt;/span>
-&lt;a href="#ba-web-app-%e3%82%92%e4%bd%bf%e3%81%84%e5%a7%8b%e3%82%81%e3%81%9f%e3%81%84" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">ビデオ名 (参考訳)&lt;/th>
-&lt;th style="text-align: left">説明&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_qjra8tco" target="_blank">ArcGIS Business Analyst Web App の利用開始&lt;/a>&lt;/td>
-&lt;td style="text-align: left">BA Web App を初めて利用する方向けに、初回起動時の&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/projects.htm" target="_blank">プロジェクトの作成&lt;/a>や、&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/manage-app-settings.htm#ESRI_SECTION1_F608A4DA7AE840169BD2512DD673B27D" target="_blank">ガイド ツアー&lt;/a>の実施方法についてご紹介します。&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h4>自社保有のデータを追加したい&lt;span class="hx:absolute hx:-mt-20" id="自社保有のデータを追加したい">&lt;/span>
-&lt;a href="#%e8%87%aa%e7%a4%be%e4%bf%9d%e6%9c%89%e3%81%ae%e3%83%87%e3%83%bc%e3%82%bf%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%97%e3%81%9f%e3%81%84" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">ビデオ名 (参考訳)&lt;/th>
-&lt;th style="text-align: left">説明&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_pyz6x5kg" target="_blank">Web マップおよびレイヤーの追加&lt;/a>&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/web-maps-and-layers.htm" target="_blank">Web マップおよびレイヤー&lt;/a> ツールを使用して、BA Web App に ArcGIS Online や Portal for ArcGIS 上のコンテンツを追加する方法を学べます。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_te9r5z02" target="_blank">ファイルのインポート ツールの使用&lt;/a>&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/import-file.htm" target="_blank">ファイルのインポート&lt;/a> ツールを使用して、BA Web App にテーブル データやシェープファイルをインポートする方法を学べます。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_t3kyb4q9" target="_blank">カスタム データの設定ツールの使用&lt;/a>&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/custom-data-setup.htm" target="_blank">カスタム データの設定&lt;/a>ツールを使用して、独自データをカスタム変数として設定し、BA Web App で利用する方法を学べます。&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h4>商圏を作成したい&lt;span class="hx:absolute hx:-mt-20" id="商圏を作成したい">&lt;/span>
-&lt;a href="#%e5%95%86%e5%9c%8f%e3%82%92%e4%bd%9c%e6%88%90%e3%81%97%e3%81%9f%e3%81%84" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">ビデオ名 (参考訳)&lt;/th>
-&lt;th style="text-align: left">説明&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_jkz47h02" target="_blank">位置の検索ツールの使用&lt;/a>&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/create-sites.htm#ESRI_SECTION1_C30D73392D964D51A8B606128A8A6E8F" target="_blank">位置の検索&lt;/a>ツールを使用して、任意の位置を起点とした商圏を作成する方法を学べます。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_6kkusf77" target="_blank">区画の選択ツールの使用&lt;/a>&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/create-sites.htm#ESRI_SECTION1_DFA24E8700DE45D0A10752C523DBDCAE" target="_blank">区画の選択&lt;/a>ツールを使用して、任意の行政区画を商圏として設定する方法を学べます。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_eyhox3fa" target="_blank">ポリゴンの描画ツールの使用&lt;/a>&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/create-sites.htm#ESRI_SECTION1_643D5773E5024C05BAB90977B5DE8735" target="_blank">ポリゴンの描画&lt;/a>ツールを使用して、手書きポリゴンを商圏として設定する方法を学べます。&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h4>マップを作成したい&lt;span class="hx:absolute hx:-mt-20" id="マップを作成したい">&lt;/span>
-&lt;a href="#%e3%83%9e%e3%83%83%e3%83%97%e3%82%92%e4%bd%9c%e6%88%90%e3%81%97%e3%81%9f%e3%81%84" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">ビデオ名 (参考訳)&lt;/th>
-&lt;th style="text-align: left">説明&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_xg3hvyqz/uiConfId/49806163/st/0" target="_blank">カラーコード マップを作成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">バージョン 23.R02 から新しくなった&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/color-coded-maps.htm" target="_blank">カラーコード マップ&lt;/a> ツールを使用して、統計変数をマップ上に可視化する方法を学べます。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_43n66qt1" target="_blank">スマート マップ サーチ&lt;/a>&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/smart-map-search.htm" target="_blank">スマート マップ サーチ&lt;/a> ツールを使用して、複数変数の条件を満たすエリアを絞り込み、マップ上に可視化する方法を学べます。&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h4>商圏レポートをカスタマイズしたい&lt;span class="hx:absolute hx:-mt-20" id="商圏レポートをカスタマイズしたい">&lt;/span>
-&lt;a href="#%e5%95%86%e5%9c%8f%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88%e3%82%92%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%9e%e3%82%a4%e3%82%ba%e3%81%97%e3%81%9f%e3%81%84" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">ビデオ名 (参考訳)&lt;/th>
-&lt;th style="text-align: left">説明&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_4dsn1l10" target="_blank">高度なインフォグラフィックスの構築&lt;/a>&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/building-infographic-reports.htm" target="_blank">インフォグラフィックスの作成&lt;/a>ツールを使用して、インフォグラフィックスをゼロから構築する方法を学べます。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_40toquow" target="_blank">カスタム インフォグラフィックス パネルの使用&lt;/a>&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/building-infographic-reports.htm" target="_blank">インフォグラフィックスの作成&lt;/a>ツールを使用して、インフォグラフィックス パネルをカスタマイズ・共有する方法を学べます。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_mdzth19p" target="_blank">商圏内の目標物の探索&lt;/a>&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/building-infographic-reports.htm" target="_blank">インフォグラフィックスの作成&lt;/a>ツールまたは&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/building-reports.htm" target="_blank">クラシック レポートの作成&lt;/a>ツールを使用して、インフォグラフィックスおよびレポートで利用できる近傍機能を使用して、商圏内の目標物を検索する方法を学べます。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_1mak1w62" target="_blank">既存レポートのカスタマイズ&lt;/a>&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/building-reports.htm" target="_blank">クラシック レポートの作成&lt;/a>ツールを使用して、既存のレポートのタイトルとロゴを変更してレポート テンプレートをカスタマイズする方法を学べます。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_yy4gmrzw" target="_blank">既存レポートからセクションを追加&lt;/a>&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/building-reports.htm" target="_blank">クラシック レポートの作成&lt;/a>ツールを使用して、異なるレポートのセクションを組み合わせてカスタム レポート テンプレートを作成する方法を学べます。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_7g50lobt" target="_blank">カスタマイズしたレポートの共有方法&lt;/a>&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/building-reports.htm" target="_blank">クラシック レポートの作成&lt;/a>ツールを使用してカスタマイズしたレポート テンプレートを、組織内に共有する方法を学べます。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_lqljf3t6" target="_blank">解析変数の追加およびチャートの作成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/building-reports.htm" target="_blank">クラシック レポートの作成&lt;/a>ツールを使用して、解析変数を検索・追加してチャートなどを作成する方法を学べます。&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h4>商圏レポートを操作したい&lt;span class="hx:absolute hx:-mt-20" id="商圏レポートを操作したい">&lt;/span>
-&lt;a href="#%e5%95%86%e5%9c%8f%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88%e3%82%92%e6%93%8d%e4%bd%9c%e3%81%97%e3%81%9f%e3%81%84" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">ビデオ名 (参考訳)&lt;/th>
-&lt;th style="text-align: left">説明&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_j9w1l4vl" target="_blank">インフォグラフィックスのサイドバイサイド比較&lt;/a>&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/create-infographics-and-reports.htm#ESRI_SECTION1_C30D73392D964D51A8B606128A8A6E8F" target="_blank">インフォグラフィックスの実行&lt;/a>ツールで、複数商圏のインフォグラフィックスを並べて比較する事ができるサイドバイサイド比較の利用方法を学べます。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_lcbdtfs5" target="_blank">対話的な比較レポートの作成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">対話的に操作できる&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/comparison-reports.htm" target="_blank">比較レポート&lt;/a>を作成し、商圏を比較する方法を学べます。&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h4>解析を行いたい&lt;span class="hx:absolute hx:-mt-20" id="解析を行いたい">&lt;/span>
-&lt;a href="#%e8%a7%a3%e6%9e%90%e3%82%92%e8%a1%8c%e3%81%84%e3%81%9f%e3%81%84" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">ビデオ名 (参考訳)&lt;/th>
-&lt;th style="text-align: left">説明&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_y8h6p2gy" target="_blank">適合性解析ツールの使用&lt;/a>&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/suitability-analysis.htm" target="_blank">適合性解析&lt;/a>ツールを使用して、複数の加重条件を元に最適な場所を特定する方法を学べます。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_o4kd96gm" target="_blank">空隙解析ツールの使用&lt;/a>&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/void-analysis.htm" target="_blank">空隙解析&lt;/a>ツールを使用して、解析対象のエリア内の特定のビジネスが比較対象と比べてどの程度ギャップがあるかを解析する方法を学べます。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_shlrrvfp" target="_blank">限界値エリアの作成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/threshold-areas.htm" target="_blank">限界値エリア&lt;/a>ツールを使用して、指定の限界値 (人口総数など) に達する地点が境界線となるエリアを作成する方法を学べます。&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h4>解析結果を共有したい&lt;span class="hx:absolute hx:-mt-20" id="解析結果を共有したい">&lt;/span>
-&lt;a href="#%e8%a7%a3%e6%9e%90%e7%b5%90%e6%9e%9c%e3%82%92%e5%85%b1%e6%9c%89%e3%81%97%e3%81%9f%e3%81%84" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">ビデオ名 (参考訳)&lt;/th>
-&lt;th style="text-align: left">説明&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_wi5dd26z" target="_blank">ArcGIS 組織にマップを共有&lt;/a>&lt;/td>
-&lt;td style="text-align: left">BA Web App で作成した&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/share-maps.htm" target="_blank">マップを ArcGIS 組織に共有する方法&lt;/a>を学べます。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_31qfqlki" target="_blank">ArcGIS Dashboard 形式で解析結果を共有&lt;/a>&lt;/td>
-&lt;td style="text-align: left">BA Web App の解析結果を、&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/arcgis-dashboards.htm" target="_blank">ダッシュボード形式で共有する方法&lt;/a>を学べます。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_bnaq1kqy" target="_blank">ArcGIS StoryMaps のストーリーを作成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">BA Web App の解析結果を使用して、&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/story-map.htm" target="_blank">ストーリーマップを作成する方法&lt;/a>を学べます。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_7egpj6k3" target="_blank">マップのエクスポート&lt;/a>&lt;/td>
-&lt;td style="text-align: left">BA Web App で作成したマップを &lt;a href="https://doc.arcgis.com/ja/business-analyst/web/pdf-or-image.htm" target="_blank">PDF や画像形式でエクスポートする方法&lt;/a>を学べます。&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3>操作ビデオ&lt;span class="hx:absolute hx:-mt-20" id="操作ビデオ">&lt;/span>
-&lt;a href="#%e6%93%8d%e4%bd%9c%e3%83%93%e3%83%87%e3%82%aa" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>BA Web and Mobile Apps の一連の操作を紹介するビデオです。
-下記の画像をクリックするとビデオを再生できます。&lt;/p>
-&lt;ul>
-&lt;li>ArcGIS Business Analyst Web App 基本操作
-&lt;a href="https://www.youtube.com/watch?v=UD2M4KIkJJU" target="_blank">&lt;img src="https://img.youtube.com/vi/UD2M4KIkJJU/0.jpg" alt="ArcGIS Business Analyst Web App 基本操作" width="30%">&lt;/a>&lt;/li>
-&lt;li>インフォグラフィックスの実行とカスタマイズ
-&lt;a href="https://www.youtube.com/watch?v=i_QJrDC_WhM" target="_blank" >&lt;img src="https://img.youtube.com/vi/i_QJrDC_WhM/0.jpg" alt="インフォグラフィックスの実行とカスタマイズ" width="30%">&lt;/a>&lt;/li>
-&lt;li>ArcGIS Business Analyst Mobile App 基本操作
-&lt;a href="https://www.youtube.com/watch?v=kHUmNJj6jBM" target="_blank" >&lt;img src="https://img.youtube.com/vi/kHUmNJj6jBM/0.jpg" alt="ArcGIS Business Analyst Mobile App 基本操作" width="30%">&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;style>
+&lt;p&gt;BA Web and Mobile Apps の各種ツールの操作方法を学ぶことのできるチュートリアル ビデオを提供しています。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;ビデオと実際のアプリケーションでユーザー インターフェイスが異なる場合があります。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;機能紹介ビデオ&lt;span class="hx:absolute hx:-mt-20" id="機能紹介ビデオ"&gt;&lt;/span&gt;
+&lt;a href="#%e6%a9%9f%e8%83%bd%e7%b4%b9%e4%bb%8b%e3%83%93%e3%83%87%e3%82%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;BA Web App の各種ツールの操作方法を学ぶことができるビデオです。
+下表のリンクをクリックすると、別タブでビデオを再生できます。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;機能紹介ビデオでは、日本語字幕をご利用いただけます。ビデオを開いたら、画面右下の [CC] ボタンをクリック → [Japanese] を選択してください。&lt;br/&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/enable-subtitle.png" width="280px"&gt;
+&lt;/figure&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4&gt;BA Web App を使い始めたい&lt;span class="hx:absolute hx:-mt-20" id="ba-web-app-を使い始めたい"&gt;&lt;/span&gt;
+&lt;a href="#ba-web-app-%e3%82%92%e4%bd%bf%e3%81%84%e5%a7%8b%e3%82%81%e3%81%9f%e3%81%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;ビデオ名 (参考訳)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;説明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_qjra8tco" target="_blank"&gt;ArcGIS Business Analyst Web App の利用開始&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;BA Web App を初めて利用する方向けに、初回起動時の&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/projects.htm" target="_blank"&gt;プロジェクトの作成&lt;/a&gt;や、&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/manage-app-settings.htm#ESRI_SECTION1_F608A4DA7AE840169BD2512DD673B27D" target="_blank"&gt;ガイド ツアー&lt;/a&gt;の実施方法についてご紹介します。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4&gt;自社保有のデータを追加したい&lt;span class="hx:absolute hx:-mt-20" id="自社保有のデータを追加したい"&gt;&lt;/span&gt;
+&lt;a href="#%e8%87%aa%e7%a4%be%e4%bf%9d%e6%9c%89%e3%81%ae%e3%83%87%e3%83%bc%e3%82%bf%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%97%e3%81%9f%e3%81%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;ビデオ名 (参考訳)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;説明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://mediaspace.esri.com/media/1_2fcuvoba" target="_blank"&gt;Web マップおよびレイヤーの追加&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/web-maps-and-layers.htm" target="_blank"&gt;Web マップおよびレイヤー&lt;/a&gt; ツールを使用して、BA Web App に ArcGIS Online や Portal for ArcGIS 上のコンテンツを追加する方法を学べます。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://mediaspace.esri.com/media/1_te9r5z02" target="_blank"&gt;ファイルのインポート ツールの使用&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/import-file.htm" target="_blank"&gt;ファイルのインポート&lt;/a&gt; ツールを使用して、BA Web App にテーブル データやシェープファイルをインポートする方法を学べます。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://mediaspace.esri.com/media/1_qjfqlpm1" target="_blank"&gt;カスタム データの設定ツールの使用&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/custom-data-setup.htm" target="_blank"&gt;カスタム データの設定&lt;/a&gt;ツールを使用して、独自データをカスタム変数として設定し、BA Web App で利用する方法を学べます。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4&gt;商圏を作成したい&lt;span class="hx:absolute hx:-mt-20" id="商圏を作成したい"&gt;&lt;/span&gt;
+&lt;a href="#%e5%95%86%e5%9c%8f%e3%82%92%e4%bd%9c%e6%88%90%e3%81%97%e3%81%9f%e3%81%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;ビデオ名 (参考訳)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;説明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://mediaspace.esri.com/media/1_ebvcihhd" target="_blank"&gt;位置の検索ツールの使用&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/create-sites.htm#ESRI_SECTION1_C30D73392D964D51A8B606128A8A6E8F" target="_blank"&gt;位置の検索&lt;/a&gt;ツールを使用して、任意の位置を起点とした商圏を作成する方法を学べます。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_6kkusf77" target="_blank"&gt;区画の選択ツールの使用&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/create-sites.htm#ESRI_SECTION1_DFA24E8700DE45D0A10752C523DBDCAE" target="_blank"&gt;区画の選択&lt;/a&gt;ツールを使用して、任意の行政区画を商圏として設定する方法を学べます。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://mediaspace.esri.com/media/1_b3lwdsz1" target="_blank"&gt;ポリゴンの描画ツールの使用&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/create-sites.htm#ESRI_SECTION1_643D5773E5024C05BAB90977B5DE8735" target="_blank"&gt;ポリゴンの描画&lt;/a&gt;ツールを使用して、手書きポリゴンを商圏として設定する方法を学べます。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4&gt;マップを作成したい&lt;span class="hx:absolute hx:-mt-20" id="マップを作成したい"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%9e%e3%83%83%e3%83%97%e3%82%92%e4%bd%9c%e6%88%90%e3%81%97%e3%81%9f%e3%81%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;ビデオ名 (参考訳)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;説明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://mediaspace.esri.com/media/1_e6zxmuy1" target="_blank"&gt;カラーコード マップを作成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;バージョン 23.R02 から新しくなった&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/color-coded-maps.htm" target="_blank"&gt;カラーコード マップ&lt;/a&gt; ツールを使用して、統計変数をマップ上に可視化する方法を学べます。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://mediaspace.esri.com/media/1_43n66qt1" target="_blank"&gt;スマート マップ サーチ&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/smart-map-search.htm" target="_blank"&gt;スマート マップ サーチ&lt;/a&gt; ツールを使用して、複数変数の条件を満たすエリアを絞り込み、マップ上に可視化する方法を学べます。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4&gt;商圏レポートをカスタマイズしたい&lt;span class="hx:absolute hx:-mt-20" id="商圏レポートをカスタマイズしたい"&gt;&lt;/span&gt;
+&lt;a href="#%e5%95%86%e5%9c%8f%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88%e3%82%92%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%9e%e3%82%a4%e3%82%ba%e3%81%97%e3%81%9f%e3%81%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;ビデオ名 (参考訳)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;説明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_4dsn1l10" target="_blank"&gt;高度なインフォグラフィックスの構築&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/building-infographic-reports.htm" target="_blank"&gt;インフォグラフィックスの作成&lt;/a&gt;ツールを使用して、インフォグラフィックスをゼロから構築する方法を学べます。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_40toquow" target="_blank"&gt;カスタム インフォグラフィックス パネルの使用&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/building-infographic-reports.htm" target="_blank"&gt;インフォグラフィックスの作成&lt;/a&gt;ツールを使用して、インフォグラフィックス パネルをカスタマイズ・共有する方法を学べます。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_mdzth19p" target="_blank"&gt;商圏内の目標物の探索&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/building-infographic-reports.htm" target="_blank"&gt;インフォグラフィックスの作成&lt;/a&gt;ツールまたは&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/building-reports.htm" target="_blank"&gt;クラシック レポートの作成&lt;/a&gt;ツールを使用して、インフォグラフィックスおよびレポートで利用できる近傍機能を使用して、商圏内の目標物を検索する方法を学べます。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4&gt;商圏レポートを操作したい&lt;span class="hx:absolute hx:-mt-20" id="商圏レポートを操作したい"&gt;&lt;/span&gt;
+&lt;a href="#%e5%95%86%e5%9c%8f%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88%e3%82%92%e6%93%8d%e4%bd%9c%e3%81%97%e3%81%9f%e3%81%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;ビデオ名 (参考訳)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;説明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_j9w1l4vl" target="_blank"&gt;インフォグラフィックスのサイドバイサイド比較&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/create-infographics-and-reports.htm#ESRI_SECTION1_C30D73392D964D51A8B606128A8A6E8F" target="_blank"&gt;インフォグラフィックスの実行&lt;/a&gt;ツールで、複数商圏のインフォグラフィックスを並べて比較する事ができるサイドバイサイド比較の利用方法を学べます。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_lcbdtfs5" target="_blank"&gt;対話的な比較レポートの作成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;対話的に操作できる&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/comparison-reports.htm" target="_blank"&gt;比較レポート&lt;/a&gt;を作成し、商圏を比較する方法を学べます。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4&gt;解析を行いたい&lt;span class="hx:absolute hx:-mt-20" id="解析を行いたい"&gt;&lt;/span&gt;
+&lt;a href="#%e8%a7%a3%e6%9e%90%e3%82%92%e8%a1%8c%e3%81%84%e3%81%9f%e3%81%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;ビデオ名 (参考訳)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;説明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://mediaspace.esri.com/media/t/1_lwhidao0/238781273" target="_blank"&gt;適合性解析ツールの使用&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/suitability-analysis.htm" target="_blank"&gt;適合性解析&lt;/a&gt;ツールを使用して、複数の加重条件を元に最適な場所を特定する方法を学べます。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://mediaspace.esri.com/media/1_nqazbw3b" target="_blank"&gt;空隙解析ツールの使用&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/void-analysis.htm" target="_blank"&gt;空隙解析&lt;/a&gt;ツールを使用して、解析対象のエリア内の特定のビジネスが比較対象と比べてどの程度ギャップがあるかを解析する方法を学べます。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://mediaspace.esri.com/media/t/1_8p1sa6l0/238781273" target="_blank"&gt;限界値エリアの作成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/threshold-areas.htm" target="_blank"&gt;限界値エリア&lt;/a&gt;ツールを使用して、指定の限界値 (人口総数など) に達する地点が境界線となるエリアを作成する方法を学べます。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4&gt;解析結果を共有したい&lt;span class="hx:absolute hx:-mt-20" id="解析結果を共有したい"&gt;&lt;/span&gt;
+&lt;a href="#%e8%a7%a3%e6%9e%90%e7%b5%90%e6%9e%9c%e3%82%92%e5%85%b1%e6%9c%89%e3%81%97%e3%81%9f%e3%81%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;ビデオ名 (参考訳)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;説明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://mediaspace.esri.com/media/1_wi5dd26z" target="_blank"&gt;ArcGIS 組織にマップを共有&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;BA Web App で作成した&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/share-maps.htm" target="_blank"&gt;マップを ArcGIS 組織に共有する方法&lt;/a&gt;を学べます。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://mediaspace.esri.com/media/1_31qfqlki" target="_blank"&gt;ArcGIS Dashboard 形式で解析結果を共有&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;BA Web App の解析結果を、&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/arcgis-dashboards.htm" target="_blank"&gt;ダッシュボード形式で共有する方法&lt;/a&gt;を学べます。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://mediaspace.esri.com/media/1_ccyubt11" target="_blank"&gt;ArcGIS StoryMaps のストーリーを作成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;BA Web App の解析結果を使用して、&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/story-map.htm" target="_blank"&gt;ストーリーマップを作成する方法&lt;/a&gt;を学べます。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://mediaspace.esri.com/media/1_7egpj6k3" target="_blank"&gt;マップのエクスポート&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;BA Web App で作成したマップを &lt;a href="https://doc.arcgis.com/ja/business-analyst/web/pdf-or-image.htm" target="_blank"&gt;PDF や画像形式でエクスポートする方法&lt;/a&gt;を学べます。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;操作ビデオ&lt;span class="hx:absolute hx:-mt-20" id="操作ビデオ"&gt;&lt;/span&gt;
+&lt;a href="#%e6%93%8d%e4%bd%9c%e3%83%93%e3%83%87%e3%82%aa" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;BA Web and Mobile Apps の一連の操作を紹介するビデオです。
+下記の画像をクリックするとビデオを再生できます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ArcGIS Business Analyst Web App 基本操作
+&lt;a href="https://www.youtube.com/watch?v=UD2M4KIkJJU" target="_blank"&gt;&lt;img src="https://img.youtube.com/vi/UD2M4KIkJJU/0.jpg" alt="ArcGIS Business Analyst Web App 基本操作" width="30%"&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;インフォグラフィックスの実行とカスタマイズ
+&lt;a href="https://www.youtube.com/watch?v=i_QJrDC_WhM" target="_blank" &gt;&lt;img src="https://img.youtube.com/vi/i_QJrDC_WhM/0.jpg" alt="インフォグラフィックスの実行とカスタマイズ" width="30%"&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ArcGIS Business Analyst Mobile App 基本操作
+&lt;a href="https://www.youtube.com/watch?v=kHUmNJj6jBM" target="_blank" &gt;&lt;img src="https://img.youtube.com/vi/kHUmNJj6jBM/0.jpg" alt="ArcGIS Business Analyst Mobile App 基本操作" width="30%"&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;style&gt;
 table {
 font-size: 16px;
 width: 100%;
@@ -229,357 +213,264 @@ width: 26%;
 table th:nth-of-type(2) {
 width:74%;
 }
-&lt;/style></description></item><item><title>ガイド ツアーの実行</title><link>/business-analyst/web/tutorial/guided-tour/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/web/tutorial/guided-tour/</guid><description>
-&lt;p>BA Web App では、操作方法をポップアップ ガイドに従いながら学ぶことができる&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/guided-tours.htm"target="_blank" rel="noopener">ガイド ツアー&lt;/a>を利用できます。初めてのユーザーでも、初歩的な操作から高度な操作まで、簡単に習得することが可能です。&lt;/p>
-&lt;p>ツアーを完了すると、経験値としてポイントが加算され、獲得ポイントに応じてバッジを獲得できます。バッジを獲得することで、次のレベルのツアーを実行できるようになります。なお、一度完了したツアーは何度でもやり直すことができます。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">一部のツアーはクレジットを消費します。また、一部ツアーは、解析する国をアメリカに設定しないと実行できません。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>ガイド ツアーを利用する方法は、以下の通りです。&lt;/p>
-&lt;ol>
-&lt;li>BA Web App 右上の [ヘルプとリソース] → [ガイド ツアー] をクリックします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/open-guided-tour_24r2.png" width="80%">
-&lt;/figure>
-&lt;ol start="2">
-&lt;li>ガイド ツアーの一覧の中から実行したいツアーを選択し、[移動] をクリックします。&lt;/li>
-&lt;li>ツアーが開始されます。表示されるポップアップの指示に従い、操作を行います。&lt;/li>
-&lt;li>ツアーが完了すると、[ガイド ツアー] ダイアログが表示されます。別のツアーを行いたい場合は [移動] をクリックし、更にツアーを実行します。実行しない場合は、[閉じる] をクリックしてダイアログを閉じます。&lt;/li>
-&lt;/ol></description></item><item><title>住所リストのインポート</title><link>/business-analyst/web/tutorial/importfile/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0900</pubDate><guid>/business-analyst/web/tutorial/importfile/</guid><description>
-&lt;p>住所が格納された Excel / CSV ファイルをマッピングする (= ジオコーディング) 代表的な方法を 2 つご紹介します。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ジオコーディングでは、住所 1,000 件につき 40 クレジットが消費されます。（緯度経度の取り込みは、クレジットは消費しません。）&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h3>方法 1 : BA Web App 上でファイルを追加&lt;span class="hx:absolute hx:-mt-20" id="方法-1--ba-web-app-上でファイルを追加">&lt;/span>
-&lt;a href="#%e6%96%b9%e6%b3%95-1--ba-web-app-%e4%b8%8a%e3%81%a7%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%82%92%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>BA Web App 上で、ウィザードに示された手順に沿って簡易的にジオコーディングする方法です。&lt;br/>
-インポート可能なファイル サイズに上限があり、ジオコーディングの詳細設定ができないなどの制限があります。&lt;/p>
-&lt;p>&lt;strong>手順&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/import-file.htm" target="_blank" rel="noopener noreferrer">BA Web App 上でファイルを追加する方法&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3>方法 2: ArcGIS Online 上でデータを作成し BA Web App に追加&lt;span class="hx:absolute hx:-mt-20" id="方法-2-arcgis-online-上でデータを作成し-ba-web-app-に追加">&lt;/span>
-&lt;a href="#%e6%96%b9%e6%b3%95-2-arcgis-online-%e4%b8%8a%e3%81%a7%e3%83%87%e3%83%bc%e3%82%bf%e3%82%92%e4%bd%9c%e6%88%90%e3%81%97-ba-web-app-%e3%81%ab%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>ArcGIS Online 上でジオコーディングを行ってから、BA Web App に追加する方法です。&lt;br/>
-インポート可能なファイル サイズの上限が大きくなり、ジオコーディングの詳細設定が可能、地図上から対話的に住所の修正が行えるなどの利点があります。&lt;/p>
-&lt;p>&lt;strong>手順&lt;/strong>&lt;/p>
-&lt;ol>
-&lt;li>BA Web App 右上の [アカウントの詳細] → [マイ プロフィール] をクリックし、開いたページ上部の [コンテンツ] タブをクリックします。&lt;/li>
-&lt;li>&lt;a href="https://doc.esrij.com//online/users-guide/create-data/feature/file" target="_blank">ArcGIS Online 逆引きガイドの Excel やテキスト ファイルからフィーチャ レイヤーを作成したい&lt;/a>を参考にフィーチャ レイヤーを作成します。&lt;/li>
-&lt;li>BA Web App を開き、[マップ] タブの [データの追加] → [Web マップおよびレイヤー] をクリックします。&lt;/li>
-&lt;li>[Web マップおよびレイヤー] ウィンドウで [マイ コンテンツ] をクリックします。&lt;/li>
-&lt;li>適宜レイヤー名などで検索をして、作成したレイヤーのサムネイルにカーソルを合わせ、[+ マップに追加] をクリックします。&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>&lt;strong>BA Web App に追加したフィーチャ レイヤーから商圏を作成する方法&lt;/strong>&lt;/p>
-&lt;ol>
-&lt;li>BA Web App 左上の [&amp;lt;プロジェクト名&amp;gt;] タブをクリックして、プロジェクト エクスプローラーを開きます。&lt;/li>
-&lt;li>プロジェクト エクスプローラー内の [Web マップおよびレイヤー] を展開し、追加したレイヤーを最後まで展開します。&lt;/li>
-&lt;li>展開したレイヤ―の [&amp;hellip;] → [レイヤーの設定] をクリックします。&lt;br>&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/projExplorer.png" width="40%">&lt;/li>
-&lt;/ol>
-&lt;/figure>
-&lt;ol start="4">
-&lt;li>[レイヤーの設定] ウィンドウで下記を設定し、[レイヤーの設定] をクリックします。
-&lt;ol>
-&lt;li>アイテム名となるフィールド&lt;/li>
-&lt;li>追加するアイテム&lt;/li>
-&lt;li>リング / 運転時間 / 徒歩時間いずれかの商圏&lt;br>&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/Configlayer.png" width="30%">&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;/ol>
-&lt;/figure>&lt;/div>
-&lt;/div>
-&lt;/div></description></item><item><title>ベンチマーク比較</title><link>/business-analyst/web/tutorial/benchmark_comparison/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/web/tutorial/benchmark_comparison/</guid><description>
-&lt;p>ベンチマーク比較では、複数商圏内の人口統計の集計値を、テーブル、サマリー、ヒストグラム、バブル チャート形式で対話的に比較することができます。本チュートリアルでは、近年開発の進む、流山おおたかの森駅と柏の葉キャンパス駅周辺の「人口 最終学歴別 大学」「在学者数 小学校」「未就学者数 保育園・保育所」のベンチマーク比較を実行します。&lt;/p>
-&lt;h2>ベンチマーク比較の実行&lt;span class="hx:absolute hx:-mt-20" id="ベンチマーク比較の実行">&lt;/span>
-&lt;a href="#%e3%83%99%e3%83%b3%e3%83%81%e3%83%9e%e3%83%bc%e3%82%af%e6%af%94%e8%bc%83%e3%81%ae%e5%ae%9f%e8%a1%8c" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
-&lt;li>
-&lt;p>[マップ] タブを選択し、[住所または緯度/経度の入力] に「流山おおたかの森駅」と入力して Enter キーを押します。&lt;br>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/benchmark/search_otakanomori.jpg">
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[サイトの作成] をクリックし、[リング] の [半径] を「1, 3」として [適用] をクリックし、リング商圏を作成します。&lt;br>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/benchmark/ring_setting.jpg">
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>同様に、[住所または緯度/経度の入力] に「柏の葉キャンパス駅」と入力して Enter キーを押し、2. と同じ設定をして [適用] をクリックします。&lt;br>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/benchmark/otakanomori_kashiwanoha.jpg">
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[分析の実行] → [ベンチマーク比較] をクリックし、[ベンチマーク比較] ウィンドウを開きます。&lt;br>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/benchmark/open_benchmark_comparison.jpg">
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>「流山おおたかの森駅」または「柏の葉キャンパス駅」のポップアップで、[比較] → [新しいベンチマーク比較] でも開くことができます。&lt;br>&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/benchmark/open_benchmark_comparison2.jpg">
-&lt;/figure>&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;ol start="5">
-&lt;li>[位置情報の選択] で、[自分のサイト] を選択して [次へ] をクリックします。&lt;/li>
-&lt;li>[サイトの追加] ウィンドウで [現在のマップ上] タブに切り替えて、「柏の葉キャンパス駅」と「流山おおたかの森駅」のチェックボックスをクリックし、[適用] → [次へ] をクリックします。&lt;/li>
-&lt;li>[解析条件の選択] で [教育 リスト] を選択します。&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>[変数リスト] ボタンをクリックすると、各リストに含まれる変数が表示されます。&lt;br>&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/benchmark/education_list.jpg">
-&lt;/figure>&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[すべての変数の参照] をクリックするとデータ ブラウザーが開き、任意の変数を選択することができます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;ol start="8">
-&lt;li>[サイト] で、[リング、運転時間、徒歩時間の展開] のトグルボタンをオンにします。&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>[サイト] → [サイトの追加] ウィンドウで、さらに比較対象のサイトを追加することができます。&lt;br>&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/benchmark/site.jpg">
-&lt;/figure>&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;ol start="9">
-&lt;li>[統計] で、[平均]、[中央値]、[標準偏差] のトグルボタンをオンにします。&lt;/li>
-&lt;li>[比較方法] で、[方法] のドロップダウンから [ベンチマークの上下] を選択し、[ベンチマーク] のドロップダウンから [平均] を選択します。&lt;/li>
-&lt;/ol>
-&lt;p>以上で、ベンチマーク比較が実行できました。&lt;/p>
-&lt;p>[結果] パネルで [サマリー]、[ヒストグラム]、[バブルチャート]、[テーブル] を切り替えることで、結果の見え方を変えることができます。また、[オプション] ボタン → [区画との比較] をクリックすることで、各商圏と商圏が属する行政界との間でもベンチマークの比較ができます。&lt;br>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/benchmark/result_panel.jpg"
-alt="結果パネル">&lt;figcaption>
-&lt;p>結果パネル&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;ol start="11">
-&lt;li>[レイヤーの保存] をクリックします。&lt;/li>
-&lt;li>[レイヤーの保存] ウィンドウで [レイヤー名] に「流山_柏比較」と入力し、[OK] をクリックします。&lt;/li>
-&lt;/ol>
-&lt;p>「流山_柏比較」ベンチマーク比較レイヤーを保存しました。次回から、設定されたレイヤーを開くことができます。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[結果] パネルの [Excel にエクスポート] で、Excel ファイルとしてエクスポートすることができます。&lt;/div>
-&lt;/div>
-&lt;/div></description></item><item><title>カスタム変数を用いたカラーコード マップの作成</title><link>/business-analyst/web/tutorial/customize-colorcodedmap/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0900</pubDate><guid>/business-analyst/web/tutorial/customize-colorcodedmap/</guid><description>
-&lt;p>カスタム変数を用いてカラーコード マップの作成し、商圏に重なる範囲の絞り込みを行います。また、その結果を Excel ファイルとしてエクスポートします。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/color-coded-maps.htm" target="_blank" rel="noopener noreferrer">カラーコード マップ&lt;/a>では、すばやく対象地域の統計情報をマッピングできます。カラーコード マップの基本的な操作方法は、ガイドツアーの「レベル 1 ：データからカラーコード マップを作成」で学ぶことができます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h2>商圏の作成&lt;span class="hx:absolute hx:-mt-20" id="商圏の作成">&lt;/span>
-&lt;a href="#%e5%95%86%e5%9c%8f%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>まず、商圏を作成します。&lt;/p>
-&lt;ol>
-&lt;li>[マップ] タブ→ [エリアの定義] → [位置の検索] をクリックします。&lt;/li>
-&lt;li>[住所を入力するかマップにピンをドロップ] に「東京都新宿区西新宿２-８-１」と入力し、[検索] を押します。&lt;/li>
-&lt;li>[位置に名前を付けます。] に「東京都庁」と入力し、[適用] をクリックします。&lt;/li>
-&lt;li>[位置の周辺にエリアを追加します。] の設定はそのままで、[適用] をクリックします。&lt;/li>
-&lt;/ol>
-&lt;p>マップ上に、東京都庁を中心としたリング商圏が作成されます。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/colorcodedmap1.png" width="80%">
-&lt;/figure>
-&lt;/p>
-&lt;h2>カスタム変数を用いたカラーコード マップの作成&lt;span class="hx:absolute hx:-mt-20" id="カスタム変数を用いたカラーコード-マップの作成">&lt;/span>
-&lt;a href="#%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%a0%e5%a4%89%e6%95%b0%e3%82%92%e7%94%a8%e3%81%84%e3%81%9f%e3%82%ab%e3%83%a9%e3%83%bc%e3%82%b3%e3%83%bc%e3%83%89-%e3%83%9e%e3%83%83%e3%83%97%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>次に、カスタム変数を作成し、その変数を用いたカラーコード マップを作成します。&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>[マップ] タブの [マップの作成] → [カラーコード マップ] をクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>左側に [カラーコード マップ] ダイアログ ボックスが表示されたら、[+ カスタム変数の作成] をクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[カスタム変数の作成] ダイアログ ボックスが開いたら、[年齢] カテゴリをクリックし、[年代別人口] をクリックします。&lt;br>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/PopbyAge_24r2.png" width="80%">
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>「2020 人口 20 歳代 (国勢調査)」および「2020 人口 30 歳代 (国勢調査)」にチェックを入れます。&lt;br>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/select-20s30s_24r2.png" width="80%">
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[選択した変数の追加] をクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[合計値として追加] をクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[保存および追加] をクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[カスタム変数の保存] ウィンドウで、「2020年20-30歳代の人口」と入力し、[保存] をクリックします。&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;p>マップ上に 20-30 歳代人口が表示されます。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/colorcodedmap3.png">
-&lt;/figure>
-&lt;p>さらに、商圏に重なる区画のみを抽出します。&lt;/p>
-&lt;ol start="9">
-&lt;li>[カラーコード マップ] ダイアログ ボックスの [区画] タブを展開し、[対象区画] ドロップダウン リストをクリックし、[自分のサイト] をクリックします。&lt;/li>
-&lt;li>[サイトの追加] ウィンドウが開いたら、[現在のマップ上] タブをクリックし、「東京都庁」にチェックを入れて [適用] をクリックします。&lt;br>&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/colorcodedmap4_24r2.png">&lt;figcaption>
-&lt;h4>商圏の範囲に切り替え&lt;/h4>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;/ol>
-&lt;p>商圏に重なる区画のみにフォーカスしたマップを作成することができました。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[カラーコード マップ] ダイアログ ボックスの [区画] タブ内の [詳細レベル] を指定することで、縮尺に関わらず、指定した区画レベルで表示することができます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/colorcodedmap5.png">
-&lt;/figure>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">アプリケーション下部に表示される [結果] ウィンドウでは、マップ上の結果と連動して、区画数や統計値の平均値などを確認することができます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h2>カラーコード マップの結果を Excel ファイルにエクスポート&lt;span class="hx:absolute hx:-mt-20" id="カラーコード-マップの結果を-excel-ファイルにエクスポート">&lt;/span>
-&lt;a href="#%e3%82%ab%e3%83%a9%e3%83%bc%e3%82%b3%e3%83%bc%e3%83%89-%e3%83%9e%e3%83%83%e3%83%97%e3%81%ae%e7%b5%90%e6%9e%9c%e3%82%92-excel-%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ab%e3%82%a8%e3%82%af%e3%82%b9%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>最後に、表示した区画の 20-30 歳代人口データを Excel ファイルにエクスポートします。&lt;/p>
-&lt;ol>
-&lt;li>アプリケーション下部の [結果] ウィンドウで [テーブル] タブをクリックし、結果をテーブル形式で表示します。&lt;/li>
-&lt;li>[Excel にエクスポート] ボタンをクリックします。&lt;br>&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/colorcodedmap6.png" width="100%">
-&lt;/figure>
-&lt;/li>
-&lt;li>ウィンドウが表示されたら Excel ファイルを任意の場所に保存し、Excel ファイルを開きます。&lt;/li>
-&lt;/ol>
-&lt;p>商圏に重なる町丁・字等別の人口を Excel ファイルにエクスポートすることができました。&lt;/p></description></item><item><title>スマート マップ サーチで有望エリアの抽出・共有</title><link>/business-analyst/web/tutorial/smart-map-search/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0900</pubDate><guid>/business-analyst/web/tutorial/smart-map-search/</guid><description>
-&lt;p>複数の変数を選択し、条件に一致する区画エリアを表示することのできる「スマート マップ サーチ」を利用して、以下の条件を満たすエリアを対話的な操作で抽出します。&lt;/p>
-&lt;ul>
-&lt;li>20 歳代の人口が多い&lt;/li>
-&lt;li>独身世帯の比率が高い&lt;/li>
-&lt;li>借家比率が高い&lt;/li>
-&lt;/ul>
-&lt;h2>解析範囲への移動&lt;span class="hx:absolute hx:-mt-20" id="解析範囲への移動">&lt;/span>
-&lt;a href="#%e8%a7%a3%e6%9e%90%e7%af%84%e5%9b%b2%e3%81%b8%e3%81%ae%e7%a7%bb%e5%8b%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
-&lt;li>[マップ] タブ→ [住所または緯度/経度の入力] 左横のアイコンをクリック → [エリアの拡大] を選択します。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/SmartMapSearch-1_24r2.png" width="300 px">
-&lt;/figure>
-&lt;ol start="2">
-&lt;li>[都道府県、市区町村、町丁・字等など] に「大阪市北区」と入力し、Enter キーを押します。&lt;/li>
-&lt;/ol>
-&lt;p>大阪市北区周辺にマップが移動しました。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/SmartMapSearch-2.png" width="60%">
-&lt;/figure>
-&lt;h2>絞り込み条件の設定&lt;span class="hx:absolute hx:-mt-20" id="絞り込み条件の設定">&lt;/span>
-&lt;a href="#%e7%b5%9e%e3%82%8a%e8%be%bc%e3%81%bf%e6%9d%a1%e4%bb%b6%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
-&lt;li>[マップ] タブ の [マップの作成] → [スマート マップ サーチ] をクリックします。&lt;/li>
-&lt;li>スマートマップ サーチのクイック ツアーを案内するダイアログが表示された場合は、[却下] をクリックします。&lt;/li>
-&lt;li>[スマート マップ サーチ] ダイアログで、[すべての変数の参照] をクリックします。&lt;/li>
-&lt;li>データ ブラウザーの「婚姻関係」カテゴリをクリックし、「2020 人口 未婚 (国勢調査)」にチェックを入れます。&lt;/li>
-&lt;li>「住宅」カテゴリをクリックし、「2020 一般世帯数 民営借家 (国勢調査)」にチェックを入れます。&lt;/li>
-&lt;li>「年齢」カテゴリをクリックし、[年代別人口] を選択し、「2020 人口 20歳代 (国勢調査)」にチェックを入れます。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/Select20s.png" width="80%">
-&lt;/figure>
-&lt;/li>
-&lt;/ol>
-&lt;p>ここまでの操作で [選択した変数] に、３つの変数が追加されます。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/smm_selectedvars_25r3.png" width="60%">
-&lt;/figure>
-&lt;/p>
-&lt;h2>変数リストの保存&lt;span class="hx:absolute hx:-mt-20" id="変数リストの保存">&lt;/span>
-&lt;a href="#%e5%a4%89%e6%95%b0%e3%83%aa%e3%82%b9%e3%83%88%e3%81%ae%e4%bf%9d%e5%ad%98" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
-&lt;li>右下の [リストの保存] をクリックします。&lt;/li>
-&lt;li>[リスト名] に「ターゲット層」と入力します。&lt;/li>
-&lt;li>[リストのアイコン] の [▼] → [形状とアイコン] から任意のアイコンを選択して、[保存] をクリックします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/SmartMapSearch-3_24r2.png" width="60%">
-&lt;/figure>
-&lt;p>変数リストが保存されました。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">よく使う変数の組み合わせを変数リストとして保存することで、スマート マップ サーチの [マイ リスト] タブからアクセスできます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h2>エリアの絞り込み&lt;span class="hx:absolute hx:-mt-20" id="エリアの絞り込み">&lt;/span>
-&lt;a href="#%e3%82%a8%e3%83%aa%e3%82%a2%e3%81%ae%e7%b5%9e%e3%82%8a%e8%be%bc%e3%81%bf" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
-&lt;li>データ ブラウザーで [適用] をクリックします。&lt;/li>
-&lt;/ol>
-&lt;p>マップ上に、色付きの区画ポリゴンが追加されるので、変数の範囲を設定し、ターゲット層が多く住むエリアを絞り込みます。&lt;/p>
-&lt;ol start="2">
-&lt;li>[スマート マップ サーチ] ダイアログで、「2020 人口 未婚」の最小値に「500」と入力し、Enter キーを押します。&lt;/li>
-&lt;li>「2020 一般世帯数 民営借家」の [計算: 個数] をクリックして、[割合] を選択します。&lt;/li>
-&lt;li>最小値を「50」と入力し、Enter キーを押します。&lt;/li>
-&lt;li>同様の手順で「2020 人口 20歳代」を [割合] に変更して、最小値を「15」と入力し、Enter キーを押します。&lt;/li>
-&lt;/ol>
-&lt;p>さらに、解析の範囲を大阪市北区のみに限定します。&lt;/p>
-&lt;ol start="6">
-&lt;li>[区画] → [解析の範囲] の虫眼鏡マークをクリックし、[都道府県、市区町村、町丁・字等 など] に「大阪市北区」を入力します。&lt;/li>
-&lt;li>[27127 大阪市北区] が候補として表示されるので、選択します。&lt;/li>
-&lt;/ol>
-&lt;p>以上で、条件に合致する大阪市北区内の条件に合致するエリアを特定することができました。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/SmartMapSearch-6.png" width="80%">
-&lt;/figure>
-&lt;h2>結果の共有&lt;span class="hx:absolute hx:-mt-20" id="結果の共有">&lt;/span>
-&lt;a href="#%e7%b5%90%e6%9e%9c%e3%81%ae%e5%85%b1%e6%9c%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>Excel へエクスポート&lt;span class="hx:absolute hx:-mt-20" id="excel-へエクスポート">&lt;/span>
-&lt;a href="#excel-%e3%81%b8%e3%82%a8%e3%82%af%e3%82%b9%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>スマート マップ サーチの [結果] パネルで [テーブル] に切り替えます。&lt;/li>
-&lt;li>[結果] パネル上部の [Excel にエクスポート] をクリックします。&lt;/li>
-&lt;li>Excel ファイルを任意の場所に保存し、Excel ファイルを開きます。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/SmartMapSearch-7.png" width="80%">
-&lt;/figure>
-&lt;p>スマート マップ サーチの結果を Excel にエクスポートすることができました。&lt;/p>
-&lt;h3>Web マップとして共有&lt;span class="hx:absolute hx:-mt-20" id="web-マップとして共有">&lt;/span>
-&lt;a href="#web-%e3%83%9e%e3%83%83%e3%83%97%e3%81%a8%e3%81%97%e3%81%a6%e5%85%b1%e6%9c%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>[マップ] タブの [結果の共有] → [ArcGIS Web マップ] をクリックします。&lt;/li>
-&lt;li>[タイトル] に 「有望エリア」と入力します。&lt;/li>
-&lt;li>マップの共有範囲を [全組織] もしくはグループから選択します。&lt;/li>
-&lt;li>[マップ レイヤーを新しいホスト フィーチャ サービスにエクスポートします。] にチェックを入れ、[共有] をクリックします。&lt;/li>
-&lt;li>共有が完了すると、表示されるポップアップ内の [ここをクリックしてマップにアクセス] をクリックします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/SmartMapSearch-8.png" width="30%">
-&lt;/figure>
-&lt;p>ArcGIS Online で、共有した Web マップのアイテム詳細ページが開きます。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/SmartMapSearch-9.png" width="60%">
-&lt;/figure>
-&lt;p>Web マップを共有することができました。Web マップは、Map Viewer などで開くことで、シンボルの変更やデータの追加、空間解析が可能です。&lt;/p></description></item><item><title>インフォグラフィックスの作成</title><link>/business-analyst/web/tutorial/build-infographics/</link><pubDate>Fri, 02 Sep 2022 00:00:00 +0900</pubDate><guid>/business-analyst/web/tutorial/build-infographics/</guid><description>
-&lt;p>BA Web App では、&lt;a href="https://business-map.esrij.com/glossary/4328/" target="_blank">インフォグラフィックス&lt;/a>などの商圏レポートを実行し、商圏内の人口や世帯の分布を簡単操作で調べることができます。また、BA Web App Advanced ライセンスをお持ちであれば、独自のレポート テンプレートを構築し、組織内に共有して商圏分析に利用いただけます。&lt;/p>
-&lt;p>本演習では、インフォグラフィックスのカスタマイズ方法を習得します。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">商圏レポートのカスタマイズやカスタム データの設定を行うためには、ArcGIS Business Analyst Web App Advanced ライセンスが必要です。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;ul class="list-disc ml-6">
-&lt;li>
-&lt;a href="/business-analyst/web/tutorial/build-infographics/how-to-customize-infographics/">カスタム テンプレート作成の基本操作&lt;/a>&lt;br>独自のインフォグラフィックス テンプレートを作る際のパネルの作成やデザインの変更の方法などの基本的な操作について習得します。
-&lt;/li>
-&lt;li>
-&lt;a href="/business-analyst/web/tutorial/build-infographics/custom-infographics-with-unique-data/">独自データを使用したカスタム インフォグラフィックスの作成&lt;/a>&lt;br>商圏内の顧客の売上高や売上数を集計するためのカスタム データの設定と、そのデータを利用したインフォグラフィックス テンプレートの作成方法を学びます。
-&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;/style&gt;</description></item><item><title>ガイド ツアーの実行</title><link>/business-analyst/web/tutorial/guided-tour/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/web/tutorial/guided-tour/</guid><description>
+&lt;p&gt;BA Web App では、操作方法をポップアップ ガイドに従いながら学ぶことができる&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/guided-tours.htm"target="_blank" rel="noopener"&gt;ガイド ツアー&lt;/a&gt;を利用できます。初めてのユーザーでも、初歩的な操作から高度な操作まで、簡単に習得することが可能です。&lt;/p&gt;
+&lt;p&gt;ツアーを完了すると、経験値としてポイントが加算され、獲得ポイントに応じてバッジを獲得できます。バッジを獲得することで、次のレベルのツアーを実行できるようになります。なお、一度完了したツアーは何度でもやり直すことができます。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;一部のツアーはクレジットを消費します。また、一部ツアーは、解析する国をアメリカに設定しないと実行できません。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;ガイド ツアーを利用する方法は、以下の通りです。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;BA Web App 右上の [ヘルプとリソース] → [ガイド ツアー] をクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/open-guided-tour_24r2.png" width="80%"&gt;
+&lt;/figure&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;ガイド ツアーの一覧の中から実行したいツアーを選択し、[移動] をクリックします。&lt;/li&gt;
+&lt;li&gt;ツアーが開始されます。表示されるポップアップの指示に従い、操作を行います。&lt;/li&gt;
+&lt;li&gt;ツアーが完了すると、[ガイド ツアー] ダイアログが表示されます。別のツアーを行いたい場合は [移動] をクリックし、更にツアーを実行します。実行しない場合は、[閉じる] をクリックしてダイアログを閉じます。&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>住所リストのインポート</title><link>/business-analyst/web/tutorial/importfile/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0900</pubDate><guid>/business-analyst/web/tutorial/importfile/</guid><description>
+&lt;p&gt;住所が格納された Excel / CSV ファイルをマッピングする (= ジオコーディング) 代表的な方法を 2 つご紹介します。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;ジオコーディングでは、住所 1,000 件につき 40 クレジットが消費されます。（緯度経度の取り込みは、クレジットは消費しません。）&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;方法 1 : BA Web App 上でファイルを追加&lt;span class="hx:absolute hx:-mt-20" id="方法-1--ba-web-app-上でファイルを追加"&gt;&lt;/span&gt;
+&lt;a href="#%e6%96%b9%e6%b3%95-1--ba-web-app-%e4%b8%8a%e3%81%a7%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%82%92%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;BA Web App 上で、ウィザードに示された手順に沿って簡易的にジオコーディングする方法です。&lt;br/&gt;
+インポート可能なファイル サイズに上限があり、ジオコーディングの詳細設定ができないなどの制限があります。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;手順&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/import-file.htm" target="_blank" rel="noopener noreferrer"&gt;BA Web App 上でファイルを追加する方法&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;方法 2: ArcGIS Online 上でデータを作成し BA Web App に追加&lt;span class="hx:absolute hx:-mt-20" id="方法-2-arcgis-online-上でデータを作成し-ba-web-app-に追加"&gt;&lt;/span&gt;
+&lt;a href="#%e6%96%b9%e6%b3%95-2-arcgis-online-%e4%b8%8a%e3%81%a7%e3%83%87%e3%83%bc%e3%82%bf%e3%82%92%e4%bd%9c%e6%88%90%e3%81%97-ba-web-app-%e3%81%ab%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;ArcGIS Online 上でジオコーディングを行ってから、BA Web App に追加する方法です。&lt;br/&gt;
+インポート可能なファイル サイズの上限が大きくなり、ジオコーディングの詳細設定が可能、地図上から対話的に住所の修正が行えるなどの利点があります。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;手順&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;BA Web App 右上の [アカウントの詳細] → [マイ プロフィール] をクリックし、開いたページ上部の [コンテンツ] タブをクリックします。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://doc.esrij.com//online/users-guide/create-data/feature/file" target="_blank"&gt;ArcGIS Online 逆引きガイドの Excel やテキスト ファイルからフィーチャ レイヤーを作成したい&lt;/a&gt;を参考にフィーチャ レイヤーを作成します。&lt;/li&gt;
+&lt;li&gt;BA Web App を開き、[マップ] タブの [データの追加] → [Web マップおよびレイヤー] をクリックします。&lt;/li&gt;
+&lt;li&gt;[Web マップおよびレイヤー] ウィンドウで [マイ コンテンツ] をクリックします。&lt;/li&gt;
+&lt;li&gt;適宜レイヤー名などで検索をして、作成したレイヤーのサムネイルにカーソルを合わせ、[+ マップに追加] をクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;&lt;strong&gt;BA Web App に追加したフィーチャ レイヤーから商圏を作成する方法&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;BA Web App 左上の [&amp;lt;プロジェクト名&amp;gt;] タブをクリックして、プロジェクト エクスプローラーを開きます。&lt;/li&gt;
+&lt;li&gt;プロジェクト エクスプローラー内の [Web マップおよびレイヤー] を展開し、追加したレイヤーを最後まで展開します。&lt;/li&gt;
+&lt;li&gt;展開したレイヤ―の [&amp;hellip;] → [レイヤーの設定] をクリックします。&lt;br&gt;&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/projExplorer.png" width="40%"&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/figure&gt;
+&lt;ol start="4"&gt;
+&lt;li&gt;[レイヤーの設定] ウィンドウで下記を設定し、[レイヤーの設定] をクリックします。
+&lt;ol&gt;
+&lt;li&gt;アイテム名となるフィールド&lt;/li&gt;
+&lt;li&gt;追加するアイテム&lt;/li&gt;
+&lt;li&gt;リング / 運転時間 / 徒歩時間いずれかの商圏&lt;br&gt;&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/Configlayer.png" width="30%"&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/figure&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>ベンチマーク比較</title><link>/business-analyst/web/tutorial/benchmark_comparison/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/web/tutorial/benchmark_comparison/</guid><description>
+&lt;p&gt;ベンチマーク比較では、複数商圏内の人口統計の集計値を、テーブル、サマリー、ヒストグラム、バブル チャート形式で対話的に比較することができます。本チュートリアルでは、近年開発の進む、流山おおたかの森駅と柏の葉キャンパス駅周辺の「人口 最終学歴別 大学」「在学者数 小学校」「未就学者数 保育園・保育所」のベンチマーク比較を実行します。&lt;/p&gt;
+&lt;h2&gt;ベンチマーク比較の実行&lt;span class="hx:absolute hx:-mt-20" id="ベンチマーク比較の実行"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%99%e3%83%b3%e3%83%81%e3%83%9e%e3%83%bc%e3%82%af%e6%af%94%e8%bc%83%e3%81%ae%e5%ae%9f%e8%a1%8c" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;[マップ] タブを選択し、[場所またはエリアの検索] に「流山おおたかの森駅」と入力して [目標物] の検索候補に表示される「千葉県流山おおたかの森駅」をクリックします。&lt;br&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/benchmark/search_otakanomori_26r1.jpg"&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[サイトの作成] をクリックし、[リング] の [半径] を「1, 3」として [適用] をクリックし、リング商圏を作成します。&lt;br&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/benchmark/ring_setting.jpg"&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;同様に、[場所またはエリアの検索] に「柏の葉キャンパス駅」と入力して [目標物] の検索候補に表示される「千葉県柏市柏の葉キャンパス駅」をクリックします。&lt;br&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/benchmark/otakanomori_kashiwanoha.jpg"&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[分析の実行] → [ベンチマーク比較] をクリックし、[ベンチマーク比較] ウィンドウを開きます。&lt;br&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/benchmark/open_benchmark_comparison.jpg"&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;「流山おおたかの森駅」または「柏の葉キャンパス駅」のポップアップで、[比較] → [新しいベンチマーク比較] でも開くことができます。&lt;br&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/benchmark/open_benchmark_comparison2.jpg"&gt;
+&lt;/figure&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol start="5"&gt;
+&lt;li&gt;[位置情報タイプの選択] で、[自分のサイト] を選択して [次へ] をクリックします。&lt;/li&gt;
+&lt;li&gt;[サイトの追加] ウィンドウで [現在のマップ上] タブに切り替えて、「柏の葉キャンパス駅」と「流山おおたかの森駅」のチェックボックスをクリックし、[適用] → [次へ] をクリックします。&lt;/li&gt;
+&lt;li&gt;[解析条件の選択] で [教育 リスト] を選択します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;[変数リスト] ボタンをクリックすると、各リストに含まれる変数が表示されます。&lt;br&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/benchmark/education_list.jpg"&gt;
+&lt;/figure&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;[すべての変数の参照] をクリックするとデータ ブラウザーが開き、任意の変数を選択することができます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol start="8"&gt;
+&lt;li&gt;[サイト] で、[リング、運転時間、徒歩時間の展開] のトグルボタンをオンにします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;[サイト] → [サイトの追加] ウィンドウで、さらに比較対象のサイトを追加することができます。&lt;br&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/benchmark/site.jpg"&gt;
+&lt;/figure&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol start="9"&gt;
+&lt;li&gt;[統計] で、[平均]、[中央値]、[標準偏差] のトグルボタンをオンにします。&lt;/li&gt;
+&lt;li&gt;[比較方法] で、[方法] のドロップダウンから [ベンチマークの上下] を選択し、[ベンチマーク] のドロップダウンから [平均] を選択します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;以上で、ベンチマーク比較が実行できました。&lt;/p&gt;
+&lt;p&gt;[結果] パネルで [サマリー]、[ヒストグラム]、[バブルチャート]、[テーブル] を切り替えることで、結果の見え方を変えることができます。また、[オプション] ボタン → [区画との比較] をクリックすることで、各商圏と商圏が属する行政界との間でもベンチマークの比較ができます。&lt;br&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/benchmark/result_panel.jpg"&gt;&lt;figcaption&gt;
+&lt;h4&gt;結果パネル&lt;/h4&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ol start="11"&gt;
+&lt;li&gt;[レイヤーの保存] をクリックします。&lt;/li&gt;
+&lt;li&gt;[レイヤーの保存] ウィンドウで [レイヤー名] に「流山_柏比較」と入力し、[OK] をクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;「流山_柏比較」ベンチマーク比較レイヤーを保存しました。次回から、設定されたレイヤーを開くことができます。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;[結果] パネルの [Excel にエクスポート] で、Excel ファイルとしてエクスポートすることができます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>カスタム変数を用いたカラーコード マップの作成</title><link>/business-analyst/web/tutorial/customize-colorcodedmap/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0900</pubDate><guid>/business-analyst/web/tutorial/customize-colorcodedmap/</guid><description>
+&lt;p&gt;カスタム変数を用いてカラーコード マップの作成し、商圏に重なる範囲の絞り込みを行います。また、その結果を Excel ファイルとしてエクスポートします。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/color-coded-maps.htm" target="_blank" rel="noopener noreferrer"&gt;カラーコード マップ&lt;/a&gt;では、すばやく対象地域の統計情報をマッピングできます。カラーコード マップの基本的な操作方法は、ガイドツアーの「レベル 1 ：データからカラーコード マップを作成」で学ぶことができます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;商圏の作成&lt;span class="hx:absolute hx:-mt-20" id="商圏の作成"&gt;&lt;/span&gt;
+&lt;a href="#%e5%95%86%e5%9c%8f%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;まず、商圏を作成します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;[マップ] タブ→ [エリアの定義] → [位置の検索] をクリックします。&lt;/li&gt;
+&lt;li&gt;[住所を入力するかマップにピンをドロップ] に「東京都新宿区西新宿２-８-１」と入力し、[→] を押します。&lt;/li&gt;
+&lt;li&gt;[位置に名前を付けます。] に「東京都庁」と入力し、[適用] をクリックします。&lt;/li&gt;
+&lt;li&gt;[位置の周辺にエリアを追加します。] の設定はそのままで、[適用] をクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;マップ上に、東京都庁を中心としたリング商圏が作成されます。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/colorcodedmap1_26r1.png" width="80%"&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2&gt;カスタム変数を用いたカラーコード マップの作成&lt;span class="hx:absolute hx:-mt-20" id="カスタム変数を用いたカラーコード-マップの作成"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%a0%e5%a4%89%e6%95%b0%e3%82%92%e7%94%a8%e3%81%84%e3%81%9f%e3%82%ab%e3%83%a9%e3%83%bc%e3%82%b3%e3%83%bc%e3%83%89-%e3%83%9e%e3%83%83%e3%83%97%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;次に、カスタム変数を作成し、その変数を用いたカラーコード マップを作成します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;[マップ] タブの [マップの作成] → [カラーコード マップ] をクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;左側に [カラーコード マップ] ダイアログ ボックスが表示されたら、[+ カスタム変数の作成] をクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[カスタム変数の作成] ダイアログ ボックスが開いたら、[年齢] カテゴリをクリックし、[年代別人口] をクリックします。&lt;br&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/PopbyAge_24r2.png" width="80%"&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;「2020 人口 20 歳代 (国勢調査)」および「2020 人口 30 歳代 (国勢調査)」にチェックを入れます。&lt;br&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/select-20s30s_24r2.png" width="80%"&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[選択した変数の追加] をクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[合計値として追加] をクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[保存および追加] をクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[カスタム変数の保存] ウィンドウで、「2020年20-30歳代の人口」と入力し、[保存] をクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;マップ上に 20-30 歳代人口が表示されます。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/colorcodedmap3.png"&gt;
+&lt;/figure&gt;
+&lt;p&gt;さらに、商圏に重なる区画のみを抽出します。&lt;/p&gt;
+&lt;ol start="9"&gt;
+&lt;li&gt;[カラーコード マップ] ダイアログ ボックスの [区画] タブを展開し、[対象地域] ドロップダウン リストをクリックし、[自分のサイト] をクリックします。&lt;/li&gt;
+&lt;li&gt;[サイトの追加] ウィンドウが開いたら、[現在のマップ上] タブをクリックし、「東京都庁」にチェックを入れて [適用] をクリックします。&lt;br&gt;&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/colorcodedmap4_24r2.png"&gt;&lt;figcaption&gt;
+&lt;h4&gt;商圏の範囲に切り替え&lt;/h4&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;商圏に重なる区画のみにフォーカスしたマップを作成することができました。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;[カラーコード マップ] ダイアログ ボックスの [区画] タブ内の [詳細レベル] を指定することで、縮尺に関わらず、指定した区画レベルで表示することができます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/colorcodedmap5.png"&gt;
+&lt;/figure&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;アプリケーション下部に表示される [結果] ウィンドウでは、マップ上の結果と連動して、区画数や統計値の平均値などを確認することができます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;カラーコード マップの結果を Excel ファイルにエクスポート&lt;span class="hx:absolute hx:-mt-20" id="カラーコード-マップの結果を-excel-ファイルにエクスポート"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%ab%e3%83%a9%e3%83%bc%e3%82%b3%e3%83%bc%e3%83%89-%e3%83%9e%e3%83%83%e3%83%97%e3%81%ae%e7%b5%90%e6%9e%9c%e3%82%92-excel-%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ab%e3%82%a8%e3%82%af%e3%82%b9%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;最後に、表示した区画の 20-30 歳代人口データを Excel ファイルにエクスポートします。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;アプリケーション下部の [結果] ウィンドウで [テーブル] タブをクリックし、結果をテーブル形式で表示します。&lt;/li&gt;
+&lt;li&gt;[Excel にエクスポート] ボタンをクリックします。&lt;br&gt;&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/tutorial/colorcodedmap6.png" width="100%"&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;ウィンドウが表示されたら Excel ファイルを任意の場所に保存し、Excel ファイルを開きます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;商圏に重なる町丁・字等別の人口を Excel ファイルにエクスポートすることができました。&lt;/p&gt;</description></item><item><title>インフォグラフィックスの作成</title><link>/business-analyst/web/tutorial/build-infographics/</link><pubDate>Fri, 02 Sep 2022 00:00:00 +0900</pubDate><guid>/business-analyst/web/tutorial/build-infographics/</guid><description>
+&lt;p&gt;BA Web App では、&lt;a href="https://business-map.esrij.com/glossary/4328/" target="_blank"&gt;インフォグラフィックス&lt;/a&gt;などの商圏レポートを実行し、商圏内の人口や世帯の分布を簡単操作で調べることができます。また、BA Web App Advanced ライセンスをお持ちであれば、独自のレポート テンプレートを構築し、組織内に共有して商圏分析に利用いただけます。&lt;/p&gt;
+&lt;p&gt;本演習では、インフォグラフィックスのカスタマイズ方法を習得します。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;商圏レポートのカスタマイズやカスタム データの設定を行うためには、ArcGIS Business Analyst Web App Advanced ライセンスが必要です。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul class="list-disc ml-6"&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/web/tutorial/build-infographics/how-to-customize-infographics/"&gt;カスタム テンプレート作成の基本操作&lt;/a&gt;&lt;br&gt;独自のインフォグラフィックス テンプレートを作る際のパネルの作成やデザインの変更の方法などの基本的な操作について習得します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/web/tutorial/build-infographics/custom-infographics-with-unique-data/"&gt;独自データを使用したカスタム インフォグラフィックスの作成&lt;/a&gt;&lt;br&gt;商圏内の顧客の売上高や売上数を集計するためのカスタム データの設定と、そのデータを利用したインフォグラフィックス テンプレートの作成方法を学びます。
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

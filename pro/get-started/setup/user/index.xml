@@ -1,378 +1,378 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – 利用者の操作</title><link>/pro/get-started/setup/user/</link><description>Recent content in 利用者の操作 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Mon, 17 Apr 2023 00:00:00 +0900</lastBuildDate><atom:link href="/pro/get-started/setup/user/index.xml" rel="self" type="application/rss+xml"/><item><title>システム要件</title><link>/pro/get-started/setup/user/environment/</link><pubDate>Tue, 08 Aug 2023 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/environment/</guid><description>
-&lt;h2>システム要件の確認&lt;span class="hx:absolute hx:-mt-20" id="システム要件の確認">&lt;/span>
-&lt;a href="#%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e8%a6%81%e4%bb%b6%e3%81%ae%e7%a2%ba%e8%aa%8d" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ArcGIS Pro は Microsoft Windows オペレーティング システムでサポートされています。&lt;/p>
-&lt;p>ArcGIS Pro をインストールするコンピューターがシステム要件を満たしているかどうかをご確認ください。&lt;/p>
-&lt;p>システム要件の詳細は&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/get-started/arcgis-pro-system-requirements.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/p></description></item><item><title>ダウンロード</title><link>/pro/get-started/setup/user/download/</link><pubDate>Wed, 21 Jan 2026 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/download/</guid><description>
-&lt;h2>インストーラーのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="インストーラーのダウンロード">&lt;/span>
-&lt;a href="#%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%a9%e3%83%bc%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ArcGIS Pro およびパッチ等のインストーラーをダウンロードする手順を説明します。
-&lt;a href="#my-esri-%e3%81%8b%e3%82%89%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89">My Esri&lt;/a> または &lt;a href="#arcgis-online-%e3%81%8b%e3%82%89%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89">ArcGIS Online&lt;/a> からダウンロードする 2 つの方法があります。&lt;/p>
-&lt;h3>My Esri からダウンロード&lt;span class="hx:absolute hx:-mt-20" id="my-esri-からダウンロード">&lt;/span>
-&lt;a href="#my-esri-%e3%81%8b%e3%82%89%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>
-&lt;p>My Esri サイトへアクセスします。
-アクセスの方法は「&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge101.html" target="_blank">My Esri とは － My Esri 利用ガイド&lt;/a>」ページをご参照ください。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>My Esri のダウンロード ページへアクセスし、ArcGIS Pro および任意プログラムをダウンロードします。ダウンロード ページへのアクセスおよびダウンロード方法は「&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge107.html" target="_blank">製品のダウンロード&lt;/a>」ページをご参照ください。&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;h3>ArcGIS Online からダウンロード&lt;span class="hx:absolute hx:-mt-20" id="arcgis-online-からダウンロード">&lt;/span>
-&lt;a href="#arcgis-online-%e3%81%8b%e3%82%89%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;a href="/pro/get-started/setup/admin/">ArcGIS Online の利用登録&lt;/a> が完了している場合、ArcGIS Online から ArcGIS Pro 単体のインストーラーをダウンロードすることができます。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ソフトウェア ダウンロード ポリシーは、組織によって異なります。 &lt;br>
-ArcGIS Online 管理者は、&lt;a href="/online/get-started/setup/admin/settings/"title="組織の設定">組織の設定&lt;/a>のセキュリティのポリシー設定で、[メンバーは、設定ページから、ArcGIS Pro 等のライセンス供与された Esri アプリケーションをダウンロードできます。] をオフにすることで、メンバー自身が ArcGIS Pro をダウンロードできないようにすることができます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;ol>
-&lt;li>
-&lt;p>ArcGIS Online 組織サイトにサイン インします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>画面右上のユーザー名をクリックして開き、[設定] をクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[設定] ページで [ライセンス] タブをクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[ライセンス製品] のリストで [ArcGIS Pro] の右の [ダウンロード] をクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[ダウンロード] ウィンドウの [言語] 設定で、[日本語 (バージョン番号)] を確認します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[ダウンロード] をクリックし、実行ファイル (.exe) をダウンロードします。&lt;/p>
-&lt;/li>
-&lt;/ol></description></item><item><title>インストールとアンインストール</title><link>/pro/get-started/setup/user/install/</link><pubDate>Wed, 21 Jan 2026 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/install/</guid><description>
-&lt;p>ArcGIS Pro の&lt;a href="#%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab">インストール&lt;/a>と&lt;a href="#%e3%82%a2%e3%83%b3%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab">アンインストール&lt;/a>の手順を説明します。&lt;/p>
-&lt;h2>インストール&lt;span class="hx:absolute hx:-mt-20" id="インストール">&lt;/span>
-&lt;a href="#%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ArcGIS Pro をインストールする手順を説明します。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">必ず&lt;strong>管理者権限を持つ半角英数文字名&lt;/strong>のユーザー
-アカウントでコンピューターにログインして作業を行ってください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;ol>
-&lt;li>
-&lt;p>ArcGIS Pro の実行ファイル (.exe) をダブルクリックし、インストールを開始します。
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ご利用される ArcGIS Pro のバージョンによって、必要となる Microsoft Windows Desktop Runtime のバージョンが異なります。&lt;br>
-ArcGIS Pro 3.0 ～ 3.2 のバージョンでは、Microsoft Windows Desktop Runtime - 6.0.x (x64) が必要です。&lt;br>
-インストール時にメッセージが表示された場合は、 &lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge3472.html"target="_blank" rel="noopener">「ArcGIS Pro のインストール時に「Microsoft Windows Desktop Runtime - 6.0.5 (x64) 以上が必要です。」というメッセージが表示される」&lt;/a>をご参照ください。&lt;br>
-ArcGIS Pro 3.3 以降のバージョンでは、Microsoft .NET Desktop Runtime 8.0.0 またはそれ以降のパッチ リリース (8.0.1 など) と Microsoft Edge WebView2 Runtime バージョン 117 以降が必要です。Microsoft .NET 9 以降のバージョンをインストールしても、このソフトウェア要件を満たしません。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>プログラムが自動的に展開されるので、ダイアログにしたがってインストールしてください。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">デフォルトの展開先フォルダーは、&amp;lt;ドキュメント&amp;gt;\ArcGIS Pro
+&lt;h2&gt;システム要件の確認&lt;span class="hx:absolute hx:-mt-20" id="システム要件の確認"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e8%a6%81%e4%bb%b6%e3%81%ae%e7%a2%ba%e8%aa%8d" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ArcGIS Pro は Microsoft Windows オペレーティング システムでサポートされています。&lt;/p&gt;
+&lt;p&gt;ArcGIS Pro をインストールするコンピューターがシステム要件を満たしているかどうかをご確認ください。&lt;/p&gt;
+&lt;p&gt;システム要件の詳細は&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/get-started/arcgis-pro-system-requirements.htm"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/p&gt;</description></item><item><title>ダウンロード</title><link>/pro/get-started/setup/user/download/</link><pubDate>Wed, 21 Jan 2026 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/download/</guid><description>
+&lt;h2&gt;インストーラーのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="インストーラーのダウンロード"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%a9%e3%83%bc%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ArcGIS Pro およびパッチ等のインストーラーをダウンロードする手順を説明します。
+&lt;a href="#my-esri-%e3%81%8b%e3%82%89%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89"&gt;My Esri&lt;/a&gt; または &lt;a href="#arcgis-online-%e3%81%8b%e3%82%89%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89"&gt;ArcGIS Online&lt;/a&gt; からダウンロードする 2 つの方法があります。&lt;/p&gt;
+&lt;h3&gt;My Esri からダウンロード&lt;span class="hx:absolute hx:-mt-20" id="my-esri-からダウンロード"&gt;&lt;/span&gt;
+&lt;a href="#my-esri-%e3%81%8b%e3%82%89%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;My Esri サイトへアクセスします。
+アクセスの方法は「&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge101.html" target="_blank"&gt;My Esri とは － My Esri 利用ガイド&lt;/a&gt;」ページをご参照ください。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;My Esri のダウンロード ページへアクセスし、ArcGIS Pro および任意プログラムをダウンロードします。ダウンロード ページへのアクセスおよびダウンロード方法は「&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge107.html" target="_blank"&gt;製品のダウンロード&lt;/a&gt;」ページをご参照ください。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;ArcGIS Online からダウンロード&lt;span class="hx:absolute hx:-mt-20" id="arcgis-online-からダウンロード"&gt;&lt;/span&gt;
+&lt;a href="#arcgis-online-%e3%81%8b%e3%82%89%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href="/pro/get-started/setup/admin/"&gt;ArcGIS Online の利用登録&lt;/a&gt; が完了している場合、ArcGIS Online から ArcGIS Pro 単体のインストーラーをダウンロードすることができます。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;ソフトウェア ダウンロード ポリシーは、組織によって異なります。 &lt;br&gt;
+ArcGIS Online 管理者は、&lt;a href="/online/get-started/setup/admin/settings/"title="組織の設定"&gt;組織の設定&lt;/a&gt;のセキュリティのポリシー設定で、[メンバーは、設定ページから、ArcGIS Pro 等のライセンス供与された Esri アプリケーションをダウンロードできます。] をオフにすることで、メンバー自身が ArcGIS Pro をダウンロードできないようにすることができます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;ArcGIS Online 組織サイトにサイン インします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;画面右上のユーザー名をクリックして開き、[設定] をクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[設定] ページで [ライセンス] タブをクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[ライセンス製品] のリストで [ArcGIS Pro] の右の [ダウンロード] をクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[ダウンロード] ウィンドウの [言語] 設定で、[日本語 (バージョン番号)] を確認します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[ダウンロード] をクリックし、実行ファイル (.exe) をダウンロードします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>インストールとアンインストール</title><link>/pro/get-started/setup/user/install/</link><pubDate>Wed, 21 Jan 2026 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/install/</guid><description>
+&lt;p&gt;ArcGIS Pro の&lt;a href="#%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab"&gt;インストール&lt;/a&gt;と&lt;a href="#%e3%82%a2%e3%83%b3%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab"&gt;アンインストール&lt;/a&gt;の手順を説明します。&lt;/p&gt;
+&lt;h2&gt;インストール&lt;span class="hx:absolute hx:-mt-20" id="インストール"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ArcGIS Pro をインストールする手順を説明します。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;必ず&lt;strong&gt;管理者権限を持つ半角英数文字名&lt;/strong&gt;のユーザー
+アカウントでコンピューターにログインして作業を行ってください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;ArcGIS Pro の実行ファイル (.exe) をダブルクリックし、インストールを開始します。
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;ご利用される ArcGIS Pro のバージョンによって、必要となる Microsoft Windows Desktop Runtime のバージョンが異なります。&lt;br&gt;
+ArcGIS Pro 3.0 ～ 3.2 のバージョンでは、Microsoft Windows Desktop Runtime - 6.0.x (x64) が必要です。&lt;br&gt;
+インストール時にメッセージが表示された場合は、 &lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge3472.html"target="_blank" rel="noopener"&gt;「ArcGIS Pro のインストール時に「Microsoft Windows Desktop Runtime - 6.0.5 (x64) 以上が必要です。」というメッセージが表示される」&lt;/a&gt;をご参照ください。&lt;br&gt;
+ArcGIS Pro 3.3 以降のバージョンでは、Microsoft .NET Desktop Runtime 8.0.0 またはそれ以降のパッチ リリース (8.0.1 など) と Microsoft Edge WebView2 Runtime バージョン 117 以降が必要です。Microsoft .NET 9 以降のバージョンをインストールしても、このソフトウェア要件を満たしません。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;プログラムが自動的に展開されるので、ダイアログにしたがってインストールしてください。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;デフォルトの展開先フォルダーは、&amp;lt;ドキュメント&amp;gt;\ArcGIS Pro
 &amp;lt;バージョン名&amp;gt;
 です。展開先のドライブの空き容量が不足する場合は、[参照]
-ボタンをクリックして別の保存場所を指定してください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>AI モデル機能は、デフォルトではインストールされません。&lt;br>
-利用目的に応じて、必要な機能を選択してインストールすることを推奨します。すべての AI モデル機能を利用したい場合は、[AI モデル] を選択してください。&lt;br>
-・&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/geocoding/create-locator.htm"target="_blank" rel="noopener">ロケーターの作成&lt;/a>: [ロケーターの作成] ツールにおいて、ユーザーのデータのフィールドをロケーターのフィールドに自動的にマッピングする機能です。&lt;br>
-・&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/get-started/use-semantic-search.htm"target="_blank" rel="noopener">セマンティック検索&lt;/a>: コマンド検索やジオプロセシング検索などで、自然言語による検索を可能にする機能です。従来の検索よりもより関連性の高い結果を提供します。&lt;br>
-・&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/geoprocessing/basics/run-geoprocessing-tools.htm#ESRI_SECTION1_1E6BC92D842F47B6A03FAA08C93ACB8F"target="_blank" rel="noopener">ツールの提案&lt;/a>: 過去のツール実行履歴に基づいて、次のステップに適したジオプロセシングツールを提案する機能です。&lt;br>Enhanced Compression Wavelet Raster ドライバーをインストールしない場合は、[インストールしない] を選択します。&lt;br>&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/pro/get-started/setup/user/install/2025-12-22_09h51_34.png" width="600">
-&lt;/figure>&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>
-&lt;p>ArcGIS Pro がインストールされたら [完了] をクリックします。&lt;br>
-続けて「ArcGIS Pro - 日本語パック」のインストールが開始します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>ArcGIS Pro 日本語パックのセットアップが終了したら、[OK] をクリックします。&lt;br>
-以上で ArcGIS Pro のインストールは完了です。&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ArcGIS Pro パッチおよび任意プログラムをインストールする場合は、続いてインストールをしてください。&lt;br>
-日本国内用のツールはリソース集からダウンロードしてインストールしてください。&lt;br>
-・&lt;a href="/pro/get-started/setup/user/addin-tool/">アドイン ツール&lt;/a>&lt;br>
-・&lt;a href="/pro/get-started/setup/user/style-font/">シンボル スタイルとフォント&lt;/a>&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ArcGIS Pro において Microsoft Excel ファイルを操作する場合は、ドライバーのインストールが必要となる場合があります。&lt;br>
-ArcGIS Pro 3.0-3.4 をお使いの場合は、以下をご参照ください。&lt;br>
-&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge3475.html"target="_blank" rel="noopener">「ArcGIS Pro: Excel ファイルの読み込み方と注意事項 (バージョン 3.0 以降)」&lt;/a>をご参照ください。&lt;br>
-なお、ArcGIS Pro 3.5 以降では、ドライバーのインストールは不要です。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h2>アンインストール&lt;span class="hx:absolute hx:-mt-20" id="アンインストール">&lt;/span>
-&lt;a href="#%e3%82%a2%e3%83%b3%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ArcGIS Pro をアンインストールする手順を説明します。&lt;/p>
-&lt;p>「ArcGIS Pro &amp;ndash; 日本語パック」→「ArcGIS
-Pro」の順にアンインストールしてください。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">指定ユーザー ライセンスの場合は、必ずアンインストール前にオフライン設定の解除を行ってください。&lt;br>
-単独使用 (SU) ライセンスの場合は、必ずアンインストール前にライセンスの認証解除を行ってください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h3>[コントロール パネル] を使用する方法&lt;span class="hx:absolute hx:-mt-20" id="コントロール-パネル-を使用する方法">&lt;/span>
-&lt;a href="#%e3%82%b3%e3%83%b3%e3%83%88%e3%83%ad%e3%83%bc%e3%83%ab-%e3%83%91%e3%83%8d%e3%83%ab-%e3%82%92%e4%bd%bf%e7%94%a8%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>
-&lt;p>Windows の [コントロール パネル] →
-[プログラムと機能] をクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>「ArcGIS Pro &amp;ndash; 日本語パック」→「ArcGIS
-Pro」の順にアンインストールします。各プログラムをクリックして [アンインストールと変更] から [削除] オプションを選択します。&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;h3>[設定] を使用する方法&lt;span class="hx:absolute hx:-mt-20" id="設定-を使用する方法">&lt;/span>
-&lt;a href="#%e8%a8%ad%e5%ae%9a-%e3%82%92%e4%bd%bf%e7%94%a8%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>
-&lt;p>[スタート] → [設定] → [アプリ] から [アプリと機能] へ移動します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>「ArcGIS Pro &amp;ndash; 日本語パック」→「ArcGIS
-Pro」の順にアンインストールします。各プログラムをクリックし、[アンインストール] から [削除] オプションを選択します。&lt;/p>
-&lt;/li>
-&lt;/ol></description></item><item><title>アドイン ツール</title><link>/pro/get-started/setup/user/addin-tool/</link><pubDate>Wed, 21 Jan 2026 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/addin-tool/</guid><description>
-&lt;p>日本国内用のツールはアドイン ツールとして提供しています。
-任意のツールを&lt;a href="#%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89">ダウンロード&lt;/a>し、&lt;a href="#%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab%e3%81%a8%e3%82%a2%e3%83%b3%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab">インストール&lt;/a>してご利用ください。&lt;/p>
-&lt;h2>ダウンロード&lt;span class="hx:absolute hx:-mt-20" id="ダウンロード">&lt;/span>
-&lt;a href="#%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>変換ツール (国内データ) for ArcGIS Pro&lt;span class="hx:absolute hx:-mt-20" id="変換ツール-国内データ-for-arcgis-pro">&lt;/span>
-&lt;a href="#%e5%a4%89%e6%8f%9b%e3%83%84%e3%83%bc%e3%83%ab-%e5%9b%bd%e5%86%85%e3%83%87%e3%83%bc%e3%82%bf-for-arcgis-pro" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>日本の各種団体で規定・提供されている仕様のデータを ArcGIS Pro で利用できるようにするための変換ツール&lt;/p>
-&lt;p>&lt;strong>対応フォーマット&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>基盤地図情報&lt;/p>
-&lt;ul>
-&lt;li>基本項目&lt;/li>
-&lt;li>数値標高モデル（1m、5m、 10m）&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>数値地図（国土基本情報） GML 形式&lt;/p>
-&lt;ul>
-&lt;li>数値地図（国土基本情報 20 万） GML 形式の地図情報&lt;/li>
-&lt;li>数値地図 (国土基本情報 ) GML 形式の地図情報、地名情報、メッシュ標高情報&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>DM データ&lt;/p>
-&lt;ul>
-&lt;li>公共測量作業規定に基づくデータ形式&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>法務省 地図 XML ファイル&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">ファイル&lt;/th>
-&lt;th style="text-align: center">ArcGIS Pro のバージョン&lt;/th>
-&lt;th style="text-align: left">更新日&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://www.esrij.com/support/download/esri/software/arcgis_pro/tools/ESRIJ.ArcGISPro.AddinJPDataCnv_v160.zip"target="_blank" rel="noopener">ESRIJ.ArcGISPro.AddinJPDataCnv_v160.zip&lt;/a>&lt;/td>
-&lt;td style="text-align: center">3.6&lt;/td>
-&lt;td style="text-align: left">2025 年 12 月 26 日&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://www.esrij.com/support/download/esri/software/arcgis_pro/tools/ESRIJ.ArcGISPro.AddinJPDataCnv_v150.zip"target="_blank" rel="noopener">ESRIJ.ArcGISPro.AddinJPDataCnv_v150.zip&lt;/a>&lt;/td>
-&lt;td style="text-align: center">3.5&lt;/td>
-&lt;td style="text-align: left">2025 年 7 月 4 日&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://www.esrij.com/support/download/esri/software/arcgis_pro/tools/ESRIJ.ArcGISPro.AddinJPDataCnv_v140.zip"target="_blank" rel="noopener">ESRIJ.ArcGISPro.AddinJPDataCnv_v140.zip&lt;/a>&lt;/td>
-&lt;td style="text-align: center">3.4&lt;/td>
-&lt;td style="text-align: left">2025 年 2 月 10 日&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://www.esrij.com/support/download/esri/software/arcgis_pro/tools/ESRIJ.ArcGISPro.AddinJPDataCnv_v130.zip"target="_blank" rel="noopener">ESRIJ.ArcGISPro.AddinJPDataCnv_v130.zip&lt;/a>&lt;/td>
-&lt;td style="text-align: center">3.3&lt;/td>
-&lt;td style="text-align: left">2024 年 7 月 4 日&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://www.esrij.com/support/download/esri/software/arcgis_pro/tools/ESRIJ.ArcGISPro.AddinJPDataCnv_v121.zip"target="_blank" rel="noopener">ESRIJ.ArcGISPro.AddinJPDataCnv_v121.zip&lt;/a>&lt;/td>
-&lt;td style="text-align: center">3.2&lt;/td>
-&lt;td style="text-align: left">2024 年 1 月 25 日&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://www.esrij.com/support/download/esri/software/arcgis_pro/tools/ESRIJ.ArcGISPro.AddinJPDataCnv_v110.zip"target="_blank" rel="noopener">ESRIJ.ArcGISPro.AddinJPDataCnv_v110.zip&lt;/a>&lt;/td>
-&lt;td style="text-align: center">3.1&lt;/td>
-&lt;td style="text-align: left">2023 年 4 月 18 日&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3>Zmap 対応ツール for ArcGIS Pro&lt;span class="hx:absolute hx:-mt-20" id="zmap-対応ツール-for-arcgis-pro">&lt;/span>
-&lt;a href="#zmap-%e5%af%be%e5%bf%9c%e3%83%84%e3%83%bc%e3%83%ab-for-arcgis-pro" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>株式会社ゼンリンから発売されている Zmap データをジオデータベースに変換して ArcGIS Pro で利用できるようにするための変換ツール&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">ファイル&lt;/th>
-&lt;th style="text-align: center">ArcGIS Pro のバージョン&lt;/th>
-&lt;th style="text-align: left">更新日&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://www.esrij.com/form/arcgis/zmap-for-arcgispro/"target="_blank" rel="noopener">ダウンロードのお申し込み&lt;/a>&lt;/td>
-&lt;td style="text-align: center">3.6&lt;/td>
-&lt;td style="text-align: left">2025 年 12 月 26 日&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://www.esrij.com/form/arcgis/zmap-for-arcgispro/"target="_blank" rel="noopener">ダウンロードのお申し込み&lt;/a>&lt;/td>
-&lt;td style="text-align: center">3.5&lt;/td>
-&lt;td style="text-align: left">2025 年 7 月 4 日&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://www.esrij.com/form/arcgis/zmap-for-arcgispro/"target="_blank" rel="noopener">ダウンロードのお申し込み&lt;/a>&lt;/td>
-&lt;td style="text-align: center">3.4&lt;/td>
-&lt;td style="text-align: left">2025 年 2 月 10 日&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3>シェープファイル文字コード設定ユーティリティ&lt;span class="hx:absolute hx:-mt-20" id="シェープファイル文字コード設定ユーティリティ">&lt;/span>
-&lt;a href="#%e3%82%b7%e3%82%a7%e3%83%bc%e3%83%97%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e6%96%87%e5%ad%97%e3%82%b3%e3%83%bc%e3%83%89%e8%a8%ad%e5%ae%9a%e3%83%a6%e3%83%bc%e3%83%86%e3%82%a3%e3%83%aa%e3%83%86%e3%82%a3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>ArcGIS Desktop (ArcMap、ArcGIS Pro)、ArcGIS Engine、ArcGIS Server の現在の文字コード設定を確認し、選択した文字コードに設定するためのツール&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">このツールは実行ファイル (*.exe) として提供しているため、インストールの必要はありません。&lt;br>
-ツールにおいて、対象アプリケーションが表示されない場合は、&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge3455.html"target="_blank" rel="noopener">「ArcGIS Pro：文字コード設定ユーティリティから文字コードを変更できない」&lt;/a>をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">ファイル&lt;/th>
-&lt;th style="text-align: left">更新日&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://www.esrij.com/cgi-bin/wp/wp-content/uploads/software/ShpEncodingUtility_Multi.zip"target="_blank" rel="noopener">ShpEncodingUtility_Multi.zip&lt;/a>&lt;/td>
-&lt;td style="text-align: left">2020 年 10 月 20 日&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2>インストールとアンインストール&lt;span class="hx:absolute hx:-mt-20" id="インストールとアンインストール">&lt;/span>
-&lt;a href="#%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab%e3%81%a8%e3%82%a2%e3%83%b3%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">あらかじめコンピューターの設定で、ファイルの拡張子を表示するよう設定を行ってください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>アドインのインストールには大きく分けて 2 つの方法があります。&lt;br>
-1つずつ個別にインストールする方法 (&lt;a href="#%e3%83%9e%e3%82%a4-%e3%82%a2%e3%83%89%e3%82%a4%e3%83%b3">マイ アドイン&lt;/a>) と共有フォルダーなどに配置してあるアドインを自動でインストールする方法 (&lt;a href="#%e5%85%b1%e6%9c%89%e3%82%a2%e3%83%89%e3%82%a4%e3%83%b3">共有アドイン&lt;/a>) で手順が異なります。&lt;/p>
-&lt;h3>マイ アドイン&lt;span class="hx:absolute hx:-mt-20" id="マイ-アドイン">&lt;/span>
-&lt;a href="#%e3%83%9e%e3%82%a4-%e3%82%a2%e3%83%89%e3%82%a4%e3%83%b3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>1 つずつ個別にアドインをインストールする方法&lt;span class="hx:absolute hx:-mt-20" id="1-つずつ個別にアドインをインストールする方法">&lt;/span>
-&lt;a href="#1-%e3%81%a4%e3%81%9a%e3%81%a4%e5%80%8b%e5%88%a5%e3%81%ab%e3%82%a2%e3%83%89%e3%82%a4%e3%83%b3%e3%82%92%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>&lt;strong>インストール&lt;/strong>&lt;/p>
-&lt;ol>
-&lt;li>ArcGIS Pro を終了した状態で、拡張子「*.esriAddinX」ファイルをダブルクリックします。&lt;/li>
-&lt;li>[アドインのインストール] をクリックします。&lt;/li>
-&lt;li>インストールが完了したら、[OK] をクリックします。&lt;/li>
-&lt;li>ArcGIS Pro を起動すると、アドインが有効になります。&lt;/li>
-&lt;/ol>
-&lt;p>&lt;strong>アンインストール&lt;/strong>&lt;/p>
-&lt;ol>
-&lt;li>ArcGIS Pro のプロジェクトを開き、[プロジェクト] タブ → [アドイン マネージャー] をクリックします。&lt;/li>
-&lt;li>[このアドインを削除] をクリックします。&lt;/li>
-&lt;li>ArcGIS Pro を再起動すると、アドインの削除が有効になります。&lt;/li>
-&lt;/ol>
-&lt;h3>共有アドイン&lt;span class="hx:absolute hx:-mt-20" id="共有アドイン">&lt;/span>
-&lt;a href="#%e5%85%b1%e6%9c%89%e3%82%a2%e3%83%89%e3%82%a4%e3%83%b3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>共有フォルダーなどに配置してあるアドインを自動で読み込む方法&lt;span class="hx:absolute hx:-mt-20" id="共有フォルダーなどに配置してあるアドインを自動で読み込む方法">&lt;/span>
-&lt;a href="#%e5%85%b1%e6%9c%89%e3%83%95%e3%82%a9%e3%83%ab%e3%83%80%e3%83%bc%e3%81%aa%e3%81%a9%e3%81%ab%e9%85%8d%e7%bd%ae%e3%81%97%e3%81%a6%e3%81%82%e3%82%8b%e3%82%a2%e3%83%89%e3%82%a4%e3%83%b3%e3%82%92%e8%87%aa%e5%8b%95%e3%81%a7%e8%aa%ad%e3%81%bf%e8%be%bc%e3%82%80%e6%96%b9%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>この方法でインストールすると、任意のフォルダーに配置しているアドインを自動で読み込み、アドインを使用できるようになります。&lt;/p>
-&lt;p>&lt;strong>インストール&lt;/strong>&lt;/p>
-&lt;ol>
-&lt;li>拡張子「*.esriAddinX」ファイルを任意の共有フォルダーにコピーします。&lt;/li>
-&lt;li>ArcGIS Pro を起動し、[プロジェクト] タブ → [アドイン マネージャー] をクリックします。&lt;/li>
-&lt;li>[アドイン マネージャー] の [オプション] をクリックし、[フォルダーの追加] ボタンから、手順 1 でアドインをコピーした共有フォルダーを指定します。&lt;br>
-※共有フォルダーに存在するすべてのアドインが使用可能になります。&lt;/li>
-&lt;li>ArcGIS Pro を再起動すると、アドインが有効になります。&lt;/li>
-&lt;li>[アドイン マネージャー] においては、[共有アドイン] セクションにインストールしたアドインが表示されます。&lt;/li>
-&lt;/ol>
-&lt;p>&lt;strong>アンインストール&lt;/strong>&lt;/p>
-&lt;ol>
-&lt;li>ArcGIS Pro を起動し、[プロジェクト] タブ → [アドイン マネージャー] をクリックします。&lt;/li>
-&lt;li>[オプション] タブをクリックし、削除するフォルダーを選択し、[フォルダーの削除] ボタンをクリックします。&lt;br>
-※フォルダー内に存在するすべてのアドインが使用できなくなります。&lt;/li>
-&lt;li>ArcGIS Pro を再起動すると、アドインの削除が有効になります。&lt;/li>
-&lt;/ol></description></item><item><title>シンボル スタイルとフォント</title><link>/pro/get-started/setup/user/style-font/</link><pubDate>Wed, 21 Jan 2026 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/style-font/</guid><description>
-&lt;p>ArcGIS Pro で使用できる日本用地図シンボルです。地図シンボルを利用するためには、&lt;a href="#%e3%83%95%e3%82%a9%e3%83%b3%e3%83%88">フォント&lt;/a>をインストールし、&lt;a href="#%e3%82%b7%e3%83%b3%e3%83%9c%e3%83%ab%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab">シンボル スタイル&lt;/a>の利用設定を行います。&lt;/p>
-&lt;h2>フォント&lt;span class="hx:absolute hx:-mt-20" id="フォント">&lt;/span>
-&lt;a href="#%e3%83%95%e3%82%a9%e3%83%b3%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>ダウンロード&lt;span class="hx:absolute hx:-mt-20" id="ダウンロード">&lt;/span>
-&lt;a href="#%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">ファイル&lt;/th>
-&lt;th style="text-align: left">更新日&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://www.esrij.com/support/download/esri/software/arcgis/JpnPack_Fonts_2023_01.msi"target="_blank" rel="noopener">JpnPack_Fonts_2023_01.msi&lt;/a>&lt;/td>
-&lt;td style="text-align: left">2023 年 1 月 12 日&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3>インストール&lt;span class="hx:absolute hx:-mt-20" id="インストール">&lt;/span>
-&lt;a href="#%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>ダウンロードしたファイル (*.msi) をダブルクリックし、インストールを行います。&lt;/p>
-&lt;h2>シンボルスタイル&lt;span class="hx:absolute hx:-mt-20" id="シンボルスタイル">&lt;/span>
-&lt;a href="#%e3%82%b7%e3%83%b3%e3%83%9c%e3%83%ab%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>ダウンロード&lt;span class="hx:absolute hx:-mt-20" id="ダウンロード-1">&lt;/span>
-&lt;a href="#%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89-1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">ファイル&lt;/th>
-&lt;th style="text-align: center">ArcGIS Pro のバージョン&lt;/th>
-&lt;th style="text-align: left">更新日&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">&lt;a href="https://www.esrij.com/cgi-bin/wp/wp-content/uploads/software/ArcGISPro30_JpnStyle.zip"target="_blank" rel="noopener">ArcGISPro30_JpnStyle.zip&lt;/a>&lt;/td>
-&lt;td style="text-align: center">3.1、3.2、3.3、3.4、3.5、3.6&lt;/td>
-&lt;td style="text-align: left">2023 年 1 月 12 日&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3>利用方法&lt;span class="hx:absolute hx:-mt-20" id="利用方法">&lt;/span>
-&lt;a href="#%e5%88%a9%e7%94%a8%e6%96%b9%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>日本国内用のシンボル スタイルを ArcGIS Pro のプロジェクトに追加する方法&lt;span class="hx:absolute hx:-mt-20" id="日本国内用のシンボル-スタイルを-arcgis-pro-のプロジェクトに追加する方法">&lt;/span>
-&lt;a href="#%e6%97%a5%e6%9c%ac%e5%9b%bd%e5%86%85%e7%94%a8%e3%81%ae%e3%82%b7%e3%83%b3%e3%83%9c%e3%83%ab-%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab%e3%82%92-arcgis-pro-%e3%81%ae%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%e3%81%ab%e8%bf%bd%e5%8a%a0%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ol>
-&lt;li>ファイルをダウンロードして解凍し、任意の場所にコピーします。&lt;/li>
-&lt;li>ArcGIS Pro のプロジェクトを開きます。&lt;/li>
-&lt;li>[挿入] タブ → [追加] → [スタイルの追加] から使用したいスタイル ファイル (拡張子：*.stylx) を選択して追加します。&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">一部のシンボルにおいてカスタム フォントが使用されています。シンボル スタイルだけではなく、必ず&lt;a href="#%e3%83%95%e3%82%a9%e3%83%b3%e3%83%88">フォント&lt;/a>もインストールしてください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h4>追加したシンボル スタイルを他のプロジェクトでも使用する方法&lt;span class="hx:absolute hx:-mt-20" id="追加したシンボル-スタイルを他のプロジェクトでも使用する方法">&lt;/span>
-&lt;a href="#%e8%bf%bd%e5%8a%a0%e3%81%97%e3%81%9f%e3%82%b7%e3%83%b3%e3%83%9c%e3%83%ab-%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab%e3%82%92%e4%bb%96%e3%81%ae%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%e3%81%a7%e3%82%82%e4%bd%bf%e7%94%a8%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ol>
-&lt;li>[表示] タブの [ウィンドウ] グループにある [カタログ ウィンドウ] をクリックします。&lt;/li>
-&lt;li>[カタログ] ウィンドウで [スタイル] フォルダーを展開し、他プロジェクトでも使用したいスタイルを右クリックします。&lt;/li>
-&lt;li>[管理] をクリックすると、[カタログ] ビューにシンボルが表示されます。&lt;/li>
-&lt;li>お気に入りに追加したいシンボルを選択した状態で右クリックし、[お気に入りに追加] をクリックします。
-お気に入りに追加されたシンボル スタイルは、[シンボル] ウィンドウの [お気に入り] からアクセスすることができます。&lt;/li>
-&lt;/ol></description></item></channel></rss>
+ボタンをクリックして別の保存場所を指定してください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;AI モデル機能は、デフォルトではインストールされません。&lt;br&gt;
+利用目的に応じて、必要な機能を選択してインストールすることを推奨します。すべての AI モデル機能を利用したい場合は、[AI モデル] を選択してください。&lt;br&gt;
+・&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/geocoding/create-locator.htm"target="_blank" rel="noopener"&gt;ロケーターの作成&lt;/a&gt;: [ロケーターの作成] ツールにおいて、ユーザーのデータのフィールドをロケーターのフィールドに自動的にマッピングする機能です。&lt;br&gt;
+・&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/get-started/use-semantic-search.htm"target="_blank" rel="noopener"&gt;セマンティック検索&lt;/a&gt;: コマンド検索やジオプロセシング検索などで、自然言語による検索を可能にする機能です。従来の検索よりもより関連性の高い結果を提供します。&lt;br&gt;
+・&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/geoprocessing/basics/run-geoprocessing-tools.htm#ESRI_SECTION1_1E6BC92D842F47B6A03FAA08C93ACB8F"target="_blank" rel="noopener"&gt;ツールの提案&lt;/a&gt;: 過去のツール実行履歴に基づいて、次のステップに適したジオプロセシングツールを提案する機能です。&lt;br&gt;Enhanced Compression Wavelet Raster ドライバーをインストールしない場合は、[インストールしない] を選択します。&lt;br&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/pro/get-started/setup/user/install/2025-12-22_09h51_34.png" width="600"&gt;
+&lt;/figure&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ArcGIS Pro がインストールされたら [完了] をクリックします。&lt;br&gt;
+続けて「ArcGIS Pro - 日本語パック」のインストールが開始します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ArcGIS Pro 日本語パックのセットアップが終了したら、[OK] をクリックします。&lt;br&gt;
+以上で ArcGIS Pro のインストールは完了です。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;ArcGIS Pro パッチおよび任意プログラムをインストールする場合は、続いてインストールをしてください。&lt;br&gt;
+日本国内用のツールはリソース集からダウンロードしてインストールしてください。&lt;br&gt;
+・&lt;a href="/pro/get-started/setup/user/addin-tool/"&gt;アドイン ツール&lt;/a&gt;&lt;br&gt;
+・&lt;a href="/pro/get-started/setup/user/style-font/"&gt;シンボル スタイルとフォント&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;ArcGIS Pro において Microsoft Excel ファイルを操作する場合は、ドライバーのインストールが必要となる場合があります。&lt;br&gt;
+ArcGIS Pro 3.0-3.4 をお使いの場合は、以下をご参照ください。&lt;br&gt;
+&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge3475.html"target="_blank" rel="noopener"&gt;「ArcGIS Pro: Excel ファイルの読み込み方と注意事項 (バージョン 3.0 以降)」&lt;/a&gt;をご参照ください。&lt;br&gt;
+なお、ArcGIS Pro 3.5 以降では、ドライバーのインストールは不要です。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;アンインストール&lt;span class="hx:absolute hx:-mt-20" id="アンインストール"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%a2%e3%83%b3%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ArcGIS Pro をアンインストールする手順を説明します。&lt;/p&gt;
+&lt;p&gt;「ArcGIS Pro &amp;ndash; 日本語パック」→「ArcGIS
+Pro」の順にアンインストールしてください。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;指定ユーザー ライセンスの場合は、必ずアンインストール前にオフライン設定の解除を行ってください。&lt;br&gt;
+単独使用 (SU) ライセンスの場合は、必ずアンインストール前にライセンスの認証解除を行ってください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;[コントロール パネル] を使用する方法&lt;span class="hx:absolute hx:-mt-20" id="コントロール-パネル-を使用する方法"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b3%e3%83%b3%e3%83%88%e3%83%ad%e3%83%bc%e3%83%ab-%e3%83%91%e3%83%8d%e3%83%ab-%e3%82%92%e4%bd%bf%e7%94%a8%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Windows の [コントロール パネル] →
+[プログラムと機能] をクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;「ArcGIS Pro &amp;ndash; 日本語パック」→「ArcGIS
+Pro」の順にアンインストールします。各プログラムをクリックして [アンインストールと変更] から [削除] オプションを選択します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;[設定] を使用する方法&lt;span class="hx:absolute hx:-mt-20" id="設定-を使用する方法"&gt;&lt;/span&gt;
+&lt;a href="#%e8%a8%ad%e5%ae%9a-%e3%82%92%e4%bd%bf%e7%94%a8%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;[スタート] → [設定] → [アプリ] から [アプリと機能] へ移動します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;「ArcGIS Pro &amp;ndash; 日本語パック」→「ArcGIS
+Pro」の順にアンインストールします。各プログラムをクリックし、[アンインストール] から [削除] オプションを選択します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>アドイン ツール</title><link>/pro/get-started/setup/user/addin-tool/</link><pubDate>Wed, 21 Jan 2026 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/addin-tool/</guid><description>
+&lt;p&gt;日本国内用のツールはアドイン ツールとして提供しています。
+任意のツールを&lt;a href="#%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89"&gt;ダウンロード&lt;/a&gt;し、&lt;a href="#%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab%e3%81%a8%e3%82%a2%e3%83%b3%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab"&gt;インストール&lt;/a&gt;してご利用ください。&lt;/p&gt;
+&lt;h2&gt;ダウンロード&lt;span class="hx:absolute hx:-mt-20" id="ダウンロード"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;変換ツール (国内データ) for ArcGIS Pro&lt;span class="hx:absolute hx:-mt-20" id="変換ツール-国内データ-for-arcgis-pro"&gt;&lt;/span&gt;
+&lt;a href="#%e5%a4%89%e6%8f%9b%e3%83%84%e3%83%bc%e3%83%ab-%e5%9b%bd%e5%86%85%e3%83%87%e3%83%bc%e3%82%bf-for-arcgis-pro" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;日本の各種団体で規定・提供されている仕様のデータを ArcGIS Pro で利用できるようにするための変換ツール&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;対応フォーマット&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;基盤地図情報&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;基本項目&lt;/li&gt;
+&lt;li&gt;数値標高モデル（1m、5m、 10m）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数値地図（国土基本情報） GML 形式&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;数値地図（国土基本情報 20 万） GML 形式の地図情報&lt;/li&gt;
+&lt;li&gt;数値地図 (国土基本情報 ) GML 形式の地図情報、地名情報、メッシュ標高情報&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;DM データ&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;公共測量作業規定に基づくデータ形式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;法務省 地図 XML ファイル&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;ファイル&lt;/th&gt;
+&lt;th style="text-align: center"&gt;ArcGIS Pro のバージョン&lt;/th&gt;
+&lt;th style="text-align: left"&gt;更新日&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://www.esrij.com/support/download/esri/software/arcgis_pro/tools/ESRIJ.ArcGISPro.AddinJPDataCnv_v160.zip"target="_blank" rel="noopener"&gt;ESRIJ.ArcGISPro.AddinJPDataCnv_v160.zip&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: center"&gt;3.6&lt;/td&gt;
+&lt;td style="text-align: left"&gt;2025 年 12 月 26 日&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://www.esrij.com/support/download/esri/software/arcgis_pro/tools/ESRIJ.ArcGISPro.AddinJPDataCnv_v150.zip"target="_blank" rel="noopener"&gt;ESRIJ.ArcGISPro.AddinJPDataCnv_v150.zip&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: center"&gt;3.5&lt;/td&gt;
+&lt;td style="text-align: left"&gt;2025 年 7 月 4 日&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://www.esrij.com/support/download/esri/software/arcgis_pro/tools/ESRIJ.ArcGISPro.AddinJPDataCnv_v140.zip"target="_blank" rel="noopener"&gt;ESRIJ.ArcGISPro.AddinJPDataCnv_v140.zip&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: center"&gt;3.4&lt;/td&gt;
+&lt;td style="text-align: left"&gt;2025 年 2 月 10 日&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://www.esrij.com/support/download/esri/software/arcgis_pro/tools/ESRIJ.ArcGISPro.AddinJPDataCnv_v130.zip"target="_blank" rel="noopener"&gt;ESRIJ.ArcGISPro.AddinJPDataCnv_v130.zip&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: center"&gt;3.3&lt;/td&gt;
+&lt;td style="text-align: left"&gt;2024 年 7 月 4 日&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://www.esrij.com/support/download/esri/software/arcgis_pro/tools/ESRIJ.ArcGISPro.AddinJPDataCnv_v121.zip"target="_blank" rel="noopener"&gt;ESRIJ.ArcGISPro.AddinJPDataCnv_v121.zip&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: center"&gt;3.2&lt;/td&gt;
+&lt;td style="text-align: left"&gt;2024 年 1 月 25 日&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://www.esrij.com/support/download/esri/software/arcgis_pro/tools/ESRIJ.ArcGISPro.AddinJPDataCnv_v110.zip"target="_blank" rel="noopener"&gt;ESRIJ.ArcGISPro.AddinJPDataCnv_v110.zip&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: center"&gt;3.1&lt;/td&gt;
+&lt;td style="text-align: left"&gt;2023 年 4 月 18 日&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;Zmap 対応ツール for ArcGIS Pro&lt;span class="hx:absolute hx:-mt-20" id="zmap-対応ツール-for-arcgis-pro"&gt;&lt;/span&gt;
+&lt;a href="#zmap-%e5%af%be%e5%bf%9c%e3%83%84%e3%83%bc%e3%83%ab-for-arcgis-pro" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;株式会社ゼンリンから発売されている Zmap データをジオデータベースに変換して ArcGIS Pro で利用できるようにするための変換ツール&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;ファイル&lt;/th&gt;
+&lt;th style="text-align: center"&gt;ArcGIS Pro のバージョン&lt;/th&gt;
+&lt;th style="text-align: left"&gt;更新日&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://www.esrij.com/form/arcgis/zmap-for-arcgispro/"target="_blank" rel="noopener"&gt;ダウンロードのお申し込み&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: center"&gt;3.6&lt;/td&gt;
+&lt;td style="text-align: left"&gt;2025 年 12 月 26 日&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://www.esrij.com/form/arcgis/zmap-for-arcgispro/"target="_blank" rel="noopener"&gt;ダウンロードのお申し込み&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: center"&gt;3.5&lt;/td&gt;
+&lt;td style="text-align: left"&gt;2025 年 7 月 4 日&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://www.esrij.com/form/arcgis/zmap-for-arcgispro/"target="_blank" rel="noopener"&gt;ダウンロードのお申し込み&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: center"&gt;3.4&lt;/td&gt;
+&lt;td style="text-align: left"&gt;2025 年 2 月 10 日&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;シェープファイル文字コード設定ユーティリティ&lt;span class="hx:absolute hx:-mt-20" id="シェープファイル文字コード設定ユーティリティ"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b7%e3%82%a7%e3%83%bc%e3%83%97%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e6%96%87%e5%ad%97%e3%82%b3%e3%83%bc%e3%83%89%e8%a8%ad%e5%ae%9a%e3%83%a6%e3%83%bc%e3%83%86%e3%82%a3%e3%83%aa%e3%83%86%e3%82%a3" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;ArcGIS Desktop (ArcMap、ArcGIS Pro)、ArcGIS Engine、ArcGIS Server の現在の文字コード設定を確認し、選択した文字コードに設定するためのツール&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;このツールは実行ファイル (*.exe) として提供しているため、インストールの必要はありません。&lt;br&gt;
+ツールにおいて、対象アプリケーションが表示されない場合は、&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge3455.html"target="_blank" rel="noopener"&gt;「ArcGIS Pro：文字コード設定ユーティリティから文字コードを変更できない」&lt;/a&gt;をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;ファイル&lt;/th&gt;
+&lt;th style="text-align: left"&gt;更新日&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://www.esrij.com/cgi-bin/wp/wp-content/uploads/software/ShpEncodingUtility_Multi.zip"target="_blank" rel="noopener"&gt;ShpEncodingUtility_Multi.zip&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;2020 年 10 月 20 日&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;インストールとアンインストール&lt;span class="hx:absolute hx:-mt-20" id="インストールとアンインストール"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab%e3%81%a8%e3%82%a2%e3%83%b3%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;あらかじめコンピューターの設定で、ファイルの拡張子を表示するよう設定を行ってください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;アドインのインストールには大きく分けて 2 つの方法があります。&lt;br&gt;
+1つずつ個別にインストールする方法 (&lt;a href="#%e3%83%9e%e3%82%a4-%e3%82%a2%e3%83%89%e3%82%a4%e3%83%b3"&gt;マイ アドイン&lt;/a&gt;) と共有フォルダーなどに配置してあるアドインを自動でインストールする方法 (&lt;a href="#%e5%85%b1%e6%9c%89%e3%82%a2%e3%83%89%e3%82%a4%e3%83%b3"&gt;共有アドイン&lt;/a&gt;) で手順が異なります。&lt;/p&gt;
+&lt;h3&gt;マイ アドイン&lt;span class="hx:absolute hx:-mt-20" id="マイ-アドイン"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%9e%e3%82%a4-%e3%82%a2%e3%83%89%e3%82%a4%e3%83%b3" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;1 つずつ個別にアドインをインストールする方法&lt;span class="hx:absolute hx:-mt-20" id="1-つずつ個別にアドインをインストールする方法"&gt;&lt;/span&gt;
+&lt;a href="#1-%e3%81%a4%e3%81%9a%e3%81%a4%e5%80%8b%e5%88%a5%e3%81%ab%e3%82%a2%e3%83%89%e3%82%a4%e3%83%b3%e3%82%92%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;インストール&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;ArcGIS Pro を終了した状態で、拡張子「*.esriAddinX」ファイルをダブルクリックします。&lt;/li&gt;
+&lt;li&gt;[アドインのインストール] をクリックします。&lt;/li&gt;
+&lt;li&gt;インストールが完了したら、[OK] をクリックします。&lt;/li&gt;
+&lt;li&gt;ArcGIS Pro を起動すると、アドインが有効になります。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;アンインストール&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;ArcGIS Pro のプロジェクトを開き、[プロジェクト] タブ → [アドイン マネージャー] をクリックします。&lt;/li&gt;
+&lt;li&gt;[このアドインを削除] をクリックします。&lt;/li&gt;
+&lt;li&gt;ArcGIS Pro を再起動すると、アドインの削除が有効になります。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;共有アドイン&lt;span class="hx:absolute hx:-mt-20" id="共有アドイン"&gt;&lt;/span&gt;
+&lt;a href="#%e5%85%b1%e6%9c%89%e3%82%a2%e3%83%89%e3%82%a4%e3%83%b3" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;共有フォルダーなどに配置してあるアドインを自動で読み込む方法&lt;span class="hx:absolute hx:-mt-20" id="共有フォルダーなどに配置してあるアドインを自動で読み込む方法"&gt;&lt;/span&gt;
+&lt;a href="#%e5%85%b1%e6%9c%89%e3%83%95%e3%82%a9%e3%83%ab%e3%83%80%e3%83%bc%e3%81%aa%e3%81%a9%e3%81%ab%e9%85%8d%e7%bd%ae%e3%81%97%e3%81%a6%e3%81%82%e3%82%8b%e3%82%a2%e3%83%89%e3%82%a4%e3%83%b3%e3%82%92%e8%87%aa%e5%8b%95%e3%81%a7%e8%aa%ad%e3%81%bf%e8%be%bc%e3%82%80%e6%96%b9%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;この方法でインストールすると、任意のフォルダーに配置しているアドインを自動で読み込み、アドインを使用できるようになります。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;インストール&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;拡張子「*.esriAddinX」ファイルを任意の共有フォルダーにコピーします。&lt;/li&gt;
+&lt;li&gt;ArcGIS Pro を起動し、[プロジェクト] タブ → [アドイン マネージャー] をクリックします。&lt;/li&gt;
+&lt;li&gt;[アドイン マネージャー] の [オプション] をクリックし、[フォルダーの追加] ボタンから、手順 1 でアドインをコピーした共有フォルダーを指定します。&lt;br&gt;
+※共有フォルダーに存在するすべてのアドインが使用可能になります。&lt;/li&gt;
+&lt;li&gt;ArcGIS Pro を再起動すると、アドインが有効になります。&lt;/li&gt;
+&lt;li&gt;[アドイン マネージャー] においては、[共有アドイン] セクションにインストールしたアドインが表示されます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;アンインストール&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;ArcGIS Pro を起動し、[プロジェクト] タブ → [アドイン マネージャー] をクリックします。&lt;/li&gt;
+&lt;li&gt;[オプション] タブをクリックし、削除するフォルダーを選択し、[フォルダーの削除] ボタンをクリックします。&lt;br&gt;
+※フォルダー内に存在するすべてのアドインが使用できなくなります。&lt;/li&gt;
+&lt;li&gt;ArcGIS Pro を再起動すると、アドインの削除が有効になります。&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>シンボル スタイルとフォント</title><link>/pro/get-started/setup/user/style-font/</link><pubDate>Wed, 21 Jan 2026 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/style-font/</guid><description>
+&lt;p&gt;ArcGIS Pro で使用できる日本用地図シンボルです。地図シンボルを利用するためには、&lt;a href="#%e3%83%95%e3%82%a9%e3%83%b3%e3%83%88"&gt;フォント&lt;/a&gt;をインストールし、&lt;a href="#%e3%82%b7%e3%83%b3%e3%83%9c%e3%83%ab%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab"&gt;シンボル スタイル&lt;/a&gt;の利用設定を行います。&lt;/p&gt;
+&lt;h2&gt;フォント&lt;span class="hx:absolute hx:-mt-20" id="フォント"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%95%e3%82%a9%e3%83%b3%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;ダウンロード&lt;span class="hx:absolute hx:-mt-20" id="ダウンロード"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;ファイル&lt;/th&gt;
+&lt;th style="text-align: left"&gt;更新日&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://www.esrij.com/support/download/esri/software/arcgis/JpnPack_Fonts_2023_01.msi"target="_blank" rel="noopener"&gt;JpnPack_Fonts_2023_01.msi&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;2023 年 1 月 12 日&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;インストール&lt;span class="hx:absolute hx:-mt-20" id="インストール"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;ダウンロードしたファイル (*.msi) をダブルクリックし、インストールを行います。&lt;/p&gt;
+&lt;h2&gt;シンボルスタイル&lt;span class="hx:absolute hx:-mt-20" id="シンボルスタイル"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b7%e3%83%b3%e3%83%9c%e3%83%ab%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;ダウンロード&lt;span class="hx:absolute hx:-mt-20" id="ダウンロード-1"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89-1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;ファイル&lt;/th&gt;
+&lt;th style="text-align: center"&gt;ArcGIS Pro のバージョン&lt;/th&gt;
+&lt;th style="text-align: left"&gt;更新日&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://www.esrij.com/cgi-bin/wp/wp-content/uploads/software/ArcGISPro30_JpnStyle.zip"target="_blank" rel="noopener"&gt;ArcGISPro30_JpnStyle.zip&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: center"&gt;3.1、3.2、3.3、3.4、3.5、3.6&lt;/td&gt;
+&lt;td style="text-align: left"&gt;2023 年 1 月 12 日&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;利用方法&lt;span class="hx:absolute hx:-mt-20" id="利用方法"&gt;&lt;/span&gt;
+&lt;a href="#%e5%88%a9%e7%94%a8%e6%96%b9%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;日本国内用のシンボル スタイルを ArcGIS Pro のプロジェクトに追加する方法&lt;span class="hx:absolute hx:-mt-20" id="日本国内用のシンボル-スタイルを-arcgis-pro-のプロジェクトに追加する方法"&gt;&lt;/span&gt;
+&lt;a href="#%e6%97%a5%e6%9c%ac%e5%9b%bd%e5%86%85%e7%94%a8%e3%81%ae%e3%82%b7%e3%83%b3%e3%83%9c%e3%83%ab-%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab%e3%82%92-arcgis-pro-%e3%81%ae%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%e3%81%ab%e8%bf%bd%e5%8a%a0%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;ファイルをダウンロードして解凍し、任意の場所にコピーします。&lt;/li&gt;
+&lt;li&gt;ArcGIS Pro のプロジェクトを開きます。&lt;/li&gt;
+&lt;li&gt;[挿入] タブ → [追加] → [スタイルの追加] から使用したいスタイル ファイル (拡張子：*.stylx) を選択して追加します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;一部のシンボルにおいてカスタム フォントが使用されています。シンボル スタイルだけではなく、必ず&lt;a href="#%e3%83%95%e3%82%a9%e3%83%b3%e3%83%88"&gt;フォント&lt;/a&gt;もインストールしてください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4&gt;追加したシンボル スタイルを他のプロジェクトでも使用する方法&lt;span class="hx:absolute hx:-mt-20" id="追加したシンボル-スタイルを他のプロジェクトでも使用する方法"&gt;&lt;/span&gt;
+&lt;a href="#%e8%bf%bd%e5%8a%a0%e3%81%97%e3%81%9f%e3%82%b7%e3%83%b3%e3%83%9c%e3%83%ab-%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab%e3%82%92%e4%bb%96%e3%81%ae%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%e3%81%a7%e3%82%82%e4%bd%bf%e7%94%a8%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;[表示] タブの [ウィンドウ] グループにある [カタログ ウィンドウ] をクリックします。&lt;/li&gt;
+&lt;li&gt;[カタログ] ウィンドウで [スタイル] フォルダーを展開し、他プロジェクトでも使用したいスタイルを右クリックします。&lt;/li&gt;
+&lt;li&gt;[管理] をクリックすると、[カタログ] ビューにシンボルが表示されます。&lt;/li&gt;
+&lt;li&gt;お気に入りに追加したいシンボルを選択した状態で右クリックし、[お気に入りに追加] をクリックします。
+お気に入りに追加されたシンボル スタイルは、[シンボル] ウィンドウの [お気に入り] からアクセスすることができます。&lt;/li&gt;
+&lt;/ol&gt;</description></item></channel></rss>

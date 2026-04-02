@@ -1,68 +1,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – Pro</title><link>/business-analyst/pro/</link><description>Recent content in Pro on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0900</lastBuildDate><atom:link href="/business-analyst/pro/index.xml" rel="self" type="application/rss+xml"/><item><title>スタートアップ ガイド</title><link>/business-analyst/pro/get-started/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/get-started/</guid><description>
-&lt;p>BA Pro を利用するために必要なアプリケーションおよびローカル データセットのセットアップ方法をご案内します。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">BA Advanced Bundle を購入された場合、ローカル データセットは付属しません。解析の際には&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/setting-business-analyst-data-source.htm#ESRI_SECTION1_E5E92A42437046A197CA766EBB1A6200" target="_blank">オンライン データ&lt;/a>をご利用ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">旧来のアプリケーションである ArcMap 版 Business Analyst Desktop を利用する場合は、&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge101.html" target="_blank">My Esri&lt;/a> から &lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge106.html" target="_blank">お問い合わせ&lt;/a>ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;ul class="list-disc ml-6">
-&lt;li>
-&lt;a href="/business-analyst/pro/get-started/software/">アプリケーション&lt;/a>&lt;br>BA Pro の利用に必要なアプリケーションおよびライセンスのセットアップ方法を説明します。
-&lt;/li>
-&lt;li>
-&lt;a href="/business-analyst/pro/get-started/data/">データセット&lt;/a>&lt;br>Business Analyst 用ローカル データセットのセットアップ方法を説明します。
-&lt;/li>
-&lt;/ul></description></item><item><title>チュートリアル</title><link>/business-analyst/pro/tutorial/</link><pubDate>Fri, 19 Nov 2021 00:00:00 +0900</pubDate><guid>/business-analyst/pro/tutorial/</guid><description>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">本チュートリアルは、ArcGIS Pro のバージョン 3.6 および BA Pro 2025 年版データを使用する前提の内容となっています。演習環境によっては、演習時の出力結果がチュートリアル内の結果と異なる場合があります。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>BA Pro のチュートリアルを通して、活用方法や操作方法を学ぶことができます。&lt;/p>
-&lt;ul class="list-disc ml-6">
-&lt;li>
-&lt;a href="/business-analyst/pro/tutorial/overview/">はじめに&lt;/a>&lt;br>ArcGIS Business Analyst および BA Pro の概要を説明します。
-&lt;/li>
-&lt;li>
-&lt;a href="/business-analyst/pro/tutorial/prepare-for-tutorial/">事前準備&lt;/a>&lt;br>演習を行うにあたり必要な作業を行います。
-&lt;/li>
-&lt;li>
-&lt;a href="/business-analyst/pro/tutorial/tradearea-analysis/">商圏分析&lt;/a>&lt;br>自社店舗や人口統計情報を用いて商圏分析を行います。
-&lt;/li>
-&lt;li>
-&lt;a href="/business-analyst/pro/tutorial/customer-analysis/">顧客分析&lt;/a>&lt;br>自社店舗および顧客や人口統計情報を用いて顧客分析を行います。
-&lt;/li>
-&lt;li>
-&lt;a href="/business-analyst/pro/tutorial/huff-model/">ハフ モデル&lt;/a>&lt;br>ハフ モデルを実行して、ポテンシャルの吸引率をシミュレーションします。
-&lt;/li>
-&lt;li>
-&lt;a href="/business-analyst/pro/tutorial/territory-design/">テリトリー デザイン&lt;/a>&lt;br>テリトリー デザインを実行して、営業管轄エリアや配送エリアを最適化する方法を習得します。
-&lt;/li>
-&lt;li>
-&lt;a href="/business-analyst/pro/tutorial/customize-data/">データのカスタマイズ&lt;/a>&lt;br>自社独自のデータをカスタマイズして、解析に利用します。
-&lt;/li>
-&lt;li>
-&lt;a href="/business-analyst/pro/tutorial/customize-report/">レポートのカスタマイズ&lt;/a>&lt;br>オフラインデータを使用して、ユーザー独自のレポートを作成します。
-&lt;/li>
-&lt;/ul>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">米国 Esri 社が提供する &lt;a href="https://learn.arcgis.com/ja/gallery/#?p=busanalyst" target="_blank">&lt;strong>Learn ArcGIS&lt;/strong>&lt;/a> にも ArcGIS Business Analyst に関するチュートリアルがありますので、こちらもご活用ください。&lt;/div>
-&lt;/div>
-&lt;/div></description></item><item><title>Tips</title><link>/business-analyst/pro/tips/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0900</pubDate><guid>/business-analyst/pro/tips/</guid><description>
-&lt;p>BA Pro のヘルプや FAQ, ArcMap 版 BA Desktop からの移行に役立つ各種ドキュメントです。&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/what-is-business-analyst-pro.htm" target="_blank">BA Pro ヘルプ | ドキュメント&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledgeList.html?searchMethod=0&amp;searchCondition=0&amp;targetNameFlg=1&amp;searchCategory=1&amp;searchItem=1&amp;searchTag=1&amp;searchKnowledgeKind=1&amp;category%5B102%5D%5B1%5D=205&amp;category%5B102%5D%5B2%5D=208" target="_blank">BA Pro の操作に関する FAQ&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/business-analyst/pro/tips/migration-guide/">ArcMap 版 BA Desktop ユーザー向け 移行ガイド&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/business-analyst/pro/tips/functionality/">ArcMap 版 BA Desktop との機能対応表&lt;/a>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;p&gt;BA Pro を利用するために必要なアプリケーションおよびローカル データセットのセットアップ方法をご案内します。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;BA Advanced Bundle を購入された場合、ローカル データセットは付属しません。解析の際には&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/setting-business-analyst-data-source.htm#ESRI_SECTION1_E5E92A42437046A197CA766EBB1A6200" target="_blank"&gt;オンライン データ&lt;/a&gt;をご利用ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;旧来のアプリケーションである ArcMap 版 Business Analyst Desktop を利用する場合は、&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge101.html" target="_blank"&gt;My Esri&lt;/a&gt; から &lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge106.html" target="_blank"&gt;お問い合わせ&lt;/a&gt;ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul class="list-disc ml-6"&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/pro/get-started/software/"&gt;アプリケーション&lt;/a&gt;&lt;br&gt;BA Pro の利用に必要なアプリケーションおよびライセンスのセットアップ方法を説明します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/pro/get-started/data/"&gt;データセット&lt;/a&gt;&lt;br&gt;Business Analyst 用ローカル データセットのセットアップ方法を説明します。
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>チュートリアル</title><link>/business-analyst/pro/tutorial/</link><pubDate>Fri, 19 Nov 2021 00:00:00 +0900</pubDate><guid>/business-analyst/pro/tutorial/</guid><description>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;本チュートリアルは、ArcGIS Pro のバージョン 3.6 および BA Pro 2025 年版データを使用する前提の内容となっています。演習環境によっては、演習時の出力結果がチュートリアル内の結果と異なる場合があります。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;BA Pro のチュートリアルを通して、活用方法や操作方法を学ぶことができます。&lt;/p&gt;
+&lt;ul class="list-disc ml-6"&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/pro/tutorial/overview/"&gt;はじめに&lt;/a&gt;&lt;br&gt;ArcGIS Business Analyst および BA Pro の概要を説明します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/pro/tutorial/prepare-for-tutorial/"&gt;事前準備&lt;/a&gt;&lt;br&gt;演習を行うにあたり必要な作業を行います。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/pro/tutorial/tradearea-analysis/"&gt;商圏分析&lt;/a&gt;&lt;br&gt;自社店舗や人口統計情報を用いて商圏分析を行います。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/pro/tutorial/customer-analysis/"&gt;顧客分析&lt;/a&gt;&lt;br&gt;自社店舗および顧客や人口統計情報を用いて顧客分析を行います。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/pro/tutorial/huff-model/"&gt;ハフ モデル&lt;/a&gt;&lt;br&gt;ハフ モデルを実行して、ポテンシャルの吸引率をシミュレーションします。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/pro/tutorial/territory-design/"&gt;テリトリー デザイン&lt;/a&gt;&lt;br&gt;テリトリー デザインを実行して、営業管轄エリアや配送エリアを最適化する方法を習得します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/pro/tutorial/suitability-analysis/"&gt;適合性解析&lt;/a&gt;&lt;br&gt;適合性解析を実行して、複数の条件に基づいて候補店舗を評価します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/pro/tutorial/customize-data/"&gt;データのカスタマイズ&lt;/a&gt;&lt;br&gt;自社独自のデータをカスタマイズして、解析に利用します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/pro/tutorial/customize-report/"&gt;レポートのカスタマイズ&lt;/a&gt;&lt;br&gt;オフラインデータを使用して、ユーザー独自のレポートを作成します。
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;米国 Esri 社が提供する &lt;a href="https://learn.arcgis.com/ja/gallery/#?p=busanalyst" target="_blank"&gt;&lt;strong&gt;Learn ArcGIS&lt;/strong&gt;&lt;/a&gt; にも ArcGIS Business Analyst に関するチュートリアルがありますので、こちらもご活用ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Tips</title><link>/business-analyst/pro/tips/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0900</pubDate><guid>/business-analyst/pro/tips/</guid><description>
+&lt;p&gt;BA Pro のヘルプや FAQ, ArcMap 版 BA Desktop からの移行に役立つ各種ドキュメントです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/what-is-business-analyst-pro.htm" target="_blank"&gt;BA Pro ヘルプ | ドキュメント&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledgeList.html?searchMethod=0&amp;searchCondition=0&amp;targetNameFlg=1&amp;searchCategory=1&amp;searchItem=1&amp;searchTag=1&amp;searchKnowledgeKind=1&amp;category%5B102%5D%5B1%5D=205&amp;category%5B102%5D%5B2%5D=208" target="_blank"&gt;BA Pro の操作に関する FAQ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/business-analyst/pro/tips/migration-guide/"&gt;ArcMap 版 BA Desktop ユーザー向け 移行ガイド&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/business-analyst/pro/tips/functionality/"&gt;ArcMap 版 BA Desktop との機能対応表&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

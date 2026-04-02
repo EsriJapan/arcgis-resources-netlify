@@ -1,256 +1,256 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – モバイル アプリの操作</title><link>/fieldmaps/get-started/mobile/</link><description>Recent content in モバイル アプリの操作 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Tue, 11 Jan 2022 00:00:00 +0900</lastBuildDate><atom:link href="/fieldmaps/get-started/mobile/index.xml" rel="self" type="application/rss+xml"/><item><title>起動と設定</title><link>/fieldmaps/get-started/mobile/start/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/mobile/start/</guid><description>
-&lt;p>Field Maps の起動方法と設定について説明します。&lt;/p>
-&lt;h3>起動&lt;span class="hx:absolute hx:-mt-20" id="起動">&lt;/span>
-&lt;a href="#%e8%b5%b7%e5%8b%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>アプリを起動して表示される [ArcGIS Online でサイン イン] をタップし、ユーザー名とパスワードを入力してサイン インします。&lt;/li>
-&lt;li>マップ一覧の画面が表示されます。タップして任意のマップを開きます。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/mobile/start-launch.png"
-alt="Field Maps モバイル アプリの起動方法" width="500">&lt;figcaption>
-&lt;p>Field Maps モバイル アプリの起動方法&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">画面キャプチャは一例です。端末やバージョンにより、表記が異なる場合があります。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[サイン インをスキップ] をタップすると、サイン インなしでパブリックに公開されているマップを閲覧することができます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h3>設定&lt;span class="hx:absolute hx:-mt-20" id="設定">&lt;/span>
-&lt;a href="#%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>データ収集の精度などの各種設定を必要に応じて変更することができます。&lt;/p>
-&lt;ol>
-&lt;li>プロファイルをタップします。&lt;/li>
-&lt;li>各種設定を変更し、[終了] をタップします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/mobile/start-setting.png"
-alt="Field Maps モバイル アプリの設定" width="500">&lt;figcaption>
-&lt;p>Field Maps モバイル アプリの設定&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>ここでは、主な設定を記載します。&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>設定&lt;/th>
-&lt;th>詳細&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>精度&lt;/td>
-&lt;td>データ取得に必須の位置精度の半径の数値を設定します。ここで設定した値より小さい場合にのみ精度が高いとみなされ、データ入力が可能になります。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>GPS 平均化&lt;/td>
-&lt;td>GPS 測位の誤差を平均化します。1 つの位置に対して指定した数の測位ポイントを収集し、その情報を平均化して最終的な位置と精度を取得します。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>ストリーミング&lt;/td>
-&lt;td>ラインやエリアを移動時に自動入力する際に、頂点を挿入する時間または距離間隔を設定します。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>写真のアップロード サイズ&lt;/td>
-&lt;td>データに添付する写真のサイズを設定します。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>関連するタイプ&lt;/td>
-&lt;td>フィーチャ間のリレーションシップを設定します。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>スナップ&lt;/td>
-&lt;td>ターゲットのフィーチャの頂点や線分に沿ったフィーチャの作成が可能になります。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>プロバイダー&lt;/td>
-&lt;td>外付け GPS を設定します。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>プロファイル&lt;/td>
-&lt;td>外付け GPS の座標系を設定します。&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">設定の詳細については、&lt;a href="https://doc.arcgis.com/ja/field-maps/ios/help/configure-field-maps.htm"target="_blank" rel="noopener">ヘルプ&lt;/a> をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div></description></item><item><title>データの入力・編集</title><link>/fieldmaps/get-started/mobile/edit/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/mobile/edit/</guid><description>
-&lt;p>データの入力・編集方法について説明します。&lt;/p>
-&lt;p>&lt;a href="#1-%e6%96%b0%e8%a6%8f%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e5%85%a5%e5%8a%9b-%e4%be%8b-%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88">1. 新規データの入力 (例: ポイント)&lt;/a>&lt;br>
-&lt;a href="#2-%e6%97%a2%e5%ad%98%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e7%b7%a8%e9%9b%86-%e4%be%8b-%e3%82%a8%e3%83%aa%e3%82%a2">2. 既存データの編集&lt;/a>&lt;br>
-&lt;a href="#3-%e6%97%a2%e5%ad%98%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e5%b1%9e%e6%80%a7%e3%82%84%e5%bd%a2%e7%8a%b6%e3%82%92%e3%82%b3%e3%83%94%e3%83%bc%e3%81%97%e3%81%a6%e5%85%a5%e5%8a%9b-%e4%be%8b-%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88">3. 既存データの属性をコピーして、入力&lt;/a>&lt;br>
-&lt;a href="#4-%e5%86%99%e7%9c%9f%e3%81%ae%e6%b7%bb%e4%bb%98">4. 写真の添付&lt;/a>&lt;br>
-&lt;a href="#5-%e3%82%b9%e3%83%88%e3%83%aa%e3%83%bc%e3%83%9f%e3%83%b3%e3%82%b0%e5%85%a5%e5%8a%9b-%e4%be%8b-%e3%83%a9%e3%82%a4%e3%83%b3">5. ストリーミング入力&lt;/a>&lt;br>
-&lt;a href="#6-%e6%97%a2%e5%ad%98%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e5%89%8a%e9%99%a4">6. 既存データの削除&lt;/a>&lt;/p>
-&lt;h3>1. 新規データの入力 (例: ポイント)&lt;span class="hx:absolute hx:-mt-20" id="1-新規データの入力-例-ポイント">&lt;/span>
-&lt;a href="#1-%e6%96%b0%e8%a6%8f%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e5%85%a5%e5%8a%9b-%e4%be%8b-%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>
-&lt;p>右下のプラス ボタンをタップします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>入力するレイヤーをタップします。ポイントが自動で入力されない場合は、[ポイントの追加] をタップします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>ポイントの位置を修正する場合は [ポイントの更新] をタップします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>パネルを上にスライドし、属性フィールドをタップして情報を入力します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[送信] をタップします。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/mobile/edit-newdata-plot.gif"
-alt="新規データの入力" width="300">&lt;figcaption>
-&lt;p>新規データの入力&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;/ol>
-&lt;h3>2. 既存データの編集 (例: エリア)&lt;span class="hx:absolute hx:-mt-20" id="2-既存データの編集-例-エリア">&lt;/span>
-&lt;a href="#2-%e6%97%a2%e5%ad%98%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e7%b7%a8%e9%9b%86-%e4%be%8b-%e3%82%a8%e3%83%aa%e3%82%a2" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>編集したいフィーチャをマップ上でタップして選択し、左下の [編集] をタップします。&lt;/li>
-&lt;li>頂点を移動する場合は、その頂点をタップし、[選択したポイントの更新] をタップします。また、頂点を追加する場合は、追加したい位置にある辺を選択して、 [ポイントの追加] をタップします。&lt;/li>
-&lt;li>属性を変更する場合はパネルを上にスライドし、属性を入力します。&lt;/li>
-&lt;li>[送信] をタップします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/mobile/edit-existing-data.gif"
-alt="既存データの編集" width="300">&lt;figcaption>
-&lt;p>既存データの編集&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;/ol>
-&lt;h3>3. 既存データの属性や形状をコピーして、入力 (例: ポイント)&lt;span class="hx:absolute hx:-mt-20" id="3-既存データの属性や形状をコピーして入力-例-ポイント">&lt;/span>
-&lt;a href="#3-%e6%97%a2%e5%ad%98%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e5%b1%9e%e6%80%a7%e3%82%84%e5%bd%a2%e7%8a%b6%e3%82%92%e3%82%b3%e3%83%94%e3%83%bc%e3%81%97%e3%81%a6%e5%85%a5%e5%8a%9b-%e4%be%8b-%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>
-&lt;p>属性をコピーしたいフィーチャをマップ上でタップします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>パネルを上にスライドし、[コピー] をタップします。選択肢が出る場合は、[すべてをコピー]、[形状をコピー]、[属性のコピー] のいずれかをタップします。
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">Field Maps Designer で形状や形状および属性もコピーできるように設定ができます (エリアやラインのみ)。設定方法は&lt;a href="https://doc.arcgis.com/ja/field-maps/ios/help/configure-the-map.htm#ESRI_SECTION2_DE55A4A3B361404AA568EA0B378AED3A"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>入力する位置をマップ上で指定し、[ポイントの追加] をタップします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[送信] をタップします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/mobile/edit-copy.gif"
-alt="既存データの属性や形状をコピーして、入力" width="300">&lt;figcaption>
-&lt;p>既存データの属性や形状をコピーして、入力&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;h3>4. 写真の添付&lt;span class="hx:absolute hx:-mt-20" id="4-写真の添付">&lt;/span>
-&lt;a href="#4-%e5%86%99%e7%9c%9f%e3%81%ae%e6%b7%bb%e4%bb%98" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>マップにデータを入力し、パネルを上にスライドします。&lt;/li>
-&lt;li>[写真の撮影] をタップし、カメラ ビューで撮影して [写真を使用] をタップします。&lt;/li>
-&lt;li>[送信] をタップします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/mobile/edit-fhoto.gif"
-alt="写真の添付" width="300">&lt;figcaption>
-&lt;p>写真の添付&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;/ol>
-&lt;h3>5. ストリーミング入力 (例: ライン)&lt;span class="hx:absolute hx:-mt-20" id="5-ストリーミング入力-例-ライン">&lt;/span>
-&lt;a href="#5-%e3%82%b9%e3%83%88%e3%83%aa%e3%83%bc%e3%83%9f%e3%83%b3%e3%82%b0%e5%85%a5%e5%8a%9b-%e4%be%8b-%e3%83%a9%e3%82%a4%e3%83%b3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>移動中に、GPS で取得した位置でラインまたはエリア フィーチャを自動描画することができます。&lt;/p>
-&lt;ol>
-&lt;li>ラインまたはエリアのレイヤーを選択します。&lt;/li>
-&lt;li>[…] をタップします。&lt;/li>
-&lt;li>[ストリーミングの開始] をタップします。&lt;/li>
-&lt;li>描画したい位置まで移動します。&lt;/li>
-&lt;li>[ストリーミングの停止] をタップします。&lt;/li>
-&lt;li>[送信] をタップします 。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/mobile/edit-stream.gif"
-alt="ストリーミング入力" width="300">&lt;figcaption>
-&lt;p>ストリーミング入力&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;/ol>
-&lt;h3>6. 既存データの削除&lt;span class="hx:absolute hx:-mt-20" id="6-既存データの削除">&lt;/span>
-&lt;a href="#6-%e6%97%a2%e5%ad%98%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e5%89%8a%e9%99%a4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>
-&lt;p>削除したいフィーチャをマップ上でタップし、パネル下の […] をタップします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[削除] をタップします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>確認のポップアップが表示されるので、[削除] をタップします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/mobile/edit-delete.gif"
-alt="既存データの削除" width="300">&lt;figcaption>
-&lt;p>既存データの削除&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">データの入力・編集の詳細については&lt;a href="https://doc.arcgis.com/ja/field-maps/ios/help/capture.htm"target="_blank" rel="noopener">ヘルプ&lt;/a> をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;/ol></description></item><item><title>位置情報の共有</title><link>/fieldmaps/get-started/mobile/tracking/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/mobile/tracking/</guid><description>
-&lt;p>トラッキング データ (作業員の現在位置や移動履歴) を収集するための設定とモバイル アプリの操作について説明します。&lt;/p>
-&lt;h3>位置情報の共有の有効化とライセンスの割り当て&lt;span class="hx:absolute hx:-mt-20" id="位置情報の共有の有効化とライセンスの割り当て">&lt;/span>
-&lt;a href="#%e4%bd%8d%e7%bd%ae%e6%83%85%e5%a0%b1%e3%81%ae%e5%85%b1%e6%9c%89%e3%81%ae%e6%9c%89%e5%8a%b9%e5%8c%96%e3%81%a8%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9%e3%81%ae%e5%89%b2%e3%82%8a%e5%bd%93%e3%81%a6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>ArcGIS Online の組織サイトで設定を行います。&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>組織の管理者が&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/configure-location-tracking.htm"target="_blank" rel="noopener">位置情報の共有を有効化&lt;/a>します。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">位置情報の共有の有効化には、Mobile Worker ユーザー タイプが 1 つ以上ある組織か、組織が Location Sharing ユーザー タイプ エクステンションを購入し保有している必要があります。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">位置情報の共有を有効化した管理者は、位置情報の共有に必要なすべてのアイテム (レイヤーおよびトラック ビュー) の所有者となり、それらが格納される「位置情報の共有」フォルダーがマイ コンテンツに作成されます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>
-&lt;p>位置情報の共有の機能を利用するユーザーに Location Sharing ユーザー タイプ エクステンション ライセンスを&lt;a href="/online/get-started/administer/license/assign/">割り当て&lt;/a>ます。&lt;br>
-利用するユーザーが Mobile Worker ユーザー タイプの場合は、この操作は不要です。&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;h3>位置情報の共有&lt;span class="hx:absolute hx:-mt-20" id="位置情報の共有">&lt;/span>
-&lt;a href="#%e4%bd%8d%e7%bd%ae%e6%83%85%e5%a0%b1%e3%81%ae%e5%85%b1%e6%9c%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Field Maps モバイル アプリでトラックを収集します。&lt;/p>
-&lt;ol>
-&lt;li>Mobile Worker ユーザー タイプまたは Location Sharing ユーザー タイプ エクステンション ライセンスが割り当てられたユーザーで、ArcGIS Field Maps にサイン インします。&lt;/li>
-&lt;li>マップの一覧ページの上部にある [マイ トラック] のトグルをオンにして、位置情報の共有期間を選択します。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/mobile/tracking-settings.png"
-alt="トラッキングの設定" width="500">&lt;figcaption>
-&lt;p>トラッキングの設定&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;li>移動履歴を確認するには、開いたマップの、右上の [レイヤー] をタップして、[マイ トラック] レイヤーをオンにします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/mobile/tracking-view.png"
-alt="トラッキングの表示" width="500">&lt;figcaption>
-&lt;p>トラッキングの表示&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">設定の詳細については、&lt;a href="https://doc.arcgis.com/ja/field-maps/ios/help/track.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div></description></item></channel></rss>
+&lt;p&gt;Field Maps の起動方法と設定について説明します。&lt;/p&gt;
+&lt;h3&gt;起動&lt;span class="hx:absolute hx:-mt-20" id="起動"&gt;&lt;/span&gt;
+&lt;a href="#%e8%b5%b7%e5%8b%95" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;アプリを起動して表示される [ArcGIS Online でサイン イン] をタップし、ユーザー名とパスワードを入力してサイン インします。&lt;/li&gt;
+&lt;li&gt;マップ一覧の画面が表示されます。タップして任意のマップを開きます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/mobile/start-launch.png"
+alt="Field Maps モバイル アプリの起動方法" width="500"&gt;&lt;figcaption&gt;
+&lt;p&gt;Field Maps モバイル アプリの起動方法&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;画面キャプチャは一例です。端末やバージョンにより、表記が異なる場合があります。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;[サイン インをスキップ] をタップすると、サイン インなしでパブリックに公開されているマップを閲覧することができます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;設定&lt;span class="hx:absolute hx:-mt-20" id="設定"&gt;&lt;/span&gt;
+&lt;a href="#%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;データ収集の精度などの各種設定を必要に応じて変更することができます。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;プロファイルをタップします。&lt;/li&gt;
+&lt;li&gt;各種設定を変更し、[終了] をタップします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/mobile/start-setting.png"
+alt="Field Maps モバイル アプリの設定" width="500"&gt;&lt;figcaption&gt;
+&lt;p&gt;Field Maps モバイル アプリの設定&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;ここでは、主な設定を記載します。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;設定&lt;/th&gt;
+&lt;th&gt;詳細&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;精度&lt;/td&gt;
+&lt;td&gt;データ取得に必須の位置精度の半径の数値を設定します。ここで設定した値より小さい場合にのみ精度が高いとみなされ、データ入力が可能になります。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;GPS 平均化&lt;/td&gt;
+&lt;td&gt;GPS 測位の誤差を平均化します。1 つの位置に対して指定した数の測位ポイントを収集し、その情報を平均化して最終的な位置と精度を取得します。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ストリーミング&lt;/td&gt;
+&lt;td&gt;ラインやエリアを移動時に自動入力する際に、頂点を挿入する時間または距離間隔を設定します。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;写真のアップロード サイズ&lt;/td&gt;
+&lt;td&gt;データに添付する写真のサイズを設定します。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;関連するタイプ&lt;/td&gt;
+&lt;td&gt;フィーチャ間のリレーションシップを設定します。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;スナップ&lt;/td&gt;
+&lt;td&gt;ターゲットのフィーチャの頂点や線分に沿ったフィーチャの作成が可能になります。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;プロバイダー&lt;/td&gt;
+&lt;td&gt;外付け GPS を設定します。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;プロファイル&lt;/td&gt;
+&lt;td&gt;外付け GPS の座標系を設定します。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;設定の詳細については、&lt;a href="https://doc.arcgis.com/ja/field-maps/ios/help/configure-field-maps.htm"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt; をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>データの入力・編集</title><link>/fieldmaps/get-started/mobile/edit/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/mobile/edit/</guid><description>
+&lt;p&gt;データの入力・編集方法について説明します。&lt;/p&gt;
+&lt;p&gt;&lt;a href="#1-%e6%96%b0%e8%a6%8f%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e5%85%a5%e5%8a%9b-%e4%be%8b-%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88"&gt;1. 新規データの入力 (例: ポイント)&lt;/a&gt;&lt;br&gt;
+&lt;a href="#2-%e6%97%a2%e5%ad%98%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e7%b7%a8%e9%9b%86-%e4%be%8b-%e3%82%a8%e3%83%aa%e3%82%a2"&gt;2. 既存データの編集&lt;/a&gt;&lt;br&gt;
+&lt;a href="#3-%e6%97%a2%e5%ad%98%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e5%b1%9e%e6%80%a7%e3%82%84%e5%bd%a2%e7%8a%b6%e3%82%92%e3%82%b3%e3%83%94%e3%83%bc%e3%81%97%e3%81%a6%e5%85%a5%e5%8a%9b-%e4%be%8b-%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88"&gt;3. 既存データの属性をコピーして、入力&lt;/a&gt;&lt;br&gt;
+&lt;a href="#4-%e5%86%99%e7%9c%9f%e3%81%ae%e6%b7%bb%e4%bb%98"&gt;4. 写真の添付&lt;/a&gt;&lt;br&gt;
+&lt;a href="#5-%e3%82%b9%e3%83%88%e3%83%aa%e3%83%bc%e3%83%9f%e3%83%b3%e3%82%b0%e5%85%a5%e5%8a%9b-%e4%be%8b-%e3%83%a9%e3%82%a4%e3%83%b3"&gt;5. ストリーミング入力&lt;/a&gt;&lt;br&gt;
+&lt;a href="#6-%e6%97%a2%e5%ad%98%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e5%89%8a%e9%99%a4"&gt;6. 既存データの削除&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1. 新規データの入力 (例: ポイント)&lt;span class="hx:absolute hx:-mt-20" id="1-新規データの入力-例-ポイント"&gt;&lt;/span&gt;
+&lt;a href="#1-%e6%96%b0%e8%a6%8f%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e5%85%a5%e5%8a%9b-%e4%be%8b-%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;右下のプラス ボタンをタップします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;入力するレイヤーをタップします。ポイントが自動で入力されない場合は、[ポイントの追加] をタップします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ポイントの位置を修正する場合は [ポイントの更新] をタップします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;パネルを上にスライドし、属性フィールドをタップして情報を入力します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[送信] をタップします。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/mobile/edit-newdata-plot.gif"
+alt="新規データの入力" width="300"&gt;&lt;figcaption&gt;
+&lt;p&gt;新規データの入力&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;2. 既存データの編集 (例: エリア)&lt;span class="hx:absolute hx:-mt-20" id="2-既存データの編集-例-エリア"&gt;&lt;/span&gt;
+&lt;a href="#2-%e6%97%a2%e5%ad%98%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e7%b7%a8%e9%9b%86-%e4%be%8b-%e3%82%a8%e3%83%aa%e3%82%a2" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;編集したいフィーチャをマップ上でタップして選択し、左下の [編集] をタップします。&lt;/li&gt;
+&lt;li&gt;頂点を移動する場合は、その頂点をタップし、[選択したポイントの更新] をタップします。また、頂点を追加する場合は、追加したい位置にある辺を選択して、 [ポイントの追加] をタップします。&lt;/li&gt;
+&lt;li&gt;属性を変更する場合はパネルを上にスライドし、属性を入力します。&lt;/li&gt;
+&lt;li&gt;[送信] をタップします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/mobile/edit-existing-data.gif"
+alt="既存データの編集" width="300"&gt;&lt;figcaption&gt;
+&lt;p&gt;既存データの編集&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;3. 既存データの属性や形状をコピーして、入力 (例: ポイント)&lt;span class="hx:absolute hx:-mt-20" id="3-既存データの属性や形状をコピーして入力-例-ポイント"&gt;&lt;/span&gt;
+&lt;a href="#3-%e6%97%a2%e5%ad%98%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e5%b1%9e%e6%80%a7%e3%82%84%e5%bd%a2%e7%8a%b6%e3%82%92%e3%82%b3%e3%83%94%e3%83%bc%e3%81%97%e3%81%a6%e5%85%a5%e5%8a%9b-%e4%be%8b-%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;属性をコピーしたいフィーチャをマップ上でタップします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;パネルを上にスライドし、[コピー] をタップします。選択肢が出る場合は、[すべてをコピー]、[形状をコピー]、[属性のコピー] のいずれかをタップします。
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;Field Maps Designer で形状や形状および属性もコピーできるように設定ができます (エリアやラインのみ)。設定方法は&lt;a href="https://doc.arcgis.com/ja/field-maps/ios/help/configure-the-map.htm#ESRI_SECTION2_DE55A4A3B361404AA568EA0B378AED3A"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;入力する位置をマップ上で指定し、[ポイントの追加] をタップします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[送信] をタップします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/mobile/edit-copy.gif"
+alt="既存データの属性や形状をコピーして、入力" width="300"&gt;&lt;figcaption&gt;
+&lt;p&gt;既存データの属性や形状をコピーして、入力&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;4. 写真の添付&lt;span class="hx:absolute hx:-mt-20" id="4-写真の添付"&gt;&lt;/span&gt;
+&lt;a href="#4-%e5%86%99%e7%9c%9f%e3%81%ae%e6%b7%bb%e4%bb%98" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;マップにデータを入力し、パネルを上にスライドします。&lt;/li&gt;
+&lt;li&gt;[写真の撮影] をタップし、カメラ ビューで撮影して [写真を使用] をタップします。&lt;/li&gt;
+&lt;li&gt;[送信] をタップします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/mobile/edit-fhoto.gif"
+alt="写真の添付" width="300"&gt;&lt;figcaption&gt;
+&lt;p&gt;写真の添付&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;5. ストリーミング入力 (例: ライン)&lt;span class="hx:absolute hx:-mt-20" id="5-ストリーミング入力-例-ライン"&gt;&lt;/span&gt;
+&lt;a href="#5-%e3%82%b9%e3%83%88%e3%83%aa%e3%83%bc%e3%83%9f%e3%83%b3%e3%82%b0%e5%85%a5%e5%8a%9b-%e4%be%8b-%e3%83%a9%e3%82%a4%e3%83%b3" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;移動中に、GPS で取得した位置でラインまたはエリア フィーチャを自動描画することができます。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;ラインまたはエリアのレイヤーを選択します。&lt;/li&gt;
+&lt;li&gt;[…] をタップします。&lt;/li&gt;
+&lt;li&gt;[ストリーミングの開始] をタップします。&lt;/li&gt;
+&lt;li&gt;描画したい位置まで移動します。&lt;/li&gt;
+&lt;li&gt;[ストリーミングの停止] をタップします。&lt;/li&gt;
+&lt;li&gt;[送信] をタップします 。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/mobile/edit-stream.gif"
+alt="ストリーミング入力" width="300"&gt;&lt;figcaption&gt;
+&lt;p&gt;ストリーミング入力&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;6. 既存データの削除&lt;span class="hx:absolute hx:-mt-20" id="6-既存データの削除"&gt;&lt;/span&gt;
+&lt;a href="#6-%e6%97%a2%e5%ad%98%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e5%89%8a%e9%99%a4" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;削除したいフィーチャをマップ上でタップし、パネル下の […] をタップします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[削除] をタップします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;確認のポップアップが表示されるので、[削除] をタップします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/mobile/edit-delete.gif"
+alt="既存データの削除" width="300"&gt;&lt;figcaption&gt;
+&lt;p&gt;既存データの削除&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;データの入力・編集の詳細については&lt;a href="https://doc.arcgis.com/ja/field-maps/ios/help/capture.htm"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt; をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>位置情報の共有</title><link>/fieldmaps/get-started/mobile/tracking/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/mobile/tracking/</guid><description>
+&lt;p&gt;トラッキング データ (作業員の現在位置や移動履歴) を収集するための設定とモバイル アプリの操作について説明します。&lt;/p&gt;
+&lt;h3&gt;位置情報の共有の有効化とライセンスの割り当て&lt;span class="hx:absolute hx:-mt-20" id="位置情報の共有の有効化とライセンスの割り当て"&gt;&lt;/span&gt;
+&lt;a href="#%e4%bd%8d%e7%bd%ae%e6%83%85%e5%a0%b1%e3%81%ae%e5%85%b1%e6%9c%89%e3%81%ae%e6%9c%89%e5%8a%b9%e5%8c%96%e3%81%a8%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9%e3%81%ae%e5%89%b2%e3%82%8a%e5%bd%93%e3%81%a6" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;ArcGIS Online の組織サイトで設定を行います。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;組織の管理者が&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/configure-location-tracking.htm"target="_blank" rel="noopener"&gt;位置情報の共有を有効化&lt;/a&gt;します。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;位置情報の共有の有効化には、Mobile Worker ユーザー タイプが 1 つ以上ある組織か、組織が Location Sharing ユーザー タイプ エクステンションを購入し保有している必要があります。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;位置情報の共有を有効化した管理者は、位置情報の共有に必要なすべてのアイテム (レイヤーおよびトラック ビュー) の所有者となり、それらが格納される「位置情報の共有」フォルダーがマイ コンテンツに作成されます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;位置情報の共有の機能を利用するユーザーに Location Sharing ユーザー タイプ エクステンション ライセンスを&lt;a href="/online/get-started/administer/license/assign/"&gt;割り当て&lt;/a&gt;ます。&lt;br&gt;
+利用するユーザーが Mobile Worker ユーザー タイプの場合は、この操作は不要です。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;位置情報の共有&lt;span class="hx:absolute hx:-mt-20" id="位置情報の共有"&gt;&lt;/span&gt;
+&lt;a href="#%e4%bd%8d%e7%bd%ae%e6%83%85%e5%a0%b1%e3%81%ae%e5%85%b1%e6%9c%89" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Field Maps モバイル アプリでトラックを収集します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Mobile Worker ユーザー タイプまたは Location Sharing ユーザー タイプ エクステンション ライセンスが割り当てられたユーザーで、ArcGIS Field Maps にサイン インします。&lt;/li&gt;
+&lt;li&gt;マップの一覧ページの上部にある [マイ トラック] のトグルをオンにして、位置情報の共有期間を選択します。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/mobile/tracking-settings.png"
+alt="トラッキングの設定" width="500"&gt;&lt;figcaption&gt;
+&lt;p&gt;トラッキングの設定&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;移動履歴を確認するには、開いたマップの、右上の [レイヤー] をタップして、[マイ トラック] レイヤーをオンにします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/mobile/tracking-view.png"
+alt="トラッキングの表示" width="500"&gt;&lt;figcaption&gt;
+&lt;p&gt;トラッキングの表示&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;設定の詳細については、&lt;a href="https://doc.arcgis.com/ja/field-maps/ios/help/track.htm"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>

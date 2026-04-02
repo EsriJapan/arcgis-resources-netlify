@@ -1,288 +1,288 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – 変換ツール (国内データ) for ArcGIS Pro ヘルプ</title><link>/pro/get-started/setup/user/addin-tool/jpdatacnv/</link><description>Recent content in 変換ツール (国内データ) for ArcGIS Pro ヘルプ on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Wed, 21 Jan 2026 00:00:00 +0900</lastBuildDate><atom:link href="/pro/get-started/setup/user/addin-tool/jpdatacnv/index.xml" rel="self" type="application/rss+xml"/><item><title>国土地理院ツール</title><link>/pro/get-started/setup/user/addin-tool/jpdatacnv/gsi/</link><pubDate>Wed, 21 Jan 2026 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/addin-tool/jpdatacnv/gsi/</guid><description>
-&lt;p>国土地理院が提供するデータをジオデータベースにインポートするためのツールです。&lt;a href="#%e5%9f%ba%e7%9b%a4%e5%9c%b0%e5%9b%b3%e6%83%85%e5%a0%b1%e3%81%ae%e3%82%a4%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%88">[基盤地図情報のインポート] ツール&lt;/a> と、&lt;a href="#%e6%95%b0%e5%80%a4%e5%9c%b0%e5%9b%b3-%e5%9b%bd%e5%9c%9f%e5%9f%ba%e6%9c%ac%e6%83%85%e5%a0%b1-%e3%81%ae%e3%82%a4%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%88">[数値地図 (国土基本情報) のインポート] ツール&lt;/a> があります。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/pro/get-started/setup/user/addin-tool/jpdatacnv/gsi_tools_20251226.png" width="400">
-&lt;/figure>
-&lt;/p>
-&lt;h3>基盤地図情報のインポート&lt;span class="hx:absolute hx:-mt-20" id="基盤地図情報のインポート">&lt;/span>
-&lt;a href="#%e5%9f%ba%e7%9b%a4%e5%9c%b0%e5%9b%b3%e6%83%85%e5%a0%b1%e3%81%ae%e3%82%a4%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>サマリー&lt;span class="hx:absolute hx:-mt-20" id="サマリー">&lt;/span>
-&lt;a href="#%e3%82%b5%e3%83%9e%e3%83%aa%e3%83%bc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>基盤地図情報ファイルをインポートします。&lt;/p>
-&lt;h4>使用法&lt;span class="hx:absolute hx:-mt-20" id="使用法">&lt;/span>
-&lt;a href="#%e4%bd%bf%e7%94%a8%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
-&lt;li>
-&lt;p>本ツールでは、基盤地図情報の以下のデータに対応しています。&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>基本項目 (測量の基準点、海岸線、行政区画の境界線及び代表点、道路縁、軌道の中心線、標高点、水涯線、建築物の外周線、市町村の町若しくは字の境界線及び代表点、街区の境界線及び代表点）&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>数値標高モデル (1m、5m、10m)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>測地系 JGD2024 (※ ArcGIS Pro 3.6 以降)、JGD2011、JGD2000&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>[入力ファイル] には、複数のファイルを設定できます。また、圧縮ファイル (Zip 形式) の状態でもインポートが可能です。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>出力データの座標系は、入力ファイルより自動的に判別されます。[同一種別のデータは 1 レイヤーとして保存] オプションがオンの場合のみ、明示的に測地系を選択する必要があります。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>入力ファイルと異なる測地系が選択されている場合、[進行状況] にメッセージが表示されます。出力ファイルは選択した測地系が設定されていますが、地理座標変換は行っていません。必ず入力ファイルと同じ測地系を選択して実行してください。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>数値標高モデルまたはメッシュ標高情報を変換する場合は、ファイル ジオデータベースのラスター データセットに出力されます。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>出力ジオデータベースを変更する場合は、エンタープライズ ジオデータベース、またはファイル ジオデータベースのいずれかを選択してください。ターゲット ジオデータベースはすでに存在している必要があります。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[進行状況] に表示されるプログレス バーのパーセンテージは、あくまで残りの処理ファイル数の参考数値であり、残りの処理時間を正確に表しているものではありません。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>変換済みの数値標高モデルをマップに追加する際に、[統計情報の計算] ダイアログが表示される場合があります。統計情報を正しく計算することで、適切に変換済みのラスター データを表示することができます。&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;h3>数値地図 (国土基本情報) のインポート&lt;span class="hx:absolute hx:-mt-20" id="数値地図-国土基本情報-のインポート">&lt;/span>
-&lt;a href="#%e6%95%b0%e5%80%a4%e5%9c%b0%e5%9b%b3-%e5%9b%bd%e5%9c%9f%e5%9f%ba%e6%9c%ac%e6%83%85%e5%a0%b1-%e3%81%ae%e3%82%a4%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>サマリー&lt;span class="hx:absolute hx:-mt-20" id="サマリー-1">&lt;/span>
-&lt;a href="#%e3%82%b5%e3%83%9e%e3%83%aa%e3%83%bc-1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>数値地図 (国土基本情報) (GML) をインポートします。&lt;/p>
-&lt;h4>使用法&lt;span class="hx:absolute hx:-mt-20" id="使用法-1">&lt;/span>
-&lt;a href="#%e4%bd%bf%e7%94%a8%e6%b3%95-1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
-&lt;li>
-&lt;p>本ツールでは数値地図 (国土基本情報) GML 形式の以下のデータに対応しています。&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>数値地図 (国土基本情報20万) GML 形式の地図情報&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>数値地図 (国土基本情報) GML 形式の地図情報、地名情報、メッシュ標高情報&lt;/p>
-&lt;p>※ 数値地図 (国土基本情報20万) シェープファイル形式、数値地図 (国土基本情報) シェープファイル形式は、変換なしに利用することができます。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>測地系 JGD2024 (※ ArcGIS Pro 3.6 以降)、JGD2011、JGD2000&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>[入力ファイル] には、複数のファイルを設定できます。また、圧縮ファイル (Zip 形式) の状態でもインポートが可能です。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>出力データの座標系は、入力ファイルより自動的に判別されます。[同一種別のデータは 1 レイヤーとして保存] オプションがオンの場合のみ、明示的に測地系を選択する必要があります。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>同時に異なる縮尺のデータが入力データとして指定された場合、[同一種別のデータは 1 レイヤーとして保存] オプションをオンにしても、異なる縮尺の数値地図 (国土基本情報) (GML) は結合することはできません。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>入力ファイルと異なる測地系が選択されている場合、進行状況ダイアログ ボックスまたは [結果] ウィンドウにメッセージが表示されます。出力ファイルは選択した測地系が設定されていますが、地理座標変換は行っていません。必ず入力ファイルと同じ測地系を選択して実行してください。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>メッシュ標高情報を変換する場合は、ファイル ジオデータベースのラスター データセットに出力されます。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>出力ジオデータベースを変更する場合は、エンタープライズ ジオデータベース、またはファイル ジオデータベースのいずれかを選択してください。ターゲット ジオデータベースはすでに存在している必要があります。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[進行状況] に表示されるプログレス バーのパーセンテージは、あくまで残りの処理ファイル数の参考数値であり、残りの処理時間を正確に表しているものではありません。 &lt;/p>
-&lt;/li>
-&lt;/ul></description></item><item><title>DM ツール</title><link>/pro/get-started/setup/user/addin-tool/jpdatacnv/dm/</link><pubDate>Wed, 21 Jan 2026 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/addin-tool/jpdatacnv/dm/</guid><description>
-&lt;p>国土地理院の「公共測量図式」に準じた DM データを扱うためのツールです。&lt;a href="#dm-%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%81%e3%82%a7%e3%83%83%e3%82%af">[DM データのチェック] ツール&lt;/a>、&lt;a href="#dm--%e3%82%b8%e3%82%aa%e3%83%87%e3%83%bc%e3%82%bf%e3%83%99%e3%83%bc%e3%82%b9">[DM → ジオデータベース] ツール&lt;/a>、&lt;a href="#%e3%82%b7%e3%83%b3%e3%83%9c%e3%83%ab%e3%82%92%e9%81%a9%e7%94%a8%e3%81%97%e3%81%a6%e3%83%9e%e3%83%83%e3%83%97%e3%81%ab%e8%bf%bd%e5%8a%a0">[シンボルを適用してマップに追加] ツール&lt;/a>があります。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/pro/get-started/setup/user/addin-tool/jpdatacnv/dm_tools_20251226.png" width="400">
-&lt;/figure>
-&lt;/p>
-&lt;h3>DM データのチェック&lt;span class="hx:absolute hx:-mt-20" id="dm-データのチェック">&lt;/span>
-&lt;a href="#dm-%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%81%e3%82%a7%e3%83%83%e3%82%af" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>サマリー&lt;span class="hx:absolute hx:-mt-20" id="サマリー">&lt;/span>
-&lt;a href="#%e3%82%b5%e3%83%9e%e3%83%aa%e3%83%bc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>DM ファイルの文字コードまたは座標区分のチェックを行います。&lt;/p>
-&lt;h4>使用法&lt;span class="hx:absolute hx:-mt-20" id="使用法">&lt;/span>
-&lt;a href="#%e4%bd%bf%e7%94%a8%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
-&lt;li>
-&lt;p>[DM → ジオデータベース] ツールで結合して変換する場合は、このツールで事前に文字コードまたは座標区分を確認します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>結果は、出力フォルダーに下記のファイル名で出力されます。&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>文字コード.txt&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>座標区分.txt&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>文字コード (JIS あるいは Shift-JIS) の判別が行えない場合、DM 形式のバージョンから推定します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>ひとつの DM ファイルの中に異なる座標区分 (2 次元あるいは 3 次元) が混在している場合は、3 次元と判定します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[入力ファイル] にチェック対象の DM ファイルを指定します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>チェックを行う項目のチェックボックスをオンにします。&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>[文字コード] チェックボックスをオンにすると、文字コード (JIS あるいは Shift-JIS) の判別を行います。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[座標区分] チェックボックスをオンにすると、座標区分 (2 次元あるいは 3 次元) の判別を行います。&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>[出力フォルダー] に出力先フォルダーを指定します。&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;h3>DM → ジオデータベース&lt;span class="hx:absolute hx:-mt-20" id="dm--ジオデータベース">&lt;/span>
-&lt;a href="#dm--%e3%82%b8%e3%82%aa%e3%83%87%e3%83%bc%e3%82%bf%e3%83%99%e3%83%bc%e3%82%b9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>サマリー&lt;span class="hx:absolute hx:-mt-20" id="サマリー-1">&lt;/span>
-&lt;a href="#%e3%82%b5%e3%83%9e%e3%83%aa%e3%83%bc-1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>DM ファイルをジオデータベースに変換します。属性、グリッド、不整三角網の各要素は取り込みません。&lt;/p>
-&lt;h4>使用法&lt;span class="hx:absolute hx:-mt-20" id="使用法-1">&lt;/span>
-&lt;a href="#%e4%bd%bf%e7%94%a8%e6%b3%95-1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
-&lt;li>
-&lt;p>本ツールでは縮尺 500、1000、2500、5000 の DM データをジオデータベースのフィーチャ データセットに変換します。縮尺 250 の DM データの変換については、現バージョンではベータ版として提供しています。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[入力ファイル] には、変換する DM ファイルを指定します。複数のファイルを設定できます。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>入力ファイルを指定すると、初期値として [出力ジオデータベース]、[測地系]、[平面直角座標系の系番号]、[文字コード]、[出力データ名] が自動的に入力されます。変更する場合は、任意の値を指定します。&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>出力ジオデータベースを変更する場合は、エンタープライズ ジオデータベース、またはファイル ジオデータベースのいずれかを選択してください。ターゲット ジオデータベースはすでに存在している必要があります。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[測地系]、[平面直角座標系の系番号]、[文字コード] は、[入力ファイル] で一番上にリストされている DM ファイルの「測地成果識別コード」「図郭識別番号」「バーション」から推測された値です。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>測地系を指定することは可能ですが、地理座標変換は行っていません。入力ファイルと同じ測地系を指定してください。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[出力データ名] は、[入力ファイル] で一番上にリストされている DM ファイルの「&amp;ldquo;dm&amp;rdquo; + 図郭識別番号」が入力されます。&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>[結合して出力] チェックボックスがオンの場合、複数図郭の同一フィーチャ データセットを結合して出力します。チェックボックスがオフの場合、各入力 DM ファイルを結合せずに個別フィーチャ データセットとして出力します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[注記に縁取りを付加] チェックボックスがオンの場合、出力注記データに縁取りを付加します。&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;h3>シンボルを適用してマップに追加&lt;span class="hx:absolute hx:-mt-20" id="シンボルを適用してマップに追加">&lt;/span>
-&lt;a href="#%e3%82%b7%e3%83%b3%e3%83%9c%e3%83%ab%e3%82%92%e9%81%a9%e7%94%a8%e3%81%97%e3%81%a6%e3%83%9e%e3%83%83%e3%83%97%e3%81%ab%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>サマリー&lt;span class="hx:absolute hx:-mt-20" id="サマリー-2">&lt;/span>
-&lt;a href="#%e3%82%b5%e3%83%9e%e3%83%aa%e3%83%bc-2" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>[DM → ジオデータベース] ツールで変換したデータにシンボルを適用してマップに追加します。&lt;/p>
-&lt;h4>使用法&lt;span class="hx:absolute hx:-mt-20" id="使用法-2">&lt;/span>
-&lt;a href="#%e4%bd%bf%e7%94%a8%e6%b3%95-2" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
-&lt;li>
-&lt;p>[入力フィーチャ データセット] に [DM → ジオデータベース] ツールで出力されたフィーチャ データセットを指定します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[図形区分 99 にシンボルを適用] チェックボックスをオンにすると、入力 DM ファイルに図形区分 99 がある場合に出力レイヤーに 99 のシンボルが適用されます。チェックボックスをオフにすると、シンボルは適用されません。入力 DM ファイルに図形区分 99 がない場合は、チェックボックスをオンにしてもシンボルは適用されません。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>縮尺 10000 の DM データを変換した際は、手動にて「公共測量標準図式」(国土地理院) のシンボルを適用してください。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>縮尺 250 の DM データの対応については、現バージョンではベータ版として提供しています。&lt;/p>
-&lt;/li>
-&lt;/ul></description></item><item><title>法務省ツール</title><link>/pro/get-started/setup/user/addin-tool/jpdatacnv/moj/</link><pubDate>Wed, 21 Jan 2026 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/addin-tool/jpdatacnv/moj/</guid><description>
-&lt;p>法務省の「法務省 地図XML ファイル」を取り扱うためのツールです 。 &lt;a href="#%e6%b3%95%e5%8b%99%e7%9c%81-%e5%9c%b0%e5%9b%b3xml-%e3%81%ae%e3%83%81%e3%82%a7%e3%83%83%e3%82%af">[法務省 地図XML のチェック] ツール&lt;/a> と、&lt;a href="#%e6%b3%95%e5%8b%99%e7%9c%81-%e5%9c%b0%e5%9b%b3xml-%e3%81%ae%e3%82%a4%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%88">[法務省 地図XML のインポート] ツール&lt;/a> があります。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/pro/get-started/setup/user/addin-tool/jpdatacnv/moj_tools_20251226.png" width="400">
-&lt;/figure>
-&lt;/p>
-&lt;h3>法務省 地図XML のチェック&lt;span class="hx:absolute hx:-mt-20" id="法務省-地図xml-のチェック">&lt;/span>
-&lt;a href="#%e6%b3%95%e5%8b%99%e7%9c%81-%e5%9c%b0%e5%9b%b3xml-%e3%81%ae%e3%83%81%e3%82%a7%e3%83%83%e3%82%af" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>サマリー&lt;span class="hx:absolute hx:-mt-20" id="サマリー">&lt;/span>
-&lt;a href="#%e3%82%b5%e3%83%9e%e3%83%aa%e3%83%bc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>法務省 地図XML ファイルの version、地図名、市区町村コード、座標系のチェックを行います。&lt;/p>
-&lt;h4>使用法&lt;span class="hx:absolute hx:-mt-20" id="使用法">&lt;/span>
-&lt;a href="#%e4%bd%bf%e7%94%a8%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
-&lt;li>
-&lt;p>[法務省 地図XML のインポート] ツールで変換する前に法務省 地図XML ファイルのファイル名 、 ファイル パス、 version、地図名、市区町村コード、座標系情報を確認することができます。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[法務省 地図XML のインポート] ツールにおいて、チェックファイルで出力された CSV ファイルを入力として使用することが可能です。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>出力結果は、指定した出力フォルダーに日付名のフォルダーが作成され座標系ごとの名前で CSV ファイルとして出力されます。&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>任意座標系と公共座標系のファイルが入力ファイルに混在している場合は、それぞれ別々の CSV ファイルに出力されます。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>複数の公共座標系のファイルが入力ファイルに混在している場合は、座標系ごとに別々の CSV ファイルに出力されます。&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>CSV ファイルには、ファイル名、ファイル パス、version、地図名、市区町村コード、座標系がリストとして出力されます。&lt;/p>
-&lt;ul>
-&lt;li>version、地図名、市区町村コード、座標系情報は地図XML ファイルからヘッダー情報を読み取ります。 元ファイルのヘッダー情報が誤っている場合においては、修正などは行われません。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>[入力ファイル] にチェック対象の法務省 地図XML ファイルを指定します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[出力フォルダー] に出力先フォルダーを指定します。&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;h3>法務省 地図XML のインポート&lt;span class="hx:absolute hx:-mt-20" id="法務省-地図xml-のインポート">&lt;/span>
-&lt;a href="#%e6%b3%95%e5%8b%99%e7%9c%81-%e5%9c%b0%e5%9b%b3xml-%e3%81%ae%e3%82%a4%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>サマリー&lt;span class="hx:absolute hx:-mt-20" id="サマリー-1">&lt;/span>
-&lt;a href="#%e3%82%b5%e3%83%9e%e3%83%aa%e3%83%bc-1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>法務省 地図XML ファイルをインポートします。&lt;/p>
-&lt;h4>使用法&lt;span class="hx:absolute hx:-mt-20" id="使用法-1">&lt;/span>
-&lt;a href="#%e4%bd%bf%e7%94%a8%e6%b3%95-1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
-&lt;li>
-&lt;p>本ツールでは、法務省 地図XML ファイルをフィーチャクラス /テーブルとしてインポートします。出力結果として、出力フィーチャクラス/テーブル名のリストを出力します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[入力ファイル] には、複数のファイルを設定できます。
-[入力ファイル] を設定する際、[法務省 地図XML のチェック] で出力された CSV ファイルを入力として設定し、一括で複数ファイルを設定することもできます。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>出力ジオデータベースを変更する場合は、エンタープライズ ジオデータベース、またはファイル ジオデータベースのいずれかを選択してください。ターゲット ジオデータベースはすでに存在している必要があります。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>出力フィーチャクラス/テーブル名は、「 [出力データ名] + 主題 + 地図種類」として規定されます。&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>主題：&lt;/p>
-&lt;ul>
-&lt;li>[図郭] (ポリゴン フィーチャクラス)&lt;/li>
-&lt;li>[筆] (ポリゴン フィーチャクラス)&lt;/li>
-&lt;li>[筆界線] (ポリライン フィーチャクラス)&lt;/li>
-&lt;li>[筆界点] (ポイント フィーチャクラス)&lt;/li>
-&lt;li>[仮行政界線] (ポリライン フィーチャクラス)&lt;/li>
-&lt;li>[基準点] (ポイント フィーチャクラス)&lt;/li>
-&lt;li>[図郭筆] (テーブル) [図郭] フィーチャクラスと [筆] フィーチャクラスのリンクテーブル&lt;/li>
-&lt;li>[筆界未定構成筆] (テーブル) [筆] データの [筆界未定構成筆] 要素&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>地図種類：&lt;/p>
-&lt;ul>
-&lt;li>地籍図&lt;/li>
-&lt;li>土地改良所在図&lt;/li>
-&lt;li>土地区画整理所在図&lt;/li>
-&lt;li>法務局作成地図&lt;/li>
-&lt;li>旧土地台帳附属地図&lt;/li>
-&lt;li>その他&lt;/li>
-&lt;li>街区基本調査成果図&lt;/li>
-&lt;li>街区単位修正図&lt;/li>
-&lt;li>土地境界復元図&lt;/li>
-&lt;li>用地実測図&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>出力データの座標系は、入力ファイルより自動的に判別されます。複数入力ファイルの座標系が混在している場合、結合して出力することはできません。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>法務省XML ファイルの仕様として、2025 年 12 月時点では JGD2024 が定義されていないため、本ツールにおける [測地系] ドロップダウンリストには JGD2024 を設けていません。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[結合して出力] オプションをオンにしても、異なる地図種類のデータは結合されません。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>本ツールでは、ラインの長さ が 0 のデータ をスキップして変換を継続するよう設計していますが、入力ファイルの記述を自動的に変更することはできません。&lt;/p>
-&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;p&gt;国土地理院が提供するデータをジオデータベースにインポートするためのツールです。&lt;a href="#%e5%9f%ba%e7%9b%a4%e5%9c%b0%e5%9b%b3%e6%83%85%e5%a0%b1%e3%81%ae%e3%82%a4%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%88"&gt;[基盤地図情報のインポート] ツール&lt;/a&gt; と、&lt;a href="#%e6%95%b0%e5%80%a4%e5%9c%b0%e5%9b%b3-%e5%9b%bd%e5%9c%9f%e5%9f%ba%e6%9c%ac%e6%83%85%e5%a0%b1-%e3%81%ae%e3%82%a4%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%88"&gt;[数値地図 (国土基本情報) のインポート] ツール&lt;/a&gt; があります。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/pro/get-started/setup/user/addin-tool/jpdatacnv/gsi_tools_20251226.png" width="400"&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3&gt;基盤地図情報のインポート&lt;span class="hx:absolute hx:-mt-20" id="基盤地図情報のインポート"&gt;&lt;/span&gt;
+&lt;a href="#%e5%9f%ba%e7%9b%a4%e5%9c%b0%e5%9b%b3%e6%83%85%e5%a0%b1%e3%81%ae%e3%82%a4%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;サマリー&lt;span class="hx:absolute hx:-mt-20" id="サマリー"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b5%e3%83%9e%e3%83%aa%e3%83%bc" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;基盤地図情報ファイルをインポートします。&lt;/p&gt;
+&lt;h4&gt;使用法&lt;span class="hx:absolute hx:-mt-20" id="使用法"&gt;&lt;/span&gt;
+&lt;a href="#%e4%bd%bf%e7%94%a8%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;本ツールでは、基盤地図情報の以下のデータに対応しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;基本項目 (測量の基準点、海岸線、行政区画の境界線及び代表点、道路縁、軌道の中心線、標高点、水涯線、建築物の外周線、市町村の町若しくは字の境界線及び代表点、街区の境界線及び代表点）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数値標高モデル (1m、5m、10m)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;測地系 JGD2024 (※ ArcGIS Pro 3.6 以降)、JGD2011、JGD2000&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[入力ファイル] には、複数のファイルを設定できます。また、圧縮ファイル (Zip 形式) の状態でもインポートが可能です。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;出力データの座標系は、入力ファイルより自動的に判別されます。[同一種別のデータは 1 レイヤーとして保存] オプションがオンの場合のみ、明示的に測地系を選択する必要があります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;入力ファイルと異なる測地系が選択されている場合、[進行状況] にメッセージが表示されます。出力ファイルは選択した測地系が設定されていますが、地理座標変換は行っていません。必ず入力ファイルと同じ測地系を選択して実行してください。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数値標高モデルまたはメッシュ標高情報を変換する場合は、ファイル ジオデータベースのラスター データセットに出力されます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;出力ジオデータベースを変更する場合は、エンタープライズ ジオデータベース、またはファイル ジオデータベースのいずれかを選択してください。ターゲット ジオデータベースはすでに存在している必要があります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[進行状況] に表示されるプログレス バーのパーセンテージは、あくまで残りの処理ファイル数の参考数値であり、残りの処理時間を正確に表しているものではありません。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;変換済みの数値標高モデルをマップに追加する際に、[統計情報の計算] ダイアログが表示される場合があります。統計情報を正しく計算することで、適切に変換済みのラスター データを表示することができます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;数値地図 (国土基本情報) のインポート&lt;span class="hx:absolute hx:-mt-20" id="数値地図-国土基本情報-のインポート"&gt;&lt;/span&gt;
+&lt;a href="#%e6%95%b0%e5%80%a4%e5%9c%b0%e5%9b%b3-%e5%9b%bd%e5%9c%9f%e5%9f%ba%e6%9c%ac%e6%83%85%e5%a0%b1-%e3%81%ae%e3%82%a4%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;サマリー&lt;span class="hx:absolute hx:-mt-20" id="サマリー-1"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b5%e3%83%9e%e3%83%aa%e3%83%bc-1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;数値地図 (国土基本情報) (GML) をインポートします。&lt;/p&gt;
+&lt;h4&gt;使用法&lt;span class="hx:absolute hx:-mt-20" id="使用法-1"&gt;&lt;/span&gt;
+&lt;a href="#%e4%bd%bf%e7%94%a8%e6%b3%95-1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;本ツールでは数値地図 (国土基本情報) GML 形式の以下のデータに対応しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;数値地図 (国土基本情報20万) GML 形式の地図情報&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数値地図 (国土基本情報) GML 形式の地図情報、地名情報、メッシュ標高情報&lt;/p&gt;
+&lt;p&gt;※ 数値地図 (国土基本情報20万) シェープファイル形式、数値地図 (国土基本情報) シェープファイル形式は、変換なしに利用することができます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;測地系 JGD2024 (※ ArcGIS Pro 3.6 以降)、JGD2011、JGD2000&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[入力ファイル] には、複数のファイルを設定できます。また、圧縮ファイル (Zip 形式) の状態でもインポートが可能です。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;出力データの座標系は、入力ファイルより自動的に判別されます。[同一種別のデータは 1 レイヤーとして保存] オプションがオンの場合のみ、明示的に測地系を選択する必要があります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;同時に異なる縮尺のデータが入力データとして指定された場合、[同一種別のデータは 1 レイヤーとして保存] オプションをオンにしても、異なる縮尺の数値地図 (国土基本情報) (GML) は結合することはできません。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;入力ファイルと異なる測地系が選択されている場合、進行状況ダイアログ ボックスまたは [結果] ウィンドウにメッセージが表示されます。出力ファイルは選択した測地系が設定されていますが、地理座標変換は行っていません。必ず入力ファイルと同じ測地系を選択して実行してください。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;メッシュ標高情報を変換する場合は、ファイル ジオデータベースのラスター データセットに出力されます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;出力ジオデータベースを変更する場合は、エンタープライズ ジオデータベース、またはファイル ジオデータベースのいずれかを選択してください。ターゲット ジオデータベースはすでに存在している必要があります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[進行状況] に表示されるプログレス バーのパーセンテージは、あくまで残りの処理ファイル数の参考数値であり、残りの処理時間を正確に表しているものではありません。 &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>DM ツール</title><link>/pro/get-started/setup/user/addin-tool/jpdatacnv/dm/</link><pubDate>Wed, 21 Jan 2026 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/addin-tool/jpdatacnv/dm/</guid><description>
+&lt;p&gt;国土地理院の「公共測量図式」に準じた DM データを扱うためのツールです。&lt;a href="#dm-%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%81%e3%82%a7%e3%83%83%e3%82%af"&gt;[DM データのチェック] ツール&lt;/a&gt;、&lt;a href="#dm--%e3%82%b8%e3%82%aa%e3%83%87%e3%83%bc%e3%82%bf%e3%83%99%e3%83%bc%e3%82%b9"&gt;[DM → ジオデータベース] ツール&lt;/a&gt;、&lt;a href="#%e3%82%b7%e3%83%b3%e3%83%9c%e3%83%ab%e3%82%92%e9%81%a9%e7%94%a8%e3%81%97%e3%81%a6%e3%83%9e%e3%83%83%e3%83%97%e3%81%ab%e8%bf%bd%e5%8a%a0"&gt;[シンボルを適用してマップに追加] ツール&lt;/a&gt;があります。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/pro/get-started/setup/user/addin-tool/jpdatacnv/dm_tools_20251226.png" width="400"&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3&gt;DM データのチェック&lt;span class="hx:absolute hx:-mt-20" id="dm-データのチェック"&gt;&lt;/span&gt;
+&lt;a href="#dm-%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%81%e3%82%a7%e3%83%83%e3%82%af" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;サマリー&lt;span class="hx:absolute hx:-mt-20" id="サマリー"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b5%e3%83%9e%e3%83%aa%e3%83%bc" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;DM ファイルの文字コードまたは座標区分のチェックを行います。&lt;/p&gt;
+&lt;h4&gt;使用法&lt;span class="hx:absolute hx:-mt-20" id="使用法"&gt;&lt;/span&gt;
+&lt;a href="#%e4%bd%bf%e7%94%a8%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;[DM → ジオデータベース] ツールで結合して変換する場合は、このツールで事前に文字コードまたは座標区分を確認します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;結果は、出力フォルダーに下記のファイル名で出力されます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;文字コード.txt&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;座標区分.txt&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;文字コード (JIS あるいは Shift-JIS) の判別が行えない場合、DM 形式のバージョンから推定します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ひとつの DM ファイルの中に異なる座標区分 (2 次元あるいは 3 次元) が混在している場合は、3 次元と判定します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[入力ファイル] にチェック対象の DM ファイルを指定します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;チェックを行う項目のチェックボックスをオンにします。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;[文字コード] チェックボックスをオンにすると、文字コード (JIS あるいは Shift-JIS) の判別を行います。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[座標区分] チェックボックスをオンにすると、座標区分 (2 次元あるいは 3 次元) の判別を行います。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[出力フォルダー] に出力先フォルダーを指定します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;DM → ジオデータベース&lt;span class="hx:absolute hx:-mt-20" id="dm--ジオデータベース"&gt;&lt;/span&gt;
+&lt;a href="#dm--%e3%82%b8%e3%82%aa%e3%83%87%e3%83%bc%e3%82%bf%e3%83%99%e3%83%bc%e3%82%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;サマリー&lt;span class="hx:absolute hx:-mt-20" id="サマリー-1"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b5%e3%83%9e%e3%83%aa%e3%83%bc-1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;DM ファイルをジオデータベースに変換します。属性、グリッド、不整三角網の各要素は取り込みません。&lt;/p&gt;
+&lt;h4&gt;使用法&lt;span class="hx:absolute hx:-mt-20" id="使用法-1"&gt;&lt;/span&gt;
+&lt;a href="#%e4%bd%bf%e7%94%a8%e6%b3%95-1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;本ツールでは縮尺 500、1000、2500、5000 の DM データをジオデータベースのフィーチャ データセットに変換します。縮尺 250 の DM データの変換については、現バージョンではベータ版として提供しています。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[入力ファイル] には、変換する DM ファイルを指定します。複数のファイルを設定できます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;入力ファイルを指定すると、初期値として [出力ジオデータベース]、[測地系]、[平面直角座標系の系番号]、[文字コード]、[出力データ名] が自動的に入力されます。変更する場合は、任意の値を指定します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;出力ジオデータベースを変更する場合は、エンタープライズ ジオデータベース、またはファイル ジオデータベースのいずれかを選択してください。ターゲット ジオデータベースはすでに存在している必要があります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[測地系]、[平面直角座標系の系番号]、[文字コード] は、[入力ファイル] で一番上にリストされている DM ファイルの「測地成果識別コード」「図郭識別番号」「バーション」から推測された値です。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;測地系を指定することは可能ですが、地理座標変換は行っていません。入力ファイルと同じ測地系を指定してください。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[出力データ名] は、[入力ファイル] で一番上にリストされている DM ファイルの「&amp;ldquo;dm&amp;rdquo; + 図郭識別番号」が入力されます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[結合して出力] チェックボックスがオンの場合、複数図郭の同一フィーチャ データセットを結合して出力します。チェックボックスがオフの場合、各入力 DM ファイルを結合せずに個別フィーチャ データセットとして出力します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[注記に縁取りを付加] チェックボックスがオンの場合、出力注記データに縁取りを付加します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;シンボルを適用してマップに追加&lt;span class="hx:absolute hx:-mt-20" id="シンボルを適用してマップに追加"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b7%e3%83%b3%e3%83%9c%e3%83%ab%e3%82%92%e9%81%a9%e7%94%a8%e3%81%97%e3%81%a6%e3%83%9e%e3%83%83%e3%83%97%e3%81%ab%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;サマリー&lt;span class="hx:absolute hx:-mt-20" id="サマリー-2"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b5%e3%83%9e%e3%83%aa%e3%83%bc-2" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;[DM → ジオデータベース] ツールで変換したデータにシンボルを適用してマップに追加します。&lt;/p&gt;
+&lt;h4&gt;使用法&lt;span class="hx:absolute hx:-mt-20" id="使用法-2"&gt;&lt;/span&gt;
+&lt;a href="#%e4%bd%bf%e7%94%a8%e6%b3%95-2" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;[入力フィーチャ データセット] に [DM → ジオデータベース] ツールで出力されたフィーチャ データセットを指定します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[図形区分 99 にシンボルを適用] チェックボックスをオンにすると、入力 DM ファイルに図形区分 99 がある場合に出力レイヤーに 99 のシンボルが適用されます。チェックボックスをオフにすると、シンボルは適用されません。入力 DM ファイルに図形区分 99 がない場合は、チェックボックスをオンにしてもシンボルは適用されません。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;縮尺 10000 の DM データを変換した際は、手動にて「公共測量標準図式」(国土地理院) のシンボルを適用してください。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;縮尺 250 の DM データの対応については、現バージョンではベータ版として提供しています。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>法務省ツール</title><link>/pro/get-started/setup/user/addin-tool/jpdatacnv/moj/</link><pubDate>Wed, 21 Jan 2026 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/addin-tool/jpdatacnv/moj/</guid><description>
+&lt;p&gt;法務省の「法務省 地図XML ファイル」を取り扱うためのツールです 。 &lt;a href="#%e6%b3%95%e5%8b%99%e7%9c%81-%e5%9c%b0%e5%9b%b3xml-%e3%81%ae%e3%83%81%e3%82%a7%e3%83%83%e3%82%af"&gt;[法務省 地図XML のチェック] ツール&lt;/a&gt; と、&lt;a href="#%e6%b3%95%e5%8b%99%e7%9c%81-%e5%9c%b0%e5%9b%b3xml-%e3%81%ae%e3%82%a4%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%88"&gt;[法務省 地図XML のインポート] ツール&lt;/a&gt; があります。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/pro/get-started/setup/user/addin-tool/jpdatacnv/moj_tools_20251226.png" width="400"&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3&gt;法務省 地図XML のチェック&lt;span class="hx:absolute hx:-mt-20" id="法務省-地図xml-のチェック"&gt;&lt;/span&gt;
+&lt;a href="#%e6%b3%95%e5%8b%99%e7%9c%81-%e5%9c%b0%e5%9b%b3xml-%e3%81%ae%e3%83%81%e3%82%a7%e3%83%83%e3%82%af" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;サマリー&lt;span class="hx:absolute hx:-mt-20" id="サマリー"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b5%e3%83%9e%e3%83%aa%e3%83%bc" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;法務省 地図XML ファイルの version、地図名、市区町村コード、座標系のチェックを行います。&lt;/p&gt;
+&lt;h4&gt;使用法&lt;span class="hx:absolute hx:-mt-20" id="使用法"&gt;&lt;/span&gt;
+&lt;a href="#%e4%bd%bf%e7%94%a8%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;[法務省 地図XML のインポート] ツールで変換する前に法務省 地図XML ファイルのファイル名 、 ファイル パス、 version、地図名、市区町村コード、座標系情報を確認することができます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[法務省 地図XML のインポート] ツールにおいて、チェックファイルで出力された CSV ファイルを入力として使用することが可能です。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;出力結果は、指定した出力フォルダーに日付名のフォルダーが作成され座標系ごとの名前で CSV ファイルとして出力されます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;任意座標系と公共座標系のファイルが入力ファイルに混在している場合は、それぞれ別々の CSV ファイルに出力されます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;複数の公共座標系のファイルが入力ファイルに混在している場合は、座標系ごとに別々の CSV ファイルに出力されます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CSV ファイルには、ファイル名、ファイル パス、version、地図名、市区町村コード、座標系がリストとして出力されます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;version、地図名、市区町村コード、座標系情報は地図XML ファイルからヘッダー情報を読み取ります。 元ファイルのヘッダー情報が誤っている場合においては、修正などは行われません。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[入力ファイル] にチェック対象の法務省 地図XML ファイルを指定します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[出力フォルダー] に出力先フォルダーを指定します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;法務省 地図XML のインポート&lt;span class="hx:absolute hx:-mt-20" id="法務省-地図xml-のインポート"&gt;&lt;/span&gt;
+&lt;a href="#%e6%b3%95%e5%8b%99%e7%9c%81-%e5%9c%b0%e5%9b%b3xml-%e3%81%ae%e3%82%a4%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;サマリー&lt;span class="hx:absolute hx:-mt-20" id="サマリー-1"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b5%e3%83%9e%e3%83%aa%e3%83%bc-1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;法務省 地図XML ファイルをインポートします。&lt;/p&gt;
+&lt;h4&gt;使用法&lt;span class="hx:absolute hx:-mt-20" id="使用法-1"&gt;&lt;/span&gt;
+&lt;a href="#%e4%bd%bf%e7%94%a8%e6%b3%95-1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;本ツールでは、法務省 地図XML ファイルをフィーチャクラス /テーブルとしてインポートします。出力結果として、出力フィーチャクラス/テーブル名のリストを出力します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[入力ファイル] には、複数のファイルを設定できます。
+[入力ファイル] を設定する際、[法務省 地図XML のチェック] で出力された CSV ファイルを入力として設定し、一括で複数ファイルを設定することもできます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;出力ジオデータベースを変更する場合は、エンタープライズ ジオデータベース、またはファイル ジオデータベースのいずれかを選択してください。ターゲット ジオデータベースはすでに存在している必要があります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;出力フィーチャクラス/テーブル名は、「 [出力データ名] + 主題 + 地図種類」として規定されます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;主題：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[図郭] (ポリゴン フィーチャクラス)&lt;/li&gt;
+&lt;li&gt;[筆] (ポリゴン フィーチャクラス)&lt;/li&gt;
+&lt;li&gt;[筆界線] (ポリライン フィーチャクラス)&lt;/li&gt;
+&lt;li&gt;[筆界点] (ポイント フィーチャクラス)&lt;/li&gt;
+&lt;li&gt;[仮行政界線] (ポリライン フィーチャクラス)&lt;/li&gt;
+&lt;li&gt;[基準点] (ポイント フィーチャクラス)&lt;/li&gt;
+&lt;li&gt;[図郭筆] (テーブル) [図郭] フィーチャクラスと [筆] フィーチャクラスのリンクテーブル&lt;/li&gt;
+&lt;li&gt;[筆界未定構成筆] (テーブル) [筆] データの [筆界未定構成筆] 要素&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;地図種類：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;地籍図&lt;/li&gt;
+&lt;li&gt;土地改良所在図&lt;/li&gt;
+&lt;li&gt;土地区画整理所在図&lt;/li&gt;
+&lt;li&gt;法務局作成地図&lt;/li&gt;
+&lt;li&gt;旧土地台帳附属地図&lt;/li&gt;
+&lt;li&gt;その他&lt;/li&gt;
+&lt;li&gt;街区基本調査成果図&lt;/li&gt;
+&lt;li&gt;街区単位修正図&lt;/li&gt;
+&lt;li&gt;土地境界復元図&lt;/li&gt;
+&lt;li&gt;用地実測図&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;出力データの座標系は、入力ファイルより自動的に判別されます。複数入力ファイルの座標系が混在している場合、結合して出力することはできません。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;法務省XML ファイルの仕様として、2025 年 12 月時点では JGD2024 が定義されていないため、本ツールにおける [測地系] ドロップダウンリストには JGD2024 を設けていません。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[結合して出力] オプションをオンにしても、異なる地図種類のデータは結合されません。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;本ツールでは、ラインの長さ が 0 のデータ をスキップして変換を継続するよう設計していますが、入力ファイルの記述を自動的に変更することはできません。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
