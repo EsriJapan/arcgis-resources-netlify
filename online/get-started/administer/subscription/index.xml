@@ -1,157 +1,157 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – サブスクリプション</title><link>/online/get-started/administer/subscription/</link><description>Recent content in サブスクリプション on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Wed, 22 Sep 2021 00:00:00 +0900</lastBuildDate><atom:link href="/online/get-started/administer/subscription/index.xml" rel="self" type="application/rss+xml"/><item><title>クレジット</title><link>/online/get-started/administer/subscription/credit/</link><pubDate>Wed, 22 Sep 2021 00:00:00 +0900</pubDate><guid>/online/get-started/administer/subscription/credit/</guid><description>
-&lt;h2>クレジットの概要&lt;span class="hx:absolute hx:-mt-20" id="クレジットの概要">&lt;/span>
-&lt;a href="#%e3%82%af%e3%83%ac%e3%82%b8%e3%83%83%e3%83%88%e3%81%ae%e6%a6%82%e8%a6%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ArcGIS Online では、「クラウドへのデータ ストレージ」や「ジオコーディングの実行」、「各種解析機能の実行」といった GIS 処理に応じて、決められた数の「サービス クレジット」が消費されます。サービス クレジットとはサービス内の通貨のことで、お持ちのライセンスによって一定の初期クレジットが付属しています。管理者は、組織サイトのクレジットの利用状況や残数をいつでも確認・管理できます。&lt;br>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">詳細については、&lt;a href="https://www.esrij.com/products/arcgis-online/license/"target="_blank" rel="noopener">製品ページ&lt;/a>をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;strong>組織サイトのクレジットがすべて消費された場合は、サブスクリプションが制限されたり、残りのクレジットがマイナスになったりする場合があります。&lt;/strong>
-&lt;a href="#%e3%82%af%e3%83%ac%e3%82%b8%e3%83%83%e3%83%88%e6%b6%88%e8%b2%bb%e9%87%8f%e3%81%ae%e4%b8%8a%e9%99%90%e8%a8%ad%e5%ae%9a">クレジット消費量の上限設定&lt;/a>などのツールを利用いただくことをおすすめします。&lt;br>
-なお、クレジットは &lt;a href="http://shop.esrij.com/shopbrand/ct43/"target="_blank" rel="noopener">ESRIジャパンショップ&lt;/a>で追加購入が可能です (教育機関のユーザー様は、営業担当にお問い合わせください)。&lt;br>
-※サービス クレジットを超過して利用した場合、超過分が次回の契約更新の際、または追加クレジット購入の際に差し引かれます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h2>クレジットの管理と監視&lt;span class="hx:absolute hx:-mt-20" id="クレジットの管理と監視">&lt;/span>
-&lt;a href="#%e3%82%af%e3%83%ac%e3%82%b8%e3%83%83%e3%83%88%e3%81%ae%e7%ae%a1%e7%90%86%e3%81%a8%e7%9b%a3%e8%a6%96" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
-&lt;li>[組織] をクリックします。[クレジット] パネルで、消費クレジットの概要を確認できます。&lt;br>
-&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/subscription/credit-overview.png"
-alt="クレジットの概要" width="750">&lt;figcaption>
-&lt;p>クレジットの概要&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;li>[ダッシュボード] タブ、または [クレジット] パネルの [ステータスの表示] をクリックすると、クレジット利用状況の詳細を確認できる、[ダッシュボード] ページへ移動します。
-&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/subscription/credit-status.png"
-alt="ステータスの表示" width="750">&lt;figcaption>
-&lt;p>ステータスの表示&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;li>[日付のクイック選択] で期間を指定すると、その期間のクレジットの消費量を表示できます。凡例の項目をクリックすると、その項目のクレジット消費の詳細を確認することができます。&lt;br>
-&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/subscription/credit-span.png"
-alt="クレジット消費の詳細" width="750">&lt;figcaption>
-&lt;p>クレジット消費の詳細&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
+&lt;h2&gt;クレジットの概要&lt;span class="hx:absolute hx:-mt-20" id="クレジットの概要"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%af%e3%83%ac%e3%82%b8%e3%83%83%e3%83%88%e3%81%ae%e6%a6%82%e8%a6%81" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ArcGIS Online では、「クラウドへのデータ ストレージ」や「ジオコーディングの実行」、「各種解析機能の実行」といった GIS 処理に応じて、決められた数の「サービス クレジット」が消費されます。サービス クレジットとはサービス内の通貨のことで、お持ちのライセンスによって一定の初期クレジットが付属しています。管理者は、組織サイトのクレジットの利用状況や残数をいつでも確認・管理できます。&lt;br&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;詳細については、&lt;a href="https://www.esrij.com/products/arcgis-online/license/"target="_blank" rel="noopener"&gt;製品ページ&lt;/a&gt;をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;組織サイトのクレジットがすべて消費された場合は、サブスクリプションが制限されたり、残りのクレジットがマイナスになったりする場合があります。&lt;/strong&gt;
+&lt;a href="#%e3%82%af%e3%83%ac%e3%82%b8%e3%83%83%e3%83%88%e6%b6%88%e8%b2%bb%e9%87%8f%e3%81%ae%e4%b8%8a%e9%99%90%e8%a8%ad%e5%ae%9a"&gt;クレジット消費量の上限設定&lt;/a&gt;などのツールを利用いただくことをおすすめします。&lt;br&gt;
+なお、クレジットは &lt;a href="http://shop.esrij.com/shopbrand/ct43/"target="_blank" rel="noopener"&gt;ESRIジャパンショップ&lt;/a&gt;で追加購入が可能です (教育機関のユーザー様は、営業担当にお問い合わせください)。&lt;br&gt;
+※サービス クレジットを超過して利用した場合、超過分が次回の契約更新の際、または追加クレジット購入の際に差し引かれます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;クレジットの管理と監視&lt;span class="hx:absolute hx:-mt-20" id="クレジットの管理と監視"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%af%e3%83%ac%e3%82%b8%e3%83%83%e3%83%88%e3%81%ae%e7%ae%a1%e7%90%86%e3%81%a8%e7%9b%a3%e8%a6%96" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;[組織] をクリックします。[クレジット] パネルで、消費クレジットの概要を確認できます。&lt;br&gt;
+&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/subscription/credit-overview.png"
+alt="クレジットの概要" width="750"&gt;&lt;figcaption&gt;
+&lt;p&gt;クレジットの概要&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;[ダッシュボード] タブ、または [クレジット] パネルの [ステータスの表示] をクリックすると、クレジット利用状況の詳細を確認できる、[ダッシュボード] ページへ移動します。
+&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/subscription/credit-status.png"
+alt="ステータスの表示" width="750"&gt;&lt;figcaption&gt;
+&lt;p&gt;ステータスの表示&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;[日付のクイック選択] で期間を指定すると、その期間のクレジットの消費量を表示できます。凡例の項目をクリックすると、その項目のクレジット消費の詳細を確認することができます。&lt;br&gt;
+&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/subscription/credit-span.png"
+alt="クレジット消費の詳細" width="750"&gt;&lt;figcaption&gt;
+&lt;p&gt;クレジット消費の詳細&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
 ページ下の円グラフ チャートで、凡例の項目で [分析] をクリックすると、各分析のサービスで消費したクレジットの詳細が表示されます。
-&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/subscription/credit-chart.png"
-alt="クレジット チャート" width="750">&lt;figcaption>
-&lt;p>クレジット チャート&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-[メンバー] タブをクリックすると、各メンバーのクレジット消費量やアイテムの所有状況を確認できます。&lt;br>
-&lt;figure>
-&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/subscription/credit-member.png" title="メンバークレジット" alt="メンバークレジット" loading="lazy" />
-&lt;figcaption>メンバークレジット&lt;/figcaption>
-&lt;/figure>&lt;/li>
-&lt;/ol>
-&lt;h2>クレジット消費量の上限設定&lt;span class="hx:absolute hx:-mt-20" id="クレジット消費量の上限設定">&lt;/span>
-&lt;a href="#%e3%82%af%e3%83%ac%e3%82%b8%e3%83%83%e3%83%88%e6%b6%88%e8%b2%bb%e9%87%8f%e3%81%ae%e4%b8%8a%e9%99%90%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>&lt;strong>個々のメンバーに使用できるクレジット量の上限値を設定&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;ol>
-&lt;li>[組織] → [設定] タブ→ [クレジット] で、[クレジット使用制限ツールの有効化] トグルをオンにします。&lt;/li>
-&lt;li>[メンバー] ページへ移動します。&lt;/li>
-&lt;li>クレジットを割り当てたいメンバー名の横のチェックボックスをオンにします。&lt;/li>
-&lt;li>[クレジットの管理] をクリックします。&lt;/li>
-&lt;li>[割り当て量の設定] をクリックし、割り当てるクレジット量を入力し、[保存] をクリックします。&lt;/li>
-&lt;/ol>
-&lt;ul>
-&lt;li>&lt;strong>新規メンバー招待時に使用クレジットの上限値を設定&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;ol>
-&lt;li>[組織] → [設定] タブ→ [クレジット] で、[クレジット使用制限ツールの有効化] トグルをオンにします。&lt;/li>
-&lt;li>[新しいメンバーのデフォルト設定] をクリックします。&lt;/li>
-&lt;li>[制限なし] をクリックし、[割り当て量の設定] に変更します。&lt;/li>
-&lt;li>[割り当て量の設定] の横のボックスに、クレジット数を入力して [保存] をクリックします。&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">割り当てられたクレジット量が 0 になると、メンバーはジオコーディング、ルート案内、解析ツール、プレミアム コンテンツの利用、タイル生成といった、ストレージ分以外でクレジットを消費する機能を使用できなくなります。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;strong>大量のジオコーディングやタイル生成などを実行した場合、処理途中で割り当てられたクレジットがすべて消費されても処理は中断されません。&lt;/strong>&lt;br>
-メンバーにクレジットを全く使用させたくない場合は、[割り当て量の設定] で「0」を割り当てることを推奨します。また、各自に割り当てられたクレジット量の制限内でクレジット消費を行う機能を利用するよう、事前に通知をすることをおすすめします。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">参考情報
-&lt;a href="https://blog.esrij.com/2023/03/24/post-48548/"target="_blank" rel="noopener">もう怖くない！ ArcGIS Online におけるクレジット～組織全体での効率的な活用法～ (ArcGIS ブログ)&lt;/a>&lt;/div>
-&lt;/div>
-&lt;/div></description></item><item><title>レポート</title><link>/online/get-started/administer/subscription/report/</link><pubDate>Tue, 20 Apr 2021 00:00:00 +0900</pubDate><guid>/online/get-started/administer/subscription/report/</guid><description>
-&lt;h2>レポートとは&lt;span class="hx:absolute hx:-mt-20" id="レポートとは">&lt;/span>
-&lt;a href="#%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88%e3%81%a8%e3%81%af" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ArcGIS Online の操作ログやアイテムの一覧をレポートとして csv 形式でダウンロードでき、組織サイトの状態を確認できる機能です。ArcGIS Online 上のさまざまな情報を詳細なレポートとして出力することができます。&lt;/p>
-&lt;h2>レポートの作成&lt;span class="hx:absolute hx:-mt-20" id="レポートの作成">&lt;/span>
-&lt;a href="#%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
-&lt;li>
-&lt;p>[組織] → [レポート] タブ → [レポートの作成] → [単一レポート] をクリックします。
-&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/subscription/report-create.png"
-alt="組織のレポート" width="600">&lt;figcaption>
-&lt;p>組織のレポート&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[単一レポート] ではなく [レポート スケジュール] を選択することで、レポートの作成を定期的に実行することもできます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>
-&lt;p>[レポート タイプ] で出力したいレポートの種類を選択します。&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>アクティビティー&lt;/strong>：組織サイトで行われた操作に関する簡易なログを出力します。&lt;/li>
-&lt;li>&lt;strong>クレジット&lt;/strong>：クレジットを消費する処理の詳細情報をユーザーごとに集計し出力します。&lt;/li>
-&lt;li>&lt;strong>アイテム&lt;/strong>：その時点での組織サイト上のアイテム一覧を出力します。&lt;/li>
-&lt;li>&lt;strong>メンバー&lt;/strong>：その時点での組織サイト上のメンバー一覧を出力します。&lt;/li>
-&lt;li>&lt;strong>アイテム閲覧数&lt;/strong>：指定した期間の各アイテムの閲覧数を集計し、出力します。&lt;/li>
-&lt;li>&lt;strong>サービスの使用状況&lt;/strong>：API キーおよびアプリケーションの認証情報に関連付けられた使用状況を出力します。&lt;/li>
-&lt;/ul>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">アクティビティー、クレジット、サービスの使用状況は、出力する期間を指定します。レポートの各種類のフィールドの詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/report-fields.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>
-&lt;p>[名前] を入力します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[レポートの作成] をクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/subscription/report-create2.png"
-alt="レポートの作成" width="500">&lt;figcaption>
-&lt;p>レポートの作成&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>出力されたレポートをダウンロードします。
-&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/subscription/report-download.png"
-alt="レポートのダウンロード" width="600">&lt;figcaption>
-&lt;p>レポートのダウンロード&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ダウンロードした CSV ファイルが文字化けする場合は、「&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge3508.html"target="_blank" rel="noopener">FAQ: データストレージにおいてクレジットを消費しているアイテムを調べる&lt;/a>」をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;/ol></description></item></channel></rss>
+&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/subscription/credit-chart.png"
+alt="クレジット チャート" width="750"&gt;&lt;figcaption&gt;
+&lt;p&gt;クレジット チャート&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+[メンバー] タブをクリックすると、各メンバーのクレジット消費量やアイテムの所有状況を確認できます。&lt;br&gt;
+&lt;figure&gt;
+&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/subscription/credit-member.png" title="メンバークレジット" alt="メンバークレジット" loading="lazy" /&gt;
+&lt;figcaption&gt;メンバークレジット&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;クレジット消費量の上限設定&lt;span class="hx:absolute hx:-mt-20" id="クレジット消費量の上限設定"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%af%e3%83%ac%e3%82%b8%e3%83%83%e3%83%88%e6%b6%88%e8%b2%bb%e9%87%8f%e3%81%ae%e4%b8%8a%e9%99%90%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;個々のメンバーに使用できるクレジット量の上限値を設定&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;[組織] → [設定] タブ→ [クレジット] で、[クレジット使用制限ツールの有効化] トグルをオンにします。&lt;/li&gt;
+&lt;li&gt;[メンバー] ページへ移動します。&lt;/li&gt;
+&lt;li&gt;クレジットを割り当てたいメンバー名の横のチェックボックスをオンにします。&lt;/li&gt;
+&lt;li&gt;[クレジットの管理] をクリックします。&lt;/li&gt;
+&lt;li&gt;[割り当て量の設定] をクリックし、割り当てるクレジット量を入力し、[保存] をクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;新規メンバー招待時に使用クレジットの上限値を設定&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;[組織] → [設定] タブ→ [クレジット] で、[クレジット使用制限ツールの有効化] トグルをオンにします。&lt;/li&gt;
+&lt;li&gt;[新しいメンバーのデフォルト設定] をクリックします。&lt;/li&gt;
+&lt;li&gt;[制限なし] をクリックし、[割り当て量の設定] に変更します。&lt;/li&gt;
+&lt;li&gt;[割り当て量の設定] の横のボックスに、クレジット数を入力して [保存] をクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;割り当てられたクレジット量が 0 になると、メンバーはジオコーディング、ルート案内、解析ツール、プレミアム コンテンツの利用、タイル生成といった、ストレージ分以外でクレジットを消費する機能を使用できなくなります。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;大量のジオコーディングやタイル生成などを実行した場合、処理途中で割り当てられたクレジットがすべて消費されても処理は中断されません。&lt;/strong&gt;&lt;br&gt;
+メンバーにクレジットを全く使用させたくない場合は、[割り当て量の設定] で「0」を割り当てることを推奨します。また、各自に割り当てられたクレジット量の制限内でクレジット消費を行う機能を利用するよう、事前に通知をすることをおすすめします。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;参考情報
+&lt;a href="https://blog.esrij.com/2023/03/24/post-48548/"target="_blank" rel="noopener"&gt;もう怖くない！ ArcGIS Online におけるクレジット～組織全体での効率的な活用法～ (ArcGIS ブログ)&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>レポート</title><link>/online/get-started/administer/subscription/report/</link><pubDate>Tue, 20 Apr 2021 00:00:00 +0900</pubDate><guid>/online/get-started/administer/subscription/report/</guid><description>
+&lt;h2&gt;レポートとは&lt;span class="hx:absolute hx:-mt-20" id="レポートとは"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88%e3%81%a8%e3%81%af" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ArcGIS Online の操作ログやアイテムの一覧をレポートとして csv 形式でダウンロードでき、組織サイトの状態を確認できる機能です。ArcGIS Online 上のさまざまな情報を詳細なレポートとして出力することができます。&lt;/p&gt;
+&lt;h2&gt;レポートの作成&lt;span class="hx:absolute hx:-mt-20" id="レポートの作成"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;[組織] → [レポート] タブ → [レポートの作成] → [単一レポート] をクリックします。
+&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/subscription/report-create.png"
+alt="組織のレポート" width="600"&gt;&lt;figcaption&gt;
+&lt;p&gt;組織のレポート&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;[単一レポート] ではなく [レポート スケジュール] を選択することで、レポートの作成を定期的に実行することもできます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[レポート タイプ] で出力したいレポートの種類を選択します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;アクティビティー&lt;/strong&gt;：組織サイトで行われた操作に関する簡易なログを出力します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;クレジット&lt;/strong&gt;：クレジットを消費する処理の詳細情報をユーザーごとに集計し出力します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;アイテム&lt;/strong&gt;：その時点での組織サイト上のアイテム一覧を出力します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;メンバー&lt;/strong&gt;：その時点での組織サイト上のメンバー一覧を出力します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;アイテム閲覧数&lt;/strong&gt;：指定した期間の各アイテムの閲覧数を集計し、出力します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;サービスの使用状況&lt;/strong&gt;：API キーおよびアプリケーションの認証情報に関連付けられた使用状況を出力します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;アクティビティー、クレジット、サービスの使用状況は、出力する期間を指定します。レポートの各種類のフィールドの詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/report-fields.htm"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[名前] を入力します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[レポートの作成] をクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/subscription/report-create2.png"
+alt="レポートの作成" width="500"&gt;&lt;figcaption&gt;
+&lt;p&gt;レポートの作成&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;出力されたレポートをダウンロードします。
+&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/subscription/report-download.png"
+alt="レポートのダウンロード" width="600"&gt;&lt;figcaption&gt;
+&lt;p&gt;レポートのダウンロード&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;ダウンロードした CSV ファイルが文字化けする場合は、「&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge3508.html"target="_blank" rel="noopener"&gt;FAQ: データストレージにおいてクレジットを消費しているアイテムを調べる&lt;/a&gt;」をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item></channel></rss>

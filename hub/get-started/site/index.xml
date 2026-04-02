@@ -1,94 +1,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – サイト</title><link>/hub/get-started/site/</link><description>Recent content in サイト on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 05 Sep 2025 00:00:00 +0900</lastBuildDate><atom:link href="/hub/get-started/site/index.xml" rel="self" type="application/rss+xml"/><item><title>サイトの作成</title><link>/hub/get-started/site/create-site/</link><pubDate>Fri, 22 Aug 2025 00:00:00 +0900</pubDate><guid>/hub/get-started/site/create-site/</guid><description>
-&lt;p>ArcGIS Hub で新しいサイトを作成する方法について説明します。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">この操作は、デフォルトの [管理者] ロールまたは [更新機能を持つグループを作成] と [メンバーの割り当て] の権限を持つロールが割り当てられたユーザーのみが可能です。&lt;br>
-ロールについての詳細は、&lt;a href="https://doc.arcgis.com/en/hub/team/configure-roles-and-privileges.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h3>ArcGIS Hub にアクセス&lt;span class="hx:absolute hx:-mt-20" id="arcgis-hub-にアクセス">&lt;/span>
-&lt;a href="#arcgis-hub-%e3%81%ab%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>ArcGIS Online 組織サイトの右上に表示されている [アプリ ランチャー] → [Hub] をクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/create-site-app-luncher.png"
-alt="アプリランチャーから Hub を選択" width="500">&lt;figcaption>
-&lt;p>アプリランチャーから Hub を選択&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;li>[ワークスペースへようこそ] のダイアログが表示される場合は、[ワークスペースの使用] をクリックし、ダイアログを閉じます。&lt;/li>
-&lt;li>[マイ ワークスペース] という、ArcGIS Hub を操作するホーム画面が表示されます。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/create-site-myworkspace.png"
-alt="マイ ワークスペース" width="500">&lt;figcaption>
-&lt;p>マイ ワークスペース&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;/ol>
-&lt;h3>サイトの作成&lt;span class="hx:absolute hx:-mt-20" id="サイトの作成">&lt;/span>
-&lt;a href="#%e3%82%b5%e3%82%a4%e3%83%88%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>
-&lt;p>[作成] → [サイト] をクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/create-site-create-new-site.png"
-alt="サイトの作成" width="550">&lt;figcaption>
-&lt;p>サイトの作成&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[タイトル] にサイトの名前を、[サブドメイン] に希望するサイトのサブドメインを入力し、[次へ] をクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/create-site-enter-name-for-site.png"
-alt="サイト名の入力" width="600">&lt;figcaption>
-&lt;p>サイト名の入力&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[カタログ] セクションでカタログの構成方法を下記のオプションから選択します。&lt;/p>
-&lt;ul>
-&lt;li>空白のカタログ: カタログを構成せずに、サイトを作成します。&lt;/li>
-&lt;li>カタログをクイック スタート: サイトのカタログで使用するグループと、サイトを同時に作成します。グループは「&amp;lt;サイトのタイトル&amp;gt; contents」という名称で自動作成されます。&lt;/li>
-&lt;li>既存のグループによるカタログ: カタログとして既存のグループを選択し、サイトを作成します。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/create-site-select-catalog-option.png"
-alt="カタログ オプションの選択" width="650">&lt;figcaption>
-&lt;p>カタログ オプションの選択&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-ここでは、[カタログをクイック スタート] オプションを選択し、カタログに含めるコンテンツのグループを作成してから、サイトを作成する方法について説明します。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>[サイト レイアウト] を下記のオプションから選択し、[次へ] をクリックします。&lt;/p>
-&lt;ul>
-&lt;li>空白: まっさらな空のレイアウトからサイトを作成します。&lt;/li>
-&lt;li>シンプル: あらかじめいくつかの行とカードがレイアウトに追加された状態から、サイトを作成します。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>必要に応じて、サイトを共有するグループを選択し、[作成] をクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[サイトが正常に作成されました。] と表示されたら、[終了] をクリックします。&lt;/p>
-&lt;/li>
-&lt;/ol></description></item><item><title>サイトのデザイン</title><link>/hub/get-started/site/design/</link><pubDate>Fri, 29 Aug 2025 00:00:00 +0900</pubDate><guid>/hub/get-started/site/design/</guid><description>
-&lt;p>作成したサイトは、見出しの変更やカードの追加によってデザイン構成を行うことができます。&lt;br>
-この章では、デザイン構成を行うための機能や、カードの配置の方法を説明します。&lt;/p>
-&lt;ul class="list-disc ml-6">
-&lt;li>
-&lt;a href="/hub/get-started/site/design/configure/">サイトの構成&lt;/a>&lt;br>ArcGIS Hub におけるサイトの構成、サイトの編集方法について説明します。
-&lt;/li>
-&lt;li>
-&lt;a href="/hub/get-started/site/design/card/">カードの配置と設定&lt;/a>&lt;br>ArcGIS Hub でカードの配置と設定をする方法を説明します。
-&lt;/li>
-&lt;/ul></description></item><item><title>サイトの保存と公開</title><link>/hub/get-started/site/save-and-publish/</link><pubDate>Fri, 05 Sep 2025 00:00:00 +0900</pubDate><guid>/hub/get-started/site/save-and-publish/</guid><description>
-&lt;p>サイトの変更をドラフトとして保存して、公開する前にプレビューを他のユーザーと共有できます。プレビューを確認後、パブリックに公開します。&lt;/p>
-&lt;ul class="list-disc ml-6">
-&lt;li>
-&lt;a href="/hub/get-started/site/save-and-publish/save/">サイトの保存&lt;/a>&lt;br>サイトの変更をドラフトとして保存し、プレビューする手順について説明します。
-&lt;/li>
-&lt;li>
-&lt;a href="/hub/get-started/site/save-and-publish/publish/">サイトの公開&lt;/a>&lt;br>サイトの変更をパブリックに公開する手順について説明します。
-&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;p&gt;ArcGIS Hub で新しいサイトを作成する方法について説明します。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;この操作は、デフォルトの [管理者] ロールまたは [更新機能を持つグループを作成] と [メンバーの割り当て] の権限を持つロールが割り当てられたユーザーのみが可能です。&lt;br&gt;
+ロールについての詳細は、&lt;a href="https://doc.arcgis.com/en/hub/team/configure-roles-and-privileges.htm"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;ArcGIS Hub にアクセス&lt;span class="hx:absolute hx:-mt-20" id="arcgis-hub-にアクセス"&gt;&lt;/span&gt;
+&lt;a href="#arcgis-hub-%e3%81%ab%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;ArcGIS Online 組織サイトの右上に表示されている [アプリ ランチャー] → [Hub] をクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/create-site-app-luncher.png"
+alt="アプリランチャーから Hub を選択" width="500"&gt;&lt;figcaption&gt;
+&lt;p&gt;アプリランチャーから Hub を選択&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;[ワークスペースへようこそ] のダイアログが表示される場合は、[ワークスペースの使用] をクリックし、ダイアログを閉じます。&lt;/li&gt;
+&lt;li&gt;[マイ ワークスペース] という、ArcGIS Hub を操作するホーム画面が表示されます。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/create-site-myworkspace.png"
+alt="マイ ワークスペース" width="500"&gt;&lt;figcaption&gt;
+&lt;p&gt;マイ ワークスペース&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;サイトの作成&lt;span class="hx:absolute hx:-mt-20" id="サイトの作成"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b5%e3%82%a4%e3%83%88%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;[作成] → [サイト] をクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/create-site-create-new-site.png"
+alt="サイトの作成" width="550"&gt;&lt;figcaption&gt;
+&lt;p&gt;サイトの作成&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[タイトル] にサイトの名前を、[サブドメイン] に希望するサイトのサブドメインを入力し、[次へ] をクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/create-site-enter-name-for-site.png"
+alt="サイト名の入力" width="600"&gt;&lt;figcaption&gt;
+&lt;p&gt;サイト名の入力&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[カタログ] セクションでカタログの構成方法を下記のオプションから選択します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;空白のカタログ: カタログを構成せずに、サイトを作成します。&lt;/li&gt;
+&lt;li&gt;カタログをクイック スタート: サイトのカタログで使用するグループと、サイトを同時に作成します。グループは「&amp;lt;サイトのタイトル&amp;gt; contents」という名称で自動作成されます。&lt;/li&gt;
+&lt;li&gt;既存のグループによるカタログ: カタログとして既存のグループを選択し、サイトを作成します。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/create-site-select-catalog-option.png"
+alt="カタログ オプションの選択" width="650"&gt;&lt;figcaption&gt;
+&lt;p&gt;カタログ オプションの選択&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+ここでは、[カタログをクイック スタート] オプションを選択し、カタログに含めるコンテンツのグループを作成してから、サイトを作成する方法について説明します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[サイト レイアウト] を下記のオプションから選択し、[次へ] をクリックします。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;空白: まっさらな空のレイアウトからサイトを作成します。&lt;/li&gt;
+&lt;li&gt;シンプル: あらかじめいくつかの行とカードがレイアウトに追加された状態から、サイトを作成します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;必要に応じて、サイトを共有するグループを選択し、[作成] をクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[サイトが正常に作成されました。] と表示されたら、[終了] をクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>サイトのデザイン</title><link>/hub/get-started/site/design/</link><pubDate>Fri, 29 Aug 2025 00:00:00 +0900</pubDate><guid>/hub/get-started/site/design/</guid><description>
+&lt;p&gt;作成したサイトは、見出しの変更やカードの追加によってデザイン構成を行うことができます。&lt;br&gt;
+この章では、デザイン構成を行うための機能や、カードの配置の方法を説明します。&lt;/p&gt;
+&lt;ul class="list-disc ml-6"&gt;
+&lt;li&gt;
+&lt;a href="/hub/get-started/site/design/configure/"&gt;サイトの構成&lt;/a&gt;&lt;br&gt;ArcGIS Hub におけるサイトの構成、サイトの編集方法について説明します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/hub/get-started/site/design/card/"&gt;カードの配置と設定&lt;/a&gt;&lt;br&gt;ArcGIS Hub でカードの配置と設定をする方法を説明します。
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>サイトの保存と公開</title><link>/hub/get-started/site/save-and-publish/</link><pubDate>Fri, 05 Sep 2025 00:00:00 +0900</pubDate><guid>/hub/get-started/site/save-and-publish/</guid><description>
+&lt;p&gt;サイトの変更をドラフトとして保存して、公開する前にプレビューを他のユーザーと共有できます。プレビューを確認後、パブリックに公開します。&lt;/p&gt;
+&lt;ul class="list-disc ml-6"&gt;
+&lt;li&gt;
+&lt;a href="/hub/get-started/site/save-and-publish/save/"&gt;サイトの保存&lt;/a&gt;&lt;br&gt;サイトの変更をドラフトとして保存し、プレビューする手順について説明します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/hub/get-started/site/save-and-publish/publish/"&gt;サイトの公開&lt;/a&gt;&lt;br&gt;サイトの変更をパブリックに公開する手順について説明します。
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

@@ -1,118 +1,118 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – スタートアップ ガイド</title><link>/business-analyst/pro/get-started/</link><description>Recent content in スタートアップ ガイド on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><atom:link href="/business-analyst/pro/get-started/index.xml" rel="self" type="application/rss+xml"/><item><title>アプリケーション</title><link>/business-analyst/pro/get-started/software/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/get-started/software/</guid><description>
-&lt;p>BA Pro のセットアップ方法を説明します。&lt;/p>
-&lt;h2>動作環境&lt;span class="hx:absolute hx:-mt-20" id="動作環境">&lt;/span>
-&lt;a href="#%e5%8b%95%e4%bd%9c%e7%92%b0%e5%a2%83" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>BA Pro の動作環境は、ベースとなる ArcGIS Pro の &lt;a href="https://pro.arcgis.com/ja/pro-app/latest/get-started/arcgis-pro-system-requirements.htm" target="_blank">動作環境 &lt;/a>に準じます。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ストレージ容量は ArcGIS Pro のハードウェア要件の容量に加え、&lt;a href="https://www.esrij.com/products/arcgis-business-analyst/data-spec/offline/" target="_blank">データ仕様&lt;/a>に記載されたデータ容量が必要になります。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h2>セットアップ&lt;span class="hx:absolute hx:-mt-20" id="セットアップ">&lt;/span>
-&lt;a href="#%e3%82%bb%e3%83%83%e3%83%88%e3%82%a2%e3%83%83%e3%83%97" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ライセンスの割り当て方法と、BA Pro をインストールする方法を説明します。&lt;/p>
-&lt;h3>ステップ１：ライセンスの割り当て（管理者のみ）&lt;span class="hx:absolute hx:-mt-20" id="ステップ１ライセンスの割り当て管理者のみ">&lt;/span>
-&lt;a href="#%e3%82%b9%e3%83%86%e3%83%83%e3%83%97%ef%bc%91%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9%e3%81%ae%e5%89%b2%e3%82%8a%e5%bd%93%e3%81%a6%e7%ae%a1%e7%90%86%e8%80%85%e3%81%ae%e3%81%bf" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>ArcGIS Pro スタートアップ ガイドの&lt;a href="/pro/get-started/setup/admin/" target="_blank">管理者の操作&lt;/a>をもとに、ArcGIS Online の登録とライセンス割り当てを行います。
-BA Pro を利用する場合は、「&lt;a href="/pro/get-started/setup/admin/#4-ライセンスの割り当てと解除" target="_blank">４. ライセンスの割り当てと解除&lt;/a>」で、利用ユーザーに対して以下のライセンスを割り当てる必要があります。&lt;/p>
-&lt;ul>
-&lt;li>[ArcGIS Pro エクステンション] グループのライセンス 2 種
-&lt;ul>
-&lt;li>Business Analyst エクステンション&lt;br/>&lt;/li>
-&lt;li>Network Analyst エクステンション&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h3>ステップ２：BA Pro のインストール&lt;span class="hx:absolute hx:-mt-20" id="ステップ２ba-pro-のインストール">&lt;/span>
-&lt;a href="#%e3%82%b9%e3%83%86%e3%83%83%e3%83%97%ef%bc%92ba-pro-%e3%81%ae%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>ArcGIS Pro をインストールすることで BA Pro を利用できます。&lt;/p>
-&lt;ul>
-&lt;li>ArcGIS Pro スタートアップ ガイドの&lt;a href="/pro/get-started/setup/user/" target="_blank">利用者の操作&lt;/a>をご確認ください。&lt;/li>
-&lt;/ul>
-&lt;p>以上でアプリケーションのセットアップは完了です。&lt;br/>
-続けてデータのセットアップを行います。&lt;strong>「&lt;a href="/business-analyst/pro/get-started/data/">データセット&lt;/a>」&lt;/strong> にお進みください。&lt;/p></description></item><item><title>データセット</title><link>/business-analyst/pro/get-started/data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/get-started/data/</guid><description>
-&lt;p>Business Analyst 用のローカル データセットのセットアップ方法を説明します。&lt;/p>
-&lt;h2>動作環境&lt;span class="hx:absolute hx:-mt-20" id="動作環境">&lt;/span>
-&lt;a href="#%e5%8b%95%e4%bd%9c%e7%92%b0%e5%a2%83" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a href="https://www.esrij.com/products/arcgis-business-analyst/data-spec/offline/" target="_blank">データ仕様&lt;/a>をご参照ください。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">最新版データはリリース時の最新版アプリケーションに最適化しています。データの更新と併せて、アプリケーションのバージョン アップをお勧めします。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">2022 年版以前のローカル データセットに付属するクラシック ロケーターは BA Pro 3.0 以降では動作しませんのでご注意ください。（&lt;a href="https://blog.esrij.com/2022/08/10/post-45047/" target="_blank">詳細&lt;/a>）&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h2>セットアップ&lt;span class="hx:absolute hx:-mt-20" id="セットアップ">&lt;/span>
-&lt;a href="#%e3%82%bb%e3%83%83%e3%83%88%e3%82%a2%e3%83%83%e3%83%97" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ローカル データセットを利用するには、データをダウンロードし、設定を行う必要があります。&lt;/p>
-&lt;h3>ステップ１：データの入手と解凍&lt;span class="hx:absolute hx:-mt-20" id="ステップ１データの入手と解凍">&lt;/span>
-&lt;a href="#%e3%82%b9%e3%83%86%e3%83%83%e3%83%97%ef%bc%91%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e5%85%a5%e6%89%8b%e3%81%a8%e8%a7%a3%e5%87%8d" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>BA Pro の新規購入時もしくは BA Pro の契約／保守有効期間中にデータが更新された場合、「&lt;strong>BAPro20xx年版データのダウンロードご案内&lt;/strong>」が送付されます。ドキュメントに記載された URL より、最新版データをダウンロードしてください。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;strong>ダウンロードしたファイルは、必ず Windows 標準の解凍ツール等を用いて UTF8 形式で解凍してください。Lhaplus 等の解凍ツールは UTF8 形式の解凍に対応していないため、BA Pro でのエラー発生の原因となります。&lt;/strong>&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h3>ステップ２：データの設定&lt;span class="hx:absolute hx:-mt-20" id="ステップ２データの設定">&lt;/span>
-&lt;a href="#%e3%82%b9%e3%83%86%e3%83%83%e3%83%97%ef%bc%92%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>BA Pro 3.0 以降では、データセット接続機能を利用して、インストールすることなくデータを利用できます。&lt;/p>
-&lt;h4>データセット接続機能の利用&lt;span class="hx:absolute hx:-mt-20" id="データセット接続機能の利用">&lt;/span>
-&lt;a href="#%e3%83%87%e3%83%bc%e3%82%bf%e3%82%bb%e3%83%83%e3%83%88%e6%8e%a5%e7%b6%9a%e6%a9%9f%e8%83%bd%e3%81%ae%e5%88%a9%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ol>
-&lt;li>ArcGIS Pro を起動します。&lt;/li>
-&lt;li>&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/installing-business-analyst-data.htm#ESRI_SECTION1_B2DA93BB1F64473BAED3FB9A0307441E" target="_blank">接続可能データセットへの接続&lt;/a> の手順に沿って BA Pro 2025 年版データへの接続を行います。&lt;br/>
-※ 日本のローカル データセットはデータ ライセンスを付与せずに利用できます。&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">データセット接続に利用する &lt;strong>dataset_description.xml&lt;/strong> は以下のフォルダーに保存されています。&lt;br/>
-&amp;lt;解凍先フォルダー&amp;gt;\JPN_EsriJapan_2025&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h3>ステップ３：データ ソースの確認&lt;span class="hx:absolute hx:-mt-20" id="ステップ３データ-ソースの確認">&lt;/span>
-&lt;a href="#%e3%82%b9%e3%83%86%e3%83%83%e3%83%97%ef%bc%93%e3%83%87%e3%83%bc%e3%82%bf-%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e7%a2%ba%e8%aa%8d" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Business Analyst から使用するデータ ソースが正しく設定されていることを確認します。&lt;/p>
-&lt;ol>
-&lt;li>ArcGIS Pro を起動します。&lt;/li>
-&lt;li>任意のプロジェクトを開きます。作成済みプロジェクトが無い場合、&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/get-started/create-a-project.htm" target="_blank">新規で作成&lt;/a>します。&lt;/li>
-&lt;li>[解析] タブを開き、[ビジネス解析] ボタンをクリックします。&lt;/li>
-&lt;li>[Business Analyst データ ソース] が &lt;strong>JPN_EsriJapan_2025&lt;/strong> になっていることを確認します。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/preparation/ba-data-source_v36.png"
-alt="Business Analyst データ ソース">&lt;figcaption>
-&lt;p>Business Analyst データ ソース&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>以上で、BA Pro を利用するための準備が整いました。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">BA Pro 3.2 以前では、Business Analyst データ キャッシュの作成が繰り返す不具合が発生します。&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge5745.html" target="_blank">FAQ の内容&lt;/a>を参考に回避策をお試しください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">Business Analyst データソースを変更する場合、[データ ソースの変更] をクリックして任意のデータを選択します。（&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/setting-business-analyst-data-source.htm" target="_blank">詳細&lt;/a>）&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">一部ツールは、実行するジオプロセシング ツール単位でデータ ソースを変更することが可能です。(&lt;a href="https://pro.arcgis.com/jp/pro-app/latest/help/analysis/business-analyst/setting-business-analyst-data-source.htm#ESRI_SECTION1_D43572EB49064E3AB6F52D3A97276C61" target="_blank">詳細&lt;/a>)&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h3>オプション&lt;span class="hx:absolute hx:-mt-20" id="オプション">&lt;/span>
-&lt;a href="#%e3%82%aa%e3%83%97%e3%82%b7%e3%83%a7%e3%83%b3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>必要に応じて、ローカルで利用可能な背景地図の設定を行えます。また、過去バージョンのデータでは ArcMap 版 BA Desktop もしくは BA Pro 2.9 以前で利用するためにインストールを行うことができます。&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="/business-analyst/pro/get-started/data/offline_basemap/">オフライン背景地図の設定 (オプション)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="/business-analyst/pro/get-started/data/install_data/">データのインストール (オプション)&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">セットアップに関してご不明点がある場合や、データセットをメディアで入手したい場合は、&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge101.html" target="_blank">My Esri&lt;/a> から &lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge106.html" target="_blank">お問い合わせ&lt;/a>ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;style class="info-table">
+&lt;p&gt;BA Pro のセットアップ方法を説明します。&lt;/p&gt;
+&lt;h2&gt;動作環境&lt;span class="hx:absolute hx:-mt-20" id="動作環境"&gt;&lt;/span&gt;
+&lt;a href="#%e5%8b%95%e4%bd%9c%e7%92%b0%e5%a2%83" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;BA Pro の動作環境は、ベースとなる ArcGIS Pro の &lt;a href="https://pro.arcgis.com/ja/pro-app/latest/get-started/arcgis-pro-system-requirements.htm" target="_blank"&gt;動作環境 &lt;/a&gt;に準じます。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;ストレージ容量は ArcGIS Pro のハードウェア要件の容量に加え、&lt;a href="https://www.esrij.com/products/arcgis-business-analyst/data-spec/offline/" target="_blank"&gt;データ仕様&lt;/a&gt;に記載されたデータ容量が必要になります。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;セットアップ&lt;span class="hx:absolute hx:-mt-20" id="セットアップ"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%bb%e3%83%83%e3%83%88%e3%82%a2%e3%83%83%e3%83%97" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ライセンスの割り当て方法と、BA Pro をインストールする方法を説明します。&lt;/p&gt;
+&lt;h3&gt;ステップ１：ライセンスの割り当て（管理者のみ）&lt;span class="hx:absolute hx:-mt-20" id="ステップ１ライセンスの割り当て管理者のみ"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b9%e3%83%86%e3%83%83%e3%83%97%ef%bc%91%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9%e3%81%ae%e5%89%b2%e3%82%8a%e5%bd%93%e3%81%a6%e7%ae%a1%e7%90%86%e8%80%85%e3%81%ae%e3%81%bf" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;ArcGIS Pro スタートアップ ガイドの&lt;a href="/pro/get-started/setup/admin/" target="_blank"&gt;管理者の操作&lt;/a&gt;をもとに、ArcGIS Online の登録とライセンス割り当てを行います。
+BA Pro を利用する場合は、「&lt;a href="/pro/get-started/setup/admin/#4-ライセンスの割り当てと解除" target="_blank"&gt;４. ライセンスの割り当てと解除&lt;/a&gt;」で、利用ユーザーに対して以下のライセンスを割り当てる必要があります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[ArcGIS Pro エクステンション] グループのライセンス 2 種
+&lt;ul&gt;
+&lt;li&gt;Business Analyst エクステンション&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;Network Analyst エクステンション&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;ステップ２：BA Pro のインストール&lt;span class="hx:absolute hx:-mt-20" id="ステップ２ba-pro-のインストール"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b9%e3%83%86%e3%83%83%e3%83%97%ef%bc%92ba-pro-%e3%81%ae%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;ArcGIS Pro をインストールすることで BA Pro を利用できます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ArcGIS Pro スタートアップ ガイドの&lt;a href="/pro/get-started/setup/user/" target="_blank"&gt;利用者の操作&lt;/a&gt;をご確認ください。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;以上でアプリケーションのセットアップは完了です。&lt;br/&gt;
+続けてデータのセットアップを行います。&lt;strong&gt;「&lt;a href="/business-analyst/pro/get-started/data/"&gt;データセット&lt;/a&gt;」&lt;/strong&gt; にお進みください。&lt;/p&gt;</description></item><item><title>データセット</title><link>/business-analyst/pro/get-started/data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/get-started/data/</guid><description>
+&lt;p&gt;Business Analyst 用のローカル データセットのセットアップ方法を説明します。&lt;/p&gt;
+&lt;h2&gt;動作環境&lt;span class="hx:absolute hx:-mt-20" id="動作環境"&gt;&lt;/span&gt;
+&lt;a href="#%e5%8b%95%e4%bd%9c%e7%92%b0%e5%a2%83" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href="https://www.esrij.com/products/arcgis-business-analyst/data-spec/offline/" target="_blank"&gt;データ仕様&lt;/a&gt;をご参照ください。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;最新版データはリリース時の最新版アプリケーションに最適化しています。データの更新と併せて、アプリケーションのバージョン アップをお勧めします。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;2022 年版以前のローカル データセットに付属するクラシック ロケーターは BA Pro 3.0 以降では動作しませんのでご注意ください。（&lt;a href="https://blog.esrij.com/2022/08/10/post-45047/" target="_blank"&gt;詳細&lt;/a&gt;）&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;セットアップ&lt;span class="hx:absolute hx:-mt-20" id="セットアップ"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%bb%e3%83%83%e3%83%88%e3%82%a2%e3%83%83%e3%83%97" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ローカル データセットを利用するには、データをダウンロードし、設定を行う必要があります。&lt;/p&gt;
+&lt;h3&gt;ステップ１：データの入手と解凍&lt;span class="hx:absolute hx:-mt-20" id="ステップ１データの入手と解凍"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b9%e3%83%86%e3%83%83%e3%83%97%ef%bc%91%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e5%85%a5%e6%89%8b%e3%81%a8%e8%a7%a3%e5%87%8d" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;BA Pro の新規購入時もしくは BA Pro の契約／保守有効期間中にデータが更新された場合、「&lt;strong&gt;BAPro20xx年版データのダウンロードご案内&lt;/strong&gt;」が送付されます。ドキュメントに記載された URL より、最新版データをダウンロードしてください。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;ダウンロードしたファイルは、必ず Windows 標準の解凍ツール等を用いて UTF8 形式で解凍してください。Lhaplus 等の解凍ツールは UTF8 形式の解凍に対応していないため、BA Pro でのエラー発生の原因となります。&lt;/strong&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;ステップ２：データの設定&lt;span class="hx:absolute hx:-mt-20" id="ステップ２データの設定"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b9%e3%83%86%e3%83%83%e3%83%97%ef%bc%92%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;BA Pro 3.0 以降では、データセット接続機能を利用して、インストールすることなくデータを利用できます。&lt;/p&gt;
+&lt;h4&gt;データセット接続機能の利用&lt;span class="hx:absolute hx:-mt-20" id="データセット接続機能の利用"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%87%e3%83%bc%e3%82%bf%e3%82%bb%e3%83%83%e3%83%88%e6%8e%a5%e7%b6%9a%e6%a9%9f%e8%83%bd%e3%81%ae%e5%88%a9%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;ArcGIS Pro を起動します。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/installing-business-analyst-data.htm#ESRI_SECTION1_B2DA93BB1F64473BAED3FB9A0307441E" target="_blank"&gt;接続可能データセットへの接続&lt;/a&gt; の手順に沿って BA Pro 2025 年版データへの接続を行います。&lt;br/&gt;
+※ 日本のローカル データセットはデータ ライセンスを付与せずに利用できます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;データセット接続に利用する &lt;strong&gt;dataset_description.xml&lt;/strong&gt; は以下のフォルダーに保存されています。&lt;br/&gt;
+&amp;lt;解凍先フォルダー&amp;gt;\JPN_EsriJapan_2025&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;ステップ３：データ ソースの確認&lt;span class="hx:absolute hx:-mt-20" id="ステップ３データ-ソースの確認"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b9%e3%83%86%e3%83%83%e3%83%97%ef%bc%93%e3%83%87%e3%83%bc%e3%82%bf-%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e7%a2%ba%e8%aa%8d" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Business Analyst から使用するデータ ソースが正しく設定されていることを確認します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;ArcGIS Pro を起動します。&lt;/li&gt;
+&lt;li&gt;任意のプロジェクトを開きます。作成済みプロジェクトが無い場合、&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/get-started/create-a-project.htm" target="_blank"&gt;新規で作成&lt;/a&gt;します。&lt;/li&gt;
+&lt;li&gt;[解析] タブを開き、[ビジネス解析] ボタンをクリックします。&lt;/li&gt;
+&lt;li&gt;[Business Analyst データ ソース] が &lt;strong&gt;JPN_EsriJapan_2025&lt;/strong&gt; になっていることを確認します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/preparation/ba-data-source_v36.png"
+alt="Business Analyst データ ソース"&gt;&lt;figcaption&gt;
+&lt;p&gt;Business Analyst データ ソース&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;以上で、BA Pro を利用するための準備が整いました。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;BA Pro 3.2 以前では、Business Analyst データ キャッシュの作成が繰り返す不具合が発生します。&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge5745.html" target="_blank"&gt;FAQ の内容&lt;/a&gt;を参考に回避策をお試しください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;Business Analyst データソースを変更する場合、[データ ソースの変更] をクリックして任意のデータを選択します。（&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/setting-business-analyst-data-source.htm" target="_blank"&gt;詳細&lt;/a&gt;）&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;一部ツールは、実行するジオプロセシング ツール単位でデータ ソースを変更することが可能です。(&lt;a href="https://pro.arcgis.com/jp/pro-app/latest/help/analysis/business-analyst/setting-business-analyst-data-source.htm#ESRI_SECTION1_D43572EB49064E3AB6F52D3A97276C61" target="_blank"&gt;詳細&lt;/a&gt;)&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;オプション&lt;span class="hx:absolute hx:-mt-20" id="オプション"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%aa%e3%83%97%e3%82%b7%e3%83%a7%e3%83%b3" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;必要に応じて、ローカルで利用可能な背景地図の設定を行えます。また、過去バージョンのデータでは ArcMap 版 BA Desktop もしくは BA Pro 2.9 以前で利用するためにインストールを行うことができます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/business-analyst/pro/get-started/data/offline_basemap/"&gt;オフライン背景地図の設定 (オプション)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/business-analyst/pro/get-started/data/install_data/"&gt;データのインストール (オプション)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;セットアップに関してご不明点がある場合や、データセットをメディアで入手したい場合は、&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge101.html" target="_blank"&gt;My Esri&lt;/a&gt; から &lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge106.html" target="_blank"&gt;お問い合わせ&lt;/a&gt;ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style class="info-table"&gt;
 table {
 font-size: 16px;
 width: 95%;
@@ -131,8 +131,8 @@ width: 40%;
 table tr{
 background-color: #ffffff;
 }
-&lt;/style>
-&lt;style class="standard-table">
+&lt;/style&gt;
+&lt;style class="standard-table"&gt;
 table th:first-of-type {
 width: 25%;
 }
@@ -143,4 +143,4 @@ table th:nth-of-type(3) {
 width: 40%;
 }
 }
-&lt;/style></description></item></channel></rss>
+&lt;/style&gt;</description></item></channel></rss>

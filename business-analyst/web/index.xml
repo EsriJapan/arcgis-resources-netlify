@@ -1,216 +1,216 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – Web and Mobile Apps</title><link>/business-analyst/web/</link><description>Recent content in Web and Mobile Apps on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 02 Sep 2022 00:00:00 +0900</lastBuildDate><atom:link href="/business-analyst/web/index.xml" rel="self" type="application/rss+xml"/><item><title>スタートアップ ガイド</title><link>/business-analyst/web/get-started/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/web/get-started/</guid><description>
-&lt;p>ArcGIS Business Analyst Web and Mobile Apps (以降「BA Web and Mobile Apps」) のセットアップを行います。&lt;/p>
-&lt;h2>動作環境&lt;span class="hx:absolute hx:-mt-20" id="動作環境">&lt;/span>
-&lt;a href="#%e5%8b%95%e4%bd%9c%e7%92%b0%e5%a2%83" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>最新の動作環境は以下をご確認ください。&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/system-requirements.htm"target="_blank" rel="noopener">ArcGIS Business Analyst Web App の動作環境&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://doc.arcgis.com/ja/business-analyst/mobile/system-requirements.htm"target="_blank" rel="noopener">ArcGIS Business Analyst Mobile App の動作環境&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2>セットアップ&lt;span class="hx:absolute hx:-mt-20" id="セットアップ">&lt;/span>
-&lt;a href="#%e3%82%bb%e3%83%83%e3%83%88%e3%82%a2%e3%83%83%e3%83%97" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>1. ArcGIS Online の設定&lt;span class="hx:absolute hx:-mt-20" id="1-arcgis-online-の設定">&lt;/span>
-&lt;a href="#1-arcgis-online-%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>はじめに、「&lt;a href="/online/" target="_blank">ArcGIS Online スタートアップ ガイド&lt;/a>」を参考にベースとなる ArcGIS Online のセットアップを行います。&lt;/p>
-&lt;h3>2. (Advanced の場合) アドオン ライセンスの割り当て&lt;span class="hx:absolute hx:-mt-20" id="2-advanced-の場合-アドオン-ライセンスの割り当て">&lt;/span>
-&lt;a href="#2-advanced-%e3%81%ae%e5%a0%b4%e5%90%88-%e3%82%a2%e3%83%89%e3%82%aa%e3%83%b3-%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9%e3%81%ae%e5%89%b2%e3%82%8a%e5%bd%93%e3%81%a6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/get-started/licenses-assign-image_24r2.png" width="50%">
-&lt;/figure>
-&lt;p>BA Web and Mobile Apps Advanced を利用する場合 ArcGIS Online ユーザーに対して、アドオン ライセンスを割り当てます。アドオン ライセンスは Creator 以上の&lt;a href="https://www.esrij.com/products/user-types/"target="_blank" rel="noopener">ユーザー タイプ&lt;/a>に割り当てることができます。&lt;/p>
-&lt;p>&lt;strong>管理者&lt;/strong>の方は組織サイトから各メンバーにライセンスの割り当てを行ってください。ライセンスの割り当て方法は、&lt;a href="/online/get-started/administer/license/assign/" target="_blank">ArcGIS Online スタートアップ ガイド「ライセンスの割り当てと解除」&lt;/a>をご確認ください。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">BA Web and Mobile Apps Advanced のアドオン ライセンスは、[アドオン ライセンス] ページの [アプリケーション] グループに格納されています。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">BA Web and Mobile Apps Standard は、割り当てなしで利用できます。利用できる機能の差異については&lt;a href="https://www.esrij.com/cms/wp-content/uploads/2026/01/202512_compare-ba-function.pdf"target="_blank" rel="noopener">詳細&lt;/a>をご確認ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h3>3. BA Web App の初期設定&lt;span class="hx:absolute hx:-mt-20" id="3-ba-web-app-の初期設定">&lt;/span>
-&lt;a href="#3-ba-web-app-%e3%81%ae%e5%88%9d%e6%9c%9f%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>次に、BA Web App を快適に利用するための初期設定を行います。&lt;/p>
-&lt;h4>アプリの起動&lt;span class="hx:absolute hx:-mt-20" id="アプリの起動">&lt;/span>
-&lt;a href="#%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ae%e8%b5%b7%e5%8b%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ol>
-&lt;li>BA Web and Mobile Apps のライセンスが割り当てられているアカウントで、ArcGIS Online 組織サイトにサイン インします。&lt;/li>
-&lt;li>右上の [アプリ] ランチャーをクリックして、一覧から [Business Analyst] をクリックします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/get-started/launch-ba-web-app.png" width="60%">
-&lt;/figure>
-&lt;ol start="3">
-&lt;li>BA Web App が起動します。初回起動時には、プロフィール画像の設定ダイアログが表示されます。設定を行う場合は [プロフィール画像の追加] をクリックし、画像を選択してください。設定しない場合は、[このステップをスキップ] をクリックします。&lt;/li>
-&lt;li>次に、プロジェクトの作成を求められるので、[プロジェクトの作成] をクリックします。&lt;/li>
-&lt;li>[プロジェクトの設定] ダイアログが開いたら、任意のプロジェクト名を入力し、[作成] をクリックします。
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">初回起動時は、ガイド ツアー「プロジェクトの作成」が自動で開始されます。表示されるポップアップ ガイドに従って、プロジェクトを作成してください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>プロジェクトの作成が完了すると、[ホーム] タブに切り替わり、先ほど作成したプロジェクトが追加されます。
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">本アプリケーションで作成したデータやマップは、すべてプロジェクトに格納されます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;/ol>
-&lt;h4>アプリの初期設定&lt;span class="hx:absolute hx:-mt-20" id="アプリの初期設定">&lt;/span>
-&lt;a href="#%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ae%e5%88%9d%e6%9c%9f%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>日本を対象に解析するにあたり、お勧めするアプリの初期設定について説明します。初期設定は、アプリ右上の [初期設定] ボタンをクリックすると開きます。&lt;/p>
-&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/get-started/open-preference_24r2.png">
-&lt;/figure>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">初期設定の変更した後、[保存] することで、次回以降、起動時に自動的にデフォルト設定として適用されます。元の設定に戻すには、[デフォルトに戻す] をクリックし、[保存] をクリックします。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>解析する国の選択&lt;/strong>&lt;/p>
-&lt;p>解析対象の国や地域を設定します。&lt;/p>
-&lt;ul>
-&lt;li>[一般] タブの [設定] を開き、[オプション] の「デフォルトの国」のプルダウン リストから、「日本」を設定します。&lt;/li>
-&lt;/ul>
-&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/get-started/setting-country_24r2.png" width="60%">
-&lt;/figure>
-&lt;p>&lt;strong>データ ソース&lt;/strong>&lt;/p>
-&lt;p>解析に使用するデータ ソースを選択します。一部の国では、複数のデータ ソースから選択できます。日本は、以下の 2 つを選択可能です。選択中のデータ ソースは [選択済み] と表示されます。&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">データの種類&lt;/th>
-&lt;th style="text-align: left">説明&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">Esri ジャパン&lt;/td>
-&lt;td style="text-align: left">ESRIジャパンが提供するデータ ソースです。人口や世帯、年収・消費などに関する約 2,650 の変数を利用できます。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">Standard&lt;/td>
-&lt;td style="text-align: left">ドイツの MBR 社 (Michael Bauer Research GmbH) が提供するデータ ソースです。約 120 の変数を利用できます。&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;ul>
-&lt;li>[一般] タブの [設定] を開き、[オプション] の [データ ソース] のドロップダウン リストから [Esri ジャパン] を選択し、[適用] をクリックします。&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>単位&lt;/strong>&lt;/p>
-&lt;p>距離の計測単位を設定します。&lt;/p>
-&lt;ul>
-&lt;li>[一般] タブの [設定] を開き、[オプション] の [デフォルトの単位] のドロップダウン リストから、「&lt;strong>キロメートル&lt;/strong>」を選びます。&lt;/li>
-&lt;/ul>
-&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/get-started/setting-unit_24r2.png" width="60%">
-&lt;/figure>
-&lt;p>&lt;strong>背景地図&lt;/strong>&lt;/p>
-&lt;p>マップに表示させたり、インフォグラフィックスやレポートに表示させたりするためのデフォルトの背景地図を設定します。&lt;/p>
-&lt;ul>
-&lt;li>[一般] タブの [設定] を開き、[背景地図] の一覧から任意の地図を選択します。&lt;/li>
-&lt;/ul>
-&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/get-started/setting-basemap_24r2.png" width="60%">
-&lt;/figure>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">マップを選択すると、[デフォルトのマップ位置] のマップが選択した背景地図に切り替わります。マップは拡大・縮小することができ、プレビューすることができます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>自動保存&lt;/strong>&lt;/p>
-&lt;p>自動保存を有効にすると、サイン アウトするか、ブラウザーを閉じた時点でのマップが保存され、次回起動時に前回のマップを表示することができます。&lt;/p>
-&lt;ul>
-&lt;li>[一般] タブの [設定] を開き、[自動保存] トグルをオンにします。&lt;/li>
-&lt;/ul>
-&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/get-started/setting-auto-save_24r2.png">
-&lt;/figure>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">以下は、&lt;strong>管理者ロール&lt;/strong>を持つユーザーのみ設定できます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>レポートとインフォグラフィックス&lt;/strong>&lt;/p>
-&lt;p>組織の&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/member-roles.htm"target="_blank" rel="noopener">メンバー ロール&lt;/a>に応じて、BA Web App で利用できる&lt;a href="https://business-map.esrij.com/glossary/4328/"target="_blank" rel="noopener">インフォグラフィックス&lt;/a>やクラシック レポートを変更します。&lt;/p>
-&lt;p>データ ソースを「Esri ジャパン」に設定している場合、デフォルト設定では [インフォグラフィックスの実行] ツール等で、英語と日本語のテンプレートが両方表示されます。日本語のテンプレートのみを表示するには、以下の設定を変更します。&lt;/p>
-&lt;ol>
-&lt;li>[組織] タブ → [レポートとインフォグラフィックス] を開きます。&lt;/li>
-&lt;li>[ロールの選択] で設定を変更するロールを選択します。&lt;/li>
-&lt;li>[インフォグラフィックス] タブを選択し、[標準インフォグラフィックス] から、英語名のテンプレートのチェックを外します。&lt;/li>
-&lt;li>複数のロールに対して設定を行う場合は、[ロールの選択] でロールを切り替え、同様の操作を行います。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/get-started/setting-infographics.png" width="60%">
-&lt;/figure>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[ロールのプレビュー] をクリックすると、変更内容を反映したアプリの操作画面をプレビューすることができます。
-[レポート] タブ → [レポートの実行] メニュー → [インフォグラフィックスの実行] をクリックすると、テンプレートの選択画面が開きます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;strong>ガイド ツアー&lt;/strong>&lt;/p>
-&lt;p>BA Web App では、各ツールの操作をレクチャーする機能「&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/guided-tours.htm"target="_blank" rel="noopener">ガイド ツアー&lt;/a>」を利用できます。大半のガイド ツアーは設定を行うことなく実行できますが、以下のツアーを日本国内で実行するには設定変更が必要です。&lt;/p>
-&lt;ul>
-&lt;li>ArcGIS Living Atlas から Web マップ レイヤーを追加&lt;/li>
-&lt;li>レポートおよび解析で使用するカスタム データの設定&lt;/li>
-&lt;/ul>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">デフォルトの設定のままの場合、ツアーを実行するためには解析対象の国をアメリカに変更する必要があります。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;ol>
-&lt;li>[組織] タブの [ガイド ツアー] を開きます。&lt;/li>
-&lt;li>ガイド ツアーを行う国として、「日本」を指定します。&lt;/li>
-&lt;li>[レイヤーの参照] をクリックして [レイヤーの選択] ダイアログを開き、検索ボックス内に「CO2排出量」と入力して検索します。&lt;/li>
-&lt;li>検索結果に「CO2排出量 市区町村別（2019 年）」が表示されるので、アイコン上にカーソルを当て、[追加] をクリックします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/get-started/setting-guided-tour.png" width="60%">
-&lt;/figure>
-&lt;p>以上で、BA Web App のセットアップが完了しました。&lt;/p>
-&lt;h3>BA Mobile App の設定 (オプション)&lt;span class="hx:absolute hx:-mt-20" id="ba-mobile-app-の設定-オプション">&lt;/span>
-&lt;a href="#ba-mobile-app-%e3%81%ae%e8%a8%ad%e5%ae%9a-%e3%82%aa%e3%83%97%e3%82%b7%e3%83%a7%e3%83%b3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>スマートフォンなどのモバイル端末を利用して解析を行う場合は、端末に BA Mobile App をインストールし、起動および初期設定を行います。&lt;/p>
-&lt;h4>アプリのインストール&lt;span class="hx:absolute hx:-mt-20" id="アプリのインストール">&lt;/span>
-&lt;a href="#%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ae%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>使用する端末の OS に応じて、&lt;a href="https://apps.apple.com/jp/app/arcgis-business-analyst/id936839636"target="_blank" rel="noopener">App Store&lt;/a> または &lt;a href="https://play.google.com/store/apps/details?id=com.esri.bao.baomobile"target="_blank" rel="noopener">Google Play&lt;/a> からアプリケーションをインストールします。&lt;/p>
-&lt;h4>アプリにサイン イン&lt;span class="hx:absolute hx:-mt-20" id="アプリにサイン-イン">&lt;/span>
-&lt;a href="#%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ab%e3%82%b5%e3%82%a4%e3%83%b3-%e3%82%a4%e3%83%b3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ol>
-&lt;li>BA Mobile App を起動し、[ArcGIS Online にサイン イン] をタップします。&lt;/li>
-&lt;li>BA Web and Mobile Apps のライセンスが割り当てられている ArcGIS Online アカウントで、サイン インします。&lt;/li>
-&lt;li>サイン インが完了すると、マップが表示されます。これで、解析を開始するための準備が整いました。&lt;/li>
-&lt;/ol>
-&lt;h4>アプリの初期設定&lt;span class="hx:absolute hx:-mt-20" id="アプリの初期設定-1">&lt;/span>
-&lt;a href="#%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ae%e5%88%9d%e6%9c%9f%e8%a8%ad%e5%ae%9a-1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>アプリ左上の [オプション メニュー] → [設定] から、アプリの初期設定を変更できます。詳細は BA Mobie App の&lt;a href="https://doc.arcgis.com/ja/business-analyst/mobile/set-mobile-app-preferences.htm"target="_blank" rel="noopener">ヘルプ ページ&lt;/a>をご確認ください。&lt;/p>
-&lt;p>以上で、BA Web and Mobile Apps のセットアップはすべて完了です。&lt;/p></description></item><item><title>チュートリアル</title><link>/business-analyst/web/tutorial/</link><pubDate>Fri, 02 Sep 2022 00:00:00 +0900</pubDate><guid>/business-analyst/web/tutorial/</guid><description>
-&lt;p>BA Web and Mobile Apps のチュートリアルを通して、活用方法や操作方法を学ぶことができます。&lt;/p>
-&lt;ul class="list-disc ml-6">
-&lt;li>
-&lt;a href="/business-analyst/web/tutorial/tutorial-video/">チュートリアル ビデオ&lt;/a>&lt;br>操作ビデオを通して、BA Web の操作方法を習得します。
-&lt;/li>
-&lt;li>
-&lt;a href="/business-analyst/web/tutorial/guided-tour/">ガイド ツアーの実行&lt;/a>&lt;br>ガイド ツアーを通して、BA Web の操作方法を習得します。
-&lt;/li>
-&lt;li>
-&lt;a href="/business-analyst/web/tutorial/importfile/">住所リストのインポート&lt;/a>&lt;br>店舗等の住所データの取り込みの方法について学習します。
-&lt;/li>
-&lt;li>
-&lt;a href="/business-analyst/web/tutorial/benchmark_comparison/">ベンチマーク比較&lt;/a>&lt;br>ベンチマーク比較の実行方法を学びます。
-&lt;/li>
-&lt;li>
-&lt;a href="/business-analyst/web/tutorial/customize-colorcodedmap/">カスタム変数を用いたカラーコード マップの作成&lt;/a>&lt;br>カラーコード マップの応用的な使い方を学びます。
-&lt;/li>
-&lt;li>
-&lt;a href="/business-analyst/web/tutorial/build-infographics/">インフォグラフィックスの作成&lt;/a>&lt;br>独自のインフォグラフィックス テンプレートを作成する方法を学びます。
-&lt;/li>
-&lt;/ul>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">上記のチュートリアル以外にも、米国 Esri が提供する &lt;a href="https://learn-arcgis-ja-learngis.hub.arcgis.com/" target="_blank">Learn ArcGIS&lt;/a> では、GIS 初心者から上級者向けの様々な製品の豊富なチュートリアルを提供しています。&lt;br/>
-ArcGIS Business Analyst に関するチュートリアルは、&lt;a href="https://learn.arcgis.com/ja/gallery/#?p=busanalyst" target="_blank">&lt;strong>こちら&lt;/strong>&lt;/a>から確認できます。なお、解析エリアは米国となっております。&lt;/div>
-&lt;/div>
-&lt;/div></description></item><item><title>Tips</title><link>/business-analyst/web/tips/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/web/tips/</guid><description>
-&lt;p>BA Web and Mobile Apps の操作方法などを調べられる各種ドキュメントです。&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/welcome.htm" target="_blank">ArcGIS Business Analyst Web App ヘルプ | ドキュメント&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://doc.arcgis.com/ja/business-analyst/mobile/welcome-mobile.htm" target="_blank">ArcGIS Business Analyst Mobile App ヘルプ | ドキュメント&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledgeList.html?searchMethod=0&amp;searchCondition=0&amp;targetNameFlg=1&amp;searchCategory=1&amp;searchItem=1&amp;searchTag=1&amp;searchKnowledgeKind=1&amp;category%5B102%5D%5B1%5D=213&amp;category%5B102%5D%5B2%5D=222" target="_blank">ArcGIS Business Analyst Web and Mobile Apps に関する FAQ&lt;/a>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;p&gt;ArcGIS Business Analyst Web and Mobile Apps (以降「BA Web and Mobile Apps」) のセットアップを行います。&lt;/p&gt;
+&lt;h2&gt;動作環境&lt;span class="hx:absolute hx:-mt-20" id="動作環境"&gt;&lt;/span&gt;
+&lt;a href="#%e5%8b%95%e4%bd%9c%e7%92%b0%e5%a2%83" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;最新の動作環境は以下をご確認ください。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/system-requirements.htm"target="_blank" rel="noopener"&gt;ArcGIS Business Analyst Web App の動作環境&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://doc.arcgis.com/ja/business-analyst/mobile/system-requirements.htm"target="_blank" rel="noopener"&gt;ArcGIS Business Analyst Mobile App の動作環境&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;セットアップ&lt;span class="hx:absolute hx:-mt-20" id="セットアップ"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%bb%e3%83%83%e3%83%88%e3%82%a2%e3%83%83%e3%83%97" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;1. ArcGIS Online の設定&lt;span class="hx:absolute hx:-mt-20" id="1-arcgis-online-の設定"&gt;&lt;/span&gt;
+&lt;a href="#1-arcgis-online-%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;はじめに、「&lt;a href="/online/" target="_blank"&gt;ArcGIS Online スタートアップ ガイド&lt;/a&gt;」を参考にベースとなる ArcGIS Online のセットアップを行います。&lt;/p&gt;
+&lt;h3&gt;2. (Advanced の場合) アドオン ライセンスの割り当て&lt;span class="hx:absolute hx:-mt-20" id="2-advanced-の場合-アドオン-ライセンスの割り当て"&gt;&lt;/span&gt;
+&lt;a href="#2-advanced-%e3%81%ae%e5%a0%b4%e5%90%88-%e3%82%a2%e3%83%89%e3%82%aa%e3%83%b3-%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9%e3%81%ae%e5%89%b2%e3%82%8a%e5%bd%93%e3%81%a6" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/get-started/licenses-assign-image_24r2.png" width="50%"&gt;
+&lt;/figure&gt;
+&lt;p&gt;BA Web and Mobile Apps Advanced を利用する場合 ArcGIS Online ユーザーに対して、アドオン ライセンスを割り当てます。アドオン ライセンスは Creator 以上の&lt;a href="https://www.esrij.com/products/user-types/"target="_blank" rel="noopener"&gt;ユーザー タイプ&lt;/a&gt;に割り当てることができます。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;管理者&lt;/strong&gt;の方は組織サイトから各メンバーにライセンスの割り当てを行ってください。ライセンスの割り当て方法は、&lt;a href="/online/get-started/administer/license/assign/" target="_blank"&gt;ArcGIS Online スタートアップ ガイド「ライセンスの割り当てと解除」&lt;/a&gt;をご確認ください。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;BA Web and Mobile Apps Advanced のアドオン ライセンスは、[アドオン ライセンス] ページの [アプリケーション] グループに格納されています。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;BA Web and Mobile Apps Standard は、割り当てなしで利用できます。利用できる機能の差異については&lt;a href="https://www.esrij.com/cms/wp-content/uploads/2026/01/202512_compare-ba-function.pdf"target="_blank" rel="noopener"&gt;詳細&lt;/a&gt;をご確認ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;3. BA Web App の初期設定&lt;span class="hx:absolute hx:-mt-20" id="3-ba-web-app-の初期設定"&gt;&lt;/span&gt;
+&lt;a href="#3-ba-web-app-%e3%81%ae%e5%88%9d%e6%9c%9f%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;次に、BA Web App を快適に利用するための初期設定を行います。&lt;/p&gt;
+&lt;h4&gt;アプリの起動&lt;span class="hx:absolute hx:-mt-20" id="アプリの起動"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ae%e8%b5%b7%e5%8b%95" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;BA Web and Mobile Apps のライセンスが割り当てられているアカウントで、ArcGIS Online 組織サイトにサイン インします。&lt;/li&gt;
+&lt;li&gt;右上の [アプリ] ランチャーをクリックして、一覧から [Business Analyst] をクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/get-started/launch-ba-web-app.png" width="60%"&gt;
+&lt;/figure&gt;
+&lt;ol start="3"&gt;
+&lt;li&gt;BA Web App が起動します。初回起動時には、プロフィール画像の設定ダイアログが表示されます。設定を行う場合は [プロフィール画像の追加] をクリックし、画像を選択してください。設定しない場合は、[このステップをスキップ] をクリックします。&lt;/li&gt;
+&lt;li&gt;次に、プロジェクトの作成を求められるので、[プロジェクトの作成] をクリックします。&lt;/li&gt;
+&lt;li&gt;[プロジェクトの設定] ダイアログが開いたら、任意のプロジェクト名を入力し、[作成] をクリックします。
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;初回起動時は、ガイド ツアー「プロジェクトの作成」が自動で開始されます。表示されるポップアップ ガイドに従って、プロジェクトを作成してください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;プロジェクトの作成が完了すると、[ホーム] タブに切り替わり、先ほど作成したプロジェクトが追加されます。
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;本アプリケーションで作成したデータやマップは、すべてプロジェクトに格納されます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;アプリの初期設定&lt;span class="hx:absolute hx:-mt-20" id="アプリの初期設定"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ae%e5%88%9d%e6%9c%9f%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;日本を対象に解析するにあたり、お勧めするアプリの初期設定について説明します。初期設定は、アプリ右上の [初期設定] ボタンをクリックすると開きます。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/get-started/open-preference_24r2.png"&gt;
+&lt;/figure&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;初期設定の変更した後、[保存] することで、次回以降、起動時に自動的にデフォルト設定として適用されます。元の設定に戻すには、[デフォルトに戻す] をクリックし、[保存] をクリックします。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;解析する国の選択&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;解析対象の国や地域を設定します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[一般] タブの [設定] を開き、[オプション] の「デフォルトの国」のプルダウン リストから、「日本」を設定します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/get-started/setting-country_24r2.png" width="60%"&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;データ ソース&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;解析に使用するデータ ソースを選択します。一部の国では、複数のデータ ソースから選択できます。日本は、以下の 2 つを選択可能です。選択中のデータ ソースは [選択済み] と表示されます。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;データの種類&lt;/th&gt;
+&lt;th style="text-align: left"&gt;説明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Esri ジャパン&lt;/td&gt;
+&lt;td style="text-align: left"&gt;ESRIジャパンが提供するデータ ソースです。人口や世帯、年収・消費などに関する約 2,650 の変数を利用できます。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Standard&lt;/td&gt;
+&lt;td style="text-align: left"&gt;ドイツの MBR 社 (Michael Bauer Research GmbH) が提供するデータ ソースです。約 120 の変数を利用できます。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;[一般] タブの [設定] を開き、[オプション] の [データ ソース] のドロップダウン リストから [Esri ジャパン] を選択し、[適用] をクリックします。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;単位&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;距離の計測単位を設定します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[一般] タブの [設定] を開き、[オプション] の [デフォルトの単位] のドロップダウン リストから、「&lt;strong&gt;キロメートル&lt;/strong&gt;」を選びます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/get-started/setting-unit_24r2.png" width="60%"&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;背景地図&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;マップに表示させたり、インフォグラフィックスやレポートに表示させたりするためのデフォルトの背景地図を設定します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[一般] タブの [設定] を開き、[背景地図] の一覧から任意の地図を選択します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/get-started/setting-basemap_24r2.png" width="60%"&gt;
+&lt;/figure&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;マップを選択すると、[デフォルトのマップ位置] のマップが選択した背景地図に切り替わります。マップは拡大・縮小することができ、プレビューすることができます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;自動保存&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;自動保存を有効にすると、サイン アウトするか、ブラウザーを閉じた時点でのマップが保存され、次回起動時に前回のマップを表示することができます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[一般] タブの [設定] を開き、[自動保存] トグルをオンにします。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/get-started/setting-auto-save_24r2.png"&gt;
+&lt;/figure&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;以下は、&lt;strong&gt;管理者ロール&lt;/strong&gt;を持つユーザーのみ設定できます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;レポートとインフォグラフィックス&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;組織の&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/member-roles.htm"target="_blank" rel="noopener"&gt;メンバー ロール&lt;/a&gt;に応じて、BA Web App で利用できる&lt;a href="https://business-map.esrij.com/glossary/4328/"target="_blank" rel="noopener"&gt;インフォグラフィックス&lt;/a&gt;やクラシック レポートを変更します。&lt;/p&gt;
+&lt;p&gt;データ ソースを「Esri ジャパン」に設定している場合、デフォルト設定では [インフォグラフィックスの実行] ツール等で、英語と日本語のテンプレートが両方表示されます。日本語のテンプレートのみを表示するには、以下の設定を変更します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;[組織] タブ → [レポートとインフォグラフィックス] を開きます。&lt;/li&gt;
+&lt;li&gt;[ロールの選択] で設定を変更するロールを選択します。&lt;/li&gt;
+&lt;li&gt;[インフォグラフィックス] タブを選択し、[標準インフォグラフィックス] から、英語名のテンプレートのチェックを外します。&lt;/li&gt;
+&lt;li&gt;複数のロールに対して設定を行う場合は、[ロールの選択] でロールを切り替え、同様の操作を行います。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/get-started/setting-infographics.png" width="60%"&gt;
+&lt;/figure&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;[ロールのプレビュー] をクリックすると、変更内容を反映したアプリの操作画面をプレビューすることができます。
+[レポート] タブ → [レポートの実行] メニュー → [インフォグラフィックスの実行] をクリックすると、テンプレートの選択画面が開きます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;ガイド ツアー&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;BA Web App では、各ツールの操作をレクチャーする機能「&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/guided-tours.htm"target="_blank" rel="noopener"&gt;ガイド ツアー&lt;/a&gt;」を利用できます。大半のガイド ツアーは設定を行うことなく実行できますが、以下のツアーを日本国内で実行するには設定変更が必要です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ArcGIS Living Atlas から Web マップ レイヤーを追加&lt;/li&gt;
+&lt;li&gt;レポートおよび解析で使用するカスタム データの設定&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;デフォルトの設定のままの場合、ツアーを実行するためには解析対象の国をアメリカに変更する必要があります。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;[組織] タブの [ガイド ツアー] を開きます。&lt;/li&gt;
+&lt;li&gt;ガイド ツアーを行う国として、「日本」を指定します。&lt;/li&gt;
+&lt;li&gt;[レイヤーの参照] をクリックして [レイヤーの選択] ダイアログを開き、検索ボックス内に「CO2排出量」と入力して検索します。&lt;/li&gt;
+&lt;li&gt;検索結果に「CO2排出量 市区町村別（2019 年）」が表示されるので、アイコン上にカーソルを当て、[追加] をクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/web/get-started/setting-guided-tour.png" width="60%"&gt;
+&lt;/figure&gt;
+&lt;p&gt;以上で、BA Web App のセットアップが完了しました。&lt;/p&gt;
+&lt;h3&gt;BA Mobile App の設定 (オプション)&lt;span class="hx:absolute hx:-mt-20" id="ba-mobile-app-の設定-オプション"&gt;&lt;/span&gt;
+&lt;a href="#ba-mobile-app-%e3%81%ae%e8%a8%ad%e5%ae%9a-%e3%82%aa%e3%83%97%e3%82%b7%e3%83%a7%e3%83%b3" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;スマートフォンなどのモバイル端末を利用して解析を行う場合は、端末に BA Mobile App をインストールし、起動および初期設定を行います。&lt;/p&gt;
+&lt;h4&gt;アプリのインストール&lt;span class="hx:absolute hx:-mt-20" id="アプリのインストール"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ae%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;使用する端末の OS に応じて、&lt;a href="https://apps.apple.com/jp/app/arcgis-business-analyst/id936839636"target="_blank" rel="noopener"&gt;App Store&lt;/a&gt; または &lt;a href="https://play.google.com/store/apps/details?id=com.esri.bao.baomobile"target="_blank" rel="noopener"&gt;Google Play&lt;/a&gt; からアプリケーションをインストールします。&lt;/p&gt;
+&lt;h4&gt;アプリにサイン イン&lt;span class="hx:absolute hx:-mt-20" id="アプリにサイン-イン"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ab%e3%82%b5%e3%82%a4%e3%83%b3-%e3%82%a4%e3%83%b3" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;BA Mobile App を起動し、[ArcGIS Online にサイン イン] をタップします。&lt;/li&gt;
+&lt;li&gt;BA Web and Mobile Apps のライセンスが割り当てられている ArcGIS Online アカウントで、サイン インします。&lt;/li&gt;
+&lt;li&gt;サイン インが完了すると、マップが表示されます。これで、解析を開始するための準備が整いました。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;アプリの初期設定&lt;span class="hx:absolute hx:-mt-20" id="アプリの初期設定-1"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ae%e5%88%9d%e6%9c%9f%e8%a8%ad%e5%ae%9a-1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;アプリ左上の [オプション メニュー] → [設定] から、アプリの初期設定を変更できます。詳細は BA Mobie App の&lt;a href="https://doc.arcgis.com/ja/business-analyst/mobile/set-mobile-app-preferences.htm"target="_blank" rel="noopener"&gt;ヘルプ ページ&lt;/a&gt;をご確認ください。&lt;/p&gt;
+&lt;p&gt;以上で、BA Web and Mobile Apps のセットアップはすべて完了です。&lt;/p&gt;</description></item><item><title>チュートリアル</title><link>/business-analyst/web/tutorial/</link><pubDate>Fri, 02 Sep 2022 00:00:00 +0900</pubDate><guid>/business-analyst/web/tutorial/</guid><description>
+&lt;p&gt;BA Web and Mobile Apps のチュートリアルを通して、活用方法や操作方法を学ぶことができます。&lt;/p&gt;
+&lt;ul class="list-disc ml-6"&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/web/tutorial/tutorial-video/"&gt;チュートリアル ビデオ&lt;/a&gt;&lt;br&gt;操作ビデオを通して、BA Web の操作方法を習得します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/web/tutorial/guided-tour/"&gt;ガイド ツアーの実行&lt;/a&gt;&lt;br&gt;ガイド ツアーを通して、BA Web の操作方法を習得します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/web/tutorial/importfile/"&gt;住所リストのインポート&lt;/a&gt;&lt;br&gt;店舗等の住所データの取り込みの方法について学習します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/web/tutorial/benchmark_comparison/"&gt;ベンチマーク比較&lt;/a&gt;&lt;br&gt;ベンチマーク比較の実行方法を学びます。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/web/tutorial/customize-colorcodedmap/"&gt;カスタム変数を用いたカラーコード マップの作成&lt;/a&gt;&lt;br&gt;カラーコード マップの応用的な使い方を学びます。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/business-analyst/web/tutorial/build-infographics/"&gt;インフォグラフィックスの作成&lt;/a&gt;&lt;br&gt;独自のインフォグラフィックス テンプレートを作成する方法を学びます。
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;上記のチュートリアル以外にも、米国 Esri が提供する &lt;a href="https://learn-arcgis-ja-learngis.hub.arcgis.com/" target="_blank"&gt;Learn ArcGIS&lt;/a&gt; では、GIS 初心者から上級者向けの様々な製品の豊富なチュートリアルを提供しています。&lt;br/&gt;
+ArcGIS Business Analyst に関するチュートリアルは、&lt;a href="https://learn.arcgis.com/ja/gallery/#?p=busanalyst" target="_blank"&gt;&lt;strong&gt;こちら&lt;/strong&gt;&lt;/a&gt;から確認できます。なお、解析エリアは米国となっております。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Tips</title><link>/business-analyst/web/tips/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/web/tips/</guid><description>
+&lt;p&gt;BA Web and Mobile Apps の操作方法などを調べられる各種ドキュメントです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://doc.arcgis.com/ja/business-analyst/web/welcome.htm" target="_blank"&gt;ArcGIS Business Analyst Web App ヘルプ | ドキュメント&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://doc.arcgis.com/ja/business-analyst/mobile/welcome-mobile.htm" target="_blank"&gt;ArcGIS Business Analyst Mobile App ヘルプ | ドキュメント&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledgeList.html?searchMethod=0&amp;searchCondition=0&amp;targetNameFlg=1&amp;searchCategory=1&amp;searchItem=1&amp;searchTag=1&amp;searchKnowledgeKind=1&amp;category%5B102%5D%5B1%5D=213&amp;category%5B102%5D%5B2%5D=222" target="_blank"&gt;ArcGIS Business Analyst Web and Mobile Apps に関する FAQ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

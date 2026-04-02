@@ -1,97 +1,97 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – クイックスタート ガイド</title><link>/drone2map/quick-start/</link><description>Recent content in クイックスタート ガイド on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Thu, 26 Feb 2026 00:00:00 +0900</lastBuildDate><atom:link href="/drone2map/quick-start/index.xml" rel="self" type="application/rss+xml"/><item><title>高速</title><link>/drone2map/quick-start/2d_rapid/</link><pubDate>Thu, 26 Feb 2026 00:00:00 +0900</pubDate><guid>/drone2map/quick-start/2d_rapid/</guid><description>
-&lt;p>高速テンプレートは、ドローンで撮影した画像から素早くトゥルーオルソや DSM (数値表層モデル) を作成できます。&lt;/p>
-&lt;h2>サンプル データのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="サンプル-データのダウンロード">&lt;/span>
-&lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>サンプル データ：コロラド州スーペリアでのマーシャル火災の影響を受けた住宅地の検査飛行&lt;br>
-ファイル サイズ：3.7 GB&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>&lt;a href="https://www.esri.com/ja-jp/arcgis/products/arcgis-reality/resources/sample-drone-datasets" target="_blank" >サンプル ドローン データセット&lt;/a>を表示します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>マーシャル火災の [このデータセットをダウンロード] をクリックし、データをダウンロードします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>「Superior - Marshall Wildfire.zip」 を任意の場所に解凍します。&lt;/p>
-&lt;/li>
-&lt;/ol></description></item><item><title>2D プロダクト</title><link>/drone2map/quick-start/2d_mapping/</link><pubDate>Thu, 26 Feb 2026 00:00:00 +0900</pubDate><guid>/drone2map/quick-start/2d_mapping/</guid><description>
-&lt;p>2D プロダクト テンプレートでは、高解像度のトゥルーオルソや DSM（数値表層モデル）を作成できます。&lt;/p>
-&lt;h2>サンプル データのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="サンプル-データのダウンロード">&lt;/span>
-&lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>サンプル データ：カリフォルニア州レッドランズにある ESRI キャンパス&lt;br>
-ファイル サイズ：1.6 GB&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>&lt;a href="https://www.esri.com/en-us/arcgis/products/arcgis-reality/resources/sample-drone-datasets" target="_blank" rel="download site">サンプル ドローン データセット&lt;/a> を表示します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Esri キャンパスの [このデータセットをダウンロード] をクリックし、ダウンロードを開始します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[Redlands - Building E Construction.zip] を任意の場所に解凍します。&lt;/p>
-&lt;/li>
-&lt;/ol></description></item><item><title>3D プロダクト</title><link>/drone2map/quick-start/3d_mapping/</link><pubDate>Thu, 26 Feb 2026 00:00:00 +0900</pubDate><guid>/drone2map/quick-start/3d_mapping/</guid><description>
-&lt;p>3D プロダクト テンプレートは、ドローンで撮影した画像から 3D 点群や 3D メッシュを作成できます。&lt;/p>
-&lt;p>また、プロジェクトを作成した後、[オプション] からガウシアン スプラットの作成がされるように設定することもできます。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">3D テンプレートの利用および 3D プロダクトの生成には、Drone2Map Advanced ライセンスが必要です。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h2>サンプル データのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="サンプル-データのダウンロード">&lt;/span>
-&lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>サンプル データ：リトアニア、トラカイ島のトラカイ島城&lt;br>
-ファイル サイズ：4.6 GB&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>&lt;a href="https://www.esri.com/en-us/arcgis/products/arcgis-reality/resources/sample-drone-datasets" target="_blank" rel="download site" width="600">サンプル ドローン データセット&lt;/a> を表示します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>トラカイ島城の [このデータセットをダウンロード] をクリックし、ダウンロードを開始します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[Lithuania - Trakai Island Castle.zip] を任意の場所に解凍します。&lt;/p>
-&lt;/li>
-&lt;/ol></description></item><item><title>カスタム テンプレート</title><link>/drone2map/quick-start/custom/</link><pubDate>Thu, 26 Feb 2026 00:00:00 +0900</pubDate><guid>/drone2map/quick-start/custom/</guid><description>
-&lt;h2>カスタム テンプレートの設定&lt;span class="hx:absolute hx:-mt-20" id="カスタム-テンプレートの設定">&lt;/span>
-&lt;a href="#%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%a0-%e3%83%86%e3%83%b3%e3%83%97%e3%83%ac%e3%83%bc%e3%83%88%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>カスタム テンプレートをデフォルトのテンプレートとして設定し、いつでも利用できるようにします。&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>Windows の [スタート] ボタン → [ArcGIS] → [ArcGIS Drone2Map] をクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>ArcGIS Online の組織向けアカウントまたは Portal for ArcGIS アカウントでサイン インします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>プロジェクト作成画面の左下の [設定] ボタンをクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[設定] タブを選択し、[設定] ウィンドウを開きます。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[設定] ウィンドウの [新しいプロジェクト] タブを選択し、[このデフォルトのカスタム テンプレートを使用] の参照ボタンをクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/quick-start/custom_1_1.png" width="500">
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[テンプレートの選択] ウィンドウで作成済みのカスタム テンプレートファイル（*zip）を選択し、 [OK] をクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[このデフォルト プロジェクトテンプレートを使用] のドロップダウン リストから [カスタム テンプレート] を選択します。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/quick-start/custom_1_2.png" width="500">
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>カスタム テンプレートの設定ができたら、[設定] ウィンドウで [OK] をクリックして閉じます。
-[新しいプロジェクト] 画面では、[カスタム] テンプレートが選択されていることが確認できます。&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>&lt;strong>カスタム テンプレート（*zip）ファイルの作成方法&lt;/strong>&lt;br>
-設定を変更して処理した後に処理オプションを開くまたは、設定オプションを変更した後に [適用] をクリックしてから [テンプレートのエクスポート] をクリックします。任意の名前でエクスポートすることができます。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/quick-start/custom_1_3.png" width="500">
-&lt;/figure>&lt;/div>
-&lt;/div>
-&lt;/div></description></item></channel></rss>
+&lt;p&gt;高速テンプレートは、ドローンで撮影した画像から素早くトゥルーオルソや DSM (数値表層モデル) を作成できます。&lt;/p&gt;
+&lt;h2&gt;サンプル データのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="サンプル-データのダウンロード"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;サンプル データ：コロラド州スーペリアでのマーシャル火災の影響を受けた住宅地の検査飛行&lt;br&gt;
+ファイル サイズ：3.7 GB&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.esri.com/ja-jp/arcgis/products/arcgis-reality/resources/sample-drone-datasets" target="_blank" &gt;サンプル ドローン データセット&lt;/a&gt;を表示します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;マーシャル火災の [このデータセットをダウンロード] をクリックし、データをダウンロードします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;「Superior - Marshall Wildfire.zip」 を任意の場所に解凍します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>2D プロダクト</title><link>/drone2map/quick-start/2d_mapping/</link><pubDate>Thu, 26 Feb 2026 00:00:00 +0900</pubDate><guid>/drone2map/quick-start/2d_mapping/</guid><description>
+&lt;p&gt;2D プロダクト テンプレートでは、高解像度のトゥルーオルソや DSM（数値表層モデル）を作成できます。&lt;/p&gt;
+&lt;h2&gt;サンプル データのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="サンプル-データのダウンロード"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;サンプル データ：カリフォルニア州レッドランズにある ESRI キャンパス&lt;br&gt;
+ファイル サイズ：1.6 GB&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.esri.com/en-us/arcgis/products/arcgis-reality/resources/sample-drone-datasets" target="_blank" rel="download site"&gt;サンプル ドローン データセット&lt;/a&gt; を表示します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Esri キャンパスの [このデータセットをダウンロード] をクリックし、ダウンロードを開始します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Redlands - Building E Construction.zip] を任意の場所に解凍します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>3D プロダクト</title><link>/drone2map/quick-start/3d_mapping/</link><pubDate>Thu, 26 Feb 2026 00:00:00 +0900</pubDate><guid>/drone2map/quick-start/3d_mapping/</guid><description>
+&lt;p&gt;3D プロダクト テンプレートは、ドローンで撮影した画像から 3D 点群や 3D メッシュを作成できます。&lt;/p&gt;
+&lt;p&gt;また、プロジェクトを作成した後、[オプション] からガウシアン スプラットの作成がされるように設定することもできます。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;3D テンプレートの利用および 3D プロダクトの生成には、Drone2Map Advanced ライセンスが必要です。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;サンプル データのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="サンプル-データのダウンロード"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;サンプル データ：リトアニア、トラカイ島のトラカイ島城&lt;br&gt;
+ファイル サイズ：4.6 GB&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.esri.com/en-us/arcgis/products/arcgis-reality/resources/sample-drone-datasets" target="_blank" rel="download site" width="600"&gt;サンプル ドローン データセット&lt;/a&gt; を表示します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;トラカイ島城の [このデータセットをダウンロード] をクリックし、ダウンロードを開始します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Lithuania - Trakai Island Castle.zip] を任意の場所に解凍します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>カスタム テンプレート</title><link>/drone2map/quick-start/custom/</link><pubDate>Thu, 26 Feb 2026 00:00:00 +0900</pubDate><guid>/drone2map/quick-start/custom/</guid><description>
+&lt;h2&gt;カスタム テンプレートの設定&lt;span class="hx:absolute hx:-mt-20" id="カスタム-テンプレートの設定"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%a0-%e3%83%86%e3%83%b3%e3%83%97%e3%83%ac%e3%83%bc%e3%83%88%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;カスタム テンプレートをデフォルトのテンプレートとして設定し、いつでも利用できるようにします。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Windows の [スタート] ボタン → [ArcGIS] → [ArcGIS Drone2Map] をクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ArcGIS Online の組織向けアカウントまたは Portal for ArcGIS アカウントでサイン インします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;プロジェクト作成画面の左下の [設定] ボタンをクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[設定] タブを選択し、[設定] ウィンドウを開きます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[設定] ウィンドウの [新しいプロジェクト] タブを選択し、[このデフォルトのカスタム テンプレートを使用] の参照ボタンをクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/quick-start/custom_1_1.png" width="500"&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[テンプレートの選択] ウィンドウで作成済みのカスタム テンプレートファイル（*zip）を選択し、 [OK] をクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[このデフォルト プロジェクトテンプレートを使用] のドロップダウン リストから [カスタム テンプレート] を選択します。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/quick-start/custom_1_2.png" width="500"&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;カスタム テンプレートの設定ができたら、[設定] ウィンドウで [OK] をクリックして閉じます。
+[新しいプロジェクト] 画面では、[カスタム] テンプレートが選択されていることが確認できます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;&lt;strong&gt;カスタム テンプレート（*zip）ファイルの作成方法&lt;/strong&gt;&lt;br&gt;
+設定を変更して処理した後に処理オプションを開くまたは、設定オプションを変更した後に [適用] をクリックしてから [テンプレートのエクスポート] をクリックします。任意の名前でエクスポートすることができます。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/drone2map/quick-start/custom_1_3.png" width="500"&gt;
+&lt;/figure&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>

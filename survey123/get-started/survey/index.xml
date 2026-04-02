@@ -1,153 +1,153 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – データの収集</title><link>/survey123/get-started/survey/</link><description>Recent content in データの収集 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 07 Jun 2024 00:00:00 +0900</lastBuildDate><atom:link href="/survey123/get-started/survey/index.xml" rel="self" type="application/rss+xml"/><item><title>ブラウザーを利用したデータの収集</title><link>/survey123/get-started/survey/web/</link><pubDate>Fri, 07 Jun 2024 00:00:00 +0900</pubDate><guid>/survey123/get-started/survey/web/</guid><description>
-&lt;p>Survey123 で作成した調査票に、ブラウザーを利用して回答を入力する方法について説明します。&lt;/p>
-&lt;h3>調査票の使用&lt;span class="hx:absolute hx:-mt-20" id="調査票の使用">&lt;/span>
-&lt;a href="#%e8%aa%bf%e6%9f%bb%e7%a5%a8%e3%81%ae%e4%bd%bf%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>ブラウザーを利用して調査票へアクセスします。方法は 2 つあります。&lt;br>
-&lt;ul>
-&lt;li>調査票の作成者によって共有された URL を使用し、調査票を開きます。&lt;/li>
-&lt;li>調査票の作成者によって共有された QR をスキャンし、調査票を開きます。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>調査票に沿って回答を入力します。&lt;/li>
-&lt;li>調査票の最後に表示される [送信] をクリックします。&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ブラウザーを利用して調査票へアクセスするには、インターネットへの接続が必要です。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">調査票の URL、QR を取得する方法については「&lt;a href="/survey123/get-started/prepare/publish/">調査票の公開&lt;/a>」をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div></description></item><item><title>フィールド アプリを利用したデータの収集</title><link>/survey123/get-started/survey/fieldapp/</link><pubDate>Fri, 07 Jun 2024 00:00:00 +0900</pubDate><guid>/survey123/get-started/survey/fieldapp/</guid><description>
-&lt;p>Survey123 で作成した調査票に、フィールド アプリを利用して回答を入力する方法について説明します。&lt;br>
-フィールド アプリを利用することで、オフライン環境でもデータの収集ができます。&lt;br>&lt;/p>
-&lt;p>調査票を作成する方法については「&lt;a href="/survey123/get-started/prepare/create/">調査票の作成&lt;/a>」、ブラウザーを利用して回答を入力する方法については「&lt;a href="/survey123/get-started/survey/web/">ブラウザーを利用したデータの収集&lt;/a>」をご参照ください。&lt;/p>
-&lt;h3>フィールド アプリのインストール&lt;span class="hx:absolute hx:-mt-20" id="フィールド-アプリのインストール">&lt;/span>
-&lt;a href="#%e3%83%95%e3%82%a3%e3%83%bc%e3%83%ab%e3%83%89-%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ae%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Survey123 フィールド アプリを利用するには、アプリケーションのインストールが必要です。&lt;br>
-インストール方法および動作環境については「&lt;a href="/survey123/get-started/introduction/">はじめに&lt;/a>」をご参照ください。&lt;/p>
-&lt;h3>調査を開く&lt;span class="hx:absolute hx:-mt-20" id="調査を開く">&lt;/span>
-&lt;a href="#%e8%aa%bf%e6%9f%bb%e3%82%92%e9%96%8b%e3%81%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>
-&lt;p>アプリを起動して表示される [ArcGIS Online でサイン イン] をタップし、ユーザ
+&lt;p&gt;Survey123 で作成した調査票に、ブラウザーを利用して回答を入力する方法について説明します。&lt;/p&gt;
+&lt;h3&gt;調査票の使用&lt;span class="hx:absolute hx:-mt-20" id="調査票の使用"&gt;&lt;/span&gt;
+&lt;a href="#%e8%aa%bf%e6%9f%bb%e7%a5%a8%e3%81%ae%e4%bd%bf%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;ブラウザーを利用して調査票へアクセスします。方法は 2 つあります。&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;調査票の作成者によって共有された URL を使用し、調査票を開きます。&lt;/li&gt;
+&lt;li&gt;調査票の作成者によって共有された QR をスキャンし、調査票を開きます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;調査票に沿って回答を入力します。&lt;/li&gt;
+&lt;li&gt;調査票の最後に表示される [送信] をクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;ブラウザーを利用して調査票へアクセスするには、インターネットへの接続が必要です。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;調査票の URL、QR を取得する方法については「&lt;a href="/survey123/get-started/prepare/publish/"&gt;調査票の公開&lt;/a&gt;」をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>フィールド アプリを利用したデータの収集</title><link>/survey123/get-started/survey/fieldapp/</link><pubDate>Fri, 07 Jun 2024 00:00:00 +0900</pubDate><guid>/survey123/get-started/survey/fieldapp/</guid><description>
+&lt;p&gt;Survey123 で作成した調査票に、フィールド アプリを利用して回答を入力する方法について説明します。&lt;br&gt;
+フィールド アプリを利用することで、オフライン環境でもデータの収集ができます。&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;調査票を作成する方法については「&lt;a href="/survey123/get-started/prepare/create/"&gt;調査票の作成&lt;/a&gt;」、ブラウザーを利用して回答を入力する方法については「&lt;a href="/survey123/get-started/survey/web/"&gt;ブラウザーを利用したデータの収集&lt;/a&gt;」をご参照ください。&lt;/p&gt;
+&lt;h3&gt;フィールド アプリのインストール&lt;span class="hx:absolute hx:-mt-20" id="フィールド-アプリのインストール"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%95%e3%82%a3%e3%83%bc%e3%83%ab%e3%83%89-%e3%82%a2%e3%83%97%e3%83%aa%e3%81%ae%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Survey123 フィールド アプリを利用するには、アプリケーションのインストールが必要です。&lt;br&gt;
+インストール方法および動作環境については「&lt;a href="/survey123/get-started/introduction/"&gt;はじめに&lt;/a&gt;」をご参照ください。&lt;/p&gt;
+&lt;h3&gt;調査を開く&lt;span class="hx:absolute hx:-mt-20" id="調査を開く"&gt;&lt;/span&gt;
+&lt;a href="#%e8%aa%bf%e6%9f%bb%e3%82%92%e9%96%8b%e3%81%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;アプリを起動して表示される [ArcGIS Online でサイン イン] をタップし、ユーザ
 ー名とパスワードを入力してサイン インします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/survey/fieldapp-signin-or-not.png"
-alt="サイン イン画面" width="200">&lt;figcaption>
-&lt;p>サイン イン画面&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">画面キャプチャは一例です。端末やバージョンにより、表記が異なる場合があります 。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[サイン インしないで続行] をタップすると、サイン インなしでパブリックに公開されている調査に回答することができます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>
-&lt;p>[調査のダウンロード] から、共有されている調査を検索し、ダウンロードします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/survey/fieldapp-download-survey.png"
-alt="調査のダウンロード" width="200">&lt;figcaption>
-&lt;p>調査のダウンロード&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>デバイスにすでに調査票が存在する場合は、画面右上のアイコンをタップし、[調査のダウンロード] をタップします。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/survey/fieldapp-download-survey-2ndtime.png"
-alt="2 つ目以降の調査のダウンロード" width="600">&lt;figcaption>
-&lt;p>2 つ目以降の調査のダウンロード&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">調査票をダウンロードするには、インターネットへの接続が必要です。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">URL や QR から調査票をダウンロードすることもできます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;/ol>
-&lt;h3>調査票の使用&lt;span class="hx:absolute hx:-mt-20" id="調査票の使用">&lt;/span>
-&lt;a href="#%e8%aa%bf%e6%9f%bb%e7%a5%a8%e3%81%ae%e4%bd%bf%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>
-&lt;p>ダウンロードした調査票をタップし、[+ 収集] をタップします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/survey/fieldapp-start-survey.png"
-alt="調査票の起動" width="450">&lt;figcaption>
-&lt;p>調査票の起動&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>調査票に沿って回答を入力後、画面右下に表示される [☑] をタップします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/survey/fieldapp-checkmark.png"
-alt="チェックマーク" width="300">&lt;figcaption>
-&lt;p>チェックマーク&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[調査が完了しました] ダイアログが表示されます。&lt;br>
-[調査が完了しました] ダイアログの内容は以下の通りです。&lt;br>&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>デバイスがインターネットに接続している場合
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/survey/fieldapp-dialog-online.png"
-alt="オンライン環境でのダイアログ" width="250">&lt;figcaption>
-&lt;p>オンライン環境でのダイアログ&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-[今すぐ送信]: ArcGIS Online に結果が共有されます。&lt;br>
-[この調査を続行]: 調査票の入力を続けられます。 &lt;br>
-[送信箱に保存]: 調査結果が [送信箱] に保存されます。&lt;br>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>デバイスがインターネットに接続していない場合
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/survey/fieldapp-dialog-offline.png"
-alt="オフライン環境でのダイアログ" width="250">&lt;figcaption>
-&lt;p>オフライン環境でのダイアログ&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-[送信箱に保存]: 調査結果が [送信箱] に保存されます。&lt;br>
-[この調査を続行]: 調査票の入力を続けられます。 &lt;br>&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[送信箱] に保存したデータは、編集、削除することができます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>
-&lt;p>[送信箱] 内のデータを送信したい場合は、[送信箱] をタップし、[送信] をタップします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/survey/fieldapp-sentbox.png"
-alt="送信箱から送信" width="450">&lt;figcaption>
-&lt;p>送信箱から送信&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;p>ベースマップをオフラインで表示したい場合は&lt;a href= "https://doc.arcgis.com/ja/survey123/desktop/create-surveys/preparebasemaps.htm" target= "_self">ヘルプ&lt;/a>をご参照ください。&lt;/p>
-&lt;/li>
-&lt;/ol></description></item></channel></rss>
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/survey/fieldapp-signin-or-not.png"
+alt="サイン イン画面" width="200"&gt;&lt;figcaption&gt;
+&lt;p&gt;サイン イン画面&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;画面キャプチャは一例です。端末やバージョンにより、表記が異なる場合があります 。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;[サイン インしないで続行] をタップすると、サイン インなしでパブリックに公開されている調査に回答することができます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[調査のダウンロード] から、共有されている調査を検索し、ダウンロードします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/survey/fieldapp-download-survey.png"
+alt="調査のダウンロード" width="200"&gt;&lt;figcaption&gt;
+&lt;p&gt;調査のダウンロード&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;デバイスにすでに調査票が存在する場合は、画面右上のアイコンをタップし、[調査のダウンロード] をタップします。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/survey/fieldapp-download-survey-2ndtime.png"
+alt="2 つ目以降の調査のダウンロード" width="600"&gt;&lt;figcaption&gt;
+&lt;p&gt;2 つ目以降の調査のダウンロード&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;調査票をダウンロードするには、インターネットへの接続が必要です。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;URL や QR から調査票をダウンロードすることもできます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;調査票の使用&lt;span class="hx:absolute hx:-mt-20" id="調査票の使用"&gt;&lt;/span&gt;
+&lt;a href="#%e8%aa%bf%e6%9f%bb%e7%a5%a8%e3%81%ae%e4%bd%bf%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;ダウンロードした調査票をタップし、[+ 収集] をタップします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/survey/fieldapp-start-survey.png"
+alt="調査票の起動" width="450"&gt;&lt;figcaption&gt;
+&lt;p&gt;調査票の起動&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;調査票に沿って回答を入力後、画面右下に表示される [☑] をタップします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/survey/fieldapp-checkmark.png"
+alt="チェックマーク" width="300"&gt;&lt;figcaption&gt;
+&lt;p&gt;チェックマーク&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[調査が完了しました] ダイアログが表示されます。&lt;br&gt;
+[調査が完了しました] ダイアログの内容は以下の通りです。&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;デバイスがインターネットに接続している場合
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/survey/fieldapp-dialog-online.png"
+alt="オンライン環境でのダイアログ" width="250"&gt;&lt;figcaption&gt;
+&lt;p&gt;オンライン環境でのダイアログ&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+[今すぐ送信]: ArcGIS Online に結果が共有されます。&lt;br&gt;
+[この調査を続行]: 調査票の入力を続けられます。 &lt;br&gt;
+[送信箱に保存]: 調査結果が [送信箱] に保存されます。&lt;br&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;デバイスがインターネットに接続していない場合
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/survey/fieldapp-dialog-offline.png"
+alt="オフライン環境でのダイアログ" width="250"&gt;&lt;figcaption&gt;
+&lt;p&gt;オフライン環境でのダイアログ&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+[送信箱に保存]: 調査結果が [送信箱] に保存されます。&lt;br&gt;
+[この調査を続行]: 調査票の入力を続けられます。 &lt;br&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;[送信箱] に保存したデータは、編集、削除することができます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[送信箱] 内のデータを送信したい場合は、[送信箱] をタップし、[送信] をタップします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/survey123/get-started/survey/fieldapp-sentbox.png"
+alt="送信箱から送信" width="450"&gt;&lt;figcaption&gt;
+&lt;p&gt;送信箱から送信&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;ベースマップをオフラインで表示したい場合は&lt;a href= "https://doc.arcgis.com/ja/survey123/desktop/create-surveys/preparebasemaps.htm" target= "_self"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item></channel></rss>

@@ -1,131 +1,131 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – サイトのデザイン</title><link>/hub/get-started/site/design/</link><description>Recent content in サイトのデザイン on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 29 Aug 2025 00:00:00 +0900</lastBuildDate><atom:link href="/hub/get-started/site/design/index.xml" rel="self" type="application/rss+xml"/><item><title>サイトの構成</title><link>/hub/get-started/site/design/configure/</link><pubDate>Fri, 22 Aug 2025 00:00:00 +0900</pubDate><guid>/hub/get-started/site/design/configure/</guid><description>
-&lt;p>サイトを作成した後、サイトを編集モードで開き、画面左側に表示されているサイド パネルを使用して、サイトの構成を行います。&lt;/p>
-&lt;h3>サイトを編集モードで開く&lt;span class="hx:absolute hx:-mt-20" id="サイトを編集モードで開く">&lt;/span>
-&lt;a href="#%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%e7%b7%a8%e9%9b%86%e3%83%a2%e3%83%bc%e3%83%89%e3%81%a7%e9%96%8b%e3%81%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>
-&lt;p>ArcGIS Hub のマイ ワークスペースのホーム画面で、作成したサイトのタイトルをクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/configure-myworkspace-site.png"
-alt="サイトのタイトルをクリック" width="600">&lt;figcaption>
-&lt;p>サイトのタイトルをクリック&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[編集] をクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/configure-open-editmode.png"
-alt="編集モードで開く" width="300">&lt;figcaption>
-&lt;p>編集モードで開く&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;h3>サイド パネル内の各項目について&lt;span class="hx:absolute hx:-mt-20" id="サイド-パネル内の各項目について">&lt;/span>
-&lt;a href="#%e3%82%b5%e3%82%a4%e3%83%89-%e3%83%91%e3%83%8d%e3%83%ab%e5%86%85%e3%81%ae%e5%90%84%e9%a0%85%e7%9b%ae%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/configure-side-panels.png"
-alt="サイド パネル" width="600">&lt;figcaption>
-&lt;p>サイド パネル&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;br>&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://doc.arcgis.com/en/hub/sites/configure-site-settings.htm"target="_blank" rel="noopener">設定&lt;/a>: サイトの名前やドメインなどを設定できます。&lt;/li>
-&lt;li>&lt;a href="https://doc.arcgis.com/ja/hub/sites/brand-a-site-with-header-and-theme-options.htm#ESRI_SECTION1_D5F12DB0B6E341698B2715386CC7A5C7"target="_blank" rel="noopener">テーマ&lt;/a>: サイト全体のテキスト色やボタンの色などを設定できます。&lt;/li>
-&lt;li>&lt;a href="https://doc.arcgis.com/ja/hub/sites/brand-a-site-with-header-and-theme-options.htm#ESRI_SECTION1_6C418A4D0C8840569C79C572C0A5632E"target="_blank" rel="noopener">ヘッダー&lt;/a>: サイトのヘッダーへのロゴの追加や、スタイルなどの変更が可能です。&lt;/li>
-&lt;li>&lt;a href="https://doc.arcgis.com/en/hub/sites/add-text-and-images.htm"target="_blank" rel="noopener">レイアウト&lt;/a>: サイトにテキスト、画像、アプリなどを表示するためのカードが提供されています。レイアウト上にカードをドラッグ&amp;amp;ドロップで追加・設定することにより、サイトにテキスト等を表示できます。&lt;/li>
-&lt;li>&lt;a href="https://doc.arcgis.com/ja/hub/sites/brand-a-site-with-header-and-theme-options.htm#ESRI_SECTION1_A8A8E5B30120492EA85E531A7A46CEC8"target="_blank" rel="noopener">フッター&lt;/a>: カスタム HTML と カスタム CSS を使用して、サイトにフッターを追加できます。&lt;/li>
-&lt;/ul>
-&lt;h3>サイトのレイアウトの設計&lt;span class="hx:absolute hx:-mt-20" id="サイトのレイアウトの設計">&lt;/span>
-&lt;a href="#%e3%82%b5%e3%82%a4%e3%83%88%e3%81%ae%e3%83%ac%e3%82%a4%e3%82%a2%e3%82%a6%e3%83%88%e3%81%ae%e8%a8%ad%e8%a8%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>
-&lt;p>サイド パネルの [レイアウト] メニューを開き、テキストや画像などのコンポーネントをサイトに追加できるカードを選択します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>サイト上にカードをドラッグ ＆ ドロップで配置します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>配置したカードの移動・編集・削除はカード上にカーソルを移動すると表示される [移動]・[編集]・[削除] ボタンをクリックして行います。カードによっては、[編集] ボタンをクリックするとサイド パネルが表示されます。&lt;br>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/configure-move-edit-delete-cards.png"
-alt="サイトのレイアウト" width="800">&lt;figcaption>
-&lt;p>サイトのレイアウト&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">カードの詳細については、&lt;a href="/hub/get-started/site/design/card/">カードの配置と設定&lt;/a>をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;/ol></description></item><item><title>カードの配置と設定</title><link>/hub/get-started/site/design/card/</link><pubDate>Fri, 29 Aug 2025 00:00:00 +0900</pubDate><guid>/hub/get-started/site/design/card/</guid><description>
-&lt;p>カードを配置・設定する手順を説明します。&lt;/p>
-&lt;h3>行カードの配置&lt;span class="hx:absolute hx:-mt-20" id="行カードの配置">&lt;/span>
-&lt;a href="#%e8%a1%8c%e3%82%ab%e3%83%bc%e3%83%89%e3%81%ae%e9%85%8d%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>すべてのカードは、[行] カード内に配置する必要があります。&lt;/p>
-&lt;ol>
-&lt;li>画面左側のサイド パネルから [レイアウト] をクリックします。&lt;/li>
-&lt;li>[行] カードをレイアウト上にドラッグ &amp;amp; ドロップで追加します。&lt;br>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/card-add-a-row-card.png"
-alt="行カードの追加" width="600">&lt;figcaption>
-&lt;p>行カードの追加&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;/ol>
-&lt;h3>テキスト カードの配置と設定&lt;span class="hx:absolute hx:-mt-20" id="テキスト-カードの配置と設定">&lt;/span>
-&lt;a href="#%e3%83%86%e3%82%ad%e3%82%b9%e3%83%88-%e3%82%ab%e3%83%bc%e3%83%89%e3%81%ae%e9%85%8d%e7%bd%ae%e3%81%a8%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>テキスト カードを使用して、サイトの任意の場所にテキストを追加できます。このカードを利用して、ボタン、リスト、テーブル、およびカスタム コードをサイトに追加することもできます。&lt;/p>
-&lt;ol>
-&lt;li>[行] カード内に [テキスト] カードをドラッグ＆ドロップで追加します。&lt;/li>
-&lt;li>[テキスト] カードを配置すると、テキストを入力するためのボックスが表示されます。&lt;br>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/card-add-a-text-card.png"
-alt="テキスト カードの追加" width="650">&lt;figcaption>
-&lt;p>テキスト カードの追加&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;li>テキストを入力し、入力が完了したら [編集] ボタンをクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/card-configure-a-text-card.png"
-alt="テキスト カードの編集" width="650">&lt;figcaption>
-&lt;p>テキスト カードの編集&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;/ol>
-&lt;h3>カテゴリ カードの配置と設定&lt;span class="hx:absolute hx:-mt-20" id="カテゴリ-カードの配置と設定">&lt;/span>
-&lt;a href="#%e3%82%ab%e3%83%86%e3%82%b4%e3%83%aa-%e3%82%ab%e3%83%bc%e3%83%89%e3%81%ae%e9%85%8d%e7%bd%ae%e3%81%a8%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>サイトのコンテンツを、カテゴリ別にグループ化することができます。作成した各カテゴリはラベル テキストと任意のアイコンによって表現できます。&lt;/p>
-&lt;ol>
-&lt;li>[行] カード内に [カテゴリ] カードをドラッグ＆ドロップで追加します。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/card-add-a-category-card.png"
-alt="カテゴリ カードの追加" width="600">&lt;figcaption>
-&lt;p>カテゴリ カードの追加&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;li>追加した [カテゴリ] カード上にカーソルを移動し、[編集] ボタンをクリックします。&lt;/li>
-&lt;li>サイド パネルの [データ] を展開し、カードの構成を設定します。
-&lt;ul>
-&lt;li>[タグ クエリを使用] - タグ クエリを入力します。ArcGIS Online アイテムでこの一致タグを持つデータ セットがすべて、検索結果で返されます。&lt;/li>
-&lt;li>[カテゴリ クエリを使用] – 組織が設定したカテゴリを表示します。カテゴリの作成方法については、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/manage-items.htm#ESRI_SECTION1_6EE6EAA55E494C0A9E8391555E7D54F3"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/li>
-&lt;li>[グループを使用] – ArcGIS Online のグループを選択します。このグループのすべてのデータセットが検索結果に返されます。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>サイド パネルの [表示設定] を展開し、カードの表示設定を行います。
-&lt;ul>
-&lt;li>[リンク テキスト] – カテゴリの内容を示すテキストを入力します。&lt;/li>
-&lt;li>[アイコン] – [ライブラリから選択] → [アイコンを選択] をクリックすると、アイコン ライブラリからカテゴリの内容を示すアイコンを選び、色を設定できます。&lt;br>
+&lt;p&gt;サイトを作成した後、サイトを編集モードで開き、画面左側に表示されているサイド パネルを使用して、サイトの構成を行います。&lt;/p&gt;
+&lt;h3&gt;サイトを編集モードで開く&lt;span class="hx:absolute hx:-mt-20" id="サイトを編集モードで開く"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%e7%b7%a8%e9%9b%86%e3%83%a2%e3%83%bc%e3%83%89%e3%81%a7%e9%96%8b%e3%81%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;ArcGIS Hub のマイ ワークスペースのホーム画面で、作成したサイトのタイトルをクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/configure-myworkspace-site.png"
+alt="サイトのタイトルをクリック" width="600"&gt;&lt;figcaption&gt;
+&lt;p&gt;サイトのタイトルをクリック&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[編集] をクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/configure-open-editmode.png"
+alt="編集モードで開く" width="300"&gt;&lt;figcaption&gt;
+&lt;p&gt;編集モードで開く&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;サイド パネル内の各項目について&lt;span class="hx:absolute hx:-mt-20" id="サイド-パネル内の各項目について"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b5%e3%82%a4%e3%83%89-%e3%83%91%e3%83%8d%e3%83%ab%e5%86%85%e3%81%ae%e5%90%84%e9%a0%85%e7%9b%ae%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/configure-side-panels.png"
+alt="サイド パネル" width="600"&gt;&lt;figcaption&gt;
+&lt;p&gt;サイド パネル&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://doc.arcgis.com/en/hub/sites/configure-site-settings.htm"target="_blank" rel="noopener"&gt;設定&lt;/a&gt;: サイトの名前やドメインなどを設定できます。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://doc.arcgis.com/ja/hub/sites/brand-a-site-with-header-and-theme-options.htm#ESRI_SECTION1_D5F12DB0B6E341698B2715386CC7A5C7"target="_blank" rel="noopener"&gt;テーマ&lt;/a&gt;: サイト全体のテキスト色やボタンの色などを設定できます。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://doc.arcgis.com/ja/hub/sites/brand-a-site-with-header-and-theme-options.htm#ESRI_SECTION1_6C418A4D0C8840569C79C572C0A5632E"target="_blank" rel="noopener"&gt;ヘッダー&lt;/a&gt;: サイトのヘッダーへのロゴの追加や、スタイルなどの変更が可能です。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://doc.arcgis.com/en/hub/sites/add-text-and-images.htm"target="_blank" rel="noopener"&gt;レイアウト&lt;/a&gt;: サイトにテキスト、画像、アプリなどを表示するためのカードが提供されています。レイアウト上にカードをドラッグ&amp;amp;ドロップで追加・設定することにより、サイトにテキスト等を表示できます。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://doc.arcgis.com/ja/hub/sites/brand-a-site-with-header-and-theme-options.htm#ESRI_SECTION1_A8A8E5B30120492EA85E531A7A46CEC8"target="_blank" rel="noopener"&gt;フッター&lt;/a&gt;: カスタム HTML と カスタム CSS を使用して、サイトにフッターを追加できます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;サイトのレイアウトの設計&lt;span class="hx:absolute hx:-mt-20" id="サイトのレイアウトの設計"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b5%e3%82%a4%e3%83%88%e3%81%ae%e3%83%ac%e3%82%a4%e3%82%a2%e3%82%a6%e3%83%88%e3%81%ae%e8%a8%ad%e8%a8%88" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;サイド パネルの [レイアウト] メニューを開き、テキストや画像などのコンポーネントをサイトに追加できるカードを選択します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;サイト上にカードをドラッグ ＆ ドロップで配置します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;配置したカードの移動・編集・削除はカード上にカーソルを移動すると表示される [移動]・[編集]・[削除] ボタンをクリックして行います。カードによっては、[編集] ボタンをクリックするとサイド パネルが表示されます。&lt;br&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/configure-move-edit-delete-cards.png"
+alt="サイトのレイアウト" width="800"&gt;&lt;figcaption&gt;
+&lt;p&gt;サイトのレイアウト&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;カードの詳細については、&lt;a href="/hub/get-started/site/design/card/"&gt;カードの配置と設定&lt;/a&gt;をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>カードの配置と設定</title><link>/hub/get-started/site/design/card/</link><pubDate>Fri, 29 Aug 2025 00:00:00 +0900</pubDate><guid>/hub/get-started/site/design/card/</guid><description>
+&lt;p&gt;カードを配置・設定する手順を説明します。&lt;/p&gt;
+&lt;h3&gt;行カードの配置&lt;span class="hx:absolute hx:-mt-20" id="行カードの配置"&gt;&lt;/span&gt;
+&lt;a href="#%e8%a1%8c%e3%82%ab%e3%83%bc%e3%83%89%e3%81%ae%e9%85%8d%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;すべてのカードは、[行] カード内に配置する必要があります。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;画面左側のサイド パネルから [レイアウト] をクリックします。&lt;/li&gt;
+&lt;li&gt;[行] カードをレイアウト上にドラッグ &amp;amp; ドロップで追加します。&lt;br&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/card-add-a-row-card.png"
+alt="行カードの追加" width="600"&gt;&lt;figcaption&gt;
+&lt;p&gt;行カードの追加&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;テキスト カードの配置と設定&lt;span class="hx:absolute hx:-mt-20" id="テキスト-カードの配置と設定"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%86%e3%82%ad%e3%82%b9%e3%83%88-%e3%82%ab%e3%83%bc%e3%83%89%e3%81%ae%e9%85%8d%e7%bd%ae%e3%81%a8%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;テキスト カードを使用して、サイトの任意の場所にテキストを追加できます。このカードを利用して、ボタン、リスト、テーブル、およびカスタム コードをサイトに追加することもできます。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;[行] カード内に [テキスト] カードをドラッグ＆ドロップで追加します。&lt;/li&gt;
+&lt;li&gt;[テキスト] カードを配置すると、テキストを入力するためのボックスが表示されます。&lt;br&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/card-add-a-text-card.png"
+alt="テキスト カードの追加" width="650"&gt;&lt;figcaption&gt;
+&lt;p&gt;テキスト カードの追加&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;テキストを入力し、入力が完了したら [編集] ボタンをクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/card-configure-a-text-card.png"
+alt="テキスト カードの編集" width="650"&gt;&lt;figcaption&gt;
+&lt;p&gt;テキスト カードの編集&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;カテゴリ カードの配置と設定&lt;span class="hx:absolute hx:-mt-20" id="カテゴリ-カードの配置と設定"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%ab%e3%83%86%e3%82%b4%e3%83%aa-%e3%82%ab%e3%83%bc%e3%83%89%e3%81%ae%e9%85%8d%e7%bd%ae%e3%81%a8%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;サイトのコンテンツを、カテゴリ別にグループ化することができます。作成した各カテゴリはラベル テキストと任意のアイコンによって表現できます。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;[行] カード内に [カテゴリ] カードをドラッグ＆ドロップで追加します。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/card-add-a-category-card.png"
+alt="カテゴリ カードの追加" width="600"&gt;&lt;figcaption&gt;
+&lt;p&gt;カテゴリ カードの追加&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;追加した [カテゴリ] カード上にカーソルを移動し、[編集] ボタンをクリックします。&lt;/li&gt;
+&lt;li&gt;サイド パネルの [データ] を展開し、カードの構成を設定します。
+&lt;ul&gt;
+&lt;li&gt;[タグ クエリを使用] - タグ クエリを入力します。ArcGIS Online アイテムでこの一致タグを持つデータ セットがすべて、検索結果で返されます。&lt;/li&gt;
+&lt;li&gt;[カテゴリ クエリを使用] – 組織が設定したカテゴリを表示します。カテゴリの作成方法については、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/manage-items.htm#ESRI_SECTION1_6EE6EAA55E494C0A9E8391555E7D54F3"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/li&gt;
+&lt;li&gt;[グループを使用] – ArcGIS Online のグループを選択します。このグループのすべてのデータセットが検索結果に返されます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;サイド パネルの [表示設定] を展開し、カードの表示設定を行います。
+&lt;ul&gt;
+&lt;li&gt;[リンク テキスト] – カテゴリの内容を示すテキストを入力します。&lt;/li&gt;
+&lt;li&gt;[アイコン] – [ライブラリから選択] → [アイコンを選択] をクリックすると、アイコン ライブラリからカテゴリの内容を示すアイコンを選び、色を設定できます。&lt;br&gt;
 [自分の URL を入力] を選択すると、アイコンとして使用する画像の URL と代替テキストを設定できます。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/card-configure-a-category-card.png"
-alt="カテゴリ カードの編集" width="500">&lt;figcaption>
-&lt;p>カテゴリ カードの編集&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">各項目の詳細については、&lt;a href="https://doc.arcgis.com/ja/hub/sites/display-apps-data-and-maps.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div></description></item></channel></rss>
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/hub/get-started/site/card-configure-a-category-card.png"
+alt="カテゴリ カードの編集" width="500"&gt;&lt;figcaption&gt;
+&lt;p&gt;カテゴリ カードの編集&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;各項目の詳細については、&lt;a href="https://doc.arcgis.com/ja/hub/sites/display-apps-data-and-maps.htm"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>

@@ -1,29 +1,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – スタートアップ ガイド</title><link>/online/get-started/</link><description>Recent content in スタートアップ ガイド on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Tue, 30 Nov 2021 00:00:00 +0900</lastBuildDate><atom:link href="/online/get-started/index.xml" rel="self" type="application/rss+xml"/><item><title>セットアップ</title><link>/online/get-started/setup/</link><pubDate>Fri, 05 Apr 2024 00:00:00 +0900</pubDate><guid>/online/get-started/setup/</guid><description>
-&lt;p>ArcGIS Online 組織の管理者は、利用を開始するために、サブスクリプションの有効化、組織サイトの構成、組織へのメンバーの招待または追加を行います。&lt;/p>
-&lt;p>組織のメンバーは、組織サイトの管理者によって、組織サイトに加入するよう招待されるか、自動的に追加されます。組織サイトに加入したら、プロフィールを設定します。&lt;/p>
-&lt;ul class="list-disc ml-6">
-&lt;li>
-&lt;a href="/online/get-started/setup/admin/">管理者の操作&lt;/a>&lt;br>ArcGIS Online セットアップの管理者の操作について説明します。
-&lt;/li>
-&lt;li>
-&lt;a href="/online/get-started/setup/environment/">動作環境&lt;/a>&lt;br>ArcGIS Online の動作環境について説明します。
-&lt;/li>
-&lt;li>
-&lt;a href="/online/get-started/setup/member/">メンバーの操作&lt;/a>&lt;br>組織サイトに招待されたメンバーが行う必要がある操作を説明します。
-&lt;/li>
-&lt;/ul></description></item><item><title>管理</title><link>/online/get-started/administer/</link><pubDate>Wed, 05 Mar 2025 00:00:00 +0900</pubDate><guid>/online/get-started/administer/</guid><description>
-&lt;p>管理者ロール (権限) を持つユーザーは、組織サイトのあらゆる管理を行うことができます。ここでは、管理者ロールを持つユーザーのみが行える、ArcGIS Online の組織サイトを管理する機能を説明します。&lt;/p>
-&lt;ul class="list-disc ml-6">
-&lt;li>
-&lt;a href="/online/get-started/administer/subscription/">サブスクリプション&lt;/a>&lt;br>サブスクリプション (組織サイト) を管理する操作を説明します。
-&lt;/li>
-&lt;li>
-&lt;a href="/online/get-started/administer/members/">メンバー&lt;/a>&lt;br>ArcGIS Online メンバーの概要について紹介します。
-&lt;/li>
-&lt;li>
-&lt;a href="/online/get-started/administer/license/">ライセンス&lt;/a>&lt;br>ArcGIS Online ライセンスの管理について説明します。
-&lt;/li>
-&lt;li>
-&lt;a href="/online/get-started/administer/contents/">コンテンツ&lt;/a>&lt;br>ArcGIS Online コンテンツの操作について説明します。
-&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;p&gt;ArcGIS Online 組織の管理者は、利用を開始するために、サブスクリプションの有効化、組織サイトの構成、組織へのメンバーの招待または追加を行います。&lt;/p&gt;
+&lt;p&gt;組織のメンバーは、組織サイトの管理者によって、組織サイトに加入するよう招待されるか、自動的に追加されます。組織サイトに加入したら、プロフィールを設定します。&lt;/p&gt;
+&lt;ul class="list-disc ml-6"&gt;
+&lt;li&gt;
+&lt;a href="/online/get-started/setup/admin/"&gt;管理者の操作&lt;/a&gt;&lt;br&gt;ArcGIS Online セットアップの管理者の操作について説明します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/online/get-started/setup/environment/"&gt;動作環境&lt;/a&gt;&lt;br&gt;ArcGIS Online の動作環境について説明します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/online/get-started/setup/member/"&gt;メンバーの操作&lt;/a&gt;&lt;br&gt;組織サイトに招待されたメンバーが行う必要がある操作を説明します。
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>管理</title><link>/online/get-started/administer/</link><pubDate>Wed, 05 Mar 2025 00:00:00 +0900</pubDate><guid>/online/get-started/administer/</guid><description>
+&lt;p&gt;管理者ロール (権限) を持つユーザーは、組織サイトのあらゆる管理を行うことができます。ここでは、管理者ロールを持つユーザーのみが行える、ArcGIS Online の組織サイトを管理する機能を説明します。&lt;/p&gt;
+&lt;ul class="list-disc ml-6"&gt;
+&lt;li&gt;
+&lt;a href="/online/get-started/administer/subscription/"&gt;サブスクリプション&lt;/a&gt;&lt;br&gt;サブスクリプション (組織サイト) を管理する操作を説明します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/online/get-started/administer/members/"&gt;メンバー&lt;/a&gt;&lt;br&gt;ArcGIS Online メンバーの概要について紹介します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/online/get-started/administer/license/"&gt;ライセンス&lt;/a&gt;&lt;br&gt;ArcGIS Online ライセンスの管理について説明します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/online/get-started/administer/contents/"&gt;コンテンツ&lt;/a&gt;&lt;br&gt;ArcGIS Online コンテンツの操作について説明します。
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

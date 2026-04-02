@@ -1,305 +1,305 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – 管理者の操作</title><link>/online/get-started/setup/admin/</link><description>Recent content in 管理者の操作 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 05 Apr 2024 00:00:00 +0900</lastBuildDate><atom:link href="/online/get-started/setup/admin/index.xml" rel="self" type="application/rss+xml"/><item><title>サブスクリプションの有効化</title><link>/online/get-started/setup/admin/activate-subscription/</link><pubDate>Mon, 26 Jun 2023 00:00:00 +0900</pubDate><guid>/online/get-started/setup/admin/activate-subscription/</guid><description>
-&lt;p>「サブスクリプションの有効化」とは、ArcGIS Online のクラウドに参加するための手続きに相当します。ArcGIS Online の有償プランをご契約された、あるいは ArcGIS Online の利用申請をしていただいたお客様には、サブスクリプション ID が付与されます。受信されたメールまたはライセンス コンファメーションに記載の独自の URL からサブスクリプションを有効化することで、ArcGIS Online が利用できるようになります。&lt;/p>
-&lt;h2>サブスクリプションの有効化&lt;span class="hx:absolute hx:-mt-20" id="サブスクリプションの有効化">&lt;/span>
-&lt;a href="#%e3%82%b5%e3%83%96%e3%82%b9%e3%82%af%e3%83%aa%e3%83%97%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%ae%e6%9c%89%e5%8a%b9%e5%8c%96" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
-&lt;li>
-&lt;p>以下いずれかの件名の案内メールまたはライセンス コンファメーションを開きます。&lt;/p>
-&lt;ul>
-&lt;li>【ESRIジャパン】納品のご案内&lt;/li>
-&lt;li>【ESRIジャパン】ArcGIS Online サブスクリプションID 発行のご案内（ArcGIS Desktop ユーザー向け）&lt;/li>
-&lt;li>【ESRIジャパン】ArcGIS アカデミックパック 納品のご案内&lt;/li>
-&lt;/ul>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">件名は変更される場合があります。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">メールが見当たらない場合は、弊社の営業担当者か、online@esrij.com にお問い合わせください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>
-&lt;p>メールまたはライセンス コンファメーションや、保守登録完了通知内の ＜お客様のサブスクリプション ID 有効化ページ＞ の URL (下図参照) をクリックします。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">メールまたはライセンス コンファメーションに記載の「Esri 顧客 ID」「ライセンス顧客 ID」「サブスクリプション ID」は各種お問い合わせの際に必要な情報となりますので、この案内メールは大切に保管してください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/setup/admin/activate-subscription-url.png"
-alt="サブスクリプション ID の有効化" width="450">&lt;figcaption>
-&lt;p>サブスクリプション ID の有効化&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;li>
-&lt;p>[新しい ArcGIS 組織サイトの作成] または [個人向けプランのアカウントを組織のサブスクリプションに変換] を選択し、[次へ] をクリックします。&lt;/p>
-&lt;figure>&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/setup/admin/activate-subscription-activate.png"
-alt="組織サイトを有効化" width="300">&lt;figcaption>
-&lt;p>組織サイトを有効化&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>既存の個人向けプランのアカウントを組織のサブスクリプションに変換する場合、個人アカウントにて所有していたアイテムは組織のアイテムとなります。以下の 2 つのサイトで作成したアカウントは個人アカウントです。&lt;/p>
-&lt;ul>
-&lt;li>Esri アカウント (&lt;a href="https://accounts.esri.com/"target="_blank" rel="noopener">https://accounts.esri.com/&lt;/a>)&lt;/li>
-&lt;li>ArcGIS 個人向けアカウント (&lt;a href="https://www.esri.com/ja-jp/arcgis/products/create-account"target="_blank" rel="noopener">https://www.esri.com/ja-jp/arcgis/products/create-account&lt;/a>)&lt;/li>
-&lt;/ul>&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;/ol>
-&lt;h2>組織サイトとアカウントの設定&lt;span class="hx:absolute hx:-mt-20" id="組織サイトとアカウントの設定">&lt;/span>
-&lt;a href="#%e7%b5%84%e7%b9%94%e3%82%b5%e3%82%a4%e3%83%88%e3%81%a8%e3%82%a2%e3%82%ab%e3%82%a6%e3%83%b3%e3%83%88%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
-&lt;li>
-&lt;p>組織サイト名、組織サイトのショート ネーム (https://○○.maps.arcgis.com の○○の URL 名)、地域を設定し、[次へ] をクリックします。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/setup/admin/activate-subscription-sitesetup.png"
-alt="組織の設定" width="300">&lt;figcaption>
-&lt;p>組織の設定&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">組織サイトのショート ネームは組織の URL を作成する際に使用されるため、使用する名前をよく検討することをお勧めします。ショート ネームは最大 16 文字で、半角英数字とハイフンのみ使用できます。ハイフンは、ショート ネームの URL の最初または最後には使用できません。ショート ネームの変更に関しては「&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/faq.htm#anchor107"target="_blank" rel="noopener">組織のショート ネームを変更する際の注意事項と、変更後に実施すべきことはそれぞれ何ですか？&lt;/a>」をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>
-&lt;p>組織サイトにサイン インする最初のメンバーの設定を行います。このメンバーは自動的に組織の管理者として登録されます。&lt;br>
+&lt;p&gt;「サブスクリプションの有効化」とは、ArcGIS Online のクラウドに参加するための手続きに相当します。ArcGIS Online の有償プランをご契約された、あるいは ArcGIS Online の利用申請をしていただいたお客様には、サブスクリプション ID が付与されます。受信されたメールまたはライセンス コンファメーションに記載の独自の URL からサブスクリプションを有効化することで、ArcGIS Online が利用できるようになります。&lt;/p&gt;
+&lt;h2&gt;サブスクリプションの有効化&lt;span class="hx:absolute hx:-mt-20" id="サブスクリプションの有効化"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b5%e3%83%96%e3%82%b9%e3%82%af%e3%83%aa%e3%83%97%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%ae%e6%9c%89%e5%8a%b9%e5%8c%96" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;以下いずれかの件名の案内メールまたはライセンス コンファメーションを開きます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;【ESRIジャパン】納品のご案内&lt;/li&gt;
+&lt;li&gt;【ESRIジャパン】ArcGIS Online サブスクリプションID 発行のご案内（ArcGIS Desktop ユーザー向け）&lt;/li&gt;
+&lt;li&gt;【ESRIジャパン】ArcGIS アカデミックパック 納品のご案内&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;件名は変更される場合があります。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;メールが見当たらない場合は、弊社の営業担当者か、online@esrij.com にお問い合わせください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;メールまたはライセンス コンファメーションや、保守登録完了通知内の ＜お客様のサブスクリプション ID 有効化ページ＞ の URL (下図参照) をクリックします。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;メールまたはライセンス コンファメーションに記載の「Esri 顧客 ID」「ライセンス顧客 ID」「サブスクリプション ID」は各種お問い合わせの際に必要な情報となりますので、この案内メールは大切に保管してください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/setup/admin/activate-subscription-url.png"
+alt="サブスクリプション ID の有効化" width="450"&gt;&lt;figcaption&gt;
+&lt;p&gt;サブスクリプション ID の有効化&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[新しい ArcGIS 組織サイトの作成] または [個人向けプランのアカウントを組織のサブスクリプションに変換] を選択し、[次へ] をクリックします。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/setup/admin/activate-subscription-activate.png"
+alt="組織サイトを有効化" width="300"&gt;&lt;figcaption&gt;
+&lt;p&gt;組織サイトを有効化&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;既存の個人向けプランのアカウントを組織のサブスクリプションに変換する場合、個人アカウントにて所有していたアイテムは組織のアイテムとなります。以下の 2 つのサイトで作成したアカウントは個人アカウントです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Esri アカウント (&lt;a href="https://accounts.esri.com/"target="_blank" rel="noopener"&gt;https://accounts.esri.com/&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;ArcGIS 個人向けアカウント (&lt;a href="https://www.esri.com/ja-jp/arcgis/products/create-account"target="_blank" rel="noopener"&gt;https://www.esri.com/ja-jp/arcgis/products/create-account&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;組織サイトとアカウントの設定&lt;span class="hx:absolute hx:-mt-20" id="組織サイトとアカウントの設定"&gt;&lt;/span&gt;
+&lt;a href="#%e7%b5%84%e7%b9%94%e3%82%b5%e3%82%a4%e3%83%88%e3%81%a8%e3%82%a2%e3%82%ab%e3%82%a6%e3%83%b3%e3%83%88%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;組織サイト名、組織サイトのショート ネーム (https://○○.maps.arcgis.com の○○の URL 名)、地域を設定し、[次へ] をクリックします。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/setup/admin/activate-subscription-sitesetup.png"
+alt="組織の設定" width="300"&gt;&lt;figcaption&gt;
+&lt;p&gt;組織の設定&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;組織サイトのショート ネームは組織の URL を作成する際に使用されるため、使用する名前をよく検討することをお勧めします。ショート ネームは最大 16 文字で、半角英数字とハイフンのみ使用できます。ハイフンは、ショート ネームの URL の最初または最後には使用できません。ショート ネームの変更に関しては「&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/faq.htm#anchor107"target="_blank" rel="noopener"&gt;組織のショート ネームを変更する際の注意事項と、変更後に実施すべきことはそれぞれ何ですか？&lt;/a&gt;」をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;組織サイトにサイン インする最初のメンバーの設定を行います。このメンバーは自動的に組織の管理者として登録されます。&lt;br&gt;
 まず、姓名とメールアドレスを設定し、[次へ] をクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/setup/admin/activate-subscription-account1.png"
-alt="アカウントの詳細" width="300">&lt;figcaption>
-&lt;p>アカウントの詳細&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>次に、ユーザー名、パスワードやセキュリティの質問を設定し、[設定の完了] をクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/setup/admin/activate-subscription-account2.png"
-alt="ログインの設定" width="300">&lt;figcaption>
-&lt;p>ログインの設定&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ユーザー名とパスワードは、ArcGIS Pro や各種アプリで利用するために大切なアカウント情報です。忘れないようにして下さい。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;/ol>
-&lt;p>サブスクリプションの有効化に関する設定が完了すると、組織サイトのページが表示されます。ArcGIS Online では、組織専用サイト上で GIS データの編集、管理やユーザーの設定を行います。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">サブスクリプションの有効化の詳細に関しては、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/activate-subscription.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div></description></item><item><title>組織の設定</title><link>/online/get-started/setup/admin/settings/</link><pubDate>Fri, 05 Apr 2024 00:00:00 +0900</pubDate><guid>/online/get-started/setup/admin/settings/</guid><description>
-&lt;p>組織の管理者は、ArcGIS Online の Web サイトを構成することで、組織にとって重要な設定を構成できます。&lt;/p>
-&lt;h2>ホーム ページ&lt;span class="hx:absolute hx:-mt-20" id="ホーム-ページ">&lt;/span>
-&lt;a href="#%e3%83%9b%e3%83%bc%e3%83%a0-%e3%83%9a%e3%83%bc%e3%82%b8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>ホーム ページは、組織の Web サイトのランディング ページであり、ユーザー コミュニティへの入口としての役割を果たします。 ホーム ページでは、組織のメンバーや一般ユーザーに役立つリソースやコンテンツを提供できます。&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>管理者または組織の Web サイトの管理権限を持っているユーザーとして ArcGIS Online にサイン インします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>サイト上部の [組織] タブ → [設定] タブをクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>ページ左の [ホーム ページ] をクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[ホーム ページ エディター] セクションの [エディターの起動] をクリックします。&lt;/p>
-&lt;p>&lt;figure>
-&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/setup/admin/settings-homepage.png" title="ホーム ページ エディター" alt="ホーム ページ エディター" loading="lazy" />
-&lt;figcaption>ホーム ページ エディター&lt;/figcaption>
-&lt;/figure>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>ホーム ページのエレメントを構成します。
-各エレメントの構成の詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/configure-home.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[保存] をクリックして、ホーム ページの構成を適用します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[閉じる] ボタンをクリックして、ホーム ページ エディターを閉じます。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>サイトの上部にある [ホーム] をクリックすると、ホーム ページが表示されます。&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;h2>セキュリティー&lt;span class="hx:absolute hx:-mt-20" id="セキュリティー">&lt;/span>
-&lt;a href="#%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e3%83%bc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>パスワード ポリシー、ログインの方法、多要素認証など、組織サイトのセキュリティーを高めるための設定を行います。&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>管理者またはセキュリティーおよびインフラストラクチャの管理権限を持っているユーザーとして ArcGIS Online にサイン インします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>サイト上部の [組織] タブ → [設定] タブをクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>ページ左の [セキュリティー] をクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>セキュリティー設定を構成します。&lt;/p>
-&lt;p>注意すべき主な設定を下記に記載します。&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;strong>組織の Web サイト (組織サイト URL) への匿名アクセスを許可します。&lt;/strong>&lt;br>
-このチェックボックスをオンにすると、組織サイトは一般公開された状態で組織以外のユーザーも組織サイトのトップ ページにアクセスできます。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>メンバーは、設定ページから、ArcGIS Pro などのライセンス供与された Esri アプリケーションをダウンロードできます。&lt;/strong>&lt;br>
-このチェックボックスをオンにすると、メンバー自身が ArcGIS Online から ArcGIS Pro などのインストーラーをダウンロードできるようになります。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>管理者以外のメンバーは、自分のコンテンツ、グループ、プロフィールを公開できます。&lt;/strong>&lt;br>
-このチェックボックスをオフにすると、メンバーのコンテンツ、グループ、プロフィールの共有を組織内のみに制限し、組織メンバーが誤ってパブリックに共有することを防ぎます。管理者権限およびコンテンツをパブリックに共有できる管理権限を持つメンバーは、この設定に関わらずアイテムをパブリックに公開することができます。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>組織サイト外のコンテンツ検索を許可します。&lt;/strong>&lt;br>
-このチェックボックスをオンにすると、全世界の ArcGIS Online ユーザーがパブリックに公開しているコンテンツや、Living Atlas のコンテンツを利用できるようになります。&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;p>&lt;figure>
-&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/setup/admin/settings-security.png" title="セキュリティー" alt="セキュリティー" loading="lazy" />
-&lt;figcaption>セキュリティー&lt;/figcaption>
-&lt;/figure>&lt;/p>
-&lt;p>その他の構成の詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/configure-security.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;h2>クレジット&lt;span class="hx:absolute hx:-mt-20" id="クレジット">&lt;/span>
-&lt;a href="#%e3%82%af%e3%83%ac%e3%82%b8%e3%83%83%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>組織のメンバーに対して利用できる&lt;a href="/online/get-started/administer/subscription/credit/">クレジット&lt;/a>数を制限するための機能を有効化することができます。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;strong>組織サイトのクレジットがすべて消費された場合は、サブスクリプションが制限されたり、残りのクレジットがマイナスになったりする場合があります。&lt;/strong>
-&lt;a href="/online/get-started/administer/subscription/credit/#%e3%82%af%e3%83%ac%e3%82%b8%e3%83%83%e3%83%88%e6%b6%88%e8%b2%bb%e9%87%8f%e3%81%ae%e4%b8%8a%e9%99%90%e8%a8%ad%e5%ae%9a">クレジット消費量の上限設定&lt;/a>などのツールを利用いただくことを推奨します。&lt;br>
-なお、クレジットは &lt;a href="http://shop.esrij.com/shopbrand/ct43/"target="_blank" rel="noopener">ESRIジャパンショップ&lt;/a> で追加購入が可能です (教育機関のユーザー様は、営業担当にお問い合わせください)。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;ol>
-&lt;li>
-&lt;p>管理者または組織のクレジット設定の管理権限を持っているユーザーとして ArcGIS Online にサイン インします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>サイト上部の [組織] タブ → [設定] タブをクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>ページ左の [クレジット] をクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[クレジット使用制限ツールの有効化] チェックボックスをオンにします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="/online/get-started/administer/subscription/credit/#%e3%82%af%e3%83%ac%e3%82%b8%e3%83%83%e3%83%88%e6%b6%88%e8%b2%bb%e9%87%8f%e3%81%ae%e4%b8%8a%e9%99%90%e8%a8%ad%e5%ae%9a">クレジット消費量の上限設定&lt;/a>に従って上限値を設定します。&lt;/p>
-&lt;/li>
-&lt;/ol></description></item><item><title>メンバーの追加</title><link>/online/get-started/setup/admin/add-members/</link><pubDate>Mon, 13 Mar 2023 00:00:00 +0900</pubDate><guid>/online/get-started/setup/admin/add-members/</guid><description>
-&lt;p>組織サイトの構成を設定後、管理者はメンバーを組織サイトに招待することができます。メンバーとは、組織サイトにサイン インできるアカウントを持ったユーザーを指します。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">組織サイトに招待できるメンバー数は、ご契約内容や契約期間に応じて異なります。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;ol>
-&lt;li>
-&lt;p>管理者またはメンバーを招待できる権限を持っているユーザーとして ArcGIS Online にサイン インします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>サイト上部の [組織] タブ → [メンバー] タブをクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[メンバーの招待] をクリックします。&lt;/p>
-&lt;p>&lt;figure>
-&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/setup/admin/add-members-invite.png" title="メンバーの招待" alt="メンバーの招待" loading="lazy" />
-&lt;figcaption>メンバーの招待&lt;/figcaption>
-&lt;/figure>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[招待メールを送信せずにメンバーを自動的に追加] を選択し、[次へ] をクリックします。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>メンバーを招待する方法は、下記 3 種類から選択できます。(&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/invite-users.htm"target="_blank" rel="noopener">組織固有のログイン&lt;/a>を使用している場合は、追加で 2 種類の方法が表示されます。)&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>招待メールを送信せずにメンバーを自動的に追加&lt;br>
-招待する管理者が各メンバーのユーザー名と一時パスワードをあらかじめ設定し、メンバーにユーザー名とパスワードを別途通知して招待する方法です。招待メールは送信されません。メンバーは初回のサイン イン時にパスワードの変更を求められます。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>メンバーを追加し、電子メールでそのメンバーに通知&lt;br>
-招待する管理者が各メンバーのユーザー名のみをあらかじめ設定する方法です。指定したメールアドレスのメンバーに ArcGIS Online から招待メールが送信されます。招待用メールを受け取ったメンバーは、本文のリンクから組織に加入し、独自のパスワードを作成します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>メンバーが任意のアカウントを使用して加入するよう招待&lt;br>
-メンバー自身がユーザー名およびパスワードを設定できる方法です。指定したメールアドレスのメンバーに ArcGIS Online から招待用メールが送信されます。招待メールを受け取ったメンバーは、本文のリンクから組織に加入し、新しいアカウントを作成するか、既存の ArcGIS 個人向けアカウントを移行できます。組織の構成に応じて、新しいアカウントには、SAML、OpenID Connect、ArcGIS、またはソーシャル ログインが使用できます。&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>
-&lt;p>[新規メンバー] をクリックします。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">複数人を一括で追加したい場合は、[ファイルの新規メンバー] をクリックします。詳細は「&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge3020.html"target="_blank" rel="noopener">ArcGIS Online の複数の組織メンバーを一括で招待するテキスト ファイル&lt;/a>」をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>
-&lt;p>管理者は招待するメンバーの [名]、[姓]、[電子メール アドレス]、サイン イン時に使用する [ユーザー名]、[ユーザー タイプ]、[ロール]、[一時パスワード] を設定します。別のメンバーを追加する場合は [次に、別のメンバーを追加] をクリックして、ユーザー情報を入力します。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ロールとは、そのメンバーに付与される権限のことで、ここで選択できるロールは、権限レベルの高い順から&lt;strong>公開者&lt;/strong>、&lt;strong>ユーザー&lt;/strong>、&lt;strong>データ編集者&lt;/strong>、&lt;strong>閲覧者&lt;/strong>があります。招待したメンバーのロールを、最も権限レベルの高い&lt;strong>管理者&lt;/strong>、または&lt;strong>ファシリテーター&lt;/strong>に変更したい場合、招待したメンバーが組織サイトへ加入後に組織の管理者がロールを変更します。ロールの詳細は、&lt;a href="/online/get-started/administer/members/role/">ロールの変更&lt;/a>をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>&lt;figure>
-&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/setup/admin/add-members-edit.png" title="メンバー リストの編集" alt="メンバー リストの編集" loading="lazy" />
-&lt;figcaption>メンバー リストの編集&lt;/figcaption>
-&lt;/figure>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[次へ] をクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>追加したメンバー リストを確認し、[次へ] をクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>ライセンスやグループ、クレジットの割り当て設定を行い、[次へ] をクリックします。&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>アドオン ライセンス&lt;/strong>: 割り当て可能なライセンスがある場合、選択できます。&lt;/li>
-&lt;li>&lt;strong>グループ&lt;/strong>: 加入するグループのチェックボックスをオンにします。&lt;/li>
-&lt;li>&lt;strong>メンバー カテゴリー&lt;/strong>: &lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/manage-members.htm#ESRI_SECTION1_91337F478F8542D9A6D2F1A7B65E0AFF"target="_blank" rel="noopener">メンバー カテゴリー&lt;/a>を構成している場合は、割り当てることができます。&lt;/li>
-&lt;li>&lt;strong>Esri アクセス&lt;/strong>: メンバーが My Esri などにアクセスできるようにするには、オンにします。&lt;/li>
-&lt;li>&lt;strong>クレジット割り当ての設定&lt;/strong>: クレジット使用量を制限したい場合は、[割り当て量の設定] に数字を入力します。&lt;/li>
-&lt;li>&lt;strong>設定&lt;/strong>: プロフィールの表示設定、言語、メンバーの開始ページを設定します。&lt;/li>
-&lt;/ul>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[メンバーのデフォルト設定] を構成していると、[メンバーのプロパティ設定] の各項目が自動で設定されます。詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/configure-new-member-defaults.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>
-&lt;p>追加するメンバーの概要を確認後、[メンバーの追加] をクリックします。画面右上に [追加されたメンバー] と表示されます。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>管理者は設定したユーザー名と初期パスワードを招待した各メンバーへ伝えます。なお、メンバーは最初のログイン時にパスワードの変更を求められます。&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;p>メンバーの追加の詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/invite-users.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/p></description></item></channel></rss>
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/setup/admin/activate-subscription-account1.png"
+alt="アカウントの詳細" width="300"&gt;&lt;figcaption&gt;
+&lt;p&gt;アカウントの詳細&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;次に、ユーザー名、パスワードやセキュリティの質問を設定し、[設定の完了] をクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/setup/admin/activate-subscription-account2.png"
+alt="ログインの設定" width="300"&gt;&lt;figcaption&gt;
+&lt;p&gt;ログインの設定&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;ユーザー名とパスワードは、ArcGIS Pro や各種アプリで利用するために大切なアカウント情報です。忘れないようにして下さい。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;サブスクリプションの有効化に関する設定が完了すると、組織サイトのページが表示されます。ArcGIS Online では、組織専用サイト上で GIS データの編集、管理やユーザーの設定を行います。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;サブスクリプションの有効化の詳細に関しては、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/activate-subscription.htm"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>組織の設定</title><link>/online/get-started/setup/admin/settings/</link><pubDate>Fri, 05 Apr 2024 00:00:00 +0900</pubDate><guid>/online/get-started/setup/admin/settings/</guid><description>
+&lt;p&gt;組織の管理者は、ArcGIS Online の Web サイトを構成することで、組織にとって重要な設定を構成できます。&lt;/p&gt;
+&lt;h2&gt;ホーム ページ&lt;span class="hx:absolute hx:-mt-20" id="ホーム-ページ"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%9b%e3%83%bc%e3%83%a0-%e3%83%9a%e3%83%bc%e3%82%b8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ホーム ページは、組織の Web サイトのランディング ページであり、ユーザー コミュニティへの入口としての役割を果たします。 ホーム ページでは、組織のメンバーや一般ユーザーに役立つリソースやコンテンツを提供できます。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;管理者または組織の Web サイトの管理権限を持っているユーザーとして ArcGIS Online にサイン インします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;サイト上部の [組織] タブ → [設定] タブをクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ページ左の [ホーム ページ] をクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[ホーム ページ エディター] セクションの [エディターの起動] をクリックします。&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/setup/admin/settings-homepage.png" title="ホーム ページ エディター" alt="ホーム ページ エディター" loading="lazy" /&gt;
+&lt;figcaption&gt;ホーム ページ エディター&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ホーム ページのエレメントを構成します。
+各エレメントの構成の詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/configure-home.htm"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[保存] をクリックして、ホーム ページの構成を適用します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[閉じる] ボタンをクリックして、ホーム ページ エディターを閉じます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;サイトの上部にある [ホーム] をクリックすると、ホーム ページが表示されます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;セキュリティー&lt;span class="hx:absolute hx:-mt-20" id="セキュリティー"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e3%83%bc" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;パスワード ポリシー、ログインの方法、多要素認証など、組織サイトのセキュリティーを高めるための設定を行います。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;管理者またはセキュリティーおよびインフラストラクチャの管理権限を持っているユーザーとして ArcGIS Online にサイン インします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;サイト上部の [組織] タブ → [設定] タブをクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ページ左の [セキュリティー] をクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;セキュリティー設定を構成します。&lt;/p&gt;
+&lt;p&gt;注意すべき主な設定を下記に記載します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;組織の Web サイト (組織サイト URL) への匿名アクセスを許可します。&lt;/strong&gt;&lt;br&gt;
+このチェックボックスをオンにすると、組織サイトは一般公開された状態で組織以外のユーザーも組織サイトのトップ ページにアクセスできます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;メンバーは、設定ページから、ArcGIS Pro などのライセンス供与された Esri アプリケーションをダウンロードできます。&lt;/strong&gt;&lt;br&gt;
+このチェックボックスをオンにすると、メンバー自身が ArcGIS Online から ArcGIS Pro などのインストーラーをダウンロードできるようになります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;管理者以外のメンバーは、自分のコンテンツ、グループ、プロフィールを公開できます。&lt;/strong&gt;&lt;br&gt;
+このチェックボックスをオフにすると、メンバーのコンテンツ、グループ、プロフィールの共有を組織内のみに制限し、組織メンバーが誤ってパブリックに共有することを防ぎます。管理者権限およびコンテンツをパブリックに共有できる管理権限を持つメンバーは、この設定に関わらずアイテムをパブリックに公開することができます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;組織サイト外のコンテンツ検索を許可します。&lt;/strong&gt;&lt;br&gt;
+このチェックボックスをオンにすると、全世界の ArcGIS Online ユーザーがパブリックに公開しているコンテンツや、Living Atlas のコンテンツを利用できるようになります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;figure&gt;
+&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/setup/admin/settings-security.png" title="セキュリティー" alt="セキュリティー" loading="lazy" /&gt;
+&lt;figcaption&gt;セキュリティー&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;その他の構成の詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/configure-security.htm"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;クレジット&lt;span class="hx:absolute hx:-mt-20" id="クレジット"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%af%e3%83%ac%e3%82%b8%e3%83%83%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;組織のメンバーに対して利用できる&lt;a href="/online/get-started/administer/subscription/credit/"&gt;クレジット&lt;/a&gt;数を制限するための機能を有効化することができます。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;strong&gt;組織サイトのクレジットがすべて消費された場合は、サブスクリプションが制限されたり、残りのクレジットがマイナスになったりする場合があります。&lt;/strong&gt;
+&lt;a href="/online/get-started/administer/subscription/credit/#%e3%82%af%e3%83%ac%e3%82%b8%e3%83%83%e3%83%88%e6%b6%88%e8%b2%bb%e9%87%8f%e3%81%ae%e4%b8%8a%e9%99%90%e8%a8%ad%e5%ae%9a"&gt;クレジット消費量の上限設定&lt;/a&gt;などのツールを利用いただくことを推奨します。&lt;br&gt;
+なお、クレジットは &lt;a href="http://shop.esrij.com/shopbrand/ct43/"target="_blank" rel="noopener"&gt;ESRIジャパンショップ&lt;/a&gt; で追加購入が可能です (教育機関のユーザー様は、営業担当にお問い合わせください)。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;管理者または組織のクレジット設定の管理権限を持っているユーザーとして ArcGIS Online にサイン インします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;サイト上部の [組織] タブ → [設定] タブをクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ページ左の [クレジット] をクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[クレジット使用制限ツールの有効化] チェックボックスをオンにします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="/online/get-started/administer/subscription/credit/#%e3%82%af%e3%83%ac%e3%82%b8%e3%83%83%e3%83%88%e6%b6%88%e8%b2%bb%e9%87%8f%e3%81%ae%e4%b8%8a%e9%99%90%e8%a8%ad%e5%ae%9a"&gt;クレジット消費量の上限設定&lt;/a&gt;に従って上限値を設定します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>メンバーの追加</title><link>/online/get-started/setup/admin/add-members/</link><pubDate>Mon, 13 Mar 2023 00:00:00 +0900</pubDate><guid>/online/get-started/setup/admin/add-members/</guid><description>
+&lt;p&gt;組織サイトの構成を設定後、管理者はメンバーを組織サイトに招待することができます。メンバーとは、組織サイトにサイン インできるアカウントを持ったユーザーを指します。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;組織サイトに招待できるメンバー数は、ご契約内容や契約期間に応じて異なります。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;管理者またはメンバーを招待できる権限を持っているユーザーとして ArcGIS Online にサイン インします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;サイト上部の [組織] タブ → [メンバー] タブをクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[メンバーの招待] をクリックします。&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/setup/admin/add-members-invite.png" title="メンバーの招待" alt="メンバーの招待" loading="lazy" /&gt;
+&lt;figcaption&gt;メンバーの招待&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[招待メールを送信せずにメンバーを自動的に追加] を選択し、[次へ] をクリックします。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;メンバーを招待する方法は、下記 3 種類から選択できます。(&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/invite-users.htm"target="_blank" rel="noopener"&gt;組織固有のログイン&lt;/a&gt;を使用している場合は、追加で 2 種類の方法が表示されます。)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;招待メールを送信せずにメンバーを自動的に追加&lt;br&gt;
+招待する管理者が各メンバーのユーザー名と一時パスワードをあらかじめ設定し、メンバーにユーザー名とパスワードを別途通知して招待する方法です。招待メールは送信されません。メンバーは初回のサイン イン時にパスワードの変更を求められます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;メンバーを追加し、電子メールでそのメンバーに通知&lt;br&gt;
+招待する管理者が各メンバーのユーザー名のみをあらかじめ設定する方法です。指定したメールアドレスのメンバーに ArcGIS Online から招待メールが送信されます。招待用メールを受け取ったメンバーは、本文のリンクから組織に加入し、独自のパスワードを作成します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;メンバーが任意のアカウントを使用して加入するよう招待&lt;br&gt;
+メンバー自身がユーザー名およびパスワードを設定できる方法です。指定したメールアドレスのメンバーに ArcGIS Online から招待用メールが送信されます。招待メールを受け取ったメンバーは、本文のリンクから組織に加入し、新しいアカウントを作成するか、既存の ArcGIS 個人向けアカウントを移行できます。組織の構成に応じて、新しいアカウントには、SAML、OpenID Connect、ArcGIS、またはソーシャル ログインが使用できます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[新規メンバー] をクリックします。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;複数人を一括で追加したい場合は、[ファイルの新規メンバー] をクリックします。詳細は「&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge3020.html"target="_blank" rel="noopener"&gt;ArcGIS Online の複数の組織メンバーを一括で招待するテキスト ファイル&lt;/a&gt;」をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;管理者は招待するメンバーの [名]、[姓]、[電子メール アドレス]、サイン イン時に使用する [ユーザー名]、[ユーザー タイプ]、[ロール]、[一時パスワード] を設定します。別のメンバーを追加する場合は [次に、別のメンバーを追加] をクリックして、ユーザー情報を入力します。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;ロールとは、そのメンバーに付与される権限のことで、ここで選択できるロールは、権限レベルの高い順から&lt;strong&gt;公開者&lt;/strong&gt;、&lt;strong&gt;ユーザー&lt;/strong&gt;、&lt;strong&gt;データ編集者&lt;/strong&gt;、&lt;strong&gt;閲覧者&lt;/strong&gt;があります。招待したメンバーのロールを、最も権限レベルの高い&lt;strong&gt;管理者&lt;/strong&gt;、または&lt;strong&gt;ファシリテーター&lt;/strong&gt;に変更したい場合、招待したメンバーが組織サイトへ加入後に組織の管理者がロールを変更します。ロールの詳細は、&lt;a href="/online/get-started/administer/members/role/"&gt;ロールの変更&lt;/a&gt;をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;figure&gt;
+&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/setup/admin/add-members-edit.png" title="メンバー リストの編集" alt="メンバー リストの編集" loading="lazy" /&gt;
+&lt;figcaption&gt;メンバー リストの編集&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[次へ] をクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;追加したメンバー リストを確認し、[次へ] をクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ライセンスやグループ、クレジットの割り当て設定を行い、[次へ] をクリックします。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;アドオン ライセンス&lt;/strong&gt;: 割り当て可能なライセンスがある場合、選択できます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;グループ&lt;/strong&gt;: 加入するグループのチェックボックスをオンにします。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;メンバー カテゴリー&lt;/strong&gt;: &lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/manage-members.htm#ESRI_SECTION1_91337F478F8542D9A6D2F1A7B65E0AFF"target="_blank" rel="noopener"&gt;メンバー カテゴリー&lt;/a&gt;を構成している場合は、割り当てることができます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Esri アクセス&lt;/strong&gt;: メンバーが My Esri などにアクセスできるようにするには、オンにします。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;クレジット割り当ての設定&lt;/strong&gt;: クレジット使用量を制限したい場合は、[割り当て量の設定] に数字を入力します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;設定&lt;/strong&gt;: プロフィールの表示設定、言語、メンバーの開始ページを設定します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;[メンバーのデフォルト設定] を構成していると、[メンバーのプロパティ設定] の各項目が自動で設定されます。詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/configure-new-member-defaults.htm"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;追加するメンバーの概要を確認後、[メンバーの追加] をクリックします。画面右上に [追加されたメンバー] と表示されます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;管理者は設定したユーザー名と初期パスワードを招待した各メンバーへ伝えます。なお、メンバーは最初のログイン時にパスワードの変更を求められます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;メンバーの追加の詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/invite-users.htm"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/p&gt;</description></item></channel></rss>

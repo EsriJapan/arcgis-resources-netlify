@@ -1,678 +1,678 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – データの管理</title><link>/online/users-guide/manage-data/</link><description>Recent content in データの管理 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Tue, 30 Nov 2021 00:00:00 +0900</lastBuildDate><atom:link href="/online/users-guide/manage-data/index.xml" rel="self" type="application/rss+xml"/><item><title>フィールドを追加、削除したい</title><link>/online/users-guide/manage-data/field/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/field/</guid><description>
-&lt;p>ホスト フィーチャ レイヤーのフィールドを追加・削除します。&lt;/p>
-&lt;h3>フィールドの追加&lt;span class="hx:absolute hx:-mt-20" id="フィールドの追加">&lt;/span>
-&lt;a href="#%e3%83%95%e3%82%a3%e3%83%bc%e3%83%ab%e3%83%89%e3%81%ae%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>
-&lt;p>フィーチャ レイヤーのアイテム詳細ページの [データ] タブ → [フィールド] → [＋フィールドの追加] をクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/field-create.png"
-alt="[フィールド] → [＋フィールドの追加] をクリック" width="700">&lt;figcaption>
-&lt;p>[フィールド] → [＋フィールドの追加] をクリック&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>格納したいデータの種類によって、適する [タイプ] を選択します。タイプの詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/add-or-delete-fields.htm#GUID-BE260302-CEA6-4A3A-8933-60911375943A"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[フィールド名]、[表示名] を入力します。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[フィールド名] にはアンダースコア (_) 以外の特殊文字 (&amp;amp;、( )、スペースなど) や、&lt;a href="https://docs.microsoft.com/ja-jp/previous-versions/sql/sql-server-2014/ms189822%28v=sql.120%29"target="_blank" rel="noopener">予約語&lt;/a> (「type」や「user」) を使用できません。また、フィールド名の最初の文字に数字を使用することはできません。これらの文字を表示上使用したい場合は、[表示名] でご利用ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>
-&lt;p>[フィールドの追加] をクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/field-add.png"
-alt="[フィールドの追加]をクリック" width="600">&lt;figcaption>
-&lt;p>[フィールドの追加]をクリック&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;h3>フィールドの削除&lt;span class="hx:absolute hx:-mt-20" id="フィールドの削除">&lt;/span>
-&lt;a href="#%e3%83%95%e3%82%a3%e3%83%bc%e3%83%ab%e3%83%89%e3%81%ae%e5%89%8a%e9%99%a4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>
-&lt;p>フィーチャ レイヤーのアイテム詳細ページの [データ] タブの [フィールド] をクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/field-field.png"
-alt="[フィールド] をクリック" width="700">&lt;figcaption>
-&lt;p>[フィールド] をクリック&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>削除したいフィールド名横のチェックボックスをオンにし、[削除] をクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/field-select.png"
-alt="フィールドの選択と削除" width="750">&lt;figcaption>
-&lt;p>フィールドの選択と削除&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">FID や OBJECTID などのフィールドは削除できません。また、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/apply-styles-mv.htm"target="_blank" rel="noopener">スタイル設定&lt;/a>、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/apply-filters-mv.htm"target="_blank" rel="noopener">フィルター&lt;/a>、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/configure-labels-mv.htm"target="_blank" rel="noopener">ラベル&lt;/a>、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/configure-feature-search.htm"target="_blank" rel="noopener">フィーチャ検索&lt;/a>、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/configure-time-mv.htm"target="_blank" rel="noopener">タイム スライダー&lt;/a>や編集情報の記録に使用されているフィールドは削除できません。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;/ol></description></item><item><title>入力時の選択リストを作成したい</title><link>/online/users-guide/manage-data/list/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/list/</guid><description>
-&lt;p>データの編集時や現地調査アプリでは、ドメインと呼ばれるあらかじめ決まった選択ルールを作成しておくと、キーボード入力の手間を省くことができます。ホスト フィーチャ レイヤーにのみ設定が可能です。&lt;/p>
-&lt;h3>ドメインの作成&lt;span class="hx:absolute hx:-mt-20" id="ドメインの作成">&lt;/span>
-&lt;a href="#%e3%83%89%e3%83%a1%e3%82%a4%e3%83%b3%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>
-&lt;p>フィーチャ レイヤーのアイテム詳細ページの [データ] タブ → [フィールド] をクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/field-field.png"
-alt="[フィールド] をクリック" width="750">&lt;figcaption>
-&lt;p>[フィールド] をクリック&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>ドメインを作成したいフィールドの [表示名] をクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/list-field.png"
-alt="[表示名] をクリック" width="350">&lt;figcaption>
-&lt;p>[表示名] をクリック&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[ドメイン] の項目から [開始] をクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/list-create-list.png"
-alt="リストの作成の開始" width="600">&lt;figcaption>
-&lt;p>リストの作成の開始&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[値の入力] を選択し、 [次へ] をクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/list-select-method.png"
-alt="[値の入力] を選択" width="600">&lt;figcaption>
-&lt;p>[値の入力] を選択&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">レイヤー内にフィーチャが既に存在し、属性値に個別値が含まれている場合、[値の検索] を選択すると個別値がドメインに自動で追加されます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">フィールドのタイプが数値や日時の場合は、許容される値の範囲をドメインとして設定することもできます。詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/define-attribute-lists-and-ranges.htm"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>
-&lt;p>[ラベル] と [コード] を入力し、入力値リストを作成します。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/list-save-list.png"
-alt="リストの保存" width="600">&lt;figcaption>
-&lt;p>リストの保存&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>必要に応じて [･･･] をクリックし、ドメインの追加や削除を行うことでリストを調整します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[保存] をクリックします。&lt;/p>
-&lt;/li>
-&lt;/ol></description></item><item><title>データの編集に関する設定を変更したい</title><link>/online/users-guide/manage-data/privilege/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/privilege/</guid><description>
-&lt;p>データの編集に関するさまざまな設定を変更できます。&lt;/p>
-&lt;h3>編集の有効化&lt;span class="hx:absolute hx:-mt-20" id="編集の有効化">&lt;/span>
-&lt;a href="#%e7%b7%a8%e9%9b%86%e3%81%ae%e6%9c%89%e5%8a%b9%e5%8c%96" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>データを編集できるようにします。&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>フィーチャ レイヤーのアイテム詳細ページの [設定] タブ → [編集の有効化] トグルをオンにします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[どのような種類の編集が許可されていますか？] で許可する編集の権限を選択します。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/privilege-edit.png"
-alt="編集の有効化と許可する編集の権限を選択" width="500">&lt;figcaption>
-&lt;p>編集の有効化と許可する編集の権限を選択&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[保存] をクリックします。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">既に保存済みの Web マップにレイヤーを追加している場合、レイヤーの編集が不可の状態を保持しています。Web マップで編集ができない場合は、上記の設定後にレイヤーを追加し直し、再度保存してください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;/ol>
-&lt;h3>オフラインで利用する&lt;span class="hx:absolute hx:-mt-20" id="オフラインで利用する">&lt;/span>
-&lt;a href="#%e3%82%aa%e3%83%95%e3%83%a9%e3%82%a4%e3%83%b3%e3%81%a7%e5%88%a9%e7%94%a8%e3%81%99%e3%82%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>現地調査アプリでオフライン利用ができるようにします。&lt;/p>
-&lt;ol>
-&lt;li>フィーチャ レイヤーのアイテム詳細ページの [設定] タブ → [同期の有効化] トグルをオンにします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/privilege-sync.png"
-alt="[同期の有効化] トグルをオン" width="500">&lt;figcaption>
-&lt;p>[同期の有効化] トグルをオン&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;li>[保存] をクリックします。&lt;/li>
-&lt;/ol>
-&lt;h3>編集者、編集日時の自動記録&lt;span class="hx:absolute hx:-mt-20" id="編集者編集日時の自動記録">&lt;/span>
-&lt;a href="#%e7%b7%a8%e9%9b%86%e8%80%85%e7%b7%a8%e9%9b%86%e6%97%a5%e6%99%82%e3%81%ae%e8%87%aa%e5%8b%95%e8%a8%98%e9%8c%b2" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>フィーチャごとに、作成者、作成日時、更新者、更新日時が自動記録されるフィールドを作成し、アプリ上で表示できるようにします。&lt;/p>
-&lt;ol>
-&lt;li>フィーチャ レイヤーのアイテム詳細ページの [設定] タブ → [データを編集したユーザー (編集者名、編集日時) を記録します。] トグルをオンにします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/privilege-edit-track.png"
-alt="[データを編集したユーザー (編集者名、編集日時) を記録します。] トグルをオン" width="500">&lt;figcaption>
-&lt;p>[データを編集したユーザー (編集者名、編集日時) を記録します。] トグルをオン&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;li>[保存] をクリックします。&lt;/li>
-&lt;li>フィーチャ レイヤーに [CreationDate]、[Creator]、[EditDate]、[Editor] の列が自動で追加され、それぞれフィーチャの作成日時と作成者、更新日時と更新者が自動記録されます。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/privilege-track-field.png"
-alt="編集者、編集日時の自動記録のフィールド" width="700">&lt;figcaption>
-&lt;p>編集者、編集日時の自動記録のフィールド&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;/ol>
-&lt;h3>フィーチャの閲覧・編集権限の制御&lt;span class="hx:absolute hx:-mt-20" id="フィーチャの閲覧編集権限の制御">&lt;/span>
-&lt;a href="#%e3%83%95%e3%82%a3%e3%83%bc%e3%83%81%e3%83%a3%e3%81%ae%e9%96%b2%e8%a6%a7%e7%b7%a8%e9%9b%86%e6%a8%a9%e9%99%90%e3%81%ae%e5%88%b6%e5%be%a1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>フィーチャの閲覧・編集権限を細かく制御します。&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>フィーチャ レイヤーのアイテム詳細ページの [設定] タブ → [データを編集したユーザー (編集者名、編集日時) を記録します。] トグルをオンにします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>必要に応じて [どのフィーチャを編集者は閲覧できますか？]、[どのフィーチャを編集者は編集できますか？]、[匿名の (サイン インしていない) 編集者はどのようなアクセスが可能ですか？] の設定を更新します。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/privilege-details.png"
-alt="編集設定の詳細" width="600">&lt;figcaption>
-&lt;p>編集設定の詳細&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">詳細な設定につきましては、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/manage-hosted-feature-layers.htm#ESRI_SECTION1_030A9819DFF7498E9DFCDE6030E5FFBA"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照下さい。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;/ol></description></item><item><title>写真やファイルをフィーチャに添付したい</title><link>/online/users-guide/manage-data/attachment/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/attachment/</guid><description>
-&lt;p>フィーチャ レイヤーの各フィーチャに画像などファイルを添付したり、モバイル端末のカメラで撮影した画像を現地調査アプリで添付したりすることができます。この機能を使用するには、レイヤーの設定が必要です。&lt;/p>
-&lt;h3>添付ファイルの有効化&lt;span class="hx:absolute hx:-mt-20" id="添付ファイルの有効化">&lt;/span>
-&lt;a href="#%e6%b7%bb%e4%bb%98%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e6%9c%89%e5%8a%b9%e5%8c%96" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>
-&lt;p>フィーチャ レイヤーのアイテム詳細ページを開きます。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[概要] タブに表示されている、[レイヤー] 項目内で添付ファイルを有効にしたいレイヤーをクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/attachment-layer.png"
-alt="レイヤーの詳細をクリック" width="300">&lt;figcaption>
-&lt;p>レイヤーの詳細をクリック&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[添付ファイルの有効化] トグルをオンにします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/attachment-enable.png"
-alt="[添付ファイルの有効化] トグルをオン" width="300">&lt;figcaption>
-&lt;p>[添付ファイルの有効化] トグルをオン&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;h3>Map Viewer でファイルの添付&lt;span class="hx:absolute hx:-mt-20" id="map-viewer-でファイルの添付">&lt;/span>
-&lt;a href="#map-viewer-%e3%81%a7%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e6%b7%bb%e4%bb%98" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ファイルを添付するには、レイヤーに対して&lt;a href="/online/users-guide/manage-data/privilege/">編集が有効化&lt;/a>されている必要があります。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;ol>
-&lt;li>
-&lt;p>&lt;a href="/online/users-guide/map/set-map/#%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%81%ae%e8%bf%bd%e5%8a%a0">Map Viewer にレイヤーを追加&lt;/a>します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>右側のツール メニューから [編集] をクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/attachment-edit.png"
-alt="編集ボタン" width="150">&lt;figcaption>
-&lt;p>編集ボタン&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>新しい&lt;a href="/online/users-guide/map/edit/#%e3%83%95%e3%82%a3%e3%83%bc%e3%83%81%e3%83%a3%e3%81%ae%e8%bf%bd%e5%8a%a0">フィーチャを作成&lt;/a>、または既存の&lt;a href="/online/users-guide/map/edit/#%e3%83%95%e3%82%a3%e3%83%bc%e3%83%81%e3%83%a3%e3%81%ae%e7%b7%a8%e9%9b%86">フィーチャを編集&lt;/a>します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[添付ファイル] で [追加] をクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/attachment-add.png"
-alt="添付ファイルの追加" width="700">&lt;figcaption>
-&lt;p>添付ファイルの追加&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[ファイルの選択] で添付したいファイルを選択し、[追加] をクリックして、[作成] または [更新] をクリックします。
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">・添付可能なファイルのサイズは、 1 ファイルにつき 10 MB の制限があります。&lt;br>
-・添付可能なファイルの形式については&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/work-with-tables.htm#ESRI_SECTION2_3C99CF74A5C74A0AA0AD4A619F4457D7"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/p>
-&lt;/li>
-&lt;/ol></description></item><item><title>データを時系列で見たい</title><link>/online/users-guide/manage-data/time/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/time/</guid><description>
-&lt;p>データの属性に含まれる時系列情報を使用して、ArcGIS Online の Map Viewer 上で時系列のアニメーションでデータを表示することができます。&lt;br>
-使用するデータはあらかじめ「&lt;a href="/online/users-guide/create-data/feature/">フィーチャ レイヤーを公開したい&lt;/a>」を参考に作成してください。&lt;/p>
-&lt;h3>時間の有効化&lt;span class="hx:absolute hx:-mt-20" id="時間の有効化">&lt;/span>
-&lt;a href="#%e6%99%82%e9%96%93%e3%81%ae%e6%9c%89%e5%8a%b9%e5%8c%96" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>
-&lt;p>フィーチャ レイヤーのアイテム詳細ページを開き、[概要] タブの [レイヤー] 項目で時間を有効化したいレイヤーをクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>右下の [時間設定] の [編集] をクリックします。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/time-configure.png"
-alt="[時間設定] の [編集] をクリック" width="700">&lt;figcaption>
-&lt;p>[時間設定] の [編集] をクリック&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;li>
-&lt;p>[時間設定] ダイアログで、[時間の有効化] チェックボックスをオンにします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[時間フィールド] または [開始時間フィールド] と [終了時間フィールド] に Date 型のフィールドを指定します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[OK] をクリックします。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/time-configure-dialog.png"
-alt="[時間設定] ダイアログ" width="500">&lt;figcaption>
-&lt;p>[時間設定] ダイアログ&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;/ol>
-&lt;h3>タイム スライダーの利用&lt;span class="hx:absolute hx:-mt-20" id="タイム-スライダーの利用">&lt;/span>
-&lt;a href="#%e3%82%bf%e3%82%a4%e3%83%a0-%e3%82%b9%e3%83%a9%e3%82%a4%e3%83%80%e3%83%bc%e3%81%ae%e5%88%a9%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>
-&lt;p>Map Viewer に時間の有効化を行った&lt;a href="/online/users-guide/map/set-map/">レイヤーを追加&lt;/a>します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Map Viewer の下部にタイム スライダーが表示されます。[再生] または [停止] ボタンをクリックするとアニメーションが再生・停止します。[前へ] または [次へ] ボタンをクリックすると、前後のステップに移動することができます。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/time-mv-time-slider.png"
-alt="タイム スライダー" width="750">&lt;figcaption>
-&lt;p>タイム スライダー&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;li>
-&lt;p>タイム スライダー右端の歯車ボタンをクリックし、 [タイム スライダー オプション] で、アニメーションの再生速度や時間間隔などを設定できます。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/time-mv-time-slider-option.png"
-alt="タイム スライダー オプション" width="750">&lt;figcaption>
-&lt;p>タイム スライダー オプション&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;/ol></description></item><item><title>レイヤーをダウンロードしたい</title><link>/online/users-guide/manage-data/download/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/download/</guid><description>
-&lt;p>ArcGIS Online 上で作成・編集したレイヤー (フィーチャ レイヤー) をダウンロード可能なファイル形式にエクスポートし、ダウンロードします。&lt;/p>
-&lt;h3>データのエクスポートとダウンロード&lt;span class="hx:absolute hx:-mt-20" id="データのエクスポートとダウンロード">&lt;/span>
-&lt;a href="#%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%82%a8%e3%82%af%e3%82%b9%e3%83%9d%e3%83%bc%e3%83%88%e3%81%a8%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>
-&lt;p>ダウンロードしたいフィーチャ レイヤーのアイテム詳細ページを開きます。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[∨] ボタンで展開した後、[データのエクスポート] をクリックし、いずれかの形式を選択します。&lt;/p>
-&lt;p>&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/download-export-data.png"
-alt="[データのエクスポート] ボタン" width="250">&lt;figcaption>
-&lt;p>[データのエクスポート] ボタン&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">エクスポート可能なデータ形式については、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/use-hosted-layers.htm#GUID-47A1D795-B330-45D7-89F7-9203A99E6924"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[&amp;lt;エクスポート時のファイル形式&amp;gt; にエクスポート] ダイアログで、[タイトル] と必要に応じて [タグ] と [サマリー] を入力し、[エクスポート] をクリックします。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">直近 10 分以内にレイヤーに何らかの変更が加えられた場合、[このレイヤーは、直近の 10 分以内に編集されました。] ダイアログが表示される場合があります。変更内容を含むすべてのデータをダウンロードしたい場合は、しばらくしてからエクスポートの操作を行ってください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>
-&lt;p>入力したタイトルのアイテムが作成され、アイテム詳細ページに自動的に移動します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[概要] タブの [ダウンロード] をクリックして、ファイルをダウンロードします。&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;h3>エクスポートの許可&lt;span class="hx:absolute hx:-mt-20" id="エクスポートの許可">&lt;/span>
-&lt;a href="#%e3%82%a8%e3%82%af%e3%82%b9%e3%83%9d%e3%83%bc%e3%83%88%e3%81%ae%e8%a8%b1%e5%8f%af" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>デフォルトでは、レイヤーやアイテムの所有者 (作成者) 以外はダウンロード可能なファイル形式にエクスポートできません。他のユーザーがエクスポートするためには、レイヤーの所有者がエクスポートを許可する設定を行います。&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>エクスポートを許可したいレイヤーのアイテム詳細ページを開きます。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[設定] タブ → [Feature Layer (ホスト)] 項目で、[他のユーザーが別の形式にエクスポートすることを許可します] トグルをオンにします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[保存] をクリックします。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/download-allow-others-to-export-data.png"
-alt="エクスポートの許可" width="600">&lt;figcaption>
-&lt;p>エクスポートの許可&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;/ol></description></item><item><title>データをファイルから更新したい</title><link>/online/users-guide/manage-data/file-update/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/file-update/</guid><description>
-&lt;p>ファイルを使用して、既存のデータを更新できます。更新したい内容によって、データの更新方法を選択します。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/file-update-overview.png"
-alt="レイヤー更新の種類" width="600">&lt;figcaption>
-&lt;p>レイヤー更新の種類&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;ol>
-&lt;li>フィーチャ レイヤーのアイテム詳細ページを開きます。&lt;/li>
-&lt;li>画面右側のパネルを [∨ (さらに表示)] をクリックして展開し、[データの更新] をクリックして、[ファイルから更新する] か [フィーチャ レイヤーから更新する] かを選択します。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/file-update-updatedata.png"
-alt="データの更新" width="500">&lt;figcaption>
-&lt;p>データの更新&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;li>更新の方法を選択します。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/file-update-selecttype.png"
-alt="更新の種類を選択" width="600">&lt;figcaption>
-&lt;p>更新の種類を選択&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;/ol>
-&lt;h3>フィーチャ レイヤー全体を上書き&lt;span class="hx:absolute hx:-mt-20" id="フィーチャ-レイヤー全体を上書き">&lt;/span>
-&lt;a href="#%e3%83%95%e3%82%a3%e3%83%bc%e3%83%81%e3%83%a3-%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e5%85%a8%e4%bd%93%e3%82%92%e4%b8%8a%e6%9b%b8%e3%81%8d" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>すべての既存のデータは追加するファイルに置き換わります。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[フィーチャ レイヤー全体を上書き] が利用可能なレイヤーにはさまざまな条件や注意点があります。本機能を利用するための条件や注意点については、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/manage-hosted-feature-layers.htm#ESRI_SECTION1_1D3A87A80E3E4CD2A71744715F1522FE"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;ol start="4">
-&lt;li>[フィーチャ レイヤー全体を上書き] を選択し、[次へ] をクリックします。&lt;/li>
-&lt;li>上書きするファイルを枠内にドラッグ&amp;amp;ドロップするか、[お使いのデバイス] をクリックしてファイルを選択し、[次へ] をクリックします。
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">上書きするファイル名は、ArcGIS Online でレイヤーのソースとなっているファイル名と同じである必要があります。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>[正常に上書きされました] と表示され、データの上書きが完了します。&lt;/li>
-&lt;/ol>
-&lt;h3>レイヤーにデータを追加&lt;span class="hx:absolute hx:-mt-20" id="レイヤーにデータを追加">&lt;/span>
-&lt;a href="#%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%81%ab%e3%83%87%e3%83%bc%e3%82%bf%e3%82%92%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>既存のデータを保持し、差分のデータを追加します。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[フィーチャの追加] が利用可能なレイヤーにはさまざまな条件や注意点があります。本機能を利用するための条件や注意点については、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/manage-hosted-feature-layers.htm#APPEND"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;ol start="4">
-&lt;li>[フィーチャの追加] を選択し、[次へ] をクリックします。&lt;/li>
-&lt;li>追加する差分のレコードを持つファイルを枠内にドラッグ&amp;amp;ドロップするか、[お使いのデバイス] をクリックしてファイルを選択し、[次へ] をクリックします。&lt;/li>
-&lt;li>更新するレイヤーがポイント データの場合は、追加分のデータ内の緯度経度や住所等の位置情報列を指定して、[次へ] をクリックします。&lt;/li>
-&lt;li>[一致するフィールドの選択] で、更新するレイヤーのフィールドに対応するファイル内の列を指定し、[追加して完了] をクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/file-update-match-field1.png"
-alt="[一致するフィールドの選択] ダイアログ" width="700">&lt;figcaption>
-&lt;p>[一致するフィールドの選択] ダイアログ&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;li>[アイテムが正常に更新されました] と表示され、データの追加が完了します。&lt;/li>
-&lt;/ol>
-&lt;h3>データの一部を更新、またはデータの追加と更新&lt;span class="hx:absolute hx:-mt-20" id="データの一部を更新またはデータの追加と更新">&lt;/span>
-&lt;a href="#%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e4%b8%80%e9%83%a8%e3%82%92%e6%9b%b4%e6%96%b0%e3%81%be%e3%81%9f%e3%81%af%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e8%bf%bd%e5%8a%a0%e3%81%a8%e6%9b%b4%e6%96%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>既存のデータの一部を更新します。またはデータの追加と一部の更新を行います。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[フィーチャの更新] または [フィーチャの追加および更新] が利用可能なレイヤーにはさまざまな条件や注意点があります。本機能を利用するための条件や注意点については、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/manage-hosted-feature-layers.htm#APPEND"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;ol start="4">
-&lt;li>
-&lt;p>データの一部を更新する場合は [フィーチャの更新] を、データの追加と一部の更新を行う場合は [フィーチャの追加および更新]を選択し、[次へ] をクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>更新するレコードの一意の ID を持つファイルを枠内にドラッグ&amp;amp;ドロップするか、[お使いのデバイス] をクリックしてファイルを選択し、[次へ] をクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>更新するレイヤーがポイント データの場合は、追加分のデータ内の緯度経度や住所等の位置情報列を指定して、[次へ] をクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[一意識別子の選択] で、更新するレイヤーの一意の値フィールドに対応するファイル内の列を指定し、[次へ] をクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/file-update-unique.png"
-alt="一意の値のフィールドを設定" width="700">&lt;figcaption>
-&lt;p>一意の値のフィールドを設定&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>[元のフィールド] で表示されるオブジェクト ID 等以外のフィールドを、レイヤーの一意の値フィールドとして設定することができます。&lt;/p>
-&lt;ol>
-&lt;li>フィーチャ レイヤーのアイテム詳細ページ → [データ] タブ → [フィールド] のフィールドの一覧で、設定したいフィールド名をクリックします。&lt;/li>
-&lt;li>[個別値] の [編集] アイコンをクリックし、[個別値が必要] を選択して、[保存] をクリックします。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/file-update-field-configure-unique-value.png"
-alt="一意の値のフィールドを設定" width="700">&lt;figcaption>
-&lt;p>一意の値のフィールドを設定&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>
-&lt;p>[一致するフィールドの選択] で、更新するレイヤーのフィールドに対応するファイル内の列を指定し、[次へ] をクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/file-update-match-field1.png"
-alt="[一致するフィールドの選択] ダイアログ" width="700">&lt;figcaption>
-&lt;p>[一致するフィールドの選択] ダイアログ&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>属性のみ更新する場合は [属性のみ] を、ジオメトリ (位置情報) と属性を更新する場合は [ジオメトリおよび属性] を選択し、[更新して完了] をクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/file-update-geometry-attribute.png"
-alt="[既存フィーチャの更新方法] ダイアログ" width="700">&lt;figcaption>
-&lt;p>[既存フィーチャの更新方法] ダイアログ&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[アイテムが正常に更新されました] と表示され、データの追加が完了します。&lt;/p>
-&lt;/li>
-&lt;/ol></description></item><item><title>フィーチャの表示や設定を限定した状態のデータを作成したい</title><link>/online/users-guide/manage-data/viewlayer/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/viewlayer/</guid><description>
-&lt;p>ホスト フィーチャ レイヤー (親レイヤー) の情報は参照したまま、特定のエリアやフィールド、条件に合ったフィーチャのみを表示したり、編集権限を個別に設定し定義したビュー レイヤー (子レイヤー) を作成することができます。&lt;/p>
-&lt;h3>ホスト フィーチャ レイヤー ビューの作成&lt;span class="hx:absolute hx:-mt-20" id="ホスト-フィーチャ-レイヤー-ビューの作成">&lt;/span>
-&lt;a href="#%e3%83%9b%e3%82%b9%e3%83%88-%e3%83%95%e3%82%a3%e3%83%bc%e3%83%81%e3%83%a3-%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc-%e3%83%93%e3%83%a5%e3%83%bc%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>
-&lt;p>ビューを作成したいホスト フィーチャ レイヤーのアイテム詳細ページを開きます。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[概要] タブの [ビュー レイヤーを作成] → [ビュー レイヤー] をクリックします。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/viewlayer-create-view-layer.png"
-alt="[ビュー レイヤーの作成] ボタン" width="350">&lt;figcaption>
-&lt;p>[ビュー レイヤーの作成] ボタン&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;li>
-&lt;p>[ビュー レイヤーを作成] ウィザードが表示されます。はじめに、[レイヤー] でビューに含めるレイヤーを選択し、[次へ] をクリックします。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/viewlayer-select-layers.png"
-alt="ビューに含めるレイヤーを選択" width="700">&lt;figcaption>
-&lt;p>ビューに含めるレイヤーを選択&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;li>
-&lt;p>[含まれるレイヤー] でレイヤー名をクリックし、[レイヤー定義] で下記のオプションを使用してビュー内の各レイヤーに含めるフィーチャを定義します。&lt;/p>
-&lt;ul>
-&lt;li>フィルターの追加&lt;br>
-レイヤー内の 1 つ以上のフィールドにフィルター式を定義することで、コンテンツをフィルター処理できます。[式の追加] をクリックし、ドロップダウン リストを使用して式を構築します。&lt;/li>
-&lt;li>対象地域&lt;br>
-レイヤーの空間範囲を定義し、その範囲内にあるフィーチャのみがビューに含まれます。[ポリゴン] または [四角形] 描画ツールを使用して、マップ上にエリアを描画します。&lt;br>ビュー内のすべてのレイヤーに対して同じ対象地域を適用する場合は、[すべてのレイヤーに適用] をクリックします。&lt;/li>
-&lt;li>フィールド&lt;br>
-表示する必要のないフィールドをビューから除外することができます。[フィールドの選択] をクリックし、フィールド名をクリックしてビューから削除または追加し、[完了] をクリックします。&lt;/li>
-&lt;/ul>
-&lt;p>レイヤーの定義が完了したら、[レイヤー定義] 横の矢印をクリックし、レイヤー リストに戻ります。複数のレイヤーをビューに含める場合は、上記の手順を繰り返し、[次へ] をクリックします。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/viewlayer-layer-definitions.png"
-alt="各レイヤーに含めるフィーチャを定義" width="700">&lt;figcaption>
-&lt;p>各レイヤーに含めるフィーチャを定義&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;li>
-&lt;p>[作成] でホスト フィーチャ レイヤー ビューのタイトルなどを入力します。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[タイトル] は半角英数字またはアンダースコア (_) で入力することを推奨します。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;li>
-&lt;p>[作成] をクリックします。作成が完了すると、ビュー レイヤーのアイテム詳細ページに自動的に移動します。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/viewlayer-item-options.png"
-alt="ビュー レイヤーの作成" width="700">&lt;figcaption>
-&lt;p>ビュー レイヤーの作成&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>ビュー レイヤーが作成されると、[コンテンツ] ページやアイテム詳細ページでは「Feature Layer (ホスト、ビュー)」と表示されます。&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>ビュー レイヤーを作成した後にビューの定義を変更する場合は、ビュー レイヤーのアイテム詳細ページの [設定] タブ → [Feature Layer (ホスト、ビュー)] の [ビューの更新] ボタンをクリックして、手順 3. と 4. を実施して [更新] をクリックします。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/viewlayer-update-view-layer.png"
-alt="ビューの更新" width="600">&lt;figcaption>
-&lt;p>ビューの更新&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ビュー レイヤーは、作成元のホスト フィーチャ レイヤー (親レイヤー) の一部の設定を継承して作成されます。フィーチャ レイヤーで設定できる項目のうち、&lt;a href="/online/users-guide/manage-data/privilege/#%e7%b7%a8%e9%9b%86%e3%81%ae%e6%9c%89%e5%8a%b9%e5%8c%96">編集の有効化&lt;/a>や&lt;a href="/online/users-guide/manage-data/download/#%e3%82%a8%e3%82%af%e3%82%b9%e3%83%9d%e3%83%bc%e3%83%88%e3%81%ae%e8%a8%b1%e5%8f%af">データのエクスポート許可&lt;/a>、&lt;a href="/online/users-guide/manage-data/time/">時間設定&lt;/a>などはビュー レイヤーで個別に設定することができます。&lt;br>
-詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/create-hosted-views.htm#ESRI_SECTION1_3C30E0A91C0B44AD9FC4B60FE3A7F97C"target="_blank" rel="noopener">ヘルプ&lt;/a>をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div></description></item><item><title>アイテムを削除、復元したい</title><link>/online/users-guide/manage-data/delete/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/delete/</guid><description>
-&lt;p>コンテンツ上で不要になり、使用していないアイテムは&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/delete-items.htm" target="_blank">削除&lt;/a>することができます。
-ただし削除後 14 日間はゴミ箱から&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/restore-items.htm" target="_blank">復元&lt;/a>することができます。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ゴミ箱を利用するには、組織の管理者が&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/configure-details.htm#ESRI_SECTION1_91D3B03954B54E97B68DEA91854AD2F8" target="_blank">ゴミ箱機能を有効化&lt;/a>する必要があります。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h3>アイテムの削除&lt;span class="hx:absolute hx:-mt-20" id="アイテムの削除">&lt;/span>
-&lt;a href="#%e3%82%a2%e3%82%a4%e3%83%86%e3%83%a0%e3%81%ae%e5%89%8a%e9%99%a4" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>
-&lt;p>アイテムの所有者として組織にサインインします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[コンテンツ] ページから [マイ コンテンツ] タブを選択します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>削除したいアイテムのチェックボックスをオンにし、[削除] をクリックします。
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/delete-item-delete.png"
-alt="[削除] をクリック" width="800">&lt;figcaption>
-&lt;p>[削除] をクリック&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[削除] ウィンドウで、アイテムを削除しても問題ないかを確認し、[削除] をクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>削除したアイテムは [ゴミ箱] に移動します。または完全に削除されます。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>ゴミ箱に移動したアイテムは 14 日後に自動的に削除されます。この期間もストレージ保存におけるクレジットを消費します。詳細については&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/credits.htm#ESRI_SECTION1_4E74456E44D84BFDB5A590BA86FB3B76" target="_blank">ヘルプ&lt;/a>をご参照ください。
-&lt;br>なお [表示を増やす ＋] ボタンから [完全に削除 (この操作を取り消すことはできません)] を選択することもできます。&lt;/p>
-&lt;!-- UI が [表示を増やす ＋] から [さらに表示] へ修正されたら書き換え-->&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">一部のアイテムはゴミ箱に移動することなく削除されます。
-&lt;br>詳細については「&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/faq.htm#ESRI_QUESTIONANSWER_60A4B4E5F0994E8DB4A999818B19ED1D" target="_blank">削除したアイテムがすべてゴミ箱に移動しないのはなぜですか？&lt;/a>」をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;/ol>
-&lt;h3>アイテムの復元&lt;span class="hx:absolute hx:-mt-20" id="アイテムの復元">&lt;/span>
-&lt;a href="#%e3%82%a2%e3%82%a4%e3%83%86%e3%83%a0%e3%81%ae%e5%be%a9%e5%85%83" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>
-&lt;p>アイテムの所有者として組織にサイン インします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[コンテンツ] ページから [マイ コンテンツ] タブをクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[フォルダー] 内の [ゴミ箱] をクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>ゴミ箱の中から復元したいアイテムを選択し、[復元] をクリックします。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/delete-item-restore.png"
-alt="[復元] をクリック" width="900">&lt;figcaption>
-&lt;p>[復元] をクリック&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;li>
-&lt;p>[アイテムの復元] で復元先のフォルダーを確認、設定し、[復元] をクリックします。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/delete-item-restore-confirm.png"
-alt="[アイテムの復元] ウィンドウ" width="500">&lt;figcaption>
-&lt;p>[アイテムの復元] ウィンドウ&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/li>
-&lt;li>
-&lt;p>アイテムは復元先に指定したフォルダーへ格納されます。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">復元する場合は以下の点などに注意してください。
-&lt;br>・ 削除前に設定されていたアイテムの共有設定やカテゴリは保存されません。復元後、再度設定を行う必要があります。
-&lt;br>・ Web マップにオフライン マップ エリアが定義されていた場合、オフライン マップ エリアはゴミ箱内では保持されません。復元後、再定義する必要があります。
-&lt;br>詳細については&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/restore-items.htm#ESRI_SECTION1_1DC1E3AC83004E07B825F5A335107ED9" target="_blank">ヘルプ&lt;/a>をご参照ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/li>
-&lt;/ol></description></item></channel></rss>
+&lt;p&gt;ホスト フィーチャ レイヤーのフィールドを追加・削除します。&lt;/p&gt;
+&lt;h3&gt;フィールドの追加&lt;span class="hx:absolute hx:-mt-20" id="フィールドの追加"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%95%e3%82%a3%e3%83%bc%e3%83%ab%e3%83%89%e3%81%ae%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;フィーチャ レイヤーのアイテム詳細ページの [データ] タブ → [フィールド] → [＋フィールドの追加] をクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/field-create.png"
+alt="[フィールド] → [＋フィールドの追加] をクリック" width="700"&gt;&lt;figcaption&gt;
+&lt;p&gt;[フィールド] → [＋フィールドの追加] をクリック&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;格納したいデータの種類によって、適する [タイプ] を選択します。タイプの詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/add-or-delete-fields.htm#GUID-BE260302-CEA6-4A3A-8933-60911375943A"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[フィールド名]、[表示名] を入力します。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;[フィールド名] にはアンダースコア (_) 以外の特殊文字 (&amp;amp;、( )、スペースなど) や、&lt;a href="https://docs.microsoft.com/ja-jp/previous-versions/sql/sql-server-2014/ms189822%28v=sql.120%29"target="_blank" rel="noopener"&gt;予約語&lt;/a&gt; (「type」や「user」) を使用できません。また、フィールド名の最初の文字に数字を使用することはできません。これらの文字を表示上使用したい場合は、[表示名] でご利用ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[フィールドの追加] をクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/field-add.png"
+alt="[フィールドの追加]をクリック" width="600"&gt;&lt;figcaption&gt;
+&lt;p&gt;[フィールドの追加]をクリック&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;フィールドの削除&lt;span class="hx:absolute hx:-mt-20" id="フィールドの削除"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%95%e3%82%a3%e3%83%bc%e3%83%ab%e3%83%89%e3%81%ae%e5%89%8a%e9%99%a4" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;フィーチャ レイヤーのアイテム詳細ページの [データ] タブの [フィールド] をクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/field-field.png"
+alt="[フィールド] をクリック" width="700"&gt;&lt;figcaption&gt;
+&lt;p&gt;[フィールド] をクリック&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;削除したいフィールド名横のチェックボックスをオンにし、[削除] をクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/field-select.png"
+alt="フィールドの選択と削除" width="750"&gt;&lt;figcaption&gt;
+&lt;p&gt;フィールドの選択と削除&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;FID や OBJECTID などのフィールドは削除できません。また、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/apply-styles-mv.htm"target="_blank" rel="noopener"&gt;スタイル設定&lt;/a&gt;、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/apply-filters-mv.htm"target="_blank" rel="noopener"&gt;フィルター&lt;/a&gt;、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/configure-labels-mv.htm"target="_blank" rel="noopener"&gt;ラベル&lt;/a&gt;、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/configure-feature-search.htm"target="_blank" rel="noopener"&gt;フィーチャ検索&lt;/a&gt;、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/create-maps/configure-time-mv.htm"target="_blank" rel="noopener"&gt;タイム スライダー&lt;/a&gt;や編集情報の記録に使用されているフィールドは削除できません。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>入力時の選択リストを作成したい</title><link>/online/users-guide/manage-data/list/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/list/</guid><description>
+&lt;p&gt;データの編集時や現地調査アプリでは、ドメインと呼ばれるあらかじめ決まった選択ルールを作成しておくと、キーボード入力の手間を省くことができます。ホスト フィーチャ レイヤーにのみ設定が可能です。&lt;/p&gt;
+&lt;h3&gt;ドメインの作成&lt;span class="hx:absolute hx:-mt-20" id="ドメインの作成"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%89%e3%83%a1%e3%82%a4%e3%83%b3%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;フィーチャ レイヤーのアイテム詳細ページの [データ] タブ → [フィールド] をクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/field-field.png"
+alt="[フィールド] をクリック" width="750"&gt;&lt;figcaption&gt;
+&lt;p&gt;[フィールド] をクリック&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ドメインを作成したいフィールドの [表示名] をクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/list-field.png"
+alt="[表示名] をクリック" width="350"&gt;&lt;figcaption&gt;
+&lt;p&gt;[表示名] をクリック&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[ドメイン] の項目から [開始] をクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/list-create-list.png"
+alt="リストの作成の開始" width="600"&gt;&lt;figcaption&gt;
+&lt;p&gt;リストの作成の開始&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[値の入力] を選択し、 [次へ] をクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/list-select-method.png"
+alt="[値の入力] を選択" width="600"&gt;&lt;figcaption&gt;
+&lt;p&gt;[値の入力] を選択&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;レイヤー内にフィーチャが既に存在し、属性値に個別値が含まれている場合、[値の検索] を選択すると個別値がドメインに自動で追加されます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;フィールドのタイプが数値や日時の場合は、許容される値の範囲をドメインとして設定することもできます。詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/define-attribute-lists-and-ranges.htm"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[ラベル] と [コード] を入力し、入力値リストを作成します。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/list-save-list.png"
+alt="リストの保存" width="600"&gt;&lt;figcaption&gt;
+&lt;p&gt;リストの保存&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;必要に応じて [･･･] をクリックし、ドメインの追加や削除を行うことでリストを調整します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[保存] をクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>データの編集に関する設定を変更したい</title><link>/online/users-guide/manage-data/privilege/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/privilege/</guid><description>
+&lt;p&gt;データの編集に関するさまざまな設定を変更できます。&lt;/p&gt;
+&lt;h3&gt;編集の有効化&lt;span class="hx:absolute hx:-mt-20" id="編集の有効化"&gt;&lt;/span&gt;
+&lt;a href="#%e7%b7%a8%e9%9b%86%e3%81%ae%e6%9c%89%e5%8a%b9%e5%8c%96" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;データを編集できるようにします。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;フィーチャ レイヤーのアイテム詳細ページの [設定] タブ → [編集の有効化] トグルをオンにします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[どのような種類の編集が許可されていますか？] で許可する編集の権限を選択します。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/privilege-edit.png"
+alt="編集の有効化と許可する編集の権限を選択" width="500"&gt;&lt;figcaption&gt;
+&lt;p&gt;編集の有効化と許可する編集の権限を選択&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[保存] をクリックします。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;既に保存済みの Web マップにレイヤーを追加している場合、レイヤーの編集が不可の状態を保持しています。Web マップで編集ができない場合は、上記の設定後にレイヤーを追加し直し、再度保存してください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;オフラインで利用する&lt;span class="hx:absolute hx:-mt-20" id="オフラインで利用する"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%aa%e3%83%95%e3%83%a9%e3%82%a4%e3%83%b3%e3%81%a7%e5%88%a9%e7%94%a8%e3%81%99%e3%82%8b" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;現地調査アプリでオフライン利用ができるようにします。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;フィーチャ レイヤーのアイテム詳細ページの [設定] タブ → [同期の有効化] トグルをオンにします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/privilege-sync.png"
+alt="[同期の有効化] トグルをオン" width="500"&gt;&lt;figcaption&gt;
+&lt;p&gt;[同期の有効化] トグルをオン&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;[保存] をクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;編集者、編集日時の自動記録&lt;span class="hx:absolute hx:-mt-20" id="編集者編集日時の自動記録"&gt;&lt;/span&gt;
+&lt;a href="#%e7%b7%a8%e9%9b%86%e8%80%85%e7%b7%a8%e9%9b%86%e6%97%a5%e6%99%82%e3%81%ae%e8%87%aa%e5%8b%95%e8%a8%98%e9%8c%b2" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;フィーチャごとに、作成者、作成日時、更新者、更新日時が自動記録されるフィールドを作成し、アプリ上で表示できるようにします。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;フィーチャ レイヤーのアイテム詳細ページの [設定] タブ → [データを編集したユーザー (編集者名、編集日時) を記録します。] トグルをオンにします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/privilege-edit-track.png"
+alt="[データを編集したユーザー (編集者名、編集日時) を記録します。] トグルをオン" width="500"&gt;&lt;figcaption&gt;
+&lt;p&gt;[データを編集したユーザー (編集者名、編集日時) を記録します。] トグルをオン&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;[保存] をクリックします。&lt;/li&gt;
+&lt;li&gt;フィーチャ レイヤーに [CreationDate]、[Creator]、[EditDate]、[Editor] の列が自動で追加され、それぞれフィーチャの作成日時と作成者、更新日時と更新者が自動記録されます。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/privilege-track-field.png"
+alt="編集者、編集日時の自動記録のフィールド" width="700"&gt;&lt;figcaption&gt;
+&lt;p&gt;編集者、編集日時の自動記録のフィールド&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;フィーチャの閲覧・編集権限の制御&lt;span class="hx:absolute hx:-mt-20" id="フィーチャの閲覧編集権限の制御"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%95%e3%82%a3%e3%83%bc%e3%83%81%e3%83%a3%e3%81%ae%e9%96%b2%e8%a6%a7%e7%b7%a8%e9%9b%86%e6%a8%a9%e9%99%90%e3%81%ae%e5%88%b6%e5%be%a1" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;フィーチャの閲覧・編集権限を細かく制御します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;フィーチャ レイヤーのアイテム詳細ページの [設定] タブ → [データを編集したユーザー (編集者名、編集日時) を記録します。] トグルをオンにします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;必要に応じて [どのフィーチャを編集者は閲覧できますか？]、[どのフィーチャを編集者は編集できますか？]、[匿名の (サイン インしていない) 編集者はどのようなアクセスが可能ですか？] の設定を更新します。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/privilege-details.png"
+alt="編集設定の詳細" width="600"&gt;&lt;figcaption&gt;
+&lt;p&gt;編集設定の詳細&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;詳細な設定につきましては、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/manage-hosted-feature-layers.htm#ESRI_SECTION1_030A9819DFF7498E9DFCDE6030E5FFBA"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt;をご参照下さい。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>写真やファイルをフィーチャに添付したい</title><link>/online/users-guide/manage-data/attachment/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/attachment/</guid><description>
+&lt;p&gt;フィーチャ レイヤーの各フィーチャに画像などファイルを添付したり、モバイル端末のカメラで撮影した画像を現地調査アプリで添付したりすることができます。この機能を使用するには、レイヤーの設定が必要です。&lt;/p&gt;
+&lt;h3&gt;添付ファイルの有効化&lt;span class="hx:absolute hx:-mt-20" id="添付ファイルの有効化"&gt;&lt;/span&gt;
+&lt;a href="#%e6%b7%bb%e4%bb%98%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e6%9c%89%e5%8a%b9%e5%8c%96" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;フィーチャ レイヤーのアイテム詳細ページを開きます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[概要] タブに表示されている、[レイヤー] 項目内で添付ファイルを有効にしたいレイヤーをクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/attachment-layer.png"
+alt="レイヤーの詳細をクリック" width="300"&gt;&lt;figcaption&gt;
+&lt;p&gt;レイヤーの詳細をクリック&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[添付ファイルの有効化] トグルをオンにします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/attachment-enable.png"
+alt="[添付ファイルの有効化] トグルをオン" width="300"&gt;&lt;figcaption&gt;
+&lt;p&gt;[添付ファイルの有効化] トグルをオン&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Map Viewer でファイルの添付&lt;span class="hx:absolute hx:-mt-20" id="map-viewer-でファイルの添付"&gt;&lt;/span&gt;
+&lt;a href="#map-viewer-%e3%81%a7%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e6%b7%bb%e4%bb%98" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;ファイルを添付するには、レイヤーに対して&lt;a href="/online/users-guide/manage-data/privilege/"&gt;編集が有効化&lt;/a&gt;されている必要があります。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="/online/users-guide/map/set-map/#%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%81%ae%e8%bf%bd%e5%8a%a0"&gt;Map Viewer にレイヤーを追加&lt;/a&gt;します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;右側のツール メニューから [編集] をクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/attachment-edit.png"
+alt="編集ボタン" width="150"&gt;&lt;figcaption&gt;
+&lt;p&gt;編集ボタン&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;新しい&lt;a href="/online/users-guide/map/edit/#%e3%83%95%e3%82%a3%e3%83%bc%e3%83%81%e3%83%a3%e3%81%ae%e8%bf%bd%e5%8a%a0"&gt;フィーチャを作成&lt;/a&gt;、または既存の&lt;a href="/online/users-guide/map/edit/#%e3%83%95%e3%82%a3%e3%83%bc%e3%83%81%e3%83%a3%e3%81%ae%e7%b7%a8%e9%9b%86"&gt;フィーチャを編集&lt;/a&gt;します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[添付ファイル] で [追加] をクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/attachment-add.png"
+alt="添付ファイルの追加" width="700"&gt;&lt;figcaption&gt;
+&lt;p&gt;添付ファイルの追加&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[ファイルの選択] で添付したいファイルを選択し、[追加] をクリックして、[作成] または [更新] をクリックします。
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;・添付可能なファイルのサイズは、 1 ファイルにつき 10 MB の制限があります。&lt;br&gt;
+・添付可能なファイルの形式については&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/work-with-tables.htm#ESRI_SECTION2_3C99CF74A5C74A0AA0AD4A619F4457D7"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>データを時系列で見たい</title><link>/online/users-guide/manage-data/time/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/time/</guid><description>
+&lt;p&gt;データの属性に含まれる時系列情報を使用して、ArcGIS Online の Map Viewer 上で時系列のアニメーションでデータを表示することができます。&lt;br&gt;
+使用するデータはあらかじめ「&lt;a href="/online/users-guide/create-data/feature/"&gt;フィーチャ レイヤーを公開したい&lt;/a&gt;」を参考に作成してください。&lt;/p&gt;
+&lt;h3&gt;時間の有効化&lt;span class="hx:absolute hx:-mt-20" id="時間の有効化"&gt;&lt;/span&gt;
+&lt;a href="#%e6%99%82%e9%96%93%e3%81%ae%e6%9c%89%e5%8a%b9%e5%8c%96" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;フィーチャ レイヤーのアイテム詳細ページを開き、[概要] タブの [レイヤー] 項目で時間を有効化したいレイヤーをクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;右下の [時間設定] の [編集] をクリックします。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/time-configure.png"
+alt="[時間設定] の [編集] をクリック" width="700"&gt;&lt;figcaption&gt;
+&lt;p&gt;[時間設定] の [編集] をクリック&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[時間設定] ダイアログで、[時間の有効化] チェックボックスをオンにします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[時間フィールド] または [開始時間フィールド] と [終了時間フィールド] に Date 型のフィールドを指定します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[OK] をクリックします。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/time-configure-dialog.png"
+alt="[時間設定] ダイアログ" width="500"&gt;&lt;figcaption&gt;
+&lt;p&gt;[時間設定] ダイアログ&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;タイム スライダーの利用&lt;span class="hx:absolute hx:-mt-20" id="タイム-スライダーの利用"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%bf%e3%82%a4%e3%83%a0-%e3%82%b9%e3%83%a9%e3%82%a4%e3%83%80%e3%83%bc%e3%81%ae%e5%88%a9%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Map Viewer に時間の有効化を行った&lt;a href="/online/users-guide/map/set-map/"&gt;レイヤーを追加&lt;/a&gt;します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Map Viewer の下部にタイム スライダーが表示されます。[再生] または [停止] ボタンをクリックするとアニメーションが再生・停止します。[前へ] または [次へ] ボタンをクリックすると、前後のステップに移動することができます。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/time-mv-time-slider.png"
+alt="タイム スライダー" width="750"&gt;&lt;figcaption&gt;
+&lt;p&gt;タイム スライダー&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;タイム スライダー右端の歯車ボタンをクリックし、 [タイム スライダー オプション] で、アニメーションの再生速度や時間間隔などを設定できます。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/time-mv-time-slider-option.png"
+alt="タイム スライダー オプション" width="750"&gt;&lt;figcaption&gt;
+&lt;p&gt;タイム スライダー オプション&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>レイヤーをダウンロードしたい</title><link>/online/users-guide/manage-data/download/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/download/</guid><description>
+&lt;p&gt;ArcGIS Online 上で作成・編集したレイヤー (フィーチャ レイヤー) をダウンロード可能なファイル形式にエクスポートし、ダウンロードします。&lt;/p&gt;
+&lt;h3&gt;データのエクスポートとダウンロード&lt;span class="hx:absolute hx:-mt-20" id="データのエクスポートとダウンロード"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%82%a8%e3%82%af%e3%82%b9%e3%83%9d%e3%83%bc%e3%83%88%e3%81%a8%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;ダウンロードしたいフィーチャ レイヤーのアイテム詳細ページを開きます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[∨] ボタンで展開した後、[データのエクスポート] をクリックし、いずれかの形式を選択します。&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/download-export-data.png"
+alt="[データのエクスポート] ボタン" width="250"&gt;&lt;figcaption&gt;
+&lt;p&gt;[データのエクスポート] ボタン&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;エクスポート可能なデータ形式については、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/use-hosted-layers.htm#GUID-47A1D795-B330-45D7-89F7-9203A99E6924"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[&amp;lt;エクスポート時のファイル形式&amp;gt; にエクスポート] ダイアログで、[タイトル] と必要に応じて [タグ] と [サマリー] を入力し、[エクスポート] をクリックします。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;直近 10 分以内にレイヤーに何らかの変更が加えられた場合、[このレイヤーは、直近の 10 分以内に編集されました。] ダイアログが表示される場合があります。変更内容を含むすべてのデータをダウンロードしたい場合は、しばらくしてからエクスポートの操作を行ってください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;入力したタイトルのアイテムが作成され、アイテム詳細ページに自動的に移動します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[概要] タブの [ダウンロード] をクリックして、ファイルをダウンロードします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;エクスポートの許可&lt;span class="hx:absolute hx:-mt-20" id="エクスポートの許可"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%a8%e3%82%af%e3%82%b9%e3%83%9d%e3%83%bc%e3%83%88%e3%81%ae%e8%a8%b1%e5%8f%af" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;デフォルトでは、レイヤーやアイテムの所有者 (作成者) 以外はダウンロード可能なファイル形式にエクスポートできません。他のユーザーがエクスポートするためには、レイヤーの所有者がエクスポートを許可する設定を行います。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;エクスポートを許可したいレイヤーのアイテム詳細ページを開きます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[設定] タブ → [Feature Layer (ホスト)] 項目で、[他のユーザーが別の形式にエクスポートすることを許可します] トグルをオンにします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[保存] をクリックします。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/download-allow-others-to-export-data.png"
+alt="エクスポートの許可" width="600"&gt;&lt;figcaption&gt;
+&lt;p&gt;エクスポートの許可&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>データをファイルから更新したい</title><link>/online/users-guide/manage-data/file-update/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/file-update/</guid><description>
+&lt;p&gt;ファイルを使用して、既存のデータを更新できます。更新したい内容によって、データの更新方法を選択します。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/file-update-overview.png"
+alt="レイヤー更新の種類" width="600"&gt;&lt;figcaption&gt;
+&lt;p&gt;レイヤー更新の種類&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;フィーチャ レイヤーのアイテム詳細ページを開きます。&lt;/li&gt;
+&lt;li&gt;画面右側のパネルを [∨ (さらに表示)] をクリックして展開し、[データの更新] をクリックして、[ファイルから更新する] か [フィーチャ レイヤーから更新する] かを選択します。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/file-update-updatedata.png"
+alt="データの更新" width="500"&gt;&lt;figcaption&gt;
+&lt;p&gt;データの更新&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;更新の方法を選択します。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/file-update-selecttype.png"
+alt="更新の種類を選択" width="600"&gt;&lt;figcaption&gt;
+&lt;p&gt;更新の種類を選択&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;フィーチャ レイヤー全体を上書き&lt;span class="hx:absolute hx:-mt-20" id="フィーチャ-レイヤー全体を上書き"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%95%e3%82%a3%e3%83%bc%e3%83%81%e3%83%a3-%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e5%85%a8%e4%bd%93%e3%82%92%e4%b8%8a%e6%9b%b8%e3%81%8d" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;すべての既存のデータは追加するファイルに置き換わります。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;[フィーチャ レイヤー全体を上書き] が利用可能なレイヤーにはさまざまな条件や注意点があります。本機能を利用するための条件や注意点については、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/manage-hosted-feature-layers.htm#ESRI_SECTION1_1D3A87A80E3E4CD2A71744715F1522FE"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol start="4"&gt;
+&lt;li&gt;[フィーチャ レイヤー全体を上書き] を選択し、[次へ] をクリックします。&lt;/li&gt;
+&lt;li&gt;上書きするファイルを枠内にドラッグ&amp;amp;ドロップするか、[お使いのデバイス] をクリックしてファイルを選択し、[次へ] をクリックします。
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;上書きするファイル名は、ArcGIS Online でレイヤーのソースとなっているファイル名と同じである必要があります。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;[正常に上書きされました] と表示され、データの上書きが完了します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;レイヤーにデータを追加&lt;span class="hx:absolute hx:-mt-20" id="レイヤーにデータを追加"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%81%ab%e3%83%87%e3%83%bc%e3%82%bf%e3%82%92%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;既存のデータを保持し、差分のデータを追加します。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;[フィーチャの追加] が利用可能なレイヤーにはさまざまな条件や注意点があります。本機能を利用するための条件や注意点については、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/manage-hosted-feature-layers.htm#APPEND"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol start="4"&gt;
+&lt;li&gt;[フィーチャの追加] を選択し、[次へ] をクリックします。&lt;/li&gt;
+&lt;li&gt;追加する差分のレコードを持つファイルを枠内にドラッグ&amp;amp;ドロップするか、[お使いのデバイス] をクリックしてファイルを選択し、[次へ] をクリックします。&lt;/li&gt;
+&lt;li&gt;更新するレイヤーがポイント データの場合は、追加分のデータ内の緯度経度や住所等の位置情報列を指定して、[次へ] をクリックします。&lt;/li&gt;
+&lt;li&gt;[一致するフィールドの選択] で、更新するレイヤーのフィールドに対応するファイル内の列を指定し、[追加して完了] をクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/file-update-match-field1.png"
+alt="[一致するフィールドの選択] ダイアログ" width="700"&gt;&lt;figcaption&gt;
+&lt;p&gt;[一致するフィールドの選択] ダイアログ&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;[アイテムが正常に更新されました] と表示され、データの追加が完了します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;データの一部を更新、またはデータの追加と更新&lt;span class="hx:absolute hx:-mt-20" id="データの一部を更新またはデータの追加と更新"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e4%b8%80%e9%83%a8%e3%82%92%e6%9b%b4%e6%96%b0%e3%81%be%e3%81%9f%e3%81%af%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e8%bf%bd%e5%8a%a0%e3%81%a8%e6%9b%b4%e6%96%b0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;既存のデータの一部を更新します。またはデータの追加と一部の更新を行います。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;[フィーチャの更新] または [フィーチャの追加および更新] が利用可能なレイヤーにはさまざまな条件や注意点があります。本機能を利用するための条件や注意点については、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/manage-hosted-feature-layers.htm#APPEND"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol start="4"&gt;
+&lt;li&gt;
+&lt;p&gt;データの一部を更新する場合は [フィーチャの更新] を、データの追加と一部の更新を行う場合は [フィーチャの追加および更新]を選択し、[次へ] をクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;更新するレコードの一意の ID を持つファイルを枠内にドラッグ&amp;amp;ドロップするか、[お使いのデバイス] をクリックしてファイルを選択し、[次へ] をクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;更新するレイヤーがポイント データの場合は、追加分のデータ内の緯度経度や住所等の位置情報列を指定して、[次へ] をクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[一意識別子の選択] で、更新するレイヤーの一意の値フィールドに対応するファイル内の列を指定し、[次へ] をクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/file-update-unique.png"
+alt="一意の値のフィールドを設定" width="700"&gt;&lt;figcaption&gt;
+&lt;p&gt;一意の値のフィールドを設定&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;[元のフィールド] で表示されるオブジェクト ID 等以外のフィールドを、レイヤーの一意の値フィールドとして設定することができます。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;フィーチャ レイヤーのアイテム詳細ページ → [データ] タブ → [フィールド] のフィールドの一覧で、設定したいフィールド名をクリックします。&lt;/li&gt;
+&lt;li&gt;[個別値] の [編集] アイコンをクリックし、[個別値が必要] を選択して、[保存] をクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/file-update-field-configure-unique-value.png"
+alt="一意の値のフィールドを設定" width="700"&gt;&lt;figcaption&gt;
+&lt;p&gt;一意の値のフィールドを設定&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[一致するフィールドの選択] で、更新するレイヤーのフィールドに対応するファイル内の列を指定し、[次へ] をクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/file-update-match-field1.png"
+alt="[一致するフィールドの選択] ダイアログ" width="700"&gt;&lt;figcaption&gt;
+&lt;p&gt;[一致するフィールドの選択] ダイアログ&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;属性のみ更新する場合は [属性のみ] を、ジオメトリ (位置情報) と属性を更新する場合は [ジオメトリおよび属性] を選択し、[更新して完了] をクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/file-update-geometry-attribute.png"
+alt="[既存フィーチャの更新方法] ダイアログ" width="700"&gt;&lt;figcaption&gt;
+&lt;p&gt;[既存フィーチャの更新方法] ダイアログ&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[アイテムが正常に更新されました] と表示され、データの追加が完了します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>フィーチャの表示や設定を限定した状態のデータを作成したい</title><link>/online/users-guide/manage-data/viewlayer/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/viewlayer/</guid><description>
+&lt;p&gt;ホスト フィーチャ レイヤー (親レイヤー) の情報は参照したまま、特定のエリアやフィールド、条件に合ったフィーチャのみを表示したり、編集権限を個別に設定し定義したビュー レイヤー (子レイヤー) を作成することができます。&lt;/p&gt;
+&lt;h3&gt;ホスト フィーチャ レイヤー ビューの作成&lt;span class="hx:absolute hx:-mt-20" id="ホスト-フィーチャ-レイヤー-ビューの作成"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%9b%e3%82%b9%e3%83%88-%e3%83%95%e3%82%a3%e3%83%bc%e3%83%81%e3%83%a3-%e3%83%ac%e3%82%a4%e3%83%a4%e3%83%bc-%e3%83%93%e3%83%a5%e3%83%bc%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;ビューを作成したいホスト フィーチャ レイヤーのアイテム詳細ページを開きます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[概要] タブの [ビュー レイヤーを作成] → [ビュー レイヤー] をクリックします。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/viewlayer-create-view-layer.png"
+alt="[ビュー レイヤーの作成] ボタン" width="350"&gt;&lt;figcaption&gt;
+&lt;p&gt;[ビュー レイヤーの作成] ボタン&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[ビュー レイヤーを作成] ウィザードが表示されます。はじめに、[レイヤー] でビューに含めるレイヤーを選択し、[次へ] をクリックします。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/viewlayer-select-layers.png"
+alt="ビューに含めるレイヤーを選択" width="700"&gt;&lt;figcaption&gt;
+&lt;p&gt;ビューに含めるレイヤーを選択&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[含まれるレイヤー] でレイヤー名をクリックし、[レイヤー定義] で下記のオプションを使用してビュー内の各レイヤーに含めるフィーチャを定義します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;フィルターの追加&lt;br&gt;
+レイヤー内の 1 つ以上のフィールドにフィルター式を定義することで、コンテンツをフィルター処理できます。[式の追加] をクリックし、ドロップダウン リストを使用して式を構築します。&lt;/li&gt;
+&lt;li&gt;対象地域&lt;br&gt;
+レイヤーの空間範囲を定義し、その範囲内にあるフィーチャのみがビューに含まれます。[ポリゴン] または [四角形] 描画ツールを使用して、マップ上にエリアを描画します。&lt;br&gt;ビュー内のすべてのレイヤーに対して同じ対象地域を適用する場合は、[すべてのレイヤーに適用] をクリックします。&lt;/li&gt;
+&lt;li&gt;フィールド&lt;br&gt;
+表示する必要のないフィールドをビューから除外することができます。[フィールドの選択] をクリックし、フィールド名をクリックしてビューから削除または追加し、[完了] をクリックします。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;レイヤーの定義が完了したら、[レイヤー定義] 横の矢印をクリックし、レイヤー リストに戻ります。複数のレイヤーをビューに含める場合は、上記の手順を繰り返し、[次へ] をクリックします。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/viewlayer-layer-definitions.png"
+alt="各レイヤーに含めるフィーチャを定義" width="700"&gt;&lt;figcaption&gt;
+&lt;p&gt;各レイヤーに含めるフィーチャを定義&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[作成] でホスト フィーチャ レイヤー ビューのタイトルなどを入力します。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;[タイトル] は半角英数字またはアンダースコア (_) で入力することを推奨します。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[作成] をクリックします。作成が完了すると、ビュー レイヤーのアイテム詳細ページに自動的に移動します。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/viewlayer-item-options.png"
+alt="ビュー レイヤーの作成" width="700"&gt;&lt;figcaption&gt;
+&lt;p&gt;ビュー レイヤーの作成&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;ビュー レイヤーが作成されると、[コンテンツ] ページやアイテム詳細ページでは「Feature Layer (ホスト、ビュー)」と表示されます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;ビュー レイヤーを作成した後にビューの定義を変更する場合は、ビュー レイヤーのアイテム詳細ページの [設定] タブ → [Feature Layer (ホスト、ビュー)] の [ビューの更新] ボタンをクリックして、手順 3. と 4. を実施して [更新] をクリックします。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/viewlayer-update-view-layer.png"
+alt="ビューの更新" width="600"&gt;&lt;figcaption&gt;
+&lt;p&gt;ビューの更新&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;ビュー レイヤーは、作成元のホスト フィーチャ レイヤー (親レイヤー) の一部の設定を継承して作成されます。フィーチャ レイヤーで設定できる項目のうち、&lt;a href="/online/users-guide/manage-data/privilege/#%e7%b7%a8%e9%9b%86%e3%81%ae%e6%9c%89%e5%8a%b9%e5%8c%96"&gt;編集の有効化&lt;/a&gt;や&lt;a href="/online/users-guide/manage-data/download/#%e3%82%a8%e3%82%af%e3%82%b9%e3%83%9d%e3%83%bc%e3%83%88%e3%81%ae%e8%a8%b1%e5%8f%af"&gt;データのエクスポート許可&lt;/a&gt;、&lt;a href="/online/users-guide/manage-data/time/"&gt;時間設定&lt;/a&gt;などはビュー レイヤーで個別に設定することができます。&lt;br&gt;
+詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/create-hosted-views.htm#ESRI_SECTION1_3C30E0A91C0B44AD9FC4B60FE3A7F97C"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>アイテムを削除、復元したい</title><link>/online/users-guide/manage-data/delete/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/delete/</guid><description>
+&lt;p&gt;コンテンツ上で不要になり、使用していないアイテムは&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/delete-items.htm" target="_blank"&gt;削除&lt;/a&gt;することができます。
+ただし削除後 14 日間はゴミ箱から&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/restore-items.htm" target="_blank"&gt;復元&lt;/a&gt;することができます。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;ゴミ箱を利用するには、組織の管理者が&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/configure-details.htm#ESRI_SECTION1_91D3B03954B54E97B68DEA91854AD2F8" target="_blank"&gt;ゴミ箱機能を有効化&lt;/a&gt;する必要があります。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;アイテムの削除&lt;span class="hx:absolute hx:-mt-20" id="アイテムの削除"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%a2%e3%82%a4%e3%83%86%e3%83%a0%e3%81%ae%e5%89%8a%e9%99%a4" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;アイテムの所有者として組織にサインインします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[コンテンツ] ページから [マイ コンテンツ] タブを選択します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;削除したいアイテムのチェックボックスをオンにし、[削除] をクリックします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/delete-item-delete.png"
+alt="[削除] をクリック" width="800"&gt;&lt;figcaption&gt;
+&lt;p&gt;[削除] をクリック&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[削除] ウィンドウで、アイテムを削除しても問題ないかを確認し、[削除] をクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;削除したアイテムは [ゴミ箱] に移動します。または完全に削除されます。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;ゴミ箱に移動したアイテムは 14 日後に自動的に削除されます。この期間もストレージ保存におけるクレジットを消費します。詳細については&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/credits.htm#ESRI_SECTION1_4E74456E44D84BFDB5A590BA86FB3B76" target="_blank"&gt;ヘルプ&lt;/a&gt;をご参照ください。
+&lt;br&gt;なお [表示を増やす ＋] ボタンから [完全に削除 (この操作を取り消すことはできません)] を選択することもできます。&lt;/p&gt;
+&lt;!-- UI が [表示を増やす ＋] から [さらに表示] へ修正されたら書き換え--&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;一部のアイテムはゴミ箱に移動することなく削除されます。
+&lt;br&gt;詳細については「&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/faq.htm#ESRI_QUESTIONANSWER_60A4B4E5F0994E8DB4A999818B19ED1D" target="_blank"&gt;削除したアイテムがすべてゴミ箱に移動しないのはなぜですか？&lt;/a&gt;」をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;アイテムの復元&lt;span class="hx:absolute hx:-mt-20" id="アイテムの復元"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%a2%e3%82%a4%e3%83%86%e3%83%a0%e3%81%ae%e5%be%a9%e5%85%83" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;アイテムの所有者として組織にサイン インします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[コンテンツ] ページから [マイ コンテンツ] タブをクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[フォルダー] 内の [ゴミ箱] をクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ゴミ箱の中から復元したいアイテムを選択し、[復元] をクリックします。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/delete-item-restore.png"
+alt="[復元] をクリック" width="900"&gt;&lt;figcaption&gt;
+&lt;p&gt;[復元] をクリック&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[アイテムの復元] で復元先のフォルダーを確認、設定し、[復元] をクリックします。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/delete-item-restore-confirm.png"
+alt="[アイテムの復元] ウィンドウ" width="500"&gt;&lt;figcaption&gt;
+&lt;p&gt;[アイテムの復元] ウィンドウ&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;アイテムは復元先に指定したフォルダーへ格納されます。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;復元する場合は以下の点などに注意してください。
+&lt;br&gt;・ 削除前に設定されていたアイテムの共有設定やカテゴリは保存されません。復元後、再度設定を行う必要があります。
+&lt;br&gt;・ Web マップにオフライン マップ エリアが定義されていた場合、オフライン マップ エリアはゴミ箱内では保持されません。復元後、再定義する必要があります。
+&lt;br&gt;詳細については&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/restore-items.htm#ESRI_SECTION1_1DC1E3AC83004E07B825F5A335107ED9" target="_blank"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item></channel></rss>

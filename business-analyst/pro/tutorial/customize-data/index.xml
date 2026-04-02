@@ -1,527 +1,527 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – データのカスタマイズ</title><link>/business-analyst/pro/tutorial/customize-data/</link><description>Recent content in データのカスタマイズ on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 19 Nov 2021 00:00:00 +0900</lastBuildDate><atom:link href="/business-analyst/pro/tutorial/customize-data/index.xml" rel="self" type="application/rss+xml"/><item><title>BA データからカスタム変数を作成</title><link>/business-analyst/pro/tutorial/customize-data/how-to-use-existing-ba-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/tutorial/customize-data/how-to-use-existing-ba-data/</guid><description>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">本演習にかかる時間はおよそ 30 分です。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>本演習では、Business Analyst ローカル データセット（以下、BA データ）を使用して、独自のカスタム変数を作成する方法を学びます。&lt;/p>
-&lt;h2>演習用データのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="演習用データのダウンロード">&lt;/span>
-&lt;a href="#%e6%bc%94%e7%bf%92%e7%94%a8%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
-&lt;li>&lt;a href="https://www.arcgis.com/home/item.html?id=9c5537b16711429289c90422b55229fa" target="_blank">BA Pro チュートリアル-カスタマイズ プロジェクトパッケージ&lt;/a>をダウンロードします。&lt;/li>
-&lt;li>ダウンロードした「BAProチュートリアル-カスタマイズ.ppkx」を開き、[演習1] マップを開きます。&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">プロジェクト パッケージを開いた際、[プロジェクト アイテムの修復] メッセージが表示された場合は [OK] をクリックして閉じてください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;a href="/business-analyst/pro/tutorial/prepare-for-tutorial/#business-analyst-%e3%83%87%e3%83%bc%e3%82%bf-%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e8%a8%ad%e5%ae%9a">Business Analyst データ ソース&lt;/a> が最新のデータセットに設定されていることをご確認ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h2>統計データ コレクションの作成&lt;span class="hx:absolute hx:-mt-20" id="統計データ-コレクションの作成">&lt;/span>
-&lt;a href="#%e7%b5%b1%e8%a8%88%e3%83%87%e3%83%bc%e3%82%bf-%e3%82%b3%e3%83%ac%e3%82%af%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>BA データに搭載されている町丁・字等ポリゴンを使用して、統計データ コレクションを作成します。&lt;/p>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">統計データ コレクション（.sdcx）は、Business Analyst 上で使用するための設定を格納するファイルです。 (&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/custom-data.htm" target="_blank">詳細&lt;/a>)&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;ol>
-&lt;li>
-&lt;p>[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [新しい統計データ コレクション] をクリックします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>[統計データ コレクションの作成] ダイアログが開いたら、[入力データ] 右部にある参照ボタンをクリックし、以下のフィーチャクラスを選択します。&lt;/p>
-&lt;blockquote>
-&lt;p>&amp;lt;データセット配置先&amp;gt;\JPN_EsriJapan_2025\Data\Demographic Data\JPN_EsriJapan_2025.gdb\Blocks_blk&lt;/p>
-&lt;/blockquote>
-&lt;/li>
-&lt;li>
-&lt;p>[統計データ コレクションの出力] で作成する統計データ コレクションの名前および保存先を確認し、そのまま [作成] をクリックします。&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;p>[SDCX の編集] ダイアログが開きます。&lt;/p>
-&lt;h2>カスタム変数の設定&lt;span class="hx:absolute hx:-mt-20" id="カスタム変数の設定">&lt;/span>
-&lt;a href="#%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%a0%e5%a4%89%e6%95%b0%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>独自の計算式を用いてカスタム変数を設定します。今回は、既存の BA データには無い「5~14 歳人口」変数を作成します。&lt;/p>
-&lt;ol>
-&lt;li>[変数] タブを開き、1 つ目のフィールド「D0001」行をクリックして選択状態にします。&lt;/li>
-&lt;li>[Ctrl + A] を押して、すべてのフィールドを選択状態にして、チェックを外します。&lt;/li>
-&lt;/ol>
-&lt;p>これにより、すべてのフィールドが未選択の状態になりました。次に、計算に利用するフィールドのみを選択します。&lt;/p>
-&lt;ol start="3">
-&lt;li>次に、以下のフィールドにチェックを入れます。
-&lt;ul>
-&lt;li>D0007 (2020 人口 5-9歳)&lt;/li>
-&lt;li>D0008 (2020 人口 10-14歳)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">ダイアログ右上の検索ボックスに、フィールド名もしくはエイリアスを入力することで、変数を検索できます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;ol start="5">
-&lt;li>[計算の追加] をクリックして [変数の計算] ダイアログを開きます。&lt;/li>
-&lt;li>以下のように設定し、[OK] をクリックします。
-&lt;ul>
-&lt;li>言語：Python&lt;/li>
-&lt;li>フィールド名：D_POP_5_14&lt;/li>
-&lt;li>エイリアス：2020 人口 5-14歳&lt;/li>
-&lt;li>式：!D0007!+!D0008!&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[フィールド] 内のフィールド名をダブルクリックすると、式に追加することができます。&lt;br/>
-また、[確認] (緑のチェック マーク) をクリックすると、作成した式に問題が無いかを確認することができます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>使用するフィールドの集計時の按分方法を設定します。また、同時にエイリアスやカテゴリーを指定することもできます。&lt;/p>
-&lt;ol start="7">
-&lt;li>チェックを入れた 2 つの変数の割り当て方法（按分方法）を [GEOM]（面積按分）に変更します。&lt;/li>
-&lt;/ol>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">フィールド名&lt;/th>
-&lt;th style="text-align: left">エイリアス&lt;/th>
-&lt;th style="text-align: left">カテゴリ&lt;/th>
-&lt;th style="text-align: left">年代&lt;/th>
-&lt;th style="text-align: left">精度&lt;/th>
-&lt;th style="text-align: left">フィールド形式&lt;/th>
-&lt;th style="text-align: left">サマリー タイプ&lt;/th>
-&lt;th style="text-align: left">加重&lt;/th>
-&lt;th style="text-align: left">割り当て方法&lt;/th>
-&lt;th style="text-align: left">種類&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">D0007&lt;/td>
-&lt;td style="text-align: left">2020 人口 5-9歳&lt;/td>
-&lt;td style="text-align: left">既定&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">0&lt;/td>
-&lt;td style="text-align: left">Count&lt;/td>
-&lt;td style="text-align: left">合計&lt;/td>
-&lt;td style="text-align: left">なし&lt;/td>
-&lt;td style="text-align: left">GEOM&lt;/td>
-&lt;td style="text-align: left">Double&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">D0008&lt;/td>
-&lt;td style="text-align: left">2020 人口 10-14歳&lt;/td>
-&lt;td style="text-align: left">既定&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">0&lt;/td>
-&lt;td style="text-align: left">Count&lt;/td>
-&lt;td style="text-align: left">合計&lt;/td>
-&lt;td style="text-align: left">なし&lt;/td>
-&lt;td style="text-align: left">GEOM&lt;/td>
-&lt;td style="text-align: left">Double&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">作成したカスタム変数は、フィールド一覧の一番下に追加されます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">カスタム変数の作成時に設定可能な割り当て方法は、&lt;a href="https://www.esrij.com/cgi-bin/wp/wp-content/uploads/documents/ge2025-variablelist-jp.xlsx" target="_blank">利用可能な統計データの一覧&lt;/a>をご確認ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>カスタム変数を使用する際のタイトルやアイコンなどを設定します。&lt;/p>
-&lt;ol start="8">
-&lt;li>[プロパティ] タブを開き、[タイトル] に「BAデータカスタム変数」と入力します。また、タグやアイコンを任意に設定します。&lt;/li>
-&lt;li>[OK] をクリックしてダイアログを閉じます。&lt;/li>
-&lt;/ol>
-&lt;p>最後に、作成した統計データ コレクションの名前を変更します。&lt;/p>
-&lt;ol start="10">
-&lt;li>[カタログ] ウィンドウ → [Business Analyst] → [統計データ コレクション] を展開します。&lt;/li>
-&lt;li>Blocks_blk.sdcx 上で右クリックし、[名前の変更] をクリックして、「BAデータカスタム変数.sdcx」に名前を変更します。&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">作成した統計データ コレクションには、デフォルトでデータ ソースとして選択したフィーチャクラスの名前が付けられます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[SDCX の編集] ダイアログ上の [パフォーマンス インデックス] の工具マークをクリックし、インデックスを構築すると、集計パフォーマンスを向上させることができます。ただし、日本全国をカバーするレイヤーに対するインデックスのため、構築完了までに長時間かかることにご注意ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h2>商圏にカスタム変数を集計する&lt;span class="hx:absolute hx:-mt-20" id="商圏にカスタム変数を集計する">&lt;/span>
-&lt;a href="#%e5%95%86%e5%9c%8f%e3%81%ab%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%a0%e5%a4%89%e6%95%b0%e3%82%92%e9%9b%86%e8%a8%88%e3%81%99%e3%82%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>商圏に対してカスタム変数として作成した「2020 人口 5-14歳」を集計します。&lt;/p>
-&lt;ol>
-&lt;li>[解析] タブ → [ジオプロセシング] グループの [ツール] をクリックし、[ツールの検索] に「情報付加」と入力します。&lt;/li>
-&lt;li>検索結果の中の [&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/enrich-layer-advanced.htm" target="_blank">レイヤーの情報付加 (Enrich Layer)&lt;/a>] ツールをクリックして開きます。&lt;/li>
-&lt;li>[入力フィーチャ] 横の [鉛筆] アイコンをクリックし、[ポリゴン] を選択します。&lt;/li>
-&lt;li>マップ上の任意の範囲にポリゴンを作成して、ダブルクリックで完成させます。&lt;/li>
-&lt;li>[出力フィーチャクラス] に「任意ポリゴン_カスタム変数付与」と入力します。&lt;/li>
-&lt;li>[変数] で [+] ボタンをクリックしてデータ ブラウザーを開き、[カスタム データ] ノード → [BAデータカスタム変数] をクリックして開きます。&lt;/li>
-&lt;li>[既定] カテゴリにチェックを入れて格納されているすべての変数を選択し、[OK] をクリックしてデータ ブラウザーを閉じます。&lt;/li>
-&lt;li>[実行] をクリックしてツールを実行します。&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>統計データ コレクションのインデックスが未構築、もしくは最新でない場合は、以下のような警告が表示されます。この警告はインデックスが存在しないことを表しますが、集計自体は正常に行えます。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/customize-data/warning-about-sdcx-index.png" width="40%">
-&lt;/figure>&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>ツール実行が完了すると、マップに結果レイヤーが追加されます。集計結果を確認します。&lt;/p>
-&lt;ol start="9">
-&lt;li>[コンテンツ] ウィンドウ上の「任意ポリゴン_カスタム変数付与」レイヤーを選択し、Ctrl + T で属性テーブルを開き、右にスクロールします。&lt;/li>
-&lt;/ol>
-&lt;p>「2020 人口 5-14歳」フィールド値が、以下の 2 つのフィールドの合算値であり、カスタム変数が正しく集計されていることが分かります。&lt;/p>
-&lt;ul>
-&lt;li>2020 人口 5-9歳&lt;/li>
-&lt;li>2020 人口 10-14歳&lt;/li>
-&lt;/ul>
-&lt;ol start="10">
-&lt;li>[プロジェクト] タブ → [保存] を選択し、&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/projects/save-a-project.htm" target="_blank">プロジェクトを保存&lt;/a>します。&lt;/li>
-&lt;/ol>
-&lt;h1>まとめ&lt;/h1>&lt;p>この演習では、BA データを使用して統計データ コレクションを作成しました。さらに、カスタムの計算式を設定することで、既存のデータには無いカスタム変数を作成し、その変数を任意の商圏に集計しました。
-また、以下のツールの操作を学びました。&lt;/p>
-&lt;ul>
-&lt;li>[統計データ コレクションの作成] ツール&lt;/li>
-&lt;/ul></description></item><item><title>独自データからカスタム変数を作成</title><link>/business-analyst/pro/tutorial/customize-data/how-to-use-unique-data/</link><pubDate>Fri, 19 Nov 2021 00:00:00 +0900</pubDate><guid>/business-analyst/pro/tutorial/customize-data/how-to-use-unique-data/</guid><description>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">本演習にかかる時間はおよそ 30 分です。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>区画別に集計した顧客数や売上高など、独自の数値情報を持つデータを使用して、カスタム変数として登録する方法を学びます。本演習では、千葉県内の自社顧客データを用いて、町丁・字等ポリゴンを作成し、それを独自変数として登録します。&lt;/p>
-&lt;h2>演習用データのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="演習用データのダウンロード">&lt;/span>
-&lt;a href="#%e6%bc%94%e7%bf%92%e7%94%a8%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
-&lt;li>&lt;a href="https://www.arcgis.com/home/item.html?id=9c5537b16711429289c90422b55229fa" target="_blank">BA Pro チュートリアル-カスタマイズ プロジェクトパッケージ&lt;/a>をダウンロードします。&lt;/li>
-&lt;li>ダウンロードした「BAProチュートリアル-カスタマイズ.ppkx」を開き、[演習2] マップを開きます。&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">プロジェクト パッケージを開いた際、[プロジェクト アイテムの修復] メッセージが表示された場合は [OK] をクリックして閉じてください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;a href="/business-analyst/pro/tutorial/prepare-for-tutorial/#business-analyst-%e3%83%87%e3%83%bc%e3%82%bf-%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e8%a8%ad%e5%ae%9a">Business Analyst データ ソース&lt;/a> が最新のデータセットに設定されていることをご確認ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h2>売上情報を含むテーブル データの確認&lt;span class="hx:absolute hx:-mt-20" id="売上情報を含むテーブル-データの確認">&lt;/span>
-&lt;a href="#%e5%a3%b2%e4%b8%8a%e6%83%85%e5%a0%b1%e3%82%92%e5%90%ab%e3%82%80%e3%83%86%e3%83%bc%e3%83%96%e3%83%ab-%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e7%a2%ba%e8%aa%8d" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>プロジェクトパッケージはデフォルト設定では、以下の場所に展開されます。&lt;/p>
-&lt;blockquote>
-&lt;p>C:\Users&amp;lt;ユーザー名&amp;gt;\Documents\ArcGIS\Packages\BAProチュートリアル-カスタマイズ_xxxx&lt;/p>
-&lt;/blockquote>
-&lt;p>統計データ コレクションのデータ ソースとなる、町丁・字等別に集計した顧客数・売上情報を含むテーブル データをマップに追加します。&lt;/p>
-&lt;ol>
-&lt;li>[マップ] タブ → [レイヤー] グループの [データの追加] をクリックします。&lt;/li>
-&lt;li>[参照] を選択して、[データの追加] ダイアログを開きます。&lt;/li>
-&lt;li>演習データ内の Excel シートを選択し、[OK] をクリックします。
-&lt;blockquote>
-&lt;p>&amp;lt;上記展開先&amp;gt;\commondata\userdata\町丁字等別売上情報.xlsx\町丁字等別売上情報$&lt;/p>
-&lt;/blockquote>
-&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">Excel の読み込みができない場合、&lt;a href="/business-analyst/pro/tutorial/prepare-for-tutorial/">事前準備&lt;/a>をご確認ください。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[フォルダー] に上記展開先のパスが接続されているため、[フォルダー] から Excel ファイルに接続することができます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>[コンテンツ] ウィンドウに「町丁字等別売上情報$」が追加されます。&lt;/p>
-&lt;ol>
-&lt;li>「町丁字等別売上情報$」を右クリック → [開く] をクリックし、テーブルを開きます。&lt;/li>
-&lt;li>テーブルに、町丁・字等の区画 ID や区画名、顧客数や売上高などの売上情報が含まれることを確認し、テーブルを閉じます。&lt;/li>
-&lt;/ol>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/customize-data/create-custom-variables/confirm-a-table.png">
-&lt;/figure>
-&lt;h2>町丁・字等ポリゴンの作成&lt;span class="hx:absolute hx:-mt-20" id="町丁字等ポリゴンの作成">&lt;/span>
-&lt;a href="#%e7%94%ba%e4%b8%81%e5%ad%97%e7%ad%89%e3%83%9d%e3%83%aa%e3%82%b4%e3%83%b3%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>追加したテーブル データを使用して、統計データ コレクションのデータ ソースとなる町丁・字等ポリゴンを作成します。&lt;/p>
-&lt;ol>
-&lt;li>[解析] タブ → [ジオプロセシング] グループの [ツール] をクリックし、[ジオプロセシング] ウィンドウの検索ボックスに「標準区画商圏」と入力します。&lt;/li>
-&lt;li>検索結果の中の [&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/generate-standard-geography-trade-areas.htm" target="_blank">標準区画商圏の生成 (Generate Standard Geography Trade Areas)&lt;/a>] ツールをクリックして開きます。&lt;/li>
-&lt;li>ツールが開いたら、以下のように設定して [実行] をクリックします。&lt;/li>
-&lt;/ol>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>パラメーター&lt;/th>
-&lt;th>設定値&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>区画レベル&lt;/td>
-&lt;td>町丁・字等 (JP.Blocks)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>出力フィーチャクラス&lt;/td>
-&lt;td>町丁字等別売上情報&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>入力タイプ&lt;/td>
-&lt;td>テーブル&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>区画 ID テーブル&lt;/td>
-&lt;td>町丁字等別売上情報$&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>区画キー フィールド&lt;/td>
-&lt;td>リンクコード&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">[入力タイプ] パラメーターを「テーブル」に設定した場合、[区画キー フィールド] はテキスト型である必要があります。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>[標準区画商圏の生成] ツールでは、上記のように区画 ID を含むテーブルを基に商圏を作成できるほか、区画リストから、任意の区画を選択して商圏を作成することもできます。&lt;br/>
-その場合は、[入力タイプ] パラメーターを「リスト」に設定し、[区画 ID リスト] パラメーターの [参照] ボタンから [区画の選択] ダイアログを開き、追加したい区画を選択します。&lt;br/>&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/customer-analysis/select-geography-from-list.png">
-&lt;/figure>&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>ツールが完了したら、マップ上に町丁・字等ポリゴンが追加されます。属性テーブルを開いて、集計結果を確認します。&lt;/p>
-&lt;ol start="4">
-&lt;li>[コンテンツ] ウィンドウの「町丁字等別売上情報」を右クリック → [属性テーブル] をクリックします。&lt;/li>
-&lt;li>属性テーブルが開いたら右にスクロールし、先ほど確認した顧客数や売上数等の情報を、出力されたポリゴンが持っていることを確認し、テーブルを閉じます。&lt;/li>
-&lt;/ol>
-&lt;p>これで、統計データ コレクションを作成するためのデータ ソースを作成することができました。&lt;/p>
-&lt;h2>統計データ コレクションの作成&lt;span class="hx:absolute hx:-mt-20" id="統計データ-コレクションの作成">&lt;/span>
-&lt;a href="#%e7%b5%b1%e8%a8%88%e3%83%87%e3%83%bc%e3%82%bf-%e3%82%b3%e3%83%ac%e3%82%af%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">統計データ コレクションのデータ ソースとして指定できるのは、数値情報を持つポリゴン データのみです。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>次に、作成した町丁・字等ポリゴンを使用して統計データ コレクションを作成し、カスタム変数を登録します。&lt;/p>
-&lt;ol>
-&lt;li>[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [新しい統計データ コレクション] をクリックします。&lt;/li>
-&lt;li>[統計データ コレクションの作成] ダイアログで、[入力データ] のドロップダウンをクリックし、[町丁字等別売上情報] を選択します。&lt;/li>
-&lt;li>[統計データ コレクションの出力] で作成する統計データ コレクションの名前および保存先を確認し、[作成] をクリックします。&lt;/li>
-&lt;/ol>
-&lt;p>[SDCX の編集] ダイアログが開きます。このダイアログ内で、変数のカテゴリや集計方法等の詳細な設定を行うことができます。&lt;/p>
-&lt;ol start="4">
-&lt;li>[変数] タブを開き、以下のフィールド名の行にのみチェックが入っていることを確認します。
-&lt;ul>
-&lt;li>売上高&lt;/li>
-&lt;li>売上数&lt;/li>
-&lt;li>顧客数&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">本演習では独自データが持つフィールドのみ使用しますが、[変数の追加] から、Business Analyst ローカル データセットに搭載の変数を追加できます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;ol start="5">
-&lt;li>チェックを入れた変数のエイリアスやカテゴリなどを、以下の通りに設定します。&lt;/li>
-&lt;/ol>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">フィールド名&lt;/th>
-&lt;th style="text-align: left">エイリアス&lt;/th>
-&lt;th style="text-align: left">カテゴリ&lt;/th>
-&lt;th style="text-align: left">年代&lt;/th>
-&lt;th style="text-align: left">精度&lt;/th>
-&lt;th style="text-align: left">フィールド形式&lt;/th>
-&lt;th style="text-align: left">サマリー タイプ&lt;/th>
-&lt;th style="text-align: left">加重&lt;/th>
-&lt;th style="text-align: left">割り当て方法&lt;/th>
-&lt;th style="text-align: left">出力タイプ&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">売上高&lt;/td>
-&lt;td style="text-align: left">売上高&lt;/td>
-&lt;td style="text-align: left">売上&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">1&lt;/td>
-&lt;td style="text-align: left">Currency&lt;/td>
-&lt;td style="text-align: left">合計&lt;/td>
-&lt;td style="text-align: left">なし&lt;/td>
-&lt;td style="text-align: left">GEOM&lt;/td>
-&lt;td style="text-align: left">Double&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">売上数&lt;/td>
-&lt;td style="text-align: left">売上数&lt;/td>
-&lt;td style="text-align: left">売上&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">1&lt;/td>
-&lt;td style="text-align: left">Count&lt;/td>
-&lt;td style="text-align: left">合計&lt;/td>
-&lt;td style="text-align: left">なし&lt;/td>
-&lt;td style="text-align: left">GEOM&lt;/td>
-&lt;td style="text-align: left">Double&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">顧客数&lt;/td>
-&lt;td style="text-align: left">顧客数&lt;/td>
-&lt;td style="text-align: left">顧客&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;td style="text-align: left">0&lt;/td>
-&lt;td style="text-align: left">Count&lt;/td>
-&lt;td style="text-align: left">合計&lt;/td>
-&lt;td style="text-align: left">なし&lt;/td>
-&lt;td style="text-align: left">GEOM&lt;/td>
-&lt;td style="text-align: left">Double&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">&lt;p>[変数] タブで設定できる各項目の定義は、以下の通りです。&lt;br/>&lt;/p>
-&lt;div class="info-table">
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">項目&lt;/th>
-&lt;th style="text-align: left">説明&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">フィールド名&lt;/td>
-&lt;td style="text-align: left">フィールドの名前。編集はできません。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">エイリアス&lt;/td>
-&lt;td style="text-align: left">データ ブラウザーで表示される見かけ上の名称。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">カテゴリ&lt;/td>
-&lt;td style="text-align: left">変数のカテゴリ。変数が多い場合に設定すると、変数の検索時に見つけやすくなります。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">年代&lt;/td>
-&lt;td style="text-align: left">変数の年代を定義します。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">精度&lt;/td>
-&lt;td style="text-align: left">変数の集計時にどの小数点まで算出するかを定義します。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">フィールド形式&lt;/td>
-&lt;td style="text-align: left">変数の形式を定義します。数字 (Count)、割合 (Precent)、通貨 (Currency) のいずれかを指定できます。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">サマリー タイプ&lt;/td>
-&lt;td style="text-align: left">変数の集計方法を定義します。合計と平均のいずれかを指定できます。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">加重&lt;/td>
-&lt;td style="text-align: left">サマリー タイプを「平均」にした場合に指定します。たとえば「顧客あたりの平均売上」を変数に設定する場合、「顧客数」を加重に設定します。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">割り当て方法&lt;/td>
-&lt;td style="text-align: left">変数の集計時に使用される加重按分の方法を定義します。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">出力タイプ&lt;/td>
-&lt;td style="text-align: left">フィールドの&lt;a href="https://pro.arcgis.com/ja/pro-app/2.7/help/data/geodatabases/overview/arcgis-field-data-types.htm" target="_blank">データ タイプ&lt;/a>。編集はできません。&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;/div>&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;ol start="6">
-&lt;li>[プロパティ] タブを開き、以下の通りに設定します。
-&lt;ul>
-&lt;li>タイトル: 町丁字等別売上情報&lt;/li>
-&lt;li>アイコン: アイコン ボタンをクリックし、[その他] カテゴリの中から $ マークを選択します。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>[OK] をクリックしてダイアログを閉じます。&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">統計データ コレクション (*.sdcx ファイル) に対してインデックスを作成することで、集計のパフォーマンスが向上します。&lt;br/>
-*.sdcx ファイルを参照しているフィーチャクラスや *.sdcx ファイル自体に変更を加えた場合には、その都度インデックスを再構築する必要があります。構築は、[&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/generate-sdcx-index.htm" target="_blank">SDCX インデックスの生成 (Generate SDCX Index)&lt;/a>] ツールからも実行できます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;h2>商圏にカスタム変数を集計する&lt;span class="hx:absolute hx:-mt-20" id="商圏にカスタム変数を集計する">&lt;/span>
-&lt;a href="#%e5%95%86%e5%9c%8f%e3%81%ab%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%a0%e5%a4%89%e6%95%b0%e3%82%92%e9%9b%86%e8%a8%88%e3%81%99%e3%82%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>商圏に作成したカスタム変数と標準変数を集計します。&lt;/p>
-&lt;ol>
-&lt;li>[解析] タブ → [ワークフロー] グループの [ビジネス解析] → [クイック商圏] をクリックします。&lt;/li>
-&lt;li>[場所検索] タブで、検索ボックスに「西船橋駅」と入力し、Enter キーを押します。&lt;/li>
-&lt;li>検索結果が表示されるので、選択して [次へ] をクリックします。&lt;/li>
-&lt;li>[リング商圏] タブで、以下のように設定し、[次へ] をクリックします。
-&lt;ul>
-&lt;li>半径: 「1」、「2」と入力します。（※ 3 つ目は空欄にします。）&lt;/li>
-&lt;li>ディゾルブ オプション: ディスク&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>[情報付加] を有効にし、[+] ボタンをクリックします。&lt;/li>
-&lt;li>[人口] カテゴリー → [人口総数] → [2020 人口総数 (国勢調査)] にチェックを入れます。&lt;/li>
-&lt;li>[カスタム データ] ノードを選択し、「町丁字等別売上情報」カテゴリを開き、[顧客数] にチェックを入れて、[OK] をクリックします。&lt;/li>
-&lt;li>[次へ] を選択し、[完了] をクリックしてツールを実行します。&lt;/li>
-&lt;/ol>
-&lt;p>マップに、西船橋駅を中心とする 1km/2km のリング商圏が生成され、指定した変数が集計したレイヤーが追加されます。結果の詳細を確認します。&lt;/p>
-&lt;ol start="9">
-&lt;li>[コンテンツ] ウィンドウ上の「情報付加バッファー」レイヤーを右クリック → [属性テーブル] を開きます。&lt;/li>
-&lt;/ol>
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200">
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2">&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>&lt;/svg>&lt;/div>
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7">
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0">属性テーブルは、[コンテンツ] ウィンドウで対象のレイヤーをクリックして選択した状態で、Ctrl + T でも開くことができます。&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;ol start="10">
-&lt;li>属性テーブルを右側にスクロールして、人口総数と顧客数が同時に集計できていることを確認します。&lt;/li>
-&lt;/ol>
-&lt;p>このような分析を通じて、市場ポテンシャルを確認しつつ、既存店への影響を評価することができます。&lt;/p>
-&lt;figure>&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/customize-data/result-enrich-layer2.png">
-&lt;/figure>
-&lt;ol start="11">
-&lt;li>[プロジェクト] タブ → [保存] を選択し、&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/projects/save-a-project.htm" target="_blank">プロジェクトを保存&lt;/a>します。&lt;/li>
-&lt;/ol>
-&lt;h1>まとめ&lt;/h1>&lt;p>この演習では、顧客数や売上情報を持つ町丁・字等の一覧が載ったテーブルを使用して、統計データ コレクションのデータ ソースとなる町丁・字等ポリゴンを作成しました。
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;本演習にかかる時間はおよそ 30 分です。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;本演習では、Business Analyst ローカル データセット（以下、BA データ）を使用して、独自のカスタム変数を作成する方法を学びます。&lt;/p&gt;
+&lt;h2&gt;演習用データのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="演習用データのダウンロード"&gt;&lt;/span&gt;
+&lt;a href="#%e6%bc%94%e7%bf%92%e7%94%a8%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href="https://www.arcgis.com/home/item.html?id=9c5537b16711429289c90422b55229fa" target="_blank"&gt;BA Pro チュートリアル-カスタマイズ プロジェクトパッケージ&lt;/a&gt;をダウンロードします。&lt;/li&gt;
+&lt;li&gt;ダウンロードした「BAProチュートリアル-カスタマイズ.ppkx」を開き、[演習1] マップを開きます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;プロジェクト パッケージを開いた際、[プロジェクト アイテムの修復] メッセージが表示された場合は [OK] をクリックして閉じてください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;a href="/business-analyst/pro/tutorial/prepare-for-tutorial/#business-analyst-%e3%83%87%e3%83%bc%e3%82%bf-%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e8%a8%ad%e5%ae%9a"&gt;Business Analyst データ ソース&lt;/a&gt; が最新のデータセットに設定されていることをご確認ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;統計データ コレクションの作成&lt;span class="hx:absolute hx:-mt-20" id="統計データ-コレクションの作成"&gt;&lt;/span&gt;
+&lt;a href="#%e7%b5%b1%e8%a8%88%e3%83%87%e3%83%bc%e3%82%bf-%e3%82%b3%e3%83%ac%e3%82%af%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;BA データに搭載されている町丁・字等ポリゴンを使用して、統計データ コレクションを作成します。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;統計データ コレクション（.sdcx）は、Business Analyst 上で使用するための設定を格納するファイルです。 (&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/custom-data.htm" target="_blank"&gt;詳細&lt;/a&gt;)&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [新しい統計データ コレクション] をクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[統計データ コレクションの作成] ダイアログが開いたら、[入力データ] 右部にある参照ボタンをクリックし、以下のフィーチャクラスを選択します。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;lt;データセット配置先&amp;gt;\JPN_EsriJapan_2025\Data\Demographic Data\JPN_EsriJapan_2025.gdb\Blocks_blk&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[統計データ コレクションの出力] で作成する統計データ コレクションの名前および保存先を確認し、そのまま [作成] をクリックします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;[SDCX の編集] ダイアログが開きます。&lt;/p&gt;
+&lt;h2&gt;カスタム変数の設定&lt;span class="hx:absolute hx:-mt-20" id="カスタム変数の設定"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%a0%e5%a4%89%e6%95%b0%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;独自の計算式を用いてカスタム変数を設定します。今回は、既存の BA データには無い「5~14 歳人口」変数を作成します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;[変数] タブを開き、1 つ目のフィールド「D0001」行をクリックして選択状態にします。&lt;/li&gt;
+&lt;li&gt;[Ctrl + A] を押して、すべてのフィールドを選択状態にして、チェックを外します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;これにより、すべてのフィールドが未選択の状態になりました。次に、計算に利用するフィールドのみを選択します。&lt;/p&gt;
+&lt;ol start="3"&gt;
+&lt;li&gt;次に、以下のフィールドにチェックを入れます。
+&lt;ul&gt;
+&lt;li&gt;D0007 (2020 人口 5-9歳)&lt;/li&gt;
+&lt;li&gt;D0008 (2020 人口 10-14歳)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;ダイアログ右上の検索ボックスに、フィールド名もしくはエイリアスを入力することで、変数を検索できます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol start="5"&gt;
+&lt;li&gt;[計算の追加] をクリックして [変数の計算] ダイアログを開きます。&lt;/li&gt;
+&lt;li&gt;以下のように設定し、[OK] をクリックします。
+&lt;ul&gt;
+&lt;li&gt;言語：Python&lt;/li&gt;
+&lt;li&gt;フィールド名：D_POP_5_14&lt;/li&gt;
+&lt;li&gt;エイリアス：2020 人口 5-14歳&lt;/li&gt;
+&lt;li&gt;式：!D0007!+!D0008!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;[フィールド] 内のフィールド名をダブルクリックすると、式に追加することができます。&lt;br/&gt;
+また、[確認] (緑のチェック マーク) をクリックすると、作成した式に問題が無いかを確認することができます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;使用するフィールドの集計時の按分方法を設定します。また、同時にエイリアスやカテゴリーを指定することもできます。&lt;/p&gt;
+&lt;ol start="7"&gt;
+&lt;li&gt;チェックを入れた 2 つの変数の割り当て方法（按分方法）を [GEOM]（面積按分）に変更します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;フィールド名&lt;/th&gt;
+&lt;th style="text-align: left"&gt;エイリアス&lt;/th&gt;
+&lt;th style="text-align: left"&gt;カテゴリ&lt;/th&gt;
+&lt;th style="text-align: left"&gt;年代&lt;/th&gt;
+&lt;th style="text-align: left"&gt;精度&lt;/th&gt;
+&lt;th style="text-align: left"&gt;フィールド形式&lt;/th&gt;
+&lt;th style="text-align: left"&gt;サマリー タイプ&lt;/th&gt;
+&lt;th style="text-align: left"&gt;加重&lt;/th&gt;
+&lt;th style="text-align: left"&gt;割り当て方法&lt;/th&gt;
+&lt;th style="text-align: left"&gt;種類&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;D0007&lt;/td&gt;
+&lt;td style="text-align: left"&gt;2020 人口 5-9歳&lt;/td&gt;
+&lt;td style="text-align: left"&gt;既定&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Count&lt;/td&gt;
+&lt;td style="text-align: left"&gt;合計&lt;/td&gt;
+&lt;td style="text-align: left"&gt;なし&lt;/td&gt;
+&lt;td style="text-align: left"&gt;GEOM&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Double&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;D0008&lt;/td&gt;
+&lt;td style="text-align: left"&gt;2020 人口 10-14歳&lt;/td&gt;
+&lt;td style="text-align: left"&gt;既定&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Count&lt;/td&gt;
+&lt;td style="text-align: left"&gt;合計&lt;/td&gt;
+&lt;td style="text-align: left"&gt;なし&lt;/td&gt;
+&lt;td style="text-align: left"&gt;GEOM&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Double&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;作成したカスタム変数は、フィールド一覧の一番下に追加されます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;カスタム変数の作成時に設定可能な割り当て方法は、&lt;a href="https://www.esrij.com/cgi-bin/wp/wp-content/uploads/documents/ge2025-variablelist-jp.xlsx" target="_blank"&gt;利用可能な統計データの一覧&lt;/a&gt;をご確認ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;カスタム変数を使用する際のタイトルやアイコンなどを設定します。&lt;/p&gt;
+&lt;ol start="8"&gt;
+&lt;li&gt;[プロパティ] タブを開き、[タイトル] に「BAデータカスタム変数」と入力します。また、タグやアイコンを任意に設定します。&lt;/li&gt;
+&lt;li&gt;[OK] をクリックしてダイアログを閉じます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;最後に、作成した統計データ コレクションの名前を変更します。&lt;/p&gt;
+&lt;ol start="10"&gt;
+&lt;li&gt;[カタログ] ウィンドウ → [Business Analyst] → [統計データ コレクション] を展開します。&lt;/li&gt;
+&lt;li&gt;Blocks_blk.sdcx 上で右クリックし、[名前の変更] をクリックして、「BAデータカスタム変数.sdcx」に名前を変更します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;作成した統計データ コレクションには、デフォルトでデータ ソースとして選択したフィーチャクラスの名前が付けられます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;[SDCX の編集] ダイアログ上の [パフォーマンス インデックス] の工具マークをクリックし、インデックスを構築すると、集計パフォーマンスを向上させることができます。ただし、日本全国をカバーするレイヤーに対するインデックスのため、構築完了までに長時間かかることにご注意ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;商圏にカスタム変数を集計する&lt;span class="hx:absolute hx:-mt-20" id="商圏にカスタム変数を集計する"&gt;&lt;/span&gt;
+&lt;a href="#%e5%95%86%e5%9c%8f%e3%81%ab%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%a0%e5%a4%89%e6%95%b0%e3%82%92%e9%9b%86%e8%a8%88%e3%81%99%e3%82%8b" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;商圏に対してカスタム変数として作成した「2020 人口 5-14歳」を集計します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;[解析] タブ → [ジオプロセシング] グループの [ツール] をクリックし、[ツールの検索] に「情報付加」と入力します。&lt;/li&gt;
+&lt;li&gt;検索結果の中の [&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/enrich-layer-advanced.htm" target="_blank"&gt;レイヤーの情報付加 (Enrich Layer)&lt;/a&gt;] ツールをクリックして開きます。&lt;/li&gt;
+&lt;li&gt;[入力フィーチャ] 横の [鉛筆] アイコンをクリックし、[ポリゴン] を選択します。&lt;/li&gt;
+&lt;li&gt;マップ上の任意の範囲にポリゴンを作成して、ダブルクリックで完成させます。&lt;/li&gt;
+&lt;li&gt;[出力フィーチャクラス] に「任意ポリゴン_カスタム変数付与」と入力します。&lt;/li&gt;
+&lt;li&gt;[変数] で [+] ボタンをクリックしてデータ ブラウザーを開き、[カスタム データ] ノード → [BAデータカスタム変数] をクリックして開きます。&lt;/li&gt;
+&lt;li&gt;[既定] カテゴリにチェックを入れて格納されているすべての変数を選択し、[OK] をクリックしてデータ ブラウザーを閉じます。&lt;/li&gt;
+&lt;li&gt;[実行] をクリックしてツールを実行します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;統計データ コレクションのインデックスが未構築、もしくは最新でない場合は、以下のような警告が表示されます。この警告はインデックスが存在しないことを表しますが、集計自体は正常に行えます。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/customize-data/warning-about-sdcx-index.png" width="40%"&gt;
+&lt;/figure&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;ツール実行が完了すると、マップに結果レイヤーが追加されます。集計結果を確認します。&lt;/p&gt;
+&lt;ol start="9"&gt;
+&lt;li&gt;[コンテンツ] ウィンドウ上の「任意ポリゴン_カスタム変数付与」レイヤーを選択し、Ctrl + T で属性テーブルを開き、右にスクロールします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;「2020 人口 5-14歳」フィールド値が、以下の 2 つのフィールドの合算値であり、カスタム変数が正しく集計されていることが分かります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2020 人口 5-9歳&lt;/li&gt;
+&lt;li&gt;2020 人口 10-14歳&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start="10"&gt;
+&lt;li&gt;[プロジェクト] タブ → [保存] を選択し、&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/projects/save-a-project.htm" target="_blank"&gt;プロジェクトを保存&lt;/a&gt;します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1&gt;まとめ&lt;/h1&gt;&lt;p&gt;この演習では、BA データを使用して統計データ コレクションを作成しました。さらに、カスタムの計算式を設定することで、既存のデータには無いカスタム変数を作成し、その変数を任意の商圏に集計しました。
+また、以下のツールの操作を学びました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[統計データ コレクションの作成] ツール&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>独自データからカスタム変数を作成</title><link>/business-analyst/pro/tutorial/customize-data/how-to-use-unique-data/</link><pubDate>Fri, 19 Nov 2021 00:00:00 +0900</pubDate><guid>/business-analyst/pro/tutorial/customize-data/how-to-use-unique-data/</guid><description>
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;本演習にかかる時間はおよそ 30 分です。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;区画別に集計した顧客数や売上高など、独自の数値情報を持つデータを使用して、カスタム変数として登録する方法を学びます。本演習では、千葉県内の自社顧客データを用いて、町丁・字等ポリゴンを作成し、それを独自変数として登録します。&lt;/p&gt;
+&lt;h2&gt;演習用データのダウンロード&lt;span class="hx:absolute hx:-mt-20" id="演習用データのダウンロード"&gt;&lt;/span&gt;
+&lt;a href="#%e6%bc%94%e7%bf%92%e7%94%a8%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href="https://www.arcgis.com/home/item.html?id=9c5537b16711429289c90422b55229fa" target="_blank"&gt;BA Pro チュートリアル-カスタマイズ プロジェクトパッケージ&lt;/a&gt;をダウンロードします。&lt;/li&gt;
+&lt;li&gt;ダウンロードした「BAProチュートリアル-カスタマイズ.ppkx」を開き、[演習2] マップを開きます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;プロジェクト パッケージを開いた際、[プロジェクト アイテムの修復] メッセージが表示された場合は [OK] をクリックして閉じてください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;a href="/business-analyst/pro/tutorial/prepare-for-tutorial/#business-analyst-%e3%83%87%e3%83%bc%e3%82%bf-%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%ae%e8%a8%ad%e5%ae%9a"&gt;Business Analyst データ ソース&lt;/a&gt; が最新のデータセットに設定されていることをご確認ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;売上情報を含むテーブル データの確認&lt;span class="hx:absolute hx:-mt-20" id="売上情報を含むテーブル-データの確認"&gt;&lt;/span&gt;
+&lt;a href="#%e5%a3%b2%e4%b8%8a%e6%83%85%e5%a0%b1%e3%82%92%e5%90%ab%e3%82%80%e3%83%86%e3%83%bc%e3%83%96%e3%83%ab-%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e7%a2%ba%e8%aa%8d" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;プロジェクトパッケージはデフォルト設定では、以下の場所に展開されます。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;C:\Users&amp;lt;ユーザー名&amp;gt;\Documents\ArcGIS\Packages\BAProチュートリアル-カスタマイズ_xxxx&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;統計データ コレクションのデータ ソースとなる、町丁・字等別に集計した顧客数・売上情報を含むテーブル データをマップに追加します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;[マップ] タブ → [レイヤー] グループの [データの追加] をクリックします。&lt;/li&gt;
+&lt;li&gt;[参照] を選択して、[データの追加] ダイアログを開きます。&lt;/li&gt;
+&lt;li&gt;演習データ内の Excel シートを選択し、[OK] をクリックします。
+&lt;blockquote&gt;
+&lt;p&gt;&amp;lt;上記展開先&amp;gt;\commondata\userdata\町丁字等別売上情報.xlsx\町丁字等別売上情報$&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;Excel の読み込みができない場合、&lt;a href="/business-analyst/pro/tutorial/prepare-for-tutorial/"&gt;事前準備&lt;/a&gt;をご確認ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;[フォルダー] に上記展開先のパスが接続されているため、[フォルダー] から Excel ファイルに接続することができます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;[コンテンツ] ウィンドウに「町丁字等別売上情報$」が追加されます。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;「町丁字等別売上情報$」を右クリック → [開く] をクリックし、テーブルを開きます。&lt;/li&gt;
+&lt;li&gt;テーブルに、町丁・字等の区画 ID や区画名、顧客数や売上高などの売上情報が含まれることを確認し、テーブルを閉じます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/customize-data/create-custom-variables/confirm-a-table.png"&gt;
+&lt;/figure&gt;
+&lt;h2&gt;町丁・字等ポリゴンの作成&lt;span class="hx:absolute hx:-mt-20" id="町丁字等ポリゴンの作成"&gt;&lt;/span&gt;
+&lt;a href="#%e7%94%ba%e4%b8%81%e5%ad%97%e7%ad%89%e3%83%9d%e3%83%aa%e3%82%b4%e3%83%b3%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;追加したテーブル データを使用して、統計データ コレクションのデータ ソースとなる町丁・字等ポリゴンを作成します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;[解析] タブ → [ジオプロセシング] グループの [ツール] をクリックし、[ジオプロセシング] ウィンドウの検索ボックスに「標準区画商圏」と入力します。&lt;/li&gt;
+&lt;li&gt;検索結果の中の [&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/generate-standard-geography-trade-areas.htm" target="_blank"&gt;標準区画商圏の生成 (Generate Standard Geography Trade Areas)&lt;/a&gt;] ツールをクリックして開きます。&lt;/li&gt;
+&lt;li&gt;ツールが開いたら、以下のように設定して [実行] をクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;パラメーター&lt;/th&gt;
+&lt;th&gt;設定値&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;区画レベル&lt;/td&gt;
+&lt;td&gt;町丁・字等 (JP.Blocks)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;出力フィーチャクラス&lt;/td&gt;
+&lt;td&gt;町丁字等別売上情報&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;入力タイプ&lt;/td&gt;
+&lt;td&gt;テーブル&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;区画 ID テーブル&lt;/td&gt;
+&lt;td&gt;町丁字等別売上情報$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;区画キー フィールド&lt;/td&gt;
+&lt;td&gt;リンクコード&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;[入力タイプ] パラメーターを「テーブル」に設定した場合、[区画キー フィールド] はテキスト型である必要があります。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;[標準区画商圏の生成] ツールでは、上記のように区画 ID を含むテーブルを基に商圏を作成できるほか、区画リストから、任意の区画を選択して商圏を作成することもできます。&lt;br/&gt;
+その場合は、[入力タイプ] パラメーターを「リスト」に設定し、[区画 ID リスト] パラメーターの [参照] ボタンから [区画の選択] ダイアログを開き、追加したい区画を選択します。&lt;br/&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/customer-analysis/select-geography-from-list.png"&gt;
+&lt;/figure&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;ツールが完了したら、マップ上に町丁・字等ポリゴンが追加されます。属性テーブルを開いて、集計結果を確認します。&lt;/p&gt;
+&lt;ol start="4"&gt;
+&lt;li&gt;[コンテンツ] ウィンドウの「町丁字等別売上情報」を右クリック → [属性テーブル] をクリックします。&lt;/li&gt;
+&lt;li&gt;属性テーブルが開いたら右にスクロールし、先ほど確認した顧客数や売上数等の情報を、出力されたポリゴンが持っていることを確認し、テーブルを閉じます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;これで、統計データ コレクションを作成するためのデータ ソースを作成することができました。&lt;/p&gt;
+&lt;h2&gt;統計データ コレクションの作成&lt;span class="hx:absolute hx:-mt-20" id="統計データ-コレクションの作成"&gt;&lt;/span&gt;
+&lt;a href="#%e7%b5%b1%e8%a8%88%e3%83%87%e3%83%bc%e3%82%bf-%e3%82%b3%e3%83%ac%e3%82%af%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;統計データ コレクションのデータ ソースとして指定できるのは、数値情報を持つポリゴン データのみです。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;次に、作成した町丁・字等ポリゴンを使用して統計データ コレクションを作成し、カスタム変数を登録します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;[解析] タブ → [ワークフロー] グループの [ビジネス解析] ボタン → [新しい統計データ コレクション] をクリックします。&lt;/li&gt;
+&lt;li&gt;[統計データ コレクションの作成] ダイアログで、[入力データ] のドロップダウンをクリックし、[町丁字等別売上情報] を選択します。&lt;/li&gt;
+&lt;li&gt;[統計データ コレクションの出力] で作成する統計データ コレクションの名前および保存先を確認し、[作成] をクリックします。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;[SDCX の編集] ダイアログが開きます。このダイアログ内で、変数のカテゴリや集計方法等の詳細な設定を行うことができます。&lt;/p&gt;
+&lt;ol start="4"&gt;
+&lt;li&gt;[変数] タブを開き、以下のフィールド名の行にのみチェックが入っていることを確認します。
+&lt;ul&gt;
+&lt;li&gt;売上高&lt;/li&gt;
+&lt;li&gt;売上数&lt;/li&gt;
+&lt;li&gt;顧客数&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;本演習では独自データが持つフィールドのみ使用しますが、[変数の追加] から、Business Analyst ローカル データセットに搭載の変数を追加できます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol start="5"&gt;
+&lt;li&gt;チェックを入れた変数のエイリアスやカテゴリなどを、以下の通りに設定します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;フィールド名&lt;/th&gt;
+&lt;th style="text-align: left"&gt;エイリアス&lt;/th&gt;
+&lt;th style="text-align: left"&gt;カテゴリ&lt;/th&gt;
+&lt;th style="text-align: left"&gt;年代&lt;/th&gt;
+&lt;th style="text-align: left"&gt;精度&lt;/th&gt;
+&lt;th style="text-align: left"&gt;フィールド形式&lt;/th&gt;
+&lt;th style="text-align: left"&gt;サマリー タイプ&lt;/th&gt;
+&lt;th style="text-align: left"&gt;加重&lt;/th&gt;
+&lt;th style="text-align: left"&gt;割り当て方法&lt;/th&gt;
+&lt;th style="text-align: left"&gt;出力タイプ&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;売上高&lt;/td&gt;
+&lt;td style="text-align: left"&gt;売上高&lt;/td&gt;
+&lt;td style="text-align: left"&gt;売上&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;1&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Currency&lt;/td&gt;
+&lt;td style="text-align: left"&gt;合計&lt;/td&gt;
+&lt;td style="text-align: left"&gt;なし&lt;/td&gt;
+&lt;td style="text-align: left"&gt;GEOM&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Double&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;売上数&lt;/td&gt;
+&lt;td style="text-align: left"&gt;売上数&lt;/td&gt;
+&lt;td style="text-align: left"&gt;売上&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;1&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Count&lt;/td&gt;
+&lt;td style="text-align: left"&gt;合計&lt;/td&gt;
+&lt;td style="text-align: left"&gt;なし&lt;/td&gt;
+&lt;td style="text-align: left"&gt;GEOM&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Double&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;顧客数&lt;/td&gt;
+&lt;td style="text-align: left"&gt;顧客数&lt;/td&gt;
+&lt;td style="text-align: left"&gt;顧客&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Count&lt;/td&gt;
+&lt;td style="text-align: left"&gt;合計&lt;/td&gt;
+&lt;td style="text-align: left"&gt;なし&lt;/td&gt;
+&lt;td style="text-align: left"&gt;GEOM&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Double&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;[変数] タブで設定できる各項目の定義は、以下の通りです。&lt;br/&gt;&lt;/p&gt;
+&lt;div class="info-table"&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;項目&lt;/th&gt;
+&lt;th style="text-align: left"&gt;説明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;フィールド名&lt;/td&gt;
+&lt;td style="text-align: left"&gt;フィールドの名前。編集はできません。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;エイリアス&lt;/td&gt;
+&lt;td style="text-align: left"&gt;データ ブラウザーで表示される見かけ上の名称。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;カテゴリ&lt;/td&gt;
+&lt;td style="text-align: left"&gt;変数のカテゴリ。変数が多い場合に設定すると、変数の検索時に見つけやすくなります。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;年代&lt;/td&gt;
+&lt;td style="text-align: left"&gt;変数の年代を定義します。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;精度&lt;/td&gt;
+&lt;td style="text-align: left"&gt;変数の集計時にどの小数点まで算出するかを定義します。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;フィールド形式&lt;/td&gt;
+&lt;td style="text-align: left"&gt;変数の形式を定義します。数字 (Count)、割合 (Precent)、通貨 (Currency) のいずれかを指定できます。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;サマリー タイプ&lt;/td&gt;
+&lt;td style="text-align: left"&gt;変数の集計方法を定義します。合計と平均のいずれかを指定できます。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;加重&lt;/td&gt;
+&lt;td style="text-align: left"&gt;サマリー タイプを「平均」にした場合に指定します。たとえば「顧客あたりの平均売上」を変数に設定する場合、「顧客数」を加重に設定します。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;割り当て方法&lt;/td&gt;
+&lt;td style="text-align: left"&gt;変数の集計時に使用される加重按分の方法を定義します。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;出力タイプ&lt;/td&gt;
+&lt;td style="text-align: left"&gt;フィールドの&lt;a href="https://pro.arcgis.com/ja/pro-app/2.7/help/data/geodatabases/overview/arcgis-field-data-types.htm" target="_blank"&gt;データ タイプ&lt;/a&gt;。編集はできません。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol start="6"&gt;
+&lt;li&gt;[プロパティ] タブを開き、以下の通りに設定します。
+&lt;ul&gt;
+&lt;li&gt;タイトル: 町丁字等別売上情報&lt;/li&gt;
+&lt;li&gt;アイコン: アイコン ボタンをクリックし、[その他] カテゴリの中から $ マークを選択します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[OK] をクリックしてダイアログを閉じます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;統計データ コレクション (*.sdcx ファイル) に対してインデックスを作成することで、集計のパフォーマンスが向上します。&lt;br/&gt;
+*.sdcx ファイルを参照しているフィーチャクラスや *.sdcx ファイル自体に変更を加えた場合には、その都度インデックスを再構築する必要があります。構築は、[&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/generate-sdcx-index.htm" target="_blank"&gt;SDCX インデックスの生成 (Generate SDCX Index)&lt;/a&gt;] ツールからも実行できます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;商圏にカスタム変数を集計する&lt;span class="hx:absolute hx:-mt-20" id="商圏にカスタム変数を集計する"&gt;&lt;/span&gt;
+&lt;a href="#%e5%95%86%e5%9c%8f%e3%81%ab%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%a0%e5%a4%89%e6%95%b0%e3%82%92%e9%9b%86%e8%a8%88%e3%81%99%e3%82%8b" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;商圏に作成したカスタム変数と標準変数を集計します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;[解析] タブ → [ワークフロー] グループの [ビジネス解析] → [クイック商圏] をクリックします。&lt;/li&gt;
+&lt;li&gt;[場所検索] タブで、検索ボックスに「西船橋駅」と入力し、Enter キーを押します。&lt;/li&gt;
+&lt;li&gt;検索結果が表示されるので、選択して [次へ] をクリックします。&lt;/li&gt;
+&lt;li&gt;[リング商圏] タブで、以下のように設定し、[次へ] をクリックします。
+&lt;ul&gt;
+&lt;li&gt;半径: 「1」、「2」と入力します。（※ 3 つ目は空欄にします。）&lt;/li&gt;
+&lt;li&gt;ディゾルブ オプション: ディスク&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[情報付加] を有効にし、[+] ボタンをクリックします。&lt;/li&gt;
+&lt;li&gt;[人口] カテゴリー → [人口総数] → [2020 人口総数 (国勢調査)] にチェックを入れます。&lt;/li&gt;
+&lt;li&gt;[カスタム データ] ノードを選択し、「町丁字等別売上情報」カテゴリを開き、[顧客数] にチェックを入れて、[OK] をクリックします。&lt;/li&gt;
+&lt;li&gt;[次へ] を選択し、[完了] をクリックしてツールを実行します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;マップに、西船橋駅を中心とする 1km/2km のリング商圏が生成され、指定した変数が集計したレイヤーが追加されます。結果の詳細を確認します。&lt;/p&gt;
+&lt;ol start="9"&gt;
+&lt;li&gt;[コンテンツ] ウィンドウ上の「情報付加バッファー」レイヤーを右クリック → [属性テーブル] を開きます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;属性テーブルは、[コンテンツ] ウィンドウで対象のレイヤーをクリックして選択した状態で、Ctrl + T でも開くことができます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ol start="10"&gt;
+&lt;li&gt;属性テーブルを右側にスクロールして、人口総数と顧客数が同時に集計できていることを確認します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;このような分析を通じて、市場ポテンシャルを確認しつつ、既存店への影響を評価することができます。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/customize-data/result-enrich-layer2.png"&gt;
+&lt;/figure&gt;
+&lt;ol start="11"&gt;
+&lt;li&gt;[プロジェクト] タブ → [保存] を選択し、&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/projects/save-a-project.htm" target="_blank"&gt;プロジェクトを保存&lt;/a&gt;します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1&gt;まとめ&lt;/h1&gt;&lt;p&gt;この演習では、顧客数や売上情報を持つ町丁・字等の一覧が載ったテーブルを使用して、統計データ コレクションのデータ ソースとなる町丁・字等ポリゴンを作成しました。
 さらに、作成したポリゴンを元に統計データ コレクションを作成し、カスタム変数を利用するための各種設定を行い、商圏に対して集計を行いました。
-また、以下のツールの操作を学びました。&lt;/p>
-&lt;ul>
-&lt;li>[標準区画商圏の生成] ツール&lt;/li>
-&lt;li>[統計データ コレクションの作成] ツール&lt;/li>
-&lt;/ul>
-&lt;style class="info-table">
+また、以下のツールの操作を学びました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[標準区画商圏の生成] ツール&lt;/li&gt;
+&lt;li&gt;[統計データ コレクションの作成] ツール&lt;/li&gt;
+&lt;/ul&gt;
+&lt;style class="info-table"&gt;
 table {
 font-size: 13px;
 width: 85%;
@@ -531,4 +531,4 @@ margin-left: 15px;
 table tbody tr {
 background-color: #FFFFFF;
 }
-&lt;/style></description></item></channel></rss>
+&lt;/style&gt;</description></item></channel></rss>

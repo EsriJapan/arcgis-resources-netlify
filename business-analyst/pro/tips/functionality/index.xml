@@ -1,560 +1,560 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – 機能対応表</title><link>/business-analyst/pro/tips/functionality/</link><description>Recent content in 機能対応表 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 04 Feb 2022 00:00:00 +0900</lastBuildDate><atom:link href="/business-analyst/pro/tips/functionality/index.xml" rel="self" type="application/rss+xml"/><item><title>Business Analyst ツールバー</title><link>/business-analyst/pro/tips/functionality/ba-toolbar/</link><pubDate>Fri, 04 Feb 2022 00:00:00 +0900</pubDate><guid>/business-analyst/pro/tips/functionality/ba-toolbar/</guid><description>
-&lt;p>ArcMap 版 BA Desktop の &lt;a href="https://desktop.arcgis.com/ja/arcmap/latest/extensions/business-analyst/about-evaluate-sites.htm" target="_blank">[Business Analyst] ツールバー&lt;/a>から実行できる各種機能に対応する BA Pro の機能を説明します。&lt;/p>
-&lt;h3>分析プロジェクト&lt;span class="hx:absolute hx:-mt-20" id="分析プロジェクト">&lt;/span>
-&lt;a href="#%e5%88%86%e6%9e%90%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">機能名 (ArcMap 版)&lt;/th>
-&lt;th style="text-align: left">機能名 (BA Pro)&lt;/th>
-&lt;th style="text-align: left">関連チュートリアル&lt;/th>
-&lt;th style="text-align: left">備考&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">分析プロジェクトの作成&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/projects/create-a-new-project.htm" target="_blank">プロジェクトの作成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/prepare-for-tutorial/">事前準備&lt;/a>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3>分析範囲&lt;span class="hx:absolute hx:-mt-20" id="分析範囲">&lt;/span>
-&lt;a href="#%e5%88%86%e6%9e%90%e7%af%84%e5%9b%b2" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">機能名 (ArcMap 版)&lt;/th>
-&lt;th style="text-align: left">機能名 (BA Pro)&lt;/th>
-&lt;th style="text-align: left">関連チュートリアル&lt;/th>
-&lt;th style="text-align: left">備考&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">分析範囲の作成&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">BA Pro では、事前に分析範囲を設定するワークフローは無くなりました。&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3>店舗の設定&lt;span class="hx:absolute hx:-mt-20" id="店舗の設定">&lt;/span>
-&lt;a href="#%e5%ba%97%e8%88%97%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">機能名 (ArcMap 版)&lt;/th>
-&lt;th style="text-align: left">機能名 (BA Pro)&lt;/th>
-&lt;th style="text-align: left">関連チュートリアル&lt;/th>
-&lt;th style="text-align: left">備考&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">住所リストから店舗を登録&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/geocoding/geocode-addresses.htm" target="_blank">住所のジオコーディング&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/customer-analysis/geocoding/">顧客・店舗情報の取り込み&lt;/a>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">既存のポイント データから店舗を登録&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">地図上でポイントを入力して店舗を登録&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/data/feature-classes/create-a-feature-class.htm" target="_blank">フィーチャクラスの作成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">住所を手入力して店舗を登録&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/data/geocoding/identify-addresses-and-places-on-the-map.htm" target="_blank">マップ上の住所と場所の特定&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">XY 座標から店舗を登録&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/data-management/xy-table-to-point.htm" target="_blank">XY テーブル → ポイント&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3>顧客の設定&lt;span class="hx:absolute hx:-mt-20" id="顧客の設定">&lt;/span>
-&lt;a href="#%e9%a1%a7%e5%ae%a2%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">機能名 (ArcMap 版)&lt;/th>
-&lt;th style="text-align: left">機能名 (BA Pro)&lt;/th>
-&lt;th style="text-align: left">関連チュートリアル&lt;/th>
-&lt;th style="text-align: left">備考&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">住所リストから顧客を登録&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/geocoding/geocode-addresses.htm" target="_blank">住所のジオコーディング&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/customer-analysis/geocoding/">顧客・店舗情報の取り込み&lt;/a>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">既存のポイント データから顧客を登録&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">地図上でポイントを入力して顧客を登録&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/data/feature-classes/create-a-feature-class.htm" target="_blank">フィーチャクラスの作成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">住所を手入力して顧客を登録&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/data/geocoding/identify-addresses-and-places-on-the-map.htm" target="_blank">マップ上の住所と場所の特定&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">XY 座標から顧客を登録&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/data-management/xy-table-to-point.htm" target="_blank">XY テーブル → ポイント&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">顧客を最寄りの店舗の ID で割り当て&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/assign-customers-by-distance.htm" target="_blank">距離による顧客の割り当て&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">顧客を ID で割り当て&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">顧客を商圏によって割り当て&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3>商圏&lt;span class="hx:absolute hx:-mt-20" id="商圏">&lt;/span>
-&lt;a href="#%e5%95%86%e5%9c%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">機能名 (ArcMap 版)&lt;/th>
-&lt;th style="text-align: left">機能名 (BA Pro)&lt;/th>
-&lt;th style="text-align: left">関連チュートリアル&lt;/th>
-&lt;th style="text-align: left">備考&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">顧客分布商圏&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/customer-derived-trade-areas.htm" target="_blank">顧客分布商圏の生成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/customer-analysis/customer-derived-tradearea/">顧客分布を元にした商圏の生成&lt;/a>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">リング商圏&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/generate-trade-area-rings.htm" target="_blank">リング商圏の生成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/tradearea-analysis/analysis-for-existing-stores/">既存店舗を対象とした分析&lt;/a>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">道路距離/時間商圏&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/generate-drive-time-trade-area.htm" target="_blank">道路距離/時間商圏の生成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/huff-model/">ハフ モデル&lt;/a>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">限界値商圏&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/generate-threshold-rings.htm" target="_blank">・限界値リングの生成&lt;/a>&lt;br/>&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/generate-threshold-drive-times.htm" target="_blank">・限界値到達圏の生成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">手書きによる商圏&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/data/feature-classes/create-a-feature-class.htm" target="_blank">フィーチャクラスの作成&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">データ値依存リング&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/generate-trade-area-rings.htm" target="_blank">・リング商圏の生成&lt;/a>&lt;br/>&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/generate-drive-time-trade-area.htm" target="_blank">・道路距離/時間商圏の生成&lt;/a>&lt;br/>&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/generate-threshold-rings.htm" target="_blank">・限界値リングの生成&lt;/a>&lt;br/>&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/generate-threshold-drive-times.htm" target="_blank">・限界値到達圏の生成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">BA Pro では、リング商圏、道路距離/時間商圏、限界値リング、限界値到達圏の各ツールの [入力方法] オプションを「値」から「式」に変更し、[距離条件式] を設定することで利用可能&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">ボロノイ分割&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/analysis/create-thiessen-polygons.htm" target="_blank">ティーセン ポリゴンの作成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">ハフモデル商圏&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">リング商圏 (オーバーラップ無し)&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/generate-trade-area-rings.htm" target="_blank">リング商圏の生成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">BA Pro では、[リング商圏の生成] ツールの [オーバーラップの除去] オプションを有効にすることで利用可能&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">区画単位による商圏&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/generate-standard-geography-trade-areas.htm" target="_blank">標準区画商圏の生成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/customize-data/how-to-use-unique-data/">独自データからカスタム変数を作成&lt;/a>&lt;br/>・&lt;a href="/business-analyst/pro/tutorial/territory-design/create-territory-from-database/">現状のテリトリーを可視化&lt;/a>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">構成する区画レイヤーから商圏を作成&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/generate-geographies-from-overlay.htm" target="_blank">重複する区画ポリゴンの生成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/customer-analysis/market-penetration/">市場シェアの把握&lt;/a>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">商圏内占有率&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/calculate-market-penetration.htm" target="_blank">市場占有率の計算&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">BA Pro では、[市場占有率の計算] ツールの [商圏内占有率] オプション機能を設定することで利用可能&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">オーバーラップ測定&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/measure-cannibalization.htm" target="_blank">オーバーラップ測定&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">オーバーラップの削除&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/remove-overlap.htm" target="_blank">オーバーラップの除去&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">商圏の比較&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3>分析&lt;span class="hx:absolute hx:-mt-20" id="分析">&lt;/span>
-&lt;a href="#%e5%88%86%e6%9e%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>マーケット分析&lt;span class="hx:absolute hx:-mt-20" id="マーケット分析">&lt;/span>
-&lt;a href="#%e3%83%9e%e3%83%bc%e3%82%b1%e3%83%83%e3%83%88%e5%88%86%e6%9e%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">機能名 (ArcMap 版)&lt;/th>
-&lt;th style="text-align: left">機能名 (BA Pro)&lt;/th>
-&lt;th style="text-align: left">関連チュートリアル&lt;/th>
-&lt;th style="text-align: left">備考&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">市場のランク付け&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">BA Pro では、類似のツールとして [&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/understanding-suitability-analysis.htm" target="_blank">適合性解析&lt;/a>] ツールを利用可能&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">空間オーバーレイ&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/enrich-layer-advanced.htm" target="_blank">レイヤーへの情報付加&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/tradearea-analysis/evaluate-site/">新規候補地に対する分析 (クイック商圏)&lt;/a>&lt;br/>・&lt;a href="/business-analyst/pro/tutorial/customer-analysis/market-penetration/">市場シェアの把握&lt;/a>&lt;br/>・&lt;a href="/business-analyst/pro/tutorial/customize-data/how-to-use-existing-ba-data/">BA データからカスタム変数を作成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">ポイントの集計&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/analysis/summarize-within.htm" target="_blank">エリア内での集計&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">市場占有率の測定&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/calculate-market-penetration.htm" target="_blank">市場占有率の計算&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/customer-analysis/market-penetration/">市場シェアの把握&lt;/a>&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">潜在顧客エリアの抽出&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">グリッドの作成&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/generate-grids-and-hexagons.htm" target="_blank">グリッドと六角形の生成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h4>サイト分析&lt;span class="hx:absolute hx:-mt-20" id="サイト分析">&lt;/span>
-&lt;a href="#%e3%82%b5%e3%82%a4%e3%83%88%e5%88%86%e6%9e%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">機能名 (ArcMap 版)&lt;/th>
-&lt;th style="text-align: left">機能名 (BA Pro)&lt;/th>
-&lt;th style="text-align: left">関連チュートリアル&lt;/th>
-&lt;th style="text-align: left">備考&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">近接解析 (ロケーター レポート)&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/find-nearby-locations.htm" target="_blank">近傍の位置の検索&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">類似商圏のランク付け&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/spatial-statistics/similarity-search.htm" target="_blank">類似検索&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">顧客分布の中心を検索&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/spatial-statistics/mean-center.htm" target="_blank">・地理的中心の算出&lt;/a>&lt;br/>&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/spatial-statistics/median-center.htm" target="_blank">・地理的中間地点の算出&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">スパイダー ダイアグラムの作成&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/generate-desire-lines.htm" target="_blank">スパイダー ダイアグラムの生成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">距離商圏内占有率&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3>マップ&lt;span class="hx:absolute hx:-mt-20" id="マップ">&lt;/span>
-&lt;a href="#%e3%83%9e%e3%83%83%e3%83%97" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">機能名 (ArcMap 版)&lt;/th>
-&lt;th style="text-align: left">機能名 (BA Pro)&lt;/th>
-&lt;th style="text-align: left">関連チュートリアル&lt;/th>
-&lt;th style="text-align: left">備考&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">主題図&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/mapping/layer-properties/symbolize-feature-layers.htm" target="_blank">フィーチャ レイヤーのシンボル化&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/tradearea-analysis/analysis-for-existing-stores/">既存店舗を対象とした分析&lt;/a>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3>モデリング&lt;span class="hx:absolute hx:-mt-20" id="モデリング">&lt;/span>
-&lt;a href="#%e3%83%a2%e3%83%87%e3%83%aa%e3%83%b3%e3%82%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">機能名 (ArcMap 版)&lt;/th>
-&lt;th style="text-align: left">機能名 (BA Pro)&lt;/th>
-&lt;th style="text-align: left">関連チュートリアル&lt;/th>
-&lt;th style="text-align: left">備考&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">ロケーション - アロケーション&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/networks/location-allocation-analysis-layer.htm" target="_blank">ロケーション - アロケーション解析&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">BA Pro では &lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/networks/what-is-network-analyst-.htm" target="_blank">Network Analyst エクステンション&lt;/a>の機能の一つとして利用可能&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">ハフ モデル&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/huff-model.htm" target="_blank">ハフ モデル&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/huff-model/">ハフ モデル&lt;/a>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">アドバンス ハフ モデル&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/huff-model.htm" target="_blank">ハフ モデル&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/huff-model/">ハフ モデル&lt;/a>&lt;/td>
-&lt;td style="text-align: left">BA Pro では、 [ハフ モデル] ツールの [距離タイプ] オプションを設定することで利用可能&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">モデルのキャリブレーション&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/huff-model-calibration.htm" target="_blank">ハフ モデルのキャリブレーション&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">属性によるディゾルブ&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/data-management/dissolve.htm" target="_blank">ディゾルブ&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3>レポート&lt;span class="hx:absolute hx:-mt-20" id="レポート">&lt;/span>
-&lt;a href="#%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">機能名 (ArcMap 版)&lt;/th>
-&lt;th style="text-align: left">機能名 (BA Pro)&lt;/th>
-&lt;th style="text-align: left">関連チュートリアル&lt;/th>
-&lt;th style="text-align: left">備考&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">サマリー レポート&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/create-summary-reports.htm" target="_blank">サマリー レポート&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/tradearea-analysis/analysis-for-existing-stores/">既存店舗を対象とした分析&lt;/a>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">目標物ポイント レポート&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">顧客の地理的サマリー レポート&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">顧客の人口統計比較レポート&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">平均運転時間レポート&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/generate-approximate-drive-times.htm" target="_blank">近似到達圏の生成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/customer-analysis/customer-derived-tradearea/">顧客分布を元にした商圏の生成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">BA Pro では、[近似到達圏の生成] ツールの [レポートの作成] オプションを有効にすることで利用可能&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">ベンチマーク レポート&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/benchmark-comparisons.htm" target="_blank">ベンチマークの比較&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">風配図レポート&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/generate-desire-lines.htm" target="_blank">スパイダー ダイアグラムの生成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">BA Pro では、[スパイダー ダイアグラムの生成] ツールの [レポートの作成] オプションを有効にすることで利用可能&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3>目標物検索&lt;span class="hx:absolute hx:-mt-20" id="目標物検索">&lt;/span>
-&lt;a href="#%e7%9b%ae%e6%a8%99%e7%89%a9%e6%a4%9c%e7%b4%a2" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">機能名 (ArcMap 版)&lt;/th>
-&lt;th style="text-align: left">機能名 (BA Pro)&lt;/th>
-&lt;th style="text-align: left">関連チュートリアル&lt;/th>
-&lt;th style="text-align: left">備考&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">目標物検索&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/generate-points-from-business-listings.htm" target="_blank">目標物リストからポイントを生成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">[解析] タブ -&amp;gt; [ビジネス解析] 内の [目標物の検索] から検索することも可能&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3>データのカスタマイズ&lt;span class="hx:absolute hx:-mt-20" id="データのカスタマイズ">&lt;/span>
-&lt;a href="#%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%9e%e3%82%a4%e3%82%ba" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">機能名 (ArcMap 版)&lt;/th>
-&lt;th style="text-align: left">機能名 (BA Pro)&lt;/th>
-&lt;th style="text-align: left">関連チュートリアル&lt;/th>
-&lt;th style="text-align: left">備考&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">カスタム データ (BDS) の設定&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/custom-data.htm" target="_blank">統計データ コレクションの作成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/customize-data/">データのカスタマイズ&lt;/a>&lt;/td>
-&lt;td style="text-align: left">BA Pro 3.1 から ArcMap 版で作成した BDS を直接インポートできるようになりました。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">レポートのカスタマイズ&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/build-infographic-templates.htm" target="_blank">インフォグラフィックス エディター&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3>その他&lt;span class="hx:absolute hx:-mt-20" id="その他">&lt;/span>
-&lt;a href="#%e3%81%9d%e3%81%ae%e4%bb%96" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">機能名 (ArcMap 版)&lt;/th>
-&lt;th style="text-align: left">機能名 (BA Pro)&lt;/th>
-&lt;th style="text-align: left">関連チュートリアル&lt;/th>
-&lt;th style="text-align: left">備考&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">クイック商圏&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/evaluate-site.htm" target="_blank">クイック商圏&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/tradearea-analysis/evaluate-site/">新規候補地に対する分析 (クイック商圏)&lt;/a>&lt;br/>・&lt;a href="/business-analyst/pro/tutorial/customize-data/how-to-use-unique-data/">独自データからカスタム変数を作成&lt;/a>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">住所インスペクター&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/data/geocoding/identify-addresses-and-places-on-the-map.htm#ESRI_SECTION1_FD293D36DE3E4A6A9CF620A33791D7C2" target="_blank">住所インスペクター&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">インフォグラフィックス&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/mapping/navigation/infographics.htm" target="_blank">インフォグラフィックス&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">ダイナミック リング分析&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">カラーコード マップ&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/create-color-coded-layer.htm" target="_blank">カラー コード レイヤー&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/tradearea-analysis/analysis-for-existing-stores/">既存店舗を対象とした分析&lt;/a>&lt;br/>・&lt;a href="/business-analyst/pro/tutorial/huff-model/">ハフ モデル&lt;/a>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">スマートマップ サーチ&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">初期設定&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/environment-settings/ba-data-source.htm" target="_blank">ジオプロセシング環境設定 (Business Analyst)&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">ジオプロセシング ツールの [環境] タブからも設定可能&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;style>
+&lt;p&gt;ArcMap 版 BA Desktop の &lt;a href="https://desktop.arcgis.com/ja/arcmap/latest/extensions/business-analyst/about-evaluate-sites.htm" target="_blank"&gt;[Business Analyst] ツールバー&lt;/a&gt;から実行できる各種機能に対応する BA Pro の機能を説明します。&lt;/p&gt;
+&lt;h3&gt;分析プロジェクト&lt;span class="hx:absolute hx:-mt-20" id="分析プロジェクト"&gt;&lt;/span&gt;
+&lt;a href="#%e5%88%86%e6%9e%90%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;機能名 (ArcMap 版)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;機能名 (BA Pro)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;関連チュートリアル&lt;/th&gt;
+&lt;th style="text-align: left"&gt;備考&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;分析プロジェクトの作成&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/projects/create-a-new-project.htm" target="_blank"&gt;プロジェクトの作成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/prepare-for-tutorial/"&gt;事前準備&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;分析範囲&lt;span class="hx:absolute hx:-mt-20" id="分析範囲"&gt;&lt;/span&gt;
+&lt;a href="#%e5%88%86%e6%9e%90%e7%af%84%e5%9b%b2" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;機能名 (ArcMap 版)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;機能名 (BA Pro)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;関連チュートリアル&lt;/th&gt;
+&lt;th style="text-align: left"&gt;備考&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;分析範囲の作成&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;BA Pro では、事前に分析範囲を設定するワークフローは無くなりました。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;店舗の設定&lt;span class="hx:absolute hx:-mt-20" id="店舗の設定"&gt;&lt;/span&gt;
+&lt;a href="#%e5%ba%97%e8%88%97%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;機能名 (ArcMap 版)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;機能名 (BA Pro)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;関連チュートリアル&lt;/th&gt;
+&lt;th style="text-align: left"&gt;備考&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;住所リストから店舗を登録&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/geocoding/geocode-addresses.htm" target="_blank"&gt;住所のジオコーディング&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/customer-analysis/geocoding/"&gt;顧客・店舗情報の取り込み&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;既存のポイント データから店舗を登録&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;地図上でポイントを入力して店舗を登録&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/data/feature-classes/create-a-feature-class.htm" target="_blank"&gt;フィーチャクラスの作成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;住所を手入力して店舗を登録&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/data/geocoding/identify-addresses-and-places-on-the-map.htm" target="_blank"&gt;マップ上の住所と場所の特定&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;XY 座標から店舗を登録&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/data-management/xy-table-to-point.htm" target="_blank"&gt;XY テーブル → ポイント&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;顧客の設定&lt;span class="hx:absolute hx:-mt-20" id="顧客の設定"&gt;&lt;/span&gt;
+&lt;a href="#%e9%a1%a7%e5%ae%a2%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;機能名 (ArcMap 版)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;機能名 (BA Pro)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;関連チュートリアル&lt;/th&gt;
+&lt;th style="text-align: left"&gt;備考&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;住所リストから顧客を登録&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/geocoding/geocode-addresses.htm" target="_blank"&gt;住所のジオコーディング&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/customer-analysis/geocoding/"&gt;顧客・店舗情報の取り込み&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;既存のポイント データから顧客を登録&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;地図上でポイントを入力して顧客を登録&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/data/feature-classes/create-a-feature-class.htm" target="_blank"&gt;フィーチャクラスの作成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;住所を手入力して顧客を登録&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/data/geocoding/identify-addresses-and-places-on-the-map.htm" target="_blank"&gt;マップ上の住所と場所の特定&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;XY 座標から顧客を登録&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/data-management/xy-table-to-point.htm" target="_blank"&gt;XY テーブル → ポイント&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;顧客を最寄りの店舗の ID で割り当て&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/assign-customers-by-distance.htm" target="_blank"&gt;距離による顧客の割り当て&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;顧客を ID で割り当て&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;顧客を商圏によって割り当て&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;商圏&lt;span class="hx:absolute hx:-mt-20" id="商圏"&gt;&lt;/span&gt;
+&lt;a href="#%e5%95%86%e5%9c%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;機能名 (ArcMap 版)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;機能名 (BA Pro)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;関連チュートリアル&lt;/th&gt;
+&lt;th style="text-align: left"&gt;備考&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;顧客分布商圏&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/customer-derived-trade-areas.htm" target="_blank"&gt;顧客分布商圏の生成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/customer-analysis/customer-derived-tradearea/"&gt;顧客分布を元にした商圏の生成&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;リング商圏&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/generate-trade-area-rings.htm" target="_blank"&gt;リング商圏の生成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/tradearea-analysis/analysis-for-existing-stores/"&gt;既存店舗を対象とした分析&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;道路距離/時間商圏&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/generate-drive-time-trade-area.htm" target="_blank"&gt;道路距離/時間商圏の生成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/huff-model/"&gt;ハフ モデル&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;限界値商圏&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/generate-threshold-rings.htm" target="_blank"&gt;・限界値リングの生成&lt;/a&gt;&lt;br/&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/generate-threshold-drive-times.htm" target="_blank"&gt;・限界値到達圏の生成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;手書きによる商圏&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/data/feature-classes/create-a-feature-class.htm" target="_blank"&gt;フィーチャクラスの作成&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;データ値依存リング&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/generate-trade-area-rings.htm" target="_blank"&gt;・リング商圏の生成&lt;/a&gt;&lt;br/&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/generate-drive-time-trade-area.htm" target="_blank"&gt;・道路距離/時間商圏の生成&lt;/a&gt;&lt;br/&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/generate-threshold-rings.htm" target="_blank"&gt;・限界値リングの生成&lt;/a&gt;&lt;br/&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/generate-threshold-drive-times.htm" target="_blank"&gt;・限界値到達圏の生成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;BA Pro では、リング商圏、道路距離/時間商圏、限界値リング、限界値到達圏の各ツールの [入力方法] オプションを「値」から「式」に変更し、[距離条件式] を設定することで利用可能&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;ボロノイ分割&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/analysis/create-thiessen-polygons.htm" target="_blank"&gt;ティーセン ポリゴンの作成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;ハフモデル商圏&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;リング商圏 (オーバーラップ無し)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/generate-trade-area-rings.htm" target="_blank"&gt;リング商圏の生成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;BA Pro では、[リング商圏の生成] ツールの [オーバーラップの除去] オプションを有効にすることで利用可能&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;区画単位による商圏&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/generate-standard-geography-trade-areas.htm" target="_blank"&gt;標準区画商圏の生成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/customize-data/how-to-use-unique-data/"&gt;独自データからカスタム変数を作成&lt;/a&gt;&lt;br/&gt;・&lt;a href="/business-analyst/pro/tutorial/territory-design/create-territory-from-database/"&gt;現状のテリトリーを可視化&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;構成する区画レイヤーから商圏を作成&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/generate-geographies-from-overlay.htm" target="_blank"&gt;重複する区画ポリゴンの生成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/customer-analysis/market-penetration/"&gt;市場シェアの把握&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;商圏内占有率&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/calculate-market-penetration.htm" target="_blank"&gt;市場占有率の計算&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;BA Pro では、[市場占有率の計算] ツールの [商圏内占有率] オプション機能を設定することで利用可能&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;オーバーラップ測定&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/measure-cannibalization.htm" target="_blank"&gt;オーバーラップ測定&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;オーバーラップの削除&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/remove-overlap.htm" target="_blank"&gt;オーバーラップの除去&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;商圏の比較&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;分析&lt;span class="hx:absolute hx:-mt-20" id="分析"&gt;&lt;/span&gt;
+&lt;a href="#%e5%88%86%e6%9e%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;マーケット分析&lt;span class="hx:absolute hx:-mt-20" id="マーケット分析"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%9e%e3%83%bc%e3%82%b1%e3%83%83%e3%83%88%e5%88%86%e6%9e%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;機能名 (ArcMap 版)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;機能名 (BA Pro)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;関連チュートリアル&lt;/th&gt;
+&lt;th style="text-align: left"&gt;備考&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;市場のランク付け&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;BA Pro では、類似のツールとして [&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/understanding-suitability-analysis.htm" target="_blank"&gt;適合性解析&lt;/a&gt;] ツールを利用可能&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;空間オーバーレイ&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/enrich-layer-advanced.htm" target="_blank"&gt;レイヤーへの情報付加&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/tradearea-analysis/evaluate-site/"&gt;新規候補地に対する分析 (クイック商圏)&lt;/a&gt;&lt;br/&gt;・&lt;a href="/business-analyst/pro/tutorial/customer-analysis/market-penetration/"&gt;市場シェアの把握&lt;/a&gt;&lt;br/&gt;・&lt;a href="/business-analyst/pro/tutorial/customize-data/how-to-use-existing-ba-data/"&gt;BA データからカスタム変数を作成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;ポイントの集計&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/analysis/summarize-within.htm" target="_blank"&gt;エリア内での集計&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;市場占有率の測定&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/calculate-market-penetration.htm" target="_blank"&gt;市場占有率の計算&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/customer-analysis/market-penetration/"&gt;市場シェアの把握&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;潜在顧客エリアの抽出&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;グリッドの作成&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/generate-grids-and-hexagons.htm" target="_blank"&gt;グリッドと六角形の生成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4&gt;サイト分析&lt;span class="hx:absolute hx:-mt-20" id="サイト分析"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b5%e3%82%a4%e3%83%88%e5%88%86%e6%9e%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;機能名 (ArcMap 版)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;機能名 (BA Pro)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;関連チュートリアル&lt;/th&gt;
+&lt;th style="text-align: left"&gt;備考&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;近接解析 (ロケーター レポート)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/find-nearby-locations.htm" target="_blank"&gt;近傍の位置の検索&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;類似商圏のランク付け&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/spatial-statistics/similarity-search.htm" target="_blank"&gt;類似検索&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;顧客分布の中心を検索&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/spatial-statistics/mean-center.htm" target="_blank"&gt;・地理的中心の算出&lt;/a&gt;&lt;br/&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/spatial-statistics/median-center.htm" target="_blank"&gt;・地理的中間地点の算出&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;スパイダー ダイアグラムの作成&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/generate-desire-lines.htm" target="_blank"&gt;スパイダー ダイアグラムの生成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;距離商圏内占有率&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;マップ&lt;span class="hx:absolute hx:-mt-20" id="マップ"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%9e%e3%83%83%e3%83%97" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;機能名 (ArcMap 版)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;機能名 (BA Pro)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;関連チュートリアル&lt;/th&gt;
+&lt;th style="text-align: left"&gt;備考&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;主題図&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/mapping/layer-properties/symbolize-feature-layers.htm" target="_blank"&gt;フィーチャ レイヤーのシンボル化&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/tradearea-analysis/analysis-for-existing-stores/"&gt;既存店舗を対象とした分析&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;モデリング&lt;span class="hx:absolute hx:-mt-20" id="モデリング"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%a2%e3%83%87%e3%83%aa%e3%83%b3%e3%82%b0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;機能名 (ArcMap 版)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;機能名 (BA Pro)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;関連チュートリアル&lt;/th&gt;
+&lt;th style="text-align: left"&gt;備考&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;ロケーション - アロケーション&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/networks/location-allocation-analysis-layer.htm" target="_blank"&gt;ロケーション - アロケーション解析&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;BA Pro では &lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/networks/what-is-network-analyst-.htm" target="_blank"&gt;Network Analyst エクステンション&lt;/a&gt;の機能の一つとして利用可能&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;ハフ モデル&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/huff-model.htm" target="_blank"&gt;ハフ モデル&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/huff-model/"&gt;ハフ モデル&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;アドバンス ハフ モデル&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/huff-model.htm" target="_blank"&gt;ハフ モデル&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/huff-model/"&gt;ハフ モデル&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;BA Pro では、 [ハフ モデル] ツールの [距離タイプ] オプションを設定することで利用可能&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;モデルのキャリブレーション&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/huff-model-calibration.htm" target="_blank"&gt;ハフ モデルのキャリブレーション&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;属性によるディゾルブ&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/data-management/dissolve.htm" target="_blank"&gt;ディゾルブ&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;レポート&lt;span class="hx:absolute hx:-mt-20" id="レポート"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;機能名 (ArcMap 版)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;機能名 (BA Pro)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;関連チュートリアル&lt;/th&gt;
+&lt;th style="text-align: left"&gt;備考&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;サマリー レポート&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/create-summary-reports.htm" target="_blank"&gt;サマリー レポート&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/tradearea-analysis/analysis-for-existing-stores/"&gt;既存店舗を対象とした分析&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;目標物ポイント レポート&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;顧客の地理的サマリー レポート&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;顧客の人口統計比較レポート&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;平均運転時間レポート&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/generate-approximate-drive-times.htm" target="_blank"&gt;近似到達圏の生成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/customer-analysis/customer-derived-tradearea/"&gt;顧客分布を元にした商圏の生成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;BA Pro では、[近似到達圏の生成] ツールの [レポートの作成] オプションを有効にすることで利用可能&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;ベンチマーク レポート&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/benchmark-comparisons.htm" target="_blank"&gt;ベンチマークの比較&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;風配図レポート&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/business-analyst/generate-desire-lines.htm" target="_blank"&gt;スパイダー ダイアグラムの生成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;BA Pro では、[スパイダー ダイアグラムの生成] ツールの [レポートの作成] オプションを有効にすることで利用可能&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;目標物検索&lt;span class="hx:absolute hx:-mt-20" id="目標物検索"&gt;&lt;/span&gt;
+&lt;a href="#%e7%9b%ae%e6%a8%99%e7%89%a9%e6%a4%9c%e7%b4%a2" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;機能名 (ArcMap 版)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;機能名 (BA Pro)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;関連チュートリアル&lt;/th&gt;
+&lt;th style="text-align: left"&gt;備考&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;目標物検索&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/generate-points-from-business-listings.htm" target="_blank"&gt;目標物リストからポイントを生成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;[解析] タブ -&amp;gt; [ビジネス解析] 内の [目標物の検索] から検索することも可能&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;データのカスタマイズ&lt;span class="hx:absolute hx:-mt-20" id="データのカスタマイズ"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%9e%e3%82%a4%e3%82%ba" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;機能名 (ArcMap 版)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;機能名 (BA Pro)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;関連チュートリアル&lt;/th&gt;
+&lt;th style="text-align: left"&gt;備考&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;カスタム データ (BDS) の設定&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/custom-data.htm" target="_blank"&gt;統計データ コレクションの作成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/customize-data/"&gt;データのカスタマイズ&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;BA Pro 3.1 から ArcMap 版で作成した BDS を直接インポートできるようになりました。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;レポートのカスタマイズ&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/build-infographic-templates.htm" target="_blank"&gt;インフォグラフィックス エディター&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;その他&lt;span class="hx:absolute hx:-mt-20" id="その他"&gt;&lt;/span&gt;
+&lt;a href="#%e3%81%9d%e3%81%ae%e4%bb%96" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;機能名 (ArcMap 版)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;機能名 (BA Pro)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;関連チュートリアル&lt;/th&gt;
+&lt;th style="text-align: left"&gt;備考&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;クイック商圏&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/evaluate-site.htm" target="_blank"&gt;クイック商圏&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/tradearea-analysis/evaluate-site/"&gt;新規候補地に対する分析 (クイック商圏)&lt;/a&gt;&lt;br/&gt;・&lt;a href="/business-analyst/pro/tutorial/customize-data/how-to-use-unique-data/"&gt;独自データからカスタム変数を作成&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;住所インスペクター&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/data/geocoding/identify-addresses-and-places-on-the-map.htm#ESRI_SECTION1_FD293D36DE3E4A6A9CF620A33791D7C2" target="_blank"&gt;住所インスペクター&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;インフォグラフィックス&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/mapping/navigation/infographics.htm" target="_blank"&gt;インフォグラフィックス&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;ダイナミック リング分析&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;カラーコード マップ&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/create-color-coded-layer.htm" target="_blank"&gt;カラー コード レイヤー&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/tradearea-analysis/analysis-for-existing-stores/"&gt;既存店舗を対象とした分析&lt;/a&gt;&lt;br/&gt;・&lt;a href="/business-analyst/pro/tutorial/huff-model/"&gt;ハフ モデル&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;スマートマップ サーチ&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;初期設定&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/environment-settings/ba-data-source.htm" target="_blank"&gt;ジオプロセシング環境設定 (Business Analyst)&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;ジオプロセシング ツールの [環境] タブからも設定可能&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;style&gt;
 table {
 width: 100%;
 margin-right: 5px;
@@ -572,336 +572,336 @@ width: 25%;
 table th:nth-of-type(4) {
 width: 35%;
 }
-&lt;/style></description></item><item><title>テリトリー デザイン ツールバー</title><link>/business-analyst/pro/tips/functionality/td-toolbar/</link><pubDate>Fri, 04 Feb 2022 00:00:00 +0900</pubDate><guid>/business-analyst/pro/tips/functionality/td-toolbar/</guid><description>
-&lt;p>ArcMap 版 BA Desktop の &lt;a href="https://desktop.arcgis.com/ja/arcmap/latest/extensions/business-analyst/overview-of-the-territory-design-toolbar.htmm" target="_blank">[テリトリー デザイン] ツールバー&lt;/a>から実行できる各種機能に対応する BA Pro の機能を説明します。&lt;/p>
-&lt;h3>テリトリー ソリューションの作成&lt;span class="hx:absolute hx:-mt-20" id="テリトリー-ソリューションの作成">&lt;/span>
-&lt;a href="#%e3%83%86%e3%83%aa%e3%83%88%e3%83%aa%e3%83%bc-%e3%82%bd%e3%83%aa%e3%83%a5%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">機能名 (ArcMap 版)&lt;/th>
-&lt;th style="text-align: left">機能名 (BA Pro)&lt;/th>
-&lt;th style="text-align: left">関連チュートリアル&lt;/th>
-&lt;th style="text-align: left">備考&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">テリトリー ソリューションの作成&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/create-territory-solution.htm" target="_blank">テリトリー ソリューションの作成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/territory-design/create-optimal-territory/">テリトリーの自動最適化&lt;/a>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3>テリトリー ソリューションの作成方法&lt;span class="hx:absolute hx:-mt-20" id="テリトリー-ソリューションの作成方法">&lt;/span>
-&lt;a href="#%e3%83%86%e3%83%aa%e3%83%88%e3%83%aa%e3%83%bc-%e3%82%bd%e3%83%aa%e3%83%a5%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%ae%e4%bd%9c%e6%88%90%e6%96%b9%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">機能名 (ArcMap 版)&lt;/th>
-&lt;th style="text-align: left">機能名 (BA Pro)&lt;/th>
-&lt;th style="text-align: left">関連チュートリアル&lt;/th>
-&lt;th style="text-align: left">備考&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">シード ポイントからテリトリーを作成&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/add-territory-seed-points.htm" target="_blank">テリトリー シード ポイントの追加&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/territory-design/create-optimal-territory/">テリトリーの自動最適化&lt;/a>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">最適位置からテリトリーを作成&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">BA Pro では、以下のツールを設定することで利用可能&lt;br/>&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/set-balance-variables.htm" target="_blank">・バランス調整変数の設定&lt;/a>&lt;br/>&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/set-territory-attribute-constraints.htm" target="_blank">・テリトリー属性制限&lt;/a>&lt;br/>&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/set-territory-distance-parameters.htm" target="_blank">・テリトリー距離パラメーター&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">密度中心からテリトリーを作成&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">BA Pro では、以下のツールを設定することで利用可能&lt;br/>&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/set-balance-variables.htm" target="_blank">・バランス調整変数の設定&lt;/a>&lt;br/>&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/set-territory-attribute-constraints.htm" target="_blank">・テリトリー属性制限&lt;/a>&lt;br/>&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/set-territory-distance-parameters.htm" target="_blank">・テリトリー距離パラメーター&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">データベースからテリトリーをインポート&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/import-territory-solution.htm" target="_blank">テリトリー ソリューションのインポート&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">手動でテリトリーを作成&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/what-is-territory-design-.htm#ESRI_SECTION1_B806EBF9D2F14E368347BE48733FA88F" target="_blank">テリトリーの手動作成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3>テリトリー ソリューションの設定&lt;span class="hx:absolute hx:-mt-20" id="テリトリー-ソリューションの設定">&lt;/span>
-&lt;a href="#%e3%83%86%e3%83%aa%e3%83%88%e3%83%aa%e3%83%bc-%e3%82%bd%e3%83%aa%e3%83%a5%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">機能名 (ArcMap 版)&lt;/th>
-&lt;th style="text-align: left">機能名 (BA Pro)&lt;/th>
-&lt;th style="text-align: left">関連チュートリアル&lt;/th>
-&lt;th style="text-align: left">備考&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">テリトリーのバランス調整&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/set-balance-variables.htm" target="_blank">バランス調整変数の設定&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/territory-design/create-optimal-territory/">テリトリーの自動最適化&lt;/a>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">テリトリー形状の制御&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/set-territory-level-options.htm" target="_blank">テリトリー レベル オプションの設定&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">BA Pro では、[テリトリー レベル オプションの設定] ツールの [圧縮率] を設定することで利用可能&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">テリトリー属性制限の設定&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/set-territory-attribute-constraints.htm" target="_blank">テリトリー属性制限の設定&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">テリトリー距離パラメーターの設定&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/set-territory-distance-parameters.htm" target="_blank">テリトリー距離パラメーターの設定&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/territory-design/create-optimal-territory/">テリトリーの自動最適化&lt;/a>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">テリトリー ネットワーク インデックスの構築&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/set-territory-distance-parameters.htm" target="_blank">テリトリー距離パラメーターの設定&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">BA Pro では、[テリトリー距離パラメーターの設定] ツールの [ネットワーク パラメーター] の [ネットワーク インデックスの構築] オプションを有効にすることで設定可能&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">テリトリー レベルの追加&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/add-territory-level.htm" target="_blank">テリトリー レベルの追加&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">テリトリー バリアの追加&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/add-territory-barriers.htm" target="_blank">テリトリー バリアの追加&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">空間結合による変数のインポート&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/data-management/join-field.htm" target="_blank">フィールドの結合&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">属性結合による変数のインポート&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/analysis/spatial-join.htm" target="_blank">空間結合&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">テリトリーの作成範囲の設定&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/create-territory-solution.htm" target="_blank">テリトリー ソリューションの作成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">BA Pro では、ポイント ベースのテリトリーを作成する時のみ [テリトリー ソリューションの作成] ツールの [境界マスク] から設定可能&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3>テリトリー ソリューションのインポート&lt;span class="hx:absolute hx:-mt-20" id="テリトリー-ソリューションのインポート">&lt;/span>
-&lt;a href="#%e3%83%86%e3%83%aa%e3%83%88%e3%83%aa%e3%83%bc-%e3%82%bd%e3%83%aa%e3%83%a5%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%ae%e3%82%a4%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">機能名 (ArcMap 版)&lt;/th>
-&lt;th style="text-align: left">機能名 (BA Pro)&lt;/th>
-&lt;th style="text-align: left">関連チュートリアル&lt;/th>
-&lt;th style="text-align: left">備考&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">テリトリー ソリューションのインポート&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/territory-design/import-territory-solution.htm" target="_blank">テリトリー ソリューションのインポート&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/territory-design/create-territory-from-database/">現状のテリトリーを可視化&lt;/a>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3>テリトリーのエクスポート&lt;span class="hx:absolute hx:-mt-20" id="テリトリーのエクスポート">&lt;/span>
-&lt;a href="#%e3%83%86%e3%83%aa%e3%83%88%e3%83%aa%e3%83%bc%e3%81%ae%e3%82%a8%e3%82%af%e3%82%b9%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">機能名 (ArcMap 版)&lt;/th>
-&lt;th style="text-align: left">機能名 (BA Pro)&lt;/th>
-&lt;th style="text-align: left">関連チュートリアル&lt;/th>
-&lt;th style="text-align: left">備考&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">Business Analyst の商圏へエクスポート&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">テリトリー データベースのエクスポート&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">テリトリー データベースと基本単位レイヤー レコードのエクスポート&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/export-territory-solution.htm" target="_blank">テリトリー ソリューションのエクスポート&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/territory-design/create-optimal-territory/">テリトリーの自動最適化&lt;/a>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">テリトリーの境界と変数のエクスポート&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/create-territory-level-feature-classes.htm" target="_blank">テリトリー レベル フィーチャクラスの作成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">BA Pro では、[フィーチャクラス] オプションで「テリトリー境界」を選択することで、テリトリーの境界のみをエクスポート可能&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3>テリトリーの解析&lt;span class="hx:absolute hx:-mt-20" id="テリトリーの解析">&lt;/span>
-&lt;a href="#%e3%83%86%e3%83%aa%e3%83%88%e3%83%aa%e3%83%bc%e3%81%ae%e8%a7%a3%e6%9e%90" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">機能名 (ArcMap 版)&lt;/th>
-&lt;th style="text-align: left">機能名 (BA Pro)&lt;/th>
-&lt;th style="text-align: left">関連チュートリアル&lt;/th>
-&lt;th style="text-align: left">備考&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">テリトリーの解析&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/territory-design/solve-territories.htm" target="_blank">テリトリーの解析&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/territory-design/create-optimal-territory/">テリトリーの自動最適化&lt;/a>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3>テリトリーの編集&lt;span class="hx:absolute hx:-mt-20" id="テリトリーの編集">&lt;/span>
-&lt;a href="#%e3%83%86%e3%83%aa%e3%83%88%e3%83%aa%e3%83%bc%e3%81%ae%e7%b7%a8%e9%9b%86" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">機能名 (ArcMap 版)&lt;/th>
-&lt;th style="text-align: left">機能名 (BA Pro)&lt;/th>
-&lt;th style="text-align: left">関連チュートリアル&lt;/th>
-&lt;th style="text-align: left">備考&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">テリトリーのバランス再調整&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/set-balance-variables.htm" target="_blank">バランス調整変数の設定&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">テリトリーの作成&lt;/td>
-&lt;td style="text-align: left">[テリトリー ソリューション] タブの [テリトリーの編集] グループ&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">テリトリーの割り当て / 割り当て解除&lt;/td>
-&lt;td style="text-align: left">[テリトリー ソリューション] タブの [テリトリーの編集] グループ&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/territory-design/create-optimal-territory/">テリトリーの自動最適化&lt;/a>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">テリトリーの削除&lt;/td>
-&lt;td style="text-align: left">[テリトリー ソリューション] タブの [テリトリーの編集] グループ&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">テリトリーのロック&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">オーバーラップ テリトリーの解決&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3>テリトリー レポート&lt;span class="hx:absolute hx:-mt-20" id="テリトリー-レポート">&lt;/span>
-&lt;a href="#%e3%83%86%e3%83%aa%e3%83%88%e3%83%aa%e3%83%bc-%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">機能名 (ArcMap 版)&lt;/th>
-&lt;th style="text-align: left">機能名 (BA Pro)&lt;/th>
-&lt;th style="text-align: left">関連チュートリアル&lt;/th>
-&lt;th style="text-align: left">備考&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">テリトリー レポート&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/generate-territory-report.htm" target="_blank">テリトリー レポートの生成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">BA Pro では、[レポート タイプ] オプションを「テリトリー サマリー」に設定することで利用可能&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">詳細テリトリー レポート&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">テリトリー ソリューションの比較レポート&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/generate-territory-report.htm" target="_blank">テリトリー レポートの生成&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">BA Pro では、[レポート タイプ] オプションを「テリトリーの比較」に設定することで利用可能&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3>テリトリー デザイン ウィンドウ&lt;span class="hx:absolute hx:-mt-20" id="テリトリー-デザイン-ウィンドウ">&lt;/span>
-&lt;a href="#%e3%83%86%e3%83%aa%e3%83%88%e3%83%aa%e3%83%bc-%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3-%e3%82%a6%e3%82%a3%e3%83%b3%e3%83%89%e3%82%a6" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">機能名 (ArcMap 版)&lt;/th>
-&lt;th style="text-align: left">機能名 (BA Pro)&lt;/th>
-&lt;th style="text-align: left">関連チュートリアル&lt;/th>
-&lt;th style="text-align: left">備考&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">データ&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">階層&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">チャート&lt;/td>
-&lt;td style="text-align: left">[テリトリー ソリューション] タブの [視覚化] グループの [チャートの作成]&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/territory-design/create-territory-from-database/">現状のテリトリーを可視化&lt;/a>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">統計情報&lt;/td>
-&lt;td style="text-align: left">[テリトリー ソリューション] タブの [視覚化] グループの [チャートの作成]&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;style>
+&lt;/style&gt;</description></item><item><title>テリトリー デザイン ツールバー</title><link>/business-analyst/pro/tips/functionality/td-toolbar/</link><pubDate>Fri, 04 Feb 2022 00:00:00 +0900</pubDate><guid>/business-analyst/pro/tips/functionality/td-toolbar/</guid><description>
+&lt;p&gt;ArcMap 版 BA Desktop の &lt;a href="https://desktop.arcgis.com/ja/arcmap/latest/extensions/business-analyst/overview-of-the-territory-design-toolbar.htmm" target="_blank"&gt;[テリトリー デザイン] ツールバー&lt;/a&gt;から実行できる各種機能に対応する BA Pro の機能を説明します。&lt;/p&gt;
+&lt;h3&gt;テリトリー ソリューションの作成&lt;span class="hx:absolute hx:-mt-20" id="テリトリー-ソリューションの作成"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%86%e3%83%aa%e3%83%88%e3%83%aa%e3%83%bc-%e3%82%bd%e3%83%aa%e3%83%a5%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;機能名 (ArcMap 版)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;機能名 (BA Pro)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;関連チュートリアル&lt;/th&gt;
+&lt;th style="text-align: left"&gt;備考&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;テリトリー ソリューションの作成&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/create-territory-solution.htm" target="_blank"&gt;テリトリー ソリューションの作成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/territory-design/create-optimal-territory/"&gt;テリトリーの自動最適化&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;テリトリー ソリューションの作成方法&lt;span class="hx:absolute hx:-mt-20" id="テリトリー-ソリューションの作成方法"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%86%e3%83%aa%e3%83%88%e3%83%aa%e3%83%bc-%e3%82%bd%e3%83%aa%e3%83%a5%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%ae%e4%bd%9c%e6%88%90%e6%96%b9%e6%b3%95" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;機能名 (ArcMap 版)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;機能名 (BA Pro)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;関連チュートリアル&lt;/th&gt;
+&lt;th style="text-align: left"&gt;備考&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;シード ポイントからテリトリーを作成&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/add-territory-seed-points.htm" target="_blank"&gt;テリトリー シード ポイントの追加&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/territory-design/create-optimal-territory/"&gt;テリトリーの自動最適化&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;最適位置からテリトリーを作成&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;BA Pro では、以下のツールを設定することで利用可能&lt;br/&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/set-balance-variables.htm" target="_blank"&gt;・バランス調整変数の設定&lt;/a&gt;&lt;br/&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/set-territory-attribute-constraints.htm" target="_blank"&gt;・テリトリー属性制限&lt;/a&gt;&lt;br/&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/set-territory-distance-parameters.htm" target="_blank"&gt;・テリトリー距離パラメーター&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;密度中心からテリトリーを作成&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;BA Pro では、以下のツールを設定することで利用可能&lt;br/&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/set-balance-variables.htm" target="_blank"&gt;・バランス調整変数の設定&lt;/a&gt;&lt;br/&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/set-territory-attribute-constraints.htm" target="_blank"&gt;・テリトリー属性制限&lt;/a&gt;&lt;br/&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/set-territory-distance-parameters.htm" target="_blank"&gt;・テリトリー距離パラメーター&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;データベースからテリトリーをインポート&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/import-territory-solution.htm" target="_blank"&gt;テリトリー ソリューションのインポート&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;手動でテリトリーを作成&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/what-is-territory-design-.htm#ESRI_SECTION1_B806EBF9D2F14E368347BE48733FA88F" target="_blank"&gt;テリトリーの手動作成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;テリトリー ソリューションの設定&lt;span class="hx:absolute hx:-mt-20" id="テリトリー-ソリューションの設定"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%86%e3%83%aa%e3%83%88%e3%83%aa%e3%83%bc-%e3%82%bd%e3%83%aa%e3%83%a5%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;機能名 (ArcMap 版)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;機能名 (BA Pro)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;関連チュートリアル&lt;/th&gt;
+&lt;th style="text-align: left"&gt;備考&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;テリトリーのバランス調整&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/set-balance-variables.htm" target="_blank"&gt;バランス調整変数の設定&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/territory-design/create-optimal-territory/"&gt;テリトリーの自動最適化&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;テリトリー形状の制御&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/set-territory-level-options.htm" target="_blank"&gt;テリトリー レベル オプションの設定&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;BA Pro では、[テリトリー レベル オプションの設定] ツールの [圧縮率] を設定することで利用可能&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;テリトリー属性制限の設定&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/set-territory-attribute-constraints.htm" target="_blank"&gt;テリトリー属性制限の設定&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;テリトリー距離パラメーターの設定&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/set-territory-distance-parameters.htm" target="_blank"&gt;テリトリー距離パラメーターの設定&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/territory-design/create-optimal-territory/"&gt;テリトリーの自動最適化&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;テリトリー ネットワーク インデックスの構築&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/set-territory-distance-parameters.htm" target="_blank"&gt;テリトリー距離パラメーターの設定&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;BA Pro では、[テリトリー距離パラメーターの設定] ツールの [ネットワーク パラメーター] の [ネットワーク インデックスの構築] オプションを有効にすることで設定可能&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;テリトリー レベルの追加&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/add-territory-level.htm" target="_blank"&gt;テリトリー レベルの追加&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;テリトリー バリアの追加&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/add-territory-barriers.htm" target="_blank"&gt;テリトリー バリアの追加&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;空間結合による変数のインポート&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/data-management/join-field.htm" target="_blank"&gt;フィールドの結合&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;属性結合による変数のインポート&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/analysis/spatial-join.htm" target="_blank"&gt;空間結合&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;テリトリーの作成範囲の設定&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/create-territory-solution.htm" target="_blank"&gt;テリトリー ソリューションの作成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;BA Pro では、ポイント ベースのテリトリーを作成する時のみ [テリトリー ソリューションの作成] ツールの [境界マスク] から設定可能&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;テリトリー ソリューションのインポート&lt;span class="hx:absolute hx:-mt-20" id="テリトリー-ソリューションのインポート"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%86%e3%83%aa%e3%83%88%e3%83%aa%e3%83%bc-%e3%82%bd%e3%83%aa%e3%83%a5%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%ae%e3%82%a4%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;機能名 (ArcMap 版)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;機能名 (BA Pro)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;関連チュートリアル&lt;/th&gt;
+&lt;th style="text-align: left"&gt;備考&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;テリトリー ソリューションのインポート&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/territory-design/import-territory-solution.htm" target="_blank"&gt;テリトリー ソリューションのインポート&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/territory-design/create-territory-from-database/"&gt;現状のテリトリーを可視化&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;テリトリーのエクスポート&lt;span class="hx:absolute hx:-mt-20" id="テリトリーのエクスポート"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%86%e3%83%aa%e3%83%88%e3%83%aa%e3%83%bc%e3%81%ae%e3%82%a8%e3%82%af%e3%82%b9%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;機能名 (ArcMap 版)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;機能名 (BA Pro)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;関連チュートリアル&lt;/th&gt;
+&lt;th style="text-align: left"&gt;備考&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Business Analyst の商圏へエクスポート&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;テリトリー データベースのエクスポート&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;テリトリー データベースと基本単位レイヤー レコードのエクスポート&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/export-territory-solution.htm" target="_blank"&gt;テリトリー ソリューションのエクスポート&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/territory-design/create-optimal-territory/"&gt;テリトリーの自動最適化&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;テリトリーの境界と変数のエクスポート&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/create-territory-level-feature-classes.htm" target="_blank"&gt;テリトリー レベル フィーチャクラスの作成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;BA Pro では、[フィーチャクラス] オプションで「テリトリー境界」を選択することで、テリトリーの境界のみをエクスポート可能&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;テリトリーの解析&lt;span class="hx:absolute hx:-mt-20" id="テリトリーの解析"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%86%e3%83%aa%e3%83%88%e3%83%aa%e3%83%bc%e3%81%ae%e8%a7%a3%e6%9e%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;機能名 (ArcMap 版)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;機能名 (BA Pro)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;関連チュートリアル&lt;/th&gt;
+&lt;th style="text-align: left"&gt;備考&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;テリトリーの解析&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/tool-reference/territory-design/solve-territories.htm" target="_blank"&gt;テリトリーの解析&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/territory-design/create-optimal-territory/"&gt;テリトリーの自動最適化&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;テリトリーの編集&lt;span class="hx:absolute hx:-mt-20" id="テリトリーの編集"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%86%e3%83%aa%e3%83%88%e3%83%aa%e3%83%bc%e3%81%ae%e7%b7%a8%e9%9b%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;機能名 (ArcMap 版)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;機能名 (BA Pro)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;関連チュートリアル&lt;/th&gt;
+&lt;th style="text-align: left"&gt;備考&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;テリトリーのバランス再調整&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/set-balance-variables.htm" target="_blank"&gt;バランス調整変数の設定&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;テリトリーの作成&lt;/td&gt;
+&lt;td style="text-align: left"&gt;[テリトリー ソリューション] タブの [テリトリーの編集] グループ&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;テリトリーの割り当て / 割り当て解除&lt;/td&gt;
+&lt;td style="text-align: left"&gt;[テリトリー ソリューション] タブの [テリトリーの編集] グループ&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/territory-design/create-optimal-territory/"&gt;テリトリーの自動最適化&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;テリトリーの削除&lt;/td&gt;
+&lt;td style="text-align: left"&gt;[テリトリー ソリューション] タブの [テリトリーの編集] グループ&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;テリトリーのロック&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;オーバーラップ テリトリーの解決&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;テリトリー レポート&lt;span class="hx:absolute hx:-mt-20" id="テリトリー-レポート"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%86%e3%83%aa%e3%83%88%e3%83%aa%e3%83%bc-%e3%83%ac%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;機能名 (ArcMap 版)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;機能名 (BA Pro)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;関連チュートリアル&lt;/th&gt;
+&lt;th style="text-align: left"&gt;備考&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;テリトリー レポート&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/generate-territory-report.htm" target="_blank"&gt;テリトリー レポートの生成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;BA Pro では、[レポート タイプ] オプションを「テリトリー サマリー」に設定することで利用可能&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;詳細テリトリー レポート&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;テリトリー ソリューションの比較レポート&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/territory-design/generate-territory-report.htm" target="_blank"&gt;テリトリー レポートの生成&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;BA Pro では、[レポート タイプ] オプションを「テリトリーの比較」に設定することで利用可能&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;テリトリー デザイン ウィンドウ&lt;span class="hx:absolute hx:-mt-20" id="テリトリー-デザイン-ウィンドウ"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%86%e3%83%aa%e3%83%88%e3%83%aa%e3%83%bc-%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3-%e3%82%a6%e3%82%a3%e3%83%b3%e3%83%89%e3%82%a6" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;機能名 (ArcMap 版)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;機能名 (BA Pro)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;関連チュートリアル&lt;/th&gt;
+&lt;th style="text-align: left"&gt;備考&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;データ&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;階層&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;チャート&lt;/td&gt;
+&lt;td style="text-align: left"&gt;[テリトリー ソリューション] タブの [視覚化] グループの [チャートの作成]&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/territory-design/create-territory-from-database/"&gt;現状のテリトリーを可視化&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;統計情報&lt;/td&gt;
+&lt;td style="text-align: left"&gt;[テリトリー ソリューション] タブの [視覚化] グループの [チャートの作成]&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;style&gt;
 table {
 width: 100%;
 margin-right: 5px;
@@ -919,88 +919,88 @@ width: 25%;
 table th:nth-of-type(4) {
 width: 35%;
 }
-&lt;/style></description></item><item><title>商圏分析ツール</title><link>/business-analyst/pro/tips/functionality/esrijtool/</link><pubDate>Fri, 04 Feb 2022 00:00:00 +0900</pubDate><guid>/business-analyst/pro/tips/functionality/esrijtool/</guid><description>
-&lt;p>ESRIジャパンが作成した ArcMap 版の「商圏分析ツール」の各種機能に対応する BA Pro の機能を説明します。&lt;/p>
-&lt;h3>商圏分析ツール&lt;span class="hx:absolute hx:-mt-20" id="商圏分析ツール">&lt;/span>
-&lt;a href="#%e5%95%86%e5%9c%8f%e5%88%86%e6%9e%90%e3%83%84%e3%83%bc%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">機能名 (ArcMap 版)&lt;/th>
-&lt;th style="text-align: left">機能名 (BA Pro)&lt;/th>
-&lt;th style="text-align: left">関連チュートリアル&lt;/th>
-&lt;th style="text-align: left">備考&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">簡易属性検索&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/mapping/navigation/select-features-using-attributes.htm" target="_blank">属性検索&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">フィルタリング&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/mapping/layer-properties/definition-query.htm" target="_blank">定義クエリーによるフィーチャのフィルター&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">テーブル結合&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/data-management/add-join.htm" target="_blank">テーブルの結合&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">ポイント集計&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/analysis/summarize-within.htm" target="_blank">エリア内での集計&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">面積按分集計&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/analysis/apportion-polygon.htm" target="_blank">ポリゴンの按分&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">重複レイヤーの抽出&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/data-management/select-by-location-within-a-layer.htm" target="_blank">空間検索&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">テーブルのエクスポート&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/conversion/table-to-table.htm" target="_blank">テーブル → テーブル&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">フィールドの削除&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/data/geodatabases/overview/create-modify-and-delete-fields.htm#GUID-9967267C-DB55-4988-A974-0ADFB0BA4B4D" target="_blank">フィールドの削除&lt;/a>&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">重複ポイントの分散&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td style="text-align: left">-&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">クロスランキング&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/mapping/layer-properties/bivariate-colors.htm" target="_blank">2 変量色&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/customer-analysis/market-penetration/">市場シェアの把握&lt;/a>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: left">商圏レポート&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/mapping/navigation/infographics.htm" target="_blank">・インフォグラフィックス&lt;/a>&lt;br/>&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/create-summary-reports.htm" target="_blank">・サマリー レポート&lt;/a>&lt;/td>
-&lt;td style="text-align: left">・&lt;a href="/business-analyst/pro/tutorial/tradearea-analysis/analysis-for-existing-stores/">既存店舗を対象とした分析&lt;/a>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;style>
+&lt;/style&gt;</description></item><item><title>商圏分析ツール</title><link>/business-analyst/pro/tips/functionality/esrijtool/</link><pubDate>Fri, 04 Feb 2022 00:00:00 +0900</pubDate><guid>/business-analyst/pro/tips/functionality/esrijtool/</guid><description>
+&lt;p&gt;ESRIジャパンが作成した ArcMap 版の「商圏分析ツール」の各種機能に対応する BA Pro の機能を説明します。&lt;/p&gt;
+&lt;h3&gt;商圏分析ツール&lt;span class="hx:absolute hx:-mt-20" id="商圏分析ツール"&gt;&lt;/span&gt;
+&lt;a href="#%e5%95%86%e5%9c%8f%e5%88%86%e6%9e%90%e3%83%84%e3%83%bc%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;機能名 (ArcMap 版)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;機能名 (BA Pro)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;関連チュートリアル&lt;/th&gt;
+&lt;th style="text-align: left"&gt;備考&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;簡易属性検索&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/mapping/navigation/select-features-using-attributes.htm" target="_blank"&gt;属性検索&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;フィルタリング&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/mapping/layer-properties/definition-query.htm" target="_blank"&gt;定義クエリーによるフィーチャのフィルター&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;テーブル結合&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/data-management/add-join.htm" target="_blank"&gt;テーブルの結合&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;ポイント集計&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/analysis/summarize-within.htm" target="_blank"&gt;エリア内での集計&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;面積按分集計&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/analysis/apportion-polygon.htm" target="_blank"&gt;ポリゴンの按分&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;重複レイヤーの抽出&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/data-management/select-by-location-within-a-layer.htm" target="_blank"&gt;空間検索&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;テーブルのエクスポート&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/conversion/table-to-table.htm" target="_blank"&gt;テーブル → テーブル&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;フィールドの削除&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/data/geodatabases/overview/create-modify-and-delete-fields.htm#GUID-9967267C-DB55-4988-A974-0ADFB0BA4B4D" target="_blank"&gt;フィールドの削除&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;重複ポイントの分散&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td style="text-align: left"&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;クロスランキング&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/mapping/layer-properties/bivariate-colors.htm" target="_blank"&gt;2 変量色&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/customer-analysis/market-penetration/"&gt;市場シェアの把握&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;商圏レポート&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/mapping/navigation/infographics.htm" target="_blank"&gt;・インフォグラフィックス&lt;/a&gt;&lt;br/&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/tool-reference/business-analyst/create-summary-reports.htm" target="_blank"&gt;・サマリー レポート&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;・&lt;a href="/business-analyst/pro/tutorial/tradearea-analysis/analysis-for-existing-stores/"&gt;既存店舗を対象とした分析&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;style&gt;
 table {
 width: 100%;
 margin-right: 5px;
@@ -1018,4 +1018,4 @@ width: 25%;
 table th:nth-of-type(4) {
 width: 35%;
 }
-&lt;/style></description></item></channel></rss>
+&lt;/style&gt;</description></item></channel></rss>
