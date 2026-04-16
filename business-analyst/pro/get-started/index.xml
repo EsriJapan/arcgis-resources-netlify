@@ -58,14 +58,14 @@ BA Pro を利用する場合は、「&lt;a href="/pro/get-started/setup/admin/#4
 &lt;h4&gt;データセット接続機能の利用&lt;span class="hx:absolute hx:-mt-20" id="データセット接続機能の利用"&gt;&lt;/span&gt;
 &lt;a href="#%e3%83%87%e3%83%bc%e3%82%bf%e3%82%bb%e3%83%83%e3%83%88%e6%8e%a5%e7%b6%9a%e6%a9%9f%e8%83%bd%e3%81%ae%e5%88%a9%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;ArcGIS Pro を起動します。&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/installing-business-analyst-data.htm#ESRI_SECTION1_B2DA93BB1F64473BAED3FB9A0307441E" target="_blank"&gt;接続可能データセットへの接続&lt;/a&gt; の手順に沿って BA Pro 2025 年版データへの接続を行います。&lt;br/&gt;
+&lt;li&gt;&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/help/analysis/business-analyst/installing-business-analyst-data.htm#ESRI_SECTION1_B2DA93BB1F64473BAED3FB9A0307441E" target="_blank"&gt;接続可能データセットへの接続&lt;/a&gt; の手順に沿って BA Pro 20xx 年版データへの接続を行います。&lt;br/&gt;
 ※ 日本のローカル データセットはデータ ライセンスを付与せずに利用できます。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
 &lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;データセット接続に利用する &lt;strong&gt;dataset_description.xml&lt;/strong&gt; は以下のフォルダーに保存されています。&lt;br/&gt;
-&amp;lt;解凍先フォルダー&amp;gt;\JPN_EsriJapan_2025&lt;/div&gt;
+&amp;lt;解凍先フォルダー&amp;gt;\JPN_EsriJapan_20xx&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;h3&gt;ステップ３：データ ソースの確認&lt;span class="hx:absolute hx:-mt-20" id="ステップ３データ-ソースの確認"&gt;&lt;/span&gt;
@@ -74,7 +74,7 @@ BA Pro を利用する場合は、「&lt;a href="/pro/get-started/setup/admin/#4
 &lt;li&gt;ArcGIS Pro を起動します。&lt;/li&gt;
 &lt;li&gt;任意のプロジェクトを開きます。作成済みプロジェクトが無い場合、&lt;a href="https://pro.arcgis.com/ja/pro-app/latest/get-started/create-a-project.htm" target="_blank"&gt;新規で作成&lt;/a&gt;します。&lt;/li&gt;
 &lt;li&gt;[解析] タブを開き、[ビジネス解析] ボタンをクリックします。&lt;/li&gt;
-&lt;li&gt;[Business Analyst データ ソース] が &lt;strong&gt;JPN_EsriJapan_2025&lt;/strong&gt; になっていることを確認します。&lt;/li&gt;
+&lt;li&gt;[Business Analyst データ ソース] が &lt;strong&gt;JPN_EsriJapan_20xx&lt;/strong&gt; になっていることを確認します。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/preparation/ba-data-source_v36.png"
 alt="Business Analyst データ ソース"&gt;&lt;figcaption&gt;

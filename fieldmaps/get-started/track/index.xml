@@ -1,0 +1,83 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – 位置情報の利用</title><link>/fieldmaps/get-started/track/</link><description>Recent content in 位置情報の利用 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Mon, 13 Apr 2026 00:00:00 +0900</lastBuildDate><atom:link href="/fieldmaps/get-started/track/index.xml" rel="self" type="application/rss+xml"/><item><title>位置情報の利用のための準備</title><link>/fieldmaps/get-started/track/prepare/</link><pubDate>Mon, 13 Apr 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/track/prepare/</guid><description>
+&lt;p&gt;トラッキング データ (作業員の現在位置や移動履歴) を収集するために、組織の管理者が行う設定について説明します。&lt;/p&gt;
+&lt;h3&gt;位置情報の共有の有効化とライセンスの割り当て&lt;span class="hx:absolute hx:-mt-20" id="位置情報の共有の有効化とライセンスの割り当て"&gt;&lt;/span&gt;
+&lt;a href="#%e4%bd%8d%e7%bd%ae%e6%83%85%e5%a0%b1%e3%81%ae%e5%85%b1%e6%9c%89%e3%81%ae%e6%9c%89%e5%8a%b9%e5%8c%96%e3%81%a8%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9%e3%81%ae%e5%89%b2%e3%82%8a%e5%bd%93%e3%81%a6" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;ArcGIS Online の組織サイトで設定を行います。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;組織の管理者が&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/configure-location-tracking.htm"target="_blank" rel="noopener"&gt;位置情報の共有を有効化&lt;/a&gt;します。&lt;/p&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;位置情報の共有の有効化には、Mobile Worker ユーザー タイプが 1 つ以上ある組織か、組織が Location Sharing ユーザー タイプ エクステンションを購入し保有している必要があります。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;位置情報の共有を有効化した管理者は、位置情報の共有に必要なすべてのアイテム (レイヤーおよびトラック ビュー) の所有者となり、それらが格納される「位置情報の共有」フォルダーがマイ コンテンツに作成されます。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;位置情報の共有の機能を利用するユーザーに Location Sharing ユーザー タイプ エクステンション ライセンスを&lt;a href="/online/get-started/administer/license/assign/"&gt;割り当て&lt;/a&gt;ます。&lt;br&gt;
+利用するユーザーが Mobile Worker ユーザー タイプの場合は、この操作は不要です。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;トラック ビューの作成&lt;span class="hx:absolute hx:-mt-20" id="トラック-ビューの作成"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%88%e3%83%a9%e3%83%83%e3%82%af-%e3%83%93%e3%83%a5%e3%83%bc%e3%81%ae%e4%bd%9c%e6%88%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;組織の管理者がトラック ビューを作成することで、作業員の現在位置や移動履歴を確認することができます。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;アプリ ランチャーから [Track Viewer] を選択し、[ビューの作成] をクリックして、トラック ビューを作成します。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/track/prepare-launch.jpg"
+alt="トラック ビューの作成" width="700"&gt;&lt;figcaption&gt;
+&lt;p&gt;トラック ビューの作成&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;トラック ビューを作成後、設定画面でモバイル ユーザーとトラック閲覧者を追加します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;モバイル ユーザー: 位置情報を収集するユーザー&lt;/li&gt;
+&lt;li&gt;トラック閲覧者: このトラック ビューを閲覧できるユーザー (デフォルトは管理者のみ) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/track/prepare-config.jpg"
+alt="トラック ビューの構成" width="500"&gt;&lt;figcaption&gt;
+&lt;p&gt;トラック ビューの構成&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;トラック ビューを作成すると、ホスト フィーチャ レイヤー ビューと該当ビューへのアクセスを制御するグループが同時に作成されます。
+トラック ビューの設定の詳細については、&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/create-track-views.htm"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>位置情報の共有</title><link>/fieldmaps/get-started/track/tracking/</link><pubDate>Mon, 13 Apr 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/track/tracking/</guid><description>
+&lt;p&gt;トラッキング データ (作業員の現在位置や移動履歴) を収集するためのモバイル アプリの操作について説明します。&lt;/p&gt;
+&lt;h3&gt;モバイル端末で位置情報の共有&lt;span class="hx:absolute hx:-mt-20" id="モバイル端末で位置情報の共有"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%a2%e3%83%90%e3%82%a4%e3%83%ab%e7%ab%af%e6%9c%ab%e3%81%a7%e4%bd%8d%e7%bd%ae%e6%83%85%e5%a0%b1%e3%81%ae%e5%85%b1%e6%9c%89" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Field Maps モバイル アプリでトラックを共有します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Mobile Worker ユーザー タイプまたは Location Sharing ユーザー タイプ エクステンション ライセンスが割り当てられ、&lt;a href="/fieldmaps/get-started/track/prepare/"&gt;トラック ビュー&lt;/a&gt;のモバイル ユーザーに追加されたユーザーで、ArcGIS Field Maps にサイン インします。&lt;/li&gt;
+&lt;li&gt;マップの一覧ページの上部にある [マイ トラック] のトグルをオンにして、位置情報の共有期間を選択します。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/track/tracking-settings.png"
+alt="トラックの設定" width="500"&gt;&lt;figcaption&gt;
+&lt;p&gt;トラックの設定&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;移動履歴を確認するには、開いたマップの、右上の [レイヤー] をタップして、[マイ トラック] レイヤーをオンにします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/track/tracking-view.png"
+alt="トラックの表示" width="500"&gt;&lt;figcaption&gt;
+&lt;p&gt;トラックの表示&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;設定の詳細については、&lt;a href="https://doc.arcgis.com/ja/field-maps/ios/help/track.htm"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>

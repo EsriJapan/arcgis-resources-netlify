@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – 入力用データの準備</title><link>/fieldmaps/get-started/prepare/</link><description>Recent content in 入力用データの準備 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Wed, 11 Jan 2023 00:00:00 +0900</lastBuildDate><atom:link href="/fieldmaps/get-started/prepare/index.xml" rel="self" type="application/rss+xml"/><item><title>Field Maps Web アプリの利用</title><link>/fieldmaps/get-started/prepare/start/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/prepare/start/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – 入力用データの準備</title><link>/fieldmaps/get-started/prepare/</link><description>Recent content in 入力用データの準備 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Wed, 11 Jan 2023 00:00:00 +0900</lastBuildDate><atom:link href="/fieldmaps/get-started/prepare/index.xml" rel="self" type="application/rss+xml"/><item><title>Field Maps Web アプリの利用</title><link>/fieldmaps/get-started/prepare/start/</link><pubDate>Mon, 30 Mar 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/prepare/start/</guid><description>
 &lt;p&gt;ArcGIS Field Mapsには、Field Maps モバイル アプリと Field Maps Web アプリの 2 つのアプリが付属しています。&lt;br&gt;
 Field Maps Web アプリでは、モバイル作業者が Field Maps モバイル アプリで使用する Web マップおよびフィーチャ レイヤーを構成できます。&lt;/p&gt;
 &lt;h3&gt;Web アプリの起動&lt;span class="hx:absolute hx:-mt-20" id="web-アプリの起動"&gt;&lt;/span&gt;
@@ -11,33 +11,33 @@ alt="Web アプリの起動" width="450"&gt;&lt;figcaption&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;ol start="2"&gt;
-&lt;li&gt;現地調査で利用するフィーチャ レイヤーおよび 、Web マップを Web アプリ上で作成する場合は [新規マップ] をクリックし、「&lt;a href="/fieldmaps/get-started/prepare/create-map/"&gt;Web マップの作成&lt;/a&gt;」に進みます。&lt;/li&gt;
+&lt;li&gt;現地調査で利用するフィーチャ レイヤーおよび 、Web マップを Web アプリ上で作成する場合は [新しいマップ] をクリックし、「&lt;a href="/fieldmaps/get-started/prepare/create-map/"&gt;Web マップの作成&lt;/a&gt;」に進みます。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/prepare/start-newmap.png"
-alt="新規マップ" width="450"&gt;&lt;figcaption&gt;
-&lt;p&gt;新規マップ&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/prepare/start-newmap.jpg"
+alt="新しいマップ" width="450"&gt;&lt;figcaption&gt;
+&lt;p&gt;新しいマップ&lt;/p&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;Field Maps モバイル アプリでは既存の Web マップを利用することも可能です。目的の Web マップが表示されない場合は、ArcGIS Online で Web マップのアイテム ページを開き、[設定] → [アプリケーション設定] から [ArcGIS Field Maps で使用] チェックボックスをオンにしてください。&lt;/p&gt;
-&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/prepare/start-setting.png"
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;Field Maps モバイル アプリでは既存の Web マップを利用することも可能です。目的の Web マップが表示されない場合は、ArcGIS Online で Web マップのアイテム ページを開き、[設定] → [アプリケーション設定] から [ArcGIS Field Maps で使用] トグルをオンにしてください。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/prepare/start-setting.jpg"
 alt="Web マップの設定" width="450"&gt;&lt;figcaption&gt;
 &lt;p&gt;Web マップの設定&lt;/p&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Web マップの作成</title><link>/fieldmaps/get-started/prepare/create-map/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/prepare/create-map/</guid><description>
+&lt;/div&gt;</description></item><item><title>Web マップの作成</title><link>/fieldmaps/get-started/prepare/create-map/</link><pubDate>Sat, 31 Jan 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/prepare/create-map/</guid><description>
 &lt;p&gt;Field Maps Web アプリで現地調査の際に利用するフィーチャ レイヤーおよび Web マップを作成することができます。&lt;br&gt;
 Web アプリの起動方法については 「&lt;a href="/fieldmaps/get-started/prepare/start/"&gt;Field Maps Web アプリの利用&lt;/a&gt;」をご参照ください。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;フィーチャ レイヤーの作成 &lt;br&gt;
-Field Maps Web アプリを開き、[＋ 新規マップ] を選択し、[新しいマップの作成] ページで [新しいレイヤーを使用して開始] をクリックします。詳細は「&lt;a href="/fieldmaps/get-started/prepare/start/"&gt;Field Maps Web アプリの利用&lt;/a&gt;」をご参照ください。&lt;br&gt;
+Field Maps Web アプリを開き、[＋ 新しいマップ] を選択し、[新しいマップの作成] ページで [新しいレイヤーを使用して開始] をクリックします。詳細は「&lt;a href="/fieldmaps/get-started/prepare/start/"&gt;Field Maps Web アプリの利用&lt;/a&gt;」をご参照ください。&lt;br&gt;
 レイヤー名およびレイヤー タイプを設定します。また、必要に応じて [＋] ボタンをクリックしてレイヤーを追加します。現地調査に必要なレイヤーの追加が完了したら [次へ] をクリックします。&lt;/p&gt;
-&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/prepare/create-map-create-layer.png"
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/prepare/create-map-create-layer.jpg"
 alt="フィーチャ レイヤーの作成" width="1300"&gt;&lt;figcaption&gt;
 &lt;p&gt;フィーチャ レイヤーの作成&lt;/p&gt;
 &lt;/figcaption&gt;
@@ -60,6 +60,7 @@ alt="マップ テンプレートの使用" width="500"&gt;&lt;figcaption&gt;
 &lt;p&gt;レイヤー設定 &lt;br&gt;
 現地調査時に高度なデータ収集を行う場合は、以下の設定を有効化することができます。&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt; [タスクを作成し、モバイル作業者に割り当てますか？] : &lt;a href="https://doc.arcgis.com/ja/field-maps/latest/prepare-maps/prepare-tasks.htm#ESRI_SECTION1_C30D73392D964D51A8B606128A8A6E8F" target="_self"&gt;タスク&lt;/a&gt;機能を使用したい場合&lt;/li&gt;
 &lt;li&gt; [データ収集には高精度 GPS 受信機が使用されますか？] : GPS 受信機を使用して &lt;a href="https://doc.arcgis.com/ja/field-maps/latest/prepare-maps/high-accuracy-data-collection.htm#ESRI_SECTION1_C992B4FE465A4AFAB98A4972E336E808" target="_self"&gt;GPS メタデータ&lt;/a&gt;を自動収集したい場合 (ポイント レイヤーのみ)&lt;/li&gt;
 &lt;li&gt; [3D 空間がモデル化、または分析されますか？] : &lt;a href="https://support.esri.com/ja-jp/gis-dictionary/z-value" target="_self"&gt;Z 値&lt;/a&gt;を収集したい場合&lt;/li&gt;
 &lt;li&gt; [相対位置をリニア リファレンスに使用しますか？] : &lt;a href="https://support.esri.com/ja-jp/gis-dictionary/m-value" target="_self"&gt;M 値&lt;/a&gt;を収集したい場合&lt;/li&gt;
@@ -73,7 +74,7 @@ alt="フィーチャ レイヤーの設定" width="700"&gt;&lt;figcaption&gt;
 &lt;/figure&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;名前を付けてマップを保存&lt;br&gt;
+&lt;p&gt;タイトルを付けてマップを保存&lt;br&gt;
 マップおよびフィーチャ レイヤーのタイトルを設定します。また、保存先のフォルダーを指定することができます。&lt;br&gt;
 マップやレイヤー名の設定が完了したら [マップの作成] をクリックし、Web マップを作成します。&lt;/p&gt;
 &lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/prepare/create-map-title.jpg"
@@ -95,10 +96,10 @@ alt="Web アプリの構成" width="700"&gt;&lt;figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;フォームの構成については「&lt;a href="/fieldmaps/get-started/prepare/build-form/"&gt;フォームの構成&lt;/a&gt;」、その他の構成については「&lt;a href="/fieldmaps/get-started/prepare/configure-map/"&gt;Web マップの構成&lt;/a&gt;」をご参照ください。&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>フォームの構成</title><link>/fieldmaps/get-started/prepare/build-form/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/prepare/build-form/</guid><description>
+&lt;/ol&gt;</description></item><item><title>フォームの構成</title><link>/fieldmaps/get-started/prepare/build-form/</link><pubDate>Tue, 31 Mar 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/prepare/build-form/</guid><description>
 &lt;p&gt;モバイル アプリ利用者がデータの収集に使用するフォームを Web アプリで作成します。フォームを構成することで、現場でデータを収集し、調査を実施するためのフィーチャ テンプレートを作成できます。&lt;br&gt;
 Web アプリの起動方法については 「&lt;a href="/fieldmaps/get-started/prepare/start/"&gt;Field Maps Web アプリの利用&lt;/a&gt;」をご参照ください。&lt;/p&gt;
-&lt;h3&gt;フォーム ビルダーを開く&lt;br&gt;&lt;span class="hx:absolute hx:-mt-20" id="フォーム-ビルダーを開く"&gt;&lt;/span&gt;
+&lt;h3&gt;フォーム ビルダーを開く&lt;span class="hx:absolute hx:-mt-20" id="フォーム-ビルダーを開く"&gt;&lt;/span&gt;
 &lt;a href="#%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0-%e3%83%93%e3%83%ab%e3%83%80%e3%83%bc%e3%82%92%e9%96%8b%e3%81%8f" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;Field Maps Web アプリを開き [マップ] ページを表示します。フォームを構成したいマップ カードをクリックし、構成を開始します。
 &lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/prepare/build-form-map.png"
@@ -139,7 +140,7 @@ alt="フォーム ビルダーの表示" width="700"&gt;&lt;figcaption&gt;
 &lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;レイヤーまたはテーブル内のフィールドをフォームに追加して、フォーム エレメントとして構成することもできます。詳細は&lt;a href="https://doc.arcgis.com/ja/field-maps/latest/prepare-maps/configure-the-form.htm#ESRI_SECTION1_C16F930352DA41EA9B983FC6BFEFB008" target="_self"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h4&gt;基本フォーム エレメントの追加&lt;br&gt;&lt;span class="hx:absolute hx:-mt-20" id="基本フォーム-エレメントの追加"&gt;&lt;/span&gt;
+&lt;h4&gt;基本フォーム エレメントの追加&lt;span class="hx:absolute hx:-mt-20" id="基本フォーム-エレメントの追加"&gt;&lt;/span&gt;
 &lt;a href="#%e5%9f%ba%e6%9c%ac%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0-%e3%82%a8%e3%83%ac%e3%83%a1%e3%83%b3%e3%83%88%e3%81%ae%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;[フォーム エレメント] ウィンドウの [基本] セクションから任意のエレメントを選択し、キャンバスまでドラッグ アンド ドロップします。
 &lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/prepare/build-form-basic-form.png"
@@ -175,10 +176,10 @@ alt="基本フォーム エレメントのプロパティ" width="700"&gt;&lt;fi
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;[数値 - 小数] や [数値 – 整数] を利用することで値の範囲を設定できます。詳細については&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/define-attribute-lists-and-ranges.htm#ESRI_SECTION1_FA236734BF3247BF8092D80CD5523171" target="_self"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/div&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;[数値 - 小数] や [数値 - 整数] を利用することで値の範囲を設定できます。詳細については&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/define-attribute-lists-and-ranges.htm#ESRI_SECTION1_FA236734BF3247BF8092D80CD5523171" target="_self"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h4&gt;選択肢フォーム エレメントの追加&lt;br&gt;&lt;span class="hx:absolute hx:-mt-20" id="選択肢フォーム-エレメントの追加"&gt;&lt;/span&gt;
+&lt;h4&gt;選択肢フォーム エレメントの追加&lt;span class="hx:absolute hx:-mt-20" id="選択肢フォーム-エレメントの追加"&gt;&lt;/span&gt;
 &lt;a href="#%e9%81%b8%e6%8a%9e%e8%82%a2%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0-%e3%82%a8%e3%83%ac%e3%83%a1%e3%83%b3%e3%83%88%e3%81%ae%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;[フォーム エレメント] ウィンドウの [選択肢] セクションから任意のエレメントを選択し、キャンバスまでドラッグ アンド ドロップします。 &lt;br&gt;
 &lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/prepare/build-form-choice-form.png"

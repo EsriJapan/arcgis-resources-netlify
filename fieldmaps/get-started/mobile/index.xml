@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – モバイル アプリの操作</title><link>/fieldmaps/get-started/mobile/</link><description>Recent content in モバイル アプリの操作 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Tue, 11 Jan 2022 00:00:00 +0900</lastBuildDate><atom:link href="/fieldmaps/get-started/mobile/index.xml" rel="self" type="application/rss+xml"/><item><title>起動と設定</title><link>/fieldmaps/get-started/mobile/start/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/mobile/start/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – モバイル アプリの操作</title><link>/fieldmaps/get-started/mobile/</link><description>Recent content in モバイル アプリの操作 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Tue, 11 Jan 2022 00:00:00 +0900</lastBuildDate><atom:link href="/fieldmaps/get-started/mobile/index.xml" rel="self" type="application/rss+xml"/><item><title>起動と設定</title><link>/fieldmaps/get-started/mobile/start/</link><pubDate>Tue, 31 Mar 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/mobile/start/</guid><description>
 &lt;p&gt;Field Maps の起動方法と設定について説明します。&lt;/p&gt;
 &lt;h3&gt;起動&lt;span class="hx:absolute hx:-mt-20" id="起動"&gt;&lt;/span&gt;
 &lt;a href="#%e8%b5%b7%e5%8b%95" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
@@ -28,7 +28,7 @@ alt="Field Maps モバイル アプリの起動方法" width="500"&gt;&lt;figcap
 &lt;li&gt;プロファイルをタップします。&lt;/li&gt;
 &lt;li&gt;各種設定を変更し、[終了] をタップします。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/mobile/start-setting.png"
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/mobile/start-setting.jpg"
 alt="Field Maps モバイル アプリの設定" width="500"&gt;&lt;figcaption&gt;
 &lt;p&gt;Field Maps モバイル アプリの設定&lt;/p&gt;
 &lt;/figcaption&gt;
@@ -37,42 +37,67 @@ alt="Field Maps モバイル アプリの設定" width="500"&gt;&lt;figcaption&g
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
 &lt;th&gt;設定&lt;/th&gt;
 &lt;th&gt;詳細&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
+&lt;th rowspan="6"&gt;収集の設定&lt;/th&gt;
 &lt;td&gt;精度&lt;/td&gt;
-&lt;td&gt;データ取得に必須の位置精度の半径の数値を設定します。ここで設定した値より小さい場合にのみ精度が高いとみなされ、データ入力が可能になります。&lt;/td&gt;
+&lt;td&gt;
+データ取得に必須の位置精度の半径の数値を設定します。
+ここで設定した値より小さい場合にのみ精度が高いとみなされ、
+データ入力が可能になります。
+&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;GPS 平均化&lt;/td&gt;
-&lt;td&gt;GPS 測位の誤差を平均化します。1 つの位置に対して指定した数の測位ポイントを収集し、その情報を平均化して最終的な位置と精度を取得します。&lt;/td&gt;
+&lt;td&gt;
+GPS 測位の誤差を平均化します。
+1 つの位置に対して指定した数の測位ポイントを収集し、
+その情報を平均化して最終的な位置と精度を取得します。
+&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;ストリーミング&lt;/td&gt;
-&lt;td&gt;ラインやエリアを移動時に自動入力する際に、頂点を挿入する時間または距離間隔を設定します。&lt;/td&gt;
+&lt;td&gt;
+ラインやエリアを移動時に自動入力する際に、
+頂点を挿入する時間または距離間隔を設定します。
+&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;写真のアップロード サイズ&lt;/td&gt;
-&lt;td&gt;データに添付する写真のサイズを設定します。&lt;/td&gt;
+&lt;td&gt;
+データに添付する写真のサイズを設定します。
+&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;関連するタイプ&lt;/td&gt;
-&lt;td&gt;フィーチャ間のリレーションシップを設定します。&lt;/td&gt;
+&lt;td&gt;
+フィーチャ間のリレーションシップを設定します。
+&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;スナップ&lt;/td&gt;
-&lt;td&gt;ターゲットのフィーチャの頂点や線分に沿ったフィーチャの作成が可能になります。&lt;/td&gt;
+&lt;td&gt;
+ターゲットのフィーチャの頂点や線分に沿った
+フィーチャの作成が可能になります。
+&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
+&lt;th rowspan="2"&gt;位置&lt;/th&gt;
 &lt;td&gt;プロバイダー&lt;/td&gt;
-&lt;td&gt;外付け GPS を設定します。&lt;/td&gt;
+&lt;td&gt;
+外付け GPS を設定します。
+&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;プロファイル&lt;/td&gt;
-&lt;td&gt;外付け GPS の座標系を設定します。&lt;/td&gt;
+&lt;td&gt;
+外付け GPS の座標系を設定します。
+&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -184,7 +209,7 @@ alt="ストリーミング入力" width="300"&gt;&lt;figcaption&gt;
 &lt;h3&gt;6. 既存データの削除&lt;span class="hx:absolute hx:-mt-20" id="6-既存データの削除"&gt;&lt;/span&gt;
 &lt;a href="#6-%e6%97%a2%e5%ad%98%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e5%89%8a%e9%99%a4" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;削除したいフィーチャをマップ上でタップし、パネル下の […] をタップします。&lt;/p&gt;
+&lt;p&gt;削除したいフィーチャをマップ上でタップし、パネルの [その他] をタップします。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;[削除] をタップします。&lt;/p&gt;
@@ -204,53 +229,4 @@ alt="既存データの削除" width="300"&gt;&lt;figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>位置情報の共有</title><link>/fieldmaps/get-started/mobile/tracking/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/mobile/tracking/</guid><description>
-&lt;p&gt;トラッキング データ (作業員の現在位置や移動履歴) を収集するための設定とモバイル アプリの操作について説明します。&lt;/p&gt;
-&lt;h3&gt;位置情報の共有の有効化とライセンスの割り当て&lt;span class="hx:absolute hx:-mt-20" id="位置情報の共有の有効化とライセンスの割り当て"&gt;&lt;/span&gt;
-&lt;a href="#%e4%bd%8d%e7%bd%ae%e6%83%85%e5%a0%b1%e3%81%ae%e5%85%b1%e6%9c%89%e3%81%ae%e6%9c%89%e5%8a%b9%e5%8c%96%e3%81%a8%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9%e3%81%ae%e5%89%b2%e3%82%8a%e5%bd%93%e3%81%a6" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;ArcGIS Online の組織サイトで設定を行います。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;組織の管理者が&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/configure-location-tracking.htm"target="_blank" rel="noopener"&gt;位置情報の共有を有効化&lt;/a&gt;します。&lt;/p&gt;
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;位置情報の共有の有効化には、Mobile Worker ユーザー タイプが 1 つ以上ある組織か、組織が Location Sharing ユーザー タイプ エクステンションを購入し保有している必要があります。&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;位置情報の共有を有効化した管理者は、位置情報の共有に必要なすべてのアイテム (レイヤーおよびトラック ビュー) の所有者となり、それらが格納される「位置情報の共有」フォルダーがマイ コンテンツに作成されます。&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;位置情報の共有の機能を利用するユーザーに Location Sharing ユーザー タイプ エクステンション ライセンスを&lt;a href="/online/get-started/administer/license/assign/"&gt;割り当て&lt;/a&gt;ます。&lt;br&gt;
-利用するユーザーが Mobile Worker ユーザー タイプの場合は、この操作は不要です。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3&gt;位置情報の共有&lt;span class="hx:absolute hx:-mt-20" id="位置情報の共有"&gt;&lt;/span&gt;
-&lt;a href="#%e4%bd%8d%e7%bd%ae%e6%83%85%e5%a0%b1%e3%81%ae%e5%85%b1%e6%9c%89" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Field Maps モバイル アプリでトラックを収集します。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Mobile Worker ユーザー タイプまたは Location Sharing ユーザー タイプ エクステンション ライセンスが割り当てられたユーザーで、ArcGIS Field Maps にサイン インします。&lt;/li&gt;
-&lt;li&gt;マップの一覧ページの上部にある [マイ トラック] のトグルをオンにして、位置情報の共有期間を選択します。
-&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/mobile/tracking-settings.png"
-alt="トラッキングの設定" width="500"&gt;&lt;figcaption&gt;
-&lt;p&gt;トラッキングの設定&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/li&gt;
-&lt;li&gt;移動履歴を確認するには、開いたマップの、右上の [レイヤー] をタップして、[マイ トラック] レイヤーをオンにします。
-&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/mobile/tracking-view.png"
-alt="トラッキングの表示" width="500"&gt;&lt;figcaption&gt;
-&lt;p&gt;トラッキングの表示&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
-&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
-&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;設定の詳細については、&lt;a href="https://doc.arcgis.com/ja/field-maps/ios/help/track.htm"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description></item></channel></rss>
+&lt;/ol&gt;</description></item></channel></rss>
