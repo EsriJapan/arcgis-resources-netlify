@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – スタートアップ ガイド</title><link>/fieldmaps/get-started/</link><description>Recent content in スタートアップ ガイド on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Tue, 27 Jan 2026 00:00:00 +0900</lastBuildDate><atom:link href="/fieldmaps/get-started/index.xml" rel="self" type="application/rss+xml"/><item><title>はじめに</title><link>/fieldmaps/get-started/introduction/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/introduction/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – スタートアップ ガイド</title><link>/fieldmaps/get-started/</link><description>Recent content in スタートアップ ガイド on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Tue, 27 Jan 2026 00:00:00 +0900</lastBuildDate><atom:link href="/fieldmaps/get-started/index.xml" rel="self" type="application/rss+xml"/><item><title>はじめに</title><link>/fieldmaps/get-started/introduction/</link><pubDate>Mon, 30 Mar 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/introduction/</guid><description>
 &lt;p&gt;現地調査や報告業務を効率化できる &lt;a href="https://www.esrij.com/products/arcgis-field-maps/"target="_blank" rel="noopener"&gt;Field Maps&lt;/a&gt; の利用を開始する方のためのガイドです。&lt;/p&gt;
 &lt;p&gt;Field Maps は、スマートフォンなどのモバイル端末で現地調査データを入力することができる GIS アプリケーションです。併せて使用する &lt;a href="https://www.esrij.com/products/arcgis-online/"target="_blank" rel="noopener"&gt;ArcGIS Online&lt;/a&gt; (クラウド GIS) 上では、Field Maps で入力した調査結果と調査の状況をオフィス作業員がリアルタイムに確認することができます。&lt;/p&gt;
 &lt;h3&gt;利用の流れ&lt;span class="hx:absolute hx:-mt-20" id="利用の流れ"&gt;&lt;/span&gt;
@@ -15,8 +15,8 @@ alt="概要" width="450"&gt;&lt;figcaption&gt;
 &lt;h3&gt;必要なライセンス&lt;span class="hx:absolute hx:-mt-20" id="必要なライセンス"&gt;&lt;/span&gt;
 &lt;a href="#%e5%bf%85%e8%a6%81%e3%81%aa%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;ArcGIS Online の&lt;a href="https://www.esrij.com/products/user-types/"target="_blank" rel="noopener"&gt;ユーザー タイプ&lt;/a&gt;によって Field Maps で利用可能な機能が異なります。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Creator&lt;/strong&gt;、&lt;strong&gt;Professional&lt;/strong&gt;、&lt;strong&gt;Professional Plus&lt;/strong&gt;: 組織で共有されているマップの表示、編集、作成ができます。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mobile Worker&lt;/strong&gt;: 組織で共有されているマップの表示、編集、位置情報の共有ができます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Creator&lt;/strong&gt;、&lt;strong&gt;Professional&lt;/strong&gt;、&lt;strong&gt;Professional Plus&lt;/strong&gt;: マップの作成・構成、フィーチャの編集ができます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Worker&lt;/strong&gt;: 組織で共有されているマップの表示、フィーチャの編集、位置情報の共有ができます。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Viewer&lt;/strong&gt;、&lt;strong&gt;Contributor&lt;/strong&gt;: 組織で共有されているマップを表示できます。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ArcGIS Online のユーザー タイプを持っていない場合&lt;/strong&gt;: パブリックに公開されているマップを表示できます。&lt;/li&gt;
 &lt;/ul&gt;
@@ -73,12 +73,18 @@ alt="概要" width="450"&gt;&lt;figcaption&gt;
 &lt;li&gt;
 &lt;a href="/fieldmaps/get-started/mobile/edit/"&gt;データの入力・編集&lt;/a&gt;&lt;br&gt;データの入力・編集方法について説明します。
 &lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>位置情報の利用</title><link>/fieldmaps/get-started/track/</link><pubDate>Mon, 13 Apr 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/track/</guid><description>
+&lt;p&gt;Field Maps の位置情報の共有について説明します。&lt;/p&gt;
+&lt;ul class="list-disc ml-6"&gt;
 &lt;li&gt;
-&lt;a href="/fieldmaps/get-started/mobile/tracking/"&gt;位置情報の共有&lt;/a&gt;&lt;br&gt;トラッキング データを収集するための事前設定とモバイル アプリの操作を説明します。
+&lt;a href="/fieldmaps/get-started/track/prepare/"&gt;位置情報の利用のための準備&lt;/a&gt;&lt;br&gt;トラッキング データを収集するための事前設定について説明します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/fieldmaps/get-started/track/tracking/"&gt;位置情報の共有&lt;/a&gt;&lt;br&gt;トラッキング データを収集するためのモバイル アプリの操作を説明します。
 &lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>オフライン利用</title><link>/fieldmaps/get-started/offline/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/offline/</guid><description>
 &lt;p&gt;インターネットに接続できないオフライン環境でも、Field Maps を利用して調査を継続することができます。
-&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/index-offlineflow.png"
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/Index-offlineflow.jpg"
 alt="オフライン ワークフロー図" width="700"&gt;&lt;figcaption&gt;
 &lt;p&gt;オフライン ワークフロー図&lt;/p&gt;
 &lt;/figcaption&gt;

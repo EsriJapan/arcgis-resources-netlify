@@ -63,7 +63,7 @@ alt="オフラインの有効化" width="400"&gt;&lt;figcaption&gt;
 &lt;p&gt;オフラインの有効化&lt;/p&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;/p&gt;</description></item><item><title>オフライン エリアの作成</title><link>/fieldmaps/get-started/offline/offlinearea/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/offline/offlinearea/</guid><description>
+&lt;/p&gt;</description></item><item><title>オフライン エリアの作成</title><link>/fieldmaps/get-started/offline/offlinearea/</link><pubDate>Tue, 31 Mar 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/offline/offlinearea/</guid><description>
 &lt;p&gt;オフラインでマップを操作するには、オフライン用の作業エリアを切り出して利用します。作業エリアはオフライン エリアと呼び、&lt;a href="#field-maps-web-%e3%82%a2%e3%83%97%e3%83%aa%e3%82%92%e4%bd%bf%e7%94%a8%e3%81%97%e3%81%a6%e4%bd%9c%e6%88%90%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89"&gt;Web アプリで作成する方法&lt;/a&gt;と&lt;a href="#%e3%83%a2%e3%83%90%e3%82%a4%e3%83%ab-%e3%82%a2%e3%83%97%e3%83%aa%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6%e4%bd%9c%e6%88%90"&gt;モバイル アプリで作成する方法&lt;/a&gt;があります。&lt;/p&gt;
 &lt;h3&gt;Field Maps Web アプリを使用して作成、ダウンロード&lt;span class="hx:absolute hx:-mt-20" id="field-maps-web-アプリを使用して作成ダウンロード"&gt;&lt;/span&gt;
 &lt;a href="#field-maps-web-%e3%82%a2%e3%83%97%e3%83%aa%e3%82%92%e4%bd%bf%e7%94%a8%e3%81%97%e3%81%a6%e4%bd%9c%e6%88%90%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;あらかじめ作業エリアが決まっている場合や、複数の作業エリアをまとめて作成、管理したい場合に便利です。&lt;/p&gt;
@@ -111,8 +111,8 @@ alt="パッケージ" width="450"&gt;&lt;figcaption&gt;
 &lt;p&gt;インターネット接続がある環境で Field Maps モバイル アプリを開きます。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Field Maps のマップ一覧の画面で、該当のマップ名の下に [オフライン エリア] という表示を確認し、タップします。
-&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/offlinearea-mobilemap.png"
+&lt;p&gt;Field Maps のマップ一覧の画面で、該当のマップ名の下に [マップ エリア] という表示を確認し、タップします。
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/offlinearea-mobilemap.jpg"
 alt="マップ一覧" width="300"&gt;&lt;figcaption&gt;
 &lt;p&gt;マップ一覧&lt;/p&gt;
 &lt;/figcaption&gt;
@@ -163,7 +163,7 @@ alt="範囲の指定" width="250"&gt;&lt;figcaption&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;[ダウンロード エリア] をタップし、オフライン エリアを端末にダウンロードします。&lt;/p&gt;
+&lt;p&gt;[エリアのダウンロード] をタップし、オフライン エリアを端末にダウンロードします。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
@@ -177,10 +177,10 @@ alt="エリア名の変更" width="250"&gt;&lt;figcaption&gt;
 &lt;/figure&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>オフラインで参照するためのベースマップを配置</title><link>/fieldmaps/get-started/offline/deploy-basemap/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/offline/deploy-basemap/</guid><description>
-&lt;p&gt;オフライン調査のために、&lt;a href="https://doc.arcgis.com/ja/field-maps/latest/prepare-maps/configure-the-map.htm#ESRI_SECTION2_4308BA6C95E543C1B209EBEB95A00452"target="_blank" rel="noopener"&gt;オフライン ベースマップの設定&lt;/a&gt; を行うことができます。組織で共有されているタイルパッケージを使用、もしくは独自の背景データをパッケージ ファイルとして端末に配置することで Field Maps モバイル アプリ上で利用できます。ファイルは USB ケーブルやクラウド ドライブなどを介してコピーすることができ、オフライン環境でも利用可能です。パッケージ ファイルの作成には ArcGIS Pro が必要です。&lt;/p&gt;
-&lt;h3&gt;組織のタイル パッケージを利用&lt;span class="hx:absolute hx:-mt-20" id="組織のタイル-パッケージを利用"&gt;&lt;/span&gt;
-&lt;a href="#%e7%b5%84%e7%b9%94%e3%81%ae%e3%82%bf%e3%82%a4%e3%83%ab-%e3%83%91%e3%83%83%e3%82%b1%e3%83%bc%e3%82%b8%e3%82%92%e5%88%a9%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Field Maps Web アプリ上で、組織で共有されているタイル パッケージをオフライン ベースマップとして設定することができます。&lt;/p&gt;
+&lt;/div&gt;</description></item><item><title>オフラインで参照するためのベースマップを配置</title><link>/fieldmaps/get-started/offline/deploy-basemap/</link><pubDate>Mon, 13 Apr 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/offline/deploy-basemap/</guid><description>
+&lt;p&gt;オフライン調査のために、&lt;a href="https://doc.arcgis.com/ja/field-maps/latest/prepare-maps/configure-the-map.htm#ESRI_SECTION2_4308BA6C95E543C1B209EBEB95A00452"target="_blank" rel="noopener"&gt;オフライン ベースマップの設定&lt;/a&gt; を行うことができます。組織で共有されているタイルパッケージや地理空間 PDF を使用、もしくは独自の背景データを使用したパッケージ ファイルや地理空間 PDF を端末に配置することで Field Maps モバイル アプリ上で利用できます。ファイルは USB ケーブルやクラウド ドライブなどを介してコピーすることができ、オフライン環境でも利用可能です。パッケージ ファイルの作成には ArcGIS Pro が必要です。&lt;/p&gt;
+&lt;h3&gt;組織のオフライン ベースマップを利用&lt;span class="hx:absolute hx:-mt-20" id="組織のオフライン-ベースマップを利用"&gt;&lt;/span&gt;
+&lt;a href="#%e7%b5%84%e7%b9%94%e3%81%ae%e3%82%aa%e3%83%95%e3%83%a9%e3%82%a4%e3%83%b3-%e3%83%99%e3%83%bc%e3%82%b9%e3%83%9e%e3%83%83%e3%83%97%e3%82%92%e5%88%a9%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Field Maps Web アプリ上で、組織で共有されているタイル パッケージや地理空間 PDF をオフライン ベースマップとして設定することができます。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;オフライン利用を行う Web マップを &lt;a href="/fieldmaps/get-started/prepare/start/"&gt;Field Maps Web アプリで開きます&lt;/a&gt;。&lt;/p&gt;
@@ -189,16 +189,16 @@ alt="エリア名の変更" width="250"&gt;&lt;figcaption&gt;
 &lt;p&gt;[オフライン] タブをクリックします。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;[ベースマップとタイル パッケージ] セクションを開き、[組織のタイル パッケージ] を選択します。&lt;/p&gt;
+&lt;p&gt;[ベースマップとタイル パッケージ] セクションを開き、[組織のベースマップ] を選択します。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;[参照] をクリックし、組織で共有されている任意のタイルパッケージを、[タイル パッケージの選択] から選択します。&lt;/p&gt;
+&lt;p&gt;[参照] をクリックし、組織で共有されている任意のアイテムを、[ベースマップの選択] から選択します。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;[保存] をクリックします。&lt;/p&gt;
-&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/deploy-basemap-organization.png"
-alt="組織のタイル パッケージの選択" width="700"&gt;&lt;figcaption&gt;
-&lt;p&gt;組織のタイル パッケージの選択&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/deploy-basemap-organization.jpg"
+alt="組織のオフライン ベースマップの選択" width="700"&gt;&lt;figcaption&gt;
+&lt;p&gt;組織のオフライン ベースマップの選択&lt;/p&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/li&gt;
@@ -337,7 +337,7 @@ alt="Android の場合" width="550"&gt;&lt;figcaption&gt;
 &lt;li&gt;
 &lt;p&gt;通常のマップまたは&lt;a href="/fieldmaps/get-started/offline/edit-sync/"&gt;オフライン マップで利用&lt;/a&gt;します。&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>オフライン マップの操作</title><link>/fieldmaps/get-started/offline/edit-sync/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/offline/edit-sync/</guid><description>
+&lt;/ol&gt;</description></item><item><title>オフライン マップの操作</title><link>/fieldmaps/get-started/offline/edit-sync/</link><pubDate>Tue, 31 Mar 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/offline/edit-sync/</guid><description>
 &lt;p&gt;オフライン マップを Field Maps モバイル アプリで操作します。オフライン環境でデータの収集を行ったのち、インターネット接続がある環境で編集データの同期を行います。&lt;/p&gt;
 &lt;h3&gt;オフライン マップでデータの収集&lt;span class="hx:absolute hx:-mt-20" id="オフライン-マップでデータの収集"&gt;&lt;/span&gt;
 &lt;a href="#%e3%82%aa%e3%83%95%e3%83%a9%e3%82%a4%e3%83%b3-%e3%83%9e%e3%83%83%e3%83%97%e3%81%a7%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e5%8f%8e%e9%9b%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
@@ -405,7 +405,7 @@ alt="自動同期をオフ" width="400"&gt;&lt;figcaption&gt;
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
 &lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;モバイル端末上のオフライン エリアを削除したい場合、モバイル アプリから削除することができます。また、元のファイルを削除したい場合は Web アプリ上で削除します。&lt;/p&gt;
-&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/edit-sync-deletearea.png"
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/offline/edit-sync-deletearea.jpg"
 alt="オフライン エリアの削除" width="600"&gt;&lt;figcaption&gt;
 &lt;p&gt;オフライン エリアの削除&lt;/p&gt;
 &lt;/figcaption&gt;
