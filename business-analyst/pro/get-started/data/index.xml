@@ -8,7 +8,7 @@
 &lt;/div&gt;
 &lt;h2&gt;ステップ１：背景地図の入手&lt;span class="hx:absolute hx:-mt-20" id="ステップ１背景地図の入手"&gt;&lt;/span&gt;
 &lt;a href="#%e3%82%b9%e3%83%86%e3%83%83%e3%83%97%ef%bc%91%e8%83%8c%e6%99%af%e5%9c%b0%e5%9b%b3%e3%81%ae%e5%85%a5%e6%89%8b" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;「BAPro20xx年版データのダウンロードご案内」に記載された、オフライン背景地図のダウンロード用 URL にアクセスし、以下の zip ファイルをダウンロードします。&lt;/li&gt;
+&lt;li&gt;「【ESRIジャパン】ArcGIS Business Analyst Pro 20XX 年版データ リリースのお知らせ」メールに記載された、オフライン背景地図のダウンロード用 URL にアクセスし、以下の zip ファイルをダウンロードします。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
@@ -17,7 +17,7 @@
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;ol start="2"&gt;
-&lt;li&gt;ダウンロードした zip ファイルを「BAPro20xx年版データのダウンロードご案内」に記載のパスワードを用いて解凍します。&lt;/li&gt;
+&lt;li&gt;ダウンロードした zip ファイルを「【ESRIジャパン】ArcGIS Business Analyst Pro 20XX 年版データ リリースのお知らせ」メールに記載のパスワードを用いて解凍します。&lt;/li&gt;
 &lt;li&gt;解凍が終了したら、任意の場所にデータを保存します。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;ステップ2：背景地図の利用&lt;span class="hx:absolute hx:-mt-20" id="ステップ2背景地図の利用"&gt;&lt;/span&gt;

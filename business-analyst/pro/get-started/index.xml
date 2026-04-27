@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – スタートアップ ガイド</title><link>/business-analyst/pro/get-started/</link><description>Recent content in スタートアップ ガイド on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><atom:link href="/business-analyst/pro/get-started/index.xml" rel="self" type="application/rss+xml"/><item><title>アプリケーション</title><link>/business-analyst/pro/get-started/software/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/business-analyst/pro/get-started/software/</guid><description>
 &lt;p&gt;BA Pro のセットアップ方法を説明します。&lt;/p&gt;
 &lt;h2&gt;動作環境&lt;span class="hx:absolute hx:-mt-20" id="動作環境"&gt;&lt;/span&gt;
-&lt;a href="#%e5%8b%95%e4%bd%9c%e7%92%b0%e5%a2%83" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;BA Pro の動作環境は、ベースとなる ArcGIS Pro の &lt;a href="https://pro.arcgis.com/ja/pro-app/latest/get-started/arcgis-pro-system-requirements.htm" target="_blank"&gt;動作環境 &lt;/a&gt;に準じます。&lt;/p&gt;
+&lt;a href="#%e5%8b%95%e4%bd%9c%e7%92%b0%e5%a2%83" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;BA Pro の動作環境は、ベースとなる ArcGIS Pro の &lt;a href="https://pro.arcgis.com/ja/pro-app/latest/get-started/arcgis-pro-system-requirements.htm" target="_blank"&gt;動作環境&lt;/a&gt;に準じます。&lt;/p&gt;
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
@@ -46,7 +46,7 @@ BA Pro を利用する場合は、「&lt;a href="/pro/get-started/setup/admin/#4
 &lt;h2&gt;セットアップ&lt;span class="hx:absolute hx:-mt-20" id="セットアップ"&gt;&lt;/span&gt;
 &lt;a href="#%e3%82%bb%e3%83%83%e3%83%88%e3%82%a2%e3%83%83%e3%83%97" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ローカル データセットを利用するには、データをダウンロードし、設定を行う必要があります。&lt;/p&gt;
 &lt;h3&gt;ステップ１：データの入手と解凍&lt;span class="hx:absolute hx:-mt-20" id="ステップ１データの入手と解凍"&gt;&lt;/span&gt;
-&lt;a href="#%e3%82%b9%e3%83%86%e3%83%83%e3%83%97%ef%bc%91%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e5%85%a5%e6%89%8b%e3%81%a8%e8%a7%a3%e5%87%8d" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;BA Pro の新規購入時もしくは BA Pro の契約／保守有効期間中にデータが更新された場合、「&lt;strong&gt;BAPro20xx年版データのダウンロードご案内&lt;/strong&gt;」が送付されます。ドキュメントに記載された URL より、最新版データをダウンロードしてください。&lt;/p&gt;
+&lt;a href="#%e3%82%b9%e3%83%86%e3%83%83%e3%83%97%ef%bc%91%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e5%85%a5%e6%89%8b%e3%81%a8%e8%a7%a3%e5%87%8d" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;BA Pro の新規購入時もしくは BA Pro の契約／保守有効期間中にデータが更新された場合、「&lt;strong&gt;【ESRIジャパン】ArcGIS Business Analyst Pro 20xx 年版データ リリースのお知らせ&lt;/strong&gt;」メールが送付されます。メールに記載された URL より、最新版データをダウンロードしてください。&lt;/p&gt;
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
@@ -76,10 +76,7 @@ BA Pro を利用する場合は、「&lt;a href="/pro/get-started/setup/admin/#4
 &lt;li&gt;[解析] タブを開き、[ビジネス解析] ボタンをクリックします。&lt;/li&gt;
 &lt;li&gt;[Business Analyst データ ソース] が &lt;strong&gt;JPN_EsriJapan_20xx&lt;/strong&gt; になっていることを確認します。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/preparation/ba-data-source_v36.png"
-alt="Business Analyst データ ソース"&gt;&lt;figcaption&gt;
-&lt;p&gt;Business Analyst データ ソース&lt;/p&gt;
-&lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/business-analyst/pro/tutorial/preparation/ba-data-source_2026.png"&gt;
 &lt;/figure&gt;
 &lt;p&gt;以上で、BA Pro を利用するための準備が整いました。&lt;/p&gt;
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
