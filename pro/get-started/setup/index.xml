@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – セットアップ</title><link>/pro/get-started/setup/</link><description>Recent content in セットアップ on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Mon, 17 Apr 2023 00:00:00 +0900</lastBuildDate><atom:link href="/pro/get-started/setup/index.xml" rel="self" type="application/rss+xml"/><item><title>ライセンス</title><link>/pro/get-started/setup/license/</link><pubDate>Wed, 21 Jan 2026 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/license/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – セットアップ</title><link>/pro/get-started/setup/</link><description>Recent content in セットアップ on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Mon, 17 Apr 2023 00:00:00 +0900</lastBuildDate><atom:link href="/pro/get-started/setup/index.xml" rel="self" type="application/rss+xml"/><item><title>ライセンス</title><link>/pro/get-started/setup/license/</link><pubDate>Thu, 02 Jul 2026 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/license/</guid><description>
 &lt;p&gt;ArcGIS Pro のライセンス形態には以下の 3 つがあります。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#%e6%8c%87%e5%ae%9a%e3%83%a6%e3%83%bc%e3%82%b6%e3%83%bc-%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9"&gt;指定ユーザー&lt;/a&gt; (デフォルト)&lt;/li&gt;
@@ -39,8 +39,8 @@
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;ArcGIS Desktop 単独使用 (SU) ライセンスのご契約でご利用いただけた ArcGIS Pro 指定ユーザー（アドオン）を単独使用 (SU) に変換する機能は 2025 年 11 月 30 日に終了しました。
-また、ArcGIS Pro 3.7 以降では、この変換した単独使用 (SU) ライセンスは使用できません。3.6 以前では引き続きご利用いただけます。&lt;br&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;ArcGIS Desktop 単独使用 (SU) ライセンスのご契約でご利用いただけた ArcGIS Pro 指定ユーザー (アドオン) を単独使用 (SU) に変換する機能は 2025 年 11 月 30 日に終了しました。
+また、ArcGIS Pro 3.7 以降では、この変換した単独使用 (SU) ライセンスは使用できません。ArcGIS Pro 3.6 以前では引き続きご利用いただけます。&lt;br&gt;
 詳細は、&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge6089.html"target="_blank" rel="noopener"&gt;こちら&lt;/a&gt;をご確認ください。&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -51,10 +51,10 @@
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
 &lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;同時使用ライセンスは、ArcGIS Desktop ライセンスとして購入し、ArcGIS Pro を利用する場合にのみご利用いただけます。&lt;br&gt;
-なお、ArcGIS Desktop 同時使用 (CU) ライセンスのご契約でご利用いただける ArcGIS Pro 指定ユーザー ライセンスを同時使用 (CU) ライセンスに変換する機能は、2025 年 11 月 30 日をもって終了しました。また、2026 年 2 月末以前にリリースされたバージョンでは、既存の同時使用ライセンスを引き続きご利用いただけますが、2026 年 3 月 1 日以降にリリースされる ArcGIS Pro では、同時使用ライセンスはサポートされません。詳細は、&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge5996.html"target="_blank" rel="noopener"&gt;こちら&lt;/a&gt;をご確認ください。&lt;/div&gt;
+なお、ArcGIS Desktop 同時使用 (CU) ライセンスのご契約でご利用いただける ArcGIS Pro 指定ユーザー ライセンスを同時使用 (CU) ライセンスに変換する機能は、2025 年 11 月 30 日をもって終了しました。また、ArcGIS Pro 3.6 以前では、既存の同時使用ライセンスを引き続きご利用いただけますが、ArcGIS Pro 3.7 以降では、同時使用ライセンスはサポートされません。詳細は、&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge5996.html"target="_blank" rel="noopener"&gt;こちら&lt;/a&gt;をご確認ください。&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/pro/get-started/setup/license-cu.png" width="450" alt="同時使用ライセンス"&gt;</description></item><item><title>管理者の操作</title><link>/pro/get-started/setup/admin/</link><pubDate>Wed, 21 Jan 2026 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/admin/</guid><description>
+&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/pro/get-started/setup/license-cu.png" width="450" alt="同時使用ライセンス"&gt;</description></item><item><title>管理者の操作</title><link>/pro/get-started/setup/admin/</link><pubDate>Thu, 02 Jul 2026 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/admin/</guid><description>
 &lt;p&gt;ArcGIS Pro のライセンスとエクステンションは ArcGIS Online で管理されるため、ArcGIS Online の利用登録が必要です。&lt;br&gt;ArcGIS Online の登録とライセンスの割り当ては、複数のステップで構成されています。&lt;/p&gt;
 &lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/pro/get-started/setup/admin-setup.png" width="800" alt="ステップ"&gt;
 &lt;p&gt;ArcGIS Online の組織サイトを既にご利用の方は「&lt;a href="/online/get-started/setup/admin/add-members/"title="メンバーの追加"&gt;メンバーの追加&lt;/a&gt;」からライセンスの割り当てを行ってください。&lt;br&gt;各ステップの詳しい手順については、各ステップのタイトルからリンクしている ArcGIS Online スタートアップ ガイドをご参照ください。&lt;/p&gt;
@@ -69,7 +69,7 @@
 &lt;/div&gt;
 &lt;h2&gt;2. &lt;a href="/online/get-started/setup/admin/settings/"title="組織の設定"&gt;組織の設定&lt;/a&gt;&lt;span class="hx:absolute hx:-mt-20" id="2-組織の設定"&gt;&lt;/span&gt;
 &lt;a href="#2-%e7%b5%84%e7%b9%94%e3%81%ae%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ArcGIS Online では組織専用のサイトを作成することができます。&lt;br&gt;
-組織サイトの設定ページで、ショートネーム (https://○○.maps.arcgis.com の○○の URL 名を決定)、言語、地域、セキュリティを設定します。&lt;/p&gt;
+組織サイトの設定ページで、ショートネーム (https://○○.maps.arcgis.com の○○の URL 名を決定)、言語、地域、セキュリティーを設定します。&lt;/p&gt;
 &lt;h2&gt;3. &lt;a href="/online/get-started/setup/admin/add-members/"title="メンバーの追加"&gt;メンバーの追加&lt;/a&gt;&lt;span class="hx:absolute hx:-mt-20" id="3-メンバーの追加"&gt;&lt;/span&gt;
 &lt;a href="#3-%e3%83%a1%e3%83%b3%e3%83%90%e3%83%bc%e3%81%ae%e8%bf%bd%e5%8a%a0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;組織サイトの構成を設定後、管理者は ArcGIS Pro を使用したい利用者を組織サイトに招待できます。&lt;br&gt;
 組織サイトから、メンバーの [名]、[姓]、[電子メール アドレス]、サイン イン時に使用する [ユーザー名]、[ユーザー タイプ]、[ロール]、[一時パスワード] を設定します。&lt;/p&gt;
@@ -97,4 +97,19 @@ ArcGIS Online の組織サイトの管理者から招待を受けたメンバー
 &lt;h2&gt;ArcGIS Pro の設定手順&lt;span class="hx:absolute hx:-mt-20" id="arcgis-pro-の設定手順"&gt;&lt;/span&gt;
 &lt;a href="#arcgis-pro-%e3%81%ae%e8%a8%ad%e5%ae%9a%e6%89%8b%e9%a0%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ArcGIS Pro を利用するための設定方法を説明します。はじめに ArcGIS Pro の動作環境を確認し、My Esri などから必要なインストーラーをコンピューターの任意の場所にダウンロードします。ダウンロードしたインストーラーを実行し、コンピューターに ArcGIS Pro をインストールします。最後に必要に応じて日本国内用のアドイン ツールやシンボル等をインストールします。&lt;/p&gt;
 &lt;ul class="list-disc ml-6"&gt;
+&lt;li&gt;
+&lt;a href="/pro/get-started/setup/user/environment/"&gt;システム要件&lt;/a&gt;&lt;br&gt;利用するコンピューターが ArcGIS Pro のシステム要件を満たしているかを確認します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/pro/get-started/setup/user/download/"&gt;ダウンロード&lt;/a&gt;&lt;br&gt;ArcGIS Pro およびパッチ等のインストーラーをダウンロードする手順を説明します。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/pro/get-started/setup/user/install/"&gt;インストールとアンインストール&lt;/a&gt;&lt;br&gt;ArcGIS Pro およびパッチ等のインストーラーを実行し、インストールします。また必要に応じてアンインストールします。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/pro/get-started/setup/user/addin-tool/"&gt;アドイン ツール&lt;/a&gt;&lt;br&gt;日本国内用のツールはアドイン ツールとして提供しています。任意のツールをダウンロードし、インストールしてご利用ください。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="/pro/get-started/setup/user/style-font/"&gt;シンボル スタイルとフォント&lt;/a&gt;&lt;br&gt;ArcGIS Pro で使用できる日本用地図シンボルです。地図シンボルを利用するためには、フォントをインストールし、シンボル スタイルの利用設定を行います。
+&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
