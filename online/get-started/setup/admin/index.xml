@@ -67,7 +67,7 @@ alt="組織の設定" width="300"&gt;&lt;figcaption&gt;
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;組織サイトのショート ネームは組織の URL を作成する際に使用されるため、使用する名前をよく検討することをお勧めします。ショート ネームは最大 16 文字で、半角英数字とハイフンのみ使用できます。ハイフンは、ショート ネームの URL の最初または最後には使用できません。ショート ネームの変更に関しては「&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/faq.htm#anchor107"target="_blank" rel="noopener"&gt;組織のショート ネームを変更する際の注意事項と、変更後に実施すべきことはそれぞれ何ですか？&lt;/a&gt;」をご参照ください。&lt;/div&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;組織サイトのショート ネームは組織の URL を作成する際に使用されるため、使用する名前をよく検討することをお勧めします。ショート ネームは最大 16 文字で、半角英数字とハイフンのみ使用できます。ハイフンは、ショート ネームの URL の最初または最後には使用できません。ショート ネームの変更に関しては「&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/faq.htm#anchor105"target="_blank" rel="noopener"&gt;組織のショート ネームを変更する際の注意事項と、変更後に実施すべきことはそれぞれ何ですか？&lt;/a&gt;」をご参照ください。&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/li&gt;

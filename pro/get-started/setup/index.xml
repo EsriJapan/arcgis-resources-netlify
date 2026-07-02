@@ -97,19 +97,4 @@ ArcGIS Online の組織サイトの管理者から招待を受けたメンバー
 &lt;h2&gt;ArcGIS Pro の設定手順&lt;span class="hx:absolute hx:-mt-20" id="arcgis-pro-の設定手順"&gt;&lt;/span&gt;
 &lt;a href="#arcgis-pro-%e3%81%ae%e8%a8%ad%e5%ae%9a%e6%89%8b%e9%a0%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ArcGIS Pro を利用するための設定方法を説明します。はじめに ArcGIS Pro の動作環境を確認し、My Esri などから必要なインストーラーをコンピューターの任意の場所にダウンロードします。ダウンロードしたインストーラーを実行し、コンピューターに ArcGIS Pro をインストールします。最後に必要に応じて日本国内用のアドイン ツールやシンボル等をインストールします。&lt;/p&gt;
 &lt;ul class="list-disc ml-6"&gt;
-&lt;li&gt;
-&lt;a href="/pro/get-started/setup/user/environment/"&gt;システム要件&lt;/a&gt;&lt;br&gt;利用するコンピューターが ArcGIS Pro のシステム要件を満たしているかを確認します。
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href="/pro/get-started/setup/user/download/"&gt;ダウンロード&lt;/a&gt;&lt;br&gt;ArcGIS Pro およびパッチ等のインストーラーをダウンロードする手順を説明します。
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href="/pro/get-started/setup/user/install/"&gt;インストールとアンインストール&lt;/a&gt;&lt;br&gt;ArcGIS Pro およびパッチ等のインストーラーを実行し、インストールします。また必要に応じてアンインストールします。
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href="/pro/get-started/setup/user/addin-tool/"&gt;アドイン ツール&lt;/a&gt;&lt;br&gt;日本国内用のツールはアドイン ツールとして提供しています。任意のツールをダウンロードし、インストールしてご利用ください。
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href="/pro/get-started/setup/user/style-font/"&gt;シンボル スタイルとフォント&lt;/a&gt;&lt;br&gt;ArcGIS Pro で使用できる日本用地図シンボルです。地図シンボルを利用するためには、フォントをインストールし、シンボル スタイルの利用設定を行います。
-&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
