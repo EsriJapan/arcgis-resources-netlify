@@ -44,7 +44,7 @@ ArcGIS Online 管理者は、&lt;a href="/online/get-started/setup/admin/setting
 &lt;li&gt;
 &lt;p&gt;[ダウンロード] をクリックし、実行ファイル (.exe) をダウンロードします。&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>インストールとアンインストール</title><link>/pro/get-started/setup/user/install/</link><pubDate>Thu, 02 Jul 2026 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/install/</guid><description>
+&lt;/ol&gt;</description></item><item><title>インストールとアンインストール</title><link>/pro/get-started/setup/user/install/</link><pubDate>Fri, 03 Jul 2026 00:00:00 +0900</pubDate><guid>/pro/get-started/setup/user/install/</guid><description>
 &lt;p&gt;ArcGIS Pro の&lt;a href="#%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab"&gt;インストール&lt;/a&gt;と&lt;a href="#%e3%82%a2%e3%83%b3%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab"&gt;アンインストール&lt;/a&gt;の手順を説明します。&lt;/p&gt;
 &lt;h2&gt;インストール&lt;span class="hx:absolute hx:-mt-20" id="インストール"&gt;&lt;/span&gt;
 &lt;a href="#%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ArcGIS Pro をインストールする手順を説明します。&lt;/p&gt;
@@ -61,13 +61,13 @@ ArcGIS Online 管理者は、&lt;a href="/online/get-started/setup/admin/setting
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;ご利用される ArcGIS Pro のバージョンによって、必要となる Microsoft Windows Desktop Runtime のバージョンが異なります。&lt;br&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;ご利用される ArcGIS Pro のバージョンによって、必要となる Microsoft Windows Desktop Runtime のバージョンが異なります。&lt;br&gt;
 ArcGIS Pro 3.7 以降のバージョンでは、Microsoft .NET Desktop Runtime 10.0.0 またはそれ以降のパッチ リリース (10.0.1 など) と Microsoft Edge WebView2 Runtime バージョン 132 以降が必要です。Microsoft .NET 11 以降のバージョンをインストールしても、このソフトウェア要件を満たしません 。&lt;br&gt;
-ArcGIS Pro 3.3 ～ 3.6 のバージョンでは、Microsoft .NET Desktop Runtime 8.0.x (x64) が必要です。&lt;/p&gt;
-&lt;!--インストール時に Microsoft Windows Desktop Runtime に関するメッセージが表示された場合は、以下の FAQ をご参照ください。&lt;br&gt;
-[ArcGIS Pro 3.3 以降のインストールまたはアップデート時に「Microsoft Windows Desktop Runtime - 8.0.x (x64) 以上が必要です」という主旨のメッセージが表示される](https://tech-support.esrij.com/arcgis/article/web/knowledge5788.html)&lt;br&gt;
+ArcGIS Pro 3.3 ～ 3.6 のバージョンでは、Microsoft .NET Desktop Runtime 8.0.x (x64) が必要です。&lt;br&gt;
+インストール時に Microsoft Windows Desktop Runtime に関するメッセージが表示された場合は、以下の FAQ をご参照ください。&lt;br&gt;
+&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge6151.html"target="_blank" rel="noopener"&gt;ArcGIS Pro 3.7 以降のインストールまたはアップデート時に「Microsoft Windows Desktop Runtime - 10.0.x (x64) 以上が必要です」という主旨のメッセージが表示される&lt;/a&gt;&lt;br&gt;
 各バージョンに必要な Microsoft .NET Desktop Runtime については、以下の FAQ をご確認ください。&lt;br&gt;
-[ArcGIS Pro の動作要件として必要な Microsoft .NET のバージョンがわかりません](https://tech-support.esrij.com/arcgis/article/web/knowledge5804.html)--&gt;&lt;/div&gt;
+&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge5804.html"target="_blank" rel="noopener"&gt;ArcGIS Pro の動作要件として必要な Microsoft .NET のバージョンがわかりません&lt;/a&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
