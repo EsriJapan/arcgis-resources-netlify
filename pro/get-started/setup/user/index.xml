@@ -62,7 +62,7 @@ ArcGIS Online 管理者は、&lt;a href="/online/get-started/setup/admin/setting
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
 &lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;ご利用される ArcGIS Pro のバージョンによって、必要となる Microsoft Windows Desktop Runtime のバージョンが異なります。&lt;br&gt;
-ArcGIS Pro 3.7 以降のバージョンでは、Microsoft .NET Desktop Runtime 10.0.0 またはそれ以降のパッチ リリース (10.0.1 など) と Microsoft Edge WebView2 Runtime バージョン 132 以降が必要です。Microsoft .NET 11 以降のバージョンをインストールしても、このソフトウェア要件を満たしません 。&lt;br&gt;
+ArcGIS Pro 3.7 以降のバージョンでは、Microsoft .NET Desktop Runtime 10.0.0 またはそれ以降のパッチ リリース (10.0.1 など) と Microsoft Edge WebView2 Runtime バージョン 132 以降が必要です。Microsoft .NET 11 以降のバージョンをインストールしても、このソフトウェア要件を満たしません。&lt;br&gt;
 ArcGIS Pro 3.3 ～ 3.6 のバージョンでは、Microsoft .NET Desktop Runtime 8.0.x (x64) が必要です。&lt;br&gt;
 インストール時に Microsoft Windows Desktop Runtime に関するメッセージが表示された場合は、以下の FAQ をご参照ください。&lt;br&gt;
 &lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge6151.html"target="_blank" rel="noopener"&gt;ArcGIS Pro 3.7 以降のインストールまたはアップデート時に「Microsoft Windows Desktop Runtime - 10.0.x (x64) 以上が必要です」という主旨のメッセージが表示される&lt;/a&gt;&lt;br&gt;
