@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – サブスクリプション</title><link>/online/get-started/administer/subscription/</link><description>Recent content in サブスクリプション on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Wed, 22 Sep 2021 00:00:00 +0900</lastBuildDate><atom:link href="/online/get-started/administer/subscription/index.xml" rel="self" type="application/rss+xml"/><item><title>クレジット</title><link>/online/get-started/administer/subscription/credit/</link><pubDate>Wed, 22 Sep 2021 00:00:00 +0900</pubDate><guid>/online/get-started/administer/subscription/credit/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – サブスクリプション</title><link>/online/get-started/administer/subscription/</link><description>Recent content in サブスクリプション on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Mon, 06 Jul 2026 00:00:00 +0900</lastBuildDate><atom:link href="/online/get-started/administer/subscription/index.xml" rel="self" type="application/rss+xml"/><item><title>クレジット</title><link>/online/get-started/administer/subscription/credit/</link><pubDate>Mon, 06 Jul 2026 00:00:00 +0900</pubDate><guid>/online/get-started/administer/subscription/credit/</guid><description>
 &lt;h2&gt;クレジットの概要&lt;span class="hx:absolute hx:-mt-20" id="クレジットの概要"&gt;&lt;/span&gt;
 &lt;a href="#%e3%82%af%e3%83%ac%e3%82%b8%e3%83%83%e3%83%88%e3%81%ae%e6%a6%82%e8%a6%81" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ArcGIS Online では、「クラウドへのデータ ストレージ」や「ジオコーディングの実行」、「各種解析機能の実行」といった GIS 処理に応じて、決められた数の「サービス クレジット」が消費されます。サービス クレジットとはサービス内の通貨のことで、お持ちのライセンスによって一定の初期クレジットが付属しています。管理者は、組織サイトのクレジットの利用状況や残数をいつでも確認・管理できます。&lt;br&gt;
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
@@ -19,38 +19,48 @@
 &lt;/div&gt;
 &lt;h2&gt;クレジットの管理と監視&lt;span class="hx:absolute hx:-mt-20" id="クレジットの管理と監視"&gt;&lt;/span&gt;
 &lt;a href="#%e3%82%af%e3%83%ac%e3%82%b8%e3%83%83%e3%83%88%e3%81%ae%e7%ae%a1%e7%90%86%e3%81%a8%e7%9b%a3%e8%a6%96" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;[組織] をクリックします。[クレジット] パネルで、消費クレジットの概要を確認できます。&lt;br&gt;
+&lt;li&gt;
+&lt;p&gt;[組織] をクリックします。[クレジット] パネルで、消費クレジットの概要を確認できます。&lt;br&gt;
 &lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/subscription/credit-overview.png"
 alt="クレジットの概要" width="750"&gt;&lt;figcaption&gt;
 &lt;p&gt;クレジットの概要&lt;/p&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
+&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;[ダッシュボード] タブ、または [クレジット] パネルの [ステータスの表示] をクリックすると、クレジット利用状況の詳細を確認できる、[ダッシュボード] ページへ移動します。
+&lt;li&gt;
+&lt;p&gt;[ステータス ダッシュボード] タブ、または [クレジット] パネルの [ステータスの表示] をクリックすると、クレジット利用状況の詳細を確認できる、[ステータス ダッシュボード] に移動します。
 &lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/subscription/credit-status.png"
 alt="ステータスの表示" width="750"&gt;&lt;figcaption&gt;
 &lt;p&gt;ステータスの表示&lt;/p&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
+&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;[日付のクイック選択] で期間を指定すると、その期間のクレジットの消費量を表示できます。凡例の項目をクリックすると、その項目のクレジット消費の詳細を確認することができます。&lt;br&gt;
-&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/subscription/credit-span.png"
-alt="クレジット消費の詳細" width="750"&gt;&lt;figcaption&gt;
-&lt;p&gt;クレジット消費の詳細&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;[サマリー] ページではクレジット使用量の概要を、[ストレージ]、[トランザクション]、[セッション] ページでは、消費したクレジットの詳細を確認することができます。
+&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/subscription/credit-pages.png"
+alt="ステータス ダッシュボード各ページ" width="750"&gt;&lt;figcaption&gt;
+&lt;p&gt;ステータス ダッシュボード各ページ&lt;/p&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
-ページ下の円グラフ チャートで、凡例の項目で [分析] をクリックすると、各分析のサービスで消費したクレジットの詳細が表示されます。
-&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/subscription/credit-chart.png"
-alt="クレジット チャート" width="750"&gt;&lt;figcaption&gt;
-&lt;p&gt;クレジット チャート&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-[メンバー] タブをクリックすると、各メンバーのクレジット消費量やアイテムの所有状況を確認できます。&lt;br&gt;
-&lt;figure&gt;
-&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/subscription/credit-member.png" title="メンバークレジット" alt="メンバークレジット" loading="lazy" /&gt;
-&lt;figcaption&gt;メンバークレジット&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/li&gt;
+&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[ストレージ]&lt;/strong&gt;: フィーチャ レイヤーやファイルなど、ストレージに関するクレジットの消費状況を表示します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[トランザクション]&lt;/strong&gt;: ジオコーディングや空間解析など、解析機能で使用したクレジットの消費状況を表示します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[セッション]&lt;/strong&gt;: ノートブックや ModelBuilder など、接続した時間に応じて消費される機能で使用したクレジットの消費状況を表示します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;各ページでは、期間やタイプでのフィルター機能やクレジット消費の推移、クレジットを大きく消費しているアイテムや種類、メンバーを確認することが可能です。&lt;/p&gt;
+&lt;!--
+&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
+&lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;詳細については、&lt;a href="https://doc.arcgis.com/en/arcgis-online/administer/dashboard.htm"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+--&gt;
 &lt;h2&gt;クレジット消費量の上限設定&lt;span class="hx:absolute hx:-mt-20" id="クレジット消費量の上限設定"&gt;&lt;/span&gt;
 &lt;a href="#%e3%82%af%e3%83%ac%e3%82%b8%e3%83%83%e3%83%88%e6%b6%88%e8%b2%bb%e9%87%8f%e3%81%ae%e4%b8%8a%e9%99%90%e8%a8%ad%e5%ae%9a" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;個々のメンバーに使用できるクレジット量の上限値を設定&lt;/strong&gt;&lt;/li&gt;

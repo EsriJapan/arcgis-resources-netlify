@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – コンテンツ</title><link>/online/get-started/administer/contents/</link><description>Recent content in コンテンツ on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Wed, 05 Mar 2025 00:00:00 +0900</lastBuildDate><atom:link href="/online/get-started/administer/contents/index.xml" rel="self" type="application/rss+xml"/><item><title>所有者の変更</title><link>/online/get-started/administer/contents/change-owner/</link><pubDate>Wed, 05 Mar 2025 00:00:00 +0900</pubDate><guid>/online/get-started/administer/contents/change-owner/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – コンテンツ</title><link>/online/get-started/administer/contents/</link><description>Recent content in コンテンツ on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Mon, 06 Jul 2026 00:00:00 +0900</lastBuildDate><atom:link href="/online/get-started/administer/contents/index.xml" rel="self" type="application/rss+xml"/><item><title>所有者の変更</title><link>/online/get-started/administer/contents/change-owner/</link><pubDate>Wed, 05 Mar 2025 00:00:00 +0900</pubDate><guid>/online/get-started/administer/contents/change-owner/</guid><description>
 &lt;p&gt;組織の管理者または [コンテンツの再割り当て] 権限を持つ組織のメンバーは、アイテムの所有権の変更を行うことができます。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -128,7 +128,7 @@ alt="アイテムの選択と所有者の変更" width="750"&gt;&lt;figcaption&g
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>アイテムの削除と復元</title><link>/online/get-started/administer/contents/delete/</link><pubDate>Wed, 05 Jun 2024 00:00:00 +0900</pubDate><guid>/online/get-started/administer/contents/delete/</guid><description>
+&lt;/ol&gt;</description></item><item><title>アイテムの削除と復元</title><link>/online/get-started/administer/contents/delete/</link><pubDate>Mon, 06 Jul 2026 00:00:00 +0900</pubDate><guid>/online/get-started/administer/contents/delete/</guid><description>
 &lt;p&gt;組織の管理者は、組織のメンバーが保有する&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/manage-items.htm#ESRI_SECTION1_7DB7FE325E16446CA623231CC0721451"target="_blank" rel="noopener"&gt;アイテムの削除&lt;/a&gt;を行うことができます。またゴミ箱機能を有効化している場合、削除から 14 日間に限り、削除したアイテムを&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/manage-items.htm#ESRI_SECTION1_DB87DF8F4E15433D954B7E8B25579A03"target="_blank" rel="noopener"&gt;復元&lt;/a&gt;することができます。&lt;/p&gt;
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
@@ -180,7 +180,7 @@ alt="アイテムの選択と削除" width="750"&gt;&lt;figcaption&gt;
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
 &lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;一部のアイテムはゴミ箱に移動することなく削除されます。
-詳細については「&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/faq.htm#ESRI_QUESTIONANSWER_60A4B4E5F0994E8DB4A999818B19ED1D"target="_blank" rel="noopener"&gt;削除したアイテムの一部がゴミ箱に移動しないのはなぜですか？&lt;/a&gt;」をご参照ください。&lt;/div&gt;
+詳細については「&lt;a href="https://doc.arcgis.com/ja/arcgis-online/reference/faq.htm#anchor74"target="_blank" rel="noopener"&gt;削除したアイテムの一部がゴミ箱に移動しないのはなぜですか？&lt;/a&gt;」をご参照ください。&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/li&gt;
