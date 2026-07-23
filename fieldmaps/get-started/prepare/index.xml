@@ -211,7 +211,7 @@ alt="選択肢フォーム エレメントのプロパティ" width="700"&gt;&lt
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
 &lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;[コンボ ボックス] や [ラジオ ボタン] を利用することで値のリストを作成できます。詳細については&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/define-attribute-lists-and-ranges.htm#GUID-6E9A9121-2F49-4C31-A167-8DD08BDD41AC" target="_self"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Web マップの構成</title><link>/fieldmaps/get-started/prepare/configure-map/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/prepare/configure-map/</guid><description>
+&lt;/div&gt;</description></item><item><title>Web マップの構成</title><link>/fieldmaps/get-started/prepare/configure-map/</link><pubDate>Tue, 14 Jul 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/prepare/configure-map/</guid><description>
 &lt;p&gt;「&lt;a href="/fieldmaps/get-started/prepare/create-map/"&gt;Web マップの作成&lt;/a&gt;」で作成したマップに対して、各タブで詳細な設定を行います。&lt;/p&gt;
 &lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/fieldmaps/get-started/prepare/configure-map-app.png"
 alt="Web アプリの構成" width="100%"&gt;&lt;figcaption&gt;
@@ -241,5 +241,5 @@ alt="Web アプリの構成" width="100%"&gt;&lt;figcaption&gt;
 作成した Web マップの共有設定をします。共有レベルの設定や共有オプションとして QR などを使用できます。
 &lt;br&gt;詳細は&lt;a href="https://doc.arcgis.com/ja/field-maps/latest/prepare-maps/configure-the-map.htm#ESRI_SECTION1_6703B3048FFB46D9A5581F45D9A31D9D" target="_self"&gt;ヘルプ&lt;/a&gt;をご参照ください。
 &lt;li&gt;開く&lt;/li&gt;
-Map Viewer にアクセスして、ポップアップやシンボルの設定ができます。
+Map Viewer でポップアップやシンボルを設定できるほか、アイテム詳細ページでアイテムの概要を確認できます。
 &lt;/ol&gt;</description></item></channel></rss>

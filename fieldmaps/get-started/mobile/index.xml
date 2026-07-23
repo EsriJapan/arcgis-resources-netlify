@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – モバイル アプリの操作</title><link>/fieldmaps/get-started/mobile/</link><description>Recent content in モバイル アプリの操作 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Tue, 11 Jan 2022 00:00:00 +0900</lastBuildDate><atom:link href="/fieldmaps/get-started/mobile/index.xml" rel="self" type="application/rss+xml"/><item><title>起動と設定</title><link>/fieldmaps/get-started/mobile/start/</link><pubDate>Tue, 31 Mar 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/mobile/start/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – モバイル アプリの操作</title><link>/fieldmaps/get-started/mobile/</link><description>Recent content in モバイル アプリの操作 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Tue, 11 Jan 2022 00:00:00 +0900</lastBuildDate><atom:link href="/fieldmaps/get-started/mobile/index.xml" rel="self" type="application/rss+xml"/><item><title>起動と設定</title><link>/fieldmaps/get-started/mobile/start/</link><pubDate>Tue, 14 Jul 2026 00:00:00 +0900</pubDate><guid>/fieldmaps/get-started/mobile/start/</guid><description>
 &lt;p&gt;Field Maps の起動方法と設定について説明します。&lt;/p&gt;
 &lt;h3&gt;起動&lt;span class="hx:absolute hx:-mt-20" id="起動"&gt;&lt;/span&gt;
 &lt;a href="#%e8%b5%b7%e5%8b%95" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
@@ -74,7 +74,7 @@ GPS 測位の誤差を平均化します。
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;関連するタイプ&lt;/td&gt;
+&lt;td&gt;関連するタイプの表示&lt;/td&gt;
 &lt;td&gt;
 フィーチャ間のリレーションシップを設定します。
 &lt;/td&gt;
@@ -87,7 +87,7 @@ GPS 測位の誤差を平均化します。
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;th rowspan="2"&gt;位置&lt;/th&gt;
+&lt;th rowspan="3"&gt;位置&lt;/th&gt;
 &lt;td&gt;プロバイダー&lt;/td&gt;
 &lt;td&gt;
 外付け GPS を設定します。
@@ -97,6 +97,12 @@ GPS 測位の誤差を平均化します。
 &lt;td&gt;プロファイル&lt;/td&gt;
 &lt;td&gt;
 外付け GPS の座標系を設定します。
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;位置情報の共有と位置情報アラート&lt;/td&gt;
+&lt;td&gt;
+トラック収集時のバッテリー最適化を設定できるほか、トラック データのアップロード状況を確認できます。
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
