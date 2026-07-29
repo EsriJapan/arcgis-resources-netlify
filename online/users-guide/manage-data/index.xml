@@ -205,7 +205,7 @@ alt="編集設定の詳細" width="600"&gt;&lt;figcaption&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>写真やファイルをフィーチャに添付したい</title><link>/online/users-guide/manage-data/attachment/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/attachment/</guid><description>
+&lt;/ol&gt;</description></item><item><title>写真やファイルをフィーチャに添付したい</title><link>/online/users-guide/manage-data/attachment/</link><pubDate>Wed, 15 Jul 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/attachment/</guid><description>
 &lt;p&gt;フィーチャ レイヤーの各フィーチャに画像などファイルを添付したり、モバイル端末のカメラで撮影した画像を現地調査アプリで添付したりすることができます。この機能を使用するには、レイヤーの設定が必要です。&lt;/p&gt;
 &lt;h3&gt;添付ファイルの有効化&lt;span class="hx:absolute hx:-mt-20" id="添付ファイルの有効化"&gt;&lt;/span&gt;
 &lt;a href="#%e6%b7%bb%e4%bb%98%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e6%9c%89%e5%8a%b9%e5%8c%96" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
@@ -255,7 +255,7 @@ alt="編集ボタン" width="150"&gt;&lt;figcaption&gt;
 &lt;p&gt;新しい&lt;a href="/online/users-guide/map/edit/#%e3%83%95%e3%82%a3%e3%83%bc%e3%83%81%e3%83%a3%e3%81%ae%e8%bf%bd%e5%8a%a0"&gt;フィーチャを作成&lt;/a&gt;、または既存の&lt;a href="/online/users-guide/map/edit/#%e3%83%95%e3%82%a3%e3%83%bc%e3%83%81%e3%83%a3%e3%81%ae%e7%b7%a8%e9%9b%86"&gt;フィーチャを編集&lt;/a&gt;します。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;[添付ファイル] で [追加] をクリックします。
+&lt;p&gt;[添付] をクリックします。
 &lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/manage-data/attachment-add.png"
 alt="添付ファイルの追加" width="700"&gt;&lt;figcaption&gt;
 &lt;p&gt;添付ファイルの追加&lt;/p&gt;
@@ -264,7 +264,7 @@ alt="添付ファイルの追加" width="700"&gt;&lt;figcaption&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;[ファイルの選択] で添付したいファイルを選択し、[追加] をクリックして、[作成] または [更新] をクリックします。
+&lt;p&gt;[ファイルの選択] で添付したいファイルを選択し、[作成] または [更新] をクリックします。
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
@@ -588,7 +588,7 @@ alt="ビューの更新" width="600"&gt;&lt;figcaption&gt;
 &lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;ビュー レイヤーは、作成元のホスト フィーチャ レイヤー (親レイヤー) の一部の設定を継承して作成されます。フィーチャ レイヤーで設定できる項目のうち、&lt;a href="/online/users-guide/manage-data/privilege/#%e7%b7%a8%e9%9b%86%e3%81%ae%e6%9c%89%e5%8a%b9%e5%8c%96"&gt;編集の有効化&lt;/a&gt;や&lt;a href="/online/users-guide/manage-data/download/#%e3%82%a8%e3%82%af%e3%82%b9%e3%83%9d%e3%83%bc%e3%83%88%e3%81%ae%e8%a8%b1%e5%8f%af"&gt;データのエクスポート許可&lt;/a&gt;、&lt;a href="/online/users-guide/manage-data/time/"&gt;時間設定&lt;/a&gt;などはビュー レイヤーで個別に設定することができます。&lt;br&gt;
 詳細は&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/create-hosted-views.htm#ESRI_SECTION1_3C30E0A91C0B44AD9FC4B60FE3A7F97C"target="_blank" rel="noopener"&gt;ヘルプ&lt;/a&gt;をご参照ください。&lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>アイテムを削除、復元したい</title><link>/online/users-guide/manage-data/delete/</link><pubDate>Sun, 25 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/delete/</guid><description>
+&lt;/div&gt;</description></item><item><title>アイテムを削除、復元したい</title><link>/online/users-guide/manage-data/delete/</link><pubDate>Wed, 15 Jul 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/manage-data/delete/</guid><description>
 &lt;p&gt;コンテンツ上で不要になり、使用していないアイテムは&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/delete-items.htm" target="_blank"&gt;削除&lt;/a&gt;することができます。
 ただし削除後 14 日間はゴミ箱から&lt;a href="https://doc.arcgis.com/ja/arcgis-online/manage-data/restore-items.htm" target="_blank"&gt;復元&lt;/a&gt;することができます。&lt;/p&gt;
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
@@ -615,16 +615,15 @@ alt="[削除] をクリック" width="800"&gt;&lt;figcaption&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;[削除] ウィンドウで、アイテムを削除しても問題ないかを確認し、[削除] をクリックします。&lt;/p&gt;
+&lt;p&gt;[アイテムの削除] ウィンドウで、アイテムを削除しても問題ないかを確認し、[削除] をクリックします。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;削除したアイテムは [ゴミ箱] に移動します。または完全に削除されます。&lt;/p&gt;
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200"&gt;
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/&gt;&lt;/svg&gt;&lt;/div&gt;
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
-&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;ゴミ箱に移動したアイテムは 14 日後に自動的に削除されます。この期間もストレージ保存におけるクレジットを消費します。詳細については&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/credits.htm#ESRI_SECTION1_4E74456E44D84BFDB5A590BA86FB3B76" target="_blank"&gt;ヘルプ&lt;/a&gt;をご参照ください。
-&lt;br&gt;なお [表示を増やす ＋] ボタンから [完全に削除 (この操作を取り消すことはできません)] を選択することもできます。&lt;/p&gt;
-&lt;!-- UI が [表示を増やす ＋] から [さらに表示] へ修正されたら書き換え--&gt;&lt;/div&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;ゴミ箱に移動したアイテムは 14 日後に自動的に削除されます。この期間もストレージ保存におけるクレジットを消費します。詳細については&lt;a href="https://doc.arcgis.com/ja/arcgis-online/administer/credits.htm#ESRI_SECTION1_4E74456E44D84BFDB5A590BA86FB3B76" target="_blank"&gt;ヘルプ&lt;/a&gt;をご参照ください。
+&lt;br&gt;なお [さらに表示 ＋] ボタンから [完全に削除 (この操作を取り消すことはできません)] を選択することもできます。&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
