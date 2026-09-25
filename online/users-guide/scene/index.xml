@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – シーンの作成と利用</title><link>/online/users-guide/scene/</link><description>Recent content in シーンの作成と利用 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0900</lastBuildDate><atom:link href="/online/users-guide/scene/index.xml" rel="self" type="application/rss+xml"/><item><title>シーンを作成したい</title><link>/online/users-guide/scene/create/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/scene/create/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – シーンの作成と利用</title><link>/online/users-guide/scene/</link><description>Recent content in シーンの作成と利用 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0900</lastBuildDate><atom:link href="/online/users-guide/scene/index.xml" rel="self" type="application/rss+xml"/><item><title>シーンを作成したい</title><link>/online/users-guide/scene/create/</link><pubDate>Wed, 15 Jul 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/scene/create/</guid><description>
 &lt;p&gt;ArcGIS Online 上にあるフィーチャ レイヤーやシーン レイヤーなどを Scene Viewer に追加して、3D シーンの表示と操作が可能です。シーンの保存には、コンテンツを作成する&lt;a href="/online/get-started/administer/members/"&gt;権限&lt;/a&gt;が必要です。&lt;/p&gt;
 &lt;h3&gt;Scene Viewer の起動&lt;span class="hx:absolute hx:-mt-20" id="scene-viewer-の起動"&gt;&lt;/span&gt;
 &lt;a href="#scene-viewer-%e3%81%ae%e8%b5%b7%e5%8b%95" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
@@ -12,25 +12,22 @@ alt="Scene Viewer の起動" width="300"&gt;&lt;figcaption&gt;
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;[新しいシーン] をクリックします。
+&lt;p&gt;[Scene Viewer へようこそ] ウィンドウで [+ 新しいシーン] をクリックします。
 &lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/scene/create-newscene.png"
-alt="新しいシーンの作成" width="400"&gt;&lt;figcaption&gt;
+alt="新しいシーンの作成" width="500"&gt;&lt;figcaption&gt;
 &lt;p&gt;新しいシーンの作成&lt;/p&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;デフォルトでは、球体の 3D ビューアーが起動します。&lt;/p&gt;
-&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3&gt;グローバル/ローカル シーンの選択&lt;span class="hx:absolute hx:-mt-20" id="グローバルローカル-シーンの選択"&gt;&lt;/span&gt;
 &lt;a href="#%e3%82%b0%e3%83%ad%e3%83%bc%e3%83%90%e3%83%ab%e3%83%ad%e3%83%bc%e3%82%ab%e3%83%ab-%e3%82%b7%e3%83%bc%e3%83%b3%e3%81%ae%e9%81%b8%e6%8a%9e" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;右上の [新しいシーン] をクリックして、[新しいグローバル シーン] または [新しいローカル シーン] を選択します。
+&lt;p&gt;[新しいシーン] で、[新しいグローバル シーン] または [新しいローカル シーン] を選択します。
 &lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/scene/create-scene-choice.png"
-alt="シーンの切り替え" width="200"&gt;&lt;figcaption&gt;
-&lt;p&gt;シーンの切り替え&lt;/p&gt;
+alt="新しいシーンの選択" width="400"&gt;&lt;figcaption&gt;
+&lt;p&gt;新しいシーンの選択&lt;/p&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/p&gt;

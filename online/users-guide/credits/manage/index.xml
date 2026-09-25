@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – クレジットの取得と管理</title><link>/online/users-guide/credits/manage/</link><description>Recent content in クレジットの取得と管理 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Wed, 13 Dec 2023 00:00:00 +0900</lastBuildDate><atom:link href="/online/users-guide/credits/manage/index.xml" rel="self" type="application/rss+xml"/><item><title>クレジットの取得と管理</title><link>/online/users-guide/credits/manage/manage-credits/</link><pubDate>Tue, 24 Mar 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/credits/manage/manage-credits/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – クレジットの取得と管理</title><link>/online/users-guide/credits/manage/</link><description>Recent content in クレジットの取得と管理 on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Wed, 13 Dec 2023 00:00:00 +0900</lastBuildDate><atom:link href="/online/users-guide/credits/manage/index.xml" rel="self" type="application/rss+xml"/><item><title>クレジットの取得と管理</title><link>/online/users-guide/credits/manage/manage-credits/</link><pubDate>Wed, 15 Jul 2026 00:00:00 +0900</pubDate><guid>/online/users-guide/credits/manage/manage-credits/</guid><description>
 &lt;p&gt;ここではクレジットの取得と、組織の管理者が管理する方法について説明します。
 組織の管理者がクレジットの利用状況や残数を確認する方法については「&lt;a href="https://doc.esrij.com/online/get-started/administer/subscription/"target="_blank" rel="noopener"&gt;スタートアップ ガイド&lt;/a&gt;」をご参照ください。&lt;/p&gt;
 &lt;ul&gt;
@@ -62,8 +62,8 @@
 &lt;h2&gt;クレジットの管理&lt;span class="hx:absolute hx:-mt-20" id="クレジットの管理"&gt;&lt;/span&gt;
 &lt;a href="#%e3%82%af%e3%83%ac%e3%82%b8%e3%83%83%e3%83%88%e3%81%ae%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;組織のクレジット使用状況の確認&lt;span class="hx:absolute hx:-mt-20" id="組織のクレジット使用状況の確認"&gt;&lt;/span&gt;
 &lt;a href="#%e7%b5%84%e7%b9%94%e3%81%ae%e3%82%af%e3%83%ac%e3%82%b8%e3%83%83%e3%83%88%e4%bd%bf%e7%94%a8%e7%8a%b6%e6%b3%81%e3%81%ae%e7%a2%ba%e8%aa%8d" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;管理者は、[組織] → [概要] タブの [クレジット] パネルから組織の消費クレジット状況を確認できます。詳細は「&lt;a href="/online/get-started/administer/subscription/credit/#%e3%82%af%e3%83%ac%e3%82%b8%e3%83%83%e3%83%88%e3%81%ae%e7%ae%a1%e7%90%86%e3%81%a8%e7%9b%a3%e8%a6%96"&gt;クレジットの管理と監視&lt;/a&gt;」をご参照ください。&lt;/p&gt;
-&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/online/users-guide/credits/manage-credits-creditpanel.png"
-alt="クレジット パネル" width="50%"&gt;&lt;figcaption&gt;
+&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/doc.esrij.com/online/get-started/administer/subscription/credit-overview.png"
+alt="クレジット パネル" width="70%"&gt;&lt;figcaption&gt;
 &lt;p&gt;クレジット パネル&lt;/p&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;

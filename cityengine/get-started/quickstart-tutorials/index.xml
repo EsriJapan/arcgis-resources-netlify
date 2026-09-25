@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – クイック スタート チュートリアル</title><link>/cityengine/get-started/quickstart-tutorials/</link><description>Recent content in クイック スタート チュートリアル on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 25 Jan 2026 00:00:00 +0900</lastBuildDate><atom:link href="/cityengine/get-started/quickstart-tutorials/index.xml" rel="self" type="application/rss+xml"/><item><title>基本操作</title><link>/cityengine/get-started/quickstart-tutorials/basic-operation/</link><pubDate>Sun, 15 Feb 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/basic-operation/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ArcGIS リソース集 – クイック スタート チュートリアル</title><link>/cityengine/get-started/quickstart-tutorials/</link><description>Recent content in クイック スタート チュートリアル on ArcGIS リソース集</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 25 Jan 2026 00:00:00 +0900</lastBuildDate><atom:link href="/cityengine/get-started/quickstart-tutorials/index.xml" rel="self" type="application/rss+xml"/><item><title>基本操作</title><link>/cityengine/get-started/quickstart-tutorials/basic-operation/</link><pubDate>Mon, 31 Aug 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/basic-operation/</guid><description>
 &lt;h2&gt;概要&lt;span class="hx:absolute hx:-mt-20" id="概要"&gt;&lt;/span&gt;
 &lt;a href="#%e6%a6%82%e8%a6%81" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ここでは、ArcGIS CityEngine の Welcome Wizard を使って、簡単に街のモデルを作成・操作する方法をご紹介します。&lt;/p&gt;
 &lt;h2&gt;CityEngine の起動&lt;span class="hx:absolute hx:-mt-20" id="cityengine-の起動"&gt;&lt;/span&gt;
@@ -41,7 +41,7 @@
 &lt;/figure&gt;
 &lt;ol start="4"&gt;
 &lt;li&gt;
-&lt;p&gt;Rules トピックで、International City を選択します。
+&lt;p&gt;Rules トピックで、International City を選択し、[Finish] をクリックします。
 &lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/basic-operation/20250801_1.2.4.png" width="700"&gt;&lt;figcaption&gt;
 &lt;h4&gt; &lt;/h4&gt;
 &lt;/figcaption&gt;
@@ -73,7 +73,7 @@ CityEngine では、プロジェクトと呼ばれるフォルダーごとにデ
 ・ &lt;strong&gt;Inspector&lt;/strong&gt;: 属性を管理するウィンドウです。ルール ファイルやパラメーターの設定を行う際に使用します。&lt;/p&gt;
 &lt;h4&gt;標準ツールバー&lt;span class="hx:absolute hx:-mt-20" id="標準ツールバー"&gt;&lt;/span&gt;
 &lt;a href="#%e6%a8%99%e6%ba%96%e3%83%84%e3%83%bc%e3%83%ab%e3%83%90%e3%83%bc" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;マップを操作する際に利用できるツールが用意されています。モデルの選択や、移動、図形の作成などをする際に使用します。実際のツール名は英語ですが、各ツールの意味については以下を参考にしてください。&lt;/p&gt;
-&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/basic-operation/20250801_1.3_2_5.png" width="900"&gt;&lt;figcaption&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/basic-operation/20260831_%E7%94%BB%E9%9D%A2%E3%81%AE%E6%93%8D%E4%BD%9C_%E6%A8%99%E6%BA%96%E3%83%84%E3%83%BC%E3%83%AB%E3%83%90%E3%83%BC.png" width="900"&gt;&lt;figcaption&gt;
 &lt;h4&gt; &lt;/h4&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -117,7 +117,7 @@ CityEngine では、プロジェクトと呼ばれるフォルダーごとにデ
 &lt;/figure&gt;
 &lt;p&gt;このように、CityEngine はアルゴリズムで建物や道路の 3D モデルを生成しているため、簡単で対話的な操作性で思い通りの都市を作成・編集することができます。
 建物や道路のモデルを選択して、[Inspector] ウィンドウの “Rule File” で設定したファイルが、そのアルゴリズムを記述したルール ファイルです。もととなる図形からこれに書かれた手順に従って 3D モデルが生成されており、その図形を編集するとすぐにまたルールに従ってモデルが再生成され、このようなレイアウト変更が可能になるのです。&lt;/p&gt;
-&lt;p&gt;[File] メニュー → [Save] でシーンを保存します。&lt;/p&gt;</description></item><item><title>プロジェクトの作成</title><link>/cityengine/get-started/quickstart-tutorials/create-project/</link><pubDate>Sun, 15 Feb 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/create-project/</guid><description>
+&lt;p&gt;[File] メニュー → [Save] でシーンを保存します。&lt;/p&gt;</description></item><item><title>プロジェクトの作成</title><link>/cityengine/get-started/quickstart-tutorials/create-project/</link><pubDate>Mon, 31 Aug 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/create-project/</guid><description>
 &lt;h2&gt;概要&lt;span class="hx:absolute hx:-mt-20" id="概要"&gt;&lt;/span&gt;
 &lt;a href="#%e6%a6%82%e8%a6%81" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;プロジェクトを新規作成してデータを作成するまでを学びます。&lt;/p&gt;
 &lt;p&gt;CityEngine では、プロジェクト単位でデータを管理します。新規プロジェクトを作成すると、[Navigator] ウィンドウにプロジェクト フォルダーが表示されます。
@@ -250,8 +250,56 @@ GIS データなどすでに特定の地理的な座標系を持っているデ�
 &lt;/figure&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;h2&gt;Street Designer で道路構成を作成・管理&lt;span class="hx:absolute hx:-mt-20" id="street-designer-で道路構成を作成管理"&gt;&lt;/span&gt;
+&lt;a href="#street-designer-%e3%81%a7%e9%81%93%e8%b7%af%e6%a7%8b%e6%88%90%e3%82%92%e4%bd%9c%e6%88%90%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ArcGIS CityEngine 2025.0 より、Street Designer の機能が追加され、道路の車線・歩道・植栽などを組み合わせた道路構成を直感的に作成・管理することが可能になりました。
+適宜道路構成を任意に変更していきます。&lt;/p&gt;
+&lt;p&gt;まずは、現在の道路構成を確認します。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;[Scene] ウィンドウの Streetnetwork レイヤーを展開し、Network を選択した状態で、右クリック → [Select Objects] ですべての道路が選択されます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/20260831_CityEngine_SD_01.png" width="500"&gt;&lt;figcaption&gt;
+&lt;h4&gt; &lt;/h4&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;[Inspector] ウィンドウ → [Segments] タブ → [Street Configuration] で選択されている道路構成が現在適用されているものになります。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/20260831_CityEngine_SD_02.png" width="900"&gt;&lt;figcaption&gt;
+&lt;h4&gt; &lt;/h4&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ol start="3"&gt;
+&lt;li&gt;[Street Configuration] より任意の道路構成を選択すると、道路構成が変わります。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/20260831_CityEngine_SD_03.png" width="900"&gt;&lt;figcaption&gt;
+&lt;h4&gt; &lt;/h4&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ol start="4"&gt;
+&lt;li&gt;適用された道路構成は [Street Designer] ツールを使用すると、レーンの幅を変更したり、追加・削除をしたりすることができます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/20260831_CityEngine_SD_04.png" width="900"&gt;&lt;figcaption&gt;
+&lt;h4&gt; &lt;/h4&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ol start="5"&gt;
+&lt;li&gt;他にも、適用された道路構成を細かく調整するには [Inspector] ウィンドウの各タブの設定を変更します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;例として、下の画像では、[Roadbed Lanes] タブ → [Street Materials] の Surface を「Red Asphalt」にして、自転車レーンの色を変更しています。&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/20260831_CityEngine_SD_05.png" width="900"&gt;&lt;figcaption&gt;
+&lt;h4&gt; &lt;/h4&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;変更した道路構成を再利用するために保存することも可能です。&lt;/p&gt;
+&lt;ol start="6"&gt;
+&lt;li&gt;[Inspector] ウィンドウ → [Segments] タブ → [Street Configuration] の「+」をクリックすることで道路構成を保存できます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/20260831_CityEngine_SD_06.png" width="500"&gt;&lt;figcaption&gt;
+&lt;h4&gt; &lt;/h4&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;h2&gt;ルール ファイルの適用&lt;span class="hx:absolute hx:-mt-20" id="ルール-ファイルの適用"&gt;&lt;/span&gt;
-&lt;a href="#%e3%83%ab%e3%83%bc%e3%83%ab-%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e9%81%a9%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;シェープを作成したら、次はルール ファイルを適用します。
+&lt;a href="#%e3%83%ab%e3%83%bc%e3%83%ab-%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e9%81%a9%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;道路や建物のシェープを作成したら、次はルール ファイルを適用します。
 今回は CityEngine にあらかじめ付属されているライブラリ Esri.lib のルール ファイルを使用します。&lt;/p&gt;
 &lt;p&gt;まずは、Esri.lib のルール ファイルを更新します。&lt;/p&gt;
 &lt;ol&gt;
@@ -275,26 +323,14 @@ GIS データなどすでに特定の地理的な座標系を持っているデ�
 &lt;h4&gt; &lt;/h4&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;自動的にウィンドウが閉じたら、ルール ファイルの更新は完了です。
-&lt;br&gt;では、道路ネットワークのルール ファイルを適用してみましょう。&lt;/p&gt;
-&lt;ol start="3"&gt;
-&lt;li&gt;
-&lt;p&gt;[Scene] ウィンドウの Streetnetwork レイヤーを展開し、Network レイヤーを選択します。
-右クリック → [Select Objects] を選択します。
-道路ネットワークがすべて選択されます。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[Navigator] ウィンドウ → [ESRI.lib] → rules フォルダー → [Streets] → [Street_Modern_Standard.cga] を選択し、道路ネットワークの中心線上にドラッグ &amp;amp; ドロップします (中心線がオレンジ色になったらマウスボタンを放します)。&lt;/p&gt;
-&lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/15_MD_2.png" width="900"&gt;&lt;figcaption&gt;
-&lt;h4&gt; &lt;/h4&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;&lt;br&gt;次に建物のルール ファイルを適用します。
+&lt;p&gt;自動的にウィンドウが閉じたら、ルール ファイルの更新は完了です。&lt;/p&gt;
+&lt;p&gt;ここからは、ルール ファイルを適用していきます。
+建物のルール ファイルを適用します。
 建物のルール ファイルは 3 つ用意されています。
 Building_From_Footprint.cga は主に建物のフットプリントなど、平面シェープがあるときに使用します。
 対して、Building_Mass_Texturizer.cga は主に立体シェープがあるときに使用します。
 また、Building_From_OpenStreetMap.cga は Get Map Data 機能でダウンロードした OpenStreetMap データに使用します。&lt;/p&gt;
-&lt;/li&gt;
+&lt;ol start="3"&gt;
 &lt;li&gt;
 &lt;p&gt;[Navigator] ウィンドウ → [ESRI.lib] → rules フォルダー → [Buildings] → [Building_From_Footprint.cga] を建物用シェープの 1 つにドラッグ &amp;amp; ドロップします。&lt;/p&gt;
 &lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/16_2.png" width="900"&gt;&lt;figcaption&gt;
@@ -317,12 +353,14 @@ Building_From_Footprint.cga は主に建物のフットプリントなど、平�
 &lt;h4&gt; &lt;/h4&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;9.最後にもうひとつルールを適用してみましょう。 [Navigator] ウィンドウ → [ESRI.lib] → rules フォルダー → [Plants] → [Plant_Distributor.cga] を区画シェープにドラッグ &amp;amp; ドロップします (区画シェープにルールを適用する場合は、[Scene] ウィンドウの Streetnetwork レイヤーを展開し、Blocks レイヤーのチェックボックスをオンにします。)
+&lt;ol start="7"&gt;
+&lt;li&gt;最後にもうひとつルールを適用してみましょう。 [Navigator] ウィンドウ → [ESRI.lib] → rules フォルダー → [Plants] → [Plant_Distributor.cga] を区画シェープにドラッグ &amp;amp; ドロップします (区画シェープにルールを適用する場合は、[Scene] ウィンドウの Streetnetwork レイヤーを展開し、Blocks レイヤーのチェックボックスをオンにします。)
 &lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/19_MD_2.png" width="900"&gt;&lt;figcaption&gt;
 &lt;h4&gt; &lt;/h4&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;&lt;/div&gt;
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
@@ -336,10 +374,10 @@ Building_From_Footprint.cga は主に建物のフットプリントなど、平�
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;ol start="10"&gt;
+&lt;ol start="8"&gt;
 &lt;li&gt;[File] メニュー → [Save] でシーンを保存します。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;本項目では、プロジェクトを新規作成し、道路ネットワークやシェープなどのデータの作成、ルール ファイルを適用するまでの流れを学習しました。
+&lt;p&gt;本項目では、プロジェクトを新規作成し、道路や建物などのシェープの作成、Street Designer により、道路構成を変更、そして、ルール ファイルを適用するまでの流れを学習しました。
 これは CityEngine のメイン ワークフローであり、とても重要です。
 &lt;a href="/cityengine/get-started/quickstart-tutorials/create-cga/"title="CGA の作成"&gt;CGA の作成&lt;/a&gt;では、CGA ルール ファイルの作成方法を学習します。&lt;/p&gt;
 &lt;h2&gt;補足 Get Map Data でデータをダウンロード&lt;span class="hx:absolute hx:-mt-20" id="補足-get-map-data-でデータをダウンロード"&gt;&lt;/span&gt;
@@ -383,7 +421,7 @@ Building_From_Footprint.cga は主に建物のフットプリントなど、平�
 &lt;/figure&gt;
 &lt;ol start="8"&gt;
 &lt;li&gt;
-&lt;p&gt;Get Map Data をダウンロードすると自動的にBuilding_From_OpenStreetMap.cga が自動的に適用されており、[Inspector] ウィンドウにおいて、ルールのパラメーター (属性) を変更することができます。&lt;/p&gt;
+&lt;p&gt;Get Map Data をダウンロードすると Building_From_OpenStreetMap.cga が自動的に適用されており、[Inspector] ウィンドウにおいて、ルールのパラメーター (属性) を変更することができます。&lt;/p&gt;
 &lt;figure&gt;&lt;img src="https://s3.ap-northeast-1.amazonaws.com/doc.esrij.com/cityengine/get-started/quickstart-tutorials/create-project/23_MD_2.png" width="900"&gt;&lt;figcaption&gt;
 &lt;h4&gt; &lt;/h4&gt;
 &lt;/figcaption&gt;
@@ -397,7 +435,7 @@ Building_From_Footprint.cga は主に建物のフットプリントなど、平�
 その詳細度やレイヤーの種類、格納されているデータの内容は地域によって異なります。
 そのため、ダウンロードした地域によっては、ここで紹介した手順と同じ処理が実行できない可能性があります。&lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>CGA の作成</title><link>/cityengine/get-started/quickstart-tutorials/create-cga/</link><pubDate>Sun, 15 Feb 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/create-cga/</guid><description>
+&lt;/div&gt;</description></item><item><title>CGA の作成</title><link>/cityengine/get-started/quickstart-tutorials/create-cga/</link><pubDate>Mon, 31 Aug 2026 00:00:00 +0900</pubDate><guid>/cityengine/get-started/quickstart-tutorials/create-cga/</guid><description>
 &lt;h2&gt;概要&lt;span class="hx:absolute hx:-mt-20" id="概要"&gt;&lt;/span&gt;
 &lt;a href="#%e6%a6%82%e8%a6%81" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;CityEngine では、プロシージャルという技術を使用して、都市をモデリングします。プロシージャル モデリングを行うには、CGA スクリプトを書いてルールを定義する必要があります。&lt;br&gt;
 ルールとは、モデルをどのように構築するかを記述した設計図です。
@@ -489,7 +527,7 @@ title="Copy code"
 &lt;h4&gt; &lt;/h4&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;ルールを定義したら、[File] メニュー → [Save] をクリックして (またはキーボードの Ctrl + S)、ルール ファイルを保存します。&lt;/p&gt;
+&lt;p&gt;[House_rule.cga] タブを選択した状態で、[File] メニュー → [Save] をクリックして、ルール ファイルを保存します。&lt;/p&gt;
 &lt;h4&gt;CGA リファレンス&lt;span class="hx:absolute hx:-mt-20" id="cga-リファレンス"&gt;&lt;/span&gt;
 &lt;a href="#cga-%e3%83%aa%e3%83%95%e3%82%a1%e3%83%ac%e3%83%b3%e3%82%b9" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;オペレーションの使い方など CGA についての詳細は&lt;a href="https://doc.arcgis.com/en/cityengine/latest/cga/cityengine-cga-introduction.htm"target="_blank" rel="noopener"&gt;オンライン ヘルプ&lt;/a&gt;に記載されています。&lt;br&gt;
 各オペレーションをクリックし、その特徴や使用方法を確認します。今回は [&lt;a href="https://doc.arcgis.com/en/cityengine/latest/cga/cga-extrude.htm"target="_blank" rel="noopener"&gt;extrude&lt;/a&gt;] (立ち上げ)、[&lt;a href="https://doc.arcgis.com/en/cityengine/latest/cga/cga-comp.htm"target="_blank" rel="noopener"&gt;comp&lt;/a&gt;] (シェープの要素分割)、[&lt;a href="https://doc.arcgis.com/en/cityengine/latest/cga/cga-roof-gable.htm"target="_blank" rel="noopener"&gt;roofGable&lt;/a&gt;] (切妻型の屋根)、[&lt;a href="https://doc.arcgis.com/en/cityengine/latest/cga/cga-color.htm"target="_blank" rel="noopener"&gt;color&lt;/a&gt;] (色の変更) オペレーションを使用しますので、確認してみましょう。&lt;/p&gt;
@@ -503,8 +541,7 @@ title="Copy code"
 &lt;/figure&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;[Inspector] ウィンドウの [Lot] タブ → [Rules] → [Rule file] で、[Assign] ボタンをクリックし、保存した ルール ファイルを参照します。
-このルール ファイルがモデル生成時に使用されます。&lt;/p&gt;
+&lt;p&gt;[Inspector] ウィンドウの [Lot] タブ → [Rules] → [Rule file] で、[Assign] ボタンをクリックし、保存したルール ファイル「House_rule.cga」を参照します。このルール ファイルがモデル生成時に使用されます。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;[Start rule] で、[Select] ボタンをクリックし、[Footprint] を選択します。
