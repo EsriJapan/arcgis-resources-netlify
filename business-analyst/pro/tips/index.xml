@@ -46,10 +46,7 @@
 &lt;h3&gt;Business Analyst 固有のコンテンツ&lt;span class="hx:absolute hx:-mt-20" id="business-analyst-固有のコンテンツ"&gt;&lt;/span&gt;
 &lt;a href="#business-analyst-%e5%9b%ba%e6%9c%89%e3%81%ae%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;プロジェクト データ&lt;span class="hx:absolute hx:-mt-20" id="プロジェクト-データ"&gt;&lt;/span&gt;
 &lt;a href="#%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88-%e3%83%87%e3%83%bc%e3%82%bf" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;ArcMap 版 BA Desktop で作成された商圏などのデータは、Business Analyst プロジェクトに保存されてきました。
-設定を変更していない場合、プロジェクト データの実体は、C:\My Output Data\Projects 配下に保存され、BA Pro からも直接参照することで開くことができます。保存先の詳細は以下の FAQ をご参照ください。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://tech-support.esrij.com/arcgis/article/web/knowledge3394.html" target="_blank"&gt;作成した商圏やレポートなどの解析結果はどこに保存されますか？(Business Analyst)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+設定を変更していない場合、プロジェクト データの実体は、C:\My Output Data\Projects 配下に保存され、BA Pro からも直接参照することで開くことができます。&lt;/p&gt;
 &lt;!-- #### Business Analyst データ レイヤー
 ArcMap 版 BA Desktop では、シンボル調整済みの国勢調査や経済センサスなどの統計データを集約した「Business Analyst データ レイヤー」を利用できます。
 ArcGIS Pro でも、以下 FAQ の手順に沿って操作いただくことで、同じレイヤーをご利用いただけます。
